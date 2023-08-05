@@ -1,0 +1,3 @@
+metaspore
+metaspore/_metaspore
+ps
