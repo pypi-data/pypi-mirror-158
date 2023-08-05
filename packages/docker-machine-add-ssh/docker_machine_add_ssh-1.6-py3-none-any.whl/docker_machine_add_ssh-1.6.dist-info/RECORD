@@ -1,0 +1,7 @@
+docker_machine_add_ssh.py,sha256=3g50kjItGREj1jhhocypUtw6XLXTyIf16xyk_2HYabY,6130
+docker_machine_add_ssh-1.6.data/data/share/docker-machine-add-ssh/README.md,sha256=jj1DtzFLwCBeSirxvlULWc8lwuYm0bUXR6P2af6ULt8,5692
+docker_machine_add_ssh-1.6.dist-info/METADATA,sha256=vlwiyedmwdH_vLUlr65GhpIBatMFnt1Hy9uw0JAvXKA,6156
+docker_machine_add_ssh-1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+docker_machine_add_ssh-1.6.dist-info/entry_points.txt,sha256=fW7GGMn75uq7NVZjgWhzpoF25ugfvupbso4dvcdC5Og,71
+docker_machine_add_ssh-1.6.dist-info/top_level.txt,sha256=giY6YSSSRSVzHRMjRc77X5dkrfJs_VS3NrSRRWukbT0,23
+docker_machine_add_ssh-1.6.dist-info/RECORD,,
