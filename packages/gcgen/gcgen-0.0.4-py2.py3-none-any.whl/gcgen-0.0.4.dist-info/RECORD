@@ -1,0 +1,17 @@
+gcgen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gcgen/__main__.py,sha256=4D_qlAnroWWBJJqrgxOR7gRdz84GbcKAG8MBae27Bjw,3690
+gcgen/decorators.py,sha256=6KTVi2qIS-J_byASUsPw3pAysklsjzm-7eOJgivrS2Q,1482
+gcgen/emitter.py,sha256=MjVMuxljVeK7rnJqV_1lj7oxBeGsDXNWnXGleqnmbk0,4915
+gcgen/excbase.py,sha256=ss3FqIrqGpuB6lrKrs6rl_RJI2pLZpwa88g7wdE6kTc,300
+gcgen/generate.py,sha256=k0ou0geIn1T0gDLiTapD1upDQHHM5I58cebFbe3NoaY,18648
+gcgen/log.py,sha256=5Sy3R737zD9yhrbZQ52EC3Etg8M779bMQbPJE-y_NdQ,1710
+gcgen/scope.py,sha256=wh0uJSk9W3BX2ny1TDgZpaERITDVziZW640Psz1IvnQ,3395
+gcgen/snippetparser.py,sha256=57sU2M-HqesgAnZxQNpdDvP2bOnwaWCRRtm1Yxf9szA,5454
+gcgen/api/__init__.py,sha256=kw8BSSVeGhCSeggavEsdQkGQZwBBsrTrBPlGHQqjWl0,348
+gcgen/api/snippets_helpers.py,sha256=2-9B8iYCKvRtKAYJboDn5Qj4fWI7qs8pgtuukPzLkv4,896
+gcgen/api/write_file.py,sha256=JdwV6h8nLB3f85YIsKFGKizYSBhEEhEZ_3XNR0_nBQY,1542
+gcgen-0.0.4.dist-info/METADATA,sha256=refZ5wmdetO5hiewQd9KTNDe24BNvn4k8uJ4g41Aqw8,536
+gcgen-0.0.4.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+gcgen-0.0.4.dist-info/entry_points.txt,sha256=mKoXVMiMGpwkRXU_Y4fZIUB3WSoSxfBaUIqzpW4Cjco,47
+gcgen-0.0.4.dist-info/top_level.txt,sha256=VLrEwoqWsfV6Y8gg-afE4WkAOD0-yFMKZwFG7On9xRU,6
+gcgen-0.0.4.dist-info/RECORD,,
