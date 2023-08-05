@@ -1,0 +1,7 @@
+README.md
+setup.py
+dev/src/niger.egg-info/PKG-INFO
+dev/src/niger.egg-info/SOURCES.txt
+dev/src/niger.egg-info/dependency_links.txt
+dev/src/niger.egg-info/top_level.txt
+dev/src/niger.egg-info/SOURCES.txt
