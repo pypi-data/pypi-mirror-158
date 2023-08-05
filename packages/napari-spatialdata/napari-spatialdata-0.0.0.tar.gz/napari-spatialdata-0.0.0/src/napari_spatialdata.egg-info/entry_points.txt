@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-spatialdata = napari_spatialdata:napari.yaml
