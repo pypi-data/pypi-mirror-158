@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "py-avataaars-no-png"
+version = "1.0.0"
+description = "SVG-Avatar generator library"
+repository = "https://github.com/mawoka-myblock/py-avataaars"
+readme = "README.md"
+license = "MIT"
+keywords = [
+    'Python',
+    'Avatar',
+    'Avataaars',
+    'SVG',
+    'Generator',
+    'Library',
+    'Graphic',
+    'Face',
+    'Vector',
+]
+authors = ["Mawoka <mawoka@mawoka.eu>"]
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: Implementation',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Topic :: Multimedia :: Graphics',
+    'Topic :: Multimedia :: Graphics :: Graphics Conversion',
+    'Topic :: Multimedia :: Graphics :: Presentation',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Utilities',
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Jinja2 = "^3.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
