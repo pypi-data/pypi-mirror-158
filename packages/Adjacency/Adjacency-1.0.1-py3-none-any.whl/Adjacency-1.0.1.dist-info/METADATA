@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: Adjacency
+Version: 1.0.1
+Summary: Computer Vision algorithm implementations
+Home-page: https://github.com/aivclab/Adjacency
+Download-URL: https://github.com/aivclab/Adjacency/releases
+Author: Christian Heider Nielsen
+Author-email: christian.heider@alexandra.dk
+Maintainer: Christian Heider Nielsen
+Maintainer-email: christian.heider@alexandra.dk
+License: Apache License, Version 2.0
+Keywords: python interface api
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: apppath
+Requires-Dist: warg
+Requires-Dist: numpy
+Requires-Dist: psutil
+Requires-Dist: six
+Requires-Dist: wrapt
+Provides-Extra: all
+Requires-Dist: matplotlib (>=3.5.2) ; extra == 'all'
+Requires-Dist: warg ; extra == 'all'
+Requires-Dist: black (>=22.3.0) ; extra == 'all'
+Requires-Dist: pytest-cov (>=3.0.0) ; extra == 'all'
+Requires-Dist: draugr ; extra == 'all'
+Requires-Dist: pre-commit (>=2.19.0) ; extra == 'all'
+Requires-Dist: flake8 (>=4.0.1) ; extra == 'all'
+Requires-Dist: mock ; extra == 'all'
+Requires-Dist: wrapt ; extra == 'all'
+Requires-Dist: isort (>=5.10.1) ; extra == 'all'
+Requires-Dist: pip (>=22.1.2) ; extra == 'all'
+Requires-Dist: tox (>=3.25.0) ; extra == 'all'
+Requires-Dist: pytest (>=4.4.1) ; extra == 'all'
+Requires-Dist: pytest-runner ; extra == 'all'
+Requires-Dist: pylint ; extra == 'all'
+Requires-Dist: six ; extra == 'all'
+Requires-Dist: twine (>=4.0.1) ; extra == 'all'
+Requires-Dist: pytest (>=7.1.2) ; extra == 'all'
+Requires-Dist: tqdm ; extra == 'all'
+Requires-Dist: pydocstyle ; extra == 'all'
+Requires-Dist: wheel (>=0.37.1) ; extra == 'all'
+Requires-Dist: apppath ; extra == 'all'
+Requires-Dist: bandit (>=1.7.4) ; extra == 'all'
+Requires-Dist: coveralls (>=3.3.1) ; extra == 'all'
+Requires-Dist: pycodestyle (>=2.8.0) ; extra == 'all'
+Requires-Dist: psutil ; extra == 'all'
+Requires-Dist: doc8 (>=0.11.2) ; extra == 'all'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'all'
+Requires-Dist: pyperf (>=2.3.1) ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: matplotlib (>=3.5.2) ; extra == 'dev'
+Requires-Dist: warg ; extra == 'dev'
+Requires-Dist: black (>=22.3.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=3.0.0) ; extra == 'dev'
+Requires-Dist: draugr ; extra == 'dev'
+Requires-Dist: pre-commit (>=2.19.0) ; extra == 'dev'
+Requires-Dist: flake8 (>=4.0.1) ; extra == 'dev'
+Requires-Dist: wrapt ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: isort (>=5.10.1) ; extra == 'dev'
+Requires-Dist: pip (>=22.1.2) ; extra == 'dev'
+Requires-Dist: tox (>=3.25.0) ; extra == 'dev'
+Requires-Dist: pytest (>=4.4.1) ; extra == 'dev'
+Requires-Dist: pytest-runner ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: twine (>=4.0.1) ; extra == 'dev'
+Requires-Dist: pytest (>=7.1.2) ; extra == 'dev'
+Requires-Dist: six ; extra == 'dev'
+Requires-Dist: tqdm ; extra == 'dev'
+Requires-Dist: pydocstyle ; extra == 'dev'
+Requires-Dist: wheel (>=0.37.1) ; extra == 'dev'
+Requires-Dist: apppath ; extra == 'dev'
+Requires-Dist: bandit (>=1.7.4) ; extra == 'dev'
+Requires-Dist: coveralls (>=3.3.1) ; extra == 'dev'
+Requires-Dist: pycodestyle (>=2.8.0) ; extra == 'dev'
+Requires-Dist: psutil ; extra == 'dev'
+Requires-Dist: doc8 (>=0.11.2) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'dev'
+Requires-Dist: pyperf (>=2.3.1) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: warg ; extra == 'docs'
+Requires-Dist: draugr ; extra == 'docs'
+Requires-Dist: apppath ; extra == 'docs'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'docs'
+Provides-Extra: setup
+Requires-Dist: tqdm ; extra == 'setup'
+Requires-Dist: pytest-runner ; extra == 'setup'
+Provides-Extra: tests
+Requires-Dist: mock ; extra == 'tests'
+Requires-Dist: pytest (>=4.4.1) ; extra == 'tests'
+
+# Adjacency
+
+Graphs
+
+
+## EFFORTS in Graphs
+
