@@ -1,0 +1,9 @@
+creativiousutilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+creativiousutilities/logging/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+creativiousutilities/logging/cLogging.py,sha256=tEb0pBKofrws5L8ykIP-EZnFQICpZ6ly5xhqGxh41DM,2132
+creativiousutilities/sql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+creativiousutilities/sql/cSql.py,sha256=7mkx1UR0EpkRHAURwojJ2kQWLKBw1nfxsg4hhhfRTlA,2446
+creativiousutilities-1.1.0.dist-info/METADATA,sha256=tJiT8mxiKyOliHNzEV2-UfJ6an9lh5Wp_sw-XUZ--u8,416
+creativiousutilities-1.1.0.dist-info/WHEEL,sha256=9GYcviBewZ0tGkiHS6_q2LxrPLrdVjfDI7rl7LgiPxI,86
+creativiousutilities-1.1.0.dist-info/license_files/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+creativiousutilities-1.1.0.dist-info/RECORD,,
