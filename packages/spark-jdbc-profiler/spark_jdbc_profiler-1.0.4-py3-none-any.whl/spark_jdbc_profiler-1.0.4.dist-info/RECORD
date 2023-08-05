@@ -1,0 +1,15 @@
+spark_jdbc_profiler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spark_jdbc_profiler/__main__.py,sha256=KbTD14m-5h-okzXPU0G95ghJ8bg2J8PTPs2teudlZRc,145
+spark_jdbc_profiler/base.py,sha256=eaSwqAL1fKmc9uhvFCoM3ZhvtPQxSiuduqmx9lwW6Xs,359
+spark_jdbc_profiler/cli.py,sha256=u8FV-Hb2SsF5z8xFZ886kEUwu209hUnj04BgWa92SL4,776
+spark_jdbc_profiler/segmentation_profiler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spark_jdbc_profiler/segmentation_profiler/segmentation_gen.py,sha256=44UP-wEODXK1MMvdz5jaiMtmMuq7SBYPX6Xg4rqQ7U0,877
+spark_jdbc_profiler/whole_db_profiler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spark_jdbc_profiler/whole_db_profiler/mysql_db_profiler.py,sha256=QZa6POSjl7hYk2tZUHReSDY1-nJA5CkD-K_T7-aeg3M,2514
+spark_jdbc_profiler/whole_db_profiler/sqlserver_db_profiler.py,sha256=cm0c1bdLDd9Mw7snP3nJ7YzJlr3qD7eDRiV5pREaTFY,2993
+spark_jdbc_profiler-1.0.4.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+spark_jdbc_profiler-1.0.4.dist-info/METADATA,sha256=OCxDmuV8R3iKjqZfHBvpYfRQ5XV4wsI_BfcNj_3bF7M,1870
+spark_jdbc_profiler-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+spark_jdbc_profiler-1.0.4.dist-info/entry_points.txt,sha256=WJOVwrFzcUGAQMuLLQaxjMQZhrJcMp8e8DzItUfksI8,75
+spark_jdbc_profiler-1.0.4.dist-info/top_level.txt,sha256=neYQM-Puh2hApiFhAuE8A5f1Gjunuix6KK6dAFnDDa0,20
+spark_jdbc_profiler-1.0.4.dist-info/RECORD,,
