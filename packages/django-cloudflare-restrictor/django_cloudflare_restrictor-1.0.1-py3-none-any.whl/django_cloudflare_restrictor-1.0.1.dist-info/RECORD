@@ -1,0 +1,11 @@
+django_cloudflare_restrictor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cloudflare_restrictor/cloudflare_ips.py,sha256=AH0jrjzsjYQOo76K030xXDyGCQO7r3jyDRMTLSLJOKQ,543
+django_cloudflare_restrictor/middleware.py,sha256=Pgb74gz6lg7kwJf6lxo73m-wTIv3l53B_1dtPKBhNnE,1917
+django_cloudflare_restrictor/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cloudflare_restrictor/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cloudflare_restrictor/management/commands/check_cloudflare_ips.py,sha256=tVNbCoGX7APeM7jaf5Lq0zx7UuF9daguTMJr6drc-Ao,1948
+django_cloudflare_restrictor-1.0.1.dist-info/LICENSE.md,sha256=Leg_yEObIA28ysPFE9w7zi0TVh4fr27g_TgXdjIMsFc,1063
+django_cloudflare_restrictor-1.0.1.dist-info/METADATA,sha256=bsSZfyD9kVWv8A8tJS9VM1zhFPNJRUAvBVdgdxN9sFk,1693
+django_cloudflare_restrictor-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_cloudflare_restrictor-1.0.1.dist-info/top_level.txt,sha256=gldP9eRw5rPSRdLRtTipOf6p4YRK4IIGlIy5YTHE6Us,29
+django_cloudflare_restrictor-1.0.1.dist-info/RECORD,,

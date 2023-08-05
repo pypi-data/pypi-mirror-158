@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: django-cloudflare-restrictor
+Version: 1.0.1
+Summary: Django package to restrict access just to cloudflare workers
+Home-page: https://github.com/diffractive/django-cloudflare-restrictor
+Author: Kevin Campbell
+Author-email: kev@diffractive.io
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: Django (>=2.0)
+
+### Overview
+
+The django-cloudflare-restrictor package provides a convient way to restrict access to your application server, such that it will only respond to requests that come via cloudflare's network.
+
+### Installation
+
+Install the package from pypi
+
+```
+pip install django-cloudflare-restrictor
+```
+
+Add to `INSTALLED APPS` in your settings file 
+
+```
+INSTALLED_APPS = [
+    'django_cloudflare_restrictor',
+    ...
+```
+
+And add to `MIDDLEWARE` in your settings file
+
+```
+MIDDLEWARE = [
+    'django_cloudflare_restrictor.middleware.CloudflareRestrictorMiddleware',
+    ...
+ ]
+```
+
+Set the additional settings as desired
+
+```
+CLOUDFLARE_RESTRICTOR_ENABLED = True
+CLOUDFLARE_RESTRICTOR_ADDITIONAL_NETWORKS = ["127.0.0.0/8"]
+CLOUDFLARE_RESTRICTOR_EXCLUDE_PATHS = [
+    '^/cron/$',
+]
+```
+
+If you want to confirm that the IP blocks stored in the django-cloudflare-restrictor package are up to date you can use the `check_cloudflare_ips` command. This will log a warning if the IP addresses are out of date.
+
+```
+python manage.py check_cloudflare_ips
+```
+
+Based on historical evidence, it appears that Cloudflare gives around 1 month's advance notice of IP address changes, by publishing the new addresses in advance on their site. Updates to these lists are very infrequent (approx once per every 2 years)
