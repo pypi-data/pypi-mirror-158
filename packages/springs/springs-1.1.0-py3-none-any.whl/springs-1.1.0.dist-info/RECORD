@@ -1,0 +1,15 @@
+springs/__init__.py,sha256=rMkP1iIqslFlQLdVvs9dwdrhr9C8RamNFhxRxEPDQl8,862
+springs/cache.py,sha256=oCN2AC35-RPrvo7qdC0lNTuHRbNlCkvplEQ43RT_E1g,2868
+springs/commandline.py,sha256=PBjukHvtdz9t-R8smTYQtXAT_GiN_UGPPy4mEKqVEj8,8068
+springs/core.py,sha256=UDyr_7vvG2AnfugOcoaWYRI2huaRSvu_dDR1ETynJm0,8501
+springs/deprecated.py,sha256=KzxH_d920giThIHMPUISgo8fdexJBb2fjNC7rrpYDpo,4421
+springs/flexyclasses.py,sha256=JnntKW5IYGMj2_R6FpeI_-c5Afj-enOZR6AbR7hLR3Q,4651
+springs/initialize.py,sha256=pExidnRKMJ_uiA7nXNKnnGuV-OcxhQDCyjRBrlxl5Jo,7425
+springs/logging.py,sha256=GLbkdq3eRKnoPSE3YkdOlVmTGZGjY9iv_N78GjLtrU4,3023
+springs/resolvers.py,sha256=GR1XlwSee6fTeZ2vFY1rRNvrTXgGHX1kOZHFpAIe6Dk,1415
+springs/utils.py,sha256=K3tGWqEOdT43oERs0vxnYQNI581O36lsCrtSIg1sfXI,2878
+springs-1.1.0.dist-info/LICENSE,sha256=2Zg2BdrFTTb_1uQ9s0XmB0MilAuJekuhWJVz5izuJz8,1070
+springs-1.1.0.dist-info/METADATA,sha256=9X99OY38gGk_WLDYbwJENk-t2StOPuqodezBtEomwYo,7271
+springs-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+springs-1.1.0.dist-info/top_level.txt,sha256=cbNZoC9nTKuQRYxPTlS5PU4nIrw3HILU0W242myBgW0,8
+springs-1.1.0.dist-info/RECORD,,
