@@ -1,0 +1,15 @@
+certifi==2019.11.28
+charset-normalizer==2.0.12
+colorama==0.4.3
+colorlog==4.1.0
+har2case==0.3.1
+idna==2.8
+Jinja2==2.10.3
+MarkupSafe==1.1.1
+pip==21.1.2
+PyYAML==5.2
+requests==2.27.1
+requests-toolbelt==0.9.1
+setuptools==57.0.0
+urllib3==1.26.9
+wheel==0.36.2
