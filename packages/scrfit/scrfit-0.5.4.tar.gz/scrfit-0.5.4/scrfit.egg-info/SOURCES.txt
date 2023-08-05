@@ -1,0 +1,13 @@
+README.md
+setup.py
+fit_resonator/Sdata.py
+fit_resonator/__init__.py
+fit_resonator/check_data.py
+fit_resonator/fit_multiple.py
+fit_resonator/functions.py
+fit_resonator/resonator.py
+scrfit.egg-info/PKG-INFO
+scrfit.egg-info/SOURCES.txt
+scrfit.egg-info/dependency_links.txt
+scrfit.egg-info/requires.txt
+scrfit.egg-info/top_level.txt
