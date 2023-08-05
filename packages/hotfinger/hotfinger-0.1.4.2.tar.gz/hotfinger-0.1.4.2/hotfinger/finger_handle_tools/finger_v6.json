@@ -1,0 +1,674 @@
+[
+    {
+        "_id": {
+            "$oid": "629a082be408da63b3018384"
+        },
+        "name": "360天堤新一代智慧防火墙",
+        "content": {
+            "/": "header=\"360天堤新一代智慧防火墙\" || title=\"360天堤新一代智慧防火墙\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b3018c42"
+        },
+        "name": "53kf",
+        "content": {
+            "/": "header=\"53kf\" || title=\"53kf\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017398"
+        },
+        "name": "Apache",
+        "content": {
+            "/": "header=\"apache\" || header=\"Server:\\s*Apache\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b3018a6f"
+        },
+        "name": "Blogger",
+        "content": {
+            "/": "header=\"Blogger\" || title=\"Blogger\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017668"
+        },
+        "name": "Cisco AWARE",
+        "content": {
+            "/": "header=\"Cisco AWARE\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b3017fc0"
+        },
+        "name": "Citrix Access Gateway",
+        "content": {
+            "/": "header=\"Citrix Access Gateway\" || title=\"Citrix Access Gateway\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b3018105"
+        },
+        "name": "DianCMS",
+        "content": {
+            "/": "header=\"DianCMS\" || title=\"DianCMS\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b3018c52"
+        },
+        "name": "Discuz(康盛)",
+        "content": {
+            "/": "body=\"Powered by Discuz!\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b30175cb"
+        },
+        "name": "Docker_Daemon",
+        "content": {
+            "/": "header=\"Content-Length:19\" || header=\"text/plain\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b3018aca"
+        },
+        "name": "EAdmin极简社区",
+        "content": {
+            "/": "body=\"content=\"eAdmin\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b30185ae"
+        },
+        "name": "EasySCP",
+        "content": {
+            "/": "header=\"EasySCP\" || title=\"EasySCP\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b3018538"
+        },
+        "name": "Grafana",
+        "content": {
+            "/": "header=\"Grafana\" || title=\"Grafana\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b3017d4b"
+        },
+        "name": "IBM HTTP Server",
+        "content": {
+            "/": "header=\"IBM HTTP Server\" || title=\"IBM HTTP Server\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b301814c"
+        },
+        "name": "IPCop-Firewall",
+        "content": {
+            "/": "header=\"IPCop-Firewall\" || title=\"IPCop-Firewall\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b30173a1"
+        },
+        "name": "JAVA",
+        "content": {
+            "/": "url=\".jsp\" || header=\"java\" || header=\"JSESSIONID\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017be4"
+        },
+        "name": "Jspxcms",
+        "content": {
+            "/": "header=\"Jspxcms\" || title=\"Jspxcms\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017be6"
+        },
+        "name": "Kohana",
+        "content": {
+            "/": "header=\"Kohana\" || title=\"Kohana\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b30173a4"
+        },
+        "name": "Lua",
+        "content": {
+            "/": "header=\"Server:\\s*lua\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017bcd"
+        },
+        "name": "Mailman",
+        "content": {
+            "/": "header=\"Mailman\" || title=\"Mailman\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017bf1"
+        },
+        "name": "MantisBT",
+        "content": {
+            "/": "header=\"MantisBT\" || title=\"MantisBT\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b30189a8"
+        },
+        "name": "MiniBB",
+        "content": {
+            "/": "header=\"MiniBB\" || title=\"MiniBB\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b301899e"
+        },
+        "name": "MyWebFTP",
+        "content": {
+            "/": "header=\"MyWebFTP\" || title=\"MyWebFTP\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b30183ca"
+        },
+        "name": "Neo4j",
+        "content": {
+            "/": "header=\"Neo4j\" || title=\"Neo4j\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b301841f"
+        },
+        "name": "NetShare-VPN",
+        "content": {
+            "/": "header=\"NetShare-VPN\" || title=\"NetShare-VPN\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b30173a2"
+        },
+        "name": "Node.js",
+        "content": {
+            "/": "header=\"node.js\" || header=\"express\" || header=\"Node.js\" || title=\"Node.js\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b3018486"
+        },
+        "name": "Octopussy",
+        "content": {
+            "/": "header=\"Octopussy\" || title=\"Octopussy\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b3018488"
+        },
+        "name": "OpenConf",
+        "content": {
+            "/": "header=\"OpenConf\" || title=\"OpenConf\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b3017eea"
+        },
+        "name": "Posterous",
+        "content": {
+            "/": "header=\"Posterous\" || title=\"Posterous\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b3018408"
+        },
+        "name": "PowerMTA",
+        "content": {
+            "/": "header=\"PowerMTA\" || title=\"PowerMTA\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b301739f"
+        },
+        "name": "Python",
+        "content": {
+            "/": "header=\"flask\" || header=\"python\" || header=\"Django\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b301853c"
+        },
+        "name": "RabbitMQ",
+        "content": {
+            "/": "header=\"RabbitMQ\" || title=\"RabbitMQ\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b30173a0"
+        },
+        "name": "Ruby",
+        "content": {
+            "/": "header=\"ruby\" || header=\"WEBrick\" || header=\"Phusion\" || header=\"Mongrel\" || header=\"X-Rack-Cache\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017ad1"
+        },
+        "name": "SQ-WEBCAM",
+        "content": {
+            "/": "header=\"SQ-WEBCAM\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017b94"
+        },
+        "name": "Struts2",
+        "content": {
+            "/": "header=\"Struts2\" || title=\"Struts2\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b30184c6"
+        },
+        "name": "ThinkAdmin",
+        "content": {
+            "/": "header=\"ThinkAdmin\" || title=\"ThinkAdmin\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b301891f"
+        },
+        "name": "ThinkCMF",
+        "content": {
+            "/": "header=\"ThinkCMF\" || title=\"ThinkCMF\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017435"
+        },
+        "name": "Verizon_Router",
+        "content": {
+            "/": "title=\"Verizon Router\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017b95"
+        },
+        "name": "XAMPP",
+        "content": {
+            "/": "header=\"XAMPP\" || title=\"XAMPP\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017af4"
+        },
+        "name": "YABB",
+        "content": {
+            "/": "header=\"Y2User\" || body=\"YaBBTime.getTime()\" || body=\"/YaBB.js\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b3018c56"
+        },
+        "name": "dubbo",
+        "content": {
+            "/": "body=\"dubbo\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017397"
+        },
+        "name": "jQuery",
+        "content": {
+            "/": "body=\"jquery.+js\" || body=\"jquery\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017399"
+        },
+        "name": "macOS",
+        "content": {
+            "/": "header=\"macos\" || header=\"MacOS\" || title=\"MacOS\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017393"
+        },
+        "name": "marco",
+        "content": {
+            "/": "header=\"marco\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b3018c59"
+        },
+        "name": "netcore",
+        "content": {
+            "/": "body=\"NETCORE\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017bbd"
+        },
+        "name": "osTicket",
+        "content": {
+            "/": "header=\"osTicket\" || title=\"osTicket\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b3017c23"
+        },
+        "name": "phplist",
+        "content": {
+            "/": "header=\"phplist\" || title=\"phplist\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b3018409"
+        },
+        "name": "poMMo",
+        "content": {
+            "/": "header=\"poMMo\" || title=\"poMMo\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b3018c5b"
+        },
+        "name": "tp-link",
+        "content": {
+            "/": "body=\"TP-LINK\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b301738f"
+        },
+        "name": "windows",
+        "content": {
+            "/": "body=\"windwos\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ae408da63b301739c"
+        },
+        "name": "windows 32bit",
+        "content": {
+            "/": "header=\"win32\" || header=\"Win32\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b3018c43"
+        },
+        "name": "泛微OA",
+        "content": {
+            "/": "header=\"泛微OA\" || title=\"泛微OA\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b30185b4"
+        },
+        "name": "用友NC",
+        "content": {
+            "/": "header=\"用友NC\" || title=\"用友NC\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b30184b4"
+        },
+        "name": "若依管理系统",
+        "content": {
+            "/": "header=\"若依管理系统\" || title=\"若依管理系统\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b30181a3"
+        },
+        "name": "蓝盾防火墙",
+        "content": {
+            "/": "header=\"蓝盾防火墙\" || title=\"蓝盾防火墙\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082ce408da63b30185b8"
+        },
+        "name": "金和OA",
+        "content": {
+            "/": "header=\"金和OA\" || title=\"金和OA\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "629a082be408da63b3017ed3"
+        },
+        "name": "齐治堡垒机",
+        "content": {
+            "/": "header=\"齐治堡垒机\" || title=\"齐治堡垒机\""
+        },
+        "tags": [
+            "14finger"
+        ]
+    }
+]
