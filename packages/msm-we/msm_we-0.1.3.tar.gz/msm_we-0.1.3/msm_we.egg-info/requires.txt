@@ -1,0 +1,14 @@
+scikit-learn>=0.24
+scipy>=1.5.0
+pyemma>=2.5
+numpy>=1.16.0
+mdtraj>=1.9.6
+ray>=1.0
+h5py>=3.1.0
+tqdm
+rich
+
+[tests]
+pytest>=3
+pytest-timeout
+mdtraj
