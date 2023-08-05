@@ -1,0 +1,2 @@
+[pytest11]
+pytest_requests_futures = pytest_requests_futures
