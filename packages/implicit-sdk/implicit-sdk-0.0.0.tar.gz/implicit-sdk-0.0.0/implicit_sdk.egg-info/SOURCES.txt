@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+implicit_sdk.egg-info/PKG-INFO
+implicit_sdk.egg-info/SOURCES.txt
+implicit_sdk.egg-info/dependency_links.txt
+implicit_sdk.egg-info/requires.txt
+implicit_sdk.egg-info/top_level.txt
+src/python/lib/implicit_sdk/__init__.py
+src/python/lib/implicit_sdk/doc-templete.html
+src/python/lib/implicit_sdk/function-template.html
+src/python/lib/implicit_sdk/function-template.js
+src/python/lib/implicit_sdk/implicit_endpoint.py
+src/python/lib/implicit_sdk/module-header.js
