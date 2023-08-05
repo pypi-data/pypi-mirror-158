@@ -1,0 +1,17 @@
+numpy
+pandas
+anndata
+matplotlib
+seaborn
+milkviz
+legendkit
+scikit-image
+scipy
+rich[jupyter]
+lightgbm
+ipython
+leidenalg
+
+# test suite
+pytest
+pytest-cov

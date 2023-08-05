@@ -1,0 +1,16 @@
+anndata
+numpy
+pandas
+scipy
+rich[jupyter]
+spatialtis_core
+milkviz
+legendkit
+thefuzz
+python-Levenshtein
+
+[all]
+python-igraph
+leidenalg
+scikit-image
+lightbgm
