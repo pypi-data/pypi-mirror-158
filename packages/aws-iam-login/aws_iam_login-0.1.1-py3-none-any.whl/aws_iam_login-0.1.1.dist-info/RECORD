@@ -1,0 +1,8 @@
+aws_iam_login/__init__.py,sha256=v82EojE3wWQ3wt92ULmzXBsvZmh3vxbR1-0B1UTKwHc,680
+aws_iam_login/aws_config.py,sha256=BVrg_xUTvvumfhQEXuYjg7CGwq1onb8y2krfEtu2qWU,1296
+aws_iam_login/credentials.py,sha256=sbcv1HAtP1H0SHGZY0h34KoCal3K-8tJYkRWLXIzk3E,1308
+aws_iam_login-0.1.1.dist-info/entry_points.txt,sha256=RIAPV8Ir8DLxKnQXGIlBU-iEV2Hee7r_K-Kv_jeRt7A,52
+aws_iam_login-0.1.1.dist-info/LICENSE.md,sha256=cKPGCkdRSYXVfmYiocnayO5Psq8b2Ph4FQYZbvwKHvM,1052
+aws_iam_login-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+aws_iam_login-0.1.1.dist-info/METADATA,sha256=0qUKF6exkRW-UxOAOClGUItgRwTBTB1DYJ7cKDEdYPU,2316
+aws_iam_login-0.1.1.dist-info/RECORD,,
