@@ -1,0 +1,8 @@
+celery_gsheets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celery_gsheets/celery.py,sha256=6FKqN4ar8KbmA9Aob37HdfSX16EMvThbHsIoVzs1Uuk,227
+celery_gsheets/pygsheets.py,sha256=sl2uvyREaA1RH5-3dENOKIoOkwDKy02-dfVmyxT0lN4,1724
+celery_gsheets/tasks.py,sha256=ZiqFnlJNx2rOBPh8WiMR6zZ9b2RB2de1OMG0Woff31E,744
+celery_gsheets-0.1.0.dist-info/LICENSE,sha256=CL_Yj-sG9H0OzVdUHDsx0BeINZMOxJ-UFKI2qjxFyp0,1058
+celery_gsheets-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+celery_gsheets-0.1.0.dist-info/METADATA,sha256=haPUXJ7AePHy2ETFMTUYj6o2VKmQWatwvov_n6SBsfU,676
+celery_gsheets-0.1.0.dist-info/RECORD,,
