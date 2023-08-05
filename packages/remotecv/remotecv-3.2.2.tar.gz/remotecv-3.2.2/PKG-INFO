@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: remotecv
+Version: 3.2.2
+Summary: remotecv is an OpenCV worker for facial and feature recognition
+Author: Bernardo Heynemann
+Author-email: heynemann@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: ==3.*,>=3.7.0
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
