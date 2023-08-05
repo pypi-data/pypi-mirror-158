@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: whatubinup2
+Version: 0.1.2
+Summary: Python desktop client for managing time logging
+Home-page: https://github.com/teamjtharrison/what_u_bin_up_2
+Author: Tim Harrison
+Author-email: tim@tjth.co
+License: Creative Commons Attribution-Noncommercial-Share Alike license
+Description: open("README.md").read()
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

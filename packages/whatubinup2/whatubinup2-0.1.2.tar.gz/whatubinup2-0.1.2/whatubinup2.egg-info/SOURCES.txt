@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+whatubinup2.egg-info/PKG-INFO
+whatubinup2.egg-info/SOURCES.txt
+whatubinup2.egg-info/dependency_links.txt
+whatubinup2.egg-info/top_level.txt
