@@ -1,0 +1,8 @@
+fingerprinter/__init__.py,sha256=eZ7P8FaUvoKRyH3pBXBhjyiQj-jCyX9Chwio-xIScqU,98
+fingerprinter/cli.py,sha256=bMe3T97wguzv6RiNK0ITdT2mHBR-j9IetRSa6o5hm18,1737
+fingerprinter/fingerprinter.py,sha256=M6QfyNxLTwBTdsNfSMlt98yqV8xY4t0arDqLTY4Pkrc,4578
+fingerprinter/models.py,sha256=hTOBwu6hsTU765Y1MBNTIrLEFvxGz6vJu82Bp8Mo-SA,644
+uw_it_build_fingerprinter-0.1.3.dist-info/LICENSE,sha256=GCTjKPvx98pgydtuHCtHhQDunHO0QZnFIvZ40rKvwY0,1091
+uw_it_build_fingerprinter-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+uw_it_build_fingerprinter-0.1.3.dist-info/METADATA,sha256=uU8VsD0yh2x1xCCAVdg5ewkgAYw51xJ6wQXxOtiXFWA,434
+uw_it_build_fingerprinter-0.1.3.dist-info/RECORD,,
