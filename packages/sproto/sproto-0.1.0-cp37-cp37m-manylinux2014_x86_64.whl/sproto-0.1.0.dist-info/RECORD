@@ -1,0 +1,12 @@
+pysproto/__init__.py,sha256=4oW15VG6t2kt6IGpAY8bp50r4_-qHOZ4Mabmis0IPOA,166
+pysproto/_sproto.c,sha256=4SvA3w-IQaYl1McA1b7Lrx0_U86DvWIEN8xqFYsQsdo,1065444
+pysproto/_sproto.cpython-37m-x86_64-linux-gnu.so,sha256=y78HkoRX_Ytr6oXZ-oByQ_3XmS3IOZ-A8vTCyhr6MTw,282288
+pysproto/_sproto.pyx,sha256=o7hK4jSVROuc5lGxmc7offgAp6fAKHVxgS4Zzy3IMAI,17877
+pysproto/sproto.pxd,sha256=5lQwzlK_0A1pJLDr4M7o-eVgcSlaaeMSJqG82fCZl0g,2192
+pysproto/sprotodump.py,sha256=WOEKby_rbJZ8nDZqkHR0hSCK1HCR05VYZgQBQs0eIVY,7608
+pysproto/sprotoparser.py,sha256=esuMXY4FUeO0QxBLlZkAATPhtIfMIx1TeL0vEvUeOqY,7190
+sproto-0.1.0.dist-info/LICENSE,sha256=BnBzLitj6MDWwYCG6-itWxvu3JVhY0D2wtpNcXOrpRs,1498
+sproto-0.1.0.dist-info/METADATA,sha256=S3wOjx9XvsHwHoCHxE3PwqhC4-cWBtYmEi9B9nQl5CQ,2894
+sproto-0.1.0.dist-info/WHEEL,sha256=a8-lE8CDY3fTc-2Q7EKZhl4GYCxX5tnur3ksQusxWu4,104
+sproto-0.1.0.dist-info/top_level.txt,sha256=_GEEjVYVzI4RZ19OnPRDf9ClXJg0v9Mfm2glT8R_Fn4,9
+sproto-0.1.0.dist-info/RECORD,,
