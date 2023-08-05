@@ -1,0 +1,7 @@
+#!python
+# This is an alias that can be included in your $PATH
+import bin_generator
+import sys
+
+argv = sys.argv[1:]
+bin_generator.main(argv)
