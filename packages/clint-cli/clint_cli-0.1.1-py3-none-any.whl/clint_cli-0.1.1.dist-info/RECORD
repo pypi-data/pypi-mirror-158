@@ -1,0 +1,13 @@
+clint/__init__.py,sha256=cv-vkrHw9UTZaeyRlrMe9TzJByy3K-WW4IYVnwdhxRk,48
+clint/cli.py,sha256=M9_07RLuO_Jw2l8h_qaVjFTPm8pSmIQ73wLfn33Lno4,884
+clint/validator/__init__.py,sha256=X8hi1i0AnFxflbGkYuIPyxObAtoqEbfHFVZinxu7b1U,206
+clint/validator/commit.py,sha256=SVzD52DKWtMVCOoK63JMirRk_qgiPyepPUquik96xe4,1283
+clint/validator/exceptions.py,sha256=NkTapHiJ9maR13q67-RRhggWqvLQb3l6DOEuC4pgKRE,299
+clint/validator/footer.py,sha256=I3kgQPrCoG0bZQeAA11A5xhrckZQS84wG-L1o5ygHzc,2472
+clint/validator/paragraph.py,sha256=ZQ78OlLCo9GaO9GHDtnnE9hvz7KwEvirlvJbUmtMTl8,2155
+clint/validator/subject.py,sha256=lMc14sm52kpepvAP7bZzeGLeOOop-NtyX8zGvASFvqo,3798
+clint_cli-0.1.1.dist-info/entry_points.txt,sha256=gY13Hg8mQhGMAfRb7eweAxqtk9x5-_ZRlMujiBfabbw,50
+clint_cli-0.1.1.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+clint_cli-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+clint_cli-0.1.1.dist-info/METADATA,sha256=pt1Gvov7O2uiXTHr11qGFMEg7o9ulNsvd0e4LgZCJbA,3064
+clint_cli-0.1.1.dist-info/RECORD,,
