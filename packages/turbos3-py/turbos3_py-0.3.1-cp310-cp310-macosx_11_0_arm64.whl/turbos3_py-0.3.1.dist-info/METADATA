@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: turbos3_py
+Version: 0.3.1
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Summary: Turbocharged S3 downloads and uplaods
+Author: benjamin ellis <benjaminjellis@protonmail.com>
+Author-email: Benjamin Ellis <benjaminjellis@protonmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Bug Tracker, https://github.com/benjaminjellis/turbo/issues
+Project-URL: Homepage, https://github.com/benjaminjellis/turbo
+
+# turbo-py 
+```turbo-py``` is a python package for turbocharged S3 downloads and uploads.
+
+## Install 
+
+```py-turbo``` is available via pip
+
+```shell
+pip install turbo_py
+```
+
+## Setup
+```turbo_py ``` uses the same auth methods as boto3 and the AWS CLI i.e. credentials file and env variables. See [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html)
+for more details
