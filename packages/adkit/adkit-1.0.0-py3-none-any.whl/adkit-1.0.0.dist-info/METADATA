@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: adkit
+Version: 1.0.0
+Summary: The first Ads network on python !
+Home-page: https://github.com/vodkarm/adkit
+Author: vodkarm
+Author-email: vodkarm <vodkarm06@gmail.com>
+Project-URL: Homepage, https://github.com/vodkarm/adskit
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: vodkarm ; extra == 'dev'
+
+documentation can be found at <a href="https://github.com/vodkarm/adskit/">this url</a>
