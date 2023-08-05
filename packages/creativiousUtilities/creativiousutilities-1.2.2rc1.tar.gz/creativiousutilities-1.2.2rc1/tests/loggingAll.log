@@ -1,0 +1,3 @@
+ERROR [07/06/2022 15:07:25] (testLogger:core) AHH AN ERROR
+ERROR [07/06/2022 15:07:40] (testLogger:core) AHH AN ERROR
+INFO [07/06/2022 15:07:40] (testLogger:core) this is info
