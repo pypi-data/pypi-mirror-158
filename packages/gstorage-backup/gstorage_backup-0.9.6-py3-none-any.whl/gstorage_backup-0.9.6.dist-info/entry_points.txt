@@ -1,0 +1,2 @@
+[console_scripts]
+gstorage_backup = gstorage_backup:main
