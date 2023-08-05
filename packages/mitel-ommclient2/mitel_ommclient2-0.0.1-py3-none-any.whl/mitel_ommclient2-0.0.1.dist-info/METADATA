@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: mitel-ommclient2
+Version: 0.0.1
+Summary: Another attempt for a modern client library to the Mitel OM Application XML Interface.
+Project-URL: Source, https://git.clerie.de/clerie/mitel_ommclient2
+Author-email: clerie <hallo@clerie.de>
+License: MIT License
+        
+        Copyright (c) 2022 clerie
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Provides-Extra: crypt
+Requires-Dist: rsa; extra == 'crypt'
+Description-Content-Type: text/markdown
+
+# Mitel OMMClient2
+
+Another attempt for a modern client library to the Mitel OM Application XML Interface.
+
+## Install
+
+Without any additional dependencies:
+
+```
+pip install "mitel_ommclient2 @ git+https://git.clerie.de/clerie/mitel_ommclient2.git@main"
+```
+
+Add dependencies to enable secret handling, if you need it.
+
+```
+pip install "mitel_ommclient2[crypt] @ git+https://git.clerie.de/clerie/mitel_ommclient2.git@main"
+```
+
+## Quicksart
+
+Just some examples to give you an idea what this does.
+
+```
+import mitel_ommclient2
+
+# Connect to your OMM
+c = mitel_ommclient2.OMMClient2("omm.local", "admin", "admin")
+
+# Use built in methods for common actions
+c.ping()
+
+# Create custom messages
+m = mitel_ommclient2.messages.Ping()
+m.timeStamp = 2342
+r = c.connection.request(m)
+```
+
+Consult class documentation for more in depth examples and options.
+
+## Interactive CLI
+
+The package installs a script called `ommclient2`.
+This allowes basic interactive testing of the library.
+
+```
+ommclient2 --help
+```
+
+## Attribution
+
+This software is inspired by `python-mitel` by Thomas and n-st.

@@ -1,0 +1,2 @@
+[console_scripts]
+ommclient2 = mitel_ommclient2.cli:main
