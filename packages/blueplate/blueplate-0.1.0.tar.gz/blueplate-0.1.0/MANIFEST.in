@@ -1,0 +1,8 @@
+include src/blueplate
+include src/blueplate/blueplate
+include src/blueplate/templates
+include setup.cfg
+include README.md
+include pyproject.toml
+include VERSION
+include LICENSE

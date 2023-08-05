@@ -1,0 +1,21 @@
+[tools.blueplate]
+
+[tools.blueplate.options]
+[tools.blueplate.options.template]
+help = "generate a new template TOML file"
+action = "store_true"
+
+[tools.blueplate.options.generate]
+help = "generate a new project based on a TOML file"
+action = "store_true"
+
+[tools.blueplate.options.force]
+help = "force overwrite of existing files"
+action = "store_true"
+
+[tools.blueplate.options.toml]
+help = "specify the TOML file to use"
+default = "project.toml"
+
+
+[tools.blueplate.errors]
