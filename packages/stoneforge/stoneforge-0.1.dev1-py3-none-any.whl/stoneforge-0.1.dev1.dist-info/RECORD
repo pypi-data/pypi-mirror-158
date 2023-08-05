@@ -1,0 +1,17 @@
+stoneforge/__init__.py,sha256=FDFzCfNsj4sJI0pZG_m2upDLsBpFDh2ScBzDsr-Bv04,82
+stoneforge/petrophysics/__init__.py,sha256=RnRSR9yj67sx7QovZVfIUpqiamIJ5aJTF_qDuKh2G_s,123
+stoneforge/petrophysics/porosity.py,sha256=sNmSnlMot6PpJy1AYxuvKYi2CYFQ2ujt_rCin0m3Vhw,8751
+stoneforge/petrophysics/shale_volume.py,sha256=Nqv43zXeoF43qlLWzv4Zi5XbHmN_M8OMHTCH0aMKBU0,6124
+stoneforge/petrophysics/water_saturation.py,sha256=X0c3P2TZgUF17Zo_pBakUfsPhGs0GI2c-bxXlB2lO6A,6163
+stoneforge/rock_physics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stoneforge/rock_physics/fluid_substitution.py,sha256=CVLwFH-tcZThsIU-bq0wQcOu6rZuAff6yPgCtuaOV-I,5112
+stoneforge/rock_physics/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stoneforge/rock_physics/tests/test_fluid_substitution.py,sha256=X1ogFy9N08or3Zk-Lhy4quIv9ruAGlaDdVUchM8xwd0,658
+stoneforge/tests_porosity/test_porosity.py,sha256=bIyfPUP9lDuRanDmbV7b5_NtD0ejXcrXqnSkaciB1pI,3977
+stoneforge/tests_water_saturation/__init__.py,sha256=Km9_t7ptgeXZHfaBrtBY7wHO2rpoZ9Qcf6-qYbq3LCE,49
+stoneforge/tests_water_saturation/test_water_saturation.py,sha256=8jdlQQ2MsDeGHzt0uo9xQw1zFNTYx2GAcSZWQ98Fo0A,1188
+stoneforge-0.1.dev1.dist-info/LICENSE,sha256=277lzqo-CITQnt_oa60nC00hJDxueJtNZAtBdwagpTk,1160
+stoneforge-0.1.dev1.dist-info/METADATA,sha256=UhWgc8I7Oq9RdqWCNnzMMyBJz7btd6A7yXLRO3hUlKw,712
+stoneforge-0.1.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stoneforge-0.1.dev1.dist-info/top_level.txt,sha256=Q7MhYf8eVLZgT882HIHq51Oy7C2bIaNJCIQovJ-uRb8,11
+stoneforge-0.1.dev1.dist-info/RECORD,,
