@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: space-remover
+Version: 0.1
+Summary: A simple tool that automatize removing any unwanted leading or lagging space from a column of a excel file
+Home-page: UNKNOWN
+Author: Khandoker Tanjim Ahammad
+Author-email: alttanjim@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
+
