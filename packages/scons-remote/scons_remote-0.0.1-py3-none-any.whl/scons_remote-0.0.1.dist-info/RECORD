@@ -1,0 +1,9 @@
+scons_remote/__init__.py,sha256=itOLSsJNrFCIAaNCw2yRYbdbZoQrxSHm_VioRP_x5I4,312
+scons_remote/action_remote.py,sha256=dAEUuYlrlYhcF7v34p9KcgrS17fj2QuZdW7CwUhezKA,3916
+scons_remote/environment_remote.py,sha256=RdIbOGGJaQ4RCHaN7lPdrbplpp3Mf7KtKg3jXgwCtMc,8042
+scons_remote/utils.py,sha256=N4u1TV8g1ODhWQqHgoJpLfcWX-NW8YjG2ucXPq57UYo,1457
+scons_remote-0.0.1.dist-info/LICENSE,sha256=7Kzdzhidzkg7dykV7PerZNTqzkzCvnzt2EvvnIjXm6Y,1173
+scons_remote-0.0.1.dist-info/METADATA,sha256=O6nMeiWEa6vy_CkhIOrVcASPya6_8_L615wnpcEGAMo,7561
+scons_remote-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scons_remote-0.0.1.dist-info/top_level.txt,sha256=_fHAAJLPN7NIAG_SyaduaanOAnyjiyEsIxs2BigCSrw,13
+scons_remote-0.0.1.dist-info/RECORD,,
