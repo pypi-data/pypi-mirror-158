@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mcescher
+Version: 1.7.0b17
+Summary: Escher: A Web Application for Building, Sharing, and Embedding Data-Rich Visualizations of Metabolic Pathways
+Home-page: https://escher.github.io
+Author: Zachary King
+License: MIT
+Keywords: visualization,pathway map,metabolism,genome-scale-model,web application,D3.js,biojs
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Provides-Extra: docs
+Provides-Extra: dev

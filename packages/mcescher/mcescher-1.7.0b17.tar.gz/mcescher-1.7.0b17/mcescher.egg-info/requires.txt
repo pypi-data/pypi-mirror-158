@@ -1,0 +1,12 @@
+Jinja2<4,>=3.1.2
+cobra>=0.5.0
+jsonschema<3,>=2.4.0
+ipywidgets<8,>=7.1.0
+pandas>=0.18
+
+[dev]
+pytest<5,>=4.0.1
+
+[docs]
+sphinx>=1.2
+sphinx-rtd-theme>=0.1.6
