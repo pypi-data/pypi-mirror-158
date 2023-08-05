@@ -1,0 +1,10 @@
+rigel_registry_plugin/__init__.py,sha256=gt-ZHvWLSe4WXX1963wup_UUXGuBnUp492rJMjqy1Lo,162
+rigel_registry_plugin/exceptions.py,sha256=EFOW79E-Q7xuMRhsFrB4evOBtCZY6H8B63tgkBCdwgk,369
+rigel_registry_plugin/plugin.py,sha256=ha9qq8bwSBIsZ-kpk-_FVvgI0P8_Bx8WbmaFSF2TNeg,1570
+rigel_registry_plugin/registries/__init__.py,sha256=cSa5U0flrMGls0QlTQQvJYViWifxZppIvjjMlFmo9dI,104
+rigel_registry_plugin/registries/ecr.py,sha256=Y6ooVgDtkCBt5BhsSCnlpnMl1LZKHldeUcaomCTt6ww,4623
+rigel_registry_plugin/registries/generic.py,sha256=HkBK101CdOMYZ2GyuuKvjDfCfi3oybNYPxNzQCZCnSs,3684
+rigel_registry_plugin-0.1.6.dist-info/LICENSE.md,sha256=-cHdXmaTUPs5qWl5h_b_oJgPPIiMhtdRy4xD2M3dceM,1079
+rigel_registry_plugin-0.1.6.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+rigel_registry_plugin-0.1.6.dist-info/METADATA,sha256=Yj4zuyCY_c5V-UJs4_kFA9OQi9LBxBfud8-JRXGoEb8,1106
+rigel_registry_plugin-0.1.6.dist-info/RECORD,,
