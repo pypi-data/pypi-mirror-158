@@ -1,0 +1,6 @@
+[console_scripts]
+mecli = meutils.clis.cli:cli
+mecli-conf = meutils.clis.conf:conf_cli
+mecli-cron = meutils.clis.cron:main
+nesc-send = meutils.clis.nesc:cli
+
