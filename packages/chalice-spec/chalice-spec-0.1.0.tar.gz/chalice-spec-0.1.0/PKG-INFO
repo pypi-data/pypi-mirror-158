@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: chalice-spec
+Version: 0.1.0
+Summary: Chalice x APISpec x Pydantic plug-ins
+License: MIT
+Author: Jake Wood
+Author-email: jake@testbox.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: apispec (>=5.2.2,<6.0.0)
