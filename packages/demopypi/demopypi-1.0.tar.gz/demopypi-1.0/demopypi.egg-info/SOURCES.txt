@@ -1,0 +1,7 @@
+LICENSE
+README.txt
+setup.py
+demopypi.egg-info/PKG-INFO
+demopypi.egg-info/SOURCES.txt
+demopypi.egg-info/dependency_links.txt
+demopypi.egg-info/top_level.txt
