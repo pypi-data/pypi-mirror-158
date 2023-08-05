@@ -1,0 +1,17 @@
+pagexml/__init__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+pagexml/analysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pagexml/analysis/layout_stats.py,sha256=4WnH0gNdyIDfwRiFljgIfKKh8XQgopZ2JAbki6O9rrQ,17476
+pagexml/analysis/text_stats.py,sha256=SHvV3xOYxeRX1E9IdVsT4KsSGSyPQJUp_QoPu6iFPso,18595
+pagexml/helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pagexml/helper/pagexml_helper.py,sha256=x_oyAisSre5yF1nhHDcAwynuRDZqEDevRFPzabdOUcU,19699
+pagexml/helper/text_helper.py,sha256=zLAFcK_HENb6rbW_ho79pOWLrF0zzB_Oya8EXDSH3I8,13107
+pagexml/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pagexml/model/physical_document_model.py,sha256=hYTrtdNKFMQKvfe-Mv7h0CCAc2xse_HEqhI5O28M5qo,30631
+pagexml/parser.py,sha256=xzuf0L86jT3xn9-kVTM0veM-I3jlsKvI5RqpSo7Y6sg,11532
+pagexml/plotting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pagexml/plotting/plot_dist.py,sha256=3rpKRXvL6KXG3c8kYejQnEuZysShwH6Z4NbpuL63N90,1235
+pagexml_tools-0.2.0.dist-info/entry_points.txt,sha256=5Q_hKc6KVT9-6B5gPcuJWKJUDGmlg2vZGQUTAc41V4o,50
+pagexml_tools-0.2.0.dist-info/LICENSE,sha256=Cems6LImdFuqGdU4ypB4NHnp9DvpIKHHgqCEXap801s,1078
+pagexml_tools-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pagexml_tools-0.2.0.dist-info/METADATA,sha256=7FB3-b4qXeMrBvUKO03LXA8cGKK9RtsAHYPqFuRMQl8,2165
+pagexml_tools-0.2.0.dist-info/RECORD,,
