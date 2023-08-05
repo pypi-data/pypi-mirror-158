@@ -1,0 +1,9 @@
+{
+    "海蚀":{"is_exclusive":true},
+    "浊酒澄心":{"is_exclusive":true},
+    "常驻标准寻访":{"is_exclusive":false},
+    "联合寻访":{"is_exclusive":false},
+    "不协和音程":{"is_exclusive":false},
+    "all":{"is_exclusive":false},
+    "沙洲引路人":{"is_exclusive":false}
+}
