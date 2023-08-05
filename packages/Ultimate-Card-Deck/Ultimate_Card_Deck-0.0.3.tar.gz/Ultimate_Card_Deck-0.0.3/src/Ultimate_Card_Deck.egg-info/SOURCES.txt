@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/Ultimate_Card_Deck/__init__.py
+src/Ultimate_Card_Deck/deck_of_cards.py
+src/Ultimate_Card_Deck.egg-info/PKG-INFO
+src/Ultimate_Card_Deck.egg-info/SOURCES.txt
+src/Ultimate_Card_Deck.egg-info/dependency_links.txt
+src/Ultimate_Card_Deck.egg-info/top_level.txt
