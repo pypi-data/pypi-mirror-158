@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: basketball-charts
+Version: 0.0.1
+Summary: A library for basketball charts
+Home-page: https://github.com/Matt711/basketball_charts
+Author: Matt Murray
+Author-email: matthewmurray711@gmail.com
+License: MIT
+Keywords: basketball,shot charts,data mining
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4 (==4.11.1)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: matplotlib (==3.4.3)
+
+# basketball-charts
+Library for recreating fun charts that I've seen, mostly shot charts :)
+
+
