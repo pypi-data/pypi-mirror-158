@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: objdict_hephhay
+Version: 0.1.1
+Summary: An object wrapper for dict that allows for using object type notation with dictionaries.
+Author-email: Daniel Farayola <faradaydanfard@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Daniel Mobolaji Farayola
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/hephhay/objdict.git
+Project-URL: Bug Tracker, https://github.com/hephhay/objdict.git/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OBJDICT
+An object wrapper for dict that allows for using object type notation with dictionaries.
+## Installation
+pip install objdict-hephhay
+## Description
+An object style implementation for dict that allows for using object type dot(.) notation with dictionaries.
+
+All dict operations such as .pop(), .items(), .contains() etc' will also work with ObjDict
+
+Example
+--------
+    from objdict_hephhay import ObjDict
+    object = ObjDict(<dict>)
+
+    object.<dict key>
+## usage
+Parameters
+----------
+dict : int
+    Dictionary to convert
+
+obj__depth : int
+    depth of conversion to ObjDict
+
+Returns
+-------
+objdict.ObjDict
+    An instance of ObjDict
+
+Examples
+--------
+    >>>  obj = ObjDict(foo = 1, bar = 2)
+    <ObjDict : {"foo" : 1, "bar" : 2}>
+    >>> dictionary = {"foo" : 1, "bar" : 2}
+    >>> obj1 = ObjDict(dictionary)
+    >>> obj1.foo
+    1
+    >>> dictionary_2 = {"foo" : 1, "bar" : 2, "baz" : {"alice" : 3, "bob" : {"steph" : 5}}}
+    >>> obj2 = ObjDict(dictionary_2, obj__depth = 1)
+    >>> obj2.bar
+    2
+    >>> obj2.baz
+    <ObjDict : {'alice': 3, 'bob': {'steph': 5}}>
