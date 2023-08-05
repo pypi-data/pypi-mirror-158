@@ -1,0 +1,3 @@
+[console_scripts]
+clint=clint.cli:CLI.entrypoint
+
