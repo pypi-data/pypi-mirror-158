@@ -1,0 +1,7 @@
+"""Define radio_mlbee_client."""
+from logzero import logger
+
+
+def radio_mlbee_client():
+    """Define radio_mlbee_client."""
+    logger.debug(" entry ")
