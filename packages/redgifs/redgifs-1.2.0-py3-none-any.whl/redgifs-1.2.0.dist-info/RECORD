@@ -1,0 +1,13 @@
+redgifs/__init__.py,sha256=hZYq4MjBYGiLj29EKv3abGsl23SuLSTSbt5trM6Wjdo,1321
+redgifs/aio.py,sha256=EHygswtm4TQDh4ALSk7jaSfdDxSbupWUQZPKzcg8ak4,4381
+redgifs/api.py,sha256=CZ-0u-W3RGMLnBKK9-YpBsSFNzCkw0txOUvgpLWg6g0,7428
+redgifs/enums.py,sha256=pPBS-e_J_9r6AUVEgk37QNSMkVAR_ONw6Sr9aSujHJA,157560
+redgifs/errors.py,sha256=_5c7EDDE729TfWE2nAVZhTgNcdkuKBeLDXPRiStSxZM,2701
+redgifs/http.py,sha256=ZVpx9Qj5UAbvlR6P6cI5cbrhv8CIZC1A_MrLXeiJINA,7449
+redgifs/models.py,sha256=_gL0eGL3C8-qtvjQ_45XVzkIR3DwQBeX9NmhWv1hlOQ,8717
+redgifs/parser.py,sha256=xCsXoZQDFZuPgHlebUlQW237YaGQPISONs1L7fqXiok,7783
+redgifs-1.2.0.dist-info/LICENSE,sha256=rjsfbBv9RnSHRJ2uqOtA8UJmQqNHHRQBHY4GbzA6MtA,1101
+redgifs-1.2.0.dist-info/METADATA,sha256=EDjSoMUcSl_E9qegQo3jccfjssTozJbYcmVFpnM-dwg,1883
+redgifs-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+redgifs-1.2.0.dist-info/top_level.txt,sha256=HxszPJl7w2FVUb9cXgMOQFiFA7SFvYDvuKcCsprhBH0,8
+redgifs-1.2.0.dist-info/RECORD,,
