@@ -1,0 +1,11 @@
+element_deeplabcut/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+element_deeplabcut/model.py,sha256=MlGsR3orWBVwxBlbp7YBzW_LZwDGPzvkb0cK0ffMJZo,25847
+element_deeplabcut/train.py,sha256=HTFNAUYLJKZcNJt84UJfiih4r2EJ5QSEU3LfhzxwGQk,11052
+element_deeplabcut/version.py,sha256=_bmhaWTXHB-T3W-hDSdwt6djum_-aam7batolRk4n1g,47
+element_deeplabcut/readers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+element_deeplabcut/readers/dlc_reader.py,sha256=VjhvumvYzir82nlbFxoPVmMyIeAEjC_GwHtQMOIQlTQ,7177
+element_deeplabcut-0.1.1.dist-info/LICENSE,sha256=ro6gxRbJJ9U6YPqlJexU1Bs8PWXjhist0gHXStaevi8,1066
+element_deeplabcut-0.1.1.dist-info/METADATA,sha256=c1aqakAxXzF--VYTU4ySk58OOs5BYsvhWW5WBaBNrxs,5575
+element_deeplabcut-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+element_deeplabcut-0.1.1.dist-info/top_level.txt,sha256=7oKCsiIBqVpXHJR5-CXZ8sojTiqXl0vCKC1eEhw7ToQ,19
+element_deeplabcut-0.1.1.dist-info/RECORD,,
