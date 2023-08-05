@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: YALTAi
+Version: 0.0.1b0
+Summary: You Actually Look Twice At it, YOLOv5-Kraken adapter for region detection 
+Home-page: https://github.com/ponteineptique/yaltai
+Author: Thibault Clérice
+License: MIT
+Description: 
+        # YALTAi
+        You Actually Look Twice At it
+        
+        This provides an adapter for Kraken to use YOLOv5 Object Detection routine.
+        
+        This tool can be used for both segmenting and conversion of models.
+        
+        # Routine
+        
+        ```bash
+        pip install YALTAi
+        # Keeps .1 data in the validation set and convert all alto into alto
+        #  Keeps the segmonto information up to the regions
+        python -m yaltai.yaltai convert PATH/TO/ALTOorPAGE/*.xml my-dataset --shuffle .1 --segmonto region
+        # Train your YOLOv5 data (YOLOv5 is installed with YALTAi)
+        yolov5 train --data "$PWD/my-dataset/config.yml" --batch-size 4 --img 640 --weights yolov5x.pt --epochs 50
+        # Retrieve the best.pt after the training
+        # It should be in runs/train/exp[NUMBER]/weights/best.pt
+        # And then annotate your new data with the same CLI API as Kraken !
+        python -m yaltai.kraken_yaltai --device cuda:0 -I "*.jpg" --suffix ".xml" segment --yolo runs/train/exp5/weights/best.pt
+        ```
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
