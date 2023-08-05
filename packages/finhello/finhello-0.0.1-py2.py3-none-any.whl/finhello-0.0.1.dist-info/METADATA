@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: finhello
+Version: 0.0.1
+Summary: A small example package
+Author-email: Example Author <author@example.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Requires-Python: >=2.7
