@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainMenu>
+    <menuBar>
+        <subMenu id="render_menu">
+
+            <separatorItem id="render_create_submenu_sep_2" />
+            <subMenu id="conductor_submenu">
+                <label>Conductor</label>
+
+                <scriptItem id="h.conductor_reload">
+                    <label>Reload</label>
+                    <scriptCode>
+                        <![CDATA[
+from ciohoudini import menu;menu.reload()
+]]>
+
+                    </scriptCode>
+                </scriptItem>
+
+                <scriptItem id="h.conductor_submit_all">
+                    <label>Submit All</label>
+                    <scriptCode>
+                        <![CDATA[
+from ciohoudini import menu;menu.submit(which='all')
+]]>
+                    </scriptCode>
+                </scriptItem>
+
+                <scriptItem id="h.conductor_submit_selected">
+                    <label>Submit Selected</label>
+                    <scriptCode>
+                        <![CDATA[
+from ciohoudini import menu;menu.submit(which='sel')
+]]>
+                    </scriptCode>
+                </scriptItem>
+
+
+                <scriptItem id="h.conductor_connect">
+                    <label>Connect</label>
+                    <scriptCode>
+                        <![CDATA[
+from ciohoudini import menu;menu.connect()
+]]>
+                    </scriptCode>
+                </scriptItem>
+
+
+
+            </subMenu>
+        </subMenu>
+
+
+    </menuBar>
+</mainMenu>
