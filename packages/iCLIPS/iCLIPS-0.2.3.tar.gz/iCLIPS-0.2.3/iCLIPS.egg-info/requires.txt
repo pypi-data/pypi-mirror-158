@@ -1,0 +1,3 @@
+clipspy>=1.0.0
+jupyter-console
+regex
