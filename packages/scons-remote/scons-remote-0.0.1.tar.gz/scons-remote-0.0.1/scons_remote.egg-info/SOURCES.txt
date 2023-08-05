@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+scons_remote/__init__.py
+scons_remote/action_remote.py
+scons_remote/environment_remote.py
+scons_remote/utils.py
+scons_remote.egg-info/PKG-INFO
+scons_remote.egg-info/SOURCES.txt
+scons_remote.egg-info/dependency_links.txt
+scons_remote.egg-info/requires.txt
+scons_remote.egg-info/top_level.txt
