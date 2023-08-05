@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: eurlex
+Version: 0.0.4
+Summary: An EUR-Lex parser for Python.
+Home-page: https://github.com/kevin91nl/eurlex
+Author: K.M.J. Jacobs
+Author-email: mail@kevinjacobs.nl
+License: UNKNOWN
+Description: # EUR-Lex Parser
+        
+        An EUR-Lex parser for Python.
+        
+        ## Usage
+        
+        You can install the package with [`pip`](https://pip.pypa.io/en/stable/getting-started/):
+        
+        ```bash
+        pip install eurlex
+        ```
+        
+        ## Code Contribution
+        
+        Feel free to send any issues, ideas or pull requests. If you want to commit code, make sure to use `black` to format your code.
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
