@@ -1,0 +1,18 @@
+CHANGES
+=======
+
+0.9.5
+-----
+
+* disable log by default
+* update wait ready timeout
+* fix wdaproxy bug
+* add env settings to launch command
+* fix instruments leak error
+* test with py38
+* update workflow config
+* change logzero to loguru in part of code, add test in workflow
+* dump battery with human readable
+* Update \_device.py
+* add energy supports
+* fix \_sock missing error
