@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "cjk-textwrap"
+version = "0.1.0"
+description = "A flexible textwrapper for CJK string"
+authors = ["Carbene <hyikerhu0212@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Hyiker/cjk-textwrap"
+repository = "https://github.com/Hyiker/cjk-textwrap"
+keywords = ["textwrap", "CJK", "Chinese"]
+include = [
+    "LICENSE"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jieba = "^0.42.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
