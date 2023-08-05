@@ -1,0 +1,14 @@
+kubify/__init__.py,sha256=tja0D3odLiBcNnnZx40lrDTc1ctgcyoWB1P-n6xuZeo,115
+kubify/aws_constants.py,sha256=6RtF6g9IOyGTGat68IYzT6KNnl1LoX6yKf6NE0uRFCY,45
+kubify/cli.py,sha256=mw2pnSDOjAAJP0Uj6J61vyidodIZARjRz7fD-0hi864,4269
+kubify/kubify.py,sha256=J7YQhQOSiIFbM3npQEjH7ByIOfL6_D8R_fqWyxqStCE,2798
+kubify/aws_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kubify/aws_utils/s3_utils.py,sha256=2JDYDIZR4ASnHgmSTDpJo2lvx641IXfqXf7QgIsIM2U,1430
+kubify/k8s_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kubify/k8s_utils/k8s.py,sha256=RRHDPdHUokQekIsi3SUdIJY9vSYqZqV_EYtc0ywzZ6o,3530
+kubify-9003.1.0.dist-info/LICENSE,sha256=B_MeP76pEK6szimkYRsBiTcMFkghAubKhKdhU_kGBnc,1680
+kubify-9003.1.0.dist-info/METADATA,sha256=RkaW8iey3bEH9QF3AZkaD5TU5CrQkQimpN2DdvbyU-4,6641
+kubify-9003.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+kubify-9003.1.0.dist-info/entry_points.txt,sha256=owz4erGbCaQUKBT4I5kTVEF2ll40v5nVDGfX5O0_F1Y,44
+kubify-9003.1.0.dist-info/top_level.txt,sha256=c1JR4PRTnulEn3KxUbMzV5Z0qqTbXol9BhFE2ssX9VI,7
+kubify-9003.1.0.dist-info/RECORD,,
