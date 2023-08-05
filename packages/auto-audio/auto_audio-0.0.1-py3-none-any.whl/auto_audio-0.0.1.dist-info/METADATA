@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: auto-audio
+Version: 0.0.1
+Summary: You can upload audio files to Air force program
+Home-page: https://github.com/hanayong
+Author: hanayong
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+This is not complete program.
+
+So i have a plan to update this program.
