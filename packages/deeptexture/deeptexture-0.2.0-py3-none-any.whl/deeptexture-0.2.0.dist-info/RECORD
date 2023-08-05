@@ -1,0 +1,10 @@
+deeptexture/__init__.py,sha256=ly4j72759zjeTG2DZ8GdnubTTviUH8N2mNdsAamS6mI,124
+deeptexture/cbir.py,sha256=Cy6ff3dRJHEqN2uDanP5-xoS2S9FNrnhYMiktkZJ62o,13713
+deeptexture/dtr.py,sha256=bxRhbtRN3bQ2L76iBgDmUBvMGo9LZUP0LP3nSFoFyNk,7689
+deeptexture/ml.py,sha256=sTkamyMgj0Xqu71lV7svbzEQefq1m1BX-bnTuRefA-Y,4652
+deeptexture/plt_dtr.py,sha256=OAOySp0ZXmhJ8BxUNrkbUBMLnq06KKdQBK9nhjxtCOg,11818
+deeptexture/utils.py,sha256=mMbDc7ZXs_TM2kYQFmrYAQr-_EZJ9FEGi6Lr9RZTCms,779
+deeptexture-0.2.0.dist-info/METADATA,sha256=uGBgGTe4Htzeg-qOLt27jugToT2VMFUUTxM9QOhsybo,3258
+deeptexture-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+deeptexture-0.2.0.dist-info/top_level.txt,sha256=q0sTIVsh-DSPy-Jt9GcsDB5jARBP8Vcje8mLe7fJgFk,12
+deeptexture-0.2.0.dist-info/RECORD,,
