@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "appcenter"
+version = "3.2.0"
+description = "A Python wrapper around the App Center REST API."
+
+license = "MIT"
+
+authors = [
+    "Dale Myers <dalemy@microsoft.com>"
+]
+
+readme = 'README.md'
+
+repository = "https://github.com/Microsoft/appcenter-rest-python"
+homepage = "https://github.com/Microsoft/appcenter-rest-python"
+
+keywords = ['app center', 'api']
+
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.7',
+    'Topic :: Software Development',
+    'Topic :: Utilities'
+]
+
+[tool.poetry.dependencies]
+python = "^3.7.2"
+azure-storage-blob = "^2.1.0"
+deserialize = "^1.8.0"
+requests = "^2.22.0"
+tenacity = "^8.0.1"
+types-requests = "=2.27.7"
+
+[tool.poetry.dev-dependencies]
+black = "=22.6.0"
+mypy = "=0.961"
+pylint = "=2.14.4"
+pytest = "=7.1.2"
+pytest-cov = "=3.0.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
