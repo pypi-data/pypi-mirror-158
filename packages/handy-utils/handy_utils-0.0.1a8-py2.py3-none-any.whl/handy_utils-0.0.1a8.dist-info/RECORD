@@ -1,0 +1,9 @@
+handy/__init__.py,sha256=SkBSYiICkgVRX57r6mxDXI6lgU2oWdPK06jByqIl82Y,833
+handy/_handy.py,sha256=x-21J0T5FqKF9s84bLrNKf8WV5mO60btY-T7iX0NQ_Q,5486
+handy/decorators.py,sha256=mBcKjr1vdxgdt3J44UtlB4lMARfn0hzkXjscplJ1muk,2141
+handy/re_pattern.py,sha256=rs3m7621qxkFlmZRyVouI9a2-qJK5dlAuy6Xp5Aly3U,2620
+handy/re_tk.py,sha256=mD-etsYgf34YMgYHMBPWF0z8Wy9UIgpbq1gPmcykw8c,6570
+handy_utils-0.0.1a8.dist-info/LICENSE,sha256=vHAt5Ad7soEPz4ocCIMaPJenof0V5dgdh2AzEqVuwcs,11362
+handy_utils-0.0.1a8.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+handy_utils-0.0.1a8.dist-info/METADATA,sha256=x0g2MwOpF8rfvnmLoSroRS6DG79tgP-TbZt4hpIqBZM,3437
+handy_utils-0.0.1a8.dist-info/RECORD,,
