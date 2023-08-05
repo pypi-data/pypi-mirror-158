@@ -1,0 +1,9 @@
+resin_release_tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resin_release_tool/balena_backend.py,sha256=fJvHY-SnnSmzShe3gA93YCsW_jpOG3aCrKbbulQw13M,1997
+resin_release_tool/cli.py,sha256=8j0MiyVtaHO-bclanoRbMjf8YaUFB1BgQFNmaOnIhxI,4435
+resin_release_tool/releaser.py,sha256=SSsLT27k4K_fk325uODd-fz2RXHzbaT9x6YSRY5A1qA,6731
+resin_release_tool-0.3.0.dist-info/entry_points.txt,sha256=Qn9FrutC76VXrrEfRlPr4w1-BR3uGrsjOgkguBulb_0,65
+resin_release_tool-0.3.0.dist-info/LICENSE,sha256=Pby2Bfc_CAMj4DOllaYmpGIL1flGqR-BRVc2szz8JDg,1080
+resin_release_tool-0.3.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+resin_release_tool-0.3.0.dist-info/METADATA,sha256=s9TuseqiYOnkTCUGxZ2kDWPPmyI7MztGU6VPd9xgx0g,4133
+resin_release_tool-0.3.0.dist-info/RECORD,,
