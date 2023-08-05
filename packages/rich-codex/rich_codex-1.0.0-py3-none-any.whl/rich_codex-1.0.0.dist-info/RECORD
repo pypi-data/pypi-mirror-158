@@ -1,0 +1,13 @@
+rich_codex/__init__.py,sha256=iBYggXOPPCapdKvI6TziKEZs2v8h4gkVHAv8pbPuePg,318
+rich_codex/__main__.py,sha256=ojkSBZZ3GMctVxXvjY4IDPIwJOJ8XmcddmBwictLamA,119
+rich_codex/cli.py,sha256=a49XhZm832f2ww-Ae1DwxFumyJZblk19S5C2MkobVX0,12729
+rich_codex/codex_search.py,sha256=WjPEzqXbb7hvXe9Y3QweUvlDSCCiB7OgDYJY7lXIDGs,15966
+rich_codex/config-schema.yml,sha256=ORVgSizWSI5zANL-6TvSrZViZi3dsE_6pcYyvF71UGY,5640
+rich_codex/rich_img.py,sha256=aXfG_H1x7PAKKSs2WEUIpLvLQ-5nIHnaduZzSaXjWP4,23102
+rich_codex/utils.py,sha256=5nlvq5yZaDibZ7WaPoQ60cSdRM2VWVXyhbM76zWDuqI,2991
+rich_codex-1.0.0.dist-info/LICENSE,sha256=2NzNLnMELQF5etL7HSaPr7vtudZ0JbxfvQndWIZslrI,1069
+rich_codex-1.0.0.dist-info/METADATA,sha256=sBBl7fgI8kIj0I3MP9RrQ3jbtZ5Fm7Khyek8kTM8Lt8,4589
+rich_codex-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rich_codex-1.0.0.dist-info/entry_points.txt,sha256=q3xy0TdHStIOOOIe5BxWuqoTLh63SSsIjl8Z7AC3zn8,51
+rich_codex-1.0.0.dist-info/top_level.txt,sha256=U8MhExq8snHOrrZHNPbSrVYTqbdMfU3v2FtND6gObOI,11
+rich_codex-1.0.0.dist-info/RECORD,,
