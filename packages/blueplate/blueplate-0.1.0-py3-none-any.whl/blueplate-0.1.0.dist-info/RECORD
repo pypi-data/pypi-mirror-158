@@ -1,0 +1,12 @@
+blueplate/__init__.py,sha256=FB4fzX28Mo7agGAXY9d76r1Tk-RQwpFl59meAw940KU,356
+blueplate/__main__.py,sha256=tFIF5KwM8wfleGaULLjZWjP10eHiFT7y3VZScYFNu50,8697
+blueplate/blueplate/__init__.py,sha256=KrZuY5HvmugbhQNqhK3vaYCLcTjsRPF3bpexCv1hbrg,52
+blueplate/blueplate/imports.py,sha256=zE1O9JVaLKP6UfxC9X5REsERd6bNy3E_UpbDvbjkyDc,225
+blueplate/blueplate/logger.py,sha256=LoSr_0B8VwTsl7FAQ-5lCdxNqz0BjQxEAOee7yvgfm0,7413
+blueplate/blueplate/special.py,sha256=85UTvdQ4kJrvPFSuPGzHZ3Pom7SyaX5Q1eEgFP_uKfw,13409
+blueplate/blueplate/version.py,sha256=tTF5v0pCQ3wj3WtOg6KXgEGkOMgBeRFQACKUYV29zxo,18
+blueplate-0.1.0.dist-info/LICENSE,sha256=juAlk848C1N5pCxcqI30PI0iOj1ZvecUB0rM2iVdH58,1058
+blueplate-0.1.0.dist-info/METADATA,sha256=E9ZxGLXrj5sb7TallwArSP-LVvXeYBjKQMit_KLG-R4,1595
+blueplate-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+blueplate-0.1.0.dist-info/top_level.txt,sha256=GLHL3fVbH2Ylhf7t6U68rGzlGgHRPcZ3dSb1aVPGlZs,10
+blueplate-0.1.0.dist-info/RECORD,,
