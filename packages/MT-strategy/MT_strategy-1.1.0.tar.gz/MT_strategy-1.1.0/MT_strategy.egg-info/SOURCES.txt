@@ -1,0 +1,13 @@
+LICENCE
+README.md
+setup.py
+MT_strategy/__init__.py
+MT_strategy/base.py
+MT_strategy.egg-info/PKG-INFO
+MT_strategy.egg-info/SOURCES.txt
+MT_strategy.egg-info/dependency_links.txt
+MT_strategy.egg-info/entry_points.txt
+MT_strategy.egg-info/requires.txt
+MT_strategy.egg-info/top_level.txt
+MT_strategy/xx/__init__.py
+MT_strategy/xx/a.py

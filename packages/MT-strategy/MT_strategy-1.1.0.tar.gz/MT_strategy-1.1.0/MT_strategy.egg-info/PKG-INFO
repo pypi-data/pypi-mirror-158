@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: MT-strategy
+Version: 1.1.0
+Summary: 用于测试发布
+Home-page: UNKNOWN
+Author: xueqiliu
+Author-email: liu78966@gmail.com
+Maintainer: 
+Maintainer-email: 
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENCE
+
+UNKNOWN
+
