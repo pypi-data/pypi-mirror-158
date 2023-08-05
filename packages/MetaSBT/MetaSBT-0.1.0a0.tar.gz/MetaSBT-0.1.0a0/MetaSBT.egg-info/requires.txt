@@ -1,0 +1,5 @@
+ncbi-genome-download
+ncbitax2lin
+numpy
+requests
+tqdm
