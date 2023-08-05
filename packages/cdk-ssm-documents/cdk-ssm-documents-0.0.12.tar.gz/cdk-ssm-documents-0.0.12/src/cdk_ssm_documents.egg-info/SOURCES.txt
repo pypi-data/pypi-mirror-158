@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+NOTICE
+README.md
+pyproject.toml
+setup.py
+src/cdk-ssm-documents/__init__.py
+src/cdk-ssm-documents/py.typed
+src/cdk-ssm-documents/_jsii/__init__.py
+src/cdk-ssm-documents/_jsii/cdk-ssm-documents@0.0.12.jsii.tgz
+src/cdk_ssm_documents.egg-info/PKG-INFO
+src/cdk_ssm_documents.egg-info/SOURCES.txt
+src/cdk_ssm_documents.egg-info/dependency_links.txt
+src/cdk_ssm_documents.egg-info/requires.txt
+src/cdk_ssm_documents.egg-info/top_level.txt
