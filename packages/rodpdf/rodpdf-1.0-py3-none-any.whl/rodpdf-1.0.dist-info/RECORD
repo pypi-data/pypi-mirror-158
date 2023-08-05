@@ -1,0 +1,8 @@
+rodpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rodpdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rodpdf/pdf2text.py,sha256=5--64-OYoPnJr369BowREbCyMU2VZrAXDrr2AB1VAx4,39
+rodpdf-1.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+rodpdf-1.0.dist-info/METADATA,sha256=rlKXfGa0LXzWTjkMRVfkKw1AzfzB-klHW3ogC4GUFlA,197
+rodpdf-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rodpdf-1.0.dist-info/top_level.txt,sha256=vTZFx9wZFshpywsj-hxIBkcsClWQziqS0beBFtmK-uU,7
+rodpdf-1.0.dist-info/RECORD,,
