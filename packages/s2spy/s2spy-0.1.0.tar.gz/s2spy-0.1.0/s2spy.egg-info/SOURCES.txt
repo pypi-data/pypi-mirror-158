@@ -1,0 +1,15 @@
+CITATION.cff
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+s2spy/__init__.py
+s2spy/time.py
+s2spy.egg-info/PKG-INFO
+s2spy.egg-info/SOURCES.txt
+s2spy.egg-info/dependency_links.txt
+s2spy.egg-info/not-zip-safe
+s2spy.egg-info/requires.txt
+s2spy.egg-info/top_level.txt
