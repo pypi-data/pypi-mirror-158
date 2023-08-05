@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: Optlib
+Version: 0.2.0
+Summary: Option Lib
+License: MIT
+Author-email: Nasy <nasyxx+python@gmail.com>
+Requires-Python: >=3.9,<3.11
+Requires-Dist: chaospy
+Requires-Dist: numpy
+Requires-Dist: scipy>=1.8.0
+Description-Content-Type: text/markdown
+
+
+# Table of Contents
+
+
+
+An Options Library
+
+Include:
+
+-   `price_bsm`
+-   `price_dynamic_replication`
+-   `price_risk_neutral`
+-   greeks
+-   bsm
+-   diff
+-   mc
+
+
