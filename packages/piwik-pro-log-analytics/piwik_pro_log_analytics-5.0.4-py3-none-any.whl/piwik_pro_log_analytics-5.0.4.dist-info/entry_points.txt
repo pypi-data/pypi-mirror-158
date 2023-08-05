@@ -1,0 +1,3 @@
+[console_scripts]
+piwik_pro_log_analytics=piwik_pro_log_analytics.import_logs:main
+
