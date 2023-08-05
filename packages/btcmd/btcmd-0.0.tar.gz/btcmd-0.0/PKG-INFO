@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: btcmd
+Version: 0.0
+Summary: Bookmark Terminal Commands
+Home-page: https://github.com/gbhgit/bookmarked-terminal-commands
+Download-URL: https://github.com/gbhgit/bookmarked-terminal-commands/archive/refs/tags/v.0.0.tar.gz
+Author: Gabriel Bandeira and Wellington Mendes
+Author-email: wellmend0@gmail.com
+License: MIT
+Keywords: terminal,bookmark,commands
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+btcmd/__init__.py
+btcmd/btcmd.py
+btcmd.egg-info/PKG-INFO
+btcmd.egg-info/SOURCES.txt
+btcmd.egg-info/dependency_links.txt
+btcmd.egg-info/top_level.txt
