@@ -1,0 +1,3 @@
+[console_scripts]
+gstorage_backup = src.gstorage_backup
+

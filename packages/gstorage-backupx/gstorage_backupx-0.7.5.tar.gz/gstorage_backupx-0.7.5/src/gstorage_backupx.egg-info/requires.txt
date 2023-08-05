@@ -1,0 +1,5 @@
+wheel
+google-cloud-storage
+fire
+python-dotenv
+python-slugify
