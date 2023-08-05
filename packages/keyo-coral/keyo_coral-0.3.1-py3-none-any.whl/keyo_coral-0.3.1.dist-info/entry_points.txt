@@ -1,0 +1,2 @@
+[console_scripts]
+sanic = keyo.app:app
