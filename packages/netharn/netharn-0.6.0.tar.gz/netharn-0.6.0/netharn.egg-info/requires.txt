@@ -1,0 +1,646 @@
+six
+ubelt
+parse
+pyflakes
+astunparse
+pygtrie
+scriptconfig
+kwarray
+kwimage
+kwplot
+torch_liberator
+
+[:python_version < "3.0"]
+imageio<2.8.0
+qualname
+
+[:python_version < "3.10" and python_version >= "3.9"]
+torch
+torchvision
+numpy
+
+[:python_version < "3.7" and python_version >= "3.6"]
+torch
+torchvision
+numpy
+
+[:python_version < "3.8" and python_version >= "3.7"]
+torch
+torchvision
+numpy
+
+[:python_version < "3.9" and python_version >= "3.8"]
+torch
+torchvision
+numpy
+
+[:python_version > "3.0"]
+imageio
+
+[:python_version >= "3.10"]
+torch
+torchvision
+numpy
+
+[all]
+six
+ubelt
+parse
+pyflakes
+astunparse
+pygtrie
+scriptconfig
+kwarray
+kwimage
+kwplot
+torch_liberator
+xdoctest
+tqdm
+protobuf
+psutil
+Pygments
+tensorboard_logger
+tensorboard
+sympy
+ndsampler
+kwcoco
+colormath
+
+[all-strict]
+six==1.11.0
+ubelt==1.1.2
+parse==1.8.4
+pyflakes==2.4.0
+astunparse==1.6.1
+pygtrie==2.3.3
+scriptconfig==0.5.8
+kwarray==0.6.0
+kwimage==0.9.2
+kwplot==0.4.12
+torch_liberator==0.0.4
+xdoctest==0.15.10
+tqdm==4.23.4
+protobuf==3.6.0
+psutil==5.4.7
+Pygments==2.2.0
+tensorboard_logger==0.1.0
+tensorboard==1.8.0
+sympy==1.3
+ndsampler==0.6.7
+kwcoco==0.2.31
+colormath
+
+[all-strict:python_version < "2.8.0" and python_version >= "2.7.0"]
+pytest<=4.6.11,==4.6.0
+pytest-cov==2.8.1
+
+[all-strict:python_version < "3.0"]
+imageio<2.8.0
+qualname==0.1.0
+
+[all-strict:python_version < "3.10" and python_version >= "3.9"]
+torch==1.11.0
+torchvision==0.12.0
+numpy==1.21.4
+pandas==1.4.0
+Pillow==9.1.0
+matplotlib==3.5.0
+scikit-learn==1.0.2
+scipy==1.8.0
+
+[all-strict:python_version < "3.10.0" and python_version >= "3.7.0"]
+pytest==4.6.0
+
+[all-strict:python_version < "3.5.0" and python_version >= "3.4.0"]
+pytest<=4.6.11,==4.6.0
+pytest-cov==2.8.1
+
+[all-strict:python_version < "3.6" and python_version >= "2.7"]
+coverage==4.4.0
+seaborn==0.9.1
+
+[all-strict:python_version < "3.6" and python_version >= "3.5"]
+matplotlib==3.0.0
+
+[all-strict:python_version < "3.6.0" and python_version >= "3.5.0"]
+pytest<=6.1.2,==4.6.0
+pytest-cov==2.9.0
+
+[all-strict:python_version < "3.6.1" and python_version >= "3.6"]
+pandas==1.1.4
+
+[all-strict:python_version < "3.7" and python_version >= "3.6"]
+torch==1.7.0
+torchvision==0.8.1
+numpy==1.19.2
+Pillow==8.0.0
+matplotlib==3.1.0
+scikit-learn==0.24.1
+scipy==1.5.4
+
+[all-strict:python_version < "3.7" and python_version >= "3.6.1"]
+pandas==1.1.4
+
+[all-strict:python_version < "3.7.0" and python_version >= "3.6.0"]
+pytest==4.6.0
+
+[all-strict:python_version < "3.7.1" and python_version >= "3.7"]
+pandas==1.1.4
+
+[all-strict:python_version < "3.8" and python_version >= "3.7"]
+torch==1.7.0
+torchvision==0.8.1
+numpy==1.19.2
+Pillow==8.0.0
+matplotlib==3.4.0
+scikit-learn==0.24.1
+scipy==1.6.0
+
+[all-strict:python_version < "3.8" and python_version >= "3.7.1"]
+pandas==1.2.0
+
+[all-strict:python_version < "3.9" and python_version >= "3.8"]
+torch==1.7.0
+torchvision==0.8.1
+numpy==1.19.2
+pandas==1.4.0
+Pillow==8.0.1
+matplotlib==3.4.0
+scikit-learn==1.0.2
+scipy==1.8.0
+
+[all-strict:python_version > "3.0"]
+imageio>2.6.0
+
+[all-strict:python_version >= "3.10"]
+torch==1.11.0
+torchvision==0.12.0
+numpy==1.21.6
+pandas==1.4.0
+Pillow==9.1.0
+matplotlib==3.5.0
+scikit-learn==1.0.2
+scipy==1.8.0
+
+[all-strict:python_version >= "3.10.0"]
+pytest==6.2.5
+
+[all-strict:python_version >= "3.6"]
+coverage==5.2.1
+seaborn==0.10.0
+torch-optimizer==0.3.0
+
+[all-strict:python_version >= "3.6.0"]
+pytest-cov==3.0.0
+
+[all:python_version < "2.8.0" and python_version >= "2.7.0"]
+pytest
+pytest-cov
+
+[all:python_version < "3.0"]
+imageio<2.8.0
+qualname
+
+[all:python_version < "3.10" and python_version >= "3.9"]
+torch
+torchvision
+numpy
+pandas
+Pillow
+matplotlib
+scikit-learn
+scipy
+
+[all:python_version < "3.10.0" and python_version >= "3.7.0"]
+pytest
+
+[all:python_version < "3.5.0" and python_version >= "3.4.0"]
+pytest
+pytest-cov
+
+[all:python_version < "3.6" and python_version >= "2.7"]
+coverage
+seaborn
+
+[all:python_version < "3.6" and python_version >= "3.5"]
+matplotlib
+
+[all:python_version < "3.6.0" and python_version >= "3.5.0"]
+pytest
+pytest-cov
+
+[all:python_version < "3.6.1" and python_version >= "3.6"]
+pandas
+
+[all:python_version < "3.7" and python_version >= "3.6"]
+torch
+torchvision
+numpy
+Pillow
+matplotlib
+scikit-learn
+scipy
+
+[all:python_version < "3.7" and python_version >= "3.6.1"]
+pandas
+
+[all:python_version < "3.7.0" and python_version >= "3.6.0"]
+pytest
+
+[all:python_version < "3.7.1" and python_version >= "3.7"]
+pandas
+
+[all:python_version < "3.8" and python_version >= "3.7"]
+torch
+torchvision
+numpy
+Pillow
+matplotlib
+scikit-learn
+scipy
+
+[all:python_version < "3.8" and python_version >= "3.7.1"]
+pandas
+
+[all:python_version < "3.9" and python_version >= "3.8"]
+torch
+torchvision
+numpy
+pandas
+Pillow
+matplotlib
+scikit-learn
+scipy
+
+[all:python_version > "3.0"]
+imageio
+
+[all:python_version >= "3.10"]
+torch
+torchvision
+numpy
+pandas
+Pillow
+matplotlib
+scikit-learn
+scipy
+
+[all:python_version >= "3.10.0"]
+pytest
+
+[all:python_version >= "3.6"]
+coverage
+seaborn
+torch-optimizer
+
+[all:python_version >= "3.6.0"]
+pytest-cov
+
+[graphics]
+
+[graphics-strict]
+
+[graphics-strict:python_version < "3.10" and python_version >= "3.9"]
+opencv-python==3.4.15.55
+
+[graphics-strict:python_version < "3.4" and python_version >= "2.7"]
+opencv-python==3.1.0.0
+
+[graphics-strict:python_version < "3.5" and python_version >= "3.4"]
+opencv-python==3.1.0.5
+
+[graphics-strict:python_version < "3.6" and python_version >= "3.5"]
+opencv-python==3.1.0.2
+
+[graphics-strict:python_version < "3.7" and python_version >= "3.6"]
+opencv-python==3.4.13.47
+
+[graphics-strict:python_version < "3.8" and python_version >= "3.7"]
+opencv-python==3.4.15.55
+
+[graphics-strict:python_version < "3.9" and python_version >= "3.8"]
+opencv-python==3.4.15.55
+
+[graphics-strict:python_version >= "3.10"]
+opencv-python==4.5.4.58
+
+[graphics:python_version < "3.10" and python_version >= "3.9"]
+opencv-python
+
+[graphics:python_version < "3.4" and python_version >= "2.7"]
+opencv-python
+
+[graphics:python_version < "3.5" and python_version >= "3.4"]
+opencv-python
+
+[graphics:python_version < "3.6" and python_version >= "3.5"]
+opencv-python
+
+[graphics:python_version < "3.7" and python_version >= "3.6"]
+opencv-python
+
+[graphics:python_version < "3.8" and python_version >= "3.7"]
+opencv-python
+
+[graphics:python_version < "3.9" and python_version >= "3.8"]
+opencv-python
+
+[graphics:python_version >= "3.10"]
+opencv-python
+
+[headless]
+
+[headless-strict]
+
+[headless-strict:python_version < "3.10" and python_version >= "3.9"]
+opencv-python-headless==3.4.13.47
+
+[headless-strict:python_version < "3.4" and python_version >= "2.7"]
+opencv-python-headless==3.4.2.16
+
+[headless-strict:python_version < "3.5" and python_version >= "3.4"]
+opencv-python-headless==3.4.2.16
+
+[headless-strict:python_version < "3.6" and python_version >= "3.5"]
+opencv-python-headless==3.4.11.39
+
+[headless-strict:python_version < "3.7" and python_version >= "3.6"]
+opencv-python-headless==3.4.13.47
+
+[headless-strict:python_version < "3.8" and python_version >= "3.7"]
+opencv-python-headless==3.4.13.47
+
+[headless-strict:python_version < "3.9" and python_version >= "3.8"]
+opencv-python-headless==3.4.13.47
+
+[headless-strict:python_version >= "3.10"]
+opencv-python-headless==4.5.4.58
+
+[headless:python_version < "3.10" and python_version >= "3.9"]
+opencv-python-headless
+
+[headless:python_version < "3.4" and python_version >= "2.7"]
+opencv-python-headless
+
+[headless:python_version < "3.5" and python_version >= "3.4"]
+opencv-python-headless
+
+[headless:python_version < "3.6" and python_version >= "3.5"]
+opencv-python-headless
+
+[headless:python_version < "3.7" and python_version >= "3.6"]
+opencv-python-headless
+
+[headless:python_version < "3.8" and python_version >= "3.7"]
+opencv-python-headless
+
+[headless:python_version < "3.9" and python_version >= "3.8"]
+opencv-python-headless
+
+[headless:python_version >= "3.10"]
+opencv-python-headless
+
+[optional]
+tqdm
+protobuf
+psutil
+Pygments
+tensorboard_logger
+tensorboard
+sympy
+ndsampler
+kwcoco
+colormath
+
+[optional-strict]
+tqdm==4.23.4
+protobuf==3.6.0
+psutil==5.4.7
+Pygments==2.2.0
+tensorboard_logger==0.1.0
+tensorboard==1.8.0
+sympy==1.3
+ndsampler==0.6.7
+kwcoco==0.2.31
+colormath
+
+[optional-strict:python_version < "3.10" and python_version >= "3.9"]
+pandas==1.4.0
+Pillow==9.1.0
+matplotlib==3.5.0
+scikit-learn==1.0.2
+scipy==1.8.0
+
+[optional-strict:python_version < "3.6" and python_version >= "2.7"]
+seaborn==0.9.1
+
+[optional-strict:python_version < "3.6" and python_version >= "3.5"]
+matplotlib==3.0.0
+
+[optional-strict:python_version < "3.6.1" and python_version >= "3.6"]
+pandas==1.1.4
+
+[optional-strict:python_version < "3.7" and python_version >= "3.6"]
+Pillow==8.0.0
+matplotlib==3.1.0
+scikit-learn==0.24.1
+scipy==1.5.4
+
+[optional-strict:python_version < "3.7" and python_version >= "3.6.1"]
+pandas==1.1.4
+
+[optional-strict:python_version < "3.7.1" and python_version >= "3.7"]
+pandas==1.1.4
+
+[optional-strict:python_version < "3.8" and python_version >= "3.7"]
+Pillow==8.0.0
+matplotlib==3.4.0
+scikit-learn==0.24.1
+scipy==1.6.0
+
+[optional-strict:python_version < "3.8" and python_version >= "3.7.1"]
+pandas==1.2.0
+
+[optional-strict:python_version < "3.9" and python_version >= "3.8"]
+pandas==1.4.0
+Pillow==8.0.1
+matplotlib==3.4.0
+scikit-learn==1.0.2
+scipy==1.8.0
+
+[optional-strict:python_version >= "3.10"]
+pandas==1.4.0
+Pillow==9.1.0
+matplotlib==3.5.0
+scikit-learn==1.0.2
+scipy==1.8.0
+
+[optional-strict:python_version >= "3.6"]
+seaborn==0.10.0
+torch-optimizer==0.3.0
+
+[optional:python_version < "3.10" and python_version >= "3.9"]
+pandas
+Pillow
+matplotlib
+scikit-learn
+scipy
+
+[optional:python_version < "3.6" and python_version >= "2.7"]
+seaborn
+
+[optional:python_version < "3.6" and python_version >= "3.5"]
+matplotlib
+
+[optional:python_version < "3.6.1" and python_version >= "3.6"]
+pandas
+
+[optional:python_version < "3.7" and python_version >= "3.6"]
+Pillow
+matplotlib
+scikit-learn
+scipy
+
+[optional:python_version < "3.7" and python_version >= "3.6.1"]
+pandas
+
+[optional:python_version < "3.7.1" and python_version >= "3.7"]
+pandas
+
+[optional:python_version < "3.8" and python_version >= "3.7"]
+Pillow
+matplotlib
+scikit-learn
+scipy
+
+[optional:python_version < "3.8" and python_version >= "3.7.1"]
+pandas
+
+[optional:python_version < "3.9" and python_version >= "3.8"]
+pandas
+Pillow
+matplotlib
+scikit-learn
+scipy
+
+[optional:python_version >= "3.10"]
+pandas
+Pillow
+matplotlib
+scikit-learn
+scipy
+
+[optional:python_version >= "3.6"]
+seaborn
+torch-optimizer
+
+[runtime-strict]
+six==1.11.0
+ubelt==1.1.2
+parse==1.8.4
+pyflakes==2.4.0
+astunparse==1.6.1
+pygtrie==2.3.3
+scriptconfig==0.5.8
+kwarray==0.6.0
+kwimage==0.9.2
+kwplot==0.4.12
+torch_liberator==0.0.4
+
+[runtime-strict:python_version < "3.0"]
+imageio<2.8.0
+qualname==0.1.0
+
+[runtime-strict:python_version < "3.10" and python_version >= "3.9"]
+torch==1.11.0
+torchvision==0.12.0
+numpy==1.21.4
+
+[runtime-strict:python_version < "3.7" and python_version >= "3.6"]
+torch==1.7.0
+torchvision==0.8.1
+numpy==1.19.2
+
+[runtime-strict:python_version < "3.8" and python_version >= "3.7"]
+torch==1.7.0
+torchvision==0.8.1
+numpy==1.19.2
+
+[runtime-strict:python_version < "3.9" and python_version >= "3.8"]
+torch==1.7.0
+torchvision==0.8.1
+numpy==1.19.2
+
+[runtime-strict:python_version > "3.0"]
+imageio>2.6.0
+
+[runtime-strict:python_version >= "3.10"]
+torch==1.11.0
+torchvision==0.12.0
+numpy==1.21.6
+
+[tests]
+xdoctest
+
+[tests-strict]
+xdoctest==0.15.10
+
+[tests-strict:python_version < "2.8.0" and python_version >= "2.7.0"]
+pytest<=4.6.11,==4.6.0
+pytest-cov==2.8.1
+
+[tests-strict:python_version < "3.10.0" and python_version >= "3.7.0"]
+pytest==4.6.0
+
+[tests-strict:python_version < "3.5.0" and python_version >= "3.4.0"]
+pytest<=4.6.11,==4.6.0
+pytest-cov==2.8.1
+
+[tests-strict:python_version < "3.6" and python_version >= "2.7"]
+coverage==4.4.0
+
+[tests-strict:python_version < "3.6.0" and python_version >= "3.5.0"]
+pytest<=6.1.2,==4.6.0
+pytest-cov==2.9.0
+
+[tests-strict:python_version < "3.7.0" and python_version >= "3.6.0"]
+pytest==4.6.0
+
+[tests-strict:python_version >= "3.10.0"]
+pytest==6.2.5
+
+[tests-strict:python_version >= "3.6"]
+coverage==5.2.1
+
+[tests-strict:python_version >= "3.6.0"]
+pytest-cov==3.0.0
+
+[tests:python_version < "2.8.0" and python_version >= "2.7.0"]
+pytest
+pytest-cov
+
+[tests:python_version < "3.10.0" and python_version >= "3.7.0"]
+pytest
+
+[tests:python_version < "3.5.0" and python_version >= "3.4.0"]
+pytest
+pytest-cov
+
+[tests:python_version < "3.6" and python_version >= "2.7"]
+coverage
+
+[tests:python_version < "3.6.0" and python_version >= "3.5.0"]
+pytest
+pytest-cov
+
+[tests:python_version < "3.7.0" and python_version >= "3.6.0"]
+pytest
+
+[tests:python_version >= "3.10.0"]
+pytest
+
+[tests:python_version >= "3.6"]
+coverage
+
+[tests:python_version >= "3.6.0"]
+pytest-cov
