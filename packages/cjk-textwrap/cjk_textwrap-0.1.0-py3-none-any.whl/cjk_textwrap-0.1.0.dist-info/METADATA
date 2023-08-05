@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: cjk-textwrap
+Version: 0.1.0
+Summary: A flexible textwrapper for CJK string
+Home-page: https://github.com/Hyiker/cjk-textwrap
+License: MIT
+Keywords: textwrap,CJK,Chinese
+Author: Carbene
+Author-email: hyikerhu0212@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: jieba (>=0.42.1,<0.43.0)
+Project-URL: Repository, https://github.com/Hyiker/cjk-textwrap
+Description-Content-Type: text/markdown
+
+## CJK Textwrap
+
+`cjk-textwrap`是Python 3.6`textwrap`模块的[中日韩字符](https://en.wikipedia.org/wiki/CJK_characters)兼容版本。此外，它提供了灵活的接口以便用户自定义分词器（如[结巴分词](https://github.com/fxsjy/jieba)）。
+
+`cjk-textwrap` is a [CJK characters](https://en.wikipedia.org/wiki/CJK_characters) compatible version of Python 3.6's `textwrap` module. Moreover, it provides flexible interfaces which allows users to define their own text segmentation for text wrapping like [jieba](https://github.com/fxsjy/jieba).
+
+### Installation 安装
+
+pip:
+
+```bash
+pip install cjk-textwrap
+```
+
+poetry:
+
+```bash
+poetry add cjk-textwrap
+```
+
+### Feature 功能特性
+
+Although user can get various language support by adding their custom splitter, `cjk-textwrap` provides built-in `English-Chinese` mixed text phrase wrapping support.
+
+虽然可以通过自定义分词器添加各种语言的支持，但是`cjk-textwrap`提供了原生的*中-英文*混合句支持。
+
+- [x] Chinese Support 中文支持
+- [ ] Japanese Support 日文支持
+- [ ] Korean Support 韩文支持
+
+### LICENSE 协议许可
+
+This project is licensed under MIT.
+
