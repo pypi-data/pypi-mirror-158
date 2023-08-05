@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/meutils-w/__init__.py
+src/meutils-w/test.py
+src/meutils_w.egg-info/PKG-INFO
+src/meutils_w.egg-info/SOURCES.txt
+src/meutils_w.egg-info/dependency_links.txt
+src/meutils_w.egg-info/top_level.txt
