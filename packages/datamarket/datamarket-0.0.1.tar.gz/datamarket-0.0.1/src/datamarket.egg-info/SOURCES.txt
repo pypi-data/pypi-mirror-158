@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/datamarket/__init__.py
+src/datamarket.egg-info/PKG-INFO
+src/datamarket.egg-info/SOURCES.txt
+src/datamarket.egg-info/dependency_links.txt
+src/datamarket.egg-info/requires.txt
+src/datamarket.egg-info/top_level.txt
