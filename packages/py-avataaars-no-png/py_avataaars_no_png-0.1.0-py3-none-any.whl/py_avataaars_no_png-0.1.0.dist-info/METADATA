@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: py-avataaars-no-png
+Version: 0.1.0
+Summary: SVG-Avatar generator library
+Home-page: https://github.com/mawoka-myblock/py-avataaars
+License: MIT
+Keywords: Python,Avatar,Avataaars,SVG,Generator,Library,Graphic,Face,Vector
+Author: Mawoka
+Author-email: mawoka@mawoka.eu
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Classifier: Topic :: Multimedia :: Graphics :: Presentation
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Project-URL: Repository, https://github.com/mawoka-myblock/py-avataaars
