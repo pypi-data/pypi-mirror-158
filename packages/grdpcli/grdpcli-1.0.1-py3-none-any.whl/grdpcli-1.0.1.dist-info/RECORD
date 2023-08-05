@@ -1,0 +1,14 @@
+grdpcli/__init__.py,sha256=s3RV97kzRi288c5xF1e3MmSQ5hYxeWIykCrAHDgrPlw,6122
+grdpcli/commands.py,sha256=EJ6bwc7Ra4AoU31WAZyX2aAmDnbyWxF2lZJmMIsFVOM,2724
+grdpcli/variable.py,sha256=t_i9Hjyug9z09K_1MaJgu12qCa_feoAl4-8KAQLDTx8,945
+grdpcli-1.0.1.data/data/__init__.py,sha256=s3RV97kzRi288c5xF1e3MmSQ5hYxeWIykCrAHDgrPlw,6122
+grdpcli-1.0.1.data/data/commands.py,sha256=EJ6bwc7Ra4AoU31WAZyX2aAmDnbyWxF2lZJmMIsFVOM,2724
+grdpcli-1.0.1.data/data/variable.py,sha256=t_i9Hjyug9z09K_1MaJgu12qCa_feoAl4-8KAQLDTx8,945
+grdpcli-1.0.1.data/data/share/grdpcli/grdpcli/__init__.py,sha256=s3RV97kzRi288c5xF1e3MmSQ5hYxeWIykCrAHDgrPlw,6122
+grdpcli-1.0.1.data/data/share/grdpcli/grdpcli/commands.py,sha256=EJ6bwc7Ra4AoU31WAZyX2aAmDnbyWxF2lZJmMIsFVOM,2724
+grdpcli-1.0.1.data/data/share/grdpcli/grdpcli/variable.py,sha256=t_i9Hjyug9z09K_1MaJgu12qCa_feoAl4-8KAQLDTx8,945
+grdpcli-1.0.1.data/scripts/grdp,sha256=fv7AmSAsa7wRWx10JPC2WyEYWhQWQ7Pe9Gtko5EofIM,893
+grdpcli-1.0.1.dist-info/METADATA,sha256=SLTYyda_xYM0L0W5d4V568wCfTlofNNvLhLJBWNfat8,264
+grdpcli-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+grdpcli-1.0.1.dist-info/top_level.txt,sha256=VhmjSf807K3GBcNq5EX2hD7NOlqOBWWXQBBGA3iE6dQ,8
+grdpcli-1.0.1.dist-info/RECORD,,
