@@ -1,0 +1,11 @@
+morphoeval/__init__.py,sha256=1u13al9ukz7F-UCM6GcNz75uZHo9Qudfi01EnU1F9J4,224
+morphoeval/__main__.py,sha256=Y6Fw_znNbBZhaUw-WnB7e0lR2T-mok5bABiIaefYm3g,2769
+morphoeval/boundary.py,sha256=ZbT99MpX2k9swLS_97Y3OCT93dpm9q4GKbXeTmZY-AM,3198
+morphoeval/common.py,sha256=XKM0ux22yYoP6bZqUFBG_Yq5gyMCDCiAHrjg7LRivfg,6487
+morphoeval/cooccurrence.py,sha256=aA6ZMLXrF-eue8SSzjp_eer4Moa3uH_Y3p9EhVq3kGw,6982
+morphoeval-0.3.0.dist-info/LICENSE,sha256=nWbBQnCV04EoWmoHmnbXj9j-zUHTanOmh0OvOA9dh1o,1070
+morphoeval-0.3.0.dist-info/METADATA,sha256=x-35jJcwCi7sa16yBq5IlLSwS8iHvcGROrare2Jvmro,6548
+morphoeval-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+morphoeval-0.3.0.dist-info/entry_points.txt,sha256=JUDtnjHdqfX40hVpMoWVHD5khPqAG2ZZbh2Ol9McY88,56
+morphoeval-0.3.0.dist-info/top_level.txt,sha256=SblWeW8RSKmjRO2MNG6-1b7EOkbVK-9hTEZ0vEWLuMw,11
+morphoeval-0.3.0.dist-info/RECORD,,
