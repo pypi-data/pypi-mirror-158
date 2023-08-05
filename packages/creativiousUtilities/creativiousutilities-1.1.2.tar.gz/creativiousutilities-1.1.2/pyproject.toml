@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "creativiousUtilities"
+version = "1.1.2"
+authors = [{name="Creativious", email="timothy@creativious.net"}]
+description = "General purpose prebuilt functions for any project that I work on"
+readme = "README.md"
+requires-python = ">=3.10"
+dependancies = ['py-cord>=2.0.0rc1']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+

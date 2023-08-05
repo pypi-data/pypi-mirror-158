@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: creativiousutilities
+Version: 1.1.2
+Summary: General purpose prebuilt functions for any project that I work on
+Author-email: Creativious <timothy@creativious.net>
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+General purpose prebuilt functions for any project that I work on
