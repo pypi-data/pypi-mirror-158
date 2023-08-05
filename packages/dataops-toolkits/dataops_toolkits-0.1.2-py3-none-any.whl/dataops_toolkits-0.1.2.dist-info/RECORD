@@ -1,0 +1,12 @@
+LICENSE,sha256=e1sLOJI2flVTotRdWW22gMN1aDtsiiHhXMdoO95cqpg,1063
+README.md,sha256=fE82hKKLG-rMnzdUx7c1TScz2N9aGv9x-qAbSbz9bTU,102
+dataops_toolkits/__init__.py,sha256=QpzZfC36EzHW0EryhVjBVRj1hIB9RfI0Stt962ZMfM8,47
+dataops_toolkits/io.py,sha256=CQX8mEO_oSHzzu4OFjYOAKoVaNuqEzZydvE_vogbg5w,3968
+dataops_toolkits/scripts/adduuid.py,sha256=0TxvudTfzoq4bGUbi9nwrYqq8M3GAPOheD13dkxt5lQ,509
+dataops_toolkits/scripts/jsonconvert.py,sha256=zDk6AASFlcU9X3mhY438hq4Qn5fYibYn8BGV_C1y66k,958
+dataops_toolkits/utils.py,sha256=3XbYKjvxQEwjiY-EmH5zXLS1kCZ7qC6yzaEFH9wXrr0,1588
+dataops_toolkits-0.1.2.dist-info/entry_points.txt,sha256=WsTbUh1Y4eWY1In46eM9EoxN5zCnxhEDGaxSh2XgIkE,119
+dataops_toolkits-0.1.2.dist-info/LICENSE,sha256=e1sLOJI2flVTotRdWW22gMN1aDtsiiHhXMdoO95cqpg,1063
+dataops_toolkits-0.1.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+dataops_toolkits-0.1.2.dist-info/METADATA,sha256=ISZI_K-SQJP2t77GKXXCjC_S93dkfv9mxz_ovuOx-So,781
+dataops_toolkits-0.1.2.dist-info/RECORD,,

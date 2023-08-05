@@ -1,0 +1,4 @@
+[console_scripts]
+adduuid=dataops_toolkits.scripts.adduuid:main
+jsonconvert=dataops_toolkits.scripts.jsonconvert:main
+
