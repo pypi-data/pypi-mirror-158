@@ -1,0 +1,2 @@
+omegaconf>=2.2.0
+typeguard>=2.13
