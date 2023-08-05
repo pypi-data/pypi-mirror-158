@@ -1,0 +1,3 @@
+[console_scripts]
+gstorage_backup_helper = gstorage_backup.py
+
