@@ -1,0 +1,16 @@
+panflute/__init__.py,sha256=YcW8raAlg7TWj_8NDLwlBMlhtqaixTz5zVL5Wi8X7qs,1332
+panflute/autofilter.py,sha256=GF9e341va3HO0OJkO_e1q0tHrPIs-r7nGWlTSJVdd9c,10814
+panflute/base.py,sha256=RONLu0iYzzC6pnVguZnYiIYLrw6nlFR3Gf0B9UpK808,8844
+panflute/containers.py,sha256=xolbh_ebUEq_qpL35TWttNbigXxO5MkoXc6wRxCgrvM,4879
+panflute/elements.py,sha256=PIk_bIwt7Gh4EVQNE9bY0lLVxTxZTgw5UI8juW28n2w,38051
+panflute/io.py,sha256=eikzurW3UmehtF4UR5B7EhxuSkDSlPIWXYtzmi4QM1A,7007
+panflute/table_elements.py,sha256=CHa7EB8RjCaYCTKO_lDdT2DhObfb1jbvlprSYFIGTY4,13625
+panflute/tools.py,sha256=Mo1YNQCpMfu3DXy0m4Mx0kTkc9aO6ZGSSGDE004UXKk,22964
+panflute/utils.py,sha256=fZbf0RUCl2xApNc1swyW_DI-4I2aZFwXpZuqf5KcwYU,4912
+panflute/version.py,sha256=-KpTT6oNPTB5eQQkTMrASEFIgR8SEoZHrCBUHJ2JeQo,48
+panflute-2.1.5.dist-info/LICENSE,sha256=tPDo_z5_USScDtq69j_YwnqyxKbNnvzFYQJ0FRLwQzg,1515
+panflute-2.1.5.dist-info/METADATA,sha256=fL13bYNqq49R600incOUEKmkN3J5L-M_jan2ujQh0cA,7580
+panflute-2.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+panflute-2.1.5.dist-info/entry_points.txt,sha256=5irNihON40bRl_kX3KEb27rH_FhjU7aNRyT-6pj1jww,67
+panflute-2.1.5.dist-info/top_level.txt,sha256=1CmJXoo5TPmuuP9VjhVC6FHbB04QcIGoNcNQw-3V-jI,9
+panflute-2.1.5.dist-info/RECORD,,
