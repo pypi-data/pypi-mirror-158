@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: uztagger
+Version: 0.0.3
+Summary: uztagger | Uzbek Morphological Part of Speech (POS) Tagging on Python
+Home-page: https://github.com/UlugbekSalaev/uztagger
+Author: Ulugbek Salaev
+Author-email: ulugbek0302@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/UlugbekSalaev/uztagger/issues
+Keywords: mophology,uzbek-language,tagging,pos,morphological tagging
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: UzMorphAnalyser
+
+# uztagger
+
+https://pypi.org/project/uztagger <br>
+https://github.com/UlugbekSalaev/uztagger
+
+uztagger tool is focused to make tagging sentence with morphological Part of Speech (POS) tagset of Uzbek word based on morphemes and limited number of lexicon. The tool includes list of POS tagset, tagging method. 
+It is created as a python library and uploaded to [PyPI](https://pypi.org/). It is simply easy to use in your python project or other programming language projects via the API. 
+
+## About project
+The tool is focused to make tagging sentence with morphological Part of Speech (POS) tagset of Uzbek word based on morphemes. The tool includes list of POS tagset, tagging method.
+
+## Quick links
+
+- [Github](https://github.com/UlugbekSalaev/uztagger)
+- [PyPI](https://pypi.org/project/uztagger/)
+- [Web-UI](https://nlp.urdu.uz/?menu=uztagger)
+
+## Demo
+
+You can use [web interface](http://nlp.urdu.uz/?menu=uztagger).
+
+## Features
+
+- Tagging 
+- POS tag list
+- Help function
+
+## Usage
+
+Three options to run uztagger:
+
+- pip
+- API 
+- Web interface
+
+### pip installation
+
+To install uztagger, simply run:
+
+```code
+pip install uztagger
+```
+
+After installation, use in python like following:
+```yml
+# import the library
+from uztagger import Tagger
+# create an object 
+tagger = Tagger()
+# call tagging method
+tagger.predict_pos('Bizlar bugun maktabga bormoqchimiz.')
+```
+
+### API
+API configurations: 
+ - Method: GET
+ - Response type: <code>string</code>
+
+
+ - URL: https://uzbeknlp.herokuapp.com/uztagger
+   - Parameters: <code>sentence:string</code></code>
+   - Sample Request: https://uzbeknlp.herokuapp.com/uztagger?sentence=maktabimda
+
+### Web-UI
+
+The web interface created to use easily the library:
+You can use web interface [here](http://nlp.urdu.uz/?menu=uztagger).
+
+![Demo image](./docs/images/web-interface-ui.png)
+
+### Options
+When you use PyPI or API, you should use following options as POS tag of a word which is optional parameters of `lemmatize()` and `analyze()` metods:<br>
+    `NOUN`  Noun<br>
+    `VERB`  Verb<br>
+    `ADJ`   Adjective<br>
+    `NUM`   Numerical<br>
+    `PRN`   Pronoun<br>
+    `ADV`   Adverb
+
+### Result Explaining
+
+The method ```predict_pos``` returns list of sentences in a string type, that an item of the list contain tuples for each token of the sentence with following format: ```(token, pos)```, for POS tag list, see <i>POS Tag List</i> section on below.  
+#### Result from `tagger` method
+
+## Documentation
+
+See [here](https://github.com/UlugbekSalaev/uztagger).
+
+## Citation
+
+```tex
+@misc{uztagger,
+  title={{uztagger}: Morphological Part of Speech Tagger Tool for Uzbek},
+  url={https://github.com/UlugbekSalaev/uztagger},
+  note={Software available from https://github.com/UlugbekSalaev/uztagger},
+  author={
+    Ulugbek Salaev},
+  year={2022},
+}
+```
+
+## Contact
+
+For help and feedback, please feel free to contact [the author](https://github.com/UlugbekSalaev).
+
+
