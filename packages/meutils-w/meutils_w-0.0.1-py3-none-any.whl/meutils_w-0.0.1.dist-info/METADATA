@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: meutils-w
+Version: 0.0.1
+Summary: A test package
+Home-page: https://github.com/pypa/sampleproject
+Author: wangdexiang
+Author-email: k7856499@163.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pypi包发布
+
+## 目录结构
+
+```python
+meutils-w
+----src
+--------meutils-w
+------------__init__.py
+------------test.py
+----LICENSE
+----pyproject.toml
+----README.md
+----setup.py
+```
+
+## 文件内容
+
+`__init__.py`
+
+```python
+if name="__init__":
+    f()
+```
+
+`test.py`
+
+```python
+def f():
+    print('just a test')
+```
+`pyproject.toml`
+
+```python
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+```
+`setup.py`
+```python
+from time import time
+import setuptools
+with open("README.md", "r", encoding="utf-8") as fh:
+     long_description = fh.read()
+setuptools.setup(
+     name="meutils-w",
+     version="0.0.0",
+     author="wangdexiang",
+     author_email="k7856499@163.com",
+     description="A test package",
+     long_description=long_description,
+long_description_content_type="text/markdown",
+     url="https://github.com/pypa/sampleproject",
+     project_urls={
+         "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
+     },
+     classifiers=[
+         "Programming Language :: Python :: 3",
+         "License :: OSI Approved :: MIT License",
+         "Operating System :: OS Independent",
+     ],
+     package_dir={"": "src"},
+     packages=setuptools.find_packages(where="src"),
+     python_requires=">=3.6",
+)
+```
+
+## 安装依赖
+
+```sh
+pip install build twine
+```
+
+## 构建测试包
+
+```sh
+python -m build
+```
+
+## 上传测试包
+
+```sh
+python -m twine upload dist/*
+```
+
+## 更新测试包
+
+```sh 
+python -m twine upload dist/* --skip-existing
+#只更新已存在的包
+```
+
+
