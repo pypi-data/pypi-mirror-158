@@ -1,0 +1,23 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chartic"
+version = "0.0.1"
+description = "Chartic API"
+readme = "README.md"
+authors = [{ name = "Pedram Parsian", email = "pedram.parsian@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["chartic", "api"]
+dependencies = [
+]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/chartic-ir/chartic"
