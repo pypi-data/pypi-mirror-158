@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+bozdicle/__init__.py
+bozdicle.egg-info/PKG-INFO
+bozdicle.egg-info/SOURCES.txt
+bozdicle.egg-info/dependency_links.txt
+bozdicle.egg-info/top_level.txt
