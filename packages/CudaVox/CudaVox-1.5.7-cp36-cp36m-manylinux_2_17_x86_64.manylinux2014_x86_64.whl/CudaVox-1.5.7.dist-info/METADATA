@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: CudaVox
+Version: 1.5.7
+Summary: Python bindings for a C++ library to convert mesh models into Voxel images with OpenMp and CUDA
+Home-page: UNKNOWN
+Author: Ben Thorpe
+Author-email: b.j.thorpe@swansea.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Requires-Dist: numpy (>=1.18)
+Requires-Dist: meshio
+
+UNKNOWN
+
