@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "clint-cli"
+version = "0.1.3"
+description = "Conventional Commits Linter"
+license = "GPL-3.0-or-later"
+authors = ["Ricardo Cisterna <r.cisternasantos@gmail.com>"]
+readme = "docs/README.md"
+repository = "https://github.com/rcisterna/clint"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Framework :: Pytest",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Version Control :: Git",
+    "Topic :: System :: Shells",
+]
+packages = [
+    { include = "clint" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7.2,<4.0"
+click = "^8.1.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+black = "^22.3.0"
+pylint = "^2.14.3"
+isort = {extras = ["colors"], version = "^5.10.1"}
+coverage = "^6.4.1"
+pytest-mock = "^3.8.1"
+Faker = "^13.14.0"
+pydocstyle = {extras = ["toml"], version = "^6.1.1"}
+bpython = "^0.22.1"
+toml = "^0.10.2"
+
+[tool.poetry.scripts]
+clint = 'clint.cli:CLI.entrypoint'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+src_paths = ["clint", "test"]
+
+[tool.pylint.format]
+max-line-length = "88"
+
+[tool.pydocstyle]
+convention = "numpy"
+
+[tool.coverage.report]
+fail_under = 80
+skip_empty = true
+
+[tool.pytest.ini_options]
+markers = ["ci_version: Run test related to semver on CI."]

@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: clint-cli
+Version: 0.1.3
+Summary: Conventional Commits Linter
+Home-page: https://github.com/rcisterna/clint
+License: GPL-3.0-or-later
+Author: Ricardo Cisterna
+Author-email: r.cisternasantos@gmail.com
+Requires-Python: >=3.7.2,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: System :: Shells
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Project-URL: Repository, https://github.com/rcisterna/clint
+Description-Content-Type: text/markdown
+
+<p align="center">
+    English - <a href="README.es.md">Español</a>
+</p>
+
+# CLint: Conventional commits linter
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+`CLint` is a command line tool that allows you to validate messages related to git commits in different ways, ensuring
+that the message is [Conventional Commits compliant](https://www.conventionalcommits.org/en/v1.0.0/#specification).
+
+## Technologies
+
+- [Python](https://www.python.org/) 3.7.2+
+- [Poetry](https://python-poetry.org/)
+
+## Installation
+
+While the implementation is still in alpha state, the only way to install `CLint` will be through `pip` (or tools
+like `poetry` and `pipenv`).
+
+### Pip
+
+```sh
+$ pip install clint-cli
+```
+
+### Poetry
+
+```sh
+$ poetry add clint-cli
+```
+
+### Pipenv
+
+```sh
+$ pipenv install clint-cli
+```
+
+## Key features
+
+- Validate a commit message in the command line.
+
+## Planned features
+
+- Allow to handle git `commit-msg` hook.
+- Make [pre-commit](https://pre-commit.com/) compatible.
+- Validate a commit message in the command line through pipes.
+- Allow to build a commit message through command line prompts.
+
+## Usage examples
+
+```sh
+# Validate a sample message
+$ clint "feat(scope): validate this message"
+Your commit message is CC compliant!
+```
+
+```sh
+# Validation error for invalid type (typo)
+$ clint "feta(scope): validate this message"
+Validation error: Type 'feta' is not valid.
+```
+
+## Project status
+
+`CLint` is currently under active development. The goal is to achieve at least the [planned features](#planned-features)
+, and then continue maintaining the code, making it compatible with future versions of Python and the libraries used in
+the project.
+
+## Source
+
+`CLint` tries to be what other tools already are, like the
+great [commitlint](https://github.com/conventional-changelog/commitlint). The difference
+with [similar tools](https://www.conventionalcommits.org/en/about/#tooling-for-conventional-commits) is that those are
+built over `Node.js`, so they are focused on `Javascript` developers. If you are not, you will be forced to
+install `Node.js` anyway in order to use those tools.
+
+## License
+
+`CLint` is distributed under the [GPL v3 license](../COPYING).
+
