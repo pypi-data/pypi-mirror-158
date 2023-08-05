@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+src/gstorage_backup.egg-info/PKG-INFO
+src/gstorage_backup.egg-info/SOURCES.txt
+src/gstorage_backup.egg-info/dependency_links.txt
+src/gstorage_backup.egg-info/entry_points.txt
+src/gstorage_backup.egg-info/requires.txt
+src/gstorage_backup.egg-info/top_level.txt
