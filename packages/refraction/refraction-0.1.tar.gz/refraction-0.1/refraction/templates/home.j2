@@ -1,0 +1,87 @@
+{# vim: set shiftwidth=2 tabstop=2 syntax=html: #}
+{% extends "base.j2" %}
+
+{% block title %}Home{% endblock %}
+{% block fullTitle %}Home{% endblock %}
+
+{% block content %}
+
+<h2>Your Bookmarked Views</h2>
+<!-- TODO: Sort these by access time (or even option for that?) -->
+<!-- TODO: Smoothen bookmark removal UX w/ JS + AJAX... -->
+<ul>
+{% for creator, view in userInfo['bookmarked'] %}
+  {% set when = userInfo['accessed'].get(creator, {}).get(view) %}
+  <li>
+    <a
+     href="{{url_for(
+         "routeView",
+         creator=creator,
+         view=view,
+         viewer=effectiveUser
+     )}}"
+     class="viewLink"
+    >
+      {{creator}}/{{view}}
+    </a>
+    {% if when %}
+      (accessed {{when|until}} at {{when}})
+    {% else %}
+      (accessed ???)
+      {# TODO: THIS? #}
+    {% endif %}
+    <a
+     href="{{url_for("routeUnbookmark", creator=creator, view=view)}}"
+     class="unbookmark"
+    >×</a>
+  </li>
+{% endfor %}
+</ul>
+
+<h2>Manage Views</h2>
+<ul>
+{% for creator, view in userInfo['managing'] %}
+  {% set when = userInfo['accessed'].get(creator, {}).get(view) %}
+  <li>
+    <a
+     href="{{url_for("routeManageView", creator=creator, view=view)}}"
+     class="viewLink"
+    >{{creator}}/{{name}}</a>
+    {% if when %}
+      (accessed {{when|until}} at {{when}})
+    {% else %}
+      (accessed ???)
+    {% endif %}
+  </li>
+{% endfor %}
+  <li>
+    <details class="createView">
+      <summary>+ Create a new view</summary>
+      {# This turns the form into a view-creation form #}
+      {% set creator = None %}
+      {% include 'viewForm.j2' %}
+    </details>
+  </li>
+</ul>
+
+<h2>Manage data uploads</h2>
+<ul>
+{% for creator, name in userInfo['uploads'] %}
+  <li>
+    <a
+     href="{{url_for("routeManageUpload", creator=creator, name=name)}}"
+     class="uploadLink"
+    >{{creator}}/{{name}}</a>
+  </li>
+{% endfor %}
+  <li>
+    <details class="createUpload">
+      <summary>+ Create a new upload</summary>
+      {# This turns the form into an upload-creation form #}
+      {% set creator = None %}
+      {% include 'uploadForm.j2' %}
+    </details>
+  </li>
+</ul>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{# vim: set shiftwidth=2 tabstop=2 syntax=html: #}
+{% extends "base.j2" %}
+
+{% block title %}No Data{% endblock %}
+{% block fullTitle %}No Data for {{creator}}/{{viewName}}{% endblock %}
+
+{% block content %}
+
+<p>You do not have any data in the view {{creator}}/{{viewName}}.</p>
+
+{% if viewInfo['contact'] %}
+<p>If you think this is an error, contact {{viewInfo['contact']}}.</p>
+{% endif %}
+
+<p><a href="{{url_for("routeHome")}}" >Back to your home page?</a></p>
+
+{% endblock %}

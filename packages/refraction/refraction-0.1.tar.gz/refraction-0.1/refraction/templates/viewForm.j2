@@ -1,0 +1,220 @@
+{# vim: set shiftwidth=2 tabstop=2 syntax=html: #}
+{# A form for creating or updating a view. Uses the following variables: 
+creator - the view creator (set to or an empty string for a view-creation form)
+viewName - the view name (can be absent if creator is None)
+viewInfo - the existing view info (not used if creator is None)
+effectiveUser - the effective username
+#}
+
+{% if not creator %}
+  {# Set up defaults #}
+  {# TODO: Per-user default contact values? #}
+  {# TODO: Default suffix based on domain? #}
+  {% set viewInfo = {
+       'source': ['upload', effectiveUser, ''],
+       'contact': '',
+       'index': 'username',
+       'suffix': '',
+       'header': 0,
+       'template': '',
+     } %}
+  {% set vfAction = url_for('routeCreateView') %}
+  {% set submitLabel = "Create view" %}
+{% else %}
+  {% set vfAction = url_for(
+       'routeManageView',
+       creator=creator,
+       view=viewName
+     ) %}
+  {% set submitLabel = "Update view" %}
+{% endif %}
+
+
+<form
+ action="{{vfAction}}"
+ method="POST"
+ id="manageView"
+>
+  {# CSRF token for flask_seasurf #}
+  <input type="hidden" name="_csrf_token" value="{{csrf_token()}}">
+  {% if creator == None %}
+    View creator: {{effectiveUser}}<br/>
+    <label for="name">
+      View name: <input required type="text" id="name" name="name">
+    </label>
+    <br/>
+  {% else %}
+    View creator: {{creator}}<br/>
+    View name: {{viewName}}<br/>
+
+    <label for="copy">
+      <input type="checkbox" id="copy" name="copy">
+      Make a copy named:
+    </label>
+    <input
+     disabled
+     type="text"
+     id="copyAs"
+     name="copyAs"
+     aria-label="New view name for copy"
+     value="{{viewName}}.2"
+    >
+    <br/>
+  {% endif %}
+
+  {% set sourceType = viewInfo['source'][0] %}
+  {% set sourceDetails = viewInfo['source'][1:] %}
+  {% include 'viewSourceWidget.j2' %}
+
+  <label for="admins">
+    View administrators (comma-separated list of usernames):
+    <input
+     type="text"
+     id="admins"
+     name="admins"
+     value="{{', '.join(viewInfo['admins'])}}"
+    >
+  </label>
+  <br/>
+
+  <label for="contact">
+    Contact info:
+    <input
+     type="text"
+     id="contact"
+     name="contact"
+     value="{{viewInfo['contact']}}"
+    >
+  </label>
+  <br/>
+
+  <label for="index">
+    Index column:
+    <input
+     type="text"
+     id="index"
+     name="index"
+     value="{{viewInfo['index']}}"
+    >
+  </label>
+  <br/>
+
+  <label for="suffix">
+    Username suffix:
+    <input
+     type="text"
+     id="suffix"
+     name="suffix"
+     value="{{viewInfo['suffix']}}"
+    >
+  </label>
+  <br/>
+
+  <label for="header">
+    Number of extra header rows to include (must be an integer):
+    <input
+     type="text"
+     id="header"
+     name="header"
+     value="{{viewInfo['header']}}"
+    >
+  </label>
+  <br/>
+
+  <label for="template">
+    Template (leave blank for default template):
+    <input
+     type="text"
+     id="template"
+     name="template"
+     value="{{viewInfo['template']}}"
+    >
+  </label>
+
+  <input type="submit" value="{{submitLabel}}">
+</form>
+
+<!-- This script handles interactivity for the view form. -->
+<script defer type="text/javascript">
+// Get a reference to the form
+let form = document.getElementById("manageView");
+
+// Get the copy checkbox and copy name text input
+let copyCB = form.querySelector("#copy");
+let copyName = form.querySelector("#copyAs");
+
+// Uncheck copyCB to override browser-level form memory
+copyCB.checked = False;
+
+// The checkbox enables/disables the input for naming the copy. The logic
+// for ignoring copyAs when copy is not True is on the server side.
+copyCB.addEventListener("input", function () {
+    if (copyCB.checked) {
+        copyName.disabled = False;
+    } else {
+        copyName.disabled = True;
+    }
+});
+
+
+// Handle the 'source' input which should always be a space-separated
+// concatenation of the per-source-type source values.
+let sourceInput = form.querySelector("#source");
+let sourceTypeSelect = form.querySelector("#sourceType");
+
+// Find all source details blocks and organize them into an object with
+// one field per source type whose values hold the div with inputs for
+// that type, followed by a sequence of each input for that type.
+let allSourceDetails = form.querySelectorAll("div.sourceDetails");
+let perTypeInputs = {};
+for (let sourceDetails of allSourceDetails) {
+    let sourceType;
+    for (let cls of sourceDetails.classList) {
+        if (cls.endsWith("Source")) {
+            sourceType = cls.slice(0, cls.length - 6);
+        }
+    }
+    perTypeInputs[sourceType] = [
+      sourceDetails,
+      sourceDetails.querySelectorAll("input")
+    ];
+}
+
+// Function to keep the 'source' input up-to-date
+function updateSource() {
+    let useInputs;
+    useInputs = perTypeInputs[sourceTypeSelect.value][1];
+    let source = sourceTypeSelect.value;
+    for (let input of useInputs) {
+        source += " " + input.value;
+    }
+    sourceInput.value = source;
+}
+
+// Attach this update function everywhere it needs to be attached
+sourceTypeSelect.addEventListener("input", updateSource);
+for (let sourceType of Object.keys(perTypeInputs) {
+    for (let input of perTypeInputs[sourceType][1]) {
+        input.addEventListener("onkeyup", updateSource);
+        input.addEventListener("input", updateSource);
+    }
+}
+// And just for good measure
+// TODO: Do we need any of the others if we have this one?
+form.addEventListener("submit", updateSource);
+
+// Function to hide whichever source inputs need to be hidden
+function hideUnusedSourceInputs() {
+  for (let sourceType of Object.keys(perTypeInputs) {
+      if (sourceType != sourceTypeSelect.value) {
+          perTypeInputs[sourceType][0].style.display = "none";
+      }
+  }
+}
+
+// Immediately hide things we don't need to show
+hideUnusedSourceInputs();
+
+// And set up an event handler to do that on-demand
+sourceTypeSelect.addEventListener("input", hideUnusedSourceInputs);
+</script>

@@ -1,0 +1,15 @@
+{# vim: set shiftwidth=2 tabstop=2 syntax=html: #}
+{% extends "base.j2" %}
+
+{% block title %}:{{creator}}/{{name}}{% endblock %}
+{% block fullTitle %}Manage upload {{creator}}/{{name}}{% endblock %}
+
+{% block content %}
+
+{% include 'uploadForm.j2' %}
+
+{# TODO: Better than this! #}
+Data:
+<pre>{{data}}</pre>
+
+{% endblock %}

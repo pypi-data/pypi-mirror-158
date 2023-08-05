@@ -1,0 +1,62 @@
+{# vim: set shiftwidth=2 tabstop=2 syntax=html: #}
+{# Note that we extend 'bare' instead of 'base' so that we don't include
+the big 'Refraction' header #}
+{% extends "bare.j2" %}
+{# A custom view template that uses the "evaluation" and "feedback"
+columns across multiple rows to display a collection of per-assignment
+evaluations. The "assignment" column is used to reference into a single
+header row to get an assignment description. The header row is also used
+to determine the title (via a "title" column) for the page. #}
+
+{# An example of data for this view would be:
+
+username, assignment, evaluation, feedback, title, hw1, hw2, hw3
+, , , , HIST 201 Grades, First essay, Diorama project, Second essay
+user1, hw1, complete, "Your essay is good, but doesn't go into enough depth."
+user1, hw2, incomplete, "Get well soon; let me know when you can turn this in.
+user1, hw3, future
+user2, hw1, excellent, "Great job analyzing the causes involved."
+user2, hw2, complete, "Your diorama was simple but meets the criteria."
+user2, hw3, future
+user3, hw1, excellent, "Good job incorporating primary sources."
+user3, hw2, complete, "Ambitious, but some details were off."
+user3, hw3, future
+#}
+
+{# We depend on a single header row #}
+{% if headerRows|length > 1 %}
+  This view is misconfigured (it should use only one header row).
+{% elif headerRows|length == 0 %}
+  This view is misconfigured (it must include a single header row).
+  {# Here we set a default so that we can at least render the data #}
+  {% set headerRows = [{'title': 'Evaluations'}]
+{% endif %}
+
+{# Grab the first (and ideally only) header row #}
+{% set info = headerRows[0] %}
+
+{% block title %}{{info["title"]}}{% endblock %}
+{% block fullTitle %}{{info["title"]}}{% endblock %}
+
+{% block content %}
+
+<table>
+<tr>
+<th>Assignment</th>
+<th>Description</th>
+<th>Evaluation</th>
+<th>Feedback</th>
+</tr>
+
+{% for row in userRows %}
+  <tr>
+    <th>{{row['assignment']}}</th>
+    <td>{{info.get(row['assignment'], '')}}</td>
+    <td>{{row['evaluation'])}}</td>
+    <td>{{row['feedback'])}}</td>
+  </tr>
+{% endfor %}
+
+</table>
+
+{% endblock %}

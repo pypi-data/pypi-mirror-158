@@ -1,0 +1,118 @@
+{# vim: set shiftwidth=2 tabstop=2 syntax=html: #}
+{# A form for creating or updating a data upload. Uses the following
+variables:
+creator - the upload creator (set to or an empty string for an
+    upload-creation form)
+name - the upload name (can be absent if creator is None)
+dataInfo - the existing upload info (not used if creator is None)
+effectiveUser - the effective username
+#}
+
+{% if not creator %}
+  {# Set up defaults #}
+  {% set dataInfo = {'editors': [], 'viewers': [], 'format': 'CSV'} %}
+  {% set ufAction = url_for('routeCreateUpload') %}
+  {% set submitLabel = "Create upload" %}
+{% else %}
+  {% set ufAction = url_for('routeManageUpload', creator=creator, name=name) %}
+  {% set submitLabel = "Update upload info" %}
+{% endif %}
+
+
+<form
+ action="{{ufAction}}"
+ method="POST"
+ id="manageUpload"
+>
+  {# CSRF token for flask_seasurf #}
+  <input type="hidden" name="_csrf_token" value="{{csrf_token()}}">
+  {% if creator == None %}
+    Upload creator: {{effectiveUser}}<br/>
+    <label for="name">
+    Upload name: <input required type="text" id="name" name="name">
+    </label>
+    <br/>
+  {% else %}
+    Upload creator: {{creator}}<br/>
+    Upload name: {{name}}<br/>
+    {# TODO: copyAs functionality for uploads? #}
+  {% endif %}
+
+  <label for="editors">
+    {# TODO: Better UX here... #}
+    Editors (comma-separated list of usernames):
+    <input
+     type="text"
+     id="editors"
+     name="editors"
+     value="{{', '.join(dataInfo['editors'])}}"
+    >
+  </label>
+  <br/>
+
+  <label for="viewers">
+    {# TODO: Better UX here... #}
+    Viewers (comma-separated list of usernames):
+    <input
+     type="text"
+     id="viewers"
+     name="viewers"
+     value="{{', '.join(dataInfo['viewers'])}}"
+    >
+  </label>
+  <br/>
+
+  <label for="format">
+    Data format:
+    <select id="format" name="format">
+      {# TODO: Auto-populate these options; include 'other'? #}
+      <option
+       value="CSV"
+       {% if dataInfo['format'] == "CSV" %}selected{% endif %}
+      >CSV (comma-separated values)</option>
+      <option
+       value="TSV"
+       {% if dataInfo['format'] == "TSV" %}selected{% endif %}
+      >TSV (tab-separated values)</option>
+      <option
+       value="JSON"
+       {% if dataInfo['format'] == "JSON" %}selected{% endif %}
+      >JSON (Javascript object notation)</option>
+    </select>
+  </label>
+  <br/>
+
+  {% if creator == None %}
+    <label for="upload">
+      Upload your data:
+      <input
+       type="file"
+       id="upload"
+       name="upload"
+       required
+      >
+    </label>
+  {% endif %}
+
+  <input type="submit" value="{{submitLabel}}">
+</form>
+
+{% if creator != None %}
+{# In this case, uploading new data is a separate action in a separate form #}
+<form
+ action="{{url_for('routeUpload', creator=creator, name=name)}}"
+ method="POST"
+ id="newVersion"
+>
+  <label for="upload">
+    Upload new data:
+    <input
+     type="file"
+     id="upload"
+     name="upload"
+     required
+    >
+  </label>
+  <input type="submit" value="Upload new version">
+</form>
+{% endif %}

@@ -1,0 +1,121 @@
+{# vim: set shiftwidth=2 tabstop=2 syntax=html: #}
+{# An input mechanism for specifying the data source for a view, which
+interacts with refraction.js to dynamically update a single hidden
+'source' input that can be split apart into a list of strings. The
+'sourceType' and 'sourceDetails' variables can be set to populate default
+values in the widget. #}
+
+{# Ensure that sourceType is valid #}
+{% if sourceType not in ("upload", "GoogleSheet") %}
+    {% set sourceType = "upload" %}
+{% endif %}
+
+{# Ensure that sourceDetails is valid #}
+{% if not sourceDetails %}
+    {% set sourceDetails = ['', ''] %}
+{% elif 2 > sourceDetails|length %}{# awkward order for syntax highlighting #}
+    {% set sourceDetails = sourceDetails + ['', ''] %}
+    {# Note that it's fine if this makes it longer than 2 #}
+{% endif %}
+
+{% if sourceType == "upload" %}
+    {% set vswCreator = sourceDetails[0] %}
+    {% set vswUploadName = sourceDetails[1] %}
+    {% set vswSheetID = "" %}
+    {% set vswSubSheet = "" %}
+{% else %}
+    {% set vswCreator = "" %}
+    {% set vswUploadName = "" %}
+    {% set vswSheetID = sourceDetails[0] %}
+    {% set vswSubSheet = sourceDetails[1] %}
+{% endif %}
+
+<div class="viewSourceWidget">
+  <input
+   type="hidden"
+   id="source"
+   name="source"
+   value="{{sourceType}} {{' '.join(sourceDetails)}}"
+  >
+  <label for="sourceType">
+    Data source:
+    <select id="sourceType" name="_sourceType">
+      <option
+       value="upload"
+       {% if sourceType == "upload" %}selected{% endif %}
+      >Uploaded Data</option>
+      <option
+       value="GoogleSheet"
+       {% if sourceType == "GoogleSheet" %}selected{% endif %}
+      >Google Sheet</option>
+    </select>
+  </label>
+  <!-- Note all but one of these sourceDetails divs will be hidden by JS -->
+  <div class="sourceDetails uploadSource">
+    <label for="sourceCreator">
+      Upload creator:
+      <input
+       type="text"
+       id="sourceCreator"
+       name="_sourceCreator"
+       value="{{vswCreator}}"
+      >
+    </label>
+    <br/>
+    <label for="sourceName">
+      Upload name:
+      <input
+       type="text"
+       id="sourceName"
+       name="_sourceName"
+       value="{{vswUploadName}}"
+      >
+    </label>
+    {% if vswUploadName %}
+      <br/>
+      Test link:
+      {% set vswUploadURL = url_for(
+           'routeManageUpload',
+           creator=vswCreator,
+           name=vswUploadName
+         ) %}
+      <a
+       class="testLink"
+       href="{{vswUploadURL}}"
+       title="View the upload specified above"
+      >{{vswUploadURL}}</a>
+    {% endif %}
+  </div>
+  <div class="sourceDetails googleSource">
+    <label for="sourceSheetID">
+      Sheet ID or link:
+      <input
+       type="text"
+       id="sourceSheetID"
+       name="_sourceSheetID"
+       value="{{vswSheetID}}"
+      >
+    </label>
+    <br/>
+    <label for="sourceSubSheet">
+      Sub-sheet name:
+      <input
+       type="text"
+       id="sourceSubSheet"
+       name="_sourceSubSheet"
+       value="{{vswSubSheet}}"
+      >
+    </label>
+    <br/>
+    {% if vswSheetID %}
+      Test link:
+      {% set vswGoogleURL =
+           "https://docs.google.com/spreadsheets/d/" + vswSheetID + "/edit" %}
+      <a
+       class="testLink"
+       href="{{vswGoogleURL}}"
+       title="View the Google Sheet specified above"
+      >{{vswGoogleURL}}</a>
+    {% endif %}
+  </div>
+</div>

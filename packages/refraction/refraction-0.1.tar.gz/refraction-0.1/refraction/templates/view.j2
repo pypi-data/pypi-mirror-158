@@ -1,0 +1,41 @@
+{# vim: set shiftwidth=2 tabstop=2 syntax=html: #}
+{% extends "base.j2" %}
+
+{% block title %}{{creator}}/{{viewName}}{% endblock %}
+{% block fullTitle %}Viewing {{creator}}/{{viewName}}{% endblock %}
+
+{% block content %}
+
+{# Guaranteed to always be at least one of these #}
+{% set firstRow = userRows[0] %}
+
+<table>
+
+{# Column names determined by first user row #}
+<tr>
+  {% for column in firstRow %}
+    <th>{{column}}</th>
+  {% endfor %}
+</tr>
+
+{# Include header rows first #}
+{% for row in headerRows %}
+  <tr>
+    {% for column in firstRow %}
+      <td>{{row[column]}}</td>
+    {% endfor %}
+  </tr>
+{% endfor %}
+
+{# Now the user rows #}
+{% for row in userRows %}
+  <tr>
+    {% for column in firstRow %}
+      <td>{{row[column]}}</td>
+    {% endfor %}
+  </tr>
+{% endfor %}
+
+</table>
+
+{% endblock %}

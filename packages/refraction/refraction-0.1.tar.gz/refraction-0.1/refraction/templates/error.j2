@@ -1,0 +1,26 @@
+{# vim: set shiftwidth=2 tabstop=2 syntax=html: #}
+{% extends "base.j2" %}
+
+{% block title %}Error{% endblock %}
+{% block fullTitle %}Error{% endblock %}
+
+{% block content %}
+<div class="container">
+<a href="{{url_for("routeHome")}}" >Back to the home page?</a>
+
+<p>
+This page is not available right now due to an error:
+</p>
+
+<p>
+{{error|safe}}
+</p>
+
+<p>
+First, try refreshing the page to see if the error is temporary. If that
+doesn't help, please check {{announcements|safe}} for an announcement,
+and contact {{support_link|safe}} if there isn't one.
+</p>
+</div>
+
+{% endblock %}

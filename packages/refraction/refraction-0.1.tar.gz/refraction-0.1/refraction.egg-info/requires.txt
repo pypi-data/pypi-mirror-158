@@ -1,0 +1,14 @@
+
+[google]
+google
+googleapiclient
+
+[https_debug]
+openssl
+
+[security]
+flask_talisman
+flask_seasurf
+
+[test]
+pytest

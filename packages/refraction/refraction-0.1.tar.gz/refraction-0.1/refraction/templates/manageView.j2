@@ -1,0 +1,11 @@
+{# vim: set shiftwidth=2 tabstop=2 syntax=html: #}
+{% extends "base.j2" %}
+
+{% block title %}~{{creator}}/{{viewName}}{% endblock %}
+{% block fullTitle %}Managing View {{creator}}/{{viewName}}{% endblock %}
+
+{% block content %}
+
+{% include 'viewForm.j2' %}
+
+{% endblock %}

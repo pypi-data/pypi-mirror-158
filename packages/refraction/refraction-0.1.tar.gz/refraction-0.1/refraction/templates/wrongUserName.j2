@@ -1,0 +1,13 @@
+{# vim: set shiftwidth=2 tabstop=2 syntax=html: #}
+{% extends "base.j2" %}
+
+{% block title %}Wrong Username{% endblock %}
+{% block fullTitle %}You are not {{viewer}}{% endblock %}
+
+{% block content %}
+
+<p>You cannot view this page as {{viewer}}.</p>
+
+<p>Use this link to <a href="{{url_for("routeView", creator=creator, view=viewName, viewer=effectiveUser)}} ">view as yourself</a>.
+
+{% endblock %}

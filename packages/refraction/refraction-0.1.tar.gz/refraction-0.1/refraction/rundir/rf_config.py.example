@@ -1,0 +1,68 @@
+"""
+Configuration for the refraction/app.py WSGI app that hosts the
+refraction per-row-sharing web interface.
+"""
+
+# Where students should direct support requests if things aren't working
+SUPPORT_EMAIL = 'username@example.com'
+SUPPORT_LINK = '<a href="mailto:{}">User Name</a>'.format(SUPPORT_EMAIL)
+
+# Disable SSL when in local-run debug mode
+NO_DEBUG_SSL = True
+
+# Central Authentication Server config
+CAS_SERVER = 'https://login.example.com:443'
+CAS_AFTER_LOGIN = 'dashboard'
+CAS_LOGIN_ROUTE = '/module.php/casserver/cas.php/login'
+CAS_LOGOUT_ROUTE = '/module.php/casserver/cas.php/logout'
+CAS_AFTER_LOGOUT = 'https://example.com/potluck'
+CAS_VALIDATE_ROUTE = '/module.php/casserver/serviceValidate.php'
+
+# Where to load admin info:
+ADMIN_FILE = 'refraction-admin.json'
+
+# Where to look for Jinja2 template files.
+TEMPLATE_DIRECTORY = "templates"
+
+# Which port to use for the Redis connection
+STORAGE_PORT = 52317
+
+# Seconds to assume freshness after a successful mtime check
+ASSUME_FRESH = 1
+
+# Filename (in this directory) where the service account's access key
+# file is stored for accessing Google Sheets. Set to None if you don't
+# want to use Sheets integration.
+GOOGLE_API_SERVICE_KEY_FILENAME = 'credentials.json'
+
+# The name of the sub-sheet that will be checked to ensure that the
+# creator of a view has permission to create views of that sheet.
+PERMISSIONS_SHEET_NAME = 'refraction-permissions'
+
+# The domain (including '@') which can be appended to a username to
+# create an email address. Used as the default suffix for views and for
+# matching both usernames and email addresses in permissions sub-sheets
+# as well.
+DOMAIN = ''
+
+# The directory (relative to the run directory) where uploaded data files
+# will be stored.
+DATA_DIR = 'uploads'
+
+# Sets the number of seconds for which permission-to-view will be cached
+# (for permission-granted and permission-denied, although in other code
+# cached permission-denied values are ignored). It may take this long
+# after removing permissions for a view to be invalidated, although
+# because permission-denied is treated differently, granting permissions
+# should be instantaneous.
+VIEW_PERMISSION_CACHE_TIME = 20
+
+# Number of views to cache permissions for at once. Old or random
+# (depending on Python version) cached permissions are evicted when we go
+# over this limit.
+VIEW_PERMISSION_CACHE_SIZE_LIMIT = 1000000
+
+# Number of old or random (depending on Python version) permissions to
+# prune when attempting to add one that would go over the limit. Balance
+# amortized performance against one-time poor performance here.
+VIEW_PERMISSION_PRUNE = 100

@@ -1,0 +1,4 @@
+{
+    "admins": [ "test", "test2" ],
+    "MASQUERADE": { "test2": "user1" }
+}

@@ -1,0 +1,11 @@
+include tox.ini
+graft refraction/rundir
+graft refraction/templates
+graft refraction/static
+exclude refraction/rundir/secret
+exclude refraction/rundir/syncauth
+exclude refraction/rundir/rf_config.py
+global-exclude __pycache__/*
+global-exclude *.py[co]
+global-exclude .gitignore
+global-exclude .DS_Store
