@@ -1,0 +1,3 @@
+[console_scripts]
+mikasa=mikasa.main:app
+
