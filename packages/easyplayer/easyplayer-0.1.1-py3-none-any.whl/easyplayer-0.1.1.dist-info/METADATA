@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: easyplayer
+Version: 0.1.1
+Summary: Easyplayer is a python library that encapsulates the complex API of pygame2 to help users build games faster.
+Home-page: https://github.com/stripepython/easyplayer
+Author: stripe-python
+Author-email: stripe-python@139.com
+Maintainer: stripe-python
+Maintainer-email: stripe-python@139.com
+License: UNKNOWN
+Download-URL: https://github.com/stripepython/easyplayer
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pygame (==2.1.2)
+Requires-Dist: click (~=8.0.3)
+Requires-Dist: numpy (~=1.21.0)
+Requires-Dist: opencv-python (~=4.5.2.54)
+Requires-Dist: tqdm (~=4.47.0)
+Requires-Dist: pydub (~=0.24.1)
+Requires-Dist: pillow (~=8.3.0)
+Requires-Dist: requests (~=2.25.1)
+Requires-Dist: aiml (~=0.9.2)
+Requires-Dist: pinyin2hanzi (~=0.1.1)
+Requires-Dist: pyttsx3 (~=2.90)
+Requires-Dist: future (~=0.18.2)
+Requires-Dist: dataclasses (~=0.6)
+
+# Easyplayer
+Easyplayer is a python library that encapsulates the complex API of pygame2 to help users build games faster.
+
+<h1 style="color:red;">Dev Version, instable!</h1>
+
+
