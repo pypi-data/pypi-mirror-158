@@ -1,0 +1,4 @@
+[console_scripts]
+servicenow-test-runner-scheduler=servicenow_test_runner_scheduler.cli:main
+snowtrs=servicenow_test_runner_scheduler.cli:main
+
