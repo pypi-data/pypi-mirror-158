@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: slxpy
+Version: 1.4.0
+Summary: Simulink Python binding generator.
+Home-page: https://github.com/jjyyxx/slxpy
+Author: Jiang Yuxuan
+Author-email: jyx21@mails.tsinghua.edu.cn
+License: MIT
+Keywords: simulink,c++,gym
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: gym
+License-File: LICENSE
+
+# Slxpy
+![PyPI](https://img.shields.io/pypi/v/slxpy)
+[![MATLAB FileExchange](https://img.shields.io/badge/MATLAB-FileExchange-blue.svg)](https://www.mathworks.com/matlabcentral/fileexchange/100416-slxpy)
+
+Toolchain for seamlessly generating efficient Simulink-to-Python binding and gym-like environment wrapper.
+
+> For smooth integration, it's recommended to read through the [wiki](https://github.com/jjyyxx/slxpy/wiki) carefully
+
+## Features
+
+- Almost complete Simulink and Embedded Coder features support
+- Compatible with a wide range of MATLAB versions
+- Help tuning Simulink code generation config
+- Mininal dependencies and cross-platform, not depending on MATLAB after Simulink code generation step
+- Exchange array data with numpy for efficiency
+- Raw and gym environment wrapper, with seeding and parameter randomization support
+- Automatic single-node parallelization with vector environment
+- Generate human-readable object `__repr__` for ease of use
+- Automatically generate stub file to assist development (with pybind11-stubgen)
+- Compile with all modern C++ compilers
+
+## Prerequisities & Installation & Quick start
+
+You need to prepare Python, optionally MATLAB and a C++ compiler to begin with slxpy. See the [wiki](https://github.com/jjyyxx/slxpy/wiki) for details.
+
+## Flowchart
+Github wiki does not support mermaid graph in markdown yet, so a flowchart is attached here.
+The flowchart briefly describes common workflow for your smoother integration. You could refer to relevant sections in wiki for details.
+
+```mermaid
+graph TD;
+    Learn[Learn fundamentals];
+    Prerequisities[Prerequisities];
+    Installation[Installation];
+    Model[Prepare model];
+    Create[Create project];
+    Setup["(MATLAB) slxpy.setup_config(project_path)"];
+    Codegen["(MATLAB) slxpy.codegen(project_path)"];
+    Generate["(CLI) slxpy generate"];
+    Build["(CLI) python setup.py build"];
+    Test["Test & Done"];
+
+    MTC(["On model.toml change"]);
+    MC(["On model change"]);
+    ETC(["On env.toml change"]);
+
+    subgraph Preparation
+    Prerequisities --> Installation;
+    end
+    Installation --> Create;
+    subgraph Main workflow
+        Create --> Setup --> Codegen --> Generate --> Build --> Test;
+        Model --> Setup;
+        MTC --Rerun--> Setup;
+        MC --Rerun--> Codegen;
+        ETC --Rerun--> Generate;
+    end
+```
+
+Copy / Fork basic idea:
+Keep track of all pointers by matching macro (due to no memory allocation, should all be relative pointers)
+Validate in range
+Rewrite macro distinguish copy and init
+Use a vector to register pointers, inject code in header
+
+rtsiSetSimTimeStepPtr
+rtsiSetTPtr
+rtsiSetStepSizePtr
+rtsiSetdXPtr
+rtsiSetContStatesPtr
+rtsiSetNumContStatesPtr
+rtsiSetNumPeriodicContStatesPtr
+rtsiSetPeriodicContStateIndicesPtr
+rtsiSetPeriodicContStateRangesPtr
+rtsiSetErrorStatusPtr
+rtsiSetRTModelPtr
+
+Except
+
+rtsiSetSimTimeStep
+rtsiSetIsMinorTimeStepWithModeChange
+rtmSetFirstInitCond
