@@ -1,0 +1,12 @@
+[aiida.calculations]
+yambo_wannier90.gw2wannier90=aiida_yambo_wannier90.calculations.gw2wannier90:Gw2wannier90Calculation
+
+[aiida.parsers]
+yambo_wannier90.gw2wannier90=aiida_yambo_wannier90.parsers.gw2wannier90:Gw2wannier90Parser
+
+[aiida.workflows]
+yambo_wannier90=aiida_yambo_wannier90.workflows:YamboWannier90WorkChain
+
+[console_scripts]
+aiida-yambo-wannier90=aiida_yambo_wannier90.cli:cmd_root
+

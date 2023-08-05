@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: aiida-yambo-wannier90
+Version: 0.1.0b0
+Summary: Plugin to combine Wannier90 interpolations with GW corrections computed by Yambo
+Keywords: aiida,plugin
+Author: The AiiDA Team
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: AiiDA
+Requires-Dist: aiida-core>=1.6.4,<3
+Requires-Dist: voluptuous
+Requires-Dist: aiida-yambo>=1.3.0
+Requires-Dist: aiida-wannier90-workflows>=1.0.1
+Requires-Dist: sphinx ; extra == "docs"
+Requires-Dist: sphinxcontrib-contentui ; extra == "docs"
+Requires-Dist: sphinxcontrib-details-directive ; extra == "docs"
+Requires-Dist: furo ; extra == "docs"
+Requires-Dist: markupsafe<2.1 ; extra == "docs"
+Requires-Dist: pre-commit~=2.17 ; extra == "pre-commit"
+Requires-Dist: pylint>=2.5.0,<2.9 ; extra == "pre-commit"
+Requires-Dist: pgtest~=1.3.1 ; extra == "testing"
+Requires-Dist: wheel~=0.31 ; extra == "testing"
+Requires-Dist: coverage[toml] ; extra == "testing"
+Requires-Dist: pytest~=6.0 ; extra == "testing"
+Requires-Dist: pytest-cov ; extra == "testing"
+Requires-Dist: pytest-regressions ; extra == "testing"
+Project-URL: Source, https://github.com/aiidaplugins/aiida-yambo-wannier90
+Provides-Extra: docs
+Provides-Extra: pre-commit
+Provides-Extra: testing
+
+# aiida-yambo-wannier90
+
+[![Build Status][ci-badge]][ci-link]
+[![Coverage Status][cov-badge]][cov-link]
+[![Docs status][docs-badge]][docs-link]
+[![PyPI version][pypi-badge]][pypi-link]
+
+Plugin to combine Wannier90 interpolations with GW corrections computed by Yambo
+
+## Features
+
+* Wannier interpolation of GW band structure
+
+## Repository contents
+
+* [`examples/`](examples/): An example of how to submit workflows using this plugin
+
+## Installation
+
+```shell
+pip install aiida-yambo-wannier90
+verdi quicksetup  # better to set up a new profile
+verdi plugin list aiida.workflows  # should now show the workflows in the plugins
+```
+
+## Usage
+
+Here goes a complete example of how to submit a test calculation using this plugin.
+
+A quick demo of how to submit a calculation:
+```shell
+verdi daemon start     # make sure the daemon is running
+cd examples
+./example_01.py        # run test calculation
+verdi process list -a  # check record of calculation
+```
+
+## Development
+
+```shell
+git clone https://github.com/aiidaplugins/aiida-yambo-wannier90 .
+cd aiida-yambo-wannier90
+pip install --upgrade pip
+pip install -e .[pre-commit,testing]  # install extra dependencies
+pre-commit install  # install pre-commit hooks
+pytest -v  # discover and run all tests
+```
+
+## License
+
+MIT
+
+[ci-badge]: https://github.com/aiidaplugins/aiida-yambo-wannier90/workflows/ci/badge.svg?branch=main
+[ci-link]: https://github.com/aiidaplugins/aiida-yambo-wannier90/actions
+[cov-badge]: https://coveralls.io/repos/github/aiidaplugins/aiida-yambo-wannier90/badge.svg?branch=main
+[cov-link]: https://coveralls.io/github/aiidaplugins/aiida-yambo-wannier90?branch=main
+[docs-badge]: https://readthedocs.org/projects/aiida-yambo-wannier90/badge
+[docs-link]: http://aiida-yambo-wannier90.readthedocs.io/
+[pypi-badge]: https://badge.fury.io/py/aiida-yambo-wannier90.svg
+[pypi-link]: https://badge.fury.io/py/aiida-yambo-wannier90
+
