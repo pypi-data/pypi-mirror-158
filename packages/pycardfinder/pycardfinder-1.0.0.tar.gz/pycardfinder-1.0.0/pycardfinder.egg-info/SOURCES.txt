@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+pycardfinder/__init__.py
+pycardfinder.egg-info/PKG-INFO
+pycardfinder.egg-info/SOURCES.txt
+pycardfinder.egg-info/dependency_links.txt
+pycardfinder.egg-info/requires.txt
+pycardfinder.egg-info/top_level.txt
