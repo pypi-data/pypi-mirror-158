@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+jecalculator/__init__.py
+jecalculator.egg-info/PKG-INFO
+jecalculator.egg-info/SOURCES.txt
+jecalculator.egg-info/dependency_links.txt
+jecalculator.egg-info/top_level.txt
