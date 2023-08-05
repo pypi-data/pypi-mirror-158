@@ -1,0 +1,14 @@
+weak_nlp/__init__.py,sha256=3n64BuYcYQlrXh64cJY_Lcgd2CKcri7LDVCEhYi69cQ,167
+weak_nlp/base/__init__.py,sha256=ZuEGbNhTLs61qpj5gOMtFGurcHFapOL0HVrrNk5mjJA,5291
+weak_nlp/classification/__init__.py,sha256=BkRwFFpJjueKf5lCPWGXUmvTeIbkhKfsvwU0Nq-ynTI,8177
+weak_nlp/classification/util.py,sha256=s96gx4jH89CM0PqRXP0RDzv5bQtHwyQrs7itf3upzqM,1166
+weak_nlp/extraction/__init__.py,sha256=qEvBM1lCFZ9SRLxOhY7t3CkPEuovaOz8GMP3yrzbwb8,10119
+weak_nlp/extraction/util.py,sha256=AHK2Y9rY7i7uTdKUZDncnzLrHnKL-mv2CgyCR0bLOIM,8001
+weak_nlp/shared/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weak_nlp/shared/common_util.py,sha256=-86QS7pF_2Eh-XkKbI5yg3D0Nin2uUEOoXhSUzWvJKw,852
+weak_nlp/shared/exceptions.py,sha256=sL_NYzJbCIfu1oa4feAZJnjsUvGK0LL8mwMtdY7VH8Q,156
+weak_nlp-0.0.9.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+weak_nlp-0.0.9.dist-info/METADATA,sha256=bS8IaabYBIYfKAoY_cQBEbSzzrfl1LPoN2JzL-7cgSg,4978
+weak_nlp-0.0.9.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+weak_nlp-0.0.9.dist-info/top_level.txt,sha256=JyzOi6q-fsGeAVkma_R8PooGXmuJs8zZWNMV9JUpDsg,9
+weak_nlp-0.0.9.dist-info/RECORD,,
