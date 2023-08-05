@@ -1,0 +1,18 @@
+[project]
+name = "Ultimate_Card_Deck"
+version = "0.0.2"
+authors = [
+  { name="Patrick", email="pjo101689@gmail.com" },
+]
+description = "A deck of cards with basic functionality"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pjo101010/Deck-of-Cards"
