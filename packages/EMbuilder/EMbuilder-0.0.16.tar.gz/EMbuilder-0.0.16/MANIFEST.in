@@ -1,0 +1,9 @@
+include requirements.txt
+include README.md
+include embuilder/builder.py
+include embuilder/__init__.py
+include embuilder/main.py
+include app_test.py
+include setup.py
+include data/test.json
+Dockerfile
