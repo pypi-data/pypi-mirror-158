@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: subway-detector
+Version: 0.0.2
+Summary: Automatically register models in the admin interface in a smart way.
+Home-page: UNKNOWN
+Author: summers
+Author-email: 971770426@qq.com
+License: MIT
+Keywords: python django admin autoregister
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Provides-Extra: test
+License-File: LICENSE.txt
+
+UNKNOWN
+
