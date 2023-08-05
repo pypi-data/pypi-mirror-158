@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+hellotest96/__init__.py
+hellotest96/main.py
+hellotest96.egg-info/PKG-INFO
+hellotest96.egg-info/SOURCES.txt
+hellotest96.egg-info/dependency_links.txt
+hellotest96.egg-info/top_level.txt
