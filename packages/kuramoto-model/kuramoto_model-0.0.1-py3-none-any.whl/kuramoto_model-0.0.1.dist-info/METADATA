@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: kuramoto-model
+Version: 0.0.1
+Summary: A python implementation of the Kuramoto model
+Project-URL: Homepage, https://github.com/rishabhBapat/Kuramoto-Model
+Project-URL: Bug Tracker, https://github.com/rishabhBapat/Kuramoto-Model/issues
+Author-email: Rishabh Bapat <rishabhbapat@gmail.com>
+License: Copyright (c) 2022 Rishabh Bapat
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Kuramoto Model
+
+A python implementation of the kuramoto model.
+
+## Installation
+
+```
+pip install kuramoto_model
+```
+## Usage
+
+Import the model,
+```python
+from kuramoto_model.kuramoto_model import Kuramoto
+```
+Initialise the model with the following,
+1. Number of neurons `n`
+2. Coupling constant `k`
+3. Timeseries `timeseries`: the timepoints to log results at
+4. Intrinsic Frequencies `omega_n`: defaults to n random values from a normal distribution
+5. Initial Phases `theta_n`: defaults to n random values between 0 and 2pi
+6. Adjacency Matrix `adjacency_nxn`: defaults to all to all coupling (without self-coupling)
+```python
+n = 100
+k = 0.8
+ts = np.linspace(0, 100, 1000)
+model = Kuramoto(n, k, ts)
+
+```
+Find the phase, coherence and mean frequency timeseries,
+```python
+phases = model.phase_timeseries()
+coherences = model.coherence_timeseries()
+mean_freq = model.mean_frequency_timeseries()
+``` 

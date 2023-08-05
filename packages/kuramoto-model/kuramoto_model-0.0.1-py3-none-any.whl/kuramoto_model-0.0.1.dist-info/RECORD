@@ -1,0 +1,6 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/kuramoto_model.py,sha256=a-y_of02c1g--krqaOHgdVDB6gHKgxoyJrYMpLihflE,2303
+kuramoto_model-0.0.1.dist-info/METADATA,sha256=GXLE8t9neZ6bjG2Q9I5IP9U8sIM0hWTNBhHCKeX3qUA,2641
+kuramoto_model-0.0.1.dist-info/WHEEL,sha256=9GYcviBewZ0tGkiHS6_q2LxrPLrdVjfDI7rl7LgiPxI,86
+kuramoto_model-0.0.1.dist-info/license_files/LICENSE,sha256=P1BZ1h8Au-G584y4dKrG35i9S4dq0Bc_OrfnQvde8UQ,1057
+kuramoto_model-0.0.1.dist-info/RECORD,,
