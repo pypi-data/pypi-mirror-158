@@ -1,0 +1,7 @@
+LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+async_casbin_sqlmodel_adapter/__init__.py,sha256=dC2xgHqWamSpwSO6i4cbJmxWErgzuRAfMIhzIGtOpik,96
+async_casbin_sqlmodel_adapter/adapter.py,sha256=_vHKro_ZigI16_CnkAFV-W0rsaebH1HWhaNnLx5zjzA,10580
+async_casbin_sqlmodel_adapter-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+async_casbin_sqlmodel_adapter-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+async_casbin_sqlmodel_adapter-0.0.1.dist-info/METADATA,sha256=lBXyaNadsiKmbIkTzDXjt3ti77LnH8QYTrtEJO-zUSA,6022
+async_casbin_sqlmodel_adapter-0.0.1.dist-info/RECORD,,
