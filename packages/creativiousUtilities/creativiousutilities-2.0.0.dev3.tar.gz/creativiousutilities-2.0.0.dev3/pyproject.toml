@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+ignore-vcs = true
+exclude = [
+    "sensitive/*",
+    ".log"
+]
+
+
+
+[project]
+name = "creativiousUtilities"
+version = "2.0.0.dev3"
+authors = [{name="Creativious", email="timothy@creativious.net"}]
+description = "Experimental and likely to break by update\nIf you are to use this have it require the specific version you know works\nGeneral purpose prebuilt functions for any project that I work on"
+readme = "README.md"
+requires-python = ">=3.10"
+dependancies = ['py-cord>=2.0.0rc1']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
