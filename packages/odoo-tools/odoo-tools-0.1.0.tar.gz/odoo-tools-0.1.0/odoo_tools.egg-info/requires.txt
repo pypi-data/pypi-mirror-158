@@ -1,0 +1,27 @@
+giturlparse
+toposort
+toml
+requests
+packaging
+lxml
+docutils
+polib
+six>=1.12.0
+cryptography
+click
+passlib
+ptpython
+
+[:python_version < "3.0"]
+pathlib2
+
+[docs]
+sphinx
+furo
+sphinx-argparse
+sphinx-click
+
+[test]
+mock
+pytest
+pytest-cov
