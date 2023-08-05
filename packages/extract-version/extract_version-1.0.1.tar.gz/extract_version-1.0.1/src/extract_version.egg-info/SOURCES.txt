@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/extract_version/__init__.py
+src/extract_version/extract_version.py
+src/extract_version/version.py
+src/extract_version.egg-info/PKG-INFO
+src/extract_version.egg-info/SOURCES.txt
+src/extract_version.egg-info/dependency_links.txt
+src/extract_version.egg-info/requires.txt
+src/extract_version.egg-info/top_level.txt
+test/test_extract_version.py
