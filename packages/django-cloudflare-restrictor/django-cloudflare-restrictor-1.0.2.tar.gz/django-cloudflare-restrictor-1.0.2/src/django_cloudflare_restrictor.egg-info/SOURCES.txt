@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/django_cloudflare_restrictor/__init__.py
+src/django_cloudflare_restrictor/cloudflare_ips.py
+src/django_cloudflare_restrictor/middleware.py
+src/django_cloudflare_restrictor.egg-info/PKG-INFO
+src/django_cloudflare_restrictor.egg-info/SOURCES.txt
+src/django_cloudflare_restrictor.egg-info/dependency_links.txt
+src/django_cloudflare_restrictor.egg-info/requires.txt
+src/django_cloudflare_restrictor.egg-info/top_level.txt
+src/django_cloudflare_restrictor/management/__init__.py
+src/django_cloudflare_restrictor/management/commands/__init__.py
+src/django_cloudflare_restrictor/management/commands/check_cloudflare_ips.py
