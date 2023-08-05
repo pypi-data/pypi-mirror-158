@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pgrate
+Version: 0.0.1
+Author: Drozd0f, qerdcv
+Author-email: danylo.drozdov@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: asyncpg (==0.25.0)
+
+# MIGRATOR.py
+
+Not for production purposes.
+
+Tool to migrate database from files.
+
+[![Lint](https://github.com/qerdcv/migrator/actions/workflows/linter.yml/badge.svg)](https://github.com/qerdcv/migrator/actions/workflows/linter.yml)
