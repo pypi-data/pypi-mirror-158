@@ -1,0 +1,9 @@
+mikasa/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+mikasa/__main__.py,sha256=RjDbcnzTlSM3IAe5tTC4u0vq34HC_uuGVNCGT9VfpUk,44
+mikasa/base.sqlite3,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mikasa/db.py,sha256=J4hn8S1M0ZybEPh0qw0dB9okvI6URJ_fTdQKmeK8WAQ,2807
+mikasa/main.py,sha256=AGi_GoU2KwHsHoCf5IapZ5zjLeFPzUjvo4n_UOeoiDA,690
+mikasa-1.0.10.dist-info/entry_points.txt,sha256=BxzKppzXys9poFXIJU8NaZPRuYuXDh6Gh1vFx9T0Tj4,42
+mikasa-1.0.10.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mikasa-1.0.10.dist-info/METADATA,sha256=9EVjbITfqmhX1S2XJlpjAsyyKGvC0J8wKx0FMnG_d2Q,438
+mikasa-1.0.10.dist-info/RECORD,,
