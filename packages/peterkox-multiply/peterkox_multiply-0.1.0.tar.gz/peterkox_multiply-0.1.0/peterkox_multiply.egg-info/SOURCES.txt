@@ -1,0 +1,9 @@
+README.md
+setup.py
+peterkox_multiply/__init__.py
+peterkox_multiply/multiplication.py
+peterkox_multiply.egg-info/PKG-INFO
+peterkox_multiply.egg-info/SOURCES.txt
+peterkox_multiply.egg-info/dependency_links.txt
+peterkox_multiply.egg-info/requires.txt
+peterkox_multiply.egg-info/top_level.txt
