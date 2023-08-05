@@ -1,0 +1,6 @@
+numpy
+pytest
+ruamel.yaml
+scipy
+tqdm
+munkres
