@@ -1,0 +1,16 @@
+setup.py
+my_pypi_custom_package.egg-info/PKG-INFO
+my_pypi_custom_package.egg-info/SOURCES.txt
+my_pypi_custom_package.egg-info/dependency_links.txt
+my_pypi_custom_package.egg-info/top_level.txt
+my_pypi_custom_package_1/__init__.py
+my_pypi_custom_package_1/basic/__init__.py
+my_pypi_custom_package_1/basic/hello_world.py
+my_pypi_custom_package_1/basic/hello_world_2.py
+my_pypi_custom_package_1/basic/algebra/__init__.py
+my_pypi_custom_package_1/basic/algebra/addition.py
+my_pypi_custom_package_1/basic/algebra/subraction.py
+my_pypi_custom_package_1/basic/custom_utils/__init__.py
+my_pypi_custom_package_1/basic/custom_utils/today_date.py
+my_pypi_custom_package_1/sorting/__init__.py
+my_pypi_custom_package_1/sorting/sorted_list.py
