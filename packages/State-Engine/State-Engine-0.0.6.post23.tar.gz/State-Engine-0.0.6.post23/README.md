@@ -1,0 +1,97 @@
+# Finite State Machine
+
+### Install with pip 
+
+    pip install State-Engine
+
+```python
+from pprint import pprint
+from typing import List, Dict
+import datetime as dt
+from state_engine import Moore, Event, EpsilonEvent, StateEvent
+
+
+class ErrorsLogger(Moore):
+
+    errors: List = list()
+
+    def ok(self, event):
+        if len(self.errors):
+            self.errors[-1]['end'] = dt.datetime.now().isoformat()
+
+    def first_fault(self, event):
+        self.errors.append({
+            'start': dt.datetime.now().isoformat(),
+            'ticks': dict(),
+        })
+
+    def fault(self, event):
+        self.errors[-1]['ticks'].update({
+            dt.datetime.now().isoformat(): event.message if event.message else None,
+        })
+
+
+class Ok(Event):
+    pass
+
+
+class Fault(Event):
+    def __init__(self, massage=None):
+        super().__init__()
+        self.message = massage
+
+
+errors_logger = ErrorsLogger('Template') \
+    .add_event(Ok, {None: 'ok', 'fault': 'ok'}) \
+    .add_event(EpsilonEvent, {'first_fault': 'fault'}) \
+    .add_event(Fault, {None: 'first_fault', 'fault': 'fault', 'ok': 'first_fault'})
+
+
+if __name__ == '__main__':
+    import requests
+    for slug in ['', '1', '2', '3', '', '1', '2']: 
+        try:
+            res = requests.get(f'https://google.com/{slug}')
+            res.raise_for_status()
+            errors_logger.execute(Ok())
+        except requests.exceptions.HTTPError as e:
+            errors_logger.execute(Fault(e))
+
+    pprint(errors_logger.errors)
+
+```
+
+```shell
+(venv) yuriy@yuriy-laptop:~/projects_py/state-engine$ python examples/logerrors.py 
+[{'end': '2022-07-06T11:23:26.404451',
+  'start': '2022-07-06T11:23:24.531226',
+  'ticks': {'2022-07-06T11:23:24.531275': HTTPError('404 Client Error: Not Found for url: https://google.com/1'),
+            '2022-07-06T11:23:25.328774': HTTPError('404 Client Error: Not Found for url: https://google.com/2'),
+            '2022-07-06T11:23:25.906135': HTTPError('404 Client Error: Not Found for url: https://google.com/3')}},
+ {'start': '2022-07-06T11:23:26.615335',
+  'ticks': {'2022-07-06T11:23:26.615378': HTTPError('404 Client Error: Not Found for url: https://google.com/1'),
+            '2022-07-06T11:23:26.843816': HTTPError('404 Client Error: Not Found for url: https://google.com/2')}}]
+```
+
+
+## Develop
+
+### Install from source
+
+    git clone https://gitlab.com/yuriylygin/state-machine.git
+    python3.7 -m venv venv
+    source venv/bin/activate
+    pip install -e .[dev]
+
+### Create Sphinx docs
+
+    pip install -e .[docs]
+    sphinx-quickstart docs
+    sphinx-build -b html docs/source/ docs/build/html
+    sphinx-build -b rinoh docs/source/ docs/build/html/pdf
+
+    WARNING! For building documentation use Python 3.7 or its earlier versions.
+
+### Run tests 
+
+    pytest -v
