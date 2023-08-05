@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyston-lite-autoload
+Version: 2.3.4.2
+Summary: Automatically loads and enables pyston_lite
+Home-page: https://www.github.com/pyston/pyston
+Author: The Pyston Team
+Requires-Dist: pyston-lite (==2.3.4.2)
+
