@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: warc-extractor
+Version: 0.1.1
+Summary: A simple tool for extracting warc files.
+Home-page: https://blog.ak-rc.net/2022/06/warc-extractor-update/
+Keywords: warc
+Author: Ryan Chartier
+Author-email: redrecrm@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/recrm/ArchiveTools
