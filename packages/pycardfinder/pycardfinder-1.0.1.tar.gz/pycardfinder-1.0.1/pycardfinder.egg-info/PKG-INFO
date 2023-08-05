@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pycardfinder
+Version: 1.0.1
+Summary: PyCardFinder is a cross-platform tool for searching filesystems for credit card information written in Python
+Home-page: https://github.com/felixcheruiyot/pycardfinder
+Author: Felix Cheruiyot
+Author-email: felix@intasend.com
+License: GPL-3.0 license
+Download-URL: https://github.com/felixcheruiyot/pycardfinder/archive/v_1.0.1.tar.gz
+Description: UNKNOWN
+Keywords: cards,pci,card,pycardfinder,card scan
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
