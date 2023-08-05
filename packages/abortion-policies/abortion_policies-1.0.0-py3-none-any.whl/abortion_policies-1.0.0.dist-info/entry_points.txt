@@ -1,0 +1,3 @@
+[console_scripts]
+abortion_policies=abortion_policies.script:run
+
