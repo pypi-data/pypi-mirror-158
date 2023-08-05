@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+oxley/__init__.py
+oxley/class_builder.py
+oxley/exceptions.py
+oxley/pydantic_utils.py
+oxley/schema_versions.py
+oxley/types.py
+oxley/version.py
+oxley.egg-info/PKG-INFO
+oxley.egg-info/SOURCES.txt
+oxley.egg-info/dependency_links.txt
+oxley.egg-info/requires.txt
+oxley.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+pydantic
+requests
+
+[dev]
+tox
+pre-commit
+black
+mypy
+types-requests
+isort
+
+[test]
+pytest

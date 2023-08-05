@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: oxley
+Version: 0.0.1
+Summary: generate pydantic classes from JSONschema
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+UNKNOWN
+
