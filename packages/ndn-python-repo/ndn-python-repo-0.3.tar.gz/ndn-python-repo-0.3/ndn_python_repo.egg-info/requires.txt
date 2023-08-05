@@ -1,0 +1,12 @@
+python-ndn>=0.3.post1
+PyYAML>=6.0
+
+[leveldb]
+plyvel
+
+[mongodb]
+pymongo
+
+[test]
+pytest
+pytest-cov
