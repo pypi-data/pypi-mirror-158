@@ -1,0 +1,33 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Wiz_Detention"
+version = "0.0.4"
+authors = [
+  { name="Julia McKay", email="julia@ufl.edu" },
+  { name="Chandler Fox", email="chandler@ufl.edu" },
+  { name="Audrey DeHoog", email="adehoog@ufl.edu" },
+]
+description = "A python game"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "arcade>=2.6"
+]
+
+[project.scripts]
+menu_screen = "Wiz_Detention.menu_screen:MenuScreen"
+
+[project.urls]
+"Github" = "https://github.com/juliamckay/WizDetention"
