@@ -1,0 +1,9 @@
+misery/__init__.py,sha256=2e-G5Gq79E09uOp_28qNkgRuZ3ZdN5XDPfg_7K0PPOk,190
+misery/clickhouse.py,sha256=Fte18BWoEHlwVAQudcwEm1WTgp9FfmS54lqveXukhC8,9785
+misery/core.py,sha256=kXoL96HdKaqfbQNh21KGWXx963feGRWjvBsTIdmaBQg,11969
+misery/dictionary.py,sha256=1wlxf_UT_bNs_Gn-bYP7mNrqu0Wy52K7zK0CCC_-ku8,6895
+misery/postgres.py,sha256=GdRH2KZZoY0fN6j9f2FmvWTcSRPcsZbtkZalHI20K2g,11581
+misery-0.3.0.dist-info/LICENSE,sha256=gwEysTcGE8g9KLKVcnHhmDfaVL2TmvXxSlamssJ9xlE,1069
+misery-0.3.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+misery-0.3.0.dist-info/METADATA,sha256=NMOfAXY6N5ANm0qEuRHnT7ZQY7en4B5JQOb5S19pTtA,1783
+misery-0.3.0.dist-info/RECORD,,
