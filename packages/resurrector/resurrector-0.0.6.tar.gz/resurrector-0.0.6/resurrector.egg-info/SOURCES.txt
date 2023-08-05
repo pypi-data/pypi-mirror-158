@@ -1,0 +1,8 @@
+setup.py
+resurrector/__init__.py
+resurrector/backup_resolver.py
+resurrector/db_handler.py
+resurrector.egg-info/PKG-INFO
+resurrector.egg-info/SOURCES.txt
+resurrector.egg-info/dependency_links.txt
+resurrector.egg-info/top_level.txt
