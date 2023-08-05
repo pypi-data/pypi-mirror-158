@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/adkit.egg-info/PKG-INFO
+src/adkit.egg-info/SOURCES.txt
+src/adkit.egg-info/dependency_links.txt
+src/adkit.egg-info/entry_points.txt
+src/adkit.egg-info/requires.txt
+src/adkit.egg-info/top_level.txt
