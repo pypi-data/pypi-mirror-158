@@ -1,0 +1,9 @@
+ia_storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ia_storage/fields.py,sha256=86jEc0qE6AmmoRjaFG0YaWg6SvoYo5irjAEwo2ymOqg,1418
+ia_storage/models.py,sha256=YIoVV6Ka-JGEyBEiEczyuNeVygcoEz-hSVy3xTGwU_o,22
+ia_storage/storage.py,sha256=3fpbi3fIq75wbpo-j0htQ6CmjGuf5LxoG15fKmZ0S44,5816
+django_internetarchive_storage-0.1.0.dist-info/LICENSE,sha256=BmCLU5qLp5eL_0vc7rPl3JXTkXOpm_mgaCEvbgxY3Nk,1084
+django_internetarchive_storage-0.1.0.dist-info/METADATA,sha256=V4dimSjoAmdWf8WLej-Y0ME5y8V-13N77zflEKMQDmk,1537
+django_internetarchive_storage-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_internetarchive_storage-0.1.0.dist-info/top_level.txt,sha256=dpWQkmDxBQxnBeuPx8-JLTsWLpaPhtAim-NLhBM6WxY,11
+django_internetarchive_storage-0.1.0.dist-info/RECORD,,

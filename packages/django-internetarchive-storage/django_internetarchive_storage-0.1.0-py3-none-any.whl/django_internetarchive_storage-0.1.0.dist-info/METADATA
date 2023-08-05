@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: django-internetarchive-storage
+Version: 0.1.0
+Summary: A custom Django storage system for Internet Archive collections
+Home-page: https://palewi.re/docs/django-internetarchive-storage
+Author: Ben Welsh
+Author-email: b@palewi.re
+License: MIT
+Project-URL: Maintainer, https://github.com/palewire
+Project-URL: Source, https://github.com/palewire/django-internetarchive-storage
+Project-URL: Tracker, https://github.com/palewire/django-internetarchive-storage/issues
+Project-URL: Docs, https://palewi.re/docs/django-internetarchive-storage
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: internetarchive
+
+### Links
+
+* Docs: [palewi.re/docs/django-internetarchive-storage/](https://palewi.re/docs/django-internetarchive-storage/)
+* Issues: [github.com/datadesk/django-internetarchive-storage/issues](https://github.com/datadesk/django-internetarchive-storage/issues)
+* Packaging: [pypi.python.org/pypi/django-internetarchive-storage](https://pypi.python.org/pypi/django-internetarchive-storage)
+* Testing: [github.com/datadesk/django-internetarchive-storage/actions](https://github.com/datadesk/django-internetarchive-storage/actions)
