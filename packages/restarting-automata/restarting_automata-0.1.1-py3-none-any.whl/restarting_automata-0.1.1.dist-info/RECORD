@@ -1,0 +1,11 @@
+restarting_automata/__init__.py,sha256=vIaRzFr1AndS1T08tNnNtcb7WTQ9nX9fnsCybHXJwMQ,339
+restarting_automata/automata_class.py,sha256=8A1yb1tI7UAQhVNY5BLW_3ceGJCZVZW8mlcNubrA5N8,12550
+restarting_automata/monotony.py,sha256=tEWDDdJtFMi455Y44VhzWtVkHS4zV4PUANp1Jcq4Qhw,7212
+restarting_automata/monotony.txt,sha256=vC90CQ0R0MMeUv1V6mgZGe1jCVYnL_BjVEiPk4IwuLw,5119
+restarting_automata/text_automata_class.py,sha256=j0eMsdUBFqe4ggF4n72BYXmHsqazB8kDNbIj5sEiFWE,3759
+restarting_automata/types.py,sha256=ciMBoLajjunq3azMHdIbPeXMMTBgCfHv3w2RIhk3INo,164
+restarting_automata/types_linker.py,sha256=msQgkngzlP5hNHuTf2MV2_kwPBPqXgqNPq24vm_h8xs,141
+restarting_automata-0.1.1.dist-info/METADATA,sha256=MuTBTB7CvQJHqGy5y_QOL95rw3ZGAq3nAOUO8cq_lRM,661
+restarting_automata-0.1.1.dist-info/WHEEL,sha256=9GYcviBewZ0tGkiHS6_q2LxrPLrdVjfDI7rl7LgiPxI,86
+restarting_automata-0.1.1.dist-info/license_files/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+restarting_automata-0.1.1.dist-info/RECORD,,
