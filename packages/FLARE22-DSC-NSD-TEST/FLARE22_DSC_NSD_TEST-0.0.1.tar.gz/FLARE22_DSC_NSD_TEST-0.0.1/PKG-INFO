@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: FLARE22_DSC_NSD_TEST
+Version: 0.0.1
+Summary: FLARE22_DSC_NSD_Evaluation
+Home-page: https://github.com/JunMa11/FLARE
+Author: Cheng Ge
+Author-email: 13851520957@163.com
+License: MIT
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+This is a simple example package. 
+

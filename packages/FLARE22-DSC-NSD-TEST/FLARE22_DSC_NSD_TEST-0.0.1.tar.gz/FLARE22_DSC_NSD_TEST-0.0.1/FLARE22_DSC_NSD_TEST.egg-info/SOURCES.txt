@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+FLARE22_DSC_NSD_TEST/DSC_NSD_TEST.py
+FLARE22_DSC_NSD_TEST/SurfaceDice.py
+FLARE22_DSC_NSD_TEST/__init__.py
+FLARE22_DSC_NSD_TEST.egg-info/PKG-INFO
+FLARE22_DSC_NSD_TEST.egg-info/SOURCES.txt
+FLARE22_DSC_NSD_TEST.egg-info/dependency_links.txt
+FLARE22_DSC_NSD_TEST.egg-info/top_level.txt
