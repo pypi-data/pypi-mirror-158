@@ -1,0 +1,5 @@
+bs4
+demjson3
+html5lib
+lxml
+setuptools
