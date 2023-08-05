@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: SCRIP
+Version: 0.1.220630
+Summary: A package for single cell ATAC-seq analysis
+Author: Xin Dong
+Author-email: xindong9511@gmail.com
+Requires-Python: >=3.8.*, !=3.9.*
+License-File: LICENSE
