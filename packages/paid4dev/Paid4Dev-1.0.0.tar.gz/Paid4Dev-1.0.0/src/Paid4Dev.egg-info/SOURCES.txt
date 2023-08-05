@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/Paid4Dev.egg-info/PKG-INFO
+src/Paid4Dev.egg-info/SOURCES.txt
+src/Paid4Dev.egg-info/dependency_links.txt
+src/Paid4Dev.egg-info/entry_points.txt
+src/Paid4Dev.egg-info/requires.txt
+src/Paid4Dev.egg-info/top_level.txt
