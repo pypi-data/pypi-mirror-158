@@ -1,0 +1,2 @@
+[console_scripts]
+mmtester = mmtester.tester:_main
