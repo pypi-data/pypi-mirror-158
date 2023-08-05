@@ -1,0 +1,48 @@
+defaults:
+  - /module: disco
+  - /path: disco
+  - diffuse: default
+  - model: default
+  - diffusion_model: 512x512_diffusion_uncond_finetune_008100
+  - midas: default
+  - download: default
+  - /auto: load
+
+_target_: ekorpkit.models.disco.base.DiscoDiffusion
+name: disco-diffusion
+auto:
+  load: true
+verbose: ${oc.select:..verbose, false}
+cuda_device: ${oc.env:CUDA_VISIBLE_DEVICES,0}
+use_cpu: false
+text_prompts:
+  0:
+    - At a special meeting, hawkish central bankers are poised to raise the target rates, Trending on artstation.
+  100:
+    - This set of prompts start at frame 100
+    - This prompt has weight five:5
+image_prompts:
+  # 0:['ImagePromptsWorkButArentVeryGood.png:2',],
+
+diffuse:
+  text_prompts: ${..text_prompts}
+  image_prompts: ${..image_prompts}
+  intermediate_saves: ${.steps}
+  steps_per_checkpoint: 2
+  batch_num:
+  stop_on_next_loop: false
+  side_x:
+  side_y:
+  calc_frames_skip_steps:
+  start_frame:
+  seed:
+
+output:
+  batch_dir: ${..path.output_dir}/${..diffuse.batch_name}
+  retain_dir: ${.batch_dir}/retained
+  partial_dir: ${.batch_dir}/partials
+  video_frames_dir: ${.batch_dir}/video_frames
+  in_dir: ${.video_frames_dir}
+  flo_dir: ${.video_frames_dir}/out_flo_fwd
+  temp_flo_dir: ${.video_frames_dir}/temp_flo
+  flo_fwd_dir: ${.video_frames_dir}/out_flo_fwd
