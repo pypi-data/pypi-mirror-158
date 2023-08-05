@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: lssr
+Version: 0.1.0
+Summary: Alternative ls command.
+Home-page: https://github.com/seijinrosen
+License: MIT
+Author: seijinrosen
+Author-email: 86702775+seijinrosen@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Documentation, https://github.com/seijinrosen/lssr
+Project-URL: Repository, https://github.com/seijinrosen/lssr
+Description-Content-Type: text/markdown
+
+# lssr
+
+Alternative ls command.
+
+[![PyPI](https://img.shields.io/pypi/v/lssr)](https://pypi.python.org/pypi/lssr)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/lssr)](https://pypi.python.org/pypi/lssr)
+[![Tests](https://github.com/seijinrosen/lssr/actions/workflows/tests.yml/badge.svg)](https://github.com/seijinrosen/lssr/actions/workflows/tests.yml)
+[![CodeQL](https://github.com/seijinrosen/lssr/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/seijinrosen/lssr/actions/workflows/codeql-analysis.yml)
+[![codecov](https://codecov.io/gh/seijinrosen/lssr/branch/main/graph/badge.svg)](https://codecov.io/gh/seijinrosen/lssr)
+[![Downloads](https://pepy.tech/badge/lssr)](https://pepy.tech/project/lssr)
+[![Downloads](https://pepy.tech/badge/lssr/month)](https://pepy.tech/project/lssr)
+[![Downloads](https://pepy.tech/badge/lssr/week)](https://pepy.tech/project/lssr)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
