@@ -1,0 +1,15 @@
+# test dependencies
+pytest==7.1.2
+responses==0.21.0
+python_dotenv==0.20.0
+pylint==2.14.3
+tox==3.25.0
+pytest-rerunfailures==10.2
+
+# code coverage
+coverage==6.4.1
+pytest-cov==3.0.0
+
+# documentation
+recommonmark==0.7.1
+Sphinx==5.0.2
