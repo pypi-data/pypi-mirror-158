@@ -1,0 +1,6 @@
+numpy
+pandas
+sympy
+scipy
+polars
+pybind11
