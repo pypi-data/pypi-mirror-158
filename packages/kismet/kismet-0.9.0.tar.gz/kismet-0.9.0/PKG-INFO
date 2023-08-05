@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: kismet
+Version: 0.9.0
+Summary: The conversational randomness generator
+Author-email: Mara Kim <mara@autochthe.net>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: aiohttp
+Requires-Dist: discord.py
+Requires-Dist: ipython>=7
+Requires-Dist: jupyterlab
+Requires-Dist: lark-parser
+Requires-Dist: numpy
+Requires-Dist: prompt_toolkit
+Requires-Dist: slackclient
+Requires-Dist: torch
+Requires-Dist: bumpversion ; extra == "dev"
+Requires-Dist: pytest-runner>=2.0 ; extra == "dev"
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: twine ; extra == "dev"
+Project-URL: Bug Tracker, https://github.com/autochthe/kismet-py
+Project-URL: Homepage, https://github.com/autochthe/kismet-py
+Provides-Extra: dev
+
+# Kismet
+A dice roll parser with personality
+
+## Installation
+```bash
+pip install kismet
+```
+
+### Jupyter
+After installation with `pip`, you may optionally install the Jupyter kernel:
+```bash
+pythom -m kismet.kernel.install
+```
+
+
