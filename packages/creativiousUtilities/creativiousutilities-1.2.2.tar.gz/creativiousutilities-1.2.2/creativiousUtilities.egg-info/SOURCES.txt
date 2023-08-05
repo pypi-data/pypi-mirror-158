@@ -1,0 +1,8 @@
+README.md
+setup.py
+creativiousUtilities/__init__.py
+creativiousUtilities.egg-info/PKG-INFO
+creativiousUtilities.egg-info/SOURCES.txt
+creativiousUtilities.egg-info/dependency_links.txt
+creativiousUtilities.egg-info/requires.txt
+creativiousUtilities.egg-info/top_level.txt
