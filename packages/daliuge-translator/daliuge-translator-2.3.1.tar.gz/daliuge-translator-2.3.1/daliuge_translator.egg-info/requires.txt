@@ -1,0 +1,9 @@
+wheel
+bottle
+daliuge-common==2.3.1
+jsonschema
+metis>=0.2a3
+networkx
+numpy
+psutil
+pyswarm
