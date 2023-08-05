@@ -1,0 +1,11 @@
+LICENSE
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+mynameisherojava/__init__.py
+mynameisherojava/herojava.py
+mynameisherojava.egg-info/PKG-INFO
+mynameisherojava.egg-info/SOURCES.txt
+mynameisherojava.egg-info/dependency_links.txt
+mynameisherojava.egg-info/top_level.txt
