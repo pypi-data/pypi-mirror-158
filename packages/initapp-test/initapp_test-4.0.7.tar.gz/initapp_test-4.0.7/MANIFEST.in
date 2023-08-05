@@ -1,0 +1,2 @@
+include initcost_conf/*.yaml
+recursive-include tmp_img *.*
