@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: zero-sdk
+Version: 0.1.9
+Summary: zero client sdk
+Author: kirill-ottofeller
+Author-email: kirill.korotkov@ottofeller.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-graphql-client (==0.4.3)
