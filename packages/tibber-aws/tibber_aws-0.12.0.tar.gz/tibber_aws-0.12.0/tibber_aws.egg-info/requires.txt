@@ -1,0 +1,5 @@
+aiobotocore
+boto3
+botocore
+aiohttp
+async_timeout
