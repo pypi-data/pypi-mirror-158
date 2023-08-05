@@ -1,0 +1,14 @@
+*.c
+__pycache__/
+projects*/
+runs*/
+venv_*/
+build/
+dist/
+*.pt
+*.onnx
+notebooks/
+*.bat
+*.jpg
+*.spec
+*.log
