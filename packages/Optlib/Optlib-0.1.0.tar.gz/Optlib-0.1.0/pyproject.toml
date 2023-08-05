@@ -1,0 +1,115 @@
+[project]
+name = "Optlib"
+dynamic = []
+description = "Option Lib"
+authors = [
+    { name = "Nasy", email = "nasyxx+python@gmail.com" },
+]
+dependencies = [
+    "numpy",
+    "scipy>=1.8.0",
+]
+requires-python = ">=3.9,<3.11"
+readme = "README.md"
+version = "0.1.0"
+
+[project.license]
+text = "MIT"
+
+[tool.pdm.version]
+from = "optlib/__init__.py"
+
+[tool.pdm.scripts]
+pre_install = "emacs -Q --batch --find-file README.org --eval \"(progn (require 'ox-md) (org-md-export-to-markdown))\""
+post_install = "rm -rf README.md && rm -f README.md~"
+pre_build = "emacs -Q --batch --find-file README.org --eval \"(progn (require 'ox-md) (org-md-export-to-markdown))\""
+post_build = "rm -rf README.md && rm -f README.md~"
+
+[tool.isort]
+py_version = 39
+profile = "black"
+group_by_package = true
+color_output = true
+combine_straight_imports = true
+import_heading_stdlib = "Standard Library"
+known_db = [
+    "lucene",
+    "lupyne",
+    "elasticsearch",
+    "sqlite",
+    "shelve",
+]
+import_heading_db = "Database"
+known_tf = [
+    "tensorflow",
+    "keras",
+]
+import_heading_tf = "Tensorflow"
+known_torch = [
+    "torch",
+    "torchdata",
+    "torchvision",
+    "pytorch_lightning",
+]
+import_heading_torch = "Torch"
+known_types = [
+    "typing",
+    "types",
+]
+import_heading_types = "Types"
+known_config = [
+    "config",
+    "settings",
+    "cfg",
+    "smile_config",
+]
+import_heading_config = "Config"
+known_math = [
+    "numpy",
+    "scipy",
+    "sklearn",
+    "pandas",
+]
+import_heading_math = "Math"
+import_heading_thirdparty = "Others"
+import_heading_localfolder = "Local"
+known_localfolder = [
+    "sites",
+    "src",
+]
+sections = [
+    "FUTURE",
+    "FIRSTPARTY",
+    "STDLIB",
+    "DB",
+    "MATH",
+    "TF",
+    "TORCH",
+    "CONFIG",
+    "TYPES",
+    "THIRDPARTY",
+    "LOCALFOLDER",
+]
+
+[tool.pyright]
+pythonVersion = "3.9"
+exclude = [
+    "**/__pycache__",
+]
+extraPaths = [
+    "/nix/store/ms4qdr66xbkj49dwm00amchcbqmb7rk2-python3-3.9.12-env/lib/python3.9/site-packages/",
+    "./__pypackages__/3.9/lib/",
+]
+reportMissingTypeStubs = "information"
+stubPath = "./typings"
+useLibraryCodeForTypes = true
+
+[tool.mypy]
+python_executable = "/nix/store/ms4qdr66xbkj49dwm00amchcbqmb7rk2-python3-3.9.12-env/bin/python3.9"
+ignore_missing_imports = true
+
+[build-system]
+requires = [
+    "pdm-pep517>=0.12.0",
+]
+build-backend = "pdm.pep517.api"
