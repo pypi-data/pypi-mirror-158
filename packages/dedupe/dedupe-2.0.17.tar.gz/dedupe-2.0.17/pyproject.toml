@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools",
+            "wheel",
+            "cython"]
+
+[tool.mypy]
+plugins = "numpy.typing.mypy_plugin"
+ignore_missing_imports = true
+files = "dedupe"
+check_untyped_defs = true
+
+[tool.pytest.ini_options]
+minversion = "7.1"
+addopts = "--cov dedupe"
+testpaths = ["tests", "dedupe"]
+
+[tool.isort]
+profile = "black"
+src_paths = ["dedupe", "tests", "benchmarks"]
