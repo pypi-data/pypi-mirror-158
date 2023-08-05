@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: bfscan
+Version: 0.0.1
+Summary: bfscan is designed to detect foodborne pathogens using bloom filter and machine learning
+Author: Thiago Pereira de Oliveira Carvalho, Frederico Schmitt Kremer
+Author-email: thg.baum@gmail.com, fred.s.kremer@gmail.com
+License: UNKNOWN
+Keywords: bioinformatics bloom filter data science foodborne pathogen
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: Biopython
+Requires-Dist: tqdm
+Requires-Dist: numpy
+Requires-Dist: bloom-filter2
+Requires-Dist: scikit-learn
+Requires-Dist: imbalanced-learn
+Requires-Dist: twine
+
+# bfscan
+
+By omixlab
+
+pathogens detection with bloom filter
+
+## Setup
+
+```
+$ make setup
+```
+
+

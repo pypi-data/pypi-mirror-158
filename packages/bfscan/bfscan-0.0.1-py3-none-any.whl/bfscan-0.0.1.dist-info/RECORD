@@ -1,0 +1,15 @@
+bfscan/__init__.py,sha256=pDpn-2TbV5zLEkEHWRhgLXDqZpoTigI4zTeoeIiX22w,38
+bfscan/filter.py,sha256=gQZFLLFP0N_Bi7poomPc_rlrQlkPJxkndRGXrgG53ig,2380
+bfscan/logo.py,sha256=WzknM8hx7X0wQyV6mFl9n1VS2M1AkhLcOtmCHWGu95k,902
+bfscan/model.py,sha256=OWYSkrR4OyE1Ff5vtnQTIR1JcKG26VrCXln9nVQpFh4,1344
+bfscan/cli/__init__.py,sha256=Nhq6oMgeXYZ6EfcglIEYWNDNk1mglWrdECdwKXcvUrk,74
+bfscan/cli/build_filters.py,sha256=V_eSLPasgqhLs1fMFXOAonnEmOnn7VZgT2G5WvxnFV0,1297
+bfscan/cli/build_model.py,sha256=HBiYUyJ8lSfEbkHA9SJJb_BuWcE5PnBVHaRIs3N7NiM,2131
+bfscan/cli/search.py,sha256=kSIOrEgv5IxRY2aHuEoHvlNYZD_pConrkrjIUIsj7bI,1767
+bfscan/utils/__init__.py,sha256=YXYmwmZllgO7mn_10kwREpftTysf8WhFWn1PYtWam0c,1143
+bfscan-0.0.1.dist-info/LICENSE,sha256=lL6wJjUrwH3bCmb2msANo8SHV4OUCyoWfR9FeG-T4XU,1064
+bfscan-0.0.1.dist-info/METADATA,sha256=i-ErrE62NLAUKkwOOZ7Yd_T55kzkVKBlIW7sl7FKTJA,736
+bfscan-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bfscan-0.0.1.dist-info/entry_points.txt,sha256=LXu10_snkjKSfOxDQjlCyuk9c7HCnmE61H0SYo-C_Jg,159
+bfscan-0.0.1.dist-info/top_level.txt,sha256=KJ_EUc8M3UlOQ_bO3dgBBaOB-Mv4fbZit2VhJ0KRB_M,7
+bfscan-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+bfscan-build-filters = bfscan.cli.build_filters:main
+bfscan-build-model = bfscan.cli.build_model:main
+bfscan-search = bfscan.cli.search:main
