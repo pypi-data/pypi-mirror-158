@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/videoclusters/__init__.py
+src/videoclusters.egg-info/PKG-INFO
+src/videoclusters.egg-info/SOURCES.txt
+src/videoclusters.egg-info/dependency_links.txt
+src/videoclusters.egg-info/top_level.txt
+src/videoclusters/centroid_based/KMeans.py
+src/videoclusters/centroid_based/__init__.py
