@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: tensorpowerflow
+Version: 0.0.1
+Summary: Ultra fast power flow based in Laurent series expansion.
+Author-email: e.m.salazar.duque@tue.nl
+License: MIT
+Project-URL: repository, https://github.com/MauricioSalazare/tensorpowerflow
+Keywords: power flow,power systems,time series loading
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpy (>=1.22.4)
+Requires-Dist: pandas (>=1.4.2)
+Requires-Dist: matplotlib (>=3.5.2)
+Requires-Dist: scipy (>=1.8.0)
+Requires-Dist: tqdm (>=4.64.0)
+Requires-Dist: numba
+Requires-Dist: networkx (>=2.7.1)
+Requires-Dist: seaborn (>=0.11.2)
+Requires-Dist: pandapower (>=2.8.0)
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: matplotlib ; extra == 'dev'
+Requires-Dist: jupyterlab ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: pytest (>=2.7.3) ; extra == 'test'
+
+
+TensorPowerFlow
+===============
+
+
+What is TensorPowerFlow
+-----------------------
+
+An ultra-fast power flow based on Laurent series expansion. The power flow is intended for a applications where massive
+amounts of power flows computations are required. e.g., electrical load time series, metaheuristics, electrical grid
+environments for reinforcement learning.
+
+How to install
+--------------
+The package can be installed via pip using:
+
+.. code:: shell
+
+    pip install tensorpowerflow
+
+Readings
+--------
+The mathematical formulation of the power flow can be found at:
+
+"A Fixed-Point Current Injection Power Flow for Electric Distribution Systems using Laurent Series." JS Giraldo,
+OD Montoya, PP Vergara, F Milano. Power Systems Computational Conference (PSCC) 2022. `link <http://faraday1.ucd.ie/archive/papers/laurent.pdf>`_
