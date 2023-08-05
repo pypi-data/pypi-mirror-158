@@ -1,0 +1,10 @@
+nonemoji/__init__.py,sha256=H4x3kEc5mgiGcnRMCgSoZ7o1Sx8us0ACL5CyZx6RRUw,114
+nonemoji/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+nonemoji/cli.py,sha256=kZvfgkephSt1uOc5u6xMNI9maXdsPO3xM6ExvfrKfjA,1200
+nonemoji/command.py,sha256=KB64G5FdU56lI766R4r1XxsphikrfwX3hDUCwoQTGzA,959
+nonemoji/emoji.py,sha256=YhrbpDX9Rr8eCXwSwWLetTnTfyQkh9dCbJYiRNua_sU,8688
+nonemoji/feature.py,sha256=HW7Oyyturkbk5eE1veiXteHmmueW4WmUAs082_AzvR4,1940
+nonemoji-0.1.0.dist-info/entry_points.txt,sha256=lxxaX11n8WqKHG26gV1wwBEZQnopgZCS4zQKnpRIf5E,51
+nonemoji-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+nonemoji-0.1.0.dist-info/METADATA,sha256=KuFtdD55mFbDCH2A-iTptbznXv3vlit8eUsMyRPEbQA,587
+nonemoji-0.1.0.dist-info/RECORD,,

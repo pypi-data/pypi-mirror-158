@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nonemoji
+Version: 0.1.0
+Summary: Simple gitmoji cli written in python
+License: MIT
+Author: jigsaw
+Author-email: j1g5aw@foxmail.com
+Requires-Python: >=3.7.3,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: noneprompt (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+# Nonemoji
+
+自维护的 gitmoji-cli，删减了部分 emoji
+
