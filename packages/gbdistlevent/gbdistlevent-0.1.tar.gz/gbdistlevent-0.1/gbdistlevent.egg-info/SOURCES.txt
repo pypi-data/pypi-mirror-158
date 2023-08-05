@@ -1,0 +1,10 @@
+setup.py
+gbdistlevent/Binomialdistribution_challenge.py
+gbdistlevent/Gaussiandistribution.py
+gbdistlevent/Generaldistribution.py
+gbdistlevent/__init__.py
+gbdistlevent.egg-info/PKG-INFO
+gbdistlevent.egg-info/SOURCES.txt
+gbdistlevent.egg-info/dependency_links.txt
+gbdistlevent.egg-info/not-zip-safe
+gbdistlevent.egg-info/top_level.txt
