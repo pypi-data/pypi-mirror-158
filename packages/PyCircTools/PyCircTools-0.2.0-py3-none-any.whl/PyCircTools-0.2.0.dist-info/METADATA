@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: PyCircTools
+Version: 0.2.0
+Summary: PyCircTools, a python circuit library.
+Home-page: https://github.com/LovetheFrogs/CTools
+Author: LovetheFrogs
+License: GPL-3.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyCircTools
+
+PyCircTools is a python package which contains tools to build circuits using python 3. It is a work in progress, and will be updated frequently to add more
+modules.
+
+
+<p><a href="#installing-ctools"> 1. Installing PyCircTools and importing it </a></p>
+<p><a href="#logic-gates"> 2. Logic Gates Module </a></p>
+<p><a href="#multiplexers"> 3. Multiplexers Module </a></p>
+<p><a href="#latches"> 4. Latches Module </a></p>
+<p><a href="#exceptions">5. Exceptions </a></p>
+<p><a href="#about">6. About </a></p>
+
+<div id="installing-ctools">
+    To install PyCircTools, use pip by calling the following command:
+    ```
+    pip install PyCircTools
+    ```
+    Importing it is as easy as it gets, just insert the line
+    ```
+    from PyCircTools.*subpackage* import *modules*
+    ```
+    at the start of your code, and substitute subpackage with the package you want, and modules with the modules you want to import to your project.
+</div>
+
+<div id="logic-gates">
+    ## Logic Gates Module
+
+    To read the documentation for this module, [click this link](https://github.com/LovetheFrogs/PyCircTools/tree/main/PyCircTools/LogicGates).
+</div>
+
+<div id="multiplexers">
+    ## Multiplexers Module
+
+    To read the documentation for this module, [click this link](https://github.com/LovetheFrogs/PyCircTools/tree/main/PyCircTools/Multiplexers).
+</div>
+
+<div id="latches">
+    ## Latches Module
+
+    To read the documentation for this module, [click this link](https://github.com/LovetheFrogs/PyCircTools/tree/main/PyCircTools/Latches).
+</div>
+
+<div id="exceptions">
+    ## Exceptions
+
+    To read the documentation for this module, [click this link](https://github.com/LovetheFrogs/PyCircTools/tree/main/PyCircTools/Exceptions).
+</div>
+
+<div id="about">
+    ## About
+
+    PyCircTools is software developed by LovetheFrogs and licensed under GPL-3.0 license.
+</div>
+
+
+
