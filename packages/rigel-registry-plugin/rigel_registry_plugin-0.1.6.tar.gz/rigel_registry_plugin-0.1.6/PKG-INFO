@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rigel-registry-plugin
+Version: 0.1.6
+Summary: A plugin for Rigel to deploy Docker images to Docker image registries.
+Home-page: https://github.com/rigel-ros/rigel_registry_plugin
+License: MIT
+Keywords: rigel,docker,aws,ecr
+Author: Pedro Miguel Melo
+Author-email: pedro.m.melo@inesctec.pt
+Maintainer: Pedro Miguel Melo
+Maintainer-email: pedro.m.melo@inesctec.pt
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3 (>=1.20.52,<2.0.0)
+Requires-Dist: docker (>=5.0.3,<6.0.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Requires-Dist: rigelcore (>=0.1.16,<0.2.0)
+Project-URL: Repository, https://github.com/rigel-ros/rigel_registry_plugin
+Description-Content-Type: text/markdown
+
+**ECR Rigel Plugin**

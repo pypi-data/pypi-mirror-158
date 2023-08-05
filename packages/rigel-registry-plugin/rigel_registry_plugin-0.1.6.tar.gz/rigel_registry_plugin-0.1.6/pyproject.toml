@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "rigel_registry_plugin"
+version = "0.1.6"
+description = "A plugin for Rigel to deploy Docker images to Docker image registries."
+homepage = "https://github.com/rigel-ros/rigel_registry_plugin"
+keywords = ["rigel", "docker", "aws", "ecr"]
+authors = ["Pedro Miguel Melo <pedro.m.melo@inesctec.pt>"]
+maintainers = ["Pedro Miguel Melo <pedro.m.melo@inesctec.pt>"]
+readme = "README.md"
+repository = "https://github.com/rigel-ros/rigel_registry_plugin"
+license = "MIT"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Operating System :: POSIX",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+
+[tool.poetry.dependencies]
+boto3 = "^1.20.52"
+docker = "^5.0.3"
+pydantic = "^1.9.0"
+python = "^3.8"
+rigelcore = "^0.1.16"
+
+[tool.poetry.dev-dependencies]
+coverage = {extras = ["toml"], version = "^6.3.1"}
+flake8 = "^4.0.1"
+flake8-bugbear = "^22.1.11"
+mypy = "^0.931"
+nox = "^2022.1.7"
+pre-commit = "^2.17.0"
+pytest = "^7.0.0"
+twine = "^3.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.report]
+fail_under = 90
