@@ -1,0 +1,8 @@
+rottentomatoes/__init__.py,sha256=ehX8ltprdL1hgApnUb5di4kobk88PL-1S0OnkUZHuJM,47
+rottentomatoes/exceptions.py,sha256=xcNuEB0OCF0dM69oaN3LHXwKt_58ZUvnE70LWhxyfV8,79
+rottentomatoes/movie.py,sha256=327pE4DYTKl8A-KDkwD08w_i5axvqIdbr7B6oXNt-cQ,1055
+rottentomatoes/standalone.py,sha256=SBsIPvWv-VZKPrFJwKRsgli2gJmkNjx1YM5HmqzV2lI,5429
+rottentomatoes_python-0.2.2.dist-info/METADATA,sha256=wC0gup6a8FG-WnpY_BYfixZ-YK6KvGsJqcq9gY6HwEU,2624
+rottentomatoes_python-0.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rottentomatoes_python-0.2.2.dist-info/top_level.txt,sha256=cM29x-0zz1EwvNEaqoDjJWducYpjW75-XzpHfRMpVnk,15
+rottentomatoes_python-0.2.2.dist-info/RECORD,,
