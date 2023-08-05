@@ -1,0 +1,9 @@
+babel
+colorama
+DateTime
+gender_guesser
+holidays
+phonenumbers
+pycountry
+unidecode
+vobject
