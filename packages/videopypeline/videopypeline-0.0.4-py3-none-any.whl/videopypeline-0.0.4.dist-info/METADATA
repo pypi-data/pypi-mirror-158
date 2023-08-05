@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: videopypeline
+Version: 0.0.4
+Summary: Framework to process video data
+Author: Elia Carrara
+Author-email: elia.carrara@bluewin.ch
+Maintainer-email: Elia Carrara <elia.carrara@bluewin.ch>
+License: BSD-4-Clause License
+Project-URL: homepage, https://pypi.org/project/videopypeline/
+Project-URL: repository, https://github.com/eliacarrara/videopypeline
+Project-URL: documentation, https://videopypeline.readthedocs.io/en/latest/
+Keywords: pipeline,image-processing,video-processing
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: graphviz
+Provides-Extra: rest
+Requires-Dist: docutils (>=0.3) ; extra == 'rest'
+
+# Videopypeline
+
+![example workflow](https://github.com/eliacarrara/videopypeline/actions/workflows/python-app.yml/badge.svg)
+[![Documentation Status](https://readthedocs.org/projects/videopypeline/badge/?version=latest)](https://videopypeline.readthedocs.io/en/latest/?badge=latest)
+
+A fancy wrapper for [opencv](https://opencv.org/) inspired by the [keras model API](https://keras.io/api/models/model/).
+
+| Type          | URL                                             |
+|---------------|-------------------------------------------------|
+| homepage      | https://pypi.org/project/videopypeline/         |
+| repository    | https://github.com/eliacarrara/videopypeline    |
+| documentation | https://videopypeline.readthedocs.io/en/latest/ |

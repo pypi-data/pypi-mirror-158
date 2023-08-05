@@ -1,0 +1,9 @@
+videopypeline/__init__.py,sha256=B8lTtlOs9xLV2I52BUzX9KcFcrvX4uRHsVN1aCM0ScA,198
+videopypeline/actions.py,sha256=YHWYlS9hwPyTztW-kSOFdn71A-ahRCVSP3HPvjO3bD4,1709
+videopypeline/core.py,sha256=bgeU3I7Djejfay3UrxQduZXWXbWZxRD2PamG2V4zKQ0,10751
+videopypeline/functions.py,sha256=rq3ozl5nHV8DPkGLakHh7rXv0rVNBkjblyywmfg5wDM,10369
+videopypeline/generators.py,sha256=5p8NOvk5JtmsrxX40BtCtK49DhAif04T7PnalxZoUmI,807
+videopypeline-0.0.4.dist-info/METADATA,sha256=j9OJSiagtbrOyWUC9qEHJ0Y4IT1JbtCxMaxIBggIctw,2279
+videopypeline-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+videopypeline-0.0.4.dist-info/top_level.txt,sha256=yJJHlV8Ib4PicS6HGh1d7hoQHCB4-D6HcjaTQxLeCaw,14
+videopypeline-0.0.4.dist-info/RECORD,,
