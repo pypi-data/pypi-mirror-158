@@ -1,0 +1,15 @@
+pysilk/__init__.py,sha256=lL4rruF4QlEE0diuev17jeLVGO4jrgJ4_UFbXwwKCDY,417
+pysilk/backends/__init__.py,sha256=XywP1BY8lg5-vwoQw0cKnqhB-lP27C5UiVRg25FP64c,69
+pysilk/backends/cffi/__init__.py,sha256=pTvuj7ccFkCNX445kk6IUZgxi9jSkO75zMiqyVyth9s,9045
+pysilk/backends/cffi/_silk_cffi.pyd,sha256=rKIbDRn_mGvI6lToo2Yi7nBZXxDivvSWD-0bplmNJYs,180224
+pysilk/backends/cffi/build.py,sha256=uAKOXXbZYf00QLHglK-OLpAALleEdVF7_cvmdsEqjow,3695
+pysilk/backends/cython/__init__.py,sha256=rrCz4Bq1M-aohDGJR-9wI4CuxmgbkYoAXlzutPtmnfU,116
+pysilk/backends/cython/_silk_cy.c,sha256=fPbIXtpX1qnVwSFJq-UQQiDta6Ug_NqOJ0W3B3UFXzs,379161
+pysilk/backends/cython/_silk_cy.cp36-win_amd64.pyd,sha256=jJggDk9RjHdFlA1Sbp3vW4umY7zE9wmm0VofnVfQlVY,216064
+pysilk/backends/cython/_silk_cy.pyi,sha256=3Y39NJhDIe4ehO0HHzu9P8y0cCVC5aTUbDCgxFKks1k,690
+pysilk/backends/cython/_silk_cy.pyx,sha256=vRoP7bblpiKqxbD38iJhcsuSiRx3zu0eJaB5HtrC77A,10825
+pysilk/backends/cython/silk.pxd,sha256=Dwv1zzTPSnmSPcb4m8JoXGe6mxDKGFdjzNG5tYaK0h4,2303
+silk_python-0.2.0.dist-info/METADATA,sha256=B1_ei1AqTVhfPgQGC6y94o70cDgBHfjqDOWK0xvO_Vc,3500
+silk_python-0.2.0.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
+silk_python-0.2.0.dist-info/top_level.txt,sha256=tcB-cCbL6OMj8uspHFAz4kJ8ObWLz--nuLQ1wVc0GRY,7
+silk_python-0.2.0.dist-info/RECORD,,
