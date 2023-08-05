@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: AthenaMock
+Version: 0.2.0
+Summary: A Library of mock data and mock data generation
+Home-page: https://github.com/DirectiveAthena/AthenaMock
+Author: Andreas Sas
+Author-email: 
+License: GPLv3
+Project-URL: Bug Tracker, https://github.com/DirectiveAthena/AthenaMock/issues
+Requires-Python: >=3.10
+License-File: LICENSE
+
