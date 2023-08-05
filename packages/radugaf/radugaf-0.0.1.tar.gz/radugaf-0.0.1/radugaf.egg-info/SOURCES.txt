@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+radugaf.egg-info/PKG-INFO
+radugaf.egg-info/SOURCES.txt
+radugaf.egg-info/dependency_links.txt
+radugaf.egg-info/top_level.txt
