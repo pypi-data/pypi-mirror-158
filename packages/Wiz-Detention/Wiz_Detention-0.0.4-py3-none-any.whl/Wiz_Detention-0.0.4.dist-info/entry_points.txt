@@ -1,0 +1,2 @@
+[console_scripts]
+menu_screen = Wiz_Detention.menu_screen:MenuScreen
