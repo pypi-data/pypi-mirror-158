@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pgrate
+Version: 0.1.0
+Summary: Package for applying migrations to the postgresql database
+Author: Drozd0f, qerdcv
+Author-email: danylo.drozdov@gmail.com
+Project-URL: Homepage, https://github.com/Drozd0f/migrator
+Project-URL: Bug Tracker, https://github.com/Drozd0f/migrator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: asyncpg (==0.25.0)
+
+# MIGRATOR.py
+
+Not for production purposes.
+
+Tool to migrate database from files.
+
+[![Lint](https://github.com/qerdcv/migrator/actions/workflows/linter.yml/badge.svg)](https://github.com/qerdcv/migrator/actions/workflows/linter.yml)
