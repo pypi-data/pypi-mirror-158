@@ -1,0 +1,16 @@
+numpy
+tqdm
+pandas
+hydra-core>=1.2.0
+hydra-colorlog
+pydantic
+python-dotenv
+gdown
+chardet
+rehash
+requests
+scipy
+cached-path
+pytablewriter>=0.64.0
+ftfy
+google-cloud-storage>=1.30
