@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+ASI_distributions/Binomialdistribution.py
+ASI_distributions/Gaussiandistribution.py
+ASI_distributions/Generaldistribution.py
+ASI_distributions/__init__.py
+ASI_distributions.egg-info/PKG-INFO
+ASI_distributions.egg-info/SOURCES.txt
+ASI_distributions.egg-info/dependency_links.txt
+ASI_distributions.egg-info/not-zip-safe
+ASI_distributions.egg-info/top_level.txt
