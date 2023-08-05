@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/bin-generator
+src/bin_generator/__init__.py
+src/bin_generator/bin_writer.py
+src/bin_generator/config_loader.py
+src/bin_generator/generator.py
+src/bin_generator.egg-info/PKG-INFO
+src/bin_generator.egg-info/SOURCES.txt
+src/bin_generator.egg-info/dependency_links.txt
+src/bin_generator.egg-info/requires.txt
+src/bin_generator.egg-info/top_level.txt

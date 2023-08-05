@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: bin-generator
+Version: 0.1.0
+Summary: Conditionally generate small scripts, depending on locally installed programs
+Home-page: https://gitlab.com/six-two/bin_generator
+Author: six-two
+Author-email: pip@six-two.dev
+License: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: full
+
+# Bin generator
+
+This repo can now be installed with pip:
+```bash
+pip install git+https://gitlab.com/six-two/bin_generator
+```
+
+## Example usage
+
+You can see some example data in the `example` folder of the source code repository.
+To try them out, use the following command:
+
+```bash
+src/bin-generator example/bins.yaml --data example/data.yaml
+```
+
+## Known issues
+
+- Interrupting the script will delete the remaining files
