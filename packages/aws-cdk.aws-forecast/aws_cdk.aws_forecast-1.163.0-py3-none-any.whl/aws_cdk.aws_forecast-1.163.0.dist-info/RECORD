@@ -1,0 +1,10 @@
+aws_cdk/aws_forecast/__init__.py,sha256=a4vj4k966sfLXD-jYX7PY44n1UEqCaaKCiZ4XrIAD80,36356
+aws_cdk/aws_forecast/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_forecast/_jsii/__init__.py,sha256=_8JehW9pwiOEaycupiGdCwgGu9OvkRBpo9x05_AU4YE,351
+aws_cdk/aws_forecast/_jsii/aws-forecast@1.163.0.jsii.tgz,sha256=qnF_nzlo1iuha6HALZaU0KzzRwOCxobqS8oChwIWUzA,32387
+aws_cdk.aws_forecast-1.163.0.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_forecast-1.163.0.dist-info/METADATA,sha256=mlRh8ZrzgtPdAwie9b2GVjPx25uw1BArVMhwT53wbEc,3083
+aws_cdk.aws_forecast-1.163.0.dist-info/NOTICE,sha256=piksgoXop22-zO1J9i3rVrv57wUN9siPK1pqGzZ7-AE,113
+aws_cdk.aws_forecast-1.163.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_forecast-1.163.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_forecast-1.163.0.dist-info/RECORD,,
