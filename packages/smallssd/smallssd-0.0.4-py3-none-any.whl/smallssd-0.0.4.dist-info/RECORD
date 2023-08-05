@@ -1,0 +1,10 @@
+smallssd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smallssd/config.py,sha256=K9_M1JF8T6oIT4ihONeC9neBjpvnFEtJg32B6wH10_A,509
+smallssd/data.py,sha256=QBQsG1rVp5VMZ5VZVkgxvJPtldcMzxCNUNwOzvnbbLg,6742
+smallssd/keys.py,sha256=fXIsUJktSVVwABiYXYGuEhYIihkiScjrU-H1TlSnv0E,470
+smallssd/utils.py,sha256=ImptgkMBUZRe6mOTHhQcpdofhWHRoYLpZBl3oUS9c68,1403
+smallssd-0.0.4.dist-info/LICENSE,sha256=mGefR4UVwPXFDnIABtErTDgA1Ijo3Myk5Zplfvu4bG4,19917
+smallssd-0.0.4.dist-info/METADATA,sha256=wqZK6s0gpwM7DaHbfKacY3P4dGmr7qQBHwGLal2UdI4,2117
+smallssd-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+smallssd-0.0.4.dist-info/top_level.txt,sha256=nTqdCCYdHFqdWSTBVpx2C6SzE2KcpdOZStMsMb8uUTw,9
+smallssd-0.0.4.dist-info/RECORD,,
