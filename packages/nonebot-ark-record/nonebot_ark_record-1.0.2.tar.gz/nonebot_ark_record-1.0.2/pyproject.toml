@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "nonebot_ark_record"
+version = "1.0.2"
+description = "Nonebot plugin for fetching and analyzing gacha records of arknights"
+authors = ["Kawataku"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/zheuziihau"
+repository = "https://github.com/zheuziihau/nonebot_ark_record"
+keywords = ["gacha", "arknights"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: POSIX",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Framework :: AsyncIO",
+]
+include = [
+    "LICENSE",
+]
+ 
+[tool.poetry.dependencies]
+python = "^3.8"
+"matplotlib"="*"
+"Pillow"="*"
+"requests"="*"
+ 
+[tool.poetry.dev-dependencies]
+ 
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
