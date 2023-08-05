@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+je-cal/__init__.py
+je_cal.egg-info/PKG-INFO
+je_cal.egg-info/SOURCES.txt
+je_cal.egg-info/dependency_links.txt
+je_cal.egg-info/top_level.txt
