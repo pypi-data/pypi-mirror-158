@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: napari-bioimageio
+Version: 0.1.2
+Summary: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: napari
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: napari
+Requires-Dist: bioimageio.core (>=0.5.1)
+Requires-Dist: PyYAML (>=6.0)
+
+UNKNOWN
+
