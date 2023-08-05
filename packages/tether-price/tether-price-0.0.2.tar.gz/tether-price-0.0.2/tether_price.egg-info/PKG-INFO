@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: tether-price
+Version: 0.0.2
+Summary: Tether Price is a library that helps you to get the Tether price from various websites.
+Home-page: https://github.com/iAliF/Tether-Price
+Author: Ali Fotouhi
+Author-email: the.alif.dev@gmail.com 
+License: MIT
+Download-URL: https://github.com/iAliF/Tether-Price/archive/refs/tags/v0.0.1-alpha.tar.gz
+Project-URL: Documentation, https://github.com/iAliF/Tether-Price/
+Project-URL: Source, https://github.com/iAliF/Tether-Price/
+Project-URL: Bug Tracker, https://github.com/iAliF/Tether-Price/issues
+Keywords: Tether,Tether price,Tether price to RIAL,Tether price to IRR
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Tether Price
+
+### Tether price is a library that helps you to get the Tether price from various websites.
+
+## How To Install
+
+#### You can use the following command to install it.
+
+```commandline
+pip install tether-price
+```
+
+## Getting Started
+
+```python
+from tether import SourceManager
+from tether.sources import *
+
+manager = SourceManager()
+manager.add(Bitbarg())
+manager.add(ArzPaya())
+
+if __name__ == '__main__':
+    prices_list = manager.get_prices_list()
+    for price in prices_list.prices:  # type: Price
+        print(f'{price.source} | Buy: {price.buy} | Sell: {price.sell}')
+```
+
+## License
+
+[MIT](https://github.com/iAliF/Tether-Price/blob/main/LICENSE)
+
