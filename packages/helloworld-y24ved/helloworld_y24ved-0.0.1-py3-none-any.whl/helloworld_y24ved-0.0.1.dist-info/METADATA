@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: helloworld-y24ved
+Version: 0.0.1
+Summary: Say hello
+Home-page: https://github.com/y24ved/helloworld
+Author: y24 ved
+Author-email: y24.ved@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click (~=8.0.4)
+Provides-Extra: dev
+Requires-Dist: pytest (>=7.0.1) ; extra == 'dev'
+
+# helloworld
+
+Say Hello
+
+## Installation
+
+Run the following to install:
+
+```sh
+python3 -m pip install helloworld
+```
+
+## Usage
+
+```python
+from helloworld import say_hello
+
+# Generate "Hello, World!"
+say_hello()
+
+# Generate "Hello, Everybody!"
+say_hello("Everybody")
+```
+
+## Developing helloworld
+
+To install helloworld, along with the tools you need to develop and run tests, run the following in your virtualenv:
+
+```sh
+python3 -m pip install -e .[dev]
+```
+
+
+
