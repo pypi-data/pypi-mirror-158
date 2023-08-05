@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: df-lib-syren
+Version: 0.0.3
+Summary: COMPARISON OF DATAFRAMES
+Home-page: UNKNOWN
+Author: seshkalyan
+Author-email: dseshkalyan@gmail.com
+License: SYREN CLOUD TECHNOLOGIES
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+
+## What is this  about?
+Imagine you want to compare various iterations of a table or data file. You may need to ensure that your versions of a 
+list that is maintained by more than one person or system are same. When you have to solve this manually, it is 
+difficult. So, let's make use of this library right now!
+
+## How does it work?
+The script takes the ID value of an entry from the first table, searches for it in the second table, and sees 
+if it can find it there. If it does not, it will list this entry as a table 1 entry that was not found in table 2. 
+This will occur in the opposite direction for table 2 versus table 1. Furthermore, the script compares the values of 
+entries with the same ID and, if they differ, lists the differences.
+
+## What does it require?
+Each table entry must have a unique identifier, also known as a key value. 
+This could be an order number or an employee number, for example, but it could 
+also be any other characters as long as it is unique to an entry. This key value 
+must be located in your table's first column. The order of the other columns, 
+and also the overall order of the rows, is completely irrelevant. 
+we hope this library saves you some time!
+
+Version Release Beta
+==========
+0.0.3 (06/07/2022)
+-------------------
+
+----------
+
+Usage
+-------------------
+Install the published library:
+
+    pip install df_lib_syren
+------------------------------------------------------------------
+    
+    from df_lib_syren import syr_compareDF
+    
+    source =  '/source file path/'
+    target =  '/target file path/'
+    
+    compare_dfs = syr_compareDF(source_file = source, target_file= target)
+
