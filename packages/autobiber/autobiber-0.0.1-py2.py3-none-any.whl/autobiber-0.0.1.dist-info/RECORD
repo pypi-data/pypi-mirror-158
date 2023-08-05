@@ -1,0 +1,10 @@
+autobiber/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autobiber/_version.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+autobiber/autobiber.py,sha256=LrdqPRY_YDc087w2Rs-rWSf3ZmCHmDPpdvQlS3mQ7GI,3207
+autobiber/utils.py,sha256=w_f_YD3_cxcaf5huM2xs0jOEveEgptyO4g4LZnRDr5c,2671
+autobiber-0.0.1.dist-info/LICENSE,sha256=9UO4FZT6IvjkfTQxQF83o13kjKW5ijlvryheqJtQNZo,1080
+autobiber-0.0.1.dist-info/METADATA,sha256=k1KR6ckJnmSm1fE3mPQwJlSK05AGEz_LiP75WlKkPB4,3572
+autobiber-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+autobiber-0.0.1.dist-info/entry_points.txt,sha256=LMZNUru3G94bHRIb8GvCZLJFdLn7kyyPyZdFYG0pknQ,55
+autobiber-0.0.1.dist-info/top_level.txt,sha256=7I763cXAlTfdIrzJXLieZ9w3Y2MDGTql6J-FgghHtnc,10
+autobiber-0.0.1.dist-info/RECORD,,
