@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+motulator/forkofthemotulator/__init__.py
+motulator/forkofthemotulator/example.py
+motulator/forkofthemotulator.egg-info/PKG-INFO
+motulator/forkofthemotulator.egg-info/SOURCES.txt
+motulator/forkofthemotulator.egg-info/dependency_links.txt
+motulator/forkofthemotulator.egg-info/top_level.txt
