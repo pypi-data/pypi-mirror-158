@@ -1,0 +1,11 @@
+requirements.txt,sha256=7lGYIpkvlvkxdeeEj_8DewkKlVfFJDNJCa3NdsHrOTQ,43
+fastspell/FastSpell.py,sha256=_ZtWsXDfzdaTLlavOg24Tf_EznZSqfp2CMliDoGoSKA,6984
+fastspell/__init__.py,sha256=lVdn8JvkEwmgG1phIBLK8SbVpM27crwYQSs-OOFY7P4,64
+fastspell/fastspell.py,sha256=x-66hnHrUl0oJvNxS15brsBXciqIadWabXtAbdf0xTc,3468
+fastspell/config/hunspell.yaml,sha256=_4zVl16vbFfdfBM4o4SuRla1UXv19IDZ-r8d2l_AFy8,399
+fastspell/config/similar.yaml,sha256=QbyP5RH8I_GwtHRJtgDN-XILeqMG1JvHVj9ahXmAQBw,381
+fastspell-0.1.6.data/scripts/fastspell,sha256=-aNeu2wJ7gVSeF6nsEV-IPG_UahSE4DmZYBHOWCTrQ4,366
+fastspell-0.1.6.dist-info/METADATA,sha256=du_jE-Ywrg2bnDPEDn3h-X5Yk5lbMvuIRtcoOx9ks0k,9388
+fastspell-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fastspell-0.1.6.dist-info/top_level.txt,sha256=Gvco90Y4Dlh1V7IiyCYWtgQy4ki5V7tF_v3-Q06pgxE,10
+fastspell-0.1.6.dist-info/RECORD,,
