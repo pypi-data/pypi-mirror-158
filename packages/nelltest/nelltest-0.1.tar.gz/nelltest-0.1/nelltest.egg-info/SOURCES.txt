@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+nelltest/Binomialdistribution.py
+nelltest/Gaussiandistribution.py
+nelltest/Generaldistribution.py
+nelltest/__init__.py
+nelltest.egg-info/PKG-INFO
+nelltest.egg-info/SOURCES.txt
+nelltest.egg-info/dependency_links.txt
+nelltest.egg-info/not-zip-safe
+nelltest.egg-info/top_level.txt
