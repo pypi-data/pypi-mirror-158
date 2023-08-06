@@ -1,0 +1,29 @@
+[build-system]
+requires = ["maturin>=0.13,<0.14"]
+build-backend = "maturin"
+
+[project]
+name = "poker-log-parser"
+version = "0.1.2"
+requires-python = ">=3.7"
+description = "A blazingly-fast Rust/Python library for parsing poker hand histories"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+authors = [
+  {email = "djordje.pepic.10@gmail.com"},
+  {name = "Djordje Pepic"}
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+keywords = [
+    "poker", "hand history", "hand histories", "poker parser", 
+    "PokerStars", 
+    "Pluribus", 
+    "OnGame"
+]
