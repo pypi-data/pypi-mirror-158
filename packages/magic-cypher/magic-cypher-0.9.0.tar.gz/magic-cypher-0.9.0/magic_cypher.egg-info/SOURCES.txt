@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+cypher-magic/__init__.py
+cypher-magic/cypher.py
+cypher-magic/drawGraph.py
+cypher-magic/assets/index.html
+magic_cypher.egg-info/PKG-INFO
+magic_cypher.egg-info/SOURCES.txt
+magic_cypher.egg-info/dependency_links.txt
+magic_cypher.egg-info/requires.txt
+magic_cypher.egg-info/top_level.txt
