@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bungocrypt
+Version: 1.0.3
+Summary: bungocrypt is an encryption library for python. It's secure and key based so it will keep your data safe!
+Home-page: https://github.com/NikkieDev/bungocrypt-python
+Download-URL: https://github.com/NikkieDev/bungocrypt-python/archive/refs/tags/v1.2.tar.gz
+Author: NikkieDev Software
+Author-email: NikkieDev Software <business@nikkiedev.com>
+License: MIT
+Keywords: Encryption,decryption,fernet,cryptography,crypto,security,data,safety
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# bungocrypt
+This is an encryption library for python. It's secure and key based so it will keep your data safe!
