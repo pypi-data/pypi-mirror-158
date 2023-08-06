@@ -1,0 +1,3 @@
+[console_scripts]
+rdfhash = package.__main__:run
+
