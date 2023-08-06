@@ -1,0 +1,3 @@
+pytuyapi-ipc
+python-miio
+pycryptodome
