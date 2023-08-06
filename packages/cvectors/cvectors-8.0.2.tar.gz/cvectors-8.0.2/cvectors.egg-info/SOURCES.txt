@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+cvectors/__init__.py
+cvectors.egg-info/PKG-INFO
+cvectors.egg-info/SOURCES.txt
+cvectors.egg-info/dependency_links.txt
+cvectors.egg-info/top_level.txt

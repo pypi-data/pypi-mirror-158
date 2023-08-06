@@ -1,0 +1,20 @@
+[project]
+name = "cvectors"
+version = "8.0.2"
+description = "A simple complex vector package."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+homepage = "https://gitlab.com/Tom_Fryers/cvectors"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
