@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+AlgoAshutosh/__init__.py
+AlgoAshutosh.egg-info/PKG-INFO
+AlgoAshutosh.egg-info/SOURCES.txt
+AlgoAshutosh.egg-info/dependency_links.txt
+AlgoAshutosh.egg-info/top_level.txt
