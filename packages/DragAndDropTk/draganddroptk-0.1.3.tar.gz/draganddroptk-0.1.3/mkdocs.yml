@@ -1,0 +1,9 @@
+site_name: Drag And Drop Tk
+
+theme: 
+  name: material
+  palette:
+    - scheme: slate
+
+markdown_extensions:
+  - pymdownx.superfences

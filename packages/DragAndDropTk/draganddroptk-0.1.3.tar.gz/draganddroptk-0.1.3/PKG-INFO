@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: DragAndDropTk
+Version: 0.1.3
+Summary: A generic drag and drop widget to Tkinter applications
+Author-email: Lucas Rocha <lucash.rocha@hotmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Lucas Rocha
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# A Tkinter drag and drop widget
+
+DragAndDropTk is a Tkinter widget that implements drag and drop features and can be customized as needed. It was developed as a Tkinter Frame with the callback functions and can be easily improved to build interfaces that need this behavior.
+
+**Read the [docs](https://lucashcr.github.io/DragAndDropTk/) for more information**
