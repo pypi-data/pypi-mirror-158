@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: aioelpris
+Version: 0.2.0
+Summary: An aio library to retrieve some Nordic countries current electricity price.
+Home-page: https://github.com/dansmachina/aioelpris
+License: Apache License
+Author: Alejandro González Pérez
+Author-email: 8874974+dansmachina@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)
+Project-URL: Repository, https://github.com/dansmachina/aioelpris
+Description-Content-Type: text/markdown
+
+# aioelpris
+
+An aio library to retrieve current electricity price in (some parts) of the Nordics. Current supported regions are:
+
+- `DK1`: Denmark/west of the Great Belt
+- `DK2`: Denmark/east of the Great Belt
+- `NO2`: Norway/Kristiansand
+- `SE3`: Sweden/Stockholm
+- `SE4`: Sweden/Malmö
+
+Prices are returned in DKK and EUR currencies.
+
+## Basic example
+
+```python
+
+import asyncio
+
+from aiohttp import ClientSession
+
+from aioelpris import ElPris
+from aioelpris.core.models import Price
+
+
+async def example() -> Price:
+    async with ClientSession() as session:
+        pris = ElPris(session=session, price_area="SE3")
+        price: Price = await pris.get_current_price()
+        print(price.SpotPriceDKK)
+        return price
+
+
+asyncio.run(example())
+
+
+
+```
+
+## Data sources
+
+[Energi Data Service](https://www.energidataservice.dk/tso-electricity/Elspotprices).
+
