@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/__version__.py
+src/scripts/xdisplayinfo
+xdisplayinfo.egg-info/PKG-INFO
+xdisplayinfo.egg-info/SOURCES.txt
+xdisplayinfo.egg-info/dependency_links.txt
+xdisplayinfo.egg-info/top_level.txt
