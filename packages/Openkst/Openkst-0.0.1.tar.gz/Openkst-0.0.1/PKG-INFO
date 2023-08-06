@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: Openkst
+Version: 0.0.1
+Summary: 通过BiLSTM-CRF的文本实体提取
+Home-page: UNKNOWN
+Author: imamts
+Author-email: zjutzzy@126.com
+Maintainer: imamts
+Maintainer-email: zjutzzy@126.com
+License: MIT
+Description: UNKNOWN
+Platform: Windows
+Platform: Linux
+Requires-Python: ==3.7
