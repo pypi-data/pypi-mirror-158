@@ -1,0 +1,2 @@
+[console_scripts]
+kotl = kotl_ignis.__main__:kotl
