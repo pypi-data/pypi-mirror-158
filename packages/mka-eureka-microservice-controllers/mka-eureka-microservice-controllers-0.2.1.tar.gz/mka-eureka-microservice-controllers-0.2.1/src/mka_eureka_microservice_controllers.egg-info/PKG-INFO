@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mka-eureka-microservice-controllers
+Version: 0.2.1
+Summary: A package contains scripts to easily connection between connected django microservice with eureka
+Home-page: 
+Author: Adnan Aji
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mka_eureka_microservice_controllers
+A pip package contains scripts to easily connection between connected django microservice with eureka
+## Authors
+- [@adnan-aji](https://github.com/adnan-aji)
+## Installation
+Install my-project with pip
+```bash
+  pip install mka_eureka_microservice_controllers
+```
+## Requirements
+* django
+* django_numpy_json_encoder
+* py_eureka_client
+* pathlib
+* pandas
+* numpy
+
