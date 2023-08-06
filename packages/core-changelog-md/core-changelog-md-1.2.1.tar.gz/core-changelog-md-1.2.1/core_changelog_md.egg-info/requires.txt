@@ -1,0 +1,4 @@
+setuptools>=57.0.0
+packaging>=21.3
+pytest>=7.1.2
+sortedcontainers>=2.4.0
