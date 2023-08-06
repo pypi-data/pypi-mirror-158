@@ -1,0 +1,33 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "agent_import_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "state":{
+      "type":[
+          "null",
+          "string"
+      ]
+    },
+    "start_time": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "platform":{
+      "type":[
+          "null",
+          "string"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

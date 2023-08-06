@@ -1,0 +1,39 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "start_time": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "end_time": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "agent_id":{
+      "type":[
+          "null",
+          "string"
+      ]
+    },
+    "type_id":{
+      "type":[
+          "null",
+          "string"
+      ]
+    }
+  },
+  "additionalProperties": false
+}
