@@ -1,0 +1,14 @@
+crossposter/__init__.py,sha256=C4q_ZsA5g__-7QXTONXlbK3QgSCpNKXOOFHP4iqywLE,26
+crossposter/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crossposter/app.py,sha256=RepFdPDi_MhUQ0QE1CG7Q3B-AfxDjZPCpZDJ3UfI2sg,2432
+crossposter/utils.py,sha256=3b7WVX5Trj7XG1Jtn_G4hA-XYoBmcb1oMTrbM4933jU,208
+crossposter/publications/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crossposter/publications/codenewbie.py,sha256=ThEBL-sfOiD5iV_4ss9HZ220sp8gxr27BEo54IS0D8A,2272
+crossposter/publications/dev.py,sha256=r8rieFvD7w_nJj-XmqZlD4cgNu9fJIyK6b6JYBbLLJY,2713
+crossposter/publications/hashnode.py,sha256=87npHBfNU2JJQEZicaM5j_O-gbPm2J6yuTOurgrdv88,2261
+crossposter/publications/medium.py,sha256=Z-3oo61N4bwGaiYfNrletDIH1sFypSaMMkKLEhTvGxo,1853
+crossposter-0.4.0.dist-info/METADATA,sha256=0GZ8mUfuqiCT78tnQc3YhAVidxATTKpd8sfCkhnepZE,9256
+crossposter-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+crossposter-0.4.0.dist-info/entry_points.txt,sha256=_40GJcRUmBhDZtY84UwLYcRhs1qZnqDDKX2Nd06UkHM,51
+crossposter-0.4.0.dist-info/top_level.txt,sha256=RV6_Qzcv_I8TgL6QXoBaetFRbleQ8UzIHoZiISf6-jM,12
+crossposter-0.4.0.dist-info/RECORD,,
