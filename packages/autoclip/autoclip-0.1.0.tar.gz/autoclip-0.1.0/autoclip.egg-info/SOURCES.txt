@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+autoclip/__init__.py
+autoclip.egg-info/PKG-INFO
+autoclip.egg-info/SOURCES.txt
+autoclip.egg-info/dependency_links.txt
+autoclip.egg-info/top_level.txt
+autoclip/tf/__init__.py
+autoclip/tf/quantile.py
+autoclip/torch/__init__.py
+autoclip/torch/clipper.py
+autoclip/torch/quantile.py
+autoclip/torch/std.py
+autoclip/torch/utils.py
