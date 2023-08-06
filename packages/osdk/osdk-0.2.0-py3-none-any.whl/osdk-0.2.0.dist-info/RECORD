@@ -1,0 +1,13 @@
+osdk/__init__.py,sha256=gbURDsifbMWjq14ku85qy4pbO3nLlclVLCjhSSzYzZk,4430
+osdk/__main__.py,sha256=XnpTzfJc0T-j9tHtdkA8ovTr1c139ffTewcJGhxYDaM,49
+osdk/build.py,sha256=Z5kEy57anJU2c-WtnsjU9F2MGnvlxKWlGQjKs-Y6OHE,3964
+osdk/manifests.py,sha256=RmnMQEIPebdy2-6dh5N525wBE-zWd8P9sI9BZ_Vr8Yk,5328
+osdk/ninja.py,sha256=XedSRn3IR3BuRsHcuItUHH0kQanpLqFu54Aq_pSu4jk,7740
+osdk/targets.py,sha256=mQOXeNysZ_HUsxyiGzBKRWugJgxbBYxO-AI56UuQOWg,3810
+osdk/utils.py,sha256=o8DpuI1okPNeNH5JbYjST108pdXDyUP9xkoVXivvx70,4859
+osdk-0.2.0.dist-info/LICENSE,sha256=aNBgfUOkJjngu16OZlVoLoiNg5H2mlsJm1HbUo_tY10,1062
+osdk-0.2.0.dist-info/METADATA,sha256=cFgG94PIEQtcvOogp4-h-G399M9IpAAOqrt9tap8Tt8,280
+osdk-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+osdk-0.2.0.dist-info/entry_points.txt,sha256=t7Yw1IIrdgRpD-1qOz0kfTVnj6VnrwCPn5pHMvsXwcg,35
+osdk-0.2.0.dist-info/top_level.txt,sha256=VlLaItoTPwe2qo7YSyNu5hWuwNVRyJnfON75BluvqU4,5
+osdk-0.2.0.dist-info/RECORD,,
