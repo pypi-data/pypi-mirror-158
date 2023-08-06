@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.cfg
+setup.py
+prometheus_client22.egg-info/PKG-INFO
+prometheus_client22.egg-info/SOURCES.txt
+prometheus_client22.egg-info/dependency_links.txt
+prometheus_client22.egg-info/top_level.txt
