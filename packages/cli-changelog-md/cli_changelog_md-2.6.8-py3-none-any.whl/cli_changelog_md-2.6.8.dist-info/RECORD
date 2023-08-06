@@ -1,0 +1,9 @@
+cli_changelog_md/__init__.py,sha256=LbU43-7hsLmdXWI0wTAl3y6D3Tr7CbJiDOLXwl7clj8,22
+cli_changelog_md/cfg.py,sha256=fBOd6QICjRGDAkpSvhMYw6ECbnatNR_BSBBNRqE9LTY,1856
+cli_changelog_md/exception.py,sha256=4fZ4LCesv4HbHzKndPno8bsJD7zI9ovDaN8gw1WOFJo,100
+cli_changelog_md/git.py,sha256=ECtNavzw6yZlXaP3yODVaRcmPntz_6ieSEotjcBUZ8Y,3738
+cli_changelog_md-2.6.8.data/scripts/changelog,sha256=jdnkeWtb8cLy3DxjKaOsZrirX4vubCDTFGDa65_kYmM,5855
+cli_changelog_md-2.6.8.dist-info/METADATA,sha256=P1K8MsKprmJk4ekyH76SD99FPcH9kOga43tvCOQiSbA,426
+cli_changelog_md-2.6.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cli_changelog_md-2.6.8.dist-info/top_level.txt,sha256=VvZNCiviEd5wtxzMMlBKhj9Bca7Hg_nbIR_jxKeYeek,17
+cli_changelog_md-2.6.8.dist-info/RECORD,,
