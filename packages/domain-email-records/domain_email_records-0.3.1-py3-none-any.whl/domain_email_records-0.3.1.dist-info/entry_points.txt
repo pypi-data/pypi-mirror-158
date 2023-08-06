@@ -1,0 +1,3 @@
+[console_scripts]
+domain-email-records = domain_email_records.cli_entrypoint:main
+
