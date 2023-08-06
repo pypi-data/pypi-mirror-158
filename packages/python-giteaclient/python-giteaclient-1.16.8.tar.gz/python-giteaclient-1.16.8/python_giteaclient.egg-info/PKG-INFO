@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: python-giteaclient
+Version: 1.16.8
+Summary: Gitea API client for python.
+Home-page: UNKNOWN
+Author-email: 
+License: UNKNOWN
+Keywords: Swagger,Gitea API.
+Platform: UNKNOWN
+License-File: LICENSE
+
+    This documentation describes the Gitea API.  # noqa: E501
+    
+
