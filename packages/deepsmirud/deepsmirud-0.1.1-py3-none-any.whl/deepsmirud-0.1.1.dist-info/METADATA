@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: deepsmirud
+Version: 0.1.1
+Summary: deepsmirud
+Home-page: https://github.com/2003100127/deepsmirud
+Author: Jianfeng Sun
+Author-email: jianfeng.sunmt@gmail.com
+License: MIT
+Keywords: pip,deepsmirud
+Platform: any
+Requires-Python: >3.6
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: biopython
+Requires-Dist: pyfiglet
+Requires-Dist: click
+Requires-Dist: tensorflow
+Requires-Dist: rdkit-pypi
+
+deep learning SM-miR relation
