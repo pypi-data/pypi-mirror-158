@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: custom-cloudwatch-package
+Version: 0.0.2
+Summary: A package to import all the use default use cases of AWS cloud watch and more.
+Home-page: https://github.com/dibyanshuchatterjee/AWS-cloud-watch-custom-metrics-monitoring.
+Author: Dibyanshu Chatterjee
+Author-email: dibyanshu.chatterjee.27@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Code reference - AWS's official website
+
+This API helps to use the default usage of AWS cloud watch and additionally will allow to monitor custom metrics from defined processes.
