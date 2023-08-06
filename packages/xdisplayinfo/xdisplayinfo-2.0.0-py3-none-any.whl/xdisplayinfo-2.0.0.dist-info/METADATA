@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: xdisplayinfo
+Version: 2.0.0
+Summary: Utility to get information of the current display in systems using X.
+Home-page: https://github.com/lu0/current-x-display-info
+Author: Lucero Alvarado Ruiz
+Author-email: me@lucerocodes.com
+Project-URL: Source, https://github.com/lu0/current-x-display-info
+Project-URL: Documentation, https://github.com/lu0/current-x-display-info#x-display-info
+Project-URL: Tracker, https://github.com/lu0/current-x-display-info/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: X11 Applications
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Unix Shell
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Multimedia :: Video :: Display
+Classifier: Topic :: Desktop Environment :: Window Managers
+Classifier: Topic :: System :: Hardware
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# X Display Info
+
+Linux CLI utility to easily get information of the current display, the one the
+mouse is hovered over, in systems using X server.
+
+## Dependencies
+
+Tested with the following dependencies, installed by default in most Linux
+distributions using X:
+
+- `bash`: `4`+
+- `xdotool`: `3.20160805`+
+- `xrandr`: `1.5.0`+
+- `grep`: `3.4`+
+
+## Installation
+
+### Option A: Using `pip`
+
+```sh
+pip3 install xdisplayinfo
+```
+
+### Option B: Adding source script to `$PATH`
+
+```sh
+git clone https://github.com/lu0/current-x-display-info
+cd current-x-display-info/src/scripts/
+ln -srf xdisplayinfo ~/.local/bin/xdisplayinfo
+```
+
+
+## Usage
+
+Run `xdisplayinfo -h` to see the list of available options.
+
+```txt
+Get information of the current display on systems using X.
+
+USAGE:
+  xdisplayinfo   [OPTION]
+
+OPTIONS:
+  --window-id    ID of the active window (decimal).
+  --offset-y     Y coordinate of the top-left corner.
+  --offset-x     X coordinate of the top-left corner.
+  --resolution   Resolution as [width]x[height].
+  --height       Resolution along the Y axis.
+  --width        Resolution along the X axis.
+  --name         Name of the current display.
+  --all          All properties.
+```
