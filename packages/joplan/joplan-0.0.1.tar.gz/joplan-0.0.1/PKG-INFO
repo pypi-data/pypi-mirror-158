@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: joplan
+Version: 0.0.1
+Summary: Python Simple Job Scheduling.
+Home-page: https://github.com/wonderbeyond/joplan
+License: MIT
+Keywords: python,scheduler,cronjob,crontab
+Author: Wonder
+Author-email: wonderbeyond@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: testing
+Requires-Dist: deltaman (>=0.0.4,<0.0.5)
+Requires-Dist: pytest (>=7.1.2,<8.0.0); extra == "testing"
+Requires-Dist: tox (>=3.25.0,<4.0.0); extra == "testing"
+Project-URL: Documentation, https://github.com/wonderbeyond/joplan
+Project-URL: Repository, https://github.com/wonderbeyond/joplan
+Description-Content-Type: text/markdown
+
+JoPlan - Arrange Jobs as Plan
+=============================
+
+## Installation
+
+```shell
+$ pip install joplan
+```
+
+## Usage
+
+```python
+from joplan import do, every, Plan
+
+Plan([
+    do('pkg.mod.func1').every('5s'),
+    do('pkg.mod.func2').every('3m'),
+]).run()
+```
+
