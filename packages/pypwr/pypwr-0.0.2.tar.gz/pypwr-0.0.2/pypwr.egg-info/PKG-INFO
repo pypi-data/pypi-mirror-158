@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pypwr
+Version: 0.0.2
+Summary: Python version of the pwr R package
+Home-page: UNKNOWN
+Author: Ernest (Khashayar) Namdar
+Author-email: ernest.namdar@utoronto.ca
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+pypwr is the Python version of the pwr R library.
+
+\@author: Ernest (Khashayar) Namdar ernest.namdar\@utoronto.ca
+
+
