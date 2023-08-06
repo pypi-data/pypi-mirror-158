@@ -1,0 +1,11 @@
+fileioutilities/__init__.py,sha256=ZpcQNLpWZX8VFZDWCyjChq1Fy7Y-lOgG-yLbs4O0B0E,133
+fileioutilities/file_io.py,sha256=xZaF_zhKGa8w28fmdyCmXTk_7PfCbl9QFTH0_idf9JQ,1118
+fileioutilities/filesystem.py,sha256=9cgw2726X50zoQGxn4__6VFzA5I51iBsicmkhB3h9H0,1224
+fileioutilities/get_arguments.py,sha256=wlJ0iAmGtjLCzlKyk4TaKWlOvjRsKka_JF2f00JG3LM,309
+fileioutilities/hdfs.py,sha256=pXqPvoLpjqKnpifJ7KdPi_I8QibbJicpxbLBb3VCNMA,1068
+fileioutilities/http.py,sha256=QQ6m2GzAR_V_1CFxeNIy0VwziPls39D21734LGk-7wQ,834
+fileioutilities/minio.py,sha256=UTl_Us7hQUqMbJ663TtOgsP1Pdq_ccw2zQPez0tZeVI,3308
+file_io_utilities-0.0.4.dist-info/METADATA,sha256=zIuOK3lRKzJqCMhiM4CDkoAW6FFofYJUIDiiaR28iPM,508
+file_io_utilities-0.0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+file_io_utilities-0.0.4.dist-info/top_level.txt,sha256=gAKw2UmoIICuIlFULICugLmV0wDeM50vGVND6XmigG8,16
+file_io_utilities-0.0.4.dist-info/RECORD,,
