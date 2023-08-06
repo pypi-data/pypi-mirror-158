@@ -1,0 +1,356 @@
+#!/bin/sh
+
+##############################################################################
+# Print csv rows in a more human-readable format
+#
+
+##############################################################################
+# BOOTSTRAP
+#
+# Include ../lib in the search path before calling python.
+# (Thanks to https://unix.stackexchange.com/questions/20880)
+#
+if "true" : '''\'
+then
+    export PYTHONPATH="$(dirname $0)/../lib:$PYTHONPATH"
+    export PYTHONPATH="$(dirname $0)/../plugins:$PYTHONPATH"
+    pythoncmd=python
+
+    if command -v python3 >/dev/null; then
+        pythoncmd=python3
+    fi
+
+    exec "$pythoncmd" "$0" "$@"
+    exit 127
+fi
+'''
+
+##############################################################################
+# PYTHON CODE BEGINS HERE
+
+import os
+import sys
+import errno
+import getopts
+import importlib
+import pkg_resources
+from csvutils import libcsv
+from itertools import zip_longest
+
+__copyright__ = 'Copyright 2019-2022 Mark Kim'
+__license__ = 'Apache 2.0'
+__version__ = '1.0.1'
+__author__ = 'Mark Kim'
+
+
+##############################################################################
+# GLOBALS
+
+SCRIPTNAME = os.path.basename(__file__)
+SCRIPTDIR = os.path.dirname(__file__)
+
+class opts:
+    files = []
+    delim = None
+    has_header = True
+    strip_quotes = False
+    translator = None
+    multitable = False
+    diff = 0
+
+
+##############################################################################
+# USAGE
+
+def usage():
+    '''\
+Display one or more csv file(s) in a vertical format, with each field displayed
+on its own line with the column header to its left.
+
+usage: {SCRIPTNAME} [OPTIONS] [FILES]
+
+Options:
+  FILE                  csv file(s) to read.
+
+  -d, --delim=DELIM     Use  DELIM as the value delimiter, where DELIM may be
+                        'p' for the pipe (|), 't' for the tab (\\t), 'a' for
+                        the SOH (ASCII 1), or other string literal of one or
+                        more characters and Python  string  escape  sequences.
+                        DELIM  may  include  escape characters.  By default the
+                        delimiter is guessed from the characters in the
+                        CSV_DELIMS environment variable.
+
+  -f, --diff-only       Show only the fields that differ between each row.
+
+  -g, --show-change     Show only the fields that differ between each row, and
+                        show how they changed.
+
+  -n, --no-header       The file contains no header.  The values are numbered
+                        by their column positions instead.
+
+  -s, --strip-quotes    Strip quotes from field values.
+
+  -t, --translator=LIB  Use the plugin library LIB to preprocess the values
+                        before display.  LIB may be the full  path  to  the
+                        library  without  the  .py suffix, or it may just be
+                        the library name in which case CSV_PLUGINS_PATH is
+                        searched for the library.
+
+  -m, --multitable      Multitable support.  One csv file may include multiple
+                        csv data by separating them by an empty line.
+
+Environment Variables:
+  CSV_DELIMS            A set of characters used to guess the delimiter of a
+                        csv file.  The guesswork happens when reading  the
+                        first  line  of  the first FILE, by testing each
+                        character present in CSV_DELIMS for the character with
+                        the most occurrence in the line.  If any of the
+                        characters occur the same number  of  times  (including
+                        zero),  the  earlier  character  in the variable is
+                        chosen.  If the environment variable is not set, it
+                        defaults to '{libcsv.DELIMS}'.  CSV_DELIMS may include
+                        escape characters.
+
+  CSV_PLUGINS_PATH      A colon-separated list of directories in which the
+                        plugin library is searched.
+'''
+
+    print(usage.__doc__.format(**globals()))
+
+
+##############################################################################
+# MAIN
+
+def main():
+    errcount = 0
+
+    getopt = getopts.getopts(sys.argv, {
+        'n' : 0, 'no-header'    : 0,
+        's' : 0, 'strip-quotes' : 0,
+        'd' : 1, 'delim'        : 1,
+        'f' : 0, 'diff-only'    : 0,
+        'g' : 0, 'show-change'  : 0,
+        't' : 1, 'translator'   : 1,
+        'm' : 0, 'multitable'   : 0,
+        'h' : 0, 'help'         : 0,
+    })
+
+    for c in getopt:
+        if c in ('-')                   : opts.files.append(getopt.optarg)
+        elif c in ('d', 'delim')        : opts.delim = arg_to_delim(getopt.optarg)
+        elif c in ('f', 'diff-only')    : opts.diff = 1
+        elif c in ('g', 'show-change')  : opts.diff = 2
+        elif c in ('n', 'no-header')    : opts.has_header = False
+        elif c in ('s', 'strip-quotes') : opts.strip_quotes = True
+        elif c in ('t', 'translator')   : opts.translator = load_translator(getopt.optarg)
+        elif c in ('m', 'multitable')   : opts.multitable = True
+        elif c in ('h', 'help')         : usage(); sys.exit(0)
+        else                            : errcount += 1
+
+    # Sanity check
+    if errcount:
+        sys.stderr.write('Type `{SCRIPTNAME} --help` for help.\n'.format(**globals()))
+        sys.exit(1)
+
+    # Read from STDIN if no file specified
+    if not opts.files:
+        opts.files.append("-")
+
+    # Load the translator
+    if not opts.translator:
+        opts.translator = DefaultTranslatorModule
+
+    # Read each file
+    for f in opts.files:
+        with smart_open(f) as fo:
+            csvread(fo)
+
+
+def setup_environ():
+    # Add plugin paths to sys.path
+    sys.path = [
+        os.path.join(SCRIPTDIR, '..', 'plugins'),
+        pkg_resources.resource_filename('csvutils', 'plugins'),
+    ] + sys.path
+
+    if 'CSV_PLUGINS_PATH' in os.environ:
+        sys.path = os.env['CSV_PLUGINS_PATH'].split(':') + sys.path
+
+
+def arg_to_delim(delim):
+    # Delimiter shorthands
+    if delim in ('p'): delim = '|'
+    elif delim in ('t'): delim = '\t'
+    elif delim in ('a'): delim = '\u0001'
+
+    # Translate escape characters
+    decoded = delim.encode().decode('unicode_escape')
+
+    # Use the decoded string only if it's a single character
+    if len(delim) == 1 or len(decoded) == 1:
+        delim = decoded
+
+    return delim
+
+
+def load_translator(lib):
+    # The library is imported from the system path; so we add the library
+    # folder to the system path, load the library, then restore the path.
+    folder = os.path.dirname(lib)
+    filename = os.path.basename(lib)
+
+    if(len(folder)): sys.path.insert(0, folder)
+    translator = importlib.import_module(filename)
+    if(len(folder)): sys.path.pop(0)
+    
+    return translator
+
+
+def smart_open(filename, mode='r'):
+    '''Open a file for reading, treating '-' as a stdin or stdout, depending on
+    the mode.'''
+
+    if filename == '-':
+        # Duplicate stdin/stdout so the caller can close it without closing stdin.
+        fd = sys.stdin.fileno() if 'r' in mode else sys.stdout.fileno()
+        fo = os.fdopen(os.dup(fd))
+    else:
+        fo = open(filename, mode)
+
+    return fo
+
+
+def csvread(file):
+    reader = libcsv.Reader(file, delim=opts.delim, has_header=opts.has_header, is_multitable=opts.multitable)
+    translator = opts.translator.Translator()
+    lastrow = {};
+
+    # Data rows
+    for row in reader:
+        cell_list = []
+        has_name = False
+        is_firstrow = False
+
+        # Is this the first row?
+        if row.rownum() == 0:
+            is_firstrow = True
+        elif row.rownum() == 1 and opts.has_header:
+            is_firstrow = True
+
+        # Reset lastrow on firstrow
+        if is_firstrow:
+            lastrow = {}
+
+        # Skip empty lines
+        if len(row) == 0: continue
+
+        # Translate the cells
+        for cell in row:
+            if opts.translator:
+                cell = translator(cell)
+
+            if cell.colname():
+                has_name = True
+
+            cell_list.append(cell)
+
+        # Calculate the width of the column names
+        if has_name:
+            colwidth = max(len(cell.colname() or '') for cell in cell_list)
+        else:
+            colwidth = len(str(len(cell_list)))
+
+        # Calculate the width of the column values
+        if opts.diff == 2 and lastrow:
+            valwidth = max(width_of(value) for value in lastrow.values())
+        else:
+            valwidth = 0
+
+        # Print each cell
+        for cell in cell_list:
+            if has_name:
+                colname = cell.colname() or ''
+            else:
+                colname = cell.colnum()+1
+
+            if opts.strip_quotes:
+                val = cell.stripped()
+            else:
+                val = cell.value()
+
+            # Diff handling
+            if opts.diff and lastrow.get(colname) == val:
+                continue
+
+            # Print each line of the cell value
+            print_cell(colwidth, colname, valwidth, lastrow.get(colname,''), val, is_firstrow)
+
+            # Remember this cell value for the next row
+            lastrow[colname] = val
+
+        # Print deleted cells
+        if opts.diff:
+            newcols = [(cell.colname() or '') for cell in cell_list]
+            allcols = lastrow.keys()
+            delcols = []
+
+            for colname in allcols:
+                if colname not in newcols:
+                    delcols += [colname]
+
+            for colname in delcols:
+                print_cell(colwidth, colname, valwidth, lastrow[colname], '', is_firstrow)
+                del lastrow[colname]
+
+        print('')
+
+
+def width_of(multiline_text):
+    return max(len(line) for line in multiline_text.split('\n'))
+
+
+def height_of(multiline_text):
+    return len(multiline_text.split('\n'))
+
+
+def print_cell(colwidth, colname, valwidth, fromvalue, tovalue, is_firstrow):
+    fromlines = fromvalue.split('\n');
+    tolines = tovalue.split('\n');
+    showdiff = (opts.diff == 2)
+
+    if is_firstrow:
+        showdiff = False
+
+    if not showdiff:
+        fromlines = []
+
+    for i, line in enumerate(zip_longest(fromlines, tolines, fillvalue='')):
+        if showdiff and i == 0:
+            print('%-*s : %-*s => %s' % (colwidth, colname, valwidth, line[0], line[1]))
+        elif showdiff:
+            print('%-*s   %-*s    %s' % (colwidth, '', valwidth, line[0], line[1]))
+        elif i == 0:
+            print('%-*s : %-*s'       % (colwidth, colname, valwidth, line[1]))
+        else:
+            print('%-*s   %-*s'       % (colwidth, '', valwidth, line[1]))
+
+
+class DefaultTranslatorModule(object):
+    class Translator(object):
+        def __call__(self, cell):
+            return cell
+
+
+##############################################################################
+# ENTRY POINT
+
+if __name__ == '__main__':
+    setup_environ()
+
+    try:
+        main()
+    except KeyboardInterrupt:
+        print('')
+        sys.exit(errno.EOWNERDEAD)
+
+# vim:ft=python

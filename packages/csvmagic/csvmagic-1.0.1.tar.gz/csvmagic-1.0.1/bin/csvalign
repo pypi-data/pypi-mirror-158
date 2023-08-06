@@ -1,0 +1,309 @@
+#!/bin/sh
+
+##############################################################################
+# Align columns in a csv.
+#
+
+##############################################################################
+# BOOTSTRAP
+#
+# Include ../lib in the search path before calling python.
+# (Thanks to https://unix.stackexchange.com/questions/20880)
+#
+if "true" : '''\'
+then
+    export PYTHONPATH="$(dirname $0)/../lib:$PYTHONPATH"
+    pythoncmd=python
+
+    if command -v python3 >/dev/null; then
+        pythoncmd=python3
+    fi
+
+    exec "$pythoncmd" "$0" "$@"
+    exit 127
+fi
+'''
+
+##############################################################################
+# PYTHON CODE BEGINS HERE
+
+import os
+import re
+import sys
+import errno
+import getopts
+from csvutils import libcsv
+
+__copyright__ = 'Copyright 2020-2022 Mark Kim'
+__license__ = 'Apache 2.0'
+__version__ = '1.0.1'
+__author__ = 'Mark Kim'
+
+
+##############################################################################
+# GLOBALS
+
+SCRIPTNAME = os.path.basename(__file__)
+
+class opts:
+    files = []
+    widths = []
+    delim = None
+    padding = '  '
+    buffered = True
+    numbered = False
+    multitable = False
+
+
+##############################################################################
+# USAGE
+
+def usage():
+    '''\
+Display the csv file(s) with its column aligned.
+
+usage: {SCRIPTNAME} [OPTIONS] [FILES]
+
+Options:
+  FILE                  csv file(s) to align.
+
+  -d, --delim=DELIM     Use DELIM as the value delimiter, where DELIM may be
+                        'p' for the pipe (|), 't' for the tab (\\t), 'a' for
+                        the SOH (ASCII 1), or other string literal of one or
+                        more characters and Python  string  escape  sequences.
+                        DELIM  may  include  escape characters.  By default the
+                        delimiter is guessed from the characters in the
+                        CSV_DELIMS environment variable.
+
+  -p, --padding=PAD     Characters to use as padding between the columns.
+                        Escape sequences such as \\t are accepted.  The default
+                        is two spaces.  
+
+  -w, --width=WIDTHS    Comma separate list of field widths.  A positive
+                        integer right aligns, a negative integer left aligns.
+                        The last number is the default width of any column
+                        without a width specified.  Setting this options
+                        disables buffering so the output is faster.
+
+  -n, --number          Show column numbers.
+
+  -m, --multitable      Multitable support.  One csv file may include multiple
+                        csv data by separating them by an empty line.
+
+Environment Variables:
+  CSV_DELIMS            A set of characters used to guess the delimiter of a
+                        csv file.  The guesswork happens when reading  the
+                        first  line  of  the first FILE, by testing each
+                        character present in CSV_DELIMS for the character with
+                        the most occurrence in the line.  If any of the
+                        characters occur the same number  of  times  (including
+                        zero),  the  earlier  character  in the variable is
+                        chosen.  If the environment variable is not set, it
+                        defaults to '{libcsv.DELIMS}'.  CSV_DELIMS may include
+                        escape characters.
+'''
+
+    print(usage.__doc__.format(**globals()))
+
+
+##############################################################################
+# MAIN
+
+def main():
+    errcount = 0
+
+    getopt = getopts.getopts(sys.argv, {
+        'd' : 1,           'delim'      : 1,
+        'p' : 1,           'padding'    : 1,
+        'w' : is_intarray, 'width'      : is_intarray,
+        'n' : 0,           'number'     : 0,
+        'm' : 0,           'multitable' : 0,
+        'h' : 0,           'help'       : 0,
+    })
+
+    for c in getopt:
+        if c in ('-')                   : opts.files.append(getopt.optarg)
+        elif c in ('d', 'delim')        : opts.delim = arg_to_delim(getopt.optarg)
+        elif c in ('p', 'padding')      : opts.padding = getopt.optarg
+        elif c in ('w', 'width')        :
+            opts.widths = getopt.optarg.split(',')
+            opts.buffered = False
+        elif c in ('n', 'number')       : opts.numbered = True
+        elif c in ('m', 'multitable')   : opts.multitable = True
+        elif c in ('h', 'help')         : usage(); sys.exit(0)
+        else                            : errcount += 1
+
+    # Translate backslashes
+    opts.padding = opts.padding.encode().decode('unicode_escape')
+
+    # Sanity check
+    if errcount:
+        sys.stderr.write('Type `{SCRIPTNAME} --help` for help.\n'.format(**globals()))
+        sys.exit(1)
+
+    # Read from STDIN if no file specified
+    if not opts.files:
+        opts.files.append("-")
+
+    # Read each file
+    for f in opts.files:
+        with smart_open(f) as fo:
+            # Align all tables in the file
+            while csvalign(fo, opts.widths):
+                print('')
+
+
+def is_intarray(arg):
+    isok = True
+
+    for v in arg.split(','):
+        try:
+            int(v)
+        except ValueError as e:
+            isok = False
+            break
+
+    return isok
+
+
+def arg_to_delim(delim):
+    # Delimiter shorthands
+    if delim in ('p'): delim = '|'
+    elif delim in ('t'): delim = '\t'
+    elif delim in ('a'): delim = '\u0001'
+
+    # Decode escape characters
+    decoded = delim.encode().decode('unicode_escape')
+
+    # Use the decoded string only if it's a single character
+    if len(delim) == 1 or len(decoded) == 1:
+        delim = decoded
+
+    return delim
+
+
+def smart_open(filename, mode='r'):
+    '''Open a file for reading, treating '-' as a stdin or stdout, depending on
+    the mode.'''
+
+    if filename == '-':
+        # Duplicate stdin/stdout so the caller can close it without closing stdin.
+        fd = sys.stdin.fileno() if 'r' in mode else sys.stdout.fileno()
+        fo = os.fdopen(os.dup(fd))
+    else:
+        fo = open(filename, mode)
+
+    return fo
+
+
+def csvalign(file, widths):
+    reader = libcsv.Reader(file, delim=opts.delim, has_header=False, is_multitable=opts.multitable)
+    theres_more = False
+    widths2 = []
+    buffer = []
+
+    for rownum, row in enumerate(reader):
+        height = 1
+        moutput = []
+
+        # Empty line starts a new table
+        if len(row) == 0 and opts.multitable:
+            theres_more = True
+            break
+
+        # Calculate the field widths and height
+        for i, cell in enumerate(row):
+            value = cell.value()
+            mvalue = value.split('\n')   # Multiline value
+            height = max(height, len(mvalue))
+
+            # Create more space in the widths buffer if needed
+            widths2.extend([0] * (i - len(widths2) + 1))
+
+            if i < len(widths):
+                widths2[i] = widths[i]
+            elif len(widths):
+                widths2[i] = widths[-1]
+            else:
+                # Adjust the column width for the data in the cell
+                for v in mvalue:
+                    widths2[i] = min(widths2[i], -len(v))
+
+                # Adjust the column width for the column number
+                if opts.numbered:
+                    widths2[i] = min(widths2[i], -len(format_colnum(i)))
+
+            moutput.append(mvalue)
+
+        # Save the multiline values into the buffer, one line per buffer index
+        for i in range(height):
+            line = []
+
+            for j in range(len(moutput)):
+                v = moutput[j][i] if i < len(moutput[j]) else ''
+
+                line.append(v)
+
+            buffer.append(line)
+
+        # Print and clear the buffer if we're not buffering
+        if not opts.buffered:
+            if opts.numbered and rownum == 0:
+                print_colnums(widths2)
+
+            print_buffer(buffer, widths2)
+            buffer = []
+
+    # Print the buffer if we're buffering
+    if opts.buffered:
+        if opts.numbered:
+            print_colnums(widths2)
+
+        print_buffer(buffer, widths2)
+
+    return theres_more
+
+
+def format_colnum(colnum):
+    return str(colnum+1)
+
+
+def print_colnums(widths):
+    for i, w in enumerate(widths):
+        f = ('%%%ss' % w)
+
+        if i > 0:
+            sys.stdout.write(opts.padding)
+
+        sys.stdout.write(f % format_colnum(i))
+
+    if len(widths):
+        sys.stdout.write('\n')
+
+
+def print_buffer(buffer, widths):
+    for line in buffer:
+        for i, value in enumerate(line):
+            w = widths[i]
+            f = ('%%%ss' % w)
+
+            if i > 0:
+                sys.stdout.write(opts.padding)
+
+            sys.stdout.write(f % value)
+
+        sys.stdout.write('\n')
+
+
+##############################################################################
+# ENTRY POINT
+
+if __name__ == '__main__':
+    try:
+        main()
+    except KeyboardInterrupt:
+        print('')
+        sys.exit(errno.EOWNERDEAD)
+
+
+# vim:ft=python
