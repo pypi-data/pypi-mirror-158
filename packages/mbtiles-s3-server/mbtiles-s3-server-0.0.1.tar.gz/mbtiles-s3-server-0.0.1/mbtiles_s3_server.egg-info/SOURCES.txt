@@ -1,0 +1,9 @@
+LICENSE
+README.md
+mbtiles_s3_server.py
+setup.py
+mbtiles_s3_server.egg-info/PKG-INFO
+mbtiles_s3_server.egg-info/SOURCES.txt
+mbtiles_s3_server.egg-info/dependency_links.txt
+mbtiles_s3_server.egg-info/requires.txt
+mbtiles_s3_server.egg-info/top_level.txt
