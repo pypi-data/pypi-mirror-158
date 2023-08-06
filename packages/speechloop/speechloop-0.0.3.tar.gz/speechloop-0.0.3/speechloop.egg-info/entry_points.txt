@@ -1,0 +1,2 @@
+[console_scripts]
+speechloop = speechloop:interactive_cli
