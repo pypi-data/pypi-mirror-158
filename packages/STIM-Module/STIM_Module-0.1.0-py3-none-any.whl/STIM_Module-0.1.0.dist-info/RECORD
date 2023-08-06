@@ -1,0 +1,15 @@
+STIM_Module/API_KEY.py,sha256=wCsSx0l60K2Zux6VWsHERQecw3FNXVUTvNhILRtcWXg,93
+STIM_Module/__init__.py,sha256=Pru0BlFBASFCFo7McHdohtKkUtgMPDwbGfyUZlE2_Vw,21
+STIM_Module/__main__.py,sha256=v-dKA3Xbn7i0bt4IKcKp810YkNFt_dNVXQm0dEt21Y0,239
+STIM_Module/api_funcs.py,sha256=Bi2jAfCDVHoxTknrXTqjLw1G1TDMmafFPfCd3yL0WnE,13149
+STIM_Module/application.py,sha256=YwHaptwfOIpvI1gY8QbXOSe43gA1Xk-JpKFx5CRYyJ0,7676
+STIM_Module/dummy_matplot.py,sha256=E02Oy_ZXHK5p5uuUHxW3rQRm7zt3IzAE9qkJDSKD_14,1762
+STIM_Module/new_exceptions.py,sha256=1nNSnUAKUibTpyLeqvtQtmxxnkSqgcO1oXAm4Z2Tpms,1014
+STIM_Module/summoner.py,sha256=Ie4ctvj33gZ2wOplV95Gx5Fc145zRhAOXLE4hSLMRwY,1588
+STIM_Module/user.py,sha256=yLHm_ilvCzIShKJVchyD2pXovKL4GYBR0pdUKHcoh4Y,425
+STIM_Module-0.1.0.dist-info/LICENSE.txt,sha256=tQLhaC-LQeRxhqGsPoWAsTmkZTssCJ3isMPMttrlZcY,1142
+STIM_Module-0.1.0.dist-info/METADATA,sha256=D5d3Q185F0fGaa_YTkOslpU0FQVaF3hIrs80wDx1PJ0,5025
+STIM_Module-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+STIM_Module-0.1.0.dist-info/entry_points.txt,sha256=NctX3AgBjdx1LJtkIpb89wCrrbpPwJxnRoO85iCwyAA,113
+STIM_Module-0.1.0.dist-info/top_level.txt,sha256=XRMcYICd5AIohkYVfxHEnogduU0vj3b29tm6JlMbNPc,12
+STIM_Module-0.1.0.dist-info/RECORD,,
