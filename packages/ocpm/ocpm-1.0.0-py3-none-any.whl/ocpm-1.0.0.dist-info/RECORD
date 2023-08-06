@@ -1,0 +1,10 @@
+ocpm/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+ocpm/interaction.py,sha256=wpj7gltNOMj2bflWLO3deIaxjlq8lRNHhBYoBSY2m8k,2324
+ocpm/main.py,sha256=bvyawWMwF61kkAT0Pu4FeuxPMUFw0irIDAPYR2PM06Q,6728
+ocpm/models.py,sha256=P_ag9NxjpW6JnEb3B2IhvKq63sboP15OXGfY8Nr6Hz0,1875
+ocpm/data/OCKextRepos.yml,sha256=soWok7117l3e3c4zAWrYiL8Faoa9-h5GWlvVJ8q33ho,646
+ocpm-1.0.0.dist-info/METADATA,sha256=lauDzMfrBiPgNE6mdu8P5qwBN7Sk5tk8_xCmlCIG07E,860
+ocpm-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ocpm-1.0.0.dist-info/entry_points.txt,sha256=mDByhhJhlX_7hiZZJRllsVbdRaAWEQBJIFqA_YXe_4c,40
+ocpm-1.0.0.dist-info/top_level.txt,sha256=cJMoladVyWlr2urBLHMI7N4228aVpjSpAoyfvYhMPlY,5
+ocpm-1.0.0.dist-info/RECORD,,
