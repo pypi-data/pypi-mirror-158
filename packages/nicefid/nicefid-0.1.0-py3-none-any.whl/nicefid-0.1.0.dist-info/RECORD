@@ -1,0 +1,7 @@
+nicefid/__init__.py,sha256=iy64fP9An5L0c9zE5F2aG2LHt8GWAMWr_p0ZPRjLU20,105
+nicefid/compute_fid.py,sha256=YEhf2b8PNOp-Zjl9oMNEtObbaghEiw13kzFdMonLI5I,524
+nicefid/compute_kid.py,sha256=DIIop7OiJbiNsnJ0v_nMVs4QBkeEgcYjtL0EkRnTYKU,588
+nicefid/features.py,sha256=hEWHxTv9hcTL5BH1we-kbma9x18LfPnqsqrysYDc8P0,1073
+nicefid-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+nicefid-0.1.0.dist-info/METADATA,sha256=DWotE0a165X21UJW_I2--o5ZiwTDC8h9tUeirnPJ7Y0,456
+nicefid-0.1.0.dist-info/RECORD,,
