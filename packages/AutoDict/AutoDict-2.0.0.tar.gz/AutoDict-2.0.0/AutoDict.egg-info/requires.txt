@@ -1,0 +1,10 @@
+
+[extras]
+orjson
+ujson
+python-rapidjson
+simplejson
+
+[test]
+coverage
+pylint
