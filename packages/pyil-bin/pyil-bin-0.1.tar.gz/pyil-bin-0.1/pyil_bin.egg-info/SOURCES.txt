@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyil_bin.py
+setup.py
+pyil_bin.egg-info/PKG-INFO
+pyil_bin.egg-info/SOURCES.txt
+pyil_bin.egg-info/dependency_links.txt
+pyil_bin.egg-info/entry_points.txt
+pyil_bin.egg-info/top_level.txt
