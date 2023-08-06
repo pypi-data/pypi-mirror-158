@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+keyrings.tmp.gcp_artifact_registry_auth.egg-info/PKG-INFO
+keyrings.tmp.gcp_artifact_registry_auth.egg-info/SOURCES.txt
+keyrings.tmp.gcp_artifact_registry_auth.egg-info/dependency_links.txt
+keyrings.tmp.gcp_artifact_registry_auth.egg-info/entry_points.txt
+keyrings.tmp.gcp_artifact_registry_auth.egg-info/requires.txt
+keyrings.tmp.gcp_artifact_registry_auth.egg-info/top_level.txt
+keyrings/tmp/gcp_auth.py

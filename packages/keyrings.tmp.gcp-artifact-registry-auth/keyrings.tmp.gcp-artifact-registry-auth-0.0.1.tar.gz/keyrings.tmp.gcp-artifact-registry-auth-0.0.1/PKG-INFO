@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: keyrings.tmp.gcp-artifact-registry-auth
+Version: 0.0.1
+Summary: Keyring backend for Google Auth tokens
+Home-page: https://github.com/miguelnmiranda/gcp-artifact-registry-python-keyring
+Author: Miguel Miranda
+Author-email: miguelnmiranda@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+
+# DISCLAIMER
+
+**DO NOT USE**
+
+This repository is a temporary clone&patch of Google's own keyring implementation available [here](https://github.com/GoogleCloudPlatform/artifact-registry-python-tools).
+
+**DO NOT USE**
