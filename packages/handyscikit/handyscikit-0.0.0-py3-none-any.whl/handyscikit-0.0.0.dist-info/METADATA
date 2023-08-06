@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: handyscikit
+Version: 0.0.0
+Summary: Upload some frequently used scientific computing code.
+Home-page: https://github.com/minho-hong/handyscikit.git
+Author: Hong Peng
+License: GPL
+Requires-Python: >=3.7.0
+License-File: LICENSE
+Requires-Dist: numpy
+
