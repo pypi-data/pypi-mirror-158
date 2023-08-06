@@ -1,0 +1,27 @@
+pyscaffold<5.0,>=4.2
+cryptography>=2.5
+distro
+pyyaml
+myst-parser[linkify]
+sphinx-rtd-theme
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[lint]
+black
+isort
+flake8
+flake8-black
+flake8-isort
+flake8-commas
+
+[test]
+pytest
+pytest-code
+
+[testing]
+tox
+setuptools
+pytest
+pytest-cov
