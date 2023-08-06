@@ -1,0 +1,3 @@
+[console_scripts]
+pypactl=pypactl.pypactl:main
+
