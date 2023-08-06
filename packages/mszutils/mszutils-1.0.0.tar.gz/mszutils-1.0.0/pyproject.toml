@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mszutils"
+version = "1.0.0"
+description = "Provide common used functionalities."
+readme = "README.md"
+authors = [{name = "Marcin Szydłowski", email = "marcinszydlowski.python@gmail.com"}]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3"
+]
+keywords = [
+    "utils"
+]
+dependencies = []
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = [
+    "bumpver",
+    "pytest"
+]
+
+[project.urls]
+Homepage = "https://bitbucket.org"
+
+[tool.bumpver]
+current_version = "1.0.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = {version}'
+]
+'src/mszutils/__init__.py' = ['{version}']
+"README.md" = [
+    "{version}",
+    "{pep440_version}",
+]
+

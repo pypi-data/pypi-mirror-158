@@ -1,0 +1,4 @@
+include docs/
+include site/
+include README.md
+include LICENSE
