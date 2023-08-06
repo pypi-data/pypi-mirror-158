@@ -1,0 +1,15 @@
+pop_aiohttp/conf.py,sha256=ysjQnj2k6Xfjpcgd_O8ZQOVlDQmnB4DgvU2_MInoGMc,62
+pop_aiohttp/version.py,sha256=4se2-QRIPsQy0Qla6DZQFQ90RVImEWlZaaA4AT2r29U,18
+pop_aiohttp/acct/request/basic_auth.py,sha256=NQ5UQsNzzwg9O5O38i_KpJkOuqqNGet-sRMDK5NNB6k,2731
+pop_aiohttp/exec/request/init.py,sha256=lsGTYpuqKBlXcnFMwx4cCsemaxJdr_J0zrVifAAxb6M,67
+pop_aiohttp/exec/request/json_request.py,sha256=umhr7r-RymDjxmlVIdGl6cIFBdD2Vk2v19Wo1Zv6rC8,5854
+pop_aiohttp/exec/request/raw.py,sha256=zWLp_lo8H5m6W-L30UFD3JgdCOLk6hx0G-k7KXbBTK0,2390
+pop_aiohttp/tool/request/application.py,sha256=c7MSfaCcYEgGH3ODHVcCSS6OKQfKbRlHE2BqPgvwNxk,3630
+pop_aiohttp/tool/request/session.py,sha256=7pPI4eGwmKtRu8C-vMBOSYHa6ej8gjzEfVYXxe1rc8Y,995
+pop_aiohttp/tool/type/dict.py,sha256=7hD4R0n6mhcRP1le-TLk29XIobdkCg83URjNmjrAUVg,373
+pop_aiohttp-1.0.0.dist-info/LICENSE,sha256=O7IpADM12kOhyGCTRMTdwc1BK4QtI9avtj2pRW-_cW0,11343
+pop_aiohttp-1.0.0.dist-info/METADATA,sha256=ZWq1ld-7nfftkfBYskah9Zo3mJIZw2rIBUml3sq_PMc,1230
+pop_aiohttp-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pop_aiohttp-1.0.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+pop_aiohttp-1.0.0.dist-info/top_level.txt,sha256=EzOxvT9zXcOcOOrvdWumbJMZUVDr44-Myba3cPHNlEA,12
+pop_aiohttp-1.0.0.dist-info/RECORD,,
