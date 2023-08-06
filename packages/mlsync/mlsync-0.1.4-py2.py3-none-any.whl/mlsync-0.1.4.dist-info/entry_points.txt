@@ -1,0 +1,3 @@
+[console_scripts]
+mlsync = mlsync.command_line:main
+
