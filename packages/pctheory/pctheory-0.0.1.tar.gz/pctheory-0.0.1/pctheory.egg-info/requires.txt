@@ -1,0 +1,5 @@
+numpy
+matplotlib
+music21
+networkx
+pyvis

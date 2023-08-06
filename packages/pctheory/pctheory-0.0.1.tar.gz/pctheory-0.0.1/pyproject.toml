@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="pctheory"
+version = "0.0.1"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "music21",
+    "networkx",
+    "pyvis",
+]
