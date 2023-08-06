@@ -1,0 +1,1 @@
+import{o as n,j as c}from"./index.81b118c5.js";var s=(e,r)=>{const o=e.__vccOpts||e;for(const[t,_]of r)o[t]=_;return o};const a={},f={class:"four-oh-four"};function u(e,r){return n(),c("div",f," 404 ")}var l=s(a,[["render",u]]);export{l as default};
