@@ -1,0 +1,6 @@
+datasette>=0.49
+ics==0.7.2
+
+[test]
+pytest
+pytest-asyncio

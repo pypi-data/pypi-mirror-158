@@ -1,0 +1,2 @@
+[datasette]
+ics = datasette_ics
