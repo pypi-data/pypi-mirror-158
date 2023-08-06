@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+argtyped/__init__.py
+argtyped/__version__.py
+argtyped/arguments.py
+argtyped/attrs_arguments.py
+argtyped/custom_types.py
+argtyped.egg-info/PKG-INFO
+argtyped.egg-info/SOURCES.txt
+argtyped.egg-info/dependency_links.txt
+argtyped.egg-info/requires.txt
+argtyped.egg-info/top_level.txt

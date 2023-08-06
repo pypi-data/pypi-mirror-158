@@ -1,0 +1,9 @@
+typing-inspect>=0.7.1
+
+[dev]
+pylint==2.13.9
+black==22.6.0
+isort==5.10.1
+mypy==0.961
+pytest
+pytest-cov
