@@ -1,0 +1,17 @@
+demo/__init__.py,sha256=fvJd6syvsQWIcshyAOx_Ux4YVW1evfKd4_ODrdS9g5w,118
+demo/transform_stuff.py,sha256=u9cw3Cup_EnHbg2WHRKAgGzrFcXs5w6-LYHh6xB6O54,276
+pose3d/__init__.py,sha256=Z_MPLyAtAXwOopbcBXQ92dxtG9ooMUZ1mUwGFVnY8E8,453
+pose3d/pose.py,sha256=8HCog6DgxZiyFQN2Y2BBFOZQ_qKzHVZSql90FsGNxOY,542
+pose3d/pose2d.py,sha256=gr_Ooeqows17ibkaX2LyUXbDdi3_ehP_KlzUhkq2yC0,514
+pose3d/pose_comparison.py,sha256=1-Jq70-H4VdzvNIHevdz-sbAvP5pl29mBiuQi7VDJMA,1098
+pose3d/rotation2d.py,sha256=qM-radI8BUqgmFtON7np8SDQP7dAlvb0Pe9GEyh12IA,1623
+pose3d/transform.py,sha256=6c8J_XZ65hDutvGowF1xfcrstyjBQF0yxUQALsbqJmA,1898
+pose3d/transform_set.py,sha256=WWa6Z45-WFFW-Rk230lGZ_K4OtunK9cTFKOFrqtnIWk,4761
+tests/__init__.py,sha256=fvJd6syvsQWIcshyAOx_Ux4YVW1evfKd4_ODrdS9g5w,118
+tests/rotation2d_test.py,sha256=qhYaHer0Z-o524a5LKfb9mquaMf7hy1FL416ozAalBo,818
+tests/transform_test.py,sha256=-bLrQ2zIpuX6xiQO3yyJ6I_c3VX5KRhw4Sq0H6FUNXM,2112
+pose3d-1.0.2.dist-info/LICENSE,sha256=MV6P-U79BdwHVOLxfthu0g1FO-z6kSLDmT-JX5-VVWo,1073
+pose3d-1.0.2.dist-info/METADATA,sha256=48oR3aRiDVmvYHJJjGpXn9reS8u1Ifap37Iffwx40kA,489
+pose3d-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pose3d-1.0.2.dist-info/top_level.txt,sha256=ir9ytANOEDfaPDf67lmdXDky5Fkg6SbfYMDzD7qKpb0,18
+pose3d-1.0.2.dist-info/RECORD,,
