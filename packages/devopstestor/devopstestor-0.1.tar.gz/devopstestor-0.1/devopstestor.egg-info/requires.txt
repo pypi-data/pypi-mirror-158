@@ -1,0 +1,6 @@
+pathlib
+pyyaml
+pytest-testinfra
+docker
+jinja2
+coloredlogs
