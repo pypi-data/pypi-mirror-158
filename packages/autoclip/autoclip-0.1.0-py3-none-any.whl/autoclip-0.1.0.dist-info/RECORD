@@ -1,0 +1,13 @@
+autoclip/__init__.py,sha256=1XDzsW3fRFtGU__TgOr2VSBGUDLPFjVcrwbUDNM6o-U,52
+autoclip/tf/__init__.py,sha256=doXMb-hARa3M8X7cz6qPhBFYOveQ3WIQRBVSKk35XQg,46
+autoclip/tf/quantile.py,sha256=6gtmixsAcMWdXY3DtwRcW-w0M2nr5bCiLzTMkzO_8V4,1419
+autoclip/torch/__init__.py,sha256=BzII1sGSDiMi6BEw92ZFyrvL7Q6IAO1TE0je8gvZ4O4,93
+autoclip/torch/clipper.py,sha256=tHKCkXOGs3n8j8rksbPQkG0pOMq95xKwoQcYMtfZ4D4,6876
+autoclip/torch/quantile.py,sha256=U7XgzBuUToXUY1RGwvzYe-jS9PAG58u_Onf7LHZ4_s8,3084
+autoclip/torch/std.py,sha256=pbGK8aQYePMJZTHL88Sig_i8FCrqcrLKnxsX1Ac-wqo,3126
+autoclip/torch/utils.py,sha256=mZfXIEV7XoHBJwl8qifiJlunoHxnVWX_Kqx87s0syPg,832
+autoclip-0.1.0.dist-info/LICENSE,sha256=M5HpXW08wzndZqEq9hUR--Y3q6xPoYJUqMZn95So_DM,1063
+autoclip-0.1.0.dist-info/METADATA,sha256=Hq7kP4samxuDR7eWjDUeuFa59ZdnnN7lvQ2qUZEgIOI,4652
+autoclip-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+autoclip-0.1.0.dist-info/top_level.txt,sha256=W6qDWcdBOlc1UVdc0NYGcDodHCxw13f-X1mlAecuf_k,9
+autoclip-0.1.0.dist-info/RECORD,,
