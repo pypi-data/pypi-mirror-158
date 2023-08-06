@@ -1,0 +1,16 @@
+pytest>=4.3.0
+pytest-benchmark>=3.2.2
+pytest-mock-server
+pylint
+django
+flask
+blinker
+cherrypy
+masonite
+aiohttp
+redis
+celery
+sqlalchemy
+sanic
+werkzeug
+fastapi==0.70.1
