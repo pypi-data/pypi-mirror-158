@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.in
+requirements_dev.txt
+requirements_test.txt
+setup.py
+cfdibills/VERSION
+cfdibills/__init__.py
+cfdibills/api.py
+cfdibills/io.py
+cfdibills/verify.py
+cfdibills.egg-info/PKG-INFO
+cfdibills.egg-info/SOURCES.txt
+cfdibills.egg-info/dependency_links.txt
+cfdibills.egg-info/requires.txt
+cfdibills.egg-info/top_level.txt
