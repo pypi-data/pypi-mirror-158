@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+src/faas/__init__.py
+src/faas/app.py
+src/faas/util.py
+src/workshop_faas.egg-info/PKG-INFO
+src/workshop_faas.egg-info/SOURCES.txt
+src/workshop_faas.egg-info/dependency_links.txt
+src/workshop_faas.egg-info/entry_points.txt
+src/workshop_faas.egg-info/requires.txt
+src/workshop_faas.egg-info/top_level.txt

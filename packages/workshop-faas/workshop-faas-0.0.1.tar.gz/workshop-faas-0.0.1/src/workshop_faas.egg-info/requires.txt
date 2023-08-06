@@ -1,0 +1,13 @@
+uvicorn[standard]
+fastapi
+typer
+rich
+requests
+python-multipart
+
+[dev]
+pytest
+black
+isort
+flake8
+mkdocs-material
