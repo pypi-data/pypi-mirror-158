@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+capacities_utilities/Derivatives.py
+capacities_utilities/Geometry.py
+capacities_utilities/Quaternionstuff.py
+capacities_utilities/Symplecticstuff.py
+capacities_utilities/__init__.py
+capacities_utilities.egg-info/PKG-INFO
+capacities_utilities.egg-info/SOURCES.txt
+capacities_utilities.egg-info/dependency_links.txt
+capacities_utilities.egg-info/not-zip-safe
+capacities_utilities.egg-info/top_level.txt
