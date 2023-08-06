@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+ml_methods/ML_Methods.egg-info/PKG-INFO
+ml_methods/ML_Methods.egg-info/SOURCES.txt
+ml_methods/ML_Methods.egg-info/dependency_links.txt
+ml_methods/ML_Methods.egg-info/top_level.txt
+ml_methods/ml_methods/__init__.py
+ml_methods/ml_methods/algorithms.py
+ml_methods/ml_methods/cmdexec.py
+ml_methods/ml_methods/data.py
+ml_methods/ml_methods/functions.py
+ml_methods/ml_methods/matrix.py
+ml_methods/ml_methods/utils.py
