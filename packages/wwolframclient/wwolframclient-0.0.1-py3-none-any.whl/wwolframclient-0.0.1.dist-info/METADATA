@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wwolframclient
+Version: 0.0.1
+Summary: Warp on wolframclient
+Home-page: https://github.com/HellOwhatAs/wolframclient
+Author: xjq
+Author-email: xjq701229@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: wolframclient
+Requires-Dist: ipython
+Requires-Dist: tqdm
+
+UNKNOWN
+
