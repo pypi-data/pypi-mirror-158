@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: geopolars
+Version: 0.1.0_alpha.1
+Requires-Dist: polars
+Requires-Dist: numpy >= 1.16.0
+Requires-Dist: typing_extensions >= 4.0.0; python_version < '3.10'
+Requires-Dist: pyarrow>=4.0.*; extra == 'pandas'
+Requires-Dist: pandas; extra == 'pandas'
+Requires-Dist: pyarrow>=4.0.*; extra == 'pyarrow'
+Provides-Extra: pandas
+Provides-Extra: pyarrow
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Compile Custom Rust functions and use in python polars
+
+## Compile a development binary in your current environment
+
+```
+virtualenv env
+source ./env/bin/activate
+pip install maturin
+maturin develop
+```
+
+## Run
+
+```
+python example.py
+```
+
+## Compile a **release** build
+
+`$ maturin develop --release`
+
