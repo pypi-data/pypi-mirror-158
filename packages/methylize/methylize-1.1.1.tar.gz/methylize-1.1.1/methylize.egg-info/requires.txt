@@ -1,0 +1,16 @@
+pandas
+numpy
+scipy
+statsmodels
+matplotlib
+methylprep
+pymysql
+toolshed
+interlap
+adjustText
+joblib
+seaborn
+
+[dev]
+pytest
+coverage
