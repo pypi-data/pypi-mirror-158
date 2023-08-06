@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "wj_utilities"
+version = "0.1.0"
+description = "library for handle custom exception and commons functionalities for W&J micro services"
+authors = ["Jose Arroyave <josearroyave@whaleandjaguar.com>"]
+license = "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007"
+readme = "README.md"
+keywords = ["exceptions", "common functions"]
+packages = [
+  {include = "wj_common"},
+  {include = "wj_exception"}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-mock = "3.8.1"
+gitlint = "^0.15.1"
+flake8 = "^3.9.2"
+flake8-bugbear = "^21.9.1"
+black = "^21.9b0"
+nox = "^2021.6.12"
+isort = "^5.9.3"
+autoflake = "^1.4"
+flake8-gl-codeclimate = "^0.1.4"
+python-semantic-release = "^7.19.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+extend-exclude = '.venv/*'
+
+[tool.isort]
+profile = "black"
+
+[tool.semantic_release]
+version_variable = [
+  "__init__.py:__version__",
+  "pyproject.toml:version"
+]
+
+branch = "main"
+upload_to_pypi = true
+upload_to_release = true
+build_command = "poetry build"
