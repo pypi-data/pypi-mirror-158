@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dash-escher
+Version: 0.0.1
+Summary: A Plotly Dash component for EscherPy, a metabolic flux viewer.
+Home-page: UNKNOWN
+Author: Jacob Roberts <jacoberts@gmail.com>
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Framework :: Dash
+
+UNKNOWN
+
+
