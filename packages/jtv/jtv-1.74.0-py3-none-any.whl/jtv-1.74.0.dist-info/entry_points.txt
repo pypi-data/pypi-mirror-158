@@ -1,0 +1,2 @@
+[console_scripts]
+jtv = jtv.__init__:main
