@@ -1,0 +1,144 @@
+# Django Backup Utils
+
+With django-backup-utils you can:
+
+- create backups with or without compression
+- list available backups for your host & project
+- restore database
+- restore migration files
+- restore any directory inside BASE_DIR
+- manage backups via admin interface
+
+A backup always contains
+
+- timestamp
+- per default a full dump of your database as json (using dumpdata)
+- all migration .py files that are currently migrated.
+- a customizable version stamp (e.g. commit hash)
+- identifiers such as hostname, django project name
+
+When restoring a backup
+
+- automatically get the latest backup for your host + project
+- see the backup's version stamp
+- see the current version stamp
+- see differences between backup und current migrations
+- per default a blank unittest is run to ensure the fixture can be loaded (before anything is changed)
+
+Backup logs are saved to database.  
+
+You can create/synchronize and restore backups via admin interface.
+
+## Project-Structure needed
+
+```
+  projectname/
+    projectname/
+      __init__.py
+      settings.py
+      ...
+    App1 /
+      migrations /
+        __init__.py
+        ...
+    ...
+```
+
+## Quick start
+
+1. ``$ pip install django-backup-utils``
+
+
+2. ``settings.py:``
+
+```
+  INSTALLED_APPS = [
+    ...
+    'django_backup_utils.apps.BackupUtilsConfig',
+  ]
+
+  BACKUP_ROOT = "/my/path/to/backupdir/"
+  BACKUP_DIRS = ["media"]  # add more if needed
+  BACKUP_SYSTEM_VERSION = "my_build_id"
+```
+
+``BACKUP_ROOT`` specifies a directory where your backups will be stored.
+
+``BACKUP_DIRS`` specifies directories relative to ``BASE_DIR`` that will be included in the backup, can also be an empty array.
+
+``BACKUP_SYSTEM_VERSION`` identification tag for your backup (e.g. your git commit hash/tag).
+
+Optional:
+
+``BACKUP_IGNORE_CONSISTENCY = True`` (Default = False), ignores inconsistency between the MigrationRecorder and local migration files.  
+Your backup will still contain all migration files that match the MigrationRecorder,   
+however migration files that are not found can not be included in the backup. (This can only happen if you delete/rename migration files).
+
+
+3. ``urls.py:``
+
+```
+from django.urls import path, include
+
+urlpatterns = [
+    ...
+    path('backup/', include('django_backup_utils.urls')),
+]
+```
+
+4. ``$ python3 manage.py migrate``
+
+
+## Usage
+
+``$ python3 manage.py createbackup``
+
+```
+  - create a backup that contains all database data, migration files and specified directories
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      --compress            compresses backup (.gz)
+      --exclude             exclude specific apps or models <appname>.<model>
+      --silent              mutes some output
+```
+
+``$ python3 manage.py loadbackup``
+
+```
+  - load the latest backup
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      --tarpath TARPATH     load the specified backup tarfile
+      --flush               flush the database (delete existing data)
+      --deletedirs          delete all directories specified in settings.BACKUP_DIRS (before restoring)
+      --noinput             disable all prompts
+      --loadmigrations      restore all migration files
+      --skiptest            skip the unittest for loading database dump
+      --silent              mutes some output
+```
+
+``$ python3 manage.py listbackups``
+
+```
+  - show backups located at settings.BACKUP_ROOT
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      --hostname HOSTNAME   show backups for specified hostname
+      --projectname PROJECTNAME
+                            show backups for specified django project
+      --all                 show all backups
+```
+
+
+## Admin Interface permissions
+
+Permission for restoring backups:  
+
+``django_backup_utils | can_restore_backup``
+
+Permission for creating/synchronizing backups:
+
+``django_backup_utils | can_add_backup``
