@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: f1tel
+Version: 1.0.0
+Summary: F1 Telemetry Display
+Home-page: UNKNOWN
+Author: Barbato Federico
+Author-email: barbato.federico01@outlook.com
+License: UNKNOWN
+Keywords: python,formula 1,telemetry,display,f1
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: fastf1
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+F1 Telemetry Data Display
+
