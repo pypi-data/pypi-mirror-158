@@ -1,0 +1,9 @@
+timecli/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timecli/commands/oracle.py,sha256=KVx8O3CcH2smyRmtvRgbyGht1NaDZjx1dx71ilcGTXw,5440
+timecli/commands/pomodoro.py,sha256=sTcVtq8AcDjW_4fmXSH28t5CwooLa42WZLlQRdNr75c,2618
+timecli/core/utils.py,sha256=w2KfEWwIP59nmqQ24_gvd6cowa2i-mSFh9ROYP0u-CI,206
+timecli/main.py,sha256=waymnf7nORmnLijd2ify9q-7p7k13tT_XlU9REM0PXc,488
+timecli-0.3.2.dist-info/entry_points.txt,sha256=5IXBU1avpEBpp4wFbyM_rgaek9vizOpfXqi1eKLdmjQ,44
+timecli-0.3.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+timecli-0.3.2.dist-info/METADATA,sha256=rNOnjIO02zhy8mf_FSLTdQs47JEJjcHvVShVAk-usyc,584
+timecli-0.3.2.dist-info/RECORD,,
