@@ -1,0 +1,12 @@
+README.md
+setup.py
+easyplayer/__init__.py
+easyplayer.egg-info/PKG-INFO
+easyplayer.egg-info/SOURCES.txt
+easyplayer.egg-info/dependency_links.txt
+easyplayer.egg-info/requires.txt
+easyplayer.egg-info/top_level.txt
+easyplayer/core/__init__.py
+easyplayer/core/widgets/__init__.py
+easyplayer/utils/__init__.py
+easyplayer/utils/senior/__init__.py
