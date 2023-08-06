@@ -1,0 +1,8 @@
+requests
+selenium
+concurrent_log_handler
+PyYAML
+openpyxl
+PyMySQL
+assertpy
+xlrd
