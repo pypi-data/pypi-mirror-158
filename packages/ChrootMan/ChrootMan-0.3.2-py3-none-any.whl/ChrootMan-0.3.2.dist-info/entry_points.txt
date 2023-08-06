@@ -1,0 +1,2 @@
+[console_scripts]
+chrootman = ChrootMan:main
