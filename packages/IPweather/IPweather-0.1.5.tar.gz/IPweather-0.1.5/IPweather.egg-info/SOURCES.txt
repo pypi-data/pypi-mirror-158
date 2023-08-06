@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+IPweather/IPweather.py
+IPweather/__init__.py
+IPweather.egg-info/PKG-INFO
+IPweather.egg-info/SOURCES.txt
+IPweather.egg-info/dependency_links.txt
+IPweather.egg-info/top_level.txt
