@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyivp
+Version: 0.0.4
+Summary: pyivp module
+Home-page: https://github.com/ARG-NCTU/pyivp.git
+Author: ARG
+License-File: LICENSE
+
+using pybind11 to bind moosivp into python library
