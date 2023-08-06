@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ai4scr-scQUEST
+Version: 0.1.0
+Summary: scQUEST package
+Home-page: https://github.ibm.com/art-zurich/scQUEST
+Author: Adriano Martinelli, Marianna Rapsomaniki, Johanna Wagner
+Author-email: art@zurich.ibm.com
+Provides-Extra: vcs
+Provides-Extra: test
+Provides-Extra: dev
+
+scQUEST, an open-source Python library for cell type identification and quantification of tumor ecosystem heterogeneity in patient cohorts.
