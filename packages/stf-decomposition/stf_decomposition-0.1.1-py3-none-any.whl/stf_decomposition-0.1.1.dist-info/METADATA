@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: stf-decomposition
+Version: 0.1.1
+Summary: STF: seasonal-trend decomposition using the Fast Fourier transform
+Home-page: https://github.com/thodson-usgs/stf-decomposition
+Author: Timothy O. Hodson
+Author-email: thodson@usgs.gov
+Project-URL: Bug Tracker, https://github.com/thodson-usgs/stf-decomposition/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# stf_manuscript
+STF: Seasonal-Trend decomposition using the Fast Fourier transform
+
+TODO
