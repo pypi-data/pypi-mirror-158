@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.poetry]
+name = "pippy_ls"
+version = "0.0.6"
+description = "An open-source python package"
+readme = "README.md"
+authors = ["Pippy Long Stockings <zpprado@email.com>" ]
+homepage = "https://github.com/pradoz/pippy-ls"
+license = "MIT"
+keywords = ["python", "package"]
+
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+feedparser = "^6.0.8"
+html2text = "^2020.1.16"
+tomli = "^2.0.1"
+
+[tool.poetry.extras]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[tool.poetry.scripts]
+pippy_ls = "reader.__main__:main"
+
+
+# [tool.bumpver]
+# current_version = "1.0.4"
+# version_pattern = "MAJOR.MINOR.PATCH"
+# commit_message  = "Bump version {old_version} -> {new_version}"
+# commit          = true
+# tag             = true
+# push            = false
+
+# [tool.bumpver.file_patterns]
+# "pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+# "src/pippy_ls/__init__.py" = ["{version}"]
