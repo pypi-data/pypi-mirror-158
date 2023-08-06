@@ -1,0 +1,11 @@
+mopidy_syncprojects/__init__.py,sha256=X4TWrlWVqSkQ7PZw1GDVxwUe7BZeB2vU0QMY0VhYnL8,1155
+mopidy_syncprojects/actor.py,sha256=9rS05pcAiK0T8MBc-aQ3-hMNPlamDnV9K56bz0-llZA,1122
+mopidy_syncprojects/ext.conf,sha256=7DsZ_EVNl6-uoKBjH8CDhESmOTfi_k9nz3OD4JCiCaU,42
+mopidy_syncprojects/library.py,sha256=4wwsJ5Fq7Kmum1fmWlaqmewFYmGCp7s8_e-O2ETuDMg,3848
+mopidy_syncprojects/syncprojects.py,sha256=8XhxYHvqOBnLPeYRRtiaaahYe8D79zoJh2UrBRQLEJo,10252
+Mopidy_Syncprojects-0.0.1.dist-info/LICENSE,sha256=xcogp_IR-GSeddhcWRHYGKgKVk18E_RP3ZBbL3PTR6M,1071
+Mopidy_Syncprojects-0.0.1.dist-info/METADATA,sha256=W87PZTmsiQqkpk8O19_slu671fGWKFW8fRy-wQUQB6c,2910
+Mopidy_Syncprojects-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Mopidy_Syncprojects-0.0.1.dist-info/entry_points.txt,sha256=51ZeH_qzAr7LCuw3zcTXZVZMQvvlrej4foYzrHdj_xg,58
+Mopidy_Syncprojects-0.0.1.dist-info/top_level.txt,sha256=s_Dsp2UNuo6311MRmHKTY_gVTVpDXifVYHIUvNcphu8,20
+Mopidy_Syncprojects-0.0.1.dist-info/RECORD,,
