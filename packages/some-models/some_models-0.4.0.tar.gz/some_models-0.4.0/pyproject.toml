@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "some_models"
+version = "0.4.0"
+description = "Учебная библиотека. Тут находятся orm модели нужные в нескольких микросервисах, что бы не нарушать DRY."
+authors = ["koevgeny10 <koevgeny10@gmail.com>"]
+packages = [{ include = "some_models" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = {version = "^1.4.33", extras = ["postgresql"]}
+sqlalchemy-utils = "^0.38.2"
+passlib = {version = "^1.7.4", extras = ["bcrypt"]}
+
+[tool.poetry.group.environments]
+optional = true
+[tool.poetry.group.environments.dependencies]
+pydantic = "^1.9.1"
+
+[tool.poetry.group.migrations]
+optional = true
+[tool.poetry.group.migrations.dependencies]
+alembic = "^1.7.7"
+
+[tool.poetry.group.tests]
+optional = true
+[tool.poetry.group.tests.dependencies]
+pytest = "^7.1.2"
+pytest-randomly = "^3.12.0"
+pytest-cov = "^2.10.1"
+pdbpp = "^0.10.3"
+ipdb = "^0.13.9"
+#pudb = "^2022.1.1"
+#ipython = "^8.3.0"
+
+[tool.poetry.group.dev]
+optional = true
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^2.18.1"
+ipython = "^8.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+show_error_codes = true
