@@ -1,0 +1,2 @@
+[console_scripts]
+fluffydisco = pds.fluffydisco.main:main
