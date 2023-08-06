@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: bizzflow-toolkit
+Version: 2.3.0.dev1
+Summary: Bizzflow is ETL (extract - transform - load) template based on standard native cloud services. Supporting the three main cloud providers (Google Cloud Platform / Amazon AWS / MS Azure), it takes all the advantages. You pay only for services you really use. Perfect for teams who want to have direct relationship with their cloud provider. No matter if it is because of security or because you already have existing contract.
+Author-email: Bizztreat <info@bizztreat.com>
+Project-URL: Homepage, https://www.bizzflow.net/
+Project-URL: GIT, https://gitlab.com/bizzflow-etl/toolkit
+Classifier: Programming Language :: Python :: 3
+Requires-Python: <4,>3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: apache-airflow[password,postgres] (<3.0.0,>=1.10.0)
+Requires-Dist: jsonschema (<4.0.0,>=3.0.0)
+Requires-Dist: PyYAML (<7.0,>=6.0)
+Requires-Dist: retry-helper (<1.0.0,>=0.0.4)
+Requires-Dist: fabric (<3.0.0,>=2.0.0)
+Requires-Dist: invoke (<2.0.0,>=1.4.0)
+Requires-Dist: sqlparse (<1.0.0,>=0.4.0)
+Requires-Dist: paramiko (<3.0.0,>=2.0.0)
+Requires-Dist: statsd (<4.0.0,>=3.0.0)
+Provides-Extra: amazon
+Requires-Dist: boto3 (<2.0.0,>=1.0.0) ; extra == 'amazon'
+Requires-Dist: apache-airflow[amazon] (<3.0.0,>=1.10.0) ; extra == 'amazon'
+Provides-Extra: azure
+Requires-Dist: apache-airflow[azure] (<3.0.0,>=1.10.0) ; extra == 'azure'
+Requires-Dist: azure-storage-blob (<13.0.0,>=12.8.0) ; extra == 'azure'
+Requires-Dist: pyodbc (<5.0.0,>=4.0.0) ; extra == 'azure'
+Provides-Extra: google
+Requires-Dist: apache-airflow[google] (<3.0.0,>=1.10.0) ; extra == 'google'
+Requires-Dist: google-api-core (<2.0.0,>=1.23.0) ; extra == 'google'
+Requires-Dist: google-auth (<2.0.0,>=1.22.0) ; extra == 'google'
+Requires-Dist: google-cloud-bigquery (<3.0.0,>=2.2.0) ; extra == 'google'
+Requires-Dist: google-cloud-storage (<2.0.0,>=1.32.0) ; extra == 'google'
+Provides-Extra: onprem
+Requires-Dist: pyodbc (<5.0.0,>=4.0.0) ; extra == 'onprem'
+Provides-Extra: redshift
+Requires-Dist: redshift-connector (<3.0.0,>=2.0.0) ; extra == 'redshift'
+Provides-Extra: snowflake
+Requires-Dist: snowflake-connector-python (<3.0.0,>=2.0.0) ; extra == 'snowflake'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+# Bizzflow R2 Toolkit
+
+![alt text][bizztreat-logo]
+
+Bizzflow R2 Toolkit is a version 2 of Bizzflow ETL Pipeline template written mostly in Python, using [Apache Airflow](https://airflow.apache.org/) as a scheduler and job executor. Bizzflow is meant to work in cloud, meaning any of the major cloud providers ([Google Cloud Platform](https://cloud.google.com), [Amazon Web Services](https://aws.amazon.com) and [Microsoft Azure](https://azure.microsoft.com)). If you would like to implement Bizzflow solution in your cloud, do not hesitate to contact [Bizztreat admin](https://bizztreat.com).
+
+
+## Contributing
+
+- [Building base image](doc/building_base.md)
+- [Dependency management](doc/dependency_management.md)
+
+
+## Crossroads
+
+- [Bizzflow R2 Toolkit Documentation](doc/README.md)
+- [Installation](doc/README.md#installation)
+- [Python API Reference](https://bizztreat.gitlab.io/bizzflow/r2/toolkit/index.html)
+- [Bizztreat](https://bizztreat.com)
+
+## Installation
+
+See [Installation instructions](doc/README.md#installation) for more information.
+
+## License
+
+**TODO:** To be decided yet.
+
+See details in [LICENSE](./LICENSE).
+
+[bizztreat-logo]: ./doc/bizztreatlogo.png "Bizztreat Logo"
