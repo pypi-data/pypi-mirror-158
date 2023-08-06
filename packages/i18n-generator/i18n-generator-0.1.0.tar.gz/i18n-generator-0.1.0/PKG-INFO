@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: i18n-generator
+Version: 0.1.0
+Summary: Python package for i18n implementation and locales generation
+Home-page: https://github.com/LPauzies/i18n-generator
+Author: Lucas Pauzies
+Author-email: lucas.pauzies@hotmail.fr
+Maintainer: Lucas Pauzies
+Maintainer-email: lucas.pauzies@hotmail.fr
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# i18n generator
