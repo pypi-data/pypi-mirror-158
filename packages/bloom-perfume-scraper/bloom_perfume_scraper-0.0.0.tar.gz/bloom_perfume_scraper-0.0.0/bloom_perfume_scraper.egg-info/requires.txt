@@ -1,0 +1,13 @@
+pandas
+psycopg2-binary
+urllib3
+boto3
+botocore
+s3transfer
+requests
+sqlalchemy
+botocore
+selenium
+SQLAlchemy
+webdriver_manager
+PyYaml
