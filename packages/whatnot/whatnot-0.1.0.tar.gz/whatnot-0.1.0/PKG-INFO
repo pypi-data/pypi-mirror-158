@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: whatnot
+Version: 0.1.0
+Summary: An asynchronous, unofficial Whatnot API wrapper
+Home-page: https://github.com/wxllow/whatnot
+License: MIT
+Keywords: whatnot,api,async
+Author: wxllow
+Author-email: willow@wxllow.dev
+Requires-Python: >=3.9,<3.11
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Documentation
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: gql (>=3.3.0,<4.0.0)
+Project-URL: Repository, https://github.com/wxllow/whatnot
+Description-Content-Type: text/markdown
+
+# Whatnot API
+
+Very early work-in-progress asynchronous API wrapper for and documentation of the [Whatnot](https://www.whatnot.com) API.
+
+## Roadmap
+
+- [x] Authentication
+- [x] Get user's livestreams
+- [x] Get a livestream
+- [ ] Get user by ID
+- [ ] Get user by username
+- [ ] Get account information
+- [ ] Get Explore/Recommendations/Saved Streams/etc
+
+## Download
+
+`poetry add whatnot` *or* `pip install whatnot`
+
+## Example
+
+```python
+code
+```
+
+## Disclaimer
+
+This project is unofficial and is not affiliated with or endorsed by Whatnot.
+
