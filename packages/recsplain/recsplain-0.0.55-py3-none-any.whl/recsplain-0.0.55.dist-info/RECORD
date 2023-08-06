@@ -1,0 +1,11 @@
+recsplain/__init__.py,sha256=fgthiOG9BpSQyUtO6-qahL3bPelhDhxbmKNpkh6iP7Y,146
+recsplain/__main__.py,sha256=k2dfNBLgzWl_uw7xONh09UY07Siuk1_hQsng9FF5orw,75
+recsplain/encoders.py,sha256=wNY62-SwXi6AgLLIPNGWQ9FcuGIPbfHG2O4jVWBfsuQ,19497
+recsplain/endpoint.py,sha256=YSwVMGbin9jcA5c1H-stepem2wplcsFRD-GDrt2K5vY,6462
+recsplain/similarity_helpers.py,sha256=On8tMf49W9LdjyCKwbNTAQgbTU2soTSTZ8l8-U1liRw,3730
+recsplain/strategies.py,sha256=qGTQ_naIznsglMXmAvq51xO6dLs4vWKuQtYGLtqAG1Q,12624
+recsplain/tree_helpers.py,sha256=DY9RFNK_yGY5kE8yuOhnP3oF7ycQe8csLO3FfIelsIU,2168
+recsplain-0.0.55.dist-info/METADATA,sha256=vgefrvbkwumCxxHJCaD9vUHFvRIXcqzh0n29hucryNs,616
+recsplain-0.0.55.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+recsplain-0.0.55.dist-info/top_level.txt,sha256=dNTLEQjO4XF_4_z6mvYwZcvyM86fEag12Eu0QMHnBFs,10
+recsplain-0.0.55.dist-info/RECORD,,
