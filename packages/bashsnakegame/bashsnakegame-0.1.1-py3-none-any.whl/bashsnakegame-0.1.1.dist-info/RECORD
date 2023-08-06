@@ -1,0 +1,12 @@
+LICENSE,sha256=eS59_oteuq0TB997N8dlPcGR55BVAupP2C_Vi_xr8_0,1072
+README.md,sha256=89VK1vsmZ_zOUowEBsPDPg9qoO1fasDkiIZdC9WUcHY,1286
+bashsnakegame/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+bashsnakegame/colors.py,sha256=qaiWWIp2WGpYcpw7jabD6rio60a05-VwNG1OG_zYc6o,568
+bashsnakegame/constants.py,sha256=tmRT46z4nQd_xTJUCyZQSqkSGJcd7q7ZlqqDoDSXEM0,330
+bashsnakegame/game.py,sha256=cxoy_gu4nD7mW9aY9ZdTh56L5WV3g9NqcIAobZk-iW0,4524
+bashsnakegame/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bashsnakegame/terminal_arts.py,sha256=cEJCxKSaHKKHM6jp3itPVrZpR7Bt32nxHL7WnoiUrtk,2116
+bashsnakegame-0.1.1.dist-info/LICENSE,sha256=eS59_oteuq0TB997N8dlPcGR55BVAupP2C_Vi_xr8_0,1072
+bashsnakegame-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+bashsnakegame-0.1.1.dist-info/METADATA,sha256=MBqzfmnuXVXHxaLOluFvyKe2u92NG-Dla2wLXGtJX4s,2121
+bashsnakegame-0.1.1.dist-info/RECORD,,
