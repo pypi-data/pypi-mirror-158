@@ -1,0 +1,4 @@
+builddir
+__pycache__
+.ipynb_checkpoints
+gefera/.ipynb_checkpoints
