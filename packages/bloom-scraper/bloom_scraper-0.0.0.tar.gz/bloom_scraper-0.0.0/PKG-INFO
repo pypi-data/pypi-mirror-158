@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: bloom_scraper
+Version: 0.0.0
+Summary: A package that retrieves image and text data about perfumes on the Bloom Perfumery website
+Home-page: https://github.com/emm-sam/Data-Collection-Pipeline/blob/main/webscraper_project/scraper.py
+Author: Emma Samouelle
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

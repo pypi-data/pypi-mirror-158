@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+bloom_scraper.egg-info/PKG-INFO
+bloom_scraper.egg-info/SOURCES.txt
+bloom_scraper.egg-info/dependency_links.txt
+bloom_scraper.egg-info/requires.txt
+bloom_scraper.egg-info/top_level.txt
+webscraper_project/__init__.py
+webscraper_project/__main__.py
+webscraper_project/scraper.py
+webscraper_project/scraper_v2.py
