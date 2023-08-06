@@ -1,0 +1,35 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
+
+  <genericsetup:upgradeSteps
+     profile="collective.taxonomy:default"
+     source="0.2"
+     destination="0.3">
+    <genericsetup:upgradeStep
+       handler=".upgradesteps.reactivateSearchable"
+       title="Reactivate searchable for every taxonomy"
+       description=""
+       />
+  </genericsetup:upgradeSteps>
+  <genericsetup:upgradeSteps
+     profile="collective.taxonomy:default"
+     source="1004"
+     destination="1005">
+    <genericsetup:upgradeStep
+       handler=".upgradesteps.fix_metadata"
+       title="Fixes taxonomy metadata"
+       description=""
+       />
+  </genericsetup:upgradeSteps>
+  <genericsetup:upgradeSteps
+     profile="collective.taxonomy:default"
+     source="1005"
+     destination="1006">
+    <genericsetup:upgradeStep
+       handler=".upgradesteps.use_new_configlet_permission"
+       title="Use new 'Manage taxonomies' permission for configlet"
+       description=""
+       />
+  </genericsetup:upgradeSteps>
+
+</configure>
