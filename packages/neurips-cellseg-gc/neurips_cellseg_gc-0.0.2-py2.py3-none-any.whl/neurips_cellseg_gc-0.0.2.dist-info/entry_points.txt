@@ -1,0 +1,5 @@
+[console_scripts]
+model_training_3class=neurips_cellseg_gc.model_training_3class:main
+pre_process_3class=data.pre_process_3class:main
+predice=neurips_cellseg_gc.predict:main
+

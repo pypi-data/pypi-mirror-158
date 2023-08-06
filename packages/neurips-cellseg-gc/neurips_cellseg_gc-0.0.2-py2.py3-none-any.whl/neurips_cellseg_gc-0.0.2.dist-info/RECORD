@@ -1,0 +1,14 @@
+neurips_cellseg_gc/Dockerfile,sha256=cI-NIieVtjOBU-pNpJ-VItCJNs861tLdxkXqN2X3uaQ,72
+neurips_cellseg_gc/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+neurips_cellseg_gc/model_training_3class.py,sha256=6Sne58t5q4qgU71BpBetwcgqpZAI6POUlJVFQqxbKxA,12415
+neurips_cellseg_gc/models/__init__.py,sha256=yBTlUPwkqePlYdzXA8YRzbBOm__d62cxoI6WInEwqXw,134
+neurips_cellseg_gc/models/unetr2d.py,sha256=Q2IIkGrAtiFEjlSJJe9S3xHkgug1NCChTUhY3zBm8g8,7016
+neurips_cellseg_gc/predict.py,sha256=XsWe7FF-iFsUuN7DLBF6qRCmRVZOjRtosHXrrT-8tF8,5556
+neurips_cellseg_gc/predict.sh,sha256=_xgh1s9H_KH9K0QFyi9IFSdqeTenR4bWyZ20BjFHelQ,83
+neurips_cellseg_gc/work_dir/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+neurips_cellseg_gc/work_dir/swinunetr_3class/best_Dice_model.pth,sha256=dk2wxTGE2lv3Q9uE2IN7H5ssfzsCNrQ8df90fkfHXlo,75949863
+neurips_cellseg_gc-0.0.2.dist-info/entry_points.txt,sha256=jzif8o4Nx0DtIcGPp2OHW9pcju5N6Jg8D67yHTfGn4k,175
+neurips_cellseg_gc-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+neurips_cellseg_gc-0.0.2.dist-info/WHEEL,sha256=wycAfLpmmoS0r5FEKIVwKB-iEMUiIZXv6P5GBpfA1-Q,87
+neurips_cellseg_gc-0.0.2.dist-info/METADATA,sha256=2ZJWBILlJY8kUcbBuCLsLkCPhdfRxwA5_-VLA_bypBw,1048
+neurips_cellseg_gc-0.0.2.dist-info/RECORD,,
