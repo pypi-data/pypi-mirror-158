@@ -1,0 +1,9 @@
+ci_messages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ci_messages/config.py,sha256=CdpCvrrOmWXv8IQZ340lthKdtJrJhNLg2otRsHZXSJA,1257
+ci_messages/schema.py,sha256=mB3vahDr1aD8m4qvl7J6gSUiI_EOsleRqnhrK_GsvGI,3559
+ci_messages-0.2.1.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+ci_messages-0.2.1.dist-info/METADATA,sha256=TVPLdcbpN4T_kRTyk-sZjc82vz9l2NTnGQJEEuBkFHw,4491
+ci_messages-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ci_messages-0.2.1.dist-info/entry_points.txt,sha256=3K3S6_yR3Wn_tuooukfsvAGYmitqfsO_mjOtmNyp_30,75
+ci_messages-0.2.1.dist-info/top_level.txt,sha256=jhqcJDrkQntAV_2SZfRYv78RMgmbUGU_08uCdcj2m8I,12
+ci_messages-0.2.1.dist-info/RECORD,,

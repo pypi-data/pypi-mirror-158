@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: ci-messages
+Version: 0.2.1
+Summary: Python wrapper for CI Messages schemas
+Home-page: https://pagure.io/fedora-ci/python-ci_messages
+Author: Adam Williamson
+Author-email: awilliam@redhat.com
+License: GPLv3+
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, <4
+Description-Content-Type: text/markdown
+License-File: COPYING
+Requires-Dist: fedora-messaging
+Requires-Dist: jsonref
+
+# python-ci_messages
+
+This is a thin wrapper around the [CI Messages][1] spec which provides a representation of the schemas defined in that project as a [fedora-messaging][2] message schema. This project defines a single schema class with a single entry point named 'ci_messages.CIMessageV1', so far as fedora-messaging is concerned. When the body schema for a particular message is requested, the class reads the appropriate schema file for the topic from disk, and returns that.
+
+## Installation and use
+
+You can visit [the python-ci_messages project page on Pagure][3], and clone with `git clone https://pagure.io/fedora-qa/python-ci_messages.git`. Tarballs are released through [PyPI][4].
+
+Dependencies are listed in the file `install.requires`. To install the module systemwide, run `python setup.py install`.
+
+In addition to the Python module dependencies, the module requires access to the CI Messages schemas as JSON files. By default it will attempt to read them from the directory `/usr/share/ci/messages`. You can change this location by creating a file `/etc/python-ci_messages.conf` or `~/.config/python-ci_messages.conf` with contents like this:
+
+    [main]
+    schemapath = /path/to/schema/location
+
+You can produce the JSON files from a CI Messages git checkout by running `make convert`, which will place them in a subdirectory named `tmp`.
+
+As long as the module is installed, it will be used automatically by any fedora-messaging consumer for messages which declare they follow this schema in their headers. For more information on fedora-messaging, see [its documentation][5].
+
+This module requires Python 3.6 or higher (as it uses f-strings).
+
+## Bugs, pull requests etc.
+
+You can file issues and pull requests on [Pagure][3]. Pull requests must be signed off (use the `-s` git argument). By signing off your pull request you are agreeing to the [Developer's Certificate of Origin][6]:
+
+    Developer's Certificate of Origin 1.1
+
+    By making a contribution to this project, I certify that:
+
+    (a) The contribution was created in whole or in part by me and I
+        have the right to submit it under the open source license
+        indicated in the file; or
+
+    (b) The contribution is based upon previous work that, to the best
+        of my knowledge, is covered under an appropriate open source
+        license and I have the right under that license to submit that
+        work with modifications, whether created in whole or in part
+        by me, under the same open source license (unless I am
+        permitted to submit under a different license), as indicated
+        in the file; or
+
+    (c) The contribution was provided directly to me by some other
+        person who certified (a), (b) or (c) and I have not modified
+        it.
+
+    (d) I understand and agree that this project and the contribution
+        are public and that a record of the contribution (including all
+        personal information I submit with it, including my sign-off) is
+        maintained indefinitely and may be redistributed consistent with
+        this project or the open source license(s) involved.
+
+## Licensing
+
+python-ci_messages is available under the GPL, version 3 or any later version. A copy is included as COPYING.
+
+[1]: https://pagure.io/fedora-ci/messages
+[2]: https://github.com/fedora-infra/fedora-messaging
+[3]: https://pagure.io/fedora-qa/python-ci_messages
+[4]: https://pypi.python.org/pypi/ci-messages
+[5]: https://fedora-messaging.readthedocs.io
+[6]: https://developercertificate.org/
