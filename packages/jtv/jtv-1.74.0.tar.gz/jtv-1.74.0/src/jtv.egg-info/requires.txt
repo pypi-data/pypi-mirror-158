@@ -1,0 +1,11 @@
+click
+PyYAML>5.1
+colr==0.9.1
+asciitree
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
