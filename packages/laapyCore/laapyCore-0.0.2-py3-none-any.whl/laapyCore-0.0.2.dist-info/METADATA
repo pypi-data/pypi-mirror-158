@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: laapyCore
+Version: 0.0.2
+Summary: core utils
+Home-page: https://github.com/Leikaab/laapyCore
+Author: Leik Andre Asbjørnsen Butenschøn
+Author-email: nordavindltd@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (~=1.23.0)
+Requires-Dist: matplotlib (~=3.5)
+Requires-Dist: pandas (~=1.4)
+Requires-Dist: scipy (~=1.8)
+Requires-Dist: sympy (~=1.1)
+Provides-Extra: dev
+Requires-Dist: pytest (>=7.1.2) ; extra == 'dev'
+Requires-Dist: check-manifest (>=0.48) ; extra == 'dev'
+Requires-Dist: twine (==4.0.1) ; extra == 'dev'
+Requires-Dist: tox (==3.25.1) ; extra == 'dev'
+
+# different utils and tools for projects
+
+collecting python modules into library.
+
+needs VTK
+```bash
+brew install vtk
+```
+
+## install from pypi
+
+```bash
+
+pip install laapyCore
+
+```
+
+## install from source
+
+to work on project install source locally, activate venv and run (if mac run zsh version):
+
+```bash
+
+pip install -e .[dev]
+
+```
+
+```zsh
+
+pip install -e '.[dev]'
+
+```
+
+## use
+
+```python
+
+from working_tools import tet
+
+```
+
+## test setup state
+
+```zsh
+python setup.py sdist
+```
+
+
+## create manifest
+
+```zsh
+
+check-manifest --create
+git add MANIFEST.in
+
+```
+
+## build to upload
+
+```bash
+python setup.py bdist_wheel sdist
+
+twine upload dist/*
+```
+
+
