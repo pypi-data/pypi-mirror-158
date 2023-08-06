@@ -1,0 +1,22 @@
+{
+    "indexer_manager": "prowlarr",
+    "jackett_apikey": "",
+    "jackett_url": "http://127.0.0.1:9117",
+    "jackett_indexer": "all",
+    "prowlarr_apikey": "57ea3e14ab9e4edd83d4199884b05b1e",
+    "prowlarr_url": "http://juno.whatbox.ca:9696",
+    "prowlarr_indexer": "",
+    "description_length": 50,
+    "exclude": "wordstoexclude",
+    "results_limit": 20,
+    "client_url": "http://127.0.0.1:21940",
+    "torrent_client": "qbittorrent",
+    "torrent_client_username": "",
+    "torrent_client_password": "",
+    "download_dir": "/path/to/download_dir/",
+    "nzbget_url": "127.0.0.1",
+    "nzbget_username": "",
+    "nzbget_password": "",
+    "nzbget_port": 6789,
+    "sort": "cn,size"
+}
