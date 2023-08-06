@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: prefield
+Version: 0.1.8
+Summary: Prefect tasks and CLI functionality to be used across Prefect projects
+Author: atsangarides
+Author-email: andreas@field.energy
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: prefect (>=0.15.13,<0.16.0)

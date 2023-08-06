@@ -1,0 +1,3 @@
+[console_scripts]
+prefield=prefield.cli.main:main
+
