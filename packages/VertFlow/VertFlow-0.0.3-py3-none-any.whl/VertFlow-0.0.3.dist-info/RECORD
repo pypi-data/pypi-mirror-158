@@ -1,0 +1,10 @@
+VertFlow/__init__.py,sha256=z5QP8Skn0YOTSxrcnhpfrYputYJMoXnR63YmpIhSup8,562
+VertFlow/cloud_run.py,sha256=3YOeCjkI_2padtHRkmTcJ_GvwJzOydZQmwAGzvvY9gs,13072
+VertFlow/data.py,sha256=LTPFej_gRfgMX7pdrtqCCFb08w0B7lu4fQhM4vA-il8,1832
+VertFlow/operator.py,sha256=V6fq9DZsV3UC7isAb1I4lo5H9wCaZZZl_BBQPOgbKe0,6565
+VertFlow/data/data.csv,sha256=t7W1L4qJtZiTz_ymSW_CzFvj-hTWrvB_M33lReivgWI,24840
+VertFlow-0.0.3.dist-info/LICENSE,sha256=WYmcYJG1QFgu1hfo7qrEkZ3Jhcz8NUWe6XUraZvlIFs,10172
+VertFlow-0.0.3.dist-info/METADATA,sha256=4owhPuK_XH5UwCX2w2SOdvXqa4bVsMy1ggGGGG2aJ-4,3892
+VertFlow-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+VertFlow-0.0.3.dist-info/top_level.txt,sha256=Ha9LApAJWw-MoIVQtdvufZ8ZmOBiSvswpuiXdKjo8Hw,9
+VertFlow-0.0.3.dist-info/RECORD,,
