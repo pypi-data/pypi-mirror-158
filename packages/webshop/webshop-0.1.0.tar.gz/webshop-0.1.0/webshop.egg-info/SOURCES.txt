@@ -1,0 +1,10 @@
+LICENSE.md
+setup.py
+webshop/__init__.py
+webshop/app.py
+webshop/utils.py
+webshop.egg-info/PKG-INFO
+webshop.egg-info/SOURCES.txt
+webshop.egg-info/dependency_links.txt
+webshop.egg-info/requires.txt
+webshop.egg-info/top_level.txt

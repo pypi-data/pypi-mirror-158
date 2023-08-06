@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: webshop
+Version: 0.1.0
+Summary: Python package for WebShop environment
+Home-page: https://github.com/princeton-nlp/web-agent-site
+Author: John Yang
+Author-email: jy1682@princeton.edu
+License: Princeton License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: MacOS X
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE.md
+
+UNKNOWN
+
