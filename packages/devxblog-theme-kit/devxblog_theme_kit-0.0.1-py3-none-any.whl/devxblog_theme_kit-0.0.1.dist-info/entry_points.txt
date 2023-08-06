@@ -1,0 +1,3 @@
+[console_scripts]
+devxblog-theme-kit = devxblog_theme_kit.cli:main
+
