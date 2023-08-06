@@ -1,0 +1,13 @@
+nytid/__init__.py,sha256=B5gaXa_iv3KKAmR9gppWSb7F1Iaba-sVO-73URL8e70,20
+nytid/schedules/.gitignore,sha256=aIDlhWXXDQaszRnBnUwR47WvqjFW7dRFZxfLL032lMI,53
+nytid/schedules/DD1310.csv,sha256=qAxolzMDq8dDLnQV9Lcg3xALxUbZUwMUA64-V9X_QFA,7088
+nytid/schedules/DD1317.csv,sha256=z6X3VQ5EyMsImvdqt_wbj0Q0JplDZdvp5MWkqAJ-PuI,6332
+nytid/schedules/Makefile,sha256=AfHryCP2Em16i2a0kj1MjRhW0kmXxFNjCi0z2T8xrk8,259
+nytid/schedules/__init__.py,sha256=wWukp5ov6yTnn8vn-zDz8c6tfOXq5BHx89DZuGILVx0,3159
+nytid/schedules/init.nw,sha256=-G01scb1ZlL-2Uu0Ub6WtsKiTqpBAoQI34HGfJqqgJM,8443
+nytid/schedules/utils.nw,sha256=9Y6H4aU70CVqKPOTrY2BuTgiwrcm3XdXCI1PkE3G958,17493
+nytid/schedules/utils.py,sha256=VjH2kK95ouBJGUszdka42ExRfyXujOUzqq9mSzpj3Nc,10815
+nytid-0.8.dist-info/LICENSE,sha256=YNt1pf6VvEcvHLHKzqVOsdXXP5dyh1nz0oDD00evbis,1068
+nytid-0.8.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+nytid-0.8.dist-info/METADATA,sha256=Rj_tSkch_JE7fQFeQmlYNTKvmJp_RKofwtflLPyhMoY,344
+nytid-0.8.dist-info/RECORD,,
