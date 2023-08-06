@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+steam_tools.egg-info/PKG-INFO
+steam_tools.egg-info/SOURCES.txt
+steam_tools.egg-info/dependency_links.txt
+steam_tools.egg-info/requires.txt
+steam_tools.egg-info/top_level.txt
