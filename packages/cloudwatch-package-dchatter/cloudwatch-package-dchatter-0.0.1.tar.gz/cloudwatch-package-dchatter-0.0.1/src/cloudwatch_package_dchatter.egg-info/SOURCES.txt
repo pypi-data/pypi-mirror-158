@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/aws_cutom_monitoring/__init__.py
+src/aws_cutom_monitoring/custom_monitoring.py
+src/cloudwatch_package_dchatter.egg-info/PKG-INFO
+src/cloudwatch_package_dchatter.egg-info/SOURCES.txt
+src/cloudwatch_package_dchatter.egg-info/dependency_links.txt
+src/cloudwatch_package_dchatter.egg-info/top_level.txt
