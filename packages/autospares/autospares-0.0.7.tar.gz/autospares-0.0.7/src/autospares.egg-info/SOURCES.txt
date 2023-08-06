@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/autospares/__init__.py
+src/autospares/lala.py
+src/autospares/models.py
+src/autospares.egg-info/PKG-INFO
+src/autospares.egg-info/SOURCES.txt
+src/autospares.egg-info/dependency_links.txt
+src/autospares.egg-info/top_level.txt
