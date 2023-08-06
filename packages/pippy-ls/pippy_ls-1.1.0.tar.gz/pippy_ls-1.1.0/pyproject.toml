@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.poetry]
+name = "pippy_ls"
+version = "1.1.0"
+description = "An open-source python package"
+readme = "README.md"
+authors = ["Pippy Long Stockings <zpprado@email.com>" ]
+homepage = "https://github.com/pradoz/pippy-ls"
+license = "MIT"
+keywords = ["python", "package"]
+
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+feedparser = ">=5.2.0"
+html2text = "*"
+tomli = ">=2.0.1"
+
+[tool.poetry.extras]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[tool.poetry.scripts]
+pippy_ls = "pippy_ls.__main__:main"
