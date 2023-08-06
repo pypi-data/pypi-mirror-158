@@ -1,0 +1,328 @@
+Metadata-Version: 2.1
+Name: g2p-id-py
+Version: 0.0.1
+Summary: Indonesian G2P.
+Home-page: https://github.com/bookbot-kids/g2p_id
+Author: w11wo
+Author-email: w11wo <wilson@bookbotkids.com>
+License: Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION        
+           1. Definitions.        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.        
+           END OF TERMS AND CONDITIONS        
+           Copyright 2022 [PT BOOKBOT INDONESIA](https://bookbot.id/)        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at        
+               http://www.apache.org/licenses/LICENSE-2.0        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.        
+Project-URL: Homepage, https://github.com/bookbot-kids/g2p_id
+Project-URL: Bug Tracker, https://github.com/bookbot-kids/g2p_id/issues
+Project-URL: Documentation, https://bookbot-kids.github.io/g2p_id/
+Platform: linux
+Platform: unix
+Platform: windows
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: num2words
+Requires-Dist: nltk
+Requires-Dist: onnxruntime
+
+# g2p ID: Indonesian Grapheme-to-Phoneme Converter
+
+This library is developed to convert Indonesian (Bahasa Indonesia) graphemes (words) to phonemes in IPA. We followed the methods and designs used in the English equivalent library, [g2p](https://github.com/Kyubyong/g2p).
+
+## Installation
+
+```bash
+pip install git+https://github.com/bookbot-kids/g2p_id.git
+```
+
+## How to Use
+
+```py
+from g2p_id import G2p
+
+texts = [
+    "Ia menyayangi yang lain.",
+    "Mereka sedang bermain bola di lapangan.",
+    "Hey kamu yang di sana!",
+    "Saya sedang memerah susu sapi.",
+]
+
+g2p = G2p()
+for text in texts:
+    print(g2p(text))
+
+>> ['ia', ' ', 'məɲajaŋi', ' ', 'jaŋ', ' ', 'lain', ' ', '.']
+>> ['məreka', ' ', 'sədaŋ', ' ', 'bərmain', ' ', 'bola', ' ', 'di', ' ', 'lapaŋan', ' ', '.']
+>> ['hej', ' ', 'kamu', ' ', 'jaŋ', ' ', 'di', ' ', 'sana', ' ', '!']
+>> ['saja', ' ', 'sədaŋ', ' ', 'məmərah', ' ', 'susu', ' ', 'sapi', ' ', '.']
+```
+
+## Algorithm
+
+This is heavily inspired from the English [g2p](https://github.com/Kyubyong/g2p).
+
+1. Spells out arabic numbers and some currency symbols, e.g. `Rp 200,000 -> dua ratus ribu rupiah`. This is borrowed from [Cahya's code](https://github.com/cahya-wirawan/text_processor).
+2. Attempts to retrieve the correct pronunciation for heteronyms based on their [POS (part-of-speech) tags](#pos-tagging).
+3. Looks up a lexicon (pronunciation dictionary) for non-homographs. This list is originally from [ipa-dict](https://github.com/open-dict-data/ipa-dict/blob/master/data/ma.txt), and we later made a [modified version](https://huggingface.co/datasets/bookbot/id_word2phoneme).
+4. For OOVs, we predict their pronunciations using either a [BERT model](https://huggingface.co/bookbot/id-g2p-bert) or an [LSTM model](https://huggingface.co/bookbot/id-g2p-lstm).
+
+## Phoneme and Grapheme Sets
+
+We followed the IPA convention provided in the original [ipa-dict](https://github.com/open-dict-data/ipa-dict/blob/master/data/ma.txt). The list of grapheme and phoneme characters are as the following:
+
+```python
+graphemes = ["'", '-', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'y', 'z']
+phonemes = ['-', 'a', 'b', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'v', 'w', 'z', 'ŋ', 'ə', 'ɲ', 'ʃ', 'ʒ', 'ʔ']
+```
+
+## Notes
+
+### Homographs
+
+Indonesian words (as far as we know) only have one case of homograph, that is, differing ways to pronounce the letter `e`. For instance, in the word `apel` (meaning: apple), the letter `e` is a mid central vowel `ə`. On the other hand, the letter `e` in the word `apel` (meaning: going to a significant other's house; courting), is a closed-mid front unrounded vowel `e`. Sometimes, a word might have >1 `e`s pronounced in both ways, for instance, `mereka` (meaning: they) is pronounced as `məreka`. Because of this, there needs a way to disambiguate homographs, and in our case, we used their POS (part-of-speech) tags. However, this is not a foolproof method since homographs may even have the same POS tag. We are considering a contextual model to handle this better.
+
+### OOV Prediction
+
+Initially, we relied on a sequence2sequence LSTM model for OOV (out-of-vocabulary) prediction. This was a natural choice given that it can "automatically" learn the rules of grapheme-to-phoneme conversion without having to determine the rules by hand. However, we soon noticed that despite its validation results, the model performed poorly on unseen words, especially on longer ones. We needed a more controllable model that makes predictions on necessary characters only. We ended up with a customized BERT that predicts the correct pronunciation of the letter `e` while keeping the rest of the string unchanged. We then apply a hand-written g2p conversion algorithm that handles the other characters.
+
+<!-- You can find more detail in [this blog post](). -->
+
+### POS Tagging
+
+We trained an [NLTK PerceptronTagger](https://www.nltk.org/_modules/nltk/tag/perceptron.html) on the [POSP](https://huggingface.co/datasets/indonlu) dataset, which achieved 0.956 and 0.945 F1-score on the valid and test sets, respectively. Given its performance and speed, we decided to adopt this model as the POS tagger for the purpose of disambiguating homographs, which is just like the English g2p library.
+
+<details>
+  <summary>Validation Results</summary>
+
+    | tag       | precision | recall   | f1-score |
+    | --------- | --------- | -------- | -------- |
+    | B-$$$     | 1.000000  | 1.000000 | 1.000000 |
+    | B-ADJ     | 0.904132  | 0.864139 | 0.883683 |
+    | B-ADK     | 1.000000  | 0.986667 | 0.993289 |
+    | B-ADV     | 0.966874  | 0.976987 | 0.971904 |
+    | B-ART     | 0.988920  | 0.978082 | 0.983471 |
+    | B-CCN     | 0.997934  | 0.997934 | 0.997934 |
+    | B-CSN     | 0.986395  | 0.963455 | 0.974790 |
+    | B-INT     | 1.000000  | 1.000000 | 1.000000 |
+    | B-KUA     | 0.976744  | 0.976744 | 0.976744 |
+    | B-NEG     | 0.992857  | 0.972028 | 0.982332 |
+    | B-NNO     | 0.919917  | 0.941288 | 0.930480 |
+    | B-NNP     | 0.917685  | 0.914703 | 0.916192 |
+    | B-NUM     | 0.997358  | 0.954488 | 0.975452 |
+    | B-PAR     | 1.000000  | 0.851064 | 0.919540 |
+    | B-PPO     | 0.991206  | 0.991829 | 0.991517 |
+    | B-PRI     | 1.000000  | 0.928571 | 0.962963 |
+    | B-PRK     | 0.793103  | 0.851852 | 0.821429 |
+    | B-PRN     | 0.988327  | 0.988327 | 0.988327 |
+    | B-PRR     | 0.995465  | 1.000000 | 0.997727 |
+    | B-SYM     | 0.999662  | 0.999323 | 0.999492 |
+    | B-UNS     | 0.916667  | 0.733333 | 0.814815 |
+    | B-VBE     | 1.000000  | 0.985714 | 0.992806 |
+    | B-VBI     | 0.929119  | 0.877034 | 0.902326 |
+    | B-VBL     | 1.000000  | 1.000000 | 1.000000 |
+    | B-VBP     | 0.926606  | 0.933457 | 0.930018 |
+    | B-VBT     | 0.939759  | 0.953333 | 0.946498 |
+    | --------- | --------- | -------- | -------- |
+    | macro avg | 0.966490  | 0.946937 | 0.955913 |
+
+</details>
+
+### Attempts that Failed
+
+- Parsed [online PDF KBBI](https://oldi.lipi.go.id/public/Kamus%20Indonesia.pdf), but it turns out that it has very little phoneme descriptions.
+- Scraped [online Web KBBI](https://github.com/laymonage/kbbi-python), but it had a daily bandwidth which was too low to be used at this level.
+
+### Potential Improvements
+
+There is a ton of room for improvements, both from the technical and the linguistic side of the approaches. Consider that a failure of one component may cascade to an incorrect conclusion. For instance, an incorrect POS tag can lead to the wrong phoneme, ditto for incorrect BERT/LSTM prediction. We propose the following future improvements.
+
+- [ ] Use a larger pronunciation lexicon instead of having to guess.
+- [x] Find a larger homograph list.
+- [x] Use contextual model instead of character-level RNNs.
+- [x] Consider hand-written rules for g2p conversion.
+- [ ] Add to PyPI.
+
+## References
+
+```
+@misc{g2pE2019,
+  author = {Park, Kyubyong & Kim, Jongseok},
+  title = {g2pE},
+  year = {2019},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/Kyubyong/g2p}}
+}
+```
+
+```
+@misc{TextProcessor2021,
+  author = {Cahya Wirawan},
+  title = {Text Processor},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/cahya-wirawan/text_processor}}
+}
+```
+
+## Contributors
+
+<a href="https://github.com/w11wo/g2p_id/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=w11wo/g2p_id" />
+</a>
