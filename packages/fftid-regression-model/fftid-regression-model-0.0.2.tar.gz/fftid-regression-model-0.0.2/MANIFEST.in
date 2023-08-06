@@ -1,0 +1,4 @@
+include *.pkl
+include regression_model/trained_models/*.pkl
+
+include ./requirements/requirements.txt
