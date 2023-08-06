@@ -1,0 +1,9 @@
+README.md
+setup.py
+dinkycache/__init__.py
+dinkycache/dinky.py
+dinkycache.egg-info/PKG-INFO
+dinkycache.egg-info/SOURCES.txt
+dinkycache.egg-info/dependency_links.txt
+dinkycache.egg-info/requires.txt
+dinkycache.egg-info/top_level.txt
