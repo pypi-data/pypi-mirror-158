@@ -1,0 +1,106 @@
+# LaPros
+> LaPros stands for label probability and label problems
+
+
+## Install
+
+`pip install lapros`
+
+## How to use
+
+The first version of LaPros will rank the suspicious labels given some trustworthy probabilies. The required inputs are a list of observed labels and a 2-dimension list of probabilities. You can use normal Python lists, Numpy arrays or Pandas Series and DataFrames. Return values are in a Numpy array or a Pandas series, the larger the value, the more suspicious are the coresponding labels.
+
+```python
+from lapros.noise import suspect
+```
+
+```python
+suspect(
+    [1, 0, 0, 1, 1],
+    probas=[0.5, 0.6, 0.7, 0.8, 0.9],
+)
+```
+
+    2022-07-11 12:33:41.868 | DEBUG    | lapros.noise:suspect:77 - Normal Python lists
+    2022-07-11 12:33:41.869 | DEBUG    | lapros.noise:__rank_suspicious:22 - Numpy arrays labels and probas must have same length 5 vs 5
+    2022-07-11 12:33:41.869 | DEBUG    | lapros.noise:__rank_suspicious:25 - Unique labels [0 1]
+    2022-07-11 12:33:41.870 | DEBUG    | lapros.noise:__rank_suspicious:27 - Trying to reshape probas
+    2022-07-11 12:33:41.870 | DEBUG    | lapros.noise:__rank_suspicious:29 - Shape of labels and probas: (5,) vs (5, 1)
+    2022-07-11 12:33:41.871 | DEBUG    | lapros.noise:__rank_suspicious:37 - ranks [0.5 0.6 0.7 0.2 0.1]
+
+
+
+
+
+    [array([0.5, 0.6, 0.7, 0.2, 0.1])]
+
+
+
+```python
+suspect(
+    [1, 0, 0, 1, 1],
+    probas=[[0.5, 0.6, 0.7, 0.8, 0.9]],
+)
+```
+
+    2022-07-11 12:33:41.937 | DEBUG    | lapros.noise:suspect:77 - Normal Python lists
+    2022-07-11 12:33:41.938 | DEBUG    | lapros.noise:__rank_suspicious:22 - Numpy arrays labels and probas must have same length 5 vs 1
+    2022-07-11 12:33:41.939 | DEBUG    | lapros.noise:__rank_suspicious:25 - Unique labels [0 1]
+    2022-07-11 12:33:41.940 | DEBUG    | lapros.noise:__rank_suspicious:27 - Trying to reshape probas
+    2022-07-11 12:33:41.940 | DEBUG    | lapros.noise:__rank_suspicious:29 - Shape of labels and probas: (5,) vs (5, 1)
+    2022-07-11 12:33:41.940 | DEBUG    | lapros.noise:__rank_suspicious:37 - ranks [0.5 0.6 0.7 0.2 0.1]
+
+
+
+
+
+    [array([0.5, 0.6, 0.7, 0.2, 0.1])]
+
+
+
+```python
+suspect(
+    np.array([1, 0, 0, 1, 1]),
+    probas=np.array([0.5, 0.6, 0.7, 0.8, 0.9]),
+)
+```
+
+    2022-07-11 12:33:42.004 | DEBUG    | lapros.noise:__rank_suspicious:22 - Numpy arrays labels and probas must have same length 5 vs 5
+    2022-07-11 12:33:42.006 | DEBUG    | lapros.noise:__rank_suspicious:25 - Unique labels [0 1]
+    2022-07-11 12:33:42.006 | DEBUG    | lapros.noise:__rank_suspicious:27 - Trying to reshape probas
+    2022-07-11 12:33:42.007 | DEBUG    | lapros.noise:__rank_suspicious:29 - Shape of labels and probas: (5,) vs (5, 1)
+    2022-07-11 12:33:42.007 | DEBUG    | lapros.noise:__rank_suspicious:37 - ranks [0.5 0.6 0.7 0.2 0.1]
+
+
+
+
+
+    array([0.5, 0.6, 0.7, 0.2, 0.1])
+
+
+
+```python
+suspect(
+    pd.Series([1, 0, 0, 1, 1]),
+    probas=pd.DataFrame([0.5, 0.6, 0.7, 0.8, 0.9]),
+)
+```
+
+    2022-07-11 12:33:42.063 | DEBUG    | lapros.noise:suspect:61 - Pandas series labels and dataframe probas must have same length 5 vs 5
+    2022-07-11 12:33:42.064 | DEBUG    | lapros.noise:__rank_suspicious:22 - Numpy arrays labels and probas must have same length 5 vs 5
+    2022-07-11 12:33:42.065 | DEBUG    | lapros.noise:__rank_suspicious:25 - Unique labels [0 1]
+    2022-07-11 12:33:42.065 | DEBUG    | lapros.noise:__rank_suspicious:29 - Shape of labels and probas: (5,) vs (5, 1)
+    2022-07-11 12:33:42.065 | DEBUG    | lapros.noise:__rank_suspicious:37 - ranks [0.5 0.6 0.7 0.2 0.1]
+
+
+
+
+
+    0    0.5
+    1    0.6
+    2    0.7
+    3    0.2
+    4    0.1
+    dtype: float64
+
+
