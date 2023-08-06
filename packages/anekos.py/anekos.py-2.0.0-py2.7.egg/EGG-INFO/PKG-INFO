@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: anekos.py
+Version: 2.0.0
+Summary: An unofficial async wrapper for nekos.life API!
+Home-page: https://github.com/regulad/anekos.py
+Author: regulad
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
