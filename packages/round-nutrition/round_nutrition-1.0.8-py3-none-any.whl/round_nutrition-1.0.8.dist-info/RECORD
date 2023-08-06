@@ -1,0 +1,11 @@
+round_nutrition/__init__.py,sha256=6s35-JLQEX5yiu7l1JUTeCF8m_2akSEgWn7qJR8tGnw,350
+round_nutrition/main.py,sha256=HTCbfcWTVvGybx3IZzKVic17kGcEJl7imWX_h7RbbDg,3645
+round_nutrition/mineral.py,sha256=n9Cn6yM8bjnn2rZ3n1cNo4glgCygZuHYQBH7sNSFBbA,1068
+round_nutrition/other.py,sha256=cGgIVw477UNUKLxhiEYCpIO-3BWC8AlOKPpDauO5DsE,126
+round_nutrition/utilities.py,sha256=jo8y6Z2dKhqdFhJ60iGVT_Xz1UItTOKFa8w24sFeztc,1463
+round_nutrition/vitamin.py,sha256=4SGc4IAp787KbWP0xZ2TPwAjk8JT-MlstxNUr8fo_6M,1172
+round_nutrition-1.0.8.dist-info/LICENSE,sha256=0IHwjYrJU1SAmBHaCwCE1X3ZbFY1Bnkz6E4j97aodzs,1069
+round_nutrition-1.0.8.dist-info/METADATA,sha256=PwkcCowWPdN1FRXGbPHuXjQBsQAkZAxhL0kq8kcsbE4,3036
+round_nutrition-1.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+round_nutrition-1.0.8.dist-info/top_level.txt,sha256=uqkMHIzPynLpxdXfrVJ2npTXAnIKc-PxNwD4Ta8QnhE,16
+round_nutrition-1.0.8.dist-info/RECORD,,
