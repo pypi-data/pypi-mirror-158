@@ -1,0 +1,11 @@
+pinyin_rhymer/__init__.py,sha256=a6LpAeGf4kxJKlLZJI_qri0VGXpE_n1h3lnMUvihaN0,213
+pinyin_rhymer/consonant.py,sha256=DNS4gd7I4PKBGHmu_veTL1ShOBwlajuKSB3sa3IeLMY,931
+pinyin_rhymer/data/pinyin_list.py,sha256=nGjhKjmmFqCckeVamlUUa5CRYCq9ROHtsxIoxKDqEdg,425
+pinyin_rhymer/data/pinyinList.csv,sha256=gR6hsYa0U3XY-cz2VvofnEBK0jFn444qY7TY2hZpOtE,190279
+pinyin_rhymer/pinyin.py,sha256=9--e3P6AQc29GayL2bL61DwH6_AqsPJTj-xE7rfhopI,4478
+pinyin_rhymer/rhyme_scheme.py,sha256=eBRjEW7jxF_4yLtKnL5FKjg8U0tEo4_WhtJDVqNsxr8,380
+pinyin_rhymer/vowel.py,sha256=76S5bd52QAoPLzJtq1qrdWrOb6GLteAQ74TKtSZSnaI,5803
+pinyin_rhymer-0.1.0.dist-info/LICENSE,sha256=3i475HiCbFRW2uQ8VljCXrVPIxdRgb0pqJGpnQgKKdA,1063
+pinyin_rhymer-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pinyin_rhymer-0.1.0.dist-info/METADATA,sha256=5DYORjTcmc11I9kgv0l9LPBarqG8yEVKxq2KsEY9Nek,289
+pinyin_rhymer-0.1.0.dist-info/RECORD,,
