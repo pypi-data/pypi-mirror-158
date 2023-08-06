@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: questdb
+Version: 0.0.1
+Summary: QuestDB client library for Python
+Home-page: https://github.com/questdb/py-questdb-client/
+Author: Adam Cimarosti
+Author-email: adam@questdb.io
+License: Apache License 2.0
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Rust
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3.7
+License-File: LICENSE.txt
+Provides-Extra: publish
+Requires-Dist: twine ; extra == 'publish'
+Requires-Dist: wheel ; extra == 'publish'
+
+=================================
+QuestDB Client Library for Python
+=================================
+
+This library makes it easy to insert data into `QuestDB <https://questdb.io>`_.
+
+This client library implements QuestDB's variant of the
+`InfluxDB Line Protocol <https://questdb.io/docs/reference/api/ilp/overview/>`_
+(ILP) over TCP.
+
+
+Status of the library
+=====================
+
+Work in progress: do not use yet.
+
+There will be an announcement on our `slack <http://slack.questdb.io>`_ once
+it's ready for use.
+
+
+Installation
+=============
+
+::
+
+    python3 -m pip install questdb
+
+
+Docs
+====
+
+    https://py-questdb-client.readthedocs.io/
+
+
+Code
+====
+
+    https://github.com/questdb/py-questdb-client
