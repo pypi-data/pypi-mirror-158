@@ -1,0 +1,12 @@
+mechanism/__init__.py,sha256=Q1CYTUkLZFDQNLpRUNTb0AsJc0L671lxmWj3H-1ZgxY,779
+mechanism/appearance.json,sha256=Ozw-tsItKNG4Hly4ie8uvMvbE7wLo6klbjglyW6uPWU,1568
+mechanism/cams.py,sha256=9rxNw1KImCUiAPtp6ApPaXEmMAD1JTBovPpfTs_MtPc,34067
+mechanism/dataframe.py,sha256=ML92rSh0oJWaYB1BqsgmiFagOcnByV8TlvieUo_eRco,7559
+mechanism/gears.py,sha256=9kIoTfS37FKryNJL8g4cXmfpLAC4Gv7Z3npFAcV5Jow,15505
+mechanism/mechanism.py,sha256=PxKRt7P2sN8OjwezC7P--gJXUk8PAsy71IwOqXcip_U,27461
+mechanism/vectors.py,sha256=Oe2WAOXWAxxey4-fGUMcg2mGyGmYlbxL4NX5PrNONdI,12646
+mechanism-1.0.8.dist-info/METADATA,sha256=zlFpWxOi1SbOrw-gVhcUKDmW4FT411fWdvL5imzp77c,19082
+mechanism-1.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mechanism-1.0.8.dist-info/license.txt,sha256=pK33fpXrA0qq31q8ISttiMCAYGQc-4qDIyKuD3SGzc0,1063
+mechanism-1.0.8.dist-info/top_level.txt,sha256=9iQHoTG93AGnQHExu7AsEYSZKet4xMZ427fAYzFkhBs,10
+mechanism-1.0.8.dist-info/RECORD,,
