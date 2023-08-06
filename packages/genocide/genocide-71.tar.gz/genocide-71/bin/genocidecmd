@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+
+"OTP-CR-117/19"
+
+
+import sys
+
+
+from genocide.object import Config, cdir
+from genocide.handler import CLI
+
+
+import genocide.all
+
+
+Config.name = "genocide"
+Config.threaded = False
+Config.version = "71"
+Config.workdir = "/var/lib/genocide"
+
+
+class CLI(CLI):
+
+    def raw(self, txt):
+        print(txt)
+
+
+def main():
+    cdir(Config.workdir)
+    c = CLI()
+    return c.cmd(" ".join(sys.argv[1:]))
+
+
+main()
