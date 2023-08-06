@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: round-nutrition
+Version: 1.0.3
+Summary: Round nutritional values for federal compliance.
+Author: Harsh Dadhich
+Project-URL: Repository, https://github.com/hdadhich01/round-nutrition
+Keywords: fda,nutrition,round
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
