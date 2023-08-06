@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: LexTestAuto
+Version: 0.0.39
+Summary: Lex软件工作室测试包
+Author: Lex
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: ==3.8.8
+
+UNKNOWN
+
