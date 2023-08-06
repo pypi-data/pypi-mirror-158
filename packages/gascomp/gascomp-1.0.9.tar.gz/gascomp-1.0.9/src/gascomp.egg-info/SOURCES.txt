@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+src/gascomp/__init__.py
+src/gascomp.egg-info/PKG-INFO
+src/gascomp.egg-info/SOURCES.txt
+src/gascomp.egg-info/dependency_links.txt
+src/gascomp.egg-info/top_level.txt
+src/gascomp/eos_bwr/__init__.py
+src/gascomp/eos_bwr/calc.py
+src/gascomp/eos_bwr/data.py
+src/gascomp/eos_bwr/reference.py
