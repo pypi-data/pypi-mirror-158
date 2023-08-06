@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: ChrootMan
+Version: 0.3.2
+Summary: Cli application to manage Chroots
+Author-email: JuanCldCmt <72336775+JuanCldCmt@users.noreply.github.com>
+License: GPL version 3
+Project-URL: Homepage, https://github.com/JuanCldCmt/ChrootMan
+Project-URL: Bug Tracker, https://github.com/JuanCldCmt/ChrootMan/issues
+Keywords: chroot,linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ChrootMan - Chroot Manager
+
+✨ Manage chroots in a breeze! 
+
+## Features
+
+🚀 mount, unmount file system, and execute commands in one go
+
+🔥 Fully configurable through `yaml` configuration file
+
+## Examples
+
+🚧 Under construction 🚧
+
+## Development Roadmap
+
+- [x] v0.1 yaml processing, args processing
+  - [x] config file
+  - [x] args processing
+- [x] v0.2 basic feature complete
+  - [x] `info` show info
+  - [x] `mount` mounts the chroot
+  - [x] `unmount` unmount the chroot
+  - [x] `login` enter shell for the chroot
+- [ ] v0.3 advanced features
+  - [x] PyPI file structure
+  - [x] Install default config file when not found
+  - [x] distro specific settings
+    - [x] `update` update software on target chroot
+    - [ ] `launch` mount chroot, launch program, and unmount after program closed in one go
+    - [x] `list` lists available chroots
+  - [x] Colorful output and debug info
+  - [ ] `install` download and install chroots from presets

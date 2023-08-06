@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+src/ChrootMan/__init__.py
+src/ChrootMan/actions.py
+src/ChrootMan/helpers.py
+src/ChrootMan/parsers.py
+src/ChrootMan.egg-info/PKG-INFO
+src/ChrootMan.egg-info/SOURCES.txt
+src/ChrootMan.egg-info/dependency_links.txt
+src/ChrootMan.egg-info/entry_points.txt
+src/ChrootMan.egg-info/requires.txt
+src/ChrootMan.egg-info/top_level.txt
+src/ChrootMan/files/config.yaml
