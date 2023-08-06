@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pypi-kenlm
+Version: 0.1.20220713
+Home-page: https://github.com/sih4sing5hong5/kenlm
+Author: Victor Chahuneau
+Author-email: victor@chahuneau.fr
+License-File: LICENSE
+License-File: COPYING
+License-File: COPYING.3
+License-File: COPYING.LESSER.3
