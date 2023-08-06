@@ -1,0 +1,77 @@
+[
+  {
+    "id": "nthffc",
+    "color": "green",
+    "geometry": {
+      "vertices": [
+        0.5273437500000001,
+        0.4166666666666667,
+        0.68125,
+        0.6069444444444445
+      ],
+      "type": "rectangle"
+    },
+    "category": "undef",
+    "options": {
+      "checkbox example": true,
+      "textfield example": "1"
+    }
+  },
+  {
+    "id": "erc01d",
+    "color": "green",
+    "geometry": {
+      "vertices": [
+        0.5273437500000001,
+        0.4166666666666667,
+        0.68125,
+        0.6069444444444445
+      ],
+      "type": "rectangle"
+    },
+    "category": "undef",
+    "options": {
+      "checkbox example": false,
+      "dropdown example": "something",
+      "textfield example": "some text !!!!!!!!!!!!!!!!!!!!!!!!"
+    }
+  },
+  {
+    "id": "ixotr8",
+    "color": "green",
+    "geometry": {
+      "vertices": [
+        0.5273437500000001,
+        0.4166666666666667,
+        0.68125,
+        0.6069444444444445
+      ],
+      "type": "rectangle"
+    },
+    "category": "undef",
+    "options": {
+      "checkbox example": false,
+      "dropdown example": "something",
+      "textfield example": "some text !!!!!!!!!!!!!!!!!!!!!!!!"
+    }
+  },
+  {
+    "id": "97vnte",
+    "color": "green",
+    "geometry": {
+      "vertices": [
+        0.5273437500000001,
+        0.4166666666666667,
+        0.68125,
+        0.6069444444444445
+      ],
+      "type": "rectangle"
+    },
+    "category": "undef",
+    "options": {
+      "checkbox example": false,
+      "dropdown example": "something",
+      "textfield example": "some text !!!!!!!!!!!!!!!!!!!!!!!!"
+    }
+  }
+]
