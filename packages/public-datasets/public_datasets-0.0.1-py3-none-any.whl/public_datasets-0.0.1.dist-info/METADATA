@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: public-datasets
+Version: 0.0.1
+Summary: Public datasets loaders
+Home-page: UNKNOWN
+Author: DEEL
+Author-email: collaborateurs.du.projet.deel@irt-saintexupery.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: Pillow
+Requires-Dist: python-mnist
+Requires-Dist: deel-datasets
+
+UNKNOWN
+
