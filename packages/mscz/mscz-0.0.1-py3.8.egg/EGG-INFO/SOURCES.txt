@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mscz/__init__.py
+mscz/mscz.py
+mscz.egg-info/PKG-INFO
+mscz.egg-info/SOURCES.txt
+mscz.egg-info/dependency_links.txt
+mscz.egg-info/requires.txt
+mscz.egg-info/top_level.txt
