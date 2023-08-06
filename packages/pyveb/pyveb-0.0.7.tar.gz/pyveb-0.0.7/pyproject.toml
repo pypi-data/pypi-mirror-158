@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "selenium==3.141.0", "webdriver-manager==3.4.1", "boto3==1.24.24", "pyyaml==6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyveb"
+version = "0.0.7"
+authors = [
+  { name="pieter de petter", email="pieter.de.petter@veb.be" },
+]
+description = "Package containing common code and reusable components for pipelines and dags"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://vlaamsenergiebedrijf.visualstudio.com/Terra/_git/terra-etl?path=/common_code"
