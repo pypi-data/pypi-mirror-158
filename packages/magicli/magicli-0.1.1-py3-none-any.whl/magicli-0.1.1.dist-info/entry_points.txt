@@ -1,0 +1,3 @@
+[console_scripts]
+magicli_example = example:cli
+
