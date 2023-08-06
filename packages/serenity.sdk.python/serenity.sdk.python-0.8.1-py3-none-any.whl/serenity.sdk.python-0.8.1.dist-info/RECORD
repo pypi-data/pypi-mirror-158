@@ -1,0 +1,7 @@
+serenity_sdk/__init__.py,sha256=PBBwQocIXq_UldgZTwBm_bxOxKEF-Y29IAwy5B434k0,22
+serenity_sdk/auth.py,sha256=vro_KuIO5QktCX431_aQxjkGRHksqpg7Hfrnc0ubzfA,1163
+serenity_sdk/client.py,sha256=bBqUtbpxRWcjh0BTCX4xe1dQpvOTCq91MyTyf8kSNbI,3568
+serenity.sdk.python-0.8.1.dist-info/LICENSE,sha256=QmyFhFBA119eBbVE1VCngomNzBlARIFPe82m0Zb8ikM,1066
+serenity.sdk.python-0.8.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+serenity.sdk.python-0.8.1.dist-info/METADATA,sha256=aJ2fkQnIK8IgRhD3iUBRZwnk0KGKOc_E3DL-rD_L-c4,1797
+serenity.sdk.python-0.8.1.dist-info/RECORD,,
