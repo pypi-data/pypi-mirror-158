@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+whatubinup2/bin/__init__.py
+whatubinup2/bin/configuration.py
+whatubinup2/bin/dirs.py
+whatubinup2/bin/notify.py
+whatubinup2/bin/report.py
+whatubinup2/bin/settings.py
+whatubinup2/whatubinup2.egg-info/PKG-INFO
+whatubinup2/whatubinup2.egg-info/SOURCES.txt
+whatubinup2/whatubinup2.egg-info/dependency_links.txt
+whatubinup2/whatubinup2.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: whatubinup2
+Version: 0.1.11
+Summary: Python desktop client for managing time logging
+Home-page: https://github.com/teamjtharrison/whatubinup2
+Author: TJTH
+Author-email: tim@tjth.co
+Description-Content-Type: text/markdown
+
+# What U bin up 2
+
+A small widget for tracking hours daily across a set of time bins.
+
+# Build and upload
+
+```
+./scripts/build.sh
+```
+
