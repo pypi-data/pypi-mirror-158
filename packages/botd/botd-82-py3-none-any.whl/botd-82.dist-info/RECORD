@@ -1,0 +1,10 @@
+botd-82.data/data/share/botd/botd.service,sha256=pBsGOqLOR7WsHGhMrralA4gC19yM9J18oxSNDypyFbM,257
+botd-82.data/data/share/doc/botd/README.rst,sha256=f9GS4HU0R5hHu4ZJxgS8-E8K5zIFChQtmYE32vg5314,3085
+botd-82.data/scripts/botcmd,sha256=7Fhmg8Aeatv4HQQ9SXfXM5Wv8U5ah4r5NUMQjRSGIcE,916
+botd-82.data/scripts/botctl,sha256=b3ujgDDoADgGzg8UdYXPEB21KGn9ofpOKe1gaPpD1Ow,192
+botd-82.data/scripts/botd,sha256=UtOIed57Lghyzz2pTpV8FA705h27eH-OLJ8YX1COfew,719
+botd-82.dist-info/METADATA,sha256=QYsm6QnFk8Rj_4Gi1k_3ggySKalGjAXR4FpCqmzCxCI,3531
+botd-82.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+botd-82.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+botd-82.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+botd-82.dist-info/RECORD,,
