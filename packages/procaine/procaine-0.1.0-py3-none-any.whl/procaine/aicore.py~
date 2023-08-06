@@ -1,0 +1,213 @@
+# Copyright (C) 2022 Roman Kindruk
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+import json
+import requests
+from datetime import datetime
+from dataclasses import dataclass
+from urllib.parse import urlparse, urljoin
+
+from authlib.integrations.requests_client import OAuth2Session
+
+
+@dataclass
+class Auth:
+    url: str
+    client_id: str
+    client_secret: str
+
+
+class AICore:
+    def __init__(self, url, auth, rg="default"):
+        self.url = url
+        self.rg = rg
+        self.authurl = urllib.parse.urlparse(auth["url"]).netloc
+
+        r = OAuth2Session(auth["client_id"], auth["client_secret"]).fetch_token(
+            auth["url"] + "/oauth/token"
+        )
+        self.sess = requests.Session()
+        self.sess.headers.update(
+            {
+                "Authorization": "Bearer %s" % r["access_token"],
+                "Content-Type": "application/json",
+                "AI-Resource-Group": self.rg,
+            }
+        )
+        self.sess.hooks = {"response": lambda r, *args, **kwargs: r.raise_for_status()}
+
+    def __repr__(self):
+        client, _, _ = self.authurl.partition(".")
+        return f"<AICore client='{client}' api='{self.url}' rg='{self.rg}'>"
+
+    def meta(self):
+        return self.sess.get(urljoin(self.url, '/v2/lm/meta')).json()
+
+    def kpi(self):
+        return self.sess.get(urljoin(self.url, '/v2/analytics/kpis')).json()
+
+    def list_s3_secrets(self):
+        return self.sess.get(urljoin(self.url, '/v2/admin/objectStoreSecrets')).json()['resources']
+
+    def register_s3_secret(self, name, access_key_id, secret_access_key,
+                           bucket=None, prefix=None, endpoint=None, region=None):
+        data = {
+            'name': name,
+            'type': 'S3',
+            'data': {
+                "AWS_ACCESS_KEY_ID": access_key_id,
+                "AWS_SECRET_ACCESS_KEY": secret_access_key,
+            },
+        }
+        if bucket:
+            data['bucket'] = bucket
+        if endpoint:
+            data['endpoint'] = endpoint
+        if prefix:
+            data['pathPrefix'] = prefix
+        if region:
+            data['region'] = region
+        return self.sess.post(urljoin(self.url, '/v2/admin/objectStoreSecrets'), json=data).json()
+
+    def delete_s3_secret(self, name):
+        return self.sess.delete(urljoin(self.url, f'/v2/admin/objectStoreSecrets/{name}')).json()
+
+    def list_docker_registry_secrets(self):
+        return self.sess.get(urljoin(self.url, '/v2/admin/dockerRegistrySecrets')).json()['resources']
+
+    def register_docker_registry_secret(self, name, registry, username, password):
+        secret = {
+            'name': name,
+            "data": {
+                ".dockerconfigjson": json.dumps({
+                    "auths": {
+                        registry: {
+                            "username": username,
+                            "password": password,
+                        }
+                    }
+                })
+            }
+        }
+        return self.sess.post(urljoin(self.url, '/v2/admin/dockerRegistrySecrets'), json=secret).json()
+
+    def delete_docker_registry_secret(self, name):
+        return self.sess.delete(urljoin(self.url, f'/v2/admin/dockerRegistrySecrets/{name}')).json()
+
+    def list_repositories(self):
+        return self.sess.get(urljoin(self.url, '/v2/admin/repositories')).json()['resources']
+
+    def register_repository(name, url, username=None, password=None):
+        repo = {
+            'name': name,
+            'url': url,
+            'username': username,
+            'password': password,
+        }
+        return self.sess.post(urljoin(self.url, '/v2/admin/repositories'), json=repo).json()
+
+    def delete_repository(self, name):
+        return self.sess.delete(urljoin(self.url, f'/v2/admin/repositories/{name}')).json()
+
+    def list_applications(self):
+        return self.sess.get(urljoin(self.url, '/v2/admin/applications')).json()['resources']
+
+    def application_status(self, name):
+        return self.sess.get(urljoin(self.url, f'/v2/admin/applications/{name}/status')).json()
+
+    def create_application(self, name, repo_url, path, ref='HEAD'):
+        app = {
+            'applicationName': name,
+            'repositoryUrl': repo_url,
+            'revision': ref,
+            'path': path,
+        }
+        return self.sess.post(urljoin(self.url, '/v2/admin/applications'), json=app).json()
+
+    def delete_application(self, name):
+        return self.sess.delete(urljoin(self.url, f'/v2/admin/applications/{name}')).json()
+
+    def list_resource_groups(self):
+        return self.sess.get(urljoin(self.url, '/v2/admin/resourceGroups')).json()['resources']
+
+    def list_scenarios(self):
+        return self.sess.get(urljoin(self.url, '/v2/lm/scenarios')).json()['resources']
+
+    def list_templates(self, scenario_id=None):
+        def get_executables(scenario_id):
+            url = urljoin(self.url, f"/v2/lm/scenarios/{scenario_id}/executables")
+            return self.sess.get(url).json()['resources']
+
+        if scenario_id:
+            return get_executables(scenario_id)
+        return [t for s in self.list_scenarios() for t in get_executables(s["id"])]
+
+    def template(self, name, scenario_id=None):
+        def get_executable(scenario_id, executable_id):
+            url = urljoin(self.url, f"/v2/lm/scenarios/{scenario_id}/executables/{executable_id}")
+            return self.sess.get(url).json()
+
+        if scenario_id:
+            return get_executable(scenario_id, name)
+        for s in self.list_scenarios():
+            try:
+                return get_executable(s['id'], name)
+            except requests.HTTPError as err:
+                if err.response.status_code == 404:
+                    continue
+                raise
+        return None
+
+    def _create_configuration(self, name, executable, parameters=None, artifacts=None):
+        conf = {
+            'name': name,
+            'executableId': executable['id'],
+            'scenarioId': executable['scenarioId'],
+        }
+        if parameters:
+            bindings = [{'key': k, 'value': v} for k, v in parameters.items()]
+            conf['parameterBindings'] = bindings
+        if artifacts:
+            bindings = [{'key': binding, 'artifactId': artifact['id'] if isinstance(artifact, dict) else artifact} for binding, artifact in artifacts.items()]
+            conf['inputArtifactBindings'] = bindings
+        return self.sess.post(urljoin(self.url, '/v2/lm/configurations'), json=conf).json()
+
+    def execute_flow(self, template, parameters=None, artifacts=None):
+        cfg = self._create_configuration(template['id'], template, parameters, artifacts)
+        return self.sess.post(urljoin(self.url, "/v2/lm/executions"), json={'configurationId': cfg['id']}).json()
+
+    def execution(self, execution):
+        if isinstance(execution, dict):
+            execution = execution['id']
+        return self.sess.get(urljoin(self.url, f"/v2/lm/executions/{execution}")).json()
+
+    def execution_logs(self, execution):
+        if isinstance(execution, dict):
+            execution = execution['id']
+        logs = self.sess.get(urljoin(self.url, f"/v2/lm/executions/{execution}/logs")).json()
+        return "".join([x["msg"] for x in logs["data"]["result"]])
+
+    def register_artifact(self, url, kind, scenario, description=''):
+        if isinstance(scenario, dict):
+            scenario = scenario['id']
+        a = {
+            'url': url,
+            'name': scenario,
+            'scenarioId': scenario,
+            'kind': kind,
+            'description': description,
+        }
+        return self.sess.post(urljoin(self.url, "/v2/lm/artifacts"), json=a).json()
