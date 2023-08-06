@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.cfg
+setup.py
+promethous_client.egg-info/PKG-INFO
+promethous_client.egg-info/SOURCES.txt
+promethous_client.egg-info/dependency_links.txt
+promethous_client.egg-info/top_level.txt
