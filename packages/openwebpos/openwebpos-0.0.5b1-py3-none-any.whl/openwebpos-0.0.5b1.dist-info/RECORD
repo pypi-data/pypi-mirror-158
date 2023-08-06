@@ -1,0 +1,15 @@
+openwebpos/__init__.py,sha256=yb8v6rOkY2AOMChyJLjbJIgnJK7wazwxC7xh4oxwxlE,1255
+openwebpos/extensions.py,sha256=kq6VpzkzV9msP5jN4afmXF_yY9HUB-OtvEtED_Isxbw,579
+openwebpos/blueprints/__init__.py,sha256=l1GbGSYch4dZosFSqMelEzrDrlS0ijlpR_PjJ_Th7a4,104
+openwebpos/blueprints/pos/__init__.py,sha256=Mc-oyrJuerWCBA4E6Ua6a6BwspR8JtsK8rUYv3jg27U,228
+openwebpos/blueprints/user/__init__.py,sha256=E2O9IvH-FA_0Iu-oi0hZWcm0HzGl_MJbBQuYNyzvsqo,251
+openwebpos/blueprints/user/models.py,sha256=Zs14T1Swg9kOlDVOmw6M7lnBrIb5Wc5KOJT1_89WnHk,1297
+openwebpos/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openwebpos/config/settings.py,sha256=k6Z4TEt3sxPrOgQFEIdX6KQNE0Vb7Y86yvBDyUIvRLw,608
+openwebpos/utils/__init__.py,sha256=TWuGOe-OVB9XExkjoU0ylx2yD0f2j6nN5RxMT7Jxvaw,582
+openwebpos/utils/sql.py,sha256=Xsju0wAeKpzhFbyIcFV-KmLk0aJ9BipUrlqcvIyiFlg,607
+openwebpos-0.0.5b1.dist-info/LICENSE,sha256=YWlTNQqoJGQ07OJIlWJ_jCuKuEm-gS6mR79N8eCbcTQ,1068
+openwebpos-0.0.5b1.dist-info/METADATA,sha256=2LtwV2O_wC83Yuh-vyKiwdeS0Md9Sw6K3U_PPAF1JCo,2169
+openwebpos-0.0.5b1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+openwebpos-0.0.5b1.dist-info/top_level.txt,sha256=fy9psffPtKs6NN-Vg_qns7nduhOOI6G1CsKHVLOfBhw,11
+openwebpos-0.0.5b1.dist-info/RECORD,,
