@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "funcker"
+version = "0.1.1"
+description = "plug and run funcker function"
+authors = ["romainprignon <pro.rprignon@gmail.com>"]
+readme = "README.md"
+
+[virtualenvs]
+in-project = true
+
+[tool.poetry.scripts]
+funcker = "funcker.cli.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.4.2"}
+docker = "^5.0.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
