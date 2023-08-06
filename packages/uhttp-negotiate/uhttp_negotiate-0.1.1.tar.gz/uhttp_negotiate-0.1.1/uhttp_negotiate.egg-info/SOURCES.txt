@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+uhttp_negotiate/__init__.py
+uhttp_negotiate/__version__.py
+uhttp_negotiate/main.py
+uhttp_negotiate/py.typed
+uhttp_negotiate.egg-info/PKG-INFO
+uhttp_negotiate.egg-info/SOURCES.txt
+uhttp_negotiate.egg-info/dependency_links.txt
+uhttp_negotiate.egg-info/not-zip-safe
+uhttp_negotiate.egg-info/requires.txt
+uhttp_negotiate.egg-info/top_level.txt
