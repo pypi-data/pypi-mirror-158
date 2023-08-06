@@ -1,0 +1,8 @@
+toxicpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toxicpdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toxicpdf/pdf2text.py,sha256=5--64-OYoPnJr369BowREbCyMU2VZrAXDrr2AB1VAx4,39
+toxicpdf-1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+toxicpdf-1.0.dist-info/METADATA,sha256=v_GVusRDOlmpRqBubSCEq0w8v-pJLR5Qg9OYFGY-a-E,183
+toxicpdf-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+toxicpdf-1.0.dist-info/top_level.txt,sha256=HyKc3gHOESCb7SV5mHi7QDSKFqAO45CRweTGI0gFsSQ,9
+toxicpdf-1.0.dist-info/RECORD,,
