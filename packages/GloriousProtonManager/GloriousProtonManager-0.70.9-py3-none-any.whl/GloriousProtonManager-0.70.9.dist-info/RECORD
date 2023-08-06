@@ -1,0 +1,11 @@
+GloriousProtonManager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GloriousProtonManager/__main__.py,sha256=_5F85X3py0espCVBFAQC-V43oRxFYgvvY2LEtKGXpoo,35
+GloriousProtonManager/api.py,sha256=Xmd6THyoCqDTxzbC1rk1ZxUu31E7QBQ0nfZEj48VCiU,1923
+GloriousProtonManager/constants.py,sha256=Z4LSggQclrFlQuHMdiK8tMgctKv2y0sXA9tux8Z9TgE,688
+GloriousProtonManager/interface.py,sha256=QUfNQciqGt-iXR1bMkdWVgMrTh2LToAVeP7kQv2RF-g,6213
+GloriousProtonManager-0.70.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+GloriousProtonManager-0.70.9.dist-info/METADATA,sha256=Ewsm5R6Ne_NxvkYobl6HK2AIOpff3kv2qX5-tvgs7nI,2651
+GloriousProtonManager-0.70.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+GloriousProtonManager-0.70.9.dist-info/entry_points.txt,sha256=Xqe7OtgW7tPqWlRZ7LdOqvB1QGh7IXUo80eIhq6LPys,78
+GloriousProtonManager-0.70.9.dist-info/top_level.txt,sha256=sgDiRjDndjD-eLYIqgmnJ7AKzc4lPJ4v0GRKnncGOA0,22
+GloriousProtonManager-0.70.9.dist-info/RECORD,,
