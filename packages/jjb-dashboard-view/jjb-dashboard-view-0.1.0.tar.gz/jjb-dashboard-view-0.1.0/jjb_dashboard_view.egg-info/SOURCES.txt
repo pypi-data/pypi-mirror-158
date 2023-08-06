@@ -1,0 +1,9 @@
+README.md
+setup.py
+jjb_dashboard_view/__init__.py
+jjb_dashboard_view/view_dashboard.py
+jjb_dashboard_view.egg-info/PKG-INFO
+jjb_dashboard_view.egg-info/SOURCES.txt
+jjb_dashboard_view.egg-info/dependency_links.txt
+jjb_dashboard_view.egg-info/entry_points.txt
+jjb_dashboard_view.egg-info/top_level.txt

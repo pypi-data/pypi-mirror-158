@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jjb-dashboard-view
+Version: 0.1.0
+Summary: Jenkins Job Builder Dashboard View
+Home-page: https://github.com/oseleznov
+Author: Vasyl Stetsuryn, Oleksii Seleznov
+Author-email: alexey.seleznov@gmail.com
+License: Apache-2.0 license
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+

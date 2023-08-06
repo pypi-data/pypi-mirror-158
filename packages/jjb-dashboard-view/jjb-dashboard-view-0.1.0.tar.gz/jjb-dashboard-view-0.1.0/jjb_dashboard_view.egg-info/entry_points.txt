@@ -1,0 +1,3 @@
+[jenkins_jobs.views]
+dashboard = jjb_dashboard_view.view_dashboard:Dashboard
+
