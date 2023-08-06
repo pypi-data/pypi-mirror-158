@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fraud_detection_module"
+version = "0.0.5"
+authors = [
+  { name="Pranav Chaturvedi", email="pranavchat14@gmail.com" },
+]
+description = "A fraud detection package for specific use case."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
