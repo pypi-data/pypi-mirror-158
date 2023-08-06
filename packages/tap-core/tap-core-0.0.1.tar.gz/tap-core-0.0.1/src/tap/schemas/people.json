@@ -1,0 +1,162 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "agent_id":{
+      "type":[
+          "null",
+          "string"
+      ]
+    },
+    "first_name":{
+      "type":[
+          "null",
+          "string"
+      ]
+    },
+    "last_name":{
+      "type":[
+          "null",
+          "string"
+      ]
+    },
+    "email":{
+      "type":[
+          "null",
+          "string"
+      ]
+    },
+    "imported_id":{
+      "type":[
+          "null",
+          "string"
+      ]
+    },
+    "role":{
+      "type":[
+          "null",
+          "string"
+      ]
+    },
+    "agent_role":{
+      "type":[
+          "null",
+          "string"
+      ]
+    },
+    "channels": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type":[
+          "null",
+          "string"
+        ]
+      }
+    },
+    "site": {
+      "type":[
+        "null",
+        "string"
+      ]
+    },
+    "teams": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type":[
+          "null",
+          "string"
+        ]
+      }
+    },
+    "queues": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type":[
+          "null",
+          "string"
+        ]
+      }
+    },
+    "skills": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type":[
+          "null",
+          "string"
+        ]
+      }
+    },
+    "platforms": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "zendesk": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "api": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "start_date": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "end_date": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "created_at": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "deleted": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "staffable": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

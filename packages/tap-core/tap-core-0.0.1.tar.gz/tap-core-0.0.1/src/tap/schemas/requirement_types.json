@@ -1,0 +1,45 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "activity_type_ids": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type":[
+          "null",
+          "string"
+        ]
+      }
+    },
+    "channel": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "queue":{
+      "type":[
+          "null",
+          "string"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

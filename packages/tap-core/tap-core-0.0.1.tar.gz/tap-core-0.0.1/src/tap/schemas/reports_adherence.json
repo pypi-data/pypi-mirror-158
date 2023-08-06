@@ -1,0 +1,72 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "start_time": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "end_time": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "interval": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "channel": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "queue_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "agent_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "filters": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "site_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "team_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "skill_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
