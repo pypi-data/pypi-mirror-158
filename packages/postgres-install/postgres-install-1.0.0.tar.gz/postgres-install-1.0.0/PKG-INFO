@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: postgres-install
+Version: 1.0.0
+Summary: INstall postgresql server
+Home-page: UNKNOWN
+Author: Jagadish Uddandam
+Author-email: jagadish.uddandam@gmail.com
+License: UNKNOWN
+Description: This is Postgresql Installation from source code versions - 10,11,12,13,14 on Oracle Linux
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
