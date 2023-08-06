@@ -1,0 +1,36 @@
+# Commonly used config
+# dist_dir, clean_fpath_list, num_control_points
+
+[meta]
+dist_dir = "/users/bdda/xhao/Datasets_bdda5/multichannel_multispeaker_2022_04_02/test"
+max_num_files_per_dir = 200  # "false" means that all simluated data are saved into one directory
+
+[data]
+clean_fpath_list = "/users/bdda/xhao/Datasets/wsj0-si/si_et_05.txt"
+clean_list_offset = 0
+clean_list_limit = false
+preload_clean_data = true
+noise_fpath_list = "/users/bdda/xhao/Datasets/chime4-noise/chime4-noise.txt"
+noise_list_offset = 0
+noise_list_limit = false
+preload_noise_data = true
+
+[acoustics]
+sr = 16000
+silence_duration = 0.02
+snr_list = [-5, 0, 5, 10, 15, 20]
+sir_list = [-6, -3, 0, -3, 6]
+t60_list = [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+absorption_coeff_range = [[0.5, 0.5, 0.5, 0.5, 0.5, 0.5], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]]
+room_size_range = [[6.0, 6.0, 3.05], [10.0, 8.0, 3.05]]
+target_dBFS = -25
+target_dBFS_floating_value = 5
+array_setup = "dicit"
+min_allowable_distance_to_wall = 0.5
+
+[trajectory]
+num_control_points = 2
+moving_interval = 0.125
+trajectory_type_list = ["static", "line", "curve", "quadrilateral", "curvedQuadrilateral"]
+speaker_height_range = [1.5, 1.9]
+moving_speed_range = [1.1, 1.5]
