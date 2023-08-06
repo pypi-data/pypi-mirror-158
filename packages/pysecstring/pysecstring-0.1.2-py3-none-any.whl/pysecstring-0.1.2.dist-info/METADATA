@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pysecstring
+Version: 0.1.2
+Summary: Python implementation of Window's Securestring forked from aznashwan/py-securestring
+Author: Gwang-Jin Kim
+Author-email: gwang.jin.kim.phd@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
