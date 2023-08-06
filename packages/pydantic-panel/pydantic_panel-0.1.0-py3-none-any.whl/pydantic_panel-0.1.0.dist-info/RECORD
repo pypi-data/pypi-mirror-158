@@ -1,0 +1,9 @@
+pydantic_panel/__init__.py,sha256=9d3mKidadKzAHMhWXv4X3ctdOGI8G4mbgefz2aIF8I8,313
+pydantic_panel/dispatchers.py,sha256=zT6yCM4VcY1RVAOk15O3mzdVjk_1IpN6h-ZZ_z4qE7I,4317
+pydantic_panel/pane.py,sha256=6GWAc3Im3w_vEmHpw9r9OneUQwf394hKBISWacO-K-4,3139
+pydantic_panel/pydantic_panel.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+pydantic_panel/widgets.py,sha256=uYZM1e0juwrEH67NT1mnmkfjdjdYuSr4kAYaneob8h4,8714
+pydantic_panel-0.1.0.dist-info/LICENSE,sha256=WvQDfQlne5X1PO_irjYEFvlNSmk9npiSuGbo3UiwpMU,1073
+pydantic_panel-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pydantic_panel-0.1.0.dist-info/METADATA,sha256=nX1EIa1qSmljBUjpntKyZUa9m8NJfAQlWXE2-bkOuJI,3378
+pydantic_panel-0.1.0.dist-info/RECORD,,
