@@ -1,0 +1,8 @@
+mainframe/__init__.py,sha256=m49HSTTJWxQheBPE-46pp9lWfD62xwhE1dJBEK4kxlE,62
+mainframe/components/__init__.py,sha256=MEOX2EzpOEMt6yfl9OcITSrRhqDXW1kwyp8Eyusp4ss,108
+mainframe/components/core.py,sha256=RVjGXPeYBcHtnX82y8iijum1zlf2shy74S2Hvn66Z64,189
+mainframe/components/noise.py,sha256=G8Hn6DBUkleGUPDTQUsbi7t4w6f-LnFPoMsDPy1-Guo,205
+mainframe/core.py,sha256=RvupnEO7ogTLq3BCB5OFuHUDkHsPODgjHhAryzQE8ms,421
+mainframe-0.0.8.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mainframe-0.0.8.dist-info/METADATA,sha256=oY6j0g6nJ6ouh4EtEj1iMv2rpZdCtPty81OyeDtQZBk,472
+mainframe-0.0.8.dist-info/RECORD,,
