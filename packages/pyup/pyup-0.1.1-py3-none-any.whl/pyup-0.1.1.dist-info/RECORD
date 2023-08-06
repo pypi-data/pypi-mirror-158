@@ -1,0 +1,9 @@
+pyup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyup/configure.py,sha256=jt62QPerw-swsH1CtcpmsmKUqZSiI7mVY0dV-2pYxMI,2218
+pyup/pyup.py,sha256=26hzNfU8omIeQDjdjgg9ZuSe8tioV58DPDiW6YpYbHE,9037
+pyup/run.py,sha256=w92s0JZbNqHK6chvrsG5GKuOHsL7DYgItbkoEs5bVkI,2977
+pyup-0.1.1.dist-info/entry_points.txt,sha256=ztohqNdvkiqjMoVpk345Nm55Wi8WAovPW_FgnSJROLE,38
+pyup-0.1.1.dist-info/LICENSE,sha256=IAwC7-_ExWH1e31Mx0buus6TB42NOAkopirU0qH5J10,1072
+pyup-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pyup-0.1.1.dist-info/METADATA,sha256=d_BaDbteAnjNp9wBP6AAm5CwKRiDquNHAEUF-z8hcIo,2152
+pyup-0.1.1.dist-info/RECORD,,

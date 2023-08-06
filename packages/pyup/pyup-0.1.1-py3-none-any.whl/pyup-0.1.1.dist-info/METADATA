@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: pyup
+Version: 0.1.1
+Summary: Caddy file server in Python with many additional features!
+License: MIT
+Author: Alyetama
+Author-email: malyetama@pm.me
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0)
+Requires-Dist: loguru (>=0.5.3)
+Requires-Dist: paramiko (>=2.10.2)
+Requires-Dist: pymongo[srv] (>=4.0.2)
+Requires-Dist: pyperclip (>=1.8.2)
+Requires-Dist: rich (>=10.11.0)
+Requires-Dist: tqdm (>=4.62.3)
+Description-Content-Type: text/markdown
+
+# pyup
+
+## Install
+
+```
+pip install pyup
+```
+
+## Getting started
+
+```
+mv .env.example .env
+nano .env  # or any other text editor
+docker-compose up -d
+```
+
+- Configure `pyup`:
+
+```
+pyup --configure
+```
+
+## Basic Usage
+
+```
+usage: pyup [-h] [-d DOMAIN_NAME] [-k] [--overwrite] [-l] [--no-notifications]
+            [-v {0,1,2,3,4,5}] [-p] [--show-config] [--configure]
+            [--save-logs]
+            [files ...]
+
+positional arguments:
+  files                 Files to upload
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DOMAIN_NAME, --domain-name DOMAIN_NAME
+                        The domain name to use for the URL
+  -k, --keep-name       Keep the original file name
+  --overwrite           Overwrite if name is kept and the file name already
+                        exists on the server
+  -l, --local-only      Allow uploads from local IP addresses only
+  --no-notifications    Suppress notifications (notifications are supported on
+                        macOS only)
+  -v {0,1,2,3,4,5}, --verbosity-level {0,1,2,3,4,5}
+                        Set the logging verbosity level
+  -p, --parallel        Upload files in parallel
+  --show-config         Show the current configuration and exit
+  --configure           Configure pyup
+  --save-logs           Save logs to a file
+```
+
