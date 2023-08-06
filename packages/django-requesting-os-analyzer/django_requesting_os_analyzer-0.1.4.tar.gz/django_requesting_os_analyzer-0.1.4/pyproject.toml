@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "django_requesting_os_analyzer"
+version = "0.1.4"
+description = "Counts the number of the requests coming from various os."
+license = "MIT"
+authors = ["hassan-shahzad <hassanshahzadthegeek@gmail.com>"]
+
+readme = "README.md"
+keywords = ["count", "request","os","analyzer","django", "django requesting os analyzer"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Django = ">3.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
