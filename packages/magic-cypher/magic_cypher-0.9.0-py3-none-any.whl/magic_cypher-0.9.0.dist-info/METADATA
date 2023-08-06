@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: magic-cypher
+Version: 0.9.0
+Summary: Cypher magic for IPython
+Home-page: https://github.com/petehughes/cypher_magic
+Author: Pete Hughes
+License: MIT License        
+        Copyright (c) 2022 - Pete Hughes        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.        
+Project-URL: Homepage, https://github.com/petehughes/cypher-magic
+Project-URL: Bug Tracker, https://github.com/petehughes/cypher-magic/issues
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: py2neo
+
+# `cypher magic`
+
+Based on the code from https://github.com/innovationOUtside/cypher_magic.git but now more complete .
+
+- `pip install --upgrade git+https://github.com/petehughes/cypher_magic.git`
+
+Load the magic with:
+
+`%load_ext cypher_magic`
+
+The magic allows you to run Cypher commands against the connected database using default credentials
+You can set the host name of the neo4j using the `-s`/`--server` variable. default is `localhost`
+You can set the username with the `-u`/`--userName` variable. default is `neo4j`
+You can change the password with the `-p`/`--password` variable.
+the `-q` flag suppresses the cell output.
+the `-o`/`--output` set the output type:
+`default`: `pandas` dataframe
+`raw`: response from the `py2neo`
+`table`,
+`matrix` - requires `sympy`
+
+```
+%cypher -r
+%cypher -q -p password -u neo4j -s localhost
+```
+
+Call as line magic `%cypher` or block magic: `%%cypher`
+
+```
+p = %cypher -o table MATCH (p:Person) RETURN p.name AS name
+```
+
+or
+
+```
+%%cypher -o table
+MATCH (p:Person)
+RETURN p.name AS name
+```
+
+the magic will return a `pandas` dataframe by default. Other return formats, set using the `-o`/`--output` parameter, include `table` and `matrix` (the latter requires `sympy` to be installed).
