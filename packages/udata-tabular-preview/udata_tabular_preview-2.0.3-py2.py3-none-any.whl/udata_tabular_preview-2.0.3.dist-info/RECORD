@@ -1,0 +1,16 @@
+udata_tabular_preview/__init__.py,sha256=JDlNDvURvNUd2Vu9Z7z_feFGxPLBzGctsKyVPYVi9M8,185
+udata_tabular_preview/preview.py,sha256=SMB513b9TvHi0Gr2eXchMLq8nx2r8kp30KAKoqGNcU8,1222
+udata_tabular_preview/settings.py,sha256=45oPdTXzqON6ZQ-R8ywDTi6CAFxB_3Y25vDGzYA61Ng,531
+udata_tabular_preview/views.py,sha256=U_PfrCCOjdCvZG88n5bwhcftmGPlzpBfeI05LHC_dQY,893
+udata_tabular_preview/static/.gitignore,sha256=JAo-DTfS6GthQGP1NH6wLU-ZymwlTea4KHH_jZVTKn0,14
+udata_tabular_preview/static/csvapi-front/css/chunk-vendors.css,sha256=J2mvDbvP5aagTDfuTVCwpW_a2a_VICz2vZUEaZBPONQ,233562
+udata_tabular_preview/static/csvapi-front/js/app.js,sha256=pI4i-c0FWvpg2CfHduX3N5k4gszrW_fDs-eCGl368iU,12305
+udata_tabular_preview/static/csvapi-front/js/app.js.map,sha256=Khp4GQ0VExMEo5j27xmh2MT7PUEe2gsI7gHUiTZoMuc,44272
+udata_tabular_preview/static/csvapi-front/js/chunk-vendors.js,sha256=TCRf5jK24tAOFigdAmkFg3JXrjDO3xvXES17HP80ClA,493504
+udata_tabular_preview/static/csvapi-front/js/chunk-vendors.js.map,sha256=QP_AsrDaV3xTC0iUPov4IT2UMigTF6xyrM7CVtC0pWs,2105669
+udata_tabular_preview/templates/tabular/preview.html,sha256=OKgyhb9Hy4ncNuG0LBpxRs66j2AqjtIh2D1ltWdbvaA,834
+udata_tabular_preview-2.0.3.dist-info/METADATA,sha256=gfnZ2VNUaJFqQ4HblPEGvfQHWDz2-et2BCmnqnAYLNE,3398
+udata_tabular_preview-2.0.3.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+udata_tabular_preview-2.0.3.dist-info/entry_points.txt,sha256=Fow3JWuNdy4dYnUQQFq1FvUrQdrvFJf6olsT_DLkkmA,124
+udata_tabular_preview-2.0.3.dist-info/top_level.txt,sha256=CO4TrCLlbcsbizzqhA3a9yYivHj-cy_E3UVuL2OQGJ4,22
+udata_tabular_preview-2.0.3.dist-info/RECORD,,
