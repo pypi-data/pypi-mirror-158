@@ -1,0 +1,17 @@
+SMS/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SMS/admin.py,sha256=dx0z1gzHZHgRILXF5P5_LXbJ_Gk0cTN051K2aJsxKdo,326
+SMS/apps.py,sha256=yJbYzmzQX85bh3iL17D4XihNOQYxu-_vkjXV3-HFZi0,138
+SMS/models.py,sha256=xx5U6YS_8GoQUVQbHZij5TVvjjMAB-0jgo6gsjY0RJ8,489
+SMS/serializers.py,sha256=WdHrpkMWOpxfUy1eYfH1IoXIkSHf2MiAFH_OPwX3tpU,638
+SMS/sms_utils.py,sha256=6WXT-amBaEJdqyXQ5bd-b-oNM0Flyg-zX8jqDpmAnGQ,1374
+SMS/urls.py,sha256=P_4FOpBcgJKmcnG-pRo6YBXfLpB_Np6m5El7LyWZ8eM,169
+SMS/views.py,sha256=SfyYwzyguthNb43TlO2DwKEh-fqAzVm5zvpK_E5KqEs,822
+SMS/migrations/0001_initial.py,sha256=0ALqxt_nKDKyME8_hs8yQQMX24JpkdSXIah7XTNUofg,1335
+SMS/migrations/0002_delete_smstoken.py,sha256=nX4TmUlRNJezf_If2ikpE2KYyl8fjQaAC8BvHc1ODXM,282
+SMS/migrations/0003_remove_smslog_code.py,sha256=AFQ8jr45WCXImr86nkRSYKhvSMSRRIotJwtd5kRoq8w,319
+SMS/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_sms_uz-1.0.1.dist-info/LICENSE,sha256=N38iPa8EZl7me9AeJYcxR8067MlTQcz_8dVLq_nM5wU,649
+django_sms_uz-1.0.1.dist-info/METADATA,sha256=24VGnCNkE528aw922tJzbjySr0qwJVv-efUsxe2XM_E,2327
+django_sms_uz-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_sms_uz-1.0.1.dist-info/top_level.txt,sha256=HHLFvrYnrp78S9x0cfsNtdyHiqbVm-tT2va_OD5vNMs,4
+django_sms_uz-1.0.1.dist-info/RECORD,,
