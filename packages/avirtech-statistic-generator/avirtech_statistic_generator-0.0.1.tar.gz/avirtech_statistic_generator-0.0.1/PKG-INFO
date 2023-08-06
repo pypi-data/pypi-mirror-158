@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: avirtech_statistic_generator
+Version: 0.0.1
+Summary: Avirtech Python Library to automize statistic result for outering boundary
+Home-page: https://github.com/danibablas
+Author: Dani Bablas
+Author-email: danibablas@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This is script to generate statistic from outering otomation
+
+Install
+pip install avirtech_statistic_generator
+
+Usage
+
+from avirtech_statistic_generator.avirtech_statistic_generator import avirtech_statistic_generator
+
+avirtech_statistic_generator.all_process()
+
