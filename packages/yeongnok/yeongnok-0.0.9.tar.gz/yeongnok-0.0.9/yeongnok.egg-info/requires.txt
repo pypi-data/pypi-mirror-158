@@ -1,0 +1,4 @@
+requests
+objprint
+faker
+wget
