@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: coderadar
+Version: 0.1.0
+Summary: Summarizing the code metrics of your project from pytest-cov, pylint and flake8.
+Author-email: Carsten König <coderadar@carsten-koenig.de>
+License: MIT License
+Project-URL: Homepage, https://github.com/ck2go/coderadar
+Keywords: lint,metrics,code quality
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Code Radar
+
+Summarizing the code metrics of your project from pytest-cov, pylint and flake8.
+
+**Status:**  early alpha
+**Authors:** Carsten König
+
+## Installation
+
+```bash
+pip install coderadar
+```
+
+## How to use
+After you created the required reports with pytest, pylint and flake8, run
+
+```bash
+coderadar
+```
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Author
+**Carsten König**
+
+- [GitLab](https://gitlab.com/ck2go "Carsten König")
+- [GitHub](https://github.com/ck2go "Carsten König")
+- [LinkedIn](https://www.linkedin.com/in/ck2go/ "Carsten König")
+- [Website](https://www.carsten-koenig.de "Carsten König")
