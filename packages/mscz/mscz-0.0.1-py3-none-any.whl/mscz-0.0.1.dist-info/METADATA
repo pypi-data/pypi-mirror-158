@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mscz
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Guillaume W. Bres
+Author-email: guillaume.bressaix@gmail.com
+License: GPL-v3
+Keywords: parser
+Platform: UNKNOWN
+Requires-Dist: lxml
+
+UNKNOWN
+
+
