@@ -1,0 +1,3 @@
+[console_scripts]
+lx-tokenizer = lxtokenizer.__main__:main
+
