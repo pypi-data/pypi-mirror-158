@@ -1,0 +1,30 @@
+on:
+  schedule:
+    # Run once a day at 22:40 UTC
+    - cron: '55 22 * * *'
+
+jobs:
+  copy_packages:
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v3
+
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+        auto-update-conda: true
+        python-version: 3.8
+
+    - name: Install dependencies
+      shell: bash -l {0}
+      run: |
+        conda install anaconda-client
+
+    - name: Perform copy
+      env:
+        BINSTAR_TOKEN: ${{ secrets.BINSTAR_TOKEN }}
+      shell: bash -l {0}
+      run: |
+        git clone https://github.com/glue-viz/conda-sync.git
+        mv conda-sync/sync.py .
+        python drive_copy.py
