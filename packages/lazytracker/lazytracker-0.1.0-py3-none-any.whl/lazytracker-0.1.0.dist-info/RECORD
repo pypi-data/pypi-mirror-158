@@ -1,0 +1,8 @@
+LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+lazytracker/__init__.py,sha256=flb2Z9ZTPJRnoIwasgyg6NzKFnAKqaUzQxCMP14pVtc,87
+lazytracker/lazytracker.py,sha256=bLJIkQIr54qEPz41r-reFYezMxgw_ddTWOYu4rYWaBw,1116
+lazytracker/tracked.py,sha256=sBrdU606zB4hLKfMmYFBw38U6CTEBA1XyuFDE2ZM6UU,2863
+lazytracker-0.1.0.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+lazytracker-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+lazytracker-0.1.0.dist-info/METADATA,sha256=lfRqk-tTlhd4PmE52UMyqocO3LdYPBjlgFc1qI4sk2E,640
+lazytracker-0.1.0.dist-info/RECORD,,

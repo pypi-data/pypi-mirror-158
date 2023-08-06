@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lazytracker
+Version: 0.1.0
+Summary: Caching of functions with respect to code changes and disk-file changes
+Home-page: https://github.com/mipo57/lazytracker
+License: Apache 2.0
+Author: Michal Pogoda
+Author-email: michal.pogoda@bards.ai
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dill (>=0.3.5,<0.4.0)
+Project-URL: Repository, https://github.com/mipo57/lazytracker
