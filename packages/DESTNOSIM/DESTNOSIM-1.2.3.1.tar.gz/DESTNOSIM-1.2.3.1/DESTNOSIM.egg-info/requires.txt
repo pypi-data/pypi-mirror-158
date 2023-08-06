@@ -1,0 +1,6 @@
+astropy
+numba
+numpy
+rich
+scipy
+spacerocks
