@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+akxurl/__init__.py
+akxurl/akxurl.py
+akxurl.egg-info/PKG-INFO
+akxurl.egg-info/SOURCES.txt
+akxurl.egg-info/dependency_links.txt
+akxurl.egg-info/entry_points.txt
+akxurl.egg-info/requires.txt
+akxurl.egg-info/top_level.txt
