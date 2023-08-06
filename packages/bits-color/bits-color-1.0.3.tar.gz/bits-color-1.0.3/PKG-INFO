@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: bits-color
+Version: 1.0.3
+Summary: BITS Color
+Author: Lukas Karlsson
+Author-email: karlsson@broadinstitute.org
+License: Apache Software License
+
+Python client for Color API
