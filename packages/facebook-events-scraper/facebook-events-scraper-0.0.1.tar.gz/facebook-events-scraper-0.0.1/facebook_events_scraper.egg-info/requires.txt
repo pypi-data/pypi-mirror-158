@@ -1,0 +1,4 @@
+webdriver-manager==3.5.4
+pybrowsers
+selenium==3.141.0
+python-dateutil

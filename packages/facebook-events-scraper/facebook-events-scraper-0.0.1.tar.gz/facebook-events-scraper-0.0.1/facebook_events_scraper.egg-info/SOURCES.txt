@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+facebook_events/__init__.py
+facebook_events/driver_factory.py
+facebook_events/find_all_events.py
+facebook_events/get_event_details.py
+facebook_events_scraper.egg-info/PKG-INFO
+facebook_events_scraper.egg-info/SOURCES.txt
+facebook_events_scraper.egg-info/dependency_links.txt
+facebook_events_scraper.egg-info/requires.txt
+facebook_events_scraper.egg-info/top_level.txt
