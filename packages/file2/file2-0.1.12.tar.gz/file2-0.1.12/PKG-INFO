@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: file2
+Version: 0.1.12
+Summary: File opener for gzip, bzip2, xz, or uncompressed files.
+Home-page: https://github.com/alexmarder/file2
+Author: Alex Marder
+Requires-Python: >3.6
