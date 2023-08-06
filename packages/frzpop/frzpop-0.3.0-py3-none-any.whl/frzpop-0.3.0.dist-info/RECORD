@@ -1,0 +1,14 @@
+frzpop/__init__.py,sha256=Iyl-VfVlJSdBLO4IXqi231plAPWAhxEeb4L6uKQVtfM,150
+frzpop/chords.py,sha256=CUZu1ViowyGU9VVgMmZ4cW9JUvDDATcqExlpZuRJ0HY,696
+frzpop/dynamics.py,sha256=T6AU8jISxbiPuwnr_tu0PTofmOVr-G1ZM6akUFprnIw,1250
+frzpop/freezers.py,sha256=c6IGCcYSWOEq113ytGW0wd5H5Ru787aRNey4Jd2IUQ0,3628
+frzpop/machines.py,sha256=HC7H2iUWPOqI0IRnPVOlj0hBpjY8huscHNPZ-cZYXHU,8510
+frzpop/notes.py,sha256=XTLNU6FJ_FRaCuPCxPA2khQnpJVxF5eiMlgWifFVTTs,1409
+frzpop/quantize.py,sha256=cvaiWiLsukeOhKB49lMWpBZtPxjalQYSSyDyYHiFTrg,1186
+frzpop/scales.py,sha256=-xZGCELuo1JKh1OCjknkHTxt4GNBMe1d_-PyBAhL190,1566
+frzpop/shuffle.py,sha256=UxUhfWNQADNzrCZTBcWRqGm6t2kzeb1ik8Yut5QRFWU,767
+frzpop-0.3.0.dist-info/LICENSE,sha256=rljm4IQG4CNP1zN5HeQpBKS0atV4dYSE1mNHUtfGh_o,1071
+frzpop-0.3.0.dist-info/METADATA,sha256=B6JNVE1iUOIe1wMvOhNA0icQZ364FcOTLrnRejjdvVU,2098
+frzpop-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+frzpop-0.3.0.dist-info/top_level.txt,sha256=pLEb2A1v02GtkV89C2QaNHL87vgKUf0NsxdFcgq3KxY,7
+frzpop-0.3.0.dist-info/RECORD,,
