@@ -1,0 +1,11 @@
+domain_email_records/__init__.py,sha256=TH-1f5tgmpwiyIVLQR7TsCr3ns-MWvjdCkvj2Gn2Uz0,200
+domain_email_records/cli_entrypoint.py,sha256=-_FxA-JczluSph1hKG6sSNKMrpWq1RRWa6rs4TtC-Nk,3167
+domain_email_records/domain_email_records.py,sha256=Cg2zox7WLAj1_FYbxyH_8hLP83pq31lbBha9sTx4Sx8,3787
+domain_email_records/logger.py,sha256=nvhnc5IW0wLz6HF4Fenav4nxClQK01QeC7Tm8hKTdyI,2679
+domain_email_records-0.1.0.dist-info/LICENSE,sha256=7HsIwib4cNEdZNaxGkicTNDe1snBUf3RKOna1u3_KXg,1268
+domain_email_records-0.1.0.dist-info/METADATA,sha256=KGh6E6gDer1Gx1gb4JocJJrMqwoh7Chc-g08IpgT9-8,2198
+domain_email_records-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+domain_email_records-0.1.0.dist-info/entry_points.txt,sha256=Gr0kEpsEPzVJF4viwENqc4eWgkoQlVhSzzGVvb1d6ns,83
+domain_email_records-0.1.0.dist-info/top_level.txt,sha256=Ji7_rc7kxyGizhqE0kwdbr3R7Bx5V17TRZpXv8Kq2go,21
+domain_email_records-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+domain_email_records-0.1.0.dist-info/RECORD,,
