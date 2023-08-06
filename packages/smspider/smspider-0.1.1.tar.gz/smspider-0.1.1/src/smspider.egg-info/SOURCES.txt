@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+docs/images/big_spider.png
+docs/images/small_spider.png
+src/smspider/__init__.py
+src/smspider/s3_sources.py
+src/smspider.egg-info/PKG-INFO
+src/smspider.egg-info/SOURCES.txt
+src/smspider.egg-info/dependency_links.txt
+src/smspider.egg-info/requires.txt
+src/smspider.egg-info/top_level.txt
