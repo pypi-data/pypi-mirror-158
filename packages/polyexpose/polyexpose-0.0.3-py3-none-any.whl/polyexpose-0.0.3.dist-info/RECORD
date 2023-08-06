@@ -1,0 +1,9 @@
+polyexpose/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polyexpose/polyexpose.py,sha256=nqAVxSNAtSdxAKBJrnCHTMn3vHvyCZBMzxc-K8RXdA8,21839
+polyexpose/data/userdata.parquet,sha256=WdT9zdceW2q3nQvI-ujubxRNNjklD6y0tRmza5LIpcw,113629
+polyexpose-0.0.3.data/data/polyexpose/userdata.parquet,sha256=WdT9zdceW2q3nQvI-ujubxRNNjklD6y0tRmza5LIpcw,113629
+polyexpose-0.0.3.dist-info/LICENSE.md,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+polyexpose-0.0.3.dist-info/METADATA,sha256=ky1bZZdaVjpgk6DnT5q0QkBZ9E8IRyfZM2tbvY0DDtA,700
+polyexpose-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+polyexpose-0.0.3.dist-info/top_level.txt,sha256=TgymEbvTAtJgtCZIcN1Ig1AZnjGxtoa79QMXHsc3asY,11
+polyexpose-0.0.3.dist-info/RECORD,,
