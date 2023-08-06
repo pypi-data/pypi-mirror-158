@@ -1,0 +1,11 @@
+lyrics_translator/__init__.py,sha256=C9rs0b_QzfDBnK2cN9v2A1J7W2Up8klm-2i1AjY8pUs,223
+lyrics_translator/console.py,sha256=cB9NQciRILbA25vsPCRtzR6d6BmyeSzcrutAPsEmkpI,1037
+lyrics_translator/lyrics_translator.py,sha256=M4y9MsV3cIUQMWw3-GejjtRh3xX73xOMbMJOsVqA6y8,3866
+lyrics_translator/saver.py,sha256=28Ns2YkJGIv_HXwULoPI660kJF-X1xP4E6p9fR_V7XQ,1523
+lyrics_translator/spotify_api.py,sha256=vI6Q6x671L2jRNABmxlbwYtrX7vTp3UUf_hOcxCHv4A,3260
+lyrics_translator/translator.py,sha256=W7c8nEAmzjLUDmAys8FEhZ5ud1ezrnL0IMTJ8eEeaK8,4162
+lyrics_translator/utils.py,sha256=zz9vH7Wql1DIj22m3pceMPNkepPWAvo0kMQolwkroXc,758
+lyrics_translator-0.1.0.dist-info/entry_points.txt,sha256=fiJlhFCN40bMNPqYzdak8DBwifA4_ekk6Lop8c6arxM,68
+lyrics_translator-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+lyrics_translator-0.1.0.dist-info/METADATA,sha256=Fon4rhldwRrPPhhWqqZsngewflAPJayxGtX9mOMK4ks,1290
+lyrics_translator-0.1.0.dist-info/RECORD,,
