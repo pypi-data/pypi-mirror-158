@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+README.rst
+setup.py
+SharkReportPlugin/__init__.py
+SharkReportPlugin/sharkReport.py
+SharkReportPlugin/reports/sharkreport.html
+pytest_sharkreport.egg-info/PKG-INFO
+pytest_sharkreport.egg-info/SOURCES.txt
+pytest_sharkreport.egg-info/dependency_links.txt
+pytest_sharkreport.egg-info/entry_points.txt
+pytest_sharkreport.egg-info/requires.txt
+pytest_sharkreport.egg-info/top_level.txt
