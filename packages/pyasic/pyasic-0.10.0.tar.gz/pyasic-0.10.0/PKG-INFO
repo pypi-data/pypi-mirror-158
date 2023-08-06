@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyasic
+Version: 0.10.0
+Summary: A set of modules for interfacing with many common types of ASIC bitcoin miners, using both their API and SSH.
+Author: UpstreamData
+Author-email: brett@upstreamdata.ca
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: asyncssh (>=2.11.0,<3.0.0)
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Requires-Dist: passlib (>=1.7.4,<2.0.0)
+Requires-Dist: pyaml (>=21.10.1,<22.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
