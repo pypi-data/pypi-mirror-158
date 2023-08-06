@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: arkimedes
+Version: 2022.7.12
+Requires-Dist: fuzzywuzzy
+Requires-Dist: lxml
+Requires-Dist: PyPDF2
+Requires-Dist: requests
+Requires-Dist: sqlalchemy
+
