@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+DePC.egg-info/PKG-INFO
+DePC.egg-info/SOURCES.txt
+DePC.egg-info/dependency_links.txt
+DePC.egg-info/not-zip-safe
+DePC.egg-info/top_level.txt
