@@ -1,0 +1,2 @@
+[console_scripts]
+dvs-android = com.dvsnier.android.command.dvs_android:execute
