@@ -1,0 +1,5 @@
+py_subwasm_bindings-0.0.3.dist-info/METADATA,sha256=vIl32oIfv-R1T6CdeIvk4Nqy7NmDz0UwcLQ4xd7fE1g,1613
+py_subwasm_bindings-0.0.3.dist-info/WHEEL,sha256=KMpYe0lSsgi54jYBs87wwXepIcKHZq4KUKIRzM9Shis,135
+subwasm/__init__.py,sha256=iN-12jUSHqtBFed4joL9WgXZwCzPIp7n2gKejzhaKcw,111
+subwasm/subwasm.cpython-39-x86_64-linux-gnu.so,sha256=xDk-5ErppvTuFt3dwgNTviUlgoO15vbPl_VaNIWGulg,8580880
+py_subwasm_bindings-0.0.3.dist-info/RECORD,,
