@@ -1,0 +1,7 @@
+README.rst
+setup.py
+src/os_env.egg-info/PKG-INFO
+src/os_env.egg-info/SOURCES.txt
+src/os_env.egg-info/dependency_links.txt
+src/os_env.egg-info/requires.txt
+src/os_env.egg-info/top_level.txt
