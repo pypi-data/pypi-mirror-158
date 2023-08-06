@@ -1,0 +1,9 @@
+examples/__init__.py,sha256=TlqrPVbrqBHhG5mNvypsKT-i9wyMP8Vqpf3QzlJFghw,37
+examples/google_search.py,sha256=lXGMA02qW4gQI5fljX3F70HGqIVTlvq7MD6FxnXLj70,247
+wibuapi/__init__.py,sha256=nCndjnn7JGTWR8dvuvzavNRj_0x-bGc8KjFz5pjg7eo,29
+wibuapi/wibuapi.py,sha256=GZj7s3sfe9NG-K8aaQcD9G-wAO744eYm-CJj7gXUi2I,6279
+wibuapi-0.0.4.dist-info/LICENSE,sha256=oYc5VCizToegJ5umfx26PJKe7DA76g0iAKLv_VV4eCk,35145
+wibuapi-0.0.4.dist-info/METADATA,sha256=VfG6rXvusXDQqS_o5IsTodlu6wm1Fx7W1BrE1DRci40,1459
+wibuapi-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wibuapi-0.0.4.dist-info/top_level.txt,sha256=hUndqtzKfu5Qcij-WErB6F6c35n5cAiNzmQDwuRsWjo,17
+wibuapi-0.0.4.dist-info/RECORD,,
