@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: paf-sapgui
+Version: 1.0.51
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: paf_tools (>=1.0.0,<2.0.0)
+Requires-Dist: pywin32 (>=304,<305)
