@@ -1,0 +1,3 @@
+[kraken.core.loader]
+python_script=kraken.core.loader.python_script:PythonScriptProjectLoader
+
