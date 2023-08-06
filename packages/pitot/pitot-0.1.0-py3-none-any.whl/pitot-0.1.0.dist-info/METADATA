@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pitot
+Version: 0.1.0
+Summary: Toolbox for aeronautic units and conversions
+License: MIT
+Author: Xavier Olive
+Author-email: git@xoolive.org
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Requires-Dist: Pint (>=0.19.2,<0.20.0)
+Requires-Dist: Pint-Pandas (>=0.2,<0.3)
+Requires-Dist: numpy (>=1.23.0,<2.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# pitot
+
+
