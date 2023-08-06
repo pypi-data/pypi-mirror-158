@@ -1,0 +1,17 @@
+napari_mm3/__init__.py,sha256=cxnoFiwUXxtp3D32GAfJkZ7zQDKpP_T3FYi30vjKI6I,192
+napari_mm3/_dock_widget.py,sha256=RRWSoqzTNqV_SmsdjWoIqvjg4mDeieL7HFLjExCohGc,11647
+napari_mm3/_function.py,sha256=iamo4HXWZxOkr1DJX4lePhFr6zjfWAw0IJ4jTc9zTOQ,192260
+napari_mm3/_reader.py,sha256=iiRhpt5GkxUEVokZNq5J04IWl4DlbekgRvIA8VRHPTw,2682
+napari_mm3/_writer.py,sha256=D_Z2U0WaXJAjQ9v1A1mM_X-0J8Rko3_e49tFaD3Ktg8,309
+napari_mm3/napari.yaml,sha256=gCO03VapBpBEVodyf015yitW4OfikuxUrUrfdzvhkiw,2177
+napari_mm3/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_mm3/_tests/test_dock_widget.py,sha256=IwMGh_CYtrWZOaRIHlvNZafTWpq_hHOL99JT97uJlIE,1286
+napari_mm3/_tests/test_function.py,sha256=LqvMP3DV-Cd85thvoyE20VleKH1MUqagpvpeqrQCUEQ,112
+napari_mm3/_tests/test_reader.py,sha256=DbBB5_dl7upVUA5BdHFI076iYznByvxL8elI9HEnXaU,971
+napari_mm3/_tests/test_writer.py,sha256=SImoCFxO_o9Nqya7Wc09VoCBPkOHg6kLn-JfQY8Q6Y4,122
+napari_mm3-0.0.6.dist-info/LICENSE,sha256=eaBVnMg36BYxHQq940Se6rQf8VSA0c2aR9Rr3SRCMsY,1483
+napari_mm3-0.0.6.dist-info/METADATA,sha256=vLMaZ0VIOW-Jovxp7bW1g2Eh9GtSmZ6hVoCgKINUsqw,12305
+napari_mm3-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_mm3-0.0.6.dist-info/entry_points.txt,sha256=MqaCUfdcfzvDefQSPyJzsgKxNUcy6pC1CM90oIsKo6w,54
+napari_mm3-0.0.6.dist-info/top_level.txt,sha256=S_hLGx523o7_yUUG-B2jx3Ea-UYiTKM-QpYe1LP_utU,11
+napari_mm3-0.0.6.dist-info/RECORD,,
