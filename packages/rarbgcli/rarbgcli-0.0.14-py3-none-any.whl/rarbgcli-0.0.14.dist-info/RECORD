@@ -1,0 +1,9 @@
+rarbgcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rarbgcli/download_tesseract.py,sha256=KFMeVGFNoNZ0TzDLPMLHh4htbB0jof_YeD0HriFCpv0,1193
+rarbgcli/get_chrome_driver.py,sha256=Ej6bigW1Dmvv3617WN0ulTD370BxPm6eSFi3fLrdjDQ,2077
+rarbgcli/rarbgcli.py,sha256=gh0TteQMKDzzAxe8rUHZ52g-eP2rvawIhEwHp7RjM54,16775
+rarbgcli-0.0.14.dist-info/METADATA,sha256=AMQ3NGdC5HSUxUkbuWfA66EOaID3bNy-CegF0_k4V7w,5022
+rarbgcli-0.0.14.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rarbgcli-0.0.14.dist-info/entry_points.txt,sha256=7lNlQMypHfp3kPoWfCcLKad0He2CojgiP0upEtxBz4Q,84
+rarbgcli-0.0.14.dist-info/top_level.txt,sha256=C89EoLlkRqLvUopx6coqxoiE-hz8CMqpQxueDXvvUCE,9
+rarbgcli-0.0.14.dist-info/RECORD,,
