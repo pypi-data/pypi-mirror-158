@@ -1,0 +1,8 @@
+build
+ipycytoscape
+ipywidgets
+ipyleaflet
+ipycytoscape
+tabulate
+fabrictestbed>=1.3rc3
+paramiko
