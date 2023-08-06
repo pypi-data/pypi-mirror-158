@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/kirodb/__init__.py
+src/kirodb/kiro.py
+src/kirodb.egg-info/PKG-INFO
+src/kirodb.egg-info/SOURCES.txt
+src/kirodb.egg-info/dependency_links.txt
+src/kirodb.egg-info/top_level.txt
