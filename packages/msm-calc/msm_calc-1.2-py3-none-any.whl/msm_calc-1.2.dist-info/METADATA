@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: msm-calc
+Version: 1.2
+Summary: calculadora
+Home-page: UNKNOWN
+Author: michel miranda
+Author-email: micheldsmiranda@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: pytz
+
+# Instruction how to use body-mass
+
