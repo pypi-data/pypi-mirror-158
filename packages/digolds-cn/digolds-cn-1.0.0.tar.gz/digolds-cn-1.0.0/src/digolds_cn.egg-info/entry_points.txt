@@ -1,0 +1,2 @@
+[console_scripts]
+digolds = visitor.__main__:main
