@@ -1,0 +1,11 @@
+include dash_escher/dash_escher.min.js
+include dash_escher/dash_escher.min.js.map
+include dash_escher/async-*.js
+include dash_escher/async-*.js.map
+include dash_escher/*-shared.js
+include dash_escher/*-shared.js.map
+include dash_escher/metadata.json
+include dash_escher/package-info.json
+include README.md
+include LICENSE
+include package.json

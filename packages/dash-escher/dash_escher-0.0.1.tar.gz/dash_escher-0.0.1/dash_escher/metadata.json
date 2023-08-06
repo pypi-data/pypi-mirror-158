@@ -1,0 +1,66 @@
+{
+  "src/lib/components/DashEscher.react.js": {
+    "description": "DashEscher visualizes a metabolic network using Escher Builder.\nIt takes two properties, `mapData` and `modelData`, and\ndisplays the network.",
+    "displayName": "DashEscher",
+    "methods": [
+      {
+        "name": "renderEscherNetwork",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "mapData": {
+        "type": {
+          "name": "array"
+        },
+        "required": true,
+        "description": "The metabolic network map."
+      },
+      "modelData": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The metabolic network model."
+      },
+      "options": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Rendering options. Full list of options at\nhttps://escher.readthedocs.io/en/latest/javascript_api.html"
+      },
+      "width": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Width of the canvas."
+      },
+      "height": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Height of the canvas."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
