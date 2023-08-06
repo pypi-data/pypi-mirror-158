@@ -1,0 +1,84 @@
+# nxpydocs
+Automated NXOS Business Ready Documents from th guestshell Python
+
+## Setting up guestshell and Python3.8
+### Enable guestshell
+```console
+switch# guestshell enable
+```
+Wait until the guestshell becomes active
+
+### Resize guestshell diskspace
+```console
+guestshell resize rootfs 2000
+guestshell resize memory 2688
+guesthshell reboot
+```
+
+### Update DNS
+```console
+[cisco@guestshell ~]sudo vi /etc/resolv.conf
+nameserver <dns server IP address>
+domain <domain that matches NX-OS configured domain>
+```
+
+### Update yum
+```console
+[cisco@guestshell ~]sudo yum -y install epel-release
+[cisco@guestshell ~]yum update -y
+[cisco@guestshell ~]sudo reboot
+```
+### Install Python3.8
+```console
+[cisco@guestshell ~]sudo yum -y install openssl-devel bzip2-devel libffi-devel xz-devel
+```
+
+Confirm gcc is installed
+
+```console
+[cisco@guestshell ~]gcc --version
+gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44)
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+
+Download Python 3.8
+```console
+[cisco@guestshell ~]sudo yum -y install wget
+[cisco@guestshell ~]wget https://www.python.org/ftp/python/3.8.12/Python-3.8.12.tgz
+```
+
+Extract and compile
+```console
+[cisco@guestshell ~]sudo tar xvf Python-3.8.12.tgz
+[cisco@guestshell ~]cd Python-3.8.12
+[cisco@guestshell ~]sudo ./configure --enable-optimizations
+[cisco@guestshell ~]sudo make altinstall
+```
+
+Verify Python3.8 is installed
+```console
+[cisco@guestshell ~]python3.8 -V
+Python 3.8.12
+```
+
+Cleanup
+```console
+[cisco@guestshell ~]sudo rm -rf Python-3.8.12
+[cisco@guestshell ~]sudo rm Python-3.8.12.tgz
+```
+### Set Python3 as default Python version
+```
+[cisco@guestshell ~]sudo alternatives --install /usr/bin/python python /usr/local/bin/python3.8 60
+
+[cisco@guestshell ~]sudo alternatives --config python
+
+There is 1 program that provides 'python'.
+
+  Selection    Command
+-----------------------------------------------
+*+ 1           /usr/local/bin/python3.8
+
+Enter to keep the current selection[+], or type selection number: 1
+```
