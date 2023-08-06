@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gridlessEngine
+Version: 0.0.2
+Summary: An simple Engine for Aplication and App design
+Author: PackTheCommand
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+this Engine is based on 'Tkinter' canvas Window an is a 2D cubeHitbox based Engine
