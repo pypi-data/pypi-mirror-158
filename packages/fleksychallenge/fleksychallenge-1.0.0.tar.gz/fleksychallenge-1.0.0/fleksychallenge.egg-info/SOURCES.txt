@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+fleksychallenge/__init__.py
+fleksychallenge/cli.py
+fleksychallenge/interact.py
+fleksychallenge/prepare.py
+fleksychallenge/test.py
+fleksychallenge/train.py
+fleksychallenge.egg-info/PKG-INFO
+fleksychallenge.egg-info/SOURCES.txt
+fleksychallenge.egg-info/dependency_links.txt
+fleksychallenge.egg-info/entry_points.txt
+fleksychallenge.egg-info/requires.txt
+fleksychallenge.egg-info/top_level.txt
