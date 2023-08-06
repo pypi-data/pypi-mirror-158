@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+./ical/__init__.py
+./ical/event.py
+./ical/py.typed
+ical.egg-info/PKG-INFO
+ical.egg-info/SOURCES.txt
+ical.egg-info/dependency_links.txt
+ical.egg-info/top_level.txt
