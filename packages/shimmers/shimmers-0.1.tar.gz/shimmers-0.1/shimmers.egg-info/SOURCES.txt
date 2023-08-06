@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+shimmers/__init__.py
+shimmers/version.py
+shimmers.egg-info/PKG-INFO
+shimmers.egg-info/SOURCES.txt
+shimmers.egg-info/dependency_links.txt
+shimmers.egg-info/requires.txt
+shimmers.egg-info/top_level.txt
