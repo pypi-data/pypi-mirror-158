@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: oneflow
+Version: 0.8.0
+Summary: UNKNOWN
+Home-page: https://www.oneflow.org/
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.18.0)
+Requires-Dist: protobuf (<4.0,>=3.9.2)
+Requires-Dist: tqdm
+Requires-Dist: requests
+Requires-Dist: pillow
+Requires-Dist: rich
+
+UNKNOWN
+
