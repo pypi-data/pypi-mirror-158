@@ -1,0 +1,11 @@
+COPYING
+MANIFEST.in
+README.html
+README.md
+setup.py
+bme280/__init__.py
+bme280/bme280.py
+bme280_upy.egg-info/PKG-INFO
+bme280_upy.egg-info/SOURCES.txt
+bme280_upy.egg-info/dependency_links.txt
+bme280_upy.egg-info/top_level.txt

@@ -1,0 +1,50 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body>
+<h1>BME-280 sensor device driver with Micropython support (I2C + SPI)</h1>
+
+<p><a href="https://bues.ch/">Project website</a></p>
+
+<p><a href="https://bues.ch/cgit/bme280-upy.git">Git repository</a></p>
+
+<p>This driver runs on regular Python and on Micropython.</p>
+
+<p>It has support for both I2C and SPI bus.</p>
+
+<h1>Example</h1>
+
+<pre><code>import bme280
+
+try:
+    # Connect to BME-280 via I2C.
+    bme = bme280.BME280(i2cBus=0)
+
+    # Synchronously trigger a MODE_FORCED conversion and return the result.
+    temperature, humidity, pressure = bme.readForced(filter=bme280.FILTER_2,
+                                                     tempOversampling=bme280.OVSMPL_4,
+                                                     humidityOversampling=bme280.OVSMPL_4,
+                                                     pressureOversampling=bme280.OVSMPL_4)
+
+    # Print the result.
+    print(f"{temperature:.1f} *C; {humidity * 100:.1f} % rel. hum.; {pressure / 100:.1f} hPa")
+
+except bme280.BME280Error as e:
+    print(f"BME280 error: {e}")
+</code></pre>
+
+<h1>License</h1>
+
+<p>Copyright (c) 2020-2022 Michael Büsch <a href="&#x6D;&#x61;&#105;&#x6C;&#116;&#x6F;:&#x6D;&#64;&#x62;&#x75;&#101;&#115;&#x2E;&#x63;&#x68;">&#x6D;&#64;&#x62;&#x75;&#101;&#115;&#x2E;&#x63;&#x68;</a></p>
+
+<p>This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.</p>
+
+<p>This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.</p>
+
+<p>You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.</p>
+</body></html>
