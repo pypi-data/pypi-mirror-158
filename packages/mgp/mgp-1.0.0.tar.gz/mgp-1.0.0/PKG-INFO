@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mgp
+Version: 1.0.0
+Summary: Memgraph's module for developing MAGE modules. Used only for type hinting!
+License: Apache-2.0
+Author: MasterMedo
+Author-email: mislav.vuletic@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# mgp
+
+PyPi package used for type hinting when creating MAGE modules. The get started
+using MAGE repository checkout the repository here: https://github.com/memgraph/mage.
+
