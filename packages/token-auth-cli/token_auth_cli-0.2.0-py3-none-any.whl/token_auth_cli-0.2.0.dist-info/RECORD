@@ -1,0 +1,10 @@
+token_auth_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+token_auth_cli/auth.py,sha256=XAzvyLfKfLWvCmYpnqKg1NCCX0s3bBNhrMsfxzSDi1E,1314
+token_auth_cli/cli.py,sha256=Oy2Uund_Om5emb1531b-5UvIfGVVVIACPOFTgO_DCXc,3792
+token_auth_cli/commands.py,sha256=sCV6BV7t_PK2cOnOZs7GY1IR-9GJf0wgd3h7D1VGx2U,888
+token_auth_cli/config.py,sha256=t8ZiMS4NyVVjdzt8R9lLlPXeZsnwveGq0Fb6sZY0RYs,773
+token_auth_cli/utils.py,sha256=3lcDntNbV7BZ7HttwqEUSvnD3ruuundNQ5tuIRg4C4A,1236
+token_auth_cli-0.2.0.dist-info/entry_points.txt,sha256=3sqXBm8de3eGIBwaqgKojxruFypGfkyiLsB0N8GXpOg,58
+token_auth_cli-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+token_auth_cli-0.2.0.dist-info/METADATA,sha256=YkOPDki1ChpmGvXCh1_yvWa1gBEW_QaRayp-cYjrrMQ,1277
+token_auth_cli-0.2.0.dist-info/RECORD,,
