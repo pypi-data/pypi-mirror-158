@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: django-import
+Version: 0.0.6
+Summary: Import to django models
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: LGPL
+Keywords: CSV JSON TSV import django fixture
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.10
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Requires-Dist: django
+Requires-Dist: django-extensions
+Requires-Dist: django-jsoneditor
+Requires-Dist: markdown
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: six
+Requires-Dist: xlrd (>=1.0.0)
+
+Django-Install
+==============
+
+The application introducing import from many different sources into any project model
+
+See details at the home page: https://github.com/nnseva/django-import
+
+
+
