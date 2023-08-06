@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: deci-lab-client
+Version: 2.36.0
+Summary: Deci Platform API
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,Deci Platform API
+Platform: UNKNOWN
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    Train, deploy, optimize and serve your models using Deci&#39;s platform, In your cloud or on premise.  # noqa: E501
+    
+
