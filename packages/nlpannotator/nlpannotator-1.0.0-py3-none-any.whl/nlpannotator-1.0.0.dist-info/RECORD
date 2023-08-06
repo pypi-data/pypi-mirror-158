@@ -1,0 +1,16 @@
+nlpannotator/__init__.py,sha256=0K_K_zoyMi21bipWDGCuU6dGsFwnwDDXZf1EMLo6rQU,191
+nlpannotator/base.py,sha256=iGdVyqhQ5vag9Lj4nT2ZaVj0ggN6RpgjiHdO5jgNAgA,23222
+nlpannotator/main.py,sha256=FRA51txwFG3utldxI26fC2nE9UZVnYg9Vz39MlcjsR8,7071
+nlpannotator/mflair.py,sha256=dycBFsdUwaQPJaXkHM7eYVeIk6ASfmrDoQUW0egf-Ow,2671
+nlpannotator/msomajo.py,sha256=XyPnChGWj07Q2jlNNBVoIvWxNP1PTOXg4jz6uSHYe-g,2701
+nlpannotator/mspacy.py,sha256=QjzwuJgN2u7yoDIARcx--0H25StoELVz3kcT4ePYnXE,5474
+nlpannotator/mstanza.py,sha256=stgEila7esEv8nx8fzPz0JhRffxaAxuj51lpC0CCDa8,5734
+nlpannotator/mtreetagger.py,sha256=UlaaoaXhB3xEmPbiijxW7qr2kbmimyYlN8ftHYZ-a2s,2536
+nlpannotator/pipe.py,sha256=YBCIqwo1tbS1WJZj3eqGkuZ7Vj6FK9-mTF9mZ9J363k,12379
+nlpannotator/data/attribute_names.json,sha256=ESxBYooTlu3CZ8h2d56OrFpNnC4LRP95LNFYccFr8hc,1230
+nlpannotator/data/input.json,sha256=dwpYuFpaeolz3_hWRW_w8GDUvh6Xp2jCp26LuYjtFYk,2135
+nlpannotator/data/input_schema.json,sha256=cWW9S_q53BNOsUnsVH4QTNHorZj0pfs0yhpSDml6YIM,13510
+nlpannotator-1.0.0.dist-info/METADATA,sha256=-z0LZ-qNVdn6Yf4n8GHgqZd4DSdUdLRCRwG7IwSJ0j8,2243
+nlpannotator-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nlpannotator-1.0.0.dist-info/top_level.txt,sha256=2kTn5dfGDZ1Exn_Dp5AhqJL69M6u3IlNyVovFiMXyRw,13
+nlpannotator-1.0.0.dist-info/RECORD,,
