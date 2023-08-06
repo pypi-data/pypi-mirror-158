@@ -1,0 +1,14 @@
+README.md
+setup.py
+soin/__init__.py
+soin/base.py
+soin/cli.py
+soin/job.py
+soin/request.py
+soin/utils.py
+soin.egg-info/PKG-INFO
+soin.egg-info/SOURCES.txt
+soin.egg-info/dependency_links.txt
+soin.egg-info/entry_points.txt
+soin.egg-info/requires.txt
+soin.egg-info/top_level.txt
