@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dessert_shop_huachen
+Version: 1.0.1
+Summary: infra监控
+Home-page: https://github.com/lihuachenw/li.git
+Author: JOJO_li
+Author-email: 1010153649@qq.com
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7

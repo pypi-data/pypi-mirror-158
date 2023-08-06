@@ -1,0 +1,6 @@
+README.md
+setup.py
+dessert_shop_huachen.egg-info/PKG-INFO
+dessert_shop_huachen.egg-info/SOURCES.txt
+dessert_shop_huachen.egg-info/dependency_links.txt
+dessert_shop_huachen.egg-info/top_level.txt

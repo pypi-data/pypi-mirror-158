@@ -1,0 +1,6 @@
+dessert_shop监控RTS门店数据上传情况，离甜热甜的详情监控
+
+middleware_project主要监控fluentbit具体运行情况，是否出现无输入输出，后续版本补充其他中间件监控
+
+store-monitor监控门店商品售罄情况
+# li
