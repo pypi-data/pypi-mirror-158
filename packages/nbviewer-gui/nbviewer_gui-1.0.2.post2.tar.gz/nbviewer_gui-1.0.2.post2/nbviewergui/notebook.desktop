@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=nbviewer-gui
+Icon=notebook
+Name=Notebook Viewer
+Terminal=false
+Type=Application
+X-Desktop-File-Install-Version=0.26
