@@ -1,0 +1,7 @@
+pybind11
+pyqt5
+scapy
+aiohttp
+python-socketio
+python-engineio
+cryptography
