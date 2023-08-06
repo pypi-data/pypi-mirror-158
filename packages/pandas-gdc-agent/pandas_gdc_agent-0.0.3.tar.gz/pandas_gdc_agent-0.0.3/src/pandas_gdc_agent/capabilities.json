@@ -1,0 +1,27 @@
+{
+    "capabilities": {
+        "relationships": {}
+    },
+    "configSchemas": {
+        "configSchema": {
+            "type": "object",
+            "nullable": false,
+            "properties": {
+                "tables": {
+                    "description": "List of tables to make available in the schema and for querying",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/otherSchemas/TableName"
+                    },
+                    "nullable": true
+                }
+            }
+        },
+        "otherSchemas": {
+            "TableName": {
+                "nullable": true,
+                "type": "string"
+            }
+        }
+    }
+}
