@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: easyencryption
+Version: 0.0.1
+Summary: A very easy way to encrypt data.
+Home-page: https://github.com/BlazenBoi/***/issues
+Author: Blazen
+Author-email: contact@fireballbot.com
+License: MIT
+Project-URL: Discord Server, https://discord.com/invite/mPU3HybBs9
+Project-URL: Bug Tracker, https://github.com/BlazenBoi/***/issues
+Project-URL: Source, https://github.com/BlazenBoi/***
+Keywords: canvacord,rankcard,image manipulation,meme,discord,discordpy,discord-py
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools (>=42)
+Requires-Dist: wheel
+
+Coming Soon.
