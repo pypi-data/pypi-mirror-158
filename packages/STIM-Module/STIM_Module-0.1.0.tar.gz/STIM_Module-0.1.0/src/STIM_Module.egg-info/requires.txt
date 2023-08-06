@@ -1,0 +1,14 @@
+sphinx
+matplotlib
+tk
+pandas
+numpy
+requests
+datetime
+
+[dev]
+build
+bumpver
+twine
+pip-tools
+pytest
