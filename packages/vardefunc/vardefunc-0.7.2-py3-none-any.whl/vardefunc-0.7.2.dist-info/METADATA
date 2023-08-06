@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: vardefunc
+Version: 0.7.2
+Summary: Vardë's Vapoursynth functions
+Home-page: https://github.com/Ichunjo/vardefunc
+Author: Vardë
+Author-email: ichunjo.le.terrible@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: VapourSynth (>=59)
+Requires-Dist: vsutil (>=0.6.0)
+Requires-Dist: vskernels (>=1.0.0)
+Requires-Dist: vsmask (>=0.4.0)
+Requires-Dist: lvsfunc (>=0.4.2)
+Requires-Dist: numpy (>=1.22.4)
+Requires-Dist: pytimeconv (>=0.0.2)
+
+# vardefunc
+Vardë's VapourSynth functions
+
+# How to install vardefunc
+If you have the old `vardefunc.py` module, first of all, please remove it from your system.
+
+You can now install `vardefunc` with the following command:
+```
+python -m pip install vardefunc
+```
+or from Github:
+```
+python -m pip install git+https://github.com/Ichunjo/vardefunc.git
+```
+
+
