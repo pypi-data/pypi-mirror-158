@@ -1,0 +1,15 @@
+askitsu/__init__.py,sha256=9fDX1djeKmk4x2TklmyS3f9WojgA4vMeyDRc3_c-QkQ,509
+askitsu/anime.py,sha256=5vhHR47bnT05kp4IJ4ZCMW8RPP8dLEliPRfCs1peQ_M,7887
+askitsu/character.py,sha256=3p3ang9lYTHX0VnhAJCmBq1ehCVmGe3Eg05gkF7snz8,3303
+askitsu/client.py,sha256=LYUJuxULvSfNLTODfE8iavS4ZmrSxv_FlbcevgBMI2s,14536
+askitsu/core.py,sha256=tGMu77yn1v7ZTS4dh2AjsbLocMmBc2R8DQq37kEYocU,11058
+askitsu/error.py,sha256=17bYNV_sQlEdAIJ5yq-0eVAyOGEDGhHJ9uexdFbeWgI,2912
+askitsu/http.py,sha256=PMImsggnsEZ7mc1DinblHEfJZO_z9Nq5vH0D_bV5gAw,1443
+askitsu/images.py,sha256=p2g9O4F8C5gcbEtH6pANYWXUZMK3mMdYEoNRkQGre6E,6281
+askitsu/manga.py,sha256=JBQMx04OlnjF_TUGuLlmM9_RwjRcgVX8sVpPZrMWrs8,6233
+askitsu/users.py,sha256=bnaCNlKnpVCqA3UDTeh4tFICoQx1b2bnj3EKGgAsXcM,6857
+askitsu-0.5.0.dist-info/LICENSE,sha256=7QhyVqzt6dlV0N-zOUAWpvzBEtA0lxmA99aFsruXzXM,1084
+askitsu-0.5.0.dist-info/METADATA,sha256=KUaqy7fWf32_YcyHux5M3eKnAjkSMw6qyekLjFAx-dc,3004
+askitsu-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+askitsu-0.5.0.dist-info/top_level.txt,sha256=2wOCPCvZyouvVnMds3J1wp_z4MDCwp1fcF0k_K0AOMM,8
+askitsu-0.5.0.dist-info/RECORD,,
