@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: keycloak-user-transfer
+Version: 1.0.0
+Summary: Yet another tool for transferring users from PostgreSQL to Keycloak using Keycloak REST API.
+Home-page: https://github.com/mantis-software-company/change-event-service
+Author: Furkan Kalkan
+Author-email: furkankalkan@mantis.com.tr
+License: UNKNOWN
+Platform: all
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >3.8.*, <4
+Description-Content-Type: text/markdown
+Requires-Dist: httpx (~=0.23.0)
+Requires-Dist: psycopg2-binary (~=2.9.3)
+Requires-Dist: PyYAML (~=6.0)
+Requires-Dist: retry (~=0.9.2)
+
+# keycloak-user-transfer
+
+This is yet another tool for transferring huge amount of users from PostgreSQL to Keycloak using Keycloak REST API. 
+It supports groups, custom user attributes, creation of disabled users and users with verified mail.
+
+# Configuration
+
+- db:
+  - user_sql: Sql query for fetching users. (Remember: Cast all column types to varchar due bug in psycopg2) 
+  - cursor_fetch_size: This script use PostgreSQL binary cursors to iterate large amount of user rows. You can set cursor fetch size with this value.
+- keycloak:
+  - base_url: Keycloak base url without trailling slash on end. Ex: https://sso.myhost.tld
+  - realm: Which realm to insert users.
+  - admin-cli-secret: Client secret of "Admin-cli" client. This script use service account on master realm to create users. You can learn more about service accounts in Keycloak [here](https://github.com/keycloak/keycloak-documentation/blob/main/server_admin/topics/clients/oidc/service-accounts.adoc). 
+- mappings:
+  - user_fields: Key-value mappings of user fields. Keys are Keycloak fields and values are the corresponding columns on the database.
+  - user_attributes: Key-value mappings of user attributes. Keys are Keycloak fields and values are the corresponding columns on the database.
+  - groups: Key-value mappings of group names and Keycloak IDs. (Groups must created before transfer.)
+  - groups_field: Corresponding column that group names concatenate with delimiter.
+
+This tool set random secure temporary password for user for additional security. You should send password reset mail to them. 
+
+# Usage
+
+After installing package from PyPI, define your config.yml path via KEYCLOAK_USER_TRANSFER_CONFIG environment variable then run `keycloak_user_transfer` command.
+
+

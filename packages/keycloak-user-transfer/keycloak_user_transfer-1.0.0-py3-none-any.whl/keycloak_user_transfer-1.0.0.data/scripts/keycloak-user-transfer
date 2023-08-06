@@ -1,0 +1,129 @@
+#!python
+
+import logging
+import os
+from http import HTTPStatus
+from secrets import token_urlsafe
+
+import httpx
+import psycopg2
+import yaml
+from psycopg2 import extras
+from retry import retry
+
+logger = logging.getLogger("keycloak-user-transfer")
+logger.setLevel(os.environ.get('LOG_LEVEL', "DEBUG"))
+handler = logging.StreamHandler()
+handler.setFormatter(
+    logging.Formatter(
+        "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+    )
+)
+logger.addHandler(handler)
+
+
+@retry(ConnectionError, delay=5, backoff=1.1, jitter=(1, 3), tries=3, logger=logger)
+def get_access_token():
+    url = f"{config['keycloak']['base_url']}/auth/realms/master/protocol/openid-connect/token"
+    headers = {'Content-Type': 'application/x-www-form-urlencoded'}
+    form_data = {'grant_type': 'client_credentials', 'client_id': 'admin-cli',
+                 'client_secret': config['keycloak']['admin-cli-secret']}
+    r = httpx.post(url, data=form_data, headers=headers, timeout=30.0)
+    if r.status_code == HTTPStatus.OK:
+        j = r.json()
+        try:
+            return j['access_token']
+        except KeyError:
+            raise ConnectionError(f'Error while getting access token. Status: {r.status_code}')
+    else:
+        raise ConnectionError("Error while getting access token. Maximum retry exceeed.")
+
+
+def str2bool(v):
+    if v:
+        return v.lower() in ("yes", "true", "t", "1")
+    else:
+        return False
+
+
+def create_user(user: dict) -> str:
+    user_metadata_body = {
+        "username": user[config["mappings"]["user_fields"]["username"]],
+        "firstName": user[config["mappings"]["user_fields"]["firstName"]],
+        "lastName": user[config["mappings"]["user_fields"]["lastName"]],
+        "email": user[config["mappings"]["user_fields"]["email"]],
+        "enabled": str2bool(config["mappings"]["user_fields"]["enabled"]),
+        "emailVerified": str2bool(config["mappings"]["user_fields"]["emailVerified"]),
+        "credentials": [
+            {
+                "temporary": True,
+                "type": "password",
+                "value": token_urlsafe(16)
+            }
+        ],
+        "attributes": {}
+    }
+
+    for attribute in config["mappings"]["user_attributes"]:
+        user_metadata_body["attributes"][attribute] = user[config["mappings"]["user_attributes"][attribute]]
+
+    url = f"{config['keycloak']['base_url']}/auth/admin/realms/{config['keycloak']['realm']}/users"
+    headers = {'Authorization': f'Bearer {get_access_token()}'}
+
+    r = httpx.post(url, json=user_metadata_body, headers=headers, timeout=30.0)
+
+    if r.status_code == HTTPStatus.CREATED:
+        logger.debug(f"The user {user_metadata_body['username']} created.")
+        return r.headers.get('Location').split('/')[-1]  # Return user id
+    else:
+        raise ConnectionError(f'Unexpected status code when creating user: {r.status_code}')
+
+
+def assign_groups(user_id: str, user_name: str, group_names: str):
+    group_names = group_names.split(config['mappings']['groups_delimiter'])
+    for group_name in group_names:
+        if group_name:
+            group_id = config["mappings"]["groups"][group_name]
+            url = f"{config['keycloak']['base_url']}/auth/admin/realms/{config['keycloak']['realm']}/users/{user_id}/groups/{group_id}"
+            headers = {'Authorization': f'Bearer {get_access_token()}'}
+            r = httpx.put(url, headers=headers, timeout=30.0)
+            if r.status_code == HTTPStatus.NO_CONTENT:
+                logger.debug(f"The group {group_name} assigned to {user_name}")
+            else:
+                raise ConnectionError(f'Unexpected status code when creating user: {r.status_code}')
+
+
+if __name__ == '__main__':
+
+    logger.info('Transfer started.')
+
+    if not os.environ.get('KEYCLOAK_USER_TRANSFER_CONFIG'):
+        raise ValueError('KEYCLOAK_USER_TRANSFER_CONFIG environment variable not dedected!')
+
+    with open(os.environ['KEYCLOAK_USER_TRANSFER_CONFIG'], 'r') as f:
+        config = yaml.safe_load(f)
+
+    db_conn = psycopg2.connect(host=config['db']['host'], user=config['db']['user'], password=config['db']['password'],
+                               dbname=config['db']['database'])
+    db_cursor = db_conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+
+    db_cursor.execute(
+        f"DECLARE super_cursor BINARY CURSOR FOR {config['db']['user_sql']}"
+    )
+
+    transferred_count = 0
+
+    while True:
+        db_cursor.execute(f"""FETCH {config["db"]["cursor_fetch_size"]} FROM super_cursor""")
+        users = db_cursor.fetchall()
+        if not users:
+            logger.info(f'Transfer completed. {transferred_count} users transferred.')
+            break
+
+        for user in users:
+            user_id = create_user(dict(user))
+            assign_groups(user_id, user[config['mappings']['user_fields']['username']],
+                          user[config['mappings']['groups_field']])
+            logger.info(f'Transferred {transferred_count} user.')
+            transferred_count += 1
+
