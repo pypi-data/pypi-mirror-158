@@ -1,0 +1,6 @@
+stlib>=0.14
+aiohttp
+certifi
+
+[:sys_platform == "win32"]
+pywin32
