@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "podcast_analytics"
+version = "0.0.2"
+authors = [
+  { name="Oliver Vuorenmaa", email="vuoreol@gmail.com" },
+]
+description = "Package that can get analytics from anchor"
+readme = "readme.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/forpodcasters/podcast_analytics"
+"Bug Tracker" = "https://github.com/forpodcasters/podcast_analytics/issues"
