@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: gerrytools
+Version: 0.0.1
+Summary: Tools for processing and visualizing districting plans.
+Home-page: https://github.com/mggg/gerrytools
+Author: MGGG Redistricting Lab
+Author-email: engineering@mggg.org
+Provides-Extra: dev
+License-File: LICENSE
