@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyxbldc
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+venv/
+build/
+develop-eggs/
+dist/
+eggs/
+sdist/
+*.egg-info/
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+reports
+
+# Sphinx documentation
+doc/_build/
+doc/auto_examples/
+doc/modules/
+doc/api
+
+# jupyter files
+.ipynb_checkpoints/
+
+.pytest_cache/
+junit.xml
+.mypy_cache
+*.d.gz
+
+# Version info
+src/km3flux/version.py

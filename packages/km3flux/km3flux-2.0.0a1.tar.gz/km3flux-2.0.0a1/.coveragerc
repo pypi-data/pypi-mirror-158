@@ -1,0 +1,3 @@
+[run]
+omit = 
+  src/km3flux/version.py
