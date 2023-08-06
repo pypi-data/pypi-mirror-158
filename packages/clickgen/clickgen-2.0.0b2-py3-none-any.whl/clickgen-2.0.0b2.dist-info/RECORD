@@ -1,0 +1,13 @@
+clickgen/__init__.py,sha256=5sUnLqnVUPg1DhbScOk-KTfVJlkveaGJMfJHqAT-Lx0,75
+clickgen/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clickgen/configparser.py,sha256=EwTKBB-wDtrJvaHyHVn8WkU3DslX6POAvpnkvN5LsMc,3560
+clickgen/configparser.pyi,sha256=t93WZ9wgVdZlWElw2mup9LodC5zNji512Hw8yFG_vVU,1950
+clickgen/cursors.py,sha256=zxqWrfWEOPWssRqfaT04ZFjwNV_hM5CeNlHeVQsNBPg,1052
+clickgen/cursors.pyi,sha256=aFufZ-Lcwen5sREWyJJNhGBYPzbWOiVaEvIwZi2_dLA,541
+clickgen/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clickgen-2.0.0b2.dist-info/LICENSE,sha256=A4M5RzBDnxtVTUZa6lUIuCdF0OWbc7RXwu8j8D9wAhM,1061
+clickgen-2.0.0b2.dist-info/METADATA,sha256=0YgEIRC2-uWB4DKgjN8wbINm-Yir5fpiqd3QT1VvExk,6588
+clickgen-2.0.0b2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+clickgen-2.0.0b2.dist-info/entry_points.txt,sha256=y6eDgbb6eljdnys-3-E1l9zDankjBp0zrtvs5W3Ke1U,97
+clickgen-2.0.0b2.dist-info/top_level.txt,sha256=VjXc_ZQ5_pgWvBj4JD7WWTyXZN6zcFOq80g1PDPQUtg,9
+clickgen-2.0.0b2.dist-info/RECORD,,
