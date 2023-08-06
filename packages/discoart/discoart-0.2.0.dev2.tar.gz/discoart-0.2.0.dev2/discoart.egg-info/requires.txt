@@ -1,0 +1,7 @@
+docarray[common]>=0.13.30
+ftfy
+lpips
+numpy
+open_clip_torch
+pyspellchecker
+pyyaml
