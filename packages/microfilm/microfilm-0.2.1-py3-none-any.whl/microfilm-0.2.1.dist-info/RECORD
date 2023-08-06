@@ -1,0 +1,12 @@
+microfilm/__init__.py,sha256=FEcALNrYy_asVGinZihpD7Qx4C5vevlUxuwDY-FJ-Mw,195
+microfilm/colorify.py,sha256=r7beXW_UDWH5xX-xPpACgcOT6l9AWEAtfmygK0lNAv8,17504
+microfilm/microanim.py,sha256=ZGOpUYkPI_EH8IfRoLGPaIV5WWrcnRgP30hW1aEzijI,18789
+microfilm/microplot.py,sha256=H9Oj2T_NRujsoRjuRIuoTXEjdbLaI8WH3QOr6aCLel4,32024
+microfilm/version.py,sha256=F4OaytDPTe_UhnRxWr5M85fOkPtvP11Guus85TlgY6M,176
+microfilm/dataset/__init__.py,sha256=SCMnOfMOpOoBVOIYSB-eDrXSPMBrz_cGHa7KUcm999E,83
+microfilm/dataset/dataset.py,sha256=FPWyR0G7hm80VCYFXhhdnvLbxX1ig7R0raD2PuyWKps,14825
+microfilm-0.2.1.dist-info/LICENSE,sha256=mPAvA_gxclGW5KjtXUEaWJcIyvJkOmUIbB36EC_F3DM,1594
+microfilm-0.2.1.dist-info/METADATA,sha256=uEejgls4albRn1MBUuB5u76XsMh10_ZoQD9R8B7K-qQ,9669
+microfilm-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+microfilm-0.2.1.dist-info/top_level.txt,sha256=LAqHzTrcjUszUxYFYoHtrGPYVn_RX7dx9iLPPZT_r8I,10
+microfilm-0.2.1.dist-info/RECORD,,
