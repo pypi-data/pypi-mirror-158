@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: mendeley2biblatex
+Version: 0.1.9
+Summary: A tool to convert your Mendeley to a biblatex library
+Home-page: https://github.com/lioman/mendeley2biblatex
+Author: Lioman
+Author-email: dev@lioman.de
+License: GNU General Public License v3 or later (GPLv3+)
+Keywords: mendeley latex biblatex bibtex biber
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Utilities
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Text Processing :: General
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENSE
+
+=================
+Mendeley2Biblatex
+=================
+
+**This package is not maintained any more.**
+
+This package converts a mendeley database to a biblatex file
+
+It is based on a `script <https://github.com/fbianco/mendeley2bibtex>`_ written by François Bianco, University of Geneva
+
+Installation
+------------
+    pip install mendeley2biblatex
+
+Usage
+-----
+
+First locate your database. On Linux systems it is:
+
+    ls ~/.local/share/data/Mendeley\ Ltd./Mendeley\Desktop/your@email.com@www.mendeley.com.sqlite
+
+The package only reads your database, but to avoid any loss it is **recommended** to  work on a copy of your database
+
+Then run mendeley2biblatex on your file with
+
+    mendeley2bibtex -o mendeley.bib mendeley.sqlite
+
+To see all options use
+    mendeley2biblatex -h
+
+

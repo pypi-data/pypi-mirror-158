@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+mendeley2biblatex/__init__.py
+mendeley2biblatex/bib_entry.py
+mendeley2biblatex/library_converter.py
+mendeley2biblatex.egg-info/PKG-INFO
+mendeley2biblatex.egg-info/SOURCES.txt
+mendeley2biblatex.egg-info/dependency_links.txt
+mendeley2biblatex.egg-info/entry_points.txt
+mendeley2biblatex.egg-info/top_level.txt
