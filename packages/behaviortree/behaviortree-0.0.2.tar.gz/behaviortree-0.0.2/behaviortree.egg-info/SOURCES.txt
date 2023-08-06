@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+behaviortree/README.md
+behaviortree/__init__.py
+behaviortree/tree.py
+behaviortree/version
+behaviortree.egg-info/PKG-INFO
+behaviortree.egg-info/SOURCES.txt
+behaviortree.egg-info/dependency_links.txt
+behaviortree.egg-info/not-zip-safe
+behaviortree.egg-info/requires.txt
+behaviortree.egg-info/top_level.txt

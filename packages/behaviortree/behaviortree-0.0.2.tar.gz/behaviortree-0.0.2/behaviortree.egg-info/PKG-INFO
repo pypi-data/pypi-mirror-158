@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: behaviortree
+Version: 0.0.2
+Summary: Python-based behavior tree implementation.
+Home-page: https://github.com/Onicc/BehaviorTree.py
+Author: Xinchen Cai
+Author-email: xinchen.cai@hotmail.com
+License: UNKNOWN
+Keywords: Behavior Tree,behaviortree
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BehaviorTree.py
+
+沿用BehaviorTree.CPP风格，支持Groot界面。
+
