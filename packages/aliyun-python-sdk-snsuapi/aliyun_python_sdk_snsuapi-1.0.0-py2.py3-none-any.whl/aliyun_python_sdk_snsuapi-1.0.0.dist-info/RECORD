@@ -1,0 +1,17 @@
+aliyunsdksnsuapi/__init__.py,sha256=dHuoY6voK7np1A7oRzw1xyBy7CK9_KBAc4FCKW29uRQ,21
+aliyunsdksnsuapi/endpoint.py,sha256=yMV5vp8WI45uZ-QLjoyxAdMdXgUWEGWfovu0mEHPYB8,1087
+aliyunsdksnsuapi/request/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyunsdksnsuapi/request/v20180709/BandOfferOrderRequest.py,sha256=nAx_NU9ofm7nEgRPylFIw15kkFy_iYf3X3b-vsURwT4,2249
+aliyunsdksnsuapi/request/v20180709/BandPrecheckRequest.py,sha256=EKKcgEnDzaeYxbcHqCtjfjeA8suUFps7jLpP-0DyZzk,2247
+aliyunsdksnsuapi/request/v20180709/BandStartSpeedUpRequest.py,sha256=WA8_PY_ambwmEglMahVAQEl8lTMrhz_Rc17iDnaz298,3005
+aliyunsdksnsuapi/request/v20180709/BandStatusQueryRequest.py,sha256=UpLh4QbOW8ieQzJKM8XtOfXWzMEK5H-KebxtwsLIznc,2074
+aliyunsdksnsuapi/request/v20180709/BandStopSpeedUpRequest.py,sha256=528_i3KPwh7J7WiLbmvFzvd8nuWPnakj1ykphH7LZLc,2601
+aliyunsdksnsuapi/request/v20180709/MobileStartSpeedUpRequest.py,sha256=hktasBq9-4-qtpkahP8F1bjD1HbyJyOP7GV0qcEYE80,3021
+aliyunsdksnsuapi/request/v20180709/MobileStatusQueryRequest.py,sha256=cmMTyzB_LA2XnqcHnfposZs64emXalBn6fRvuJwpmBM,2124
+aliyunsdksnsuapi/request/v20180709/MobileStopSpeedUpRequest.py,sha256=tXKmHMUuLFbSPz4O4fmJLr83rs44k6cu4EPCEtZ00CA,2124
+aliyunsdksnsuapi/request/v20180709/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyun_python_sdk_snsuapi-1.0.0.dist-info/LICENSE,sha256=CvyZB4el1cZGT3cy9OYoITxta_Ea2maondKqmi8EcpU,575
+aliyun_python_sdk_snsuapi-1.0.0.dist-info/METADATA,sha256=7kgumYQQ5NqYiJ5zkmL0Za0KTyAdPB33H21b-QCrvHk,1475
+aliyun_python_sdk_snsuapi-1.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+aliyun_python_sdk_snsuapi-1.0.0.dist-info/top_level.txt,sha256=qJZ9xVRlU5ldCIhBUgpiVUzBCF2BAHoweJPY1K5O_FA,17
+aliyun_python_sdk_snsuapi-1.0.0.dist-info/RECORD,,
