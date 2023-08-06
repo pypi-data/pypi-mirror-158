@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: bashsnakegame
+Version: 0.1.1
+Summary: A Terminal Snake for Terminal Persons
+Home-page: https://github.com/sakthiRathinam/gamesortvisualize
+License: MIT-LICENSE
+Keywords: terminalsnake,terminalsnakepython
+Author: sakthiRatnam
+Author-email: sakthiratnam050@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: colorama (>=0.4.5,<0.5.0)
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)
+Requires-Dist: pytimedinput (>=2.0.1,<3.0.0)
+Requires-Dist: rich (>=12.4.4,<13.0.0)
+Project-URL: Documentation, https://github.com/sakthiRathinam/gamesortvisualize
+Project-URL: Repository, https://github.com/sakthiRathinam/gamesortvisualize
+Description-Content-Type: text/markdown
+
+# terminal_snake
+
+[![image](https://img.shields.io/pypi/v/bashsnakegame.svg?style=flat)](https://pypi.python.org/pypi/tortoise-cli)
+[![image](https://img.shields.io/github/license/sakthiRathinam/terminal_snake
+)](https://github.com/sakthiRathinam/terminal_snake)
+[![image](https://github.com/sakthiRathinam/terminal_snake/workflows/pypi/badge.svg)](https://github.com/sakthiRathinam/terminal_snake/actions?query=workflow:pypi)
+
+A cli for snake game in python using graph algo and vanilla python without using no gui libraries nothing only logic and python.
+
+## Installation
+
+You can just install from pypi.
+
+```shell
+pip install bashsnakegame
+```
+
+## Quick Start
+
+```                                                   
+create a python file and paste this                                                                                                              
+from bashsnakegame.game import SnakeGame
+
+def main():
+    #width will be the first arg and height will be the second arg based on that i will draw the cells in the terminal
+    game = SnakeGame(10,20)
+    game.start_game()
+main()
+
+Commands:
+  shell  run the python file and your game starts.
+  
+```
+
+## License
+
+This project is licensed under the
+[MIT](https://github.com/tortoise/tortoise-cli/blob/main/LICENSE) License.
