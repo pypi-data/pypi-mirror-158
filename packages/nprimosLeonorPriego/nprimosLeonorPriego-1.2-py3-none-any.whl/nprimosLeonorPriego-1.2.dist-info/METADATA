@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nprimosLeonorPriego
+Version: 1.2
+Summary: Print all prime numbers between 1 and MaxNum, you have to indicate maxNum.
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+Print all prime numbers between 1 and MaxNum, you have to indicate maxNum.
+
+USAGE:
+
+ffrom nprimos.nprimos import printPrimeNumbers
+
+printPrimeNumbers(maxNum)      
