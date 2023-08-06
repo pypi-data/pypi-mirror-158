@@ -1,0 +1,7 @@
+monadiacpy/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+monadiacpy/maybe.py,sha256=jlDjBvSyf60wPqMl7JGD7LCPeqYAJHDcytah4ka_4EE,619
+monadiacpy/requests.py,sha256=0SToi8-GHcnUeklDFsekMxzIIuQgl7O7WL1uWunftC4,1348
+monadiacpy/result_or_failure.py,sha256=78nUrotxbuvT7MilWfi9D6fGkCFvIa46XtinEcs2dOM,1570
+monadiacpy-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+monadiacpy-0.1.0.dist-info/METADATA,sha256=lyyfe2u8V1WqDZpWtiAmKyoKW-YJFEV9G9kG3GHsx_o,296
+monadiacpy-0.1.0.dist-info/RECORD,,
