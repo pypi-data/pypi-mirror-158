@@ -1,0 +1,26 @@
+{
+  "logger": {
+    "level": "INFO",
+    "file_name": "py-fortress",
+    "console_out": true
+  },
+  "ldap": {
+    "uri": "ldap://localhost:389",
+    "timeout": 1,
+    "pool_size": 5,
+    "dn": "dc=example,dc=com",
+    "password": "secret",
+    "use_tls": false,
+    "debug": false,
+    "validate_cacert": true
+  },
+  "dit": {
+    "suffix": "dc=example,dc=com",
+    "users": "People",
+    "roles": "Roles",
+    "perms": "Perms"
+  },
+  "schema": {
+    "raw_delimiter": "$"
+  }
+}

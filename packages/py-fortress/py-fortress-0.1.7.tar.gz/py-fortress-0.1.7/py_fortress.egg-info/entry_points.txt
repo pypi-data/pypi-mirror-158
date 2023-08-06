@@ -1,0 +1,4 @@
+[console_scripts]
+cli = rbac.cli.cli:main
+clitest = rbac.cli.cli_test_auth:main
+initldap = rbac.tests.test_dit_dao:main
