@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: PySide6-Frameless-Window
+Version: 0.0.14
+Summary: Based off PyQt5-Frameless-Window but migrated to PySide6.
+Home-page: https://github.com/rayzchen/PySide6-Frameless-Window
+Author: Ray Chen
+Author-email: tankimarshal2@gmail.com
+License: MIT
+Keywords: pyside6 frameless
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PySide6-Frameless-Window
+
+Based off https://github.com/zhiyiYo/PyQt-Frameless-Window but migrated to PySide6.
+
+New features:
+- Merged MenuBar and TitleBar (hidden by default)
+- Added centered title label, set with `Window.setWindowTitle`
+
+
