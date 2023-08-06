@@ -1,0 +1,3 @@
+[console_scripts]
+add_germline_annotations = receptor_germline_tools.add_germline_annotations:main
+convert_fasta_labels = receptor_germline_tools.convert_fasta_labels:main
