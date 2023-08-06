@@ -1,0 +1,7 @@
+numpy
+altair
+joblib
+pandas
+portion
+statsmodels
+scikit-learn
