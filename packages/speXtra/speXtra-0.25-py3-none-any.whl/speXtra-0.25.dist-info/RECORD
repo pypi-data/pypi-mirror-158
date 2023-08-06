@@ -1,0 +1,11 @@
+speXtra-0.25.dist-info/METADATA,sha256=PNpkD9VvUIT9-qY7MYm5-4C3uownoIRr6GlDBhln6wQ,2175
+speXtra-0.25.dist-info/RECORD,,
+speXtra-0.25.dist-info/WHEEL,sha256=pZyAqgNAylOf0KG_hPHMtuuY08rV3WzWwZu2OTsNnnw,97
+speXtra-0.25.dist-info/top_level.txt,sha256=cDgQMeLliem9BcsfTC558PbBGvghK5ttLodmrHBm56w,8
+spextra/__init__.py,sha256=jdSQvvxFxpxMY4k59HO79O5jtjls5vgWR5wyZlyF71k,492
+spextra/database.py,sha256=vxqunlWiKGSemT8u0i1DDoRO7Dtc89YEK0o91cLGIww,16504
+spextra/spextra.py,sha256=A8bC2QkExGoJdoTGtfoTnmvETp97G3klTD4YV5pK3R0,42093
+spextra/utils.py,sha256=iFBv65BbYS-9ilINw-G0vbAKQcYV-9kmRsg_97i9XOI,10513
+spextra/version.py,sha256=1k-7YXUPcgoDY0-vTmdIbPm7rPX0MapMkUSjiYGC_aA,106
+spextra/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spextra/data/config.yml,sha256=nRyHbSacTuthCrXrYuZmbrYHAu0D2LMib94yopc0ZNI,190
