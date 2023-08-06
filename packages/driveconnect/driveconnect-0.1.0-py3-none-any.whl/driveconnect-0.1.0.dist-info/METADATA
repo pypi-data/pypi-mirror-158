@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: driveconnect
+Version: 0.1.0
+Summary: Test whether a Windows drive is connected, and connect it.
+Author: Gwang-Jin Kim
+Author-email: gwang.jin.kim.phd@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pysecstring (>=0.1.8,<0.2.0)
