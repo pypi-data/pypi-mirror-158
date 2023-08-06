@@ -1,0 +1,22 @@
+1.0.0
+  * implemented directory zip download
+
+  * single html file page for Filer
+
+  * Filer allows uploads
+
+  * tree_patterner function to ease creation of website tree
+
+  * changed name and signature of BaseProvider.get_content() to handle_get
+  
+  * a provider can now define handlers of any http method (POST, PUT, ...etc) by
+    defining handle_<method name> method in the subclass
+  
+  * a provider can now define a default request handler method named
+    handle_default() to be called if no handler for the request method is
+    defined
+  
+  * handler now will parse body if `content-type` header is
+    `multipart/form-data` and pass the data as dictionary to the provider
+    to the provider
+
