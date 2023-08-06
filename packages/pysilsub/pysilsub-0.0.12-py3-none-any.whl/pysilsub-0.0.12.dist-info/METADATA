@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pysilsub
+Version: 0.0.12
+Summary: Software for performing silent substitution in Python.
+Home-page: https://github.com/PySilentSubstitution/pysilsub
+Author: Joel T. Martin
+Author-email: joel.t.martin36@gmail.com
+License: MIT
+Project-URL: Documentation, https://pysilentsubstitution.github.io/pysilsub/index.html
+Keywords: silent substitution,vision,psychology,perception
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: pandas
+Requires-Dist: importlib-resources
+Requires-Dist: colour-science
+
+Welcome to PySilentSubstitution
+===============================
+
+A Python toolbox for performing the method of silent substitution.
+
+Important note
+--------------
+
+This is a test release and should not be used for production.
+
