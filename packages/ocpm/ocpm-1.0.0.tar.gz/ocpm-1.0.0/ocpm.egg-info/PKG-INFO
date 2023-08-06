@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ocpm
+Version: 1.0.0
+Summary: OpenCore Package Manager by HyDEV
+Home-page: https://github.com/hykilpikonna/ocpm
+Author: Azalea Gui
+Author-email: me@hydev.org
+License: MIT
+Description: # ocpm - OpenCore Package Manager [WIP]
+        
+        ![image](https://user-images.githubusercontent.com/22280294/170818152-b202a3ba-2a48-4ccd-8abe-4e4514b8ec67.png)
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
