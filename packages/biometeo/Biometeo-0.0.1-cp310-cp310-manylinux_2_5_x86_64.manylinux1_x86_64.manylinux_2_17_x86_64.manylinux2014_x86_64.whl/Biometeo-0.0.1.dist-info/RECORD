@@ -1,0 +1,10 @@
+pet_func.cpython-310-x86_64-linux-gnu.so,sha256=2vRh8zDgJHziVzHSzSGV1_KB7fIfgSZk29irQz-yII0,1373936
+SET_func.cpython-310-x86_64-linux-gnu.so,sha256=i8XE9c6sUUVvCpzcxspuHgQudURiYfRQLusn536VB2s,731376
+GlobalRadiation_Tmrt_RayMan.cpython-310-x86_64-linux-gnu.so,sha256=48rc-ndOVepuL8yvXCij7XdeEHXVqKILSf1PeYdaGV4,1604584
+PMV_func.cpython-310-x86_64-linux-gnu.so,sha256=qFAeyW-of1uff6MCjATHA_yuD1mu1B8wuq_hplmrU0c,703800
+UTCI_apporf.cpython-310-x86_64-linux-gnu.so,sha256=HLyb2oD61Ucc5MYkjto8oMeNyxPcTD1QFWM02kpDhfc,1179904
+mPET_func_ord.cpython-310-x86_64-linux-gnu.so,sha256=CGsD4GW0-Tqsjx2UPrfTCh5zdGqjCaeXis3wWxxfXUE,10900688
+Biometeo-0.0.1.dist-info/WHEEL,sha256=Ti9SXxRhD2A7sSJ6_NquJXKHehk9vD0kuf_oco9X6vo,225
+Biometeo-0.0.1.dist-info/METADATA,sha256=FFLOWNolRmc4agCboRPVNtkb3mxS2n_VCZPfRecM8sc,501
+Biometeo-0.0.1.dist-info/top_level.txt,sha256=a2CW0F7QIUCWmm-T5HUTcPrhi3joAfVYSuSLyyEnxbc,81
+Biometeo-0.0.1.dist-info/RECORD,,
