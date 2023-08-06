@@ -1,0 +1,12 @@
+{% load static %}
+<div
+    id="djadyen-config"
+    data-session-id="{{ session_id }}"
+    data-session-data="{{ session_data }}"
+    data-client-key="{{ client_key }}"
+    data-environment="{{ environment }}"
+    data-redirect-url="{{ redirect_url }}"
+    data-payment-type="{% firstof payment_type 'dropin' %}"
+    {% if issuer %}data-issuer="{{ issuer }}"{% endif %}
+></div>
+<div id="djadyen-container"></div>
