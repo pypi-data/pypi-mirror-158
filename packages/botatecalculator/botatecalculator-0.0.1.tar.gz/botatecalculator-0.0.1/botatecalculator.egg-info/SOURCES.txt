@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+botatecalculator/__init__.py
+botatecalculator/calculator.py
+botatecalculator.egg-info/PKG-INFO
+botatecalculator.egg-info/SOURCES.txt
+botatecalculator.egg-info/dependency_links.txt
+botatecalculator.egg-info/top_level.txt
