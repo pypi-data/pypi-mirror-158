@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: asynchrony
+Version: 0.2.0
+Summary: Collection of utilities to write safe asyncio code.
+Keywords: async,asyncio,aiohttp,framework
+Author-email: Gram <gram@orsinium.dev>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Framework :: AsyncIO
+Classifier: Framework :: aiohttp
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Networking
+Classifier: Typing :: Typed
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-asyncio ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Project-URL: Source, https://github.com/orsinium-labs/asynchrony
+Provides-Extra: test
+
+# asynchrony
+
+Python [asyncio](https://docs.python.org/3/library/asyncio.html) framework for writing safe and fast concurrent code.
+
+Features:
+
++ Type annotated and type safe
++ Makes it easy to work with cancellation, errors, and scheduling.
++ Well tested and well documented.
++ Zero dependency.
++ Based on real world experience and pain.
+
+## Installation and usage
+
+```bash
+python3 -m pip install asynchrony
+```
+
+A simple example of starting concurrent tasks for all URLs (maximum 100 tasks at the same time) and waiting for all of them to finish:
+
+```python
+from asynchrony import Tasks
+
+async def download_page(url: str) -> bytes:
+    ...
+
+urls = [...]
+tasks = Tasks[bytes](timeout=10, max_concurrency=100)
+tasks.map(urls, download_page)
+
+try:
+    pages = await tasks
+except Exception:
+    failed = sum(t.failed for t in tasks)
+    print(f'{failed} tasks failed')
+    cancelled = sum(t.cancelled for t in tasks)
+    print(f'{cancelled} tasks cancelled')
+else:
+    print(f'finished {len(tasks)} tasks')
+```
+
+See [tutorial](./tutorial) for runnable usage examples.
+
