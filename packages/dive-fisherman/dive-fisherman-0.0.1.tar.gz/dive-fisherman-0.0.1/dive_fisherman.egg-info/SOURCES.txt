@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pkg.json
+setup.py
+dive_fisherman.egg-info/PKG-INFO
+dive_fisherman.egg-info/SOURCES.txt
+dive_fisherman.egg-info/dependency_links.txt
+dive_fisherman.egg-info/top_level.txt
+src/__init__.py
