@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/dive_nemo.egg-info/PKG-INFO
+src/dive_nemo.egg-info/SOURCES.txt
+src/dive_nemo.egg-info/dependency_links.txt
+src/dive_nemo.egg-info/top_level.txt
+src/nemo/__init__.py
