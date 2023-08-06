@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: promethous-client
+Version: 1.0.1
+Summary: 模块描述
+Author: holeunique
+Author-email: 617240374@qq.com
+Requires-Python: >=3.6
+License-File: LICENSE.txt
