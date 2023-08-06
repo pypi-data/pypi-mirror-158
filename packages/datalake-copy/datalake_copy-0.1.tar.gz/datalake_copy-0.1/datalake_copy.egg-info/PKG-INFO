@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: datalake-copy
+Version: 0.1
+Summary: A library for datalake copying to databricks
+Author: Eric Schles
+Description-Content-Type: text/markdown
+
+# Intro
+
+This is a python version of:
+
+* https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-directory-file-acl-python
+* https://docs.microsoft.com/en-us/python/api/azure-storage-file-datalake/azure.storage.filedatalake?view=azure-python
