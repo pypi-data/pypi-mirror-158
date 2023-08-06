@@ -1,0 +1,3 @@
+[console_scripts]
+torchde = torchde.main:main
+
