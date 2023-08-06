@@ -1,0 +1,16 @@
+LICENSE.md
+README.rst
+setup.cfg
+setup.py
+kafkademia/__init__.py
+kafkademia/consumidor.py
+kafkademia/ejemplos.py
+kafkademia/kafkademia.py
+kafkademia/productor.py
+kafkademia/utils.py
+kafkademia.egg-info/PKG-INFO
+kafkademia.egg-info/SOURCES.txt
+kafkademia.egg-info/dependency_links.txt
+kafkademia.egg-info/entry_points.txt
+kafkademia.egg-info/requires.txt
+kafkademia.egg-info/top_level.txt
