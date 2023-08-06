@@ -1,0 +1,16 @@
+
+### 打包命令
+
+python3 setup.py sdist
+
+### 本地安装
+
+python3 setup.py sdist install
+
+### 上传
+
+> 配置 ~/.pypirc
+
+twine upload dist/*
+
+已废弃 ``python3 setup.py sdist upload``
