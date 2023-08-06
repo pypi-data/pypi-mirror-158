@@ -1,0 +1,34 @@
+LICENSE
+README.md
+mbtiles_s3_server.py
+setup.py
+mbtiles_s3_server.egg-info/PKG-INFO
+mbtiles_s3_server.egg-info/SOURCES.txt
+mbtiles_s3_server.egg-info/dependency_links.txt
+mbtiles_s3_server.egg-info/requires.txt
+mbtiles_s3_server.egg-info/top_level.txt
+mbtiles_s3_server/vendor/dark-matter-gl-style@1.0.0/LICENSE.md
+mbtiles_s3_server/vendor/dark-matter-gl-style@1.0.0/style.json
+mbtiles_s3_server/vendor/fiord-color-gl-style@1.0.0/style.json
+mbtiles_s3_server/vendor/fonts-gl@1.0.0/KlokanTech Noto Sans - LICENSE.txt
+mbtiles_s3_server/vendor/fonts-gl@1.0.0/Metropolis - LICENSE.txt
+mbtiles_s3_server/vendor/fonts-gl@1.0.0/Noto Sans - LICENSE.txt
+mbtiles_s3_server/vendor/fonts-gl@1.0.0/Nunito - LICENSE.txt
+mbtiles_s3_server/vendor/fonts-gl@1.0.0/Roboto - LICENSE.txt
+mbtiles_s3_server/vendor/fonts-gl@1.0.0/fonts.tar.gz
+mbtiles_s3_server/vendor/maplibre-gl@2.1.9/LICENSE.md
+mbtiles_s3_server/vendor/maplibre-gl@2.1.9/maplibre-gl.css
+mbtiles_s3_server/vendor/maplibre-gl@2.1.9/maplibre-gl.js
+mbtiles_s3_server/vendor/maptiler-3d-gl-style@1.0.0/LICENSE.md
+mbtiles_s3_server/vendor/maptiler-3d-gl-style@1.0.0/style.json
+mbtiles_s3_server/vendor/maptiler-basic-gl-style@1.0.0/LICENSE.md
+mbtiles_s3_server/vendor/maptiler-basic-gl-style@1.0.0/style.json
+mbtiles_s3_server/vendor/maptiler-terrain-gl-style@1.0.0/LICENSE.md
+mbtiles_s3_server/vendor/maptiler-terrain-gl-style@1.0.0/style.json
+mbtiles_s3_server/vendor/maptiler-toner-gl-style@1.0.0/LICENSE.md
+mbtiles_s3_server/vendor/maptiler-toner-gl-style@1.0.0/style.json
+mbtiles_s3_server/vendor/osm-liberty@1.0.0/LICENSE.md
+mbtiles_s3_server/vendor/osm-liberty@1.0.0/style.json
+mbtiles_s3_server/vendor/positron-gl-style@1.0.0/LICENSE.md
+mbtiles_s3_server/vendor/positron-gl-style@1.0.0/style.json
+test/test_mbtiles_s3_server.py
