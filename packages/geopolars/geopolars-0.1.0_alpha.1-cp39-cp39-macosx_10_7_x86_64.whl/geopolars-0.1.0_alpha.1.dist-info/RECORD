@@ -1,0 +1,9 @@
+geopolars-0.1.0_alpha.1.dist-info/METADATA,sha256=TgN3Z5IScHprF7IDHySNgG-ZYXYe8TNLe7o2SodgPUI,763
+geopolars-0.1.0_alpha.1.dist-info/WHEEL,sha256=Gtzg5ff3BRrgHJ61_nfs1uHbhAyeYAy-c-3KA6WJ_Ks,105
+geopolars/convert.py,sha256=DSjzQAXu28-_jG47kE7jj526J4jYG0TF0DYHlZadlKo,801
+geopolars/__init__.py,sha256=ms-EaQcIpMNqgjkWAwe5eVXwIhupgTLwBR97TUUXiW0,218
+geopolars/internals/__init__.py,sha256=2bH8aPbgSb384GxlsBUei5z9biSNOSxVS0oz_H0uF-U,72
+geopolars/internals/geodataframe.py,sha256=04lclPt82gqkf-ofJVOeniWmJki24ac2WhW4YxO_j3o,63
+geopolars/internals/geoseries.py,sha256=U6hxdsHYHxXOkETn2FITMrY5Mr1sbbOCXfSH1YuBd7o,427
+geopolars/geopolars.cpython-39-darwin.so,sha256=ONHy9iL790FjappnQ36t959JEtYNSbJznEqNlxVGwTk,8983680
+geopolars-0.1.0_alpha.1.dist-info/RECORD,,
