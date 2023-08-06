@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "cvrplib"
+version = "0.1.0"
+description = "Python library for reading and downloading CVRPLIB instances."
+authors = ["Leon Lan <leon.lanyidong@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/leonlan/CVRPLIB"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.27.1"
+numpy = "^1.15"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+flake8-unused-arguments = "^0.0.10"
+black = "^22.3.0"
+isort = "^5.10.1"
+pytest = "^7.1.2"
+mypy = "^0.950"
+ipdb = "^0.13.9"
+types-requests = "^2.27.29"
+pre-commit = "^2.19.0"
+
+[pytest]
+pythonpath = [".", "cvrplib"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
