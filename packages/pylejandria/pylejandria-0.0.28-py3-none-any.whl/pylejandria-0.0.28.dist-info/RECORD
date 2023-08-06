@@ -1,0 +1,11 @@
+pylejandria/__init__.py,sha256=3hrIJp444JGENHWh86IQ3KX0A_Pem4nWnw1U-kweSGA,286
+pylejandria/gui.py,sha256=F7TkqTzPkSQDZj4yhRpDuXPL7B-e-BK2eKWZz4Kp3cc,5550
+pylejandria/math.py,sha256=JWQPyJsN9VKONekxHGJR4y16Bfsz6jo089nRIGBLQnI,18726
+pylejandria/module.py,sha256=YBxknsBwL24qZ09Gr8lGpa0iVAR6-BRZBjvkRMqpjxI,2879
+pylejandria/tools.py,sha256=FnSGBEILVjk_vQHZdLLHlEbse9SN2oXADa-f5rNBwGs,9592
+pylejandria/upload.py,sha256=mLcB6paNlp73UsSxccvYQtL6cMrbeDHD5BsdKMxiUm0,8725
+pylejandria-0.0.28.dist-info/LICENSE,sha256=E5m2nfGOujrJZ1SdOeE1I4EUQSxf1hOahl2kD8EmBkk,1113
+pylejandria-0.0.28.dist-info/METADATA,sha256=uqEHukfaGK5ZUi_BJczVDfxDZStylRnuzVzgsQwIg7I,3531
+pylejandria-0.0.28.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pylejandria-0.0.28.dist-info/top_level.txt,sha256=yFS7BHnsHl4QgiS6UC-HbpOEKboL1xA-blf8j20Dykg,12
+pylejandria-0.0.28.dist-info/RECORD,,
