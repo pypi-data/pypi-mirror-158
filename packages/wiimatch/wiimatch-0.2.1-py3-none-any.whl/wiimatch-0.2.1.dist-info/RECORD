@@ -1,0 +1,12 @@
+wiimatch/__init__.py,sha256=aE53W__8XMaU90ykLRa2mtkfjbngUoUNku1MUbVXC_k,406
+wiimatch/lsq_optimizer.py,sha256=NFh7Sx6C34liwjcwkBn_nm3bYnlq7UasyTY4iujcnoA,19820
+wiimatch/match.py,sha256=WvrgVVLkygoBlnWjM5TSih09Uep8Mz0eO6SsJ_hvBBk,10763
+wiimatch/utils.py,sha256=oOfizjWsrPmtsOUWSaUgm8yzBHk5X7LQ8qHbIOthTrs,5792
+wiimatch/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wiimatch/tests/test_match.py,sha256=3dyeWgunuS7k03S-BC3BZMF5M9sgRdyaYhaWLTy0S0s,2473
+wiimatch/tests/test_utils.py,sha256=vFUqJivNdaFQsbFW_yqaOCgkwmu4QMf_-W0z4VVxUFQ,857
+wiimatch-0.2.1.dist-info/LICENSE.txt,sha256=v5aezEG-alnELQLo4F7FlyCkZ0oxoqMwgddQeJK3j64,1557
+wiimatch-0.2.1.dist-info/METADATA,sha256=wpqP-RhwO3EScsjgNmC1cPkFbViDIinsnOo7l4M3U3I,2251
+wiimatch-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wiimatch-0.2.1.dist-info/top_level.txt,sha256=esXMlpPYX-eIVt70UNIbpf_LpMNerHOGXsmXTY28JRM,9
+wiimatch-0.2.1.dist-info/RECORD,,
