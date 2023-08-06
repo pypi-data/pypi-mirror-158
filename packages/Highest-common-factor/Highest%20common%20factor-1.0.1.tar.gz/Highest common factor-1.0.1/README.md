@@ -1,0 +1,1 @@
+This package allows you to find the highest common factor of two or multiple numbers.
