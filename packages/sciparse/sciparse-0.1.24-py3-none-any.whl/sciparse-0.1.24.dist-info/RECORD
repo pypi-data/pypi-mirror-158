@@ -1,0 +1,17 @@
+sciparse/__init__.py,sha256=zucgBPR41EuEsnMcunSdNgFv9vMP0zDPyGBG4FZdrQk,170
+sciparse/conftest.py,sha256=G0yMHDAWYOhJ2_3QeNlClAbJ6KUKCj0C71KgNpa1Ajs,234
+sciparse/examples/examples.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sciparse/source/parsers.py,sha256=IGgzmcJmSLPAvJmiAigkE8cvwSS9QxdWfeP42xWDgbA,8099
+sciparse/source/unit_parsing.py,sha256=9CtByVjYbSOZjSenuUeUrV2WTNFnwsZQCDLnmZQ7vKQ,9741
+sciparse/test/conftest.py,sha256=deLUn-7h97ECl48MSuNAA7_31ZPXasaE2IR68z9Pb9c,159
+sciparse/test/shorthand.py,sha256=KrmlZHv8roCIxXBcRkQUCCCg3vMsL7gvA4ackiKexLA,2174
+sciparse/test/test_lcr_parsing.py,sha256=P8zt7WWBeTQCqtdGu4ZkRFCmyUbqaJ9WKc9i0rC5pqE,4425
+sciparse/test/test_parsing.py,sha256=lrJOARq_s0fI0GgdJcjCrC-hbgBJv4mjb4qv92a_69U,3382
+sciparse/test/test_units.py,sha256=fZgQ4xGTOMu5Vd6ZwHMkyB_iyYFPhXHsPG3LNK6WDL4,8427
+sciparse/test/data/TEST1~1~type-locked_coupled~peak-Si.txt,sha256=fyytQcrx8vGiXZrKLBrFyMbZschTKryZ52bOUVbbpRg,655
+sciparse/test/data/lcr_test_data.dat,sha256=RaL0nYO-dutIguE3rY0lWsbaq83ByZwxTF1vRM_4sVM,10530
+sciparse-0.1.24.dist-info/LICENSE.txt,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+sciparse-0.1.24.dist-info/METADATA,sha256=H0rGy0c-bdMwpiDwJXrGDgdpW6RTSmkNJEUNa-3TAuU,2323
+sciparse-0.1.24.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sciparse-0.1.24.dist-info/top_level.txt,sha256=Y-wyfRvxQb5K3dYvks3a8E1C2IovOU7rtugdqOaDSPc,9
+sciparse-0.1.24.dist-info/RECORD,,
