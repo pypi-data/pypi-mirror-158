@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pyfastspm
+Version: 1.0.0
+Summary: A python package for loading, processing and exporting scanning probe microscopy movies acquired with the FAST unit.
+Home-page: https://gitlab.com/fastspm/pyfastspm
+Author: Carlo Dri
+Author-email: carlo.dri@gmail.com
+License: MIT
+Project-URL: Issue Tracker, https://gitlab.com/fastspm/pyfastspm/-/issues
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+# FAST movie processor #
+[![pipeline status](https://gitlab.com/fastspm/pyfastspm/badges/release/pipeline.svg)](https://gitlab.com/fastspm/pyfastspm/commits/release)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+A python package for loading, processing and exporting scanning tunneling microscopy movies acquired with the FAST unit.
+
+The package documentation can be found at [this link](http://fastspm.gitlab.io/pyfastspm/).
+
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+
+## [1.0.0] - 2022-07-12
+### Added
+- first public release
