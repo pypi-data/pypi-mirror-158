@@ -1,0 +1,12 @@
+ws_joint_sbom_reports/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ws_joint_sbom_reports/_version.py,sha256=srBRYJCkVALbN8UOPweFtTtKh1elnkDI2NZDwdN3lbM,120
+ws_joint_sbom_reports/ws_joint_sbom_reports.py,sha256=-eAKKoynOTHxtCOe4zzDI2uXBzaJUgkfLWsXBRH9Cws,2080
+ws_joint_sbom_reports/ws_joint_spdx.py,sha256=hYsYc1UYhDic2F2jM7RADLpsfk0d3NAqEEgNHNjb0H4,2152
+ws_joint_sbom_reports/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ws_joint_sbom_reports/tests/test_ws_joint_sbom_reports.py,sha256=LhilM1g20Ky8Wje_85hubDiunNJsP42yZ5flLSey6G8,33
+ws_joint_SBOM_reports_tool-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ws_joint_SBOM_reports_tool-0.0.1.dist-info/METADATA,sha256=mVQA-v5ZlmCchSHcGdq1iioAotA9nKnxmUM2nxBtfLM,2598
+ws_joint_SBOM_reports_tool-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ws_joint_SBOM_reports_tool-0.0.1.dist-info/entry_points.txt,sha256=1c2xCXjtfcHxIAcNJXnj35dDG3ZCcLO4-U1157ETpNg,59
+ws_joint_SBOM_reports_tool-0.0.1.dist-info/top_level.txt,sha256=80vY4kaeDCOzMdntEJR710n3iWEOmeX8sPVz9_SOIqs,22
+ws_joint_SBOM_reports_tool-0.0.1.dist-info/RECORD,,

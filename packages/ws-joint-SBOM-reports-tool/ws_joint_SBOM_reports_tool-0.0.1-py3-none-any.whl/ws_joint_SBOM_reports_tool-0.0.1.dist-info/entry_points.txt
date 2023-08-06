@@ -1,0 +1,3 @@
+[console_scripts]
+tool_name = ws_tool_name.tool_name:main
+
