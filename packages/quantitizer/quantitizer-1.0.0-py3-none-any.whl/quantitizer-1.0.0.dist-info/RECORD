@@ -1,0 +1,14 @@
+quantitizer/__init__.py,sha256=_BGMHF8aIjhrojKLClX2hXkoTrqIvuy3Lftgi75lzLM,874
+quantitizer/_pq_array.py,sha256=3k_HCkeUE4gIUw8RfhbkxEm2DGUPs5Uex6ljWQ83WaM,4675
+quantitizer/cuda.py,sha256=UY2TbQ-UhQ8kml7iUZ1RxCrl5JkTFdq4TYJnSEF7buw,1103
+quantitizer/exceptions.py,sha256=fnrkl4dPyuMigoWCJMhqFZU2Kl_9_PjLX9Q6iZZrXJ4,83
+quantitizer/integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantitizer/integration/evaluation.py,sha256=X8t5t9Fg77vaMgJefSyEFFQD2NtKJicARibjmqgmfnY,315
+quantitizer/integration/gensim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantitizer/integration/gensim/fasttext.py,sha256=Dt2Pg9JzNL4UPPp2Avj_cngKvC0Vuyq-xAGsSsY9Qr0,6556
+quantitizer/pretrain.py,sha256=aHdyIT_1yeupglqkN1xRF7cYnq1A1AAZ_mAHCt7IUSU,477
+quantitizer/utils.py,sha256=p-63z2PvPAqDgo4aL7pu2jHcnUBZt0rBQSxa_Nrk09o,1153
+quantitizer-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+quantitizer-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+quantitizer-1.0.0.dist-info/METADATA,sha256=Ck1VNtZMY7hdWaVXr7AebxWaRTp1Xv4SNtd_D4VeLd8,537
+quantitizer-1.0.0.dist-info/RECORD,,
