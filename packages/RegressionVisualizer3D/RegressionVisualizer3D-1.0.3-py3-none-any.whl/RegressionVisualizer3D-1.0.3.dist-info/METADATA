@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: RegressionVisualizer3D
+Version: 1.0.3
+Summary: This is a simple plotting package for visualizing linear regression, Poisson regression and binary logistic regression in 3D, for teaching purposes.
+Home-page: https://github.com/pxr687/RegressionVisualizer3D
+Author: pxr687
+Keywords: regression,linear regression,poisson regression,logistic regression,visualization,3D,visualisation
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
