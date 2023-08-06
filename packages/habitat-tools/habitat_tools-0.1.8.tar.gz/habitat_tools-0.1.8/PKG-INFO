@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: habitat-tools
+Version: 0.1.8
+Summary: 
+License: MIT
+Author: Warren Snowden
+Author-email: warren.snowden@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-dotenv (>=0.20.0,<0.21.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
