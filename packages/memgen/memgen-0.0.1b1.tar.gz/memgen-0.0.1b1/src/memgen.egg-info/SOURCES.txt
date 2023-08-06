@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+src/memgen/__init__.py
+src/memgen/__main__.py
+src/memgen/box_shape.py
+src/memgen/defaults.py
+src/memgen/memgen.py
+src/memgen/parse_cli.py
+src/memgen/test_memgen.py
+src/memgen/test_parse_cli.py
+src/memgen.egg-info/PKG-INFO
+src/memgen.egg-info/SOURCES.txt
+src/memgen.egg-info/dependency_links.txt
+src/memgen.egg-info/entry_points.txt
+src/memgen.egg-info/top_level.txt
