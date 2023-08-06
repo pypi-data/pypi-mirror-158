@@ -1,0 +1,1688 @@
+PokerStars Hand #208966141595:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:01:19 ET
+Table 'Acamar V' 6-max Seat #3 is the button
+Seat 1: pondtree312 ($49.50 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($50.50 in chips)
+pondtree312: posts small blind $0.25
+Rifama: posts big blind $0.50
+*** HOLE CARDS ***
+spr1teg: raises $0.75 to $1.25
+pondtree312: calls $1
+Rifama: folds
+*** FLOP *** [8d 3c Ad]
+pondtree312: checks
+spr1teg: checks
+*** TURN *** [8d 3c Ad] [9c]
+yumeko0001 joins the table at seat #5
+pondtree312: checks
+spr1teg: checks
+*** RIVER *** [8d 3c Ad 9c] [6d]
+pondtree312: checks
+spr1teg: checks
+*** SHOW DOWN ***
+pondtree312: shows [5d Ks] (high card Ace)
+spr1teg: shows [8s Jd] (a pair of Eights)
+spr1teg collected $2.85 from pot
+*** SUMMARY ***
+Total pot $3 | Rake $0.15
+Board [8d 3c Ad 9c 6d]
+Seat 1: pondtree312 (small blind) showed [5d Ks] and lost with high card Ace
+Seat 2: Rifama (big blind) folded before Flop
+Seat 3: spr1teg (button) showed [8s Jd] and won ($2.85) with a pair of Eights
+
+
+PokerStars Hand #208966158957:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:02:32 ET
+Table 'Acamar V' 6-max Seat #2 is the button
+Seat 1: pondtree312 ($48.94 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($51.60 in chips)
+Seat 4: Piscivore ($50 in chips)
+spr1teg: posts small blind $0.25
+Piscivore: posts big blind $0.50
+yumeko0001: sits out
+Naughty_ept: sits out
+*** HOLE CARDS ***
+pondtree312: raises $1 to $1.50
+Rifama: folds
+spr1teg: folds
+Piscivore: folds
+Uncalled bet ($1) returned to pondtree312
+pondtree312 collected $1.25 from pot
+pondtree312: doesn't show hand
+*** SUMMARY ***
+Total pot $1.25 | Rake $0
+Seat 1: pondtree312 collected ($1.25)
+Seat 2: Rifama (button) folded before Flop (didn't bet)
+Seat 3: spr1teg (small blind) folded before Flop
+Seat 4: Piscivore (big blind) folded before Flop
+
+
+PokerStars Hand #208966163788:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:02:53 ET
+Table 'Acamar V' 6-max Seat #3 is the button
+Seat 1: pondtree312 ($49.69 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($51.35 in chips)
+Seat 4: Piscivore ($50 in chips)
+Seat 5: yumeko0001 ($50 in chips)
+Piscivore: posts small blind $0.25
+yumeko0001: posts big blind $0.50
+Naughty_ept: sits out
+*** HOLE CARDS ***
+pondtree312: folds
+Rifama: folds
+spr1teg: folds
+Piscivore: raises $1 to $1.50
+yumeko0001: folds
+Uncalled bet ($1) returned to Piscivore
+Piscivore collected $1 from pot
+*** SUMMARY ***
+Total pot $1 | Rake $0
+Seat 1: pondtree312 folded before Flop (didn't bet)
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg (button) folded before Flop (didn't bet)
+Seat 4: Piscivore (small blind) collected ($1)
+Seat 5: yumeko0001 (big blind) folded before Flop
+
+
+PokerStars Hand #208966150726:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:01:58 ET
+Table 'Acamar V' 6-max Seat #1 is the button
+Seat 1: pondtree312 ($48.25 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($52.10 in chips)
+Rifama: posts small blind $0.25
+spr1teg: posts big blind $0.50
+Piscivore: sits out
+yumeko0001: sits out
+Naughty_ept: sits out
+*** HOLE CARDS ***
+pondtree312: calls $0.50
+Rifama: folds
+spr1teg: checks
+*** FLOP *** [2c 7h 7d]
+spr1teg: checks
+pondtree312: checks
+*** TURN *** [2c 7h 7d] [7c]
+spr1teg: checks
+pondtree312: checks
+*** RIVER *** [2c 7h 7d 7c] [Qc]
+spr1teg: checks
+pondtree312: checks
+*** SHOW DOWN ***
+spr1teg: shows [Ts 5d] (three of a kind, Sevens)
+pondtree312: shows [Kh 9c] (three of a kind, Sevens - King kicker)
+pondtree312 collected $1.19 from pot
+*** SUMMARY ***
+Total pot $1.25 | Rake $0.06
+Board [2c 7h 7d 7c Qc]
+Seat 1: pondtree312 (button) showed [Kh 9c] and won ($1.19) with three of a kind, Sevens
+Seat 2: Rifama (small blind) folded before Flop
+Seat 3: spr1teg (big blind) showed [Ts 5d] and lost with three of a kind, Sevens
+
+
+PokerStars Hand #208966167681:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:03:09 ET
+Table 'Acamar V' 6-max Seat #4 is the button
+Seat 1: pondtree312 ($49.69 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($51.35 in chips)
+Seat 4: Piscivore ($50.50 in chips)
+Seat 5: yumeko0001 ($50 in chips)
+Seat 6: Naughty_ept ($50 in chips)
+yumeko0001: posts small blind $0.25
+Naughty_ept: posts big blind $0.50
+*** HOLE CARDS ***
+pondtree312: calls $0.50
+Rifama: folds
+spr1teg: folds
+Piscivore: raises $1.50 to $2
+yumeko0001: folds
+Naughty_ept: folds
+pondtree312: calls $1.50
+*** FLOP *** [6s 7h 6c]
+pondtree312: checks
+Piscivore: bets $2.50
+pondtree312: folds
+Uncalled bet ($2.50) returned to Piscivore
+Piscivore collected $4.51 from pot
+*** SUMMARY ***
+Total pot $4.75 | Rake $0.24
+Board [6s 7h 6c]
+Seat 1: pondtree312 folded on the Flop
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Piscivore (button) collected ($4.51)
+Seat 5: yumeko0001 (small blind) folded before Flop
+Seat 6: Naughty_ept (big blind) folded before Flop
+
+
+PokerStars Hand #208966186580:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:04:28 ET
+Table 'Acamar V' 6-max Seat #6 is the button
+Seat 1: pondtree312 ($52.20 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($51.35 in chips)
+Seat 4: Piscivore ($50 in chips)
+Seat 5: yumeko0001 ($50 in chips)
+Seat 6: Naughty_ept ($50 in chips)
+pondtree312: posts small blind $0.25
+Rifama: posts big blind $0.50
+*** HOLE CARDS ***
+spr1teg: folds
+Piscivore: folds
+yumeko0001: folds
+Naughty_ept: folds
+pondtree312: raises $3 to $3.50
+Rifama: folds
+Uncalled bet ($3) returned to pondtree312
+pondtree312 collected $1 from pot
+pondtree312: doesn't show hand
+*** SUMMARY ***
+Total pot $1 | Rake $0
+Seat 1: pondtree312 (small blind) collected ($1)
+Seat 2: Rifama (big blind) folded before Flop
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Piscivore folded before Flop (didn't bet)
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966191428:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:04:48 ET
+Table 'Acamar V' 6-max Seat #1 is the button
+Seat 1: pondtree312 ($52.70 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($51.35 in chips)
+Seat 4: Piscivore ($50 in chips)
+Seat 5: yumeko0001 ($50 in chips)
+Seat 6: Naughty_ept ($50 in chips)
+Rifama: posts small blind $0.25
+spr1teg: posts big blind $0.50
+*** HOLE CARDS ***
+Piscivore: folds
+yumeko0001: folds
+Piscivore leaves the table
+Naughty_ept: folds
+pondtree312: calls $0.50
+Rifama: folds
+spr1teg: checks
+*** FLOP *** [4c 8s 5h]
+spr1teg: checks
+pondtree312: checks
+*** TURN *** [4c 8s 5h] [6d]
+spr1teg: checks
+pondtree312: checks
+*** RIVER *** [4c 8s 5h 6d] [2h]
+spr1teg: checks
+pondtree312: checks
+*** SHOW DOWN ***
+spr1teg: shows [Ac 5c] (a pair of Fives)
+pondtree312: mucks hand
+spr1teg collected $1.19 from pot
+*** SUMMARY ***
+Total pot $1.25 | Rake $0.06
+Board [4c 8s 5h 6d 2h]
+Seat 1: pondtree312 (button) mucked
+Seat 2: Rifama (small blind) folded before Flop
+Seat 3: spr1teg (big blind) showed [Ac 5c] and won ($1.19) with a pair of Fives
+Seat 4: Piscivore folded before Flop (didn't bet)
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966176079:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:03:44 ET
+Table 'Acamar V' 6-max Seat #5 is the button
+Seat 1: pondtree312 ($47.69 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($51.35 in chips)
+Seat 4: Piscivore ($53.01 in chips)
+Seat 5: yumeko0001 ($50 in chips)
+Seat 6: Naughty_ept ($50 in chips)
+Naughty_ept: posts small blind $0.25
+pondtree312: posts big blind $0.50
+*** HOLE CARDS ***
+Rifama: folds
+spr1teg: folds
+Piscivore: raises $1 to $1.50
+yumeko0001: folds
+Naughty_ept: folds
+pondtree312: raises $3.25 to $4.75
+Piscivore: calls $3.25
+*** FLOP *** [2c Th 7d]
+pondtree312: bets $9.50
+Piscivore: folds
+Uncalled bet ($9.50) returned to pondtree312
+pondtree312 collected $9.26 from pot
+pondtree312: doesn't show hand
+*** SUMMARY ***
+Total pot $9.75 | Rake $0.49
+Board [2c Th 7d]
+Seat 1: pondtree312 (big blind) collected ($9.26)
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Piscivore folded on the Flop
+Seat 5: yumeko0001 (button) folded before Flop (didn't bet)
+Seat 6: Naughty_ept (small blind) folded before Flop
+
+
+PokerStars Hand #208966198761:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:05:18 ET
+Table 'Acamar V' 6-max Seat #2 is the button
+Seat 1: pondtree312 ($52.20 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($52.04 in chips)
+Seat 5: yumeko0001 ($50 in chips)
+Seat 6: Naughty_ept ($50 in chips)
+spr1teg: posts small blind $0.25
+yumeko0001: posts big blind $0.50
+*** HOLE CARDS ***
+Naughty_ept: raises $0.75 to $1.25
+pondtree312: folds
+Rifama: raises $3 to $4.25
+spr1teg: folds
+yumeko0001: folds
+Naughty_ept: raises $7.25 to $11.50
+Rifama: folds
+Uncalled bet ($7.25) returned to Naughty_ept
+Naughty_ept collected $9.25 from pot
+Naughty_ept: doesn't show hand
+*** SUMMARY ***
+Total pot $9.25 | Rake $0
+Seat 1: pondtree312 folded before Flop (didn't bet)
+Seat 2: Rifama (button) folded before Flop
+Seat 3: spr1teg (small blind) folded before Flop
+Seat 5: yumeko0001 (big blind) folded before Flop
+Seat 6: Naughty_ept collected ($9.25)
+
+
+PokerStars Hand #208966208442:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:05:58 ET
+Table 'Acamar V' 6-max Seat #3 is the button
+Seat 1: pondtree312 ($52.20 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($51.79 in chips)
+Seat 5: yumeko0001 ($50 in chips)
+Seat 6: Naughty_ept ($55 in chips)
+yumeko0001: posts small blind $0.25
+Naughty_ept: posts big blind $0.50
+*** HOLE CARDS ***
+pondtree312: folds
+Rifama: folds
+spr1teg: folds
+yumeko0001: raises $0.75 to $1.25
+Naughty_ept: folds
+Uncalled bet ($0.75) returned to yumeko0001
+yumeko0001 collected $1 from pot
+yumeko0001: doesn't show hand
+*** SUMMARY ***
+Total pot $1 | Rake $0
+Seat 1: pondtree312 folded before Flop (didn't bet)
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg (button) folded before Flop (didn't bet)
+Seat 5: yumeko0001 (small blind) collected ($1)
+Seat 6: Naughty_ept (big blind) folded before Flop
+
+
+PokerStars Hand #208966214250:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:06:21 ET
+Table 'Acamar V' 6-max Seat #5 is the button
+Seat 1: pondtree312 ($52.20 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($51.79 in chips)
+Seat 5: yumeko0001 ($50.50 in chips)
+Seat 6: Naughty_ept ($54.50 in chips)
+Naughty_ept: posts small blind $0.25
+pondtree312: posts big blind $0.50
+*** HOLE CARDS ***
+Rifama: folds
+spr1teg: folds
+yumeko0001: folds
+Naughty_ept: raises $0.75 to $1.25
+pondtree312: folds
+Uncalled bet ($0.75) returned to Naughty_ept
+Naughty_ept collected $1 from pot
+Naughty_ept: doesn't show hand
+*** SUMMARY ***
+Total pot $1 | Rake $0
+Seat 1: pondtree312 (big blind) folded before Flop
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 5: yumeko0001 (button) folded before Flop (didn't bet)
+Seat 6: Naughty_ept (small blind) collected ($1)
+
+
+PokerStars Hand #208966218775:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:06:40 ET
+Table 'Acamar V' 6-max Seat #6 is the button
+Seat 1: pondtree312 ($51.70 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($51.79 in chips)
+Seat 5: yumeko0001 ($50.50 in chips)
+Seat 6: Naughty_ept ($55 in chips)
+pondtree312: posts small blind $0.25
+Rifama: posts big blind $0.50
+*** HOLE CARDS ***
+spr1teg: folds
+yumeko0001: folds
+Naughty_ept: raises $0.50 to $1
+pondtree312: calls $0.75
+Rifama: calls $0.50
+*** FLOP *** [6c 9d 6d]
+pondtree312: checks
+Rifama: checks
+Naughty_ept: bets $0.94
+pondtree312: folds
+Rifama: folds
+Uncalled bet ($0.94) returned to Naughty_ept
+Naughty_ept collected $2.85 from pot
+Naughty_ept: doesn't show hand
+*** SUMMARY ***
+Total pot $3 | Rake $0.15
+Board [6c 9d 6d]
+Seat 1: pondtree312 (small blind) folded on the Flop
+Seat 2: Rifama (big blind) folded on the Flop
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept (button) collected ($2.85)
+
+
+PokerStars Hand #208966226584:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:07:12 ET
+Table 'Acamar V' 6-max Seat #1 is the button
+Seat 1: pondtree312 ($50.70 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($51.79 in chips)
+Seat 5: yumeko0001 ($50.50 in chips)
+Seat 6: Naughty_ept ($56.85 in chips)
+Rifama: posts small blind $0.25
+spr1teg: posts big blind $0.50
+*** HOLE CARDS ***
+yumeko0001: raises $0.75 to $1.25
+Naughty_ept: folds
+pondtree312: folds
+Rifama: folds
+spr1teg: folds
+Uncalled bet ($0.75) returned to yumeko0001
+yumeko0001 collected $1.25 from pot
+yumeko0001: doesn't show hand
+*** SUMMARY ***
+Total pot $1.25 | Rake $0
+Seat 1: pondtree312 (button) folded before Flop (didn't bet)
+Seat 2: Rifama (small blind) folded before Flop
+Seat 3: spr1teg (big blind) folded before Flop
+Seat 5: yumeko0001 collected ($1.25)
+Seat 6: Naughty_ept folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966231289:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:07:31 ET
+Table 'Acamar V' 6-max Seat #2 is the button
+Seat 1: pondtree312 ($50.70 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($51.29 in chips)
+Seat 5: yumeko0001 ($51.25 in chips)
+Seat 6: Naughty_ept ($56.85 in chips)
+spr1teg: posts small blind $0.25
+yumeko0001: posts big blind $0.50
+*** HOLE CARDS ***
+Naughty_ept: raises $0.75 to $1.25
+pondtree312: folds
+Rifama: folds
+spr1teg: folds
+yumeko0001: folds
+Uncalled bet ($0.75) returned to Naughty_ept
+Naughty_ept collected $1.25 from pot
+Naughty_ept: doesn't show hand
+*** SUMMARY ***
+Total pot $1.25 | Rake $0
+Seat 1: pondtree312 folded before Flop (didn't bet)
+Seat 2: Rifama (button) folded before Flop (didn't bet)
+Seat 3: spr1teg (small blind) folded before Flop
+Seat 5: yumeko0001 (big blind) folded before Flop
+Seat 6: Naughty_ept collected ($1.25)
+
+
+PokerStars Hand #208966234831:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:07:45 ET
+Table 'Acamar V' 6-max Seat #3 is the button
+Seat 1: pondtree312 ($50.70 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($51.04 in chips)
+Seat 5: yumeko0001 ($50.75 in chips)
+Seat 6: Naughty_ept ($57.60 in chips)
+yumeko0001: posts small blind $0.25
+Naughty_ept: posts big blind $0.50
+*** HOLE CARDS ***
+pondtree312: folds
+Rifama: folds
+spr1teg: raises $0.75 to $1.25
+yumeko0001: raises $3.75 to $5
+Naughty_ept: folds
+spr1teg: folds
+Uncalled bet ($3.75) returned to yumeko0001
+yumeko0001 collected $3 from pot
+yumeko0001: doesn't show hand
+*** SUMMARY ***
+Total pot $3 | Rake $0
+Seat 1: pondtree312 folded before Flop (didn't bet)
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg (button) folded before Flop
+Seat 5: yumeko0001 (small blind) collected ($3)
+Seat 6: Naughty_ept (big blind) folded before Flop
+
+
+PokerStars Hand #208966238555:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:08:00 ET
+Table 'Acamar V' 6-max Seat #5 is the button
+Seat 1: pondtree312 ($50.70 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($50 in chips)
+Seat 5: yumeko0001 ($52.50 in chips)
+Seat 6: Naughty_ept ($57.10 in chips)
+Naughty_ept: posts small blind $0.25
+pondtree312: posts big blind $0.50
+*** HOLE CARDS ***
+Rifama: folds
+spr1teg: folds
+yumeko0001: folds
+Rojocapo1987 joins the table at seat #4
+Naughty_ept: raises $0.75 to $1.25
+pondtree312: calls $0.75
+*** FLOP *** [5d 3s 6s]
+Naughty_ept: checks
+pondtree312: checks
+*** TURN *** [5d 3s 6s] [8h]
+Naughty_ept: bets $1.90
+pondtree312: calls $1.90
+*** RIVER *** [5d 3s 6s 8h] [Kd]
+Naughty_ept: bets $3.29
+pondtree312: folds
+Uncalled bet ($3.29) returned to Naughty_ept
+Naughty_ept collected $5.98 from pot
+Naughty_ept: doesn't show hand
+*** SUMMARY ***
+Total pot $6.30 | Rake $0.32
+Board [5d 3s 6s 8h Kd]
+Seat 1: pondtree312 (big blind) folded on the River
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 5: yumeko0001 (button) folded before Flop (didn't bet)
+Seat 6: Naughty_ept (small blind) collected ($5.98)
+
+
+PokerStars Hand #208966250905:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:08:52 ET
+Table 'Acamar V' 6-max Seat #6 is the button
+Seat 1: pondtree312 ($47.55 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($50 in chips)
+Seat 5: yumeko0001 ($52.50 in chips)
+Seat 6: Naughty_ept ($59.93 in chips)
+pondtree312: posts small blind $0.25
+Rifama: posts big blind $0.50
+Rojocapo1987: sits out
+*** HOLE CARDS ***
+spr1teg: folds
+yumeko0001: folds
+Naughty_ept: folds
+pondtree312: calls $0.25
+Rifama: checks
+*** FLOP *** [Kd Qc 7c]
+pondtree312: checks
+Rifama: bets $0.50
+pondtree312: folds
+Uncalled bet ($0.50) returned to Rifama
+Rifama collected $0.95 from pot
+Rifama: doesn't show hand
+*** SUMMARY ***
+Total pot $1 | Rake $0.05
+Board [Kd Qc 7c]
+Seat 1: pondtree312 (small blind) folded on the Flop
+Seat 2: Rifama (big blind) collected ($0.95)
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966275422:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:10:33 ET
+Table 'Acamar V' 6-max Seat #2 is the button
+Seat 1: pondtree312 ($51.40 in chips)
+Seat 2: Rifama ($50.20 in chips)
+Seat 3: spr1teg ($50 in chips)
+Seat 4: Rojocapo1987 ($50 in chips)
+Seat 5: yumeko0001 ($52.50 in chips)
+Seat 6: Naughty_ept ($56.68 in chips)
+spr1teg: posts small blind $0.25
+Rojocapo1987: posts big blind $0.50
+*** HOLE CARDS ***
+yumeko0001: folds
+Naughty_ept: folds
+pondtree312: calls $0.50
+Rifama: folds
+spr1teg: calls $0.25
+Rojocapo1987: checks
+*** FLOP *** [5d 4h 6d]
+spr1teg: checks
+Rojocapo1987: checks
+pondtree312: checks
+*** TURN *** [5d 4h 6d] [Ks]
+spr1teg: checks
+Rojocapo1987: checks
+pondtree312: bets $1
+spr1teg: folds
+Rojocapo1987: folds
+Uncalled bet ($1) returned to pondtree312
+pondtree312 collected $1.42 from pot
+*** SUMMARY ***
+Total pot $1.50 | Rake $0.08
+Board [5d 4h 6d Ks]
+Seat 1: pondtree312 collected ($1.42)
+Seat 2: Rifama (button) folded before Flop (didn't bet)
+Seat 3: spr1teg (small blind) folded on the Turn
+Seat 4: Rojocapo1987 (big blind) folded on the Turn
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966260447:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:09:31 ET
+Table 'Acamar V' 6-max Seat #1 is the button
+Seat 1: pondtree312 ($47.05 in chips)
+Seat 2: Rifama ($50.45 in chips)
+Seat 3: spr1teg ($50 in chips)
+Seat 5: yumeko0001 ($52.50 in chips)
+Seat 6: Naughty_ept ($59.93 in chips)
+Rifama: posts small blind $0.25
+spr1teg: posts big blind $0.50
+Rojocapo1987: sits out
+*** HOLE CARDS ***
+yumeko0001: folds
+Naughty_ept: raises $0.75 to $1.25
+pondtree312: calls $1.25
+Rifama: folds
+spr1teg: calls $0.75
+*** FLOP *** [5d Ks 7s]
+spr1teg: checks
+Naughty_ept: checks
+pondtree312: checks
+*** TURN *** [5d Ks 7s] [Qs]
+spr1teg: checks
+Naughty_ept: bets $2
+pondtree312: calls $2
+spr1teg: folds
+*** RIVER *** [5d Ks 7s Qs] [6s]
+Naughty_ept: checks
+pondtree312: bets $4
+Naughty_ept: folds
+Uncalled bet ($4) returned to pondtree312
+pondtree312 collected $7.60 from pot
+pondtree312: doesn't show hand
+*** SUMMARY ***
+Total pot $8 | Rake $0.40
+Board [5d Ks 7s Qs 6s]
+Seat 1: pondtree312 (button) collected ($7.60)
+Seat 2: Rifama (small blind) folded before Flop
+Seat 3: spr1teg (big blind) folded on the Turn
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept folded on the River
+
+
+PokerStars Hand #208966288937:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:11:28 ET
+Table 'Acamar V' 6-max Seat #3 is the button
+Seat 1: pondtree312 ($52.32 in chips)
+Seat 2: Rifama ($50.20 in chips)
+Seat 3: spr1teg ($50 in chips)
+Seat 4: Rojocapo1987 ($50 in chips)
+Seat 5: yumeko0001 ($52.50 in chips)
+Seat 6: Naughty_ept ($56.68 in chips)
+Rojocapo1987: posts small blind $0.25
+yumeko0001: posts big blind $0.50
+*** HOLE CARDS ***
+Naughty_ept: folds
+pondtree312: calls $0.50
+Rifama: folds
+spr1teg: folds
+Rojocapo1987: raises $2 to $2.50
+yumeko0001: folds
+pondtree312: folds
+Uncalled bet ($2) returned to Rojocapo1987
+Rojocapo1987 collected $1.50 from pot
+Rojocapo1987: doesn't show hand
+*** SUMMARY ***
+Total pot $1.50 | Rake $0
+Seat 1: pondtree312 folded before Flop
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg (button) folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 (small blind) collected ($1.50)
+Seat 5: yumeko0001 (big blind) folded before Flop
+Seat 6: Naughty_ept folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966293781:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:11:48 ET
+Table 'Acamar V' 6-max Seat #4 is the button
+Seat 1: pondtree312 ($51.82 in chips)
+Seat 2: Rifama ($50.20 in chips)
+Seat 3: spr1teg ($50 in chips)
+Seat 4: Rojocapo1987 ($51 in chips)
+Seat 5: yumeko0001 ($52 in chips)
+Seat 6: Naughty_ept ($56.68 in chips)
+yumeko0001: posts small blind $0.25
+Naughty_ept: posts big blind $0.50
+*** HOLE CARDS ***
+pondtree312: calls $0.50
+Rifama: folds
+spr1teg: folds
+Rojocapo1987: folds
+yumeko0001: calls $0.25
+Naughty_ept: checks
+*** FLOP *** [3h 5s Kc]
+yumeko0001: checks
+Naughty_ept: checks
+pondtree312: bets $1.50
+yumeko0001: calls $1.50
+Naughty_ept: folds
+*** TURN *** [3h 5s Kc] [9c]
+yumeko0001: checks
+pondtree312: checks
+*** RIVER *** [3h 5s Kc 9c] [7s]
+yumeko0001: bets $2.14
+pondtree312: calls $2.14
+*** SHOW DOWN ***
+yumeko0001: shows [Jh Kd] (a pair of Kings)
+pondtree312: mucks hand
+yumeko0001 collected $8.34 from pot
+*** SUMMARY ***
+Total pot $8.78 | Rake $0.44
+Board [3h 5s Kc 9c 7s]
+Seat 1: pondtree312 mucked
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 (button) folded before Flop (didn't bet)
+Seat 5: yumeko0001 (small blind) showed [Jh Kd] and won ($8.34) with a pair of Kings
+Seat 6: Naughty_ept (big blind) folded on the Flop
+
+
+PokerStars Hand #208966310109:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:12:55 ET
+Table 'Acamar V' 6-max Seat #5 is the button
+Seat 1: pondtree312 ($47.68 in chips)
+Seat 2: Rifama ($50.20 in chips)
+Seat 3: spr1teg ($50 in chips)
+Seat 4: Rojocapo1987 ($51 in chips)
+Seat 5: yumeko0001 ($56.20 in chips)
+Seat 6: Naughty_ept ($56.18 in chips)
+Naughty_ept: posts small blind $0.25
+pondtree312: posts big blind $0.50
+*** HOLE CARDS ***
+Rifama: folds
+spr1teg: folds
+Rojocapo1987: folds
+yumeko0001: raises $0.75 to $1.25
+Naughty_ept: folds
+pondtree312: folds
+Uncalled bet ($0.75) returned to yumeko0001
+yumeko0001 collected $1.25 from pot
+yumeko0001: doesn't show hand
+*** SUMMARY ***
+Total pot $1.25 | Rake $0
+Seat 1: pondtree312 (big blind) folded before Flop
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 folded before Flop (didn't bet)
+Seat 5: yumeko0001 (button) collected ($1.25)
+Seat 6: Naughty_ept (small blind) folded before Flop
+
+
+PokerStars Hand #208966313762:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:13:10 ET
+Table 'Acamar V' 6-max Seat #6 is the button
+Seat 1: pondtree312 ($47.18 in chips)
+Seat 2: Rifama ($50.20 in chips)
+Seat 3: spr1teg ($50 in chips)
+Seat 4: Rojocapo1987 ($51 in chips)
+Seat 5: yumeko0001 ($56.95 in chips)
+Seat 6: Naughty_ept ($55.93 in chips)
+pondtree312: posts small blind $0.25
+Rifama: posts big blind $0.50
+*** HOLE CARDS ***
+spr1teg: folds
+Rojocapo1987: folds
+yumeko0001: folds
+Naughty_ept: raises $0.50 to $1
+pondtree312: folds
+Rifama: folds
+Uncalled bet ($0.50) returned to Naughty_ept
+Naughty_ept collected $1.25 from pot
+Naughty_ept: doesn't show hand
+*** SUMMARY ***
+Total pot $1.25 | Rake $0
+Seat 1: pondtree312 (small blind) folded before Flop
+Seat 2: Rifama (big blind) folded before Flop
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 folded before Flop (didn't bet)
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept (button) collected ($1.25)
+
+
+PokerStars Hand #208966316877:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:13:23 ET
+Table 'Acamar V' 6-max Seat #1 is the button
+Seat 1: pondtree312 ($46.93 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($50 in chips)
+Seat 4: Rojocapo1987 ($51 in chips)
+Seat 5: yumeko0001 ($56.95 in chips)
+Seat 6: Naughty_ept ($56.68 in chips)
+Rifama: posts small blind $0.25
+spr1teg: posts big blind $0.50
+*** HOLE CARDS ***
+Rojocapo1987: folds
+yumeko0001: folds
+Naughty_ept: raises $0.75 to $1.25
+pondtree312: calls $1.25
+Rifama: folds
+spr1teg: folds
+*** FLOP *** [3h Qd 4d]
+Naughty_ept: checks
+pondtree312: checks
+*** TURN *** [3h Qd 4d] [6h]
+Naughty_ept: checks
+pondtree312: checks
+*** RIVER *** [3h Qd 4d 6h] [Th]
+Naughty_ept: checks
+pondtree312: checks
+*** SHOW DOWN ***
+Naughty_ept: shows [Ad 9c] (high card Ace)
+pondtree312: mucks hand
+Naughty_ept collected $3.09 from pot
+*** SUMMARY ***
+Total pot $3.25 | Rake $0.16
+Board [3h Qd 4d 6h Th]
+Seat 1: pondtree312 (button) mucked
+Seat 2: Rifama (small blind) folded before Flop
+Seat 3: spr1teg (big blind) folded before Flop
+Seat 4: Rojocapo1987 folded before Flop (didn't bet)
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept showed [Ad 9c] and won ($3.09) with high card Ace
+
+
+PokerStars Hand #208966327696:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:14:07 ET
+Table 'Acamar V' 6-max Seat #2 is the button
+Seat 1: pondtree312 ($45.68 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($50 in chips)
+Seat 4: Rojocapo1987 ($51 in chips)
+Seat 5: yumeko0001 ($56.95 in chips)
+Seat 6: Naughty_ept ($58.52 in chips)
+spr1teg: posts small blind $0.25
+Rojocapo1987: posts big blind $0.50
+*** HOLE CARDS ***
+yumeko0001: folds
+Naughty_ept: folds
+pondtree312: folds
+Rifama: raises $0.60 to $1.10
+spr1teg: folds
+Rojocapo1987: folds
+Uncalled bet ($0.60) returned to Rifama
+Rifama collected $1.25 from pot
+Rifama: doesn't show hand
+*** SUMMARY ***
+Total pot $1.25 | Rake $0
+Seat 1: pondtree312 folded before Flop (didn't bet)
+Seat 2: Rifama (button) collected ($1.25)
+Seat 3: spr1teg (small blind) folded before Flop
+Seat 4: Rojocapo1987 (big blind) folded before Flop
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966332081:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:14:25 ET
+Table 'Acamar V' 6-max Seat #3 is the button
+Seat 1: pondtree312 ($45.68 in chips)
+Seat 2: Rifama ($50.75 in chips)
+Seat 3: spr1teg ($50 in chips)
+Seat 4: Rojocapo1987 ($50.50 in chips)
+Seat 5: yumeko0001 ($56.95 in chips)
+Seat 6: Naughty_ept ($58.52 in chips)
+Rojocapo1987: posts small blind $0.25
+yumeko0001: posts big blind $0.50
+*** HOLE CARDS ***
+Naughty_ept: folds
+pondtree312: calls $0.50
+Rifama: folds
+spr1teg: raises $1.50 to $2
+Rojocapo1987: folds
+yumeko0001: folds
+pondtree312: calls $1.50
+*** FLOP *** [4s 7s 8d]
+pondtree312: checks
+spr1teg: bets $1.75
+pondtree312: calls $1.75
+*** TURN *** [4s 7s 8d] [Ks]
+pondtree312: checks
+spr1teg: bets $5.23
+pondtree312: folds
+Uncalled bet ($5.23) returned to spr1teg
+spr1teg collected $7.84 from pot
+spr1teg: doesn't show hand
+*** SUMMARY ***
+Total pot $8.25 | Rake $0.41
+Board [4s 7s 8d Ks]
+Seat 1: pondtree312 folded on the Turn
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg (button) collected ($7.84)
+Seat 4: Rojocapo1987 (small blind) folded before Flop
+Seat 5: yumeko0001 (big blind) folded before Flop
+Seat 6: Naughty_ept folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966358271:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:15:49 ET
+Table 'Acamar V' 6-max Seat #5 is the button
+Seat 1: pondtree312 ($40.93 in chips)
+Seat 2: Rifama ($50.75 in chips)
+Seat 3: spr1teg ($54.09 in chips)
+Seat 4: Rojocapo1987 ($50.25 in chips)
+Seat 5: yumeko0001 ($56.20 in chips)
+Seat 6: Naughty_ept ($59.66 in chips)
+Naughty_ept: posts small blind $0.25
+pondtree312: posts big blind $0.50
+*** HOLE CARDS ***
+Rifama: folds
+spr1teg: folds
+Rojocapo1987: folds
+yumeko0001: folds
+Naughty_ept: calls $0.25
+pondtree312: checks
+*** FLOP *** [9s 7d 2s]
+Naughty_ept: bets $0.52
+pondtree312: calls $0.52
+*** TURN *** [9s 7d 2s] [Ks]
+Naughty_ept: bets $0.64
+pondtree312: calls $0.64
+*** RIVER *** [9s 7d 2s Ks] [Ts]
+Naughty_ept: bets $1.04
+pondtree312: folds
+Uncalled bet ($1.04) returned to Naughty_ept
+Naughty_ept collected $3.15 from pot
+Naughty_ept: doesn't show hand
+*** SUMMARY ***
+Total pot $3.32 | Rake $0.17
+Board [9s 7d 2s Ks Ts]
+Seat 1: pondtree312 (big blind) folded on the River
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 folded before Flop (didn't bet)
+Seat 5: yumeko0001 (button) folded before Flop (didn't bet)
+Seat 6: Naughty_ept (small blind) collected ($3.15)
+
+
+PokerStars Hand #208966347019:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:15:03 ET
+Table 'Acamar V' 6-max Seat #4 is the button
+Seat 1: pondtree312 ($41.93 in chips)
+Seat 2: Rifama ($50.75 in chips)
+Seat 3: spr1teg ($54.09 in chips)
+Seat 4: Rojocapo1987 ($50.25 in chips)
+Seat 5: yumeko0001 ($56.45 in chips)
+Seat 6: Naughty_ept ($58.52 in chips)
+yumeko0001: posts small blind $0.25
+Naughty_ept: posts big blind $0.50
+*** HOLE CARDS ***
+pondtree312: calls $0.50
+Rifama: folds
+spr1teg: folds
+Rojocapo1987: folds
+yumeko0001: folds
+Naughty_ept: checks
+*** FLOP *** [3h 2s 7c]
+Naughty_ept: bets $0.50
+pondtree312: calls $0.50
+*** TURN *** [3h 2s 7c] [As]
+Naughty_ept: checks
+pondtree312: checks
+*** RIVER *** [3h 2s 7c As] [Ah]
+Naughty_ept: bets $0.50
+pondtree312: folds
+Uncalled bet ($0.50) returned to Naughty_ept
+Naughty_ept collected $2.14 from pot
+Naughty_ept: doesn't show hand
+*** SUMMARY ***
+Total pot $2.25 | Rake $0.11
+Board [3h 2s 7c As Ah]
+Seat 1: pondtree312 folded on the River
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 (button) folded before Flop (didn't bet)
+Seat 5: yumeko0001 (small blind) folded before Flop
+Seat 6: Naughty_ept (big blind) collected ($2.14)
+
+
+PokerStars Hand #208966367719:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:16:27 ET
+Table 'Acamar V' 6-max Seat #6 is the button
+Seat 1: pondtree312 ($39.27 in chips)
+Seat 2: Rifama ($50.75 in chips)
+Seat 3: spr1teg ($54.09 in chips)
+Seat 4: Rojocapo1987 ($50.25 in chips)
+Seat 5: yumeko0001 ($56.20 in chips)
+Seat 6: Naughty_ept ($61.15 in chips)
+pondtree312: posts small blind $0.25
+Rifama: posts big blind $0.50
+*** HOLE CARDS ***
+spr1teg: folds
+Rojocapo1987: raises $1 to $1.50
+yumeko0001: folds
+Naughty_ept: folds
+pondtree312: folds
+Rifama: raises $4.22 to $5.72
+Rojocapo1987: folds
+Uncalled bet ($4.22) returned to Rifama
+Rifama collected $3.25 from pot
+Rifama: doesn't show hand
+*** SUMMARY ***
+Total pot $3.25 | Rake $0
+Seat 1: pondtree312 (small blind) folded before Flop
+Seat 2: Rifama (big blind) collected ($3.25)
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 folded before Flop
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966383372:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:17:30 ET
+Table 'Acamar V' 6-max Seat #2 is the button
+Seat 1: pondtree312 ($53.37 in chips)
+Seat 2: Rifama ($52.25 in chips)
+Seat 3: spr1teg ($53.59 in chips)
+Seat 4: Rojocapo1987 ($50 in chips)
+Seat 5: yumeko0001 ($56.20 in chips)
+Seat 6: Naughty_ept ($58.20 in chips)
+spr1teg: posts small blind $0.25
+Rojocapo1987: posts big blind $0.50
+*** HOLE CARDS ***
+yumeko0001: folds
+Naughty_ept: folds
+pondtree312: folds
+Rifama: folds
+spr1teg: raises $0.75 to $1.25
+Rojocapo1987: calls $0.75
+*** FLOP *** [8h Ah 9s]
+spr1teg: bets $0.76
+Rojocapo1987: calls $0.76
+*** TURN *** [8h Ah 9s] [Tc]
+spr1teg: bets $2.55
+Rojocapo1987: calls $2.55
+*** RIVER *** [8h Ah 9s Tc] [6s]
+spr1teg: checks
+Rojocapo1987: checks
+*** SHOW DOWN ***
+spr1teg: shows [7s Qs] (a straight, Six to Ten)
+Rojocapo1987: mucks hand
+spr1teg collected $8.66 from pot
+*** SUMMARY ***
+Total pot $9.12 | Rake $0.46
+Board [8h Ah 9s Tc 6s]
+Seat 1: pondtree312 folded before Flop (didn't bet)
+Seat 2: Rifama (button) folded before Flop (didn't bet)
+Seat 3: spr1teg (small blind) showed [7s Qs] and won ($8.66) with a straight, Six to Ten
+Seat 4: Rojocapo1987 (big blind) mucked
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966374037:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:16:53 ET
+Table 'Acamar V' 6-max Seat #1 is the button
+Seat 1: pondtree312 ($50 in chips)
+Seat 2: Rifama ($52.50 in chips)
+Seat 3: spr1teg ($54.09 in chips)
+Seat 4: Rojocapo1987 ($50 in chips)
+Seat 5: yumeko0001 ($56.20 in chips)
+Seat 6: Naughty_ept ($61.15 in chips)
+Rifama: posts small blind $0.25
+spr1teg: posts big blind $0.50
+*** HOLE CARDS ***
+Rojocapo1987: folds
+yumeko0001: folds
+Naughty_ept: raises $0.75 to $1.25
+pondtree312: calls $1.25
+Rifama: folds
+spr1teg: folds
+*** FLOP *** [Ac 5c 8c]
+Naughty_ept: bets $1.70
+pondtree312: raises $6.30 to $8
+Naughty_ept: folds
+Uncalled bet ($6.30) returned to pondtree312
+pondtree312 collected $6.32 from pot
+pondtree312: doesn't show hand
+*** SUMMARY ***
+Total pot $6.65 | Rake $0.33
+Board [Ac 5c 8c]
+Seat 1: pondtree312 (button) collected ($6.32)
+Seat 2: Rifama (small blind) folded before Flop
+Seat 3: spr1teg (big blind) folded before Flop
+Seat 4: Rojocapo1987 folded before Flop (didn't bet)
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept folded on the Flop
+
+
+PokerStars Hand #208966401687:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:18:44 ET
+Table 'Acamar V' 6-max Seat #4 is the button
+Seat 1: pondtree312 ($52.87 in chips)
+Seat 2: Rifama ($52.25 in chips)
+Seat 3: spr1teg ($57.69 in chips)
+Seat 4: Rojocapo1987 ($51 in chips)
+Seat 5: yumeko0001 ($55.70 in chips)
+Seat 6: Naughty_ept ($58.20 in chips)
+yumeko0001: posts small blind $0.25
+Naughty_ept: posts big blind $0.50
+*** HOLE CARDS ***
+pondtree312: calls $0.50
+Rifama: folds
+spr1teg: raises $1.50 to $2
+Rojocapo1987: folds
+yumeko0001: folds
+Naughty_ept: folds
+pondtree312: calls $1.50
+*** FLOP *** [7d Qd Kd]
+pondtree312: bets $3
+spr1teg: calls $3
+*** TURN *** [7d Qd Kd] [7s]
+pondtree312: checks
+spr1teg: checks
+*** RIVER *** [7d Qd Kd 7s] [5d]
+pondtree312: bets $5
+spr1teg: calls $5
+*** SHOW DOWN ***
+pondtree312: shows [8s 6s] (a pair of Sevens)
+spr1teg: shows [Qh Jd] (a flush, King high)
+spr1teg collected $19.71 from pot
+*** SUMMARY ***
+Total pot $20.75 | Rake $1.04
+Board [7d Qd Kd 7s 5d]
+Seat 1: pondtree312 showed [8s 6s] and lost with a pair of Sevens
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg showed [Qh Jd] and won ($19.71) with a flush, King high
+Seat 4: Rojocapo1987 (button) folded before Flop (didn't bet)
+Seat 5: yumeko0001 (small blind) folded before Flop
+Seat 6: Naughty_ept (big blind) folded before Flop
+
+
+PokerStars Hand #208966395706:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:18:20 ET
+Table 'Acamar V' 6-max Seat #3 is the button
+Seat 1: pondtree312 ($53.37 in chips)
+Seat 2: Rifama ($52.25 in chips)
+Seat 3: spr1teg ($57.69 in chips)
+Seat 4: Rojocapo1987 ($50 in chips)
+Seat 5: yumeko0001 ($56.20 in chips)
+Seat 6: Naughty_ept ($58.20 in chips)
+Rojocapo1987: posts small blind $0.25
+yumeko0001: posts big blind $0.50
+*** HOLE CARDS ***
+Naughty_ept: folds
+pondtree312: calls $0.50
+Rifama: folds
+spr1teg: folds
+Rojocapo1987: raises $2 to $2.50
+yumeko0001: folds
+pondtree312: folds
+Uncalled bet ($2) returned to Rojocapo1987
+Rojocapo1987 collected $1.50 from pot
+Rojocapo1987: doesn't show hand
+*** SUMMARY ***
+Total pot $1.50 | Rake $0
+Seat 1: pondtree312 folded before Flop
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg (button) folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 (small blind) collected ($1.50)
+Seat 5: yumeko0001 (big blind) folded before Flop
+Seat 6: Naughty_ept folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966418501:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:19:51 ET
+Table 'Acamar V' 6-max Seat #6 is the button
+Seat 1: pondtree312 ($42.37 in chips)
+Seat 2: Rifama ($52.25 in chips)
+Seat 3: spr1teg ($68.15 in chips)
+Seat 4: Rojocapo1987 ($51 in chips)
+Seat 5: yumeko0001 ($55.45 in chips)
+Seat 6: Naughty_ept ($57.45 in chips)
+pondtree312: posts small blind $0.25
+Rifama: posts big blind $0.50
+*** HOLE CARDS ***
+spr1teg: folds
+Rojocapo1987: folds
+yumeko0001: folds
+Naughty_ept: raises $0.50 to $1
+pondtree312: folds
+Rifama: calls $0.50
+*** FLOP *** [3d Qc As]
+Rifama: checks
+Naughty_ept: bets $0.71
+Rifama: folds
+Uncalled bet ($0.71) returned to Naughty_ept
+Naughty_ept collected $2.14 from pot
+Naughty_ept: doesn't show hand
+*** SUMMARY ***
+Total pot $2.25 | Rake $0.11
+Board [3d Qc As]
+Seat 1: pondtree312 (small blind) folded before Flop
+Seat 2: Rifama (big blind) folded on the Flop
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 folded before Flop (didn't bet)
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept (button) collected ($2.14)
+
+
+PokerStars Hand #208966413868:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:19:33 ET
+Table 'Acamar V' 6-max Seat #5 is the button
+Seat 1: pondtree312 ($42.87 in chips)
+Seat 2: Rifama ($52.25 in chips)
+Seat 3: spr1teg ($67.40 in chips)
+Seat 4: Rojocapo1987 ($51 in chips)
+Seat 5: yumeko0001 ($55.45 in chips)
+Seat 6: Naughty_ept ($57.70 in chips)
+Naughty_ept: posts small blind $0.25
+pondtree312: posts big blind $0.50
+*** HOLE CARDS ***
+Rifama: folds
+spr1teg: raises $0.75 to $1.25
+Rojocapo1987: folds
+yumeko0001: folds
+Naughty_ept: folds
+pondtree312: folds
+Uncalled bet ($0.75) returned to spr1teg
+spr1teg collected $1.25 from pot
+spr1teg: doesn't show hand
+*** SUMMARY ***
+Total pot $1.25 | Rake $0
+Seat 1: pondtree312 (big blind) folded before Flop
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg collected ($1.25)
+Seat 4: Rojocapo1987 folded before Flop (didn't bet)
+Seat 5: yumeko0001 (button) folded before Flop (didn't bet)
+Seat 6: Naughty_ept (small blind) folded before Flop
+
+
+PokerStars Hand #208966426302:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:20:22 ET
+Table 'Acamar V' 6-max Seat #1 is the button
+Seat 1: pondtree312 ($42.12 in chips)
+Seat 2: Rifama ($51.25 in chips)
+Seat 3: spr1teg ($68.15 in chips)
+Seat 4: Rojocapo1987 ($51 in chips)
+Seat 5: yumeko0001 ($55.45 in chips)
+Seat 6: Naughty_ept ($58.59 in chips)
+Rifama: posts small blind $0.25
+spr1teg: posts big blind $0.50
+*** HOLE CARDS ***
+Rojocapo1987: folds
+yumeko0001: folds
+Naughty_ept: raises $0.75 to $1.25
+pondtree312: folds
+Rifama: folds
+spr1teg: calls $0.75
+*** FLOP *** [Td 3d 2h]
+spr1teg: checks
+Naughty_ept: bets $1.50
+spr1teg: raises $3.74 to $5.24
+Naughty_ept: folds
+Uncalled bet ($3.74) returned to spr1teg
+spr1teg collected $5.46 from pot
+spr1teg: doesn't show hand
+*** SUMMARY ***
+Total pot $5.75 | Rake $0.29
+Board [Td 3d 2h]
+Seat 1: pondtree312 (button) folded before Flop (didn't bet)
+Seat 2: Rifama (small blind) folded before Flop
+Seat 3: spr1teg (big blind) collected ($5.46)
+Seat 4: Rojocapo1987 folded before Flop (didn't bet)
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept folded on the Flop
+
+
+PokerStars Hand #208966442856:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:21:29 ET
+Table 'Acamar V' 6-max Seat #2 is the button
+Seat 1: pondtree312 ($50 in chips)
+Seat 2: Rifama ($51 in chips)
+Seat 3: spr1teg ($70.86 in chips)
+Seat 4: Rojocapo1987 ($51 in chips)
+Seat 5: yumeko0001 ($55.45 in chips)
+Seat 6: Naughty_ept ($55.84 in chips)
+spr1teg: posts small blind $0.25
+Rojocapo1987: posts big blind $0.50
+*** HOLE CARDS ***
+yumeko0001: folds
+Naughty_ept: folds
+pondtree312: folds
+Rifama: folds
+spr1teg: raises $0.75 to $1.25
+Rojocapo1987: calls $0.75
+*** FLOP *** [3d 8c 5c]
+spr1teg: checks
+Rojocapo1987: bets $1.31
+spr1teg: folds
+Uncalled bet ($1.31) returned to Rojocapo1987
+Rojocapo1987 collected $2.38 from pot
+Rojocapo1987: doesn't show hand
+*** SUMMARY ***
+Total pot $2.50 | Rake $0.12
+Board [3d 8c 5c]
+Seat 1: pondtree312 folded before Flop (didn't bet)
+Seat 2: Rifama (button) folded before Flop (didn't bet)
+Seat 3: spr1teg (small blind) folded on the Flop
+Seat 4: Rojocapo1987 (big blind) collected ($2.38)
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966467985:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:23:10 ET
+Table 'Acamar V' 6-max Seat #6 is the button
+Seat 1: pondtree312 ($50.25 in chips)
+Seat 2: Rifama ($51 in chips)
+Seat 3: spr1teg ($69.61 in chips)
+Seat 4: Rojocapo1987 ($51.38 in chips)
+Seat 5: yumeko0001 ($56.55 in chips)
+Seat 6: Naughty_ept ($55.09 in chips)
+pondtree312: posts small blind $0.25
+Rifama: posts big blind $0.50
+*** HOLE CARDS ***
+spr1teg: folds
+Rojocapo1987: folds
+yumeko0001: raises $0.75 to $1.25
+Naughty_ept: folds
+pondtree312: folds
+Rifama: folds
+Uncalled bet ($0.75) returned to yumeko0001
+yumeko0001 collected $1.25 from pot
+yumeko0001: doesn't show hand
+*** SUMMARY ***
+Total pot $1.25 | Rake $0
+Seat 1: pondtree312 (small blind) folded before Flop
+Seat 2: Rifama (big blind) folded before Flop
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 folded before Flop (didn't bet)
+Seat 5: yumeko0001 collected ($1.25)
+Seat 6: Naughty_ept (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966463773:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:22:53 ET
+Table 'Acamar V' 6-max Seat #5 is the button
+Seat 1: pondtree312 ($50 in chips)
+Seat 2: Rifama ($51 in chips)
+Seat 3: spr1teg ($69.61 in chips)
+Seat 4: Rojocapo1987 ($51.38 in chips)
+Seat 5: yumeko0001 ($56.55 in chips)
+Seat 6: Naughty_ept ($55.34 in chips)
+Naughty_ept: posts small blind $0.25
+pondtree312: posts big blind $0.50
+*** HOLE CARDS ***
+Rifama: folds
+spr1teg: folds
+Rojocapo1987: folds
+yumeko0001: folds
+Naughty_ept: folds
+Uncalled bet ($0.25) returned to pondtree312
+pondtree312 collected $0.50 from pot
+pondtree312: doesn't show hand
+*** SUMMARY ***
+Total pot $0.50 | Rake $0
+Seat 1: pondtree312 (big blind) collected ($0.50)
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 folded before Flop (didn't bet)
+Seat 5: yumeko0001 (button) folded before Flop (didn't bet)
+Seat 6: Naughty_ept (small blind) folded before Flop
+
+
+PokerStars Hand #208966459917:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:22:37 ET
+Table 'Acamar V' 6-max Seat #4 is the button
+Seat 1: pondtree312 ($50 in chips)
+Seat 2: Rifama ($51 in chips)
+Seat 3: spr1teg ($69.61 in chips)
+Seat 4: Rojocapo1987 ($50.63 in chips)
+Seat 5: yumeko0001 ($56.80 in chips)
+Seat 6: Naughty_ept ($55.84 in chips)
+yumeko0001: posts small blind $0.25
+Naughty_ept: posts big blind $0.50
+*** HOLE CARDS ***
+pondtree312: folds
+Rifama: folds
+spr1teg: folds
+Rojocapo1987: raises $1 to $1.50
+yumeko0001: folds
+Naughty_ept: folds
+Uncalled bet ($1) returned to Rojocapo1987
+Rojocapo1987 collected $1.25 from pot
+Rojocapo1987: doesn't show hand
+*** SUMMARY ***
+Total pot $1.25 | Rake $0
+Seat 1: pondtree312 folded before Flop (didn't bet)
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 (button) collected ($1.25)
+Seat 5: yumeko0001 (small blind) folded before Flop
+Seat 6: Naughty_ept (big blind) folded before Flop
+
+
+PokerStars Hand #208966450726:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:22:01 ET
+Table 'Acamar V' 6-max Seat #3 is the button
+Seat 1: pondtree312 ($50 in chips)
+Seat 2: Rifama ($51 in chips)
+Seat 3: spr1teg ($69.61 in chips)
+Seat 4: Rojocapo1987 ($52.13 in chips)
+Seat 5: yumeko0001 ($55.45 in chips)
+Seat 6: Naughty_ept ($55.84 in chips)
+Rojocapo1987: posts small blind $0.25
+yumeko0001: posts big blind $0.50
+*** HOLE CARDS ***
+Naughty_ept: folds
+pondtree312: folds
+Rifama: folds
+spr1teg: folds
+Rojocapo1987: raises $1 to $1.50
+yumeko0001: calls $1
+*** FLOP *** [7s Kh 2d]
+Rojocapo1987: checks
+yumeko0001: bets $1.14
+Rojocapo1987: folds
+Uncalled bet ($1.14) returned to yumeko0001
+yumeko0001 collected $2.85 from pot
+yumeko0001: doesn't show hand
+*** SUMMARY ***
+Total pot $3 | Rake $0.15
+Board [7s Kh 2d]
+Seat 1: pondtree312 folded before Flop (didn't bet)
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg (button) folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 (small blind) folded on the Flop
+Seat 5: yumeko0001 (big blind) collected ($2.85)
+Seat 6: Naughty_ept folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966472058:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:23:26 ET
+Table 'Acamar V' 6-max Seat #1 is the button
+Seat 1: pondtree312 ($50 in chips)
+Seat 2: Rifama ($50.50 in chips)
+Seat 3: spr1teg ($69.61 in chips)
+Seat 4: Rojocapo1987 ($51.38 in chips)
+Seat 5: yumeko0001 ($57.30 in chips)
+Seat 6: Naughty_ept ($55.09 in chips)
+Rifama: posts small blind $0.25
+spr1teg: posts big blind $0.50
+*** HOLE CARDS ***
+Rojocapo1987: folds
+yumeko0001: folds
+Naughty_ept: folds
+pondtree312: raises $1 to $1.50
+Rifama: folds
+spr1teg: folds
+Uncalled bet ($1) returned to pondtree312
+pondtree312 collected $1.25 from pot
+pondtree312: doesn't show hand
+*** SUMMARY ***
+Total pot $1.25 | Rake $0
+Seat 1: pondtree312 (button) collected ($1.25)
+Seat 2: Rifama (small blind) folded before Flop
+Seat 3: spr1teg (big blind) folded before Flop
+Seat 4: Rojocapo1987 folded before Flop (didn't bet)
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966493792:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:24:52 ET
+Table 'Acamar V' 6-max Seat #3 is the button
+Seat 1: pondtree312 ($50.75 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($68.86 in chips)
+Seat 4: Rojocapo1987 ($50.88 in chips)
+Seat 5: yumeko0001 ($57.30 in chips)
+Seat 6: Naughty_ept ($62.18 in chips)
+Rojocapo1987: posts small blind $0.25
+yumeko0001: posts big blind $0.50
+*** HOLE CARDS ***
+Naughty_ept: folds
+pondtree312: folds
+Naughty_ept leaves the table
+Rifama: folds
+spr1teg: folds
+Rojocapo1987: raises $1 to $1.50
+yumeko0001: folds
+Uncalled bet ($1) returned to Rojocapo1987
+Rojocapo1987 collected $1 from pot
+Rojocapo1987: doesn't show hand
+*** SUMMARY ***
+Total pot $1 | Rake $0
+Seat 1: pondtree312 folded before Flop (didn't bet)
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg (button) folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 (small blind) collected ($1)
+Seat 5: yumeko0001 (big blind) folded before Flop
+Seat 6: Naughty_ept folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966476365:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:23:43 ET
+Table 'Acamar V' 6-max Seat #2 is the button
+Seat 1: pondtree312 ($50.75 in chips)
+Seat 2: Rifama ($50.25 in chips)
+Seat 3: spr1teg ($69.11 in chips)
+Seat 4: Rojocapo1987 ($51.38 in chips)
+Seat 5: yumeko0001 ($57.30 in chips)
+Seat 6: Naughty_ept ($55.09 in chips)
+spr1teg: posts small blind $0.25
+Rojocapo1987: posts big blind $0.50
+*** HOLE CARDS ***
+yumeko0001: folds
+Naughty_ept: raises $0.75 to $1.25
+pondtree312: folds
+Rifama: raises $3 to $4.25
+spr1teg: folds
+Rojocapo1987: folds
+Naughty_ept: calls $3
+*** FLOP *** [Tc 8s 4h]
+Naughty_ept: checks
+Rifama: bets $2.84
+Naughty_ept: calls $2.84
+*** TURN *** [Tc 8s 4h] [Th]
+Naughty_ept: bets $10.25
+Rifama: folds
+Uncalled bet ($10.25) returned to Naughty_ept
+Naughty_ept collected $14.18 from pot
+Naughty_ept: doesn't show hand
+*** SUMMARY ***
+Total pot $14.93 | Rake $0.75
+Board [Tc 8s 4h Th]
+Seat 1: pondtree312 folded before Flop (didn't bet)
+Seat 2: Rifama (button) folded on the Turn
+Seat 3: spr1teg (small blind) folded before Flop
+Seat 4: Rojocapo1987 (big blind) folded before Flop
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+Seat 6: Naughty_ept collected ($14.18)
+
+
+PokerStars Hand #208966499759:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:25:16 ET
+Table 'Acamar V' 6-max Seat #4 is the button
+Seat 1: pondtree312 ($50.75 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($68.86 in chips)
+Seat 4: Rojocapo1987 ($51.38 in chips)
+Seat 5: yumeko0001 ($56.80 in chips)
+yumeko0001: posts small blind $0.25
+pondtree312: posts big blind $0.50
+*** HOLE CARDS ***
+Rifama: folds
+spr1teg: raises $0.75 to $1.25
+Rojocapo1987: folds
+yumeko0001: folds
+pondtree312: calls $0.75
+*** FLOP *** [Jd 4s 2c]
+pondtree312: checks
+spr1teg: bets $0.84
+Spendill joins the table at seat #6
+pondtree312: calls $0.84
+*** TURN *** [Jd 4s 2c] [Jh]
+pondtree312: checks
+spr1teg: checks
+*** RIVER *** [Jd 4s 2c Jh] [6d]
+pondtree312: checks
+spr1teg: checks
+*** SHOW DOWN ***
+pondtree312: shows [Tc Ks] (a pair of Jacks)
+spr1teg: mucks hand
+pondtree312 collected $4.21 from pot
+*** SUMMARY ***
+Total pot $4.43 | Rake $0.22
+Board [Jd 4s 2c Jh 6d]
+Seat 1: pondtree312 (big blind) showed [Tc Ks] and won ($4.21) with a pair of Jacks
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg mucked
+Seat 4: Rojocapo1987 (button) folded before Flop (didn't bet)
+Seat 5: yumeko0001 (small blind) folded before Flop
+
+
+PokerStars Hand #208966510047:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:25:57 ET
+Table 'Acamar V' 6-max Seat #5 is the button
+Seat 1: pondtree312 ($52.87 in chips)
+Seat 2: Rifama ($50 in chips)
+Seat 3: spr1teg ($66.77 in chips)
+Seat 4: Rojocapo1987 ($51.38 in chips)
+Seat 5: yumeko0001 ($56.55 in chips)
+pondtree312: posts small blind $0.25
+Rifama: posts big blind $0.50
+*** HOLE CARDS ***
+spr1teg: folds
+Rojocapo1987: folds
+yumeko0001: folds
+pondtree312: calls $0.25
+Rifama: checks
+*** FLOP *** [3c 9c 5c]
+pondtree312: checks
+Rifama: checks
+*** TURN *** [3c 9c 5c] [Js]
+pondtree312: bets $1
+Rifama: raises $3.75 to $4.75
+pondtree312: calls $3.75
+*** RIVER *** [3c 9c 5c Js] [8d]
+pondtree312: checks
+Rifama: checks
+*** SHOW DOWN ***
+pondtree312: shows [6c 4h] (high card Jack)
+Rifama: shows [5h Jd] (two pair, Jacks and Fives)
+Rifama collected $9.98 from pot
+*** SUMMARY ***
+Total pot $10.50 | Rake $0.52
+Board [3c 9c 5c Js 8d]
+Seat 1: pondtree312 (small blind) showed [6c 4h] and lost with high card Jack
+Seat 2: Rifama (big blind) showed [5h Jd] and won ($9.98) with two pair, Jacks and Fives
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 folded before Flop (didn't bet)
+Seat 5: yumeko0001 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966543491:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:28:10 ET
+Table 'Acamar V' 6-max Seat #4 is the button
+Seat 1: pondtree312 ($49.06 in chips)
+Seat 2: Rifama ($55.23 in chips)
+Seat 3: spr1teg ($66.02 in chips)
+Seat 4: Rojocapo1987 ($50.63 in chips)
+Seat 5: yumeko0001 ($56.05 in chips)
+Seat 6: Spendill ($50 in chips)
+yumeko0001: posts small blind $0.25
+Spendill: posts big blind $0.50
+*** HOLE CARDS ***
+pondtree312: folds
+Rifama: folds
+spr1teg: folds
+Rojocapo1987: raises $1 to $1.50
+yumeko0001: folds
+Spendill: calls $1
+*** FLOP *** [6s Js 9d]
+Spendill: checks
+Rojocapo1987: bets $2.07
+Spendill: folds
+Uncalled bet ($2.07) returned to Rojocapo1987
+Rojocapo1987 collected $3.09 from pot
+Rojocapo1987: doesn't show hand
+*** SUMMARY ***
+Total pot $3.25 | Rake $0.16
+Board [6s Js 9d]
+Seat 1: pondtree312 folded before Flop (didn't bet)
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 (button) collected ($3.09)
+Seat 5: yumeko0001 (small blind) folded before Flop
+Seat 6: Spendill (big blind) folded on the Flop
+
+
+PokerStars Hand #208966538620:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:27:51 ET
+Table 'Acamar V' 6-max Seat #3 is the button
+Seat 1: pondtree312 ($48.31 in chips)
+Seat 2: Rifama ($55.23 in chips)
+Seat 3: spr1teg ($66.02 in chips)
+Seat 4: Rojocapo1987 ($50.88 in chips)
+Seat 5: yumeko0001 ($56.55 in chips)
+Rojocapo1987: posts small blind $0.25
+yumeko0001: posts big blind $0.50
+Spendill: sits out
+*** HOLE CARDS ***
+pondtree312: raises $1 to $1.50
+Rifama: folds
+spr1teg: folds
+Rojocapo1987: folds
+yumeko0001: folds
+Uncalled bet ($1) returned to pondtree312
+pondtree312 collected $1.25 from pot
+pondtree312: doesn't show hand
+*** SUMMARY ***
+Total pot $1.25 | Rake $0
+Seat 1: pondtree312 collected ($1.25)
+Seat 2: Rifama folded before Flop (didn't bet)
+Seat 3: spr1teg (button) folded before Flop (didn't bet)
+Seat 4: Rojocapo1987 (small blind) folded before Flop
+Seat 5: yumeko0001 (big blind) folded before Flop
+
+
+PokerStars Hand #208966535044:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:27:36 ET
+Table 'Acamar V' 6-max Seat #2 is the button
+Seat 1: pondtree312 ($48.31 in chips)
+Seat 2: Rifama ($54.48 in chips)
+Seat 3: spr1teg ($66.27 in chips)
+Seat 4: Rojocapo1987 ($51.38 in chips)
+Seat 5: yumeko0001 ($56.55 in chips)
+spr1teg: posts small blind $0.25
+Rojocapo1987: posts big blind $0.50
+Spendill: sits out
+*** HOLE CARDS ***
+yumeko0001: folds
+pondtree312: folds
+Rifama: raises $0.60 to $1.10
+spr1teg: folds
+Rojocapo1987: folds
+Uncalled bet ($0.60) returned to Rifama
+Rifama collected $1.25 from pot
+Rifama: doesn't show hand
+*** SUMMARY ***
+Total pot $1.25 | Rake $0
+Seat 1: pondtree312 folded before Flop (didn't bet)
+Seat 2: Rifama (button) collected ($1.25)
+Seat 3: spr1teg (small blind) folded before Flop
+Seat 4: Rojocapo1987 (big blind) folded before Flop
+Seat 5: yumeko0001 folded before Flop (didn't bet)
+
+
+PokerStars Hand #208966524910:  Hold'em No Limit ($0.25/$0.50 USD) - 2020/02/08 4:26:56 ET
+Table 'Acamar V' 6-max Seat #1 is the button
+Seat 1: pondtree312 ($47.62 in chips)
+Seat 2: Rifama ($54.73 in chips)
+Seat 3: spr1teg ($66.77 in chips)
+Seat 4: Rojocapo1987 ($51.38 in chips)
+Seat 5: yumeko0001 ($56.55 in chips)
+Rifama: posts small blind $0.25
+spr1teg: posts big blind $0.50
+Spendill: sits out
+*** HOLE CARDS ***
+Rojocapo1987: folds
+yumeko0001: folds
+pondtree312: calls $0.50
+Rifama: folds
+spr1teg: checks
+*** FLOP *** [4h 5d 5s]
+spr1teg: checks
+pondtree312: checks
+*** TURN *** [4h 5d 5s] [Td]
+spr1teg: checks
+pondtree312: checks
+*** RIVER *** [4h 5d 5s Td] [2h]
+spr1teg: checks
+pondtree312: checks
+*** SHOW DOWN ***
+spr1teg: shows [Qh 3d] (a pair of Fives)
+pondtree312: shows [2c As] (two pair, Fives and Deuces)
+pondtree312 collected $1.19 from pot
+*** SUMMARY ***
+Total pot $1.25 | Rake $0.06
+Board [4h 5d 5s Td 2h]
+Seat 1: pondtree312 (button) showed [2c As] and won ($1.19) with two pair, Fives and Deuces
+Seat 2: Rifama (small blind) folded before Flop
+Seat 3: spr1teg (big blind) showed [Qh 3d] and lost with a pair of Fives
+Seat 4: Rojocapo1987 folded before Flop (didn't bet)
+Seat 5: yumeko0001 folded before Flop (didn't bet)

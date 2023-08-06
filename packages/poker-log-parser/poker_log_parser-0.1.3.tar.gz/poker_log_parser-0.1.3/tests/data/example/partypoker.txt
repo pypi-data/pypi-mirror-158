@@ -1,0 +1,37 @@
+Game #9582251255 starts.
+#Game No : 9582251255 
+***** Hand History for Game 9582251255 *****
+$2 USD NL Texas Hold'em - Monday, August 30, 16:08:09 EDT 2010
+Table Speed #1769729 (Real Money)
+Seat 6 is the button
+Total number of players : 6/9 
+Seat 9: Lisypoker ( $3.57 USD )
+Seat 6: Tortozendo ( $2.14 USD )
+Seat 8: Hero ( $2.06 USD )
+Seat 1: potikuus ( $0.44 USD )
+Seat 4: romkarnb ( $0.80 USD )
+Seat 7: suicini03 ( $1.44 USD )
+suicini03 posts small blind [$0.01 USD].
+Hero posts big blind [$0.02 USD].
+** Dealing down cards **
+Dealt to Hero [  Js Th ]
+Lisypoker folds
+potikuus folds
+Tortozendo raises [$0.08 USD]
+suicini03 calls [$0.07 USD]
+Hero calls [$0.06 USD]
+** Dealing Flop ** [ As, 6h, Qc ]
+suicini03 checks
+Hero bets [$0.10 USD]
+Tortozendo folds
+suicini03 calls [$0.10 USD]
+** Dealing Turn ** [ Td ]
+suicini03 checks
+Hero checks
+** Dealing River ** [ Ac ]
+suicini03 checks
+Hero bets [$0.12 USD]
+suicini03 calls [$0.12 USD]
+Hero shows [ Js, Th ]two pairs, Aces and Tens.
+suicini03 shows [ Qh, Jd ]two pairs, Aces and Queens.
+suicini03 wins $0.65 USD from the main pot with two pairs, Aces and Queens.

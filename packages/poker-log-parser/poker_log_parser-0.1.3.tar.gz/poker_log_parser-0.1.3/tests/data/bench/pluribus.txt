@@ -1,0 +1,2039 @@
+PokerStars Hand #33000: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:00 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: MrWhite ($10000 in chips)
+Seat 2: Gogo ($10000 in chips)
+Seat 3: Budd ($10000 in chips)
+Seat 4: Eddie ($10000 in chips)
+Seat 5: Bill ($10000 in chips)
+Seat 6: Pluribus ($10000 in chips)
+MrWhite: posts small blind $50
+Gogo: posts big blind $100
+*** HOLE CARDS ***
+Dealt to MrWhite [9d 6c]
+Dealt to Gogo [As Ks]
+Dealt to Budd [7d 9h]
+Dealt to Eddie [6d 6h]
+Dealt to Bill [Ah 4s]
+Dealt to Pluribus [2d Jc]
+Budd: folds
+Eddie: raises $100 to $200
+Bill: folds
+Pluribus: folds
+MrWhite: folds
+Gogo: raises $700 to $900
+Eddie: calls $700
+*** FLOP *** [Qs 7h 5s]
+Gogo: checks
+Eddie: checks
+*** TURN *** [Qs 7h 5s] [4h]
+Gogo: bets $1250
+Eddie: calls $1250
+*** RIVER *** [Qs 7h 5s 4h] [7c]
+Gogo: checks
+Eddie: checks
+*** SHOWDOWN ***
+Eddie: shows [6d 6h]
+Eddie collected $4350.0 from pot
+*** SUMMARY ***
+Total pot $4350 | Rake 0
+Board [Qs 7h 5s 4h 7c]
+Seat 2: Gogo showed [As Ks] and lost
+Seat 4: Eddie showed [6d 6h] and won ($4350.0)
+
+
+PokerStars Hand #33001: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:01 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Gogo ($10000 in chips)
+Seat 2: Budd ($10000 in chips)
+Seat 3: Eddie ($10000 in chips)
+Seat 4: Bill ($10000 in chips)
+Seat 5: Pluribus ($10000 in chips)
+Seat 6: MrWhite ($10000 in chips)
+Gogo: posts small blind $50
+Budd: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Gogo [7c 6c]
+Dealt to Budd [Jd Kc]
+Dealt to Eddie [2s Qs]
+Dealt to Bill [9c Kd]
+Dealt to Pluribus [2c 8c]
+Dealt to MrWhite [3d Ks]
+Eddie: folds
+Bill: folds
+Pluribus: folds
+MrWhite: folds
+Gogo: raises $200 to $300
+Budd: calls $200
+*** FLOP *** [6h 9d 8h]
+Gogo: checks
+Budd: checks
+*** TURN *** [6h 9d 8h] [7h]
+Gogo: checks
+Budd: checks
+*** RIVER *** [6h 9d 8h 7h] [Ah]
+Gogo: checks
+Budd: bets $375
+Gogo: calls $375
+*** SHOWDOWN ***
+Gogo: shows [7c 6c]
+Gogo collected $1350.0 from pot
+*** SUMMARY ***
+Total pot $1350 | Rake 0
+Board [6h 9d 8h 7h Ah]
+Seat 1: Gogo showed [7c 6c] and won ($1350.0)
+Seat 2: Budd showed [Jd Kc] and lost
+
+
+PokerStars Hand #33002: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:02 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Budd ($10000 in chips)
+Seat 2: Eddie ($10000 in chips)
+Seat 3: Bill ($10000 in chips)
+Seat 4: Pluribus ($10000 in chips)
+Seat 5: MrWhite ($10000 in chips)
+Seat 6: Gogo ($10000 in chips)
+Budd: posts small blind $50
+Eddie: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Budd [2s 8s]
+Dealt to Eddie [Ad 4d]
+Dealt to Bill [8d Qc]
+Dealt to Pluribus [6c 8h]
+Dealt to MrWhite [5c 3d]
+Dealt to Gogo [Ts 5s]
+Bill: folds
+Pluribus: folds
+MrWhite: folds
+Gogo: raises $100 to $200
+Budd: folds
+Eddie: calls $100
+*** FLOP *** [Jh Js 3h]
+Eddie: checks
+Gogo: bets $150
+Eddie: calls $150
+*** TURN *** [Jh Js 3h] [Th]
+Eddie: checks
+Gogo: checks
+*** RIVER *** [Jh Js 3h Th] [7c]
+Eddie: checks
+Gogo: bets $375
+Eddie: folds
+Uncalled bet ($375) returned to Gogo
+Gogo collected $750.0 from pot
+*** SUMMARY ***
+Total pot $750 | Rake 0
+Board [Jh Js 3h Th 7c]
+Seat 1: Budd folded
+Seat 2: Eddie folded
+Seat 3: Bill folded
+Seat 4: Pluribus folded
+Seat 5: MrWhite folded
+Seat 6: Gogo collected ($750.0)
+
+
+PokerStars Hand #33003: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:03 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Eddie ($10000 in chips)
+Seat 2: Bill ($10000 in chips)
+Seat 3: Pluribus ($10000 in chips)
+Seat 4: MrWhite ($10000 in chips)
+Seat 5: Gogo ($10000 in chips)
+Seat 6: Budd ($10000 in chips)
+Eddie: posts small blind $50
+Bill: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Eddie [2h Tc]
+Dealt to Bill [As 9d]
+Dealt to Pluribus [Js 5h]
+Dealt to MrWhite [Qc 4s]
+Dealt to Gogo [5s Qs]
+Dealt to Budd [Qh 9s]
+Pluribus: folds
+MrWhite: folds
+Gogo: folds
+Budd: raises $150 to $250
+Eddie: folds
+Bill: calls $150
+*** FLOP *** [Jh Kh 3h]
+Bill: checks
+Budd: bets $175
+Bill: folds
+Uncalled bet ($175) returned to Budd
+Budd collected $550.0 from pot
+*** SUMMARY ***
+Total pot $550 | Rake 0
+Board [Jh Kh 3h]
+Seat 1: Eddie folded
+Seat 2: Bill folded
+Seat 3: Pluribus folded
+Seat 4: MrWhite folded
+Seat 5: Gogo folded
+Seat 6: Budd collected ($550.0)
+
+
+PokerStars Hand #33004: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:04 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Bill ($10000 in chips)
+Seat 2: Pluribus ($10000 in chips)
+Seat 3: MrWhite ($10000 in chips)
+Seat 4: Gogo ($10000 in chips)
+Seat 5: Budd ($10000 in chips)
+Seat 6: Eddie ($10000 in chips)
+Bill: posts small blind $50
+Pluribus: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Bill [3h 4h]
+Dealt to Pluribus [8s 5h]
+Dealt to MrWhite [9h 3c]
+Dealt to Gogo [2d 4d]
+Dealt to Budd [Jd 9s]
+Dealt to Eddie [9d 2h]
+MrWhite: folds
+Gogo: folds
+Budd: folds
+Eddie: folds
+Bill: raises $200 to $300
+Pluribus: folds
+Uncalled bet ($200) returned to Bill
+Bill collected $200.0 from pot
+*** SUMMARY ***
+Total pot $200 | Rake 0
+Seat 1: Bill collected ($200.0)
+Seat 2: Pluribus folded
+Seat 3: MrWhite folded
+Seat 4: Gogo folded
+Seat 5: Budd folded
+Seat 6: Eddie folded
+
+
+PokerStars Hand #33005: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:05 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Pluribus ($10000 in chips)
+Seat 2: MrWhite ($10000 in chips)
+Seat 3: Gogo ($10000 in chips)
+Seat 4: Budd ($10000 in chips)
+Seat 5: Eddie ($10000 in chips)
+Seat 6: Bill ($10000 in chips)
+Pluribus: posts small blind $50
+MrWhite: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Pluribus [As 9s]
+Dealt to MrWhite [Jd 6d]
+Dealt to Gogo [2c 4d]
+Dealt to Budd [9c Kc]
+Dealt to Eddie [4c 6h]
+Dealt to Bill [6s Kh]
+Gogo: folds
+Budd: raises $125 to $225
+Eddie: folds
+Bill: folds
+Pluribus: calls $175
+MrWhite: calls $125
+*** FLOP *** [3c 4h Ac]
+Pluribus: checks
+MrWhite: checks
+Budd: bets $400
+Pluribus: calls $400
+MrWhite: folds
+*** TURN *** [3c 4h Ac] [3d]
+Pluribus: checks
+Budd: checks
+*** RIVER *** [3c 4h Ac 3d] [2d]
+Pluribus: checks
+Budd: checks
+*** SHOWDOWN ***
+Pluribus: shows [As 9s]
+Pluribus collected $1475.0 from pot
+*** SUMMARY ***
+Total pot $1475 | Rake 0
+Board [3c 4h Ac 3d 2d]
+Seat 1: Pluribus showed [As 9s] and won ($1475.0)
+Seat 4: Budd showed [9c Kc] and lost
+
+
+PokerStars Hand #33006: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:06 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: MrWhite ($10000 in chips)
+Seat 2: Gogo ($10000 in chips)
+Seat 3: Budd ($10000 in chips)
+Seat 4: Eddie ($10000 in chips)
+Seat 5: Bill ($10000 in chips)
+Seat 6: Pluribus ($10000 in chips)
+MrWhite: posts small blind $50
+Gogo: posts big blind $100
+*** HOLE CARDS ***
+Dealt to MrWhite [6s 7d]
+Dealt to Gogo [3c 9s]
+Dealt to Budd [Kh Jh]
+Dealt to Eddie [Td 2s]
+Dealt to Bill [Qc 7c]
+Dealt to Pluribus [Tc Kc]
+Budd: raises $125 to $225
+Eddie: folds
+Bill: folds
+Pluribus: calls $225
+MrWhite: calls $175
+Gogo: folds
+*** FLOP *** [5c Qh As]
+MrWhite: checks
+Budd: checks
+Pluribus: checks
+*** TURN *** [5c Qh As] [Jc]
+MrWhite: checks
+Budd: checks
+Pluribus: bets $387
+MrWhite: folds
+Budd: calls $387
+*** RIVER *** [5c Qh As Jc] [5d]
+Budd: checks
+Pluribus: bets $774
+Budd: calls $774
+*** SHOWDOWN ***
+Pluribus: shows [Tc Kc]
+Pluribus collected $3097.0 from pot
+*** SUMMARY ***
+Total pot $3097 | Rake 0
+Board [5c Qh As Jc 5d]
+Seat 3: Budd showed [Kh Jh] and lost
+Seat 6: Pluribus showed [Tc Kc] and won ($3097.0)
+
+
+PokerStars Hand #33007: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:07 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Gogo ($10000 in chips)
+Seat 2: Budd ($10000 in chips)
+Seat 3: Eddie ($10000 in chips)
+Seat 4: Bill ($10000 in chips)
+Seat 5: Pluribus ($10000 in chips)
+Seat 6: MrWhite ($10000 in chips)
+Gogo: posts small blind $50
+Budd: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Gogo [3s 6d]
+Dealt to Budd [Jd Ah]
+Dealt to Eddie [Qc Qh]
+Dealt to Bill [Js Jh]
+Dealt to Pluribus [5h Kh]
+Dealt to MrWhite [Ad 2d]
+Eddie: raises $100 to $200
+Bill: raises $425 to $625
+Pluribus: folds
+MrWhite: folds
+Gogo: folds
+Budd: folds
+Eddie: calls $425
+*** FLOP *** [Kc 3c 2h]
+Eddie: checks
+Bill: bets $475
+Eddie: calls $475
+*** TURN *** [Kc 3c 2h] [4s]
+Eddie: checks
+Bill: checks
+*** RIVER *** [Kc 3c 2h 4s] [Qs]
+Eddie: bets $4000
+Bill: folds
+Uncalled bet ($4000) returned to Eddie
+Eddie collected $2350.0 from pot
+*** SUMMARY ***
+Total pot $2350 | Rake 0
+Board [Kc 3c 2h 4s Qs]
+Seat 1: Gogo folded
+Seat 2: Budd folded
+Seat 3: Eddie collected ($2350.0)
+Seat 4: Bill folded
+Seat 5: Pluribus folded
+Seat 6: MrWhite folded
+
+
+PokerStars Hand #33008: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:08 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Budd ($10000 in chips)
+Seat 2: Eddie ($10000 in chips)
+Seat 3: Bill ($10000 in chips)
+Seat 4: Pluribus ($10000 in chips)
+Seat 5: MrWhite ($10000 in chips)
+Seat 6: Gogo ($10000 in chips)
+Budd: posts small blind $50
+Eddie: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Budd [9s Jc]
+Dealt to Eddie [6s 8c]
+Dealt to Bill [Kd Qd]
+Dealt to Pluribus [6d 7c]
+Dealt to MrWhite [9d 5c]
+Dealt to Gogo [4d 3d]
+Bill: raises $125 to $225
+Pluribus: folds
+MrWhite: folds
+Gogo: folds
+Budd: folds
+Eddie: folds
+Uncalled bet ($125) returned to Bill
+Bill collected $250.0 from pot
+*** SUMMARY ***
+Total pot $250 | Rake 0
+Seat 1: Budd folded
+Seat 2: Eddie folded
+Seat 3: Bill collected ($250.0)
+Seat 4: Pluribus folded
+Seat 5: MrWhite folded
+Seat 6: Gogo folded
+
+
+PokerStars Hand #33009: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:09 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Eddie ($10000 in chips)
+Seat 2: Bill ($10000 in chips)
+Seat 3: Pluribus ($10000 in chips)
+Seat 4: MrWhite ($10000 in chips)
+Seat 5: Gogo ($10000 in chips)
+Seat 6: Budd ($10000 in chips)
+Eddie: posts small blind $50
+Bill: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Eddie [Qc 2c]
+Dealt to Bill [7h Jh]
+Dealt to Pluribus [5h 2d]
+Dealt to MrWhite [8d 8h]
+Dealt to Gogo [Js 9d]
+Dealt to Budd [Kh 2s]
+Pluribus: folds
+MrWhite: raises $125 to $225
+Gogo: folds
+Budd: folds
+Eddie: folds
+Bill: calls $125
+*** FLOP *** [Td 8s 2h]
+Bill: checks
+MrWhite: bets $375
+Bill: raises $750 to $1125
+MrWhite: calls $750
+*** TURN *** [Td 8s 2h] [6h]
+Bill: bets $2750
+MrWhite: calls $2750
+*** RIVER *** [Td 8s 2h 6h] [Kc]
+Bill: checks
+MrWhite: bets $5900 and is all-in
+Bill: folds
+Uncalled bet ($5900) returned to MrWhite
+MrWhite collected $8250.0 from pot
+*** SUMMARY ***
+Total pot $8250 | Rake 0
+Board [Td 8s 2h 6h Kc]
+Seat 1: Eddie folded
+Seat 2: Bill folded
+Seat 3: Pluribus folded
+Seat 4: MrWhite collected ($8250.0)
+Seat 5: Gogo folded
+Seat 6: Budd folded
+
+
+PokerStars Hand #33010: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:10 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Bill ($10000 in chips)
+Seat 2: Pluribus ($10000 in chips)
+Seat 3: MrWhite ($10000 in chips)
+Seat 4: Gogo ($10000 in chips)
+Seat 5: Budd ($10000 in chips)
+Seat 6: Eddie ($10000 in chips)
+Bill: posts small blind $50
+Pluribus: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Bill [7h 3d]
+Dealt to Pluribus [4h Jc]
+Dealt to MrWhite [Qs 9c]
+Dealt to Gogo [Kc 2h]
+Dealt to Budd [Ad Jd]
+Dealt to Eddie [2c 8s]
+MrWhite: folds
+Gogo: folds
+Budd: raises $125 to $225
+Eddie: folds
+Bill: folds
+Pluribus: folds
+Uncalled bet ($125) returned to Budd
+Budd collected $250.0 from pot
+*** SUMMARY ***
+Total pot $250 | Rake 0
+Seat 1: Bill folded
+Seat 2: Pluribus folded
+Seat 3: MrWhite folded
+Seat 4: Gogo folded
+Seat 5: Budd collected ($250.0)
+Seat 6: Eddie folded
+
+
+PokerStars Hand #33011: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:11 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Pluribus ($10000 in chips)
+Seat 2: MrWhite ($10000 in chips)
+Seat 3: Gogo ($10000 in chips)
+Seat 4: Budd ($10000 in chips)
+Seat 5: Eddie ($10000 in chips)
+Seat 6: Bill ($10000 in chips)
+Pluribus: posts small blind $50
+MrWhite: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Pluribus [6c Tc]
+Dealt to MrWhite [2s 4h]
+Dealt to Gogo [6s 9s]
+Dealt to Budd [8h Jh]
+Dealt to Eddie [9c Qh]
+Dealt to Bill [4c 4d]
+Gogo: folds
+Budd: folds
+Eddie: folds
+Bill: raises $150 to $250
+Pluribus: folds
+MrWhite: folds
+Uncalled bet ($150) returned to Bill
+Bill collected $250.0 from pot
+*** SUMMARY ***
+Total pot $250 | Rake 0
+Seat 1: Pluribus folded
+Seat 2: MrWhite folded
+Seat 3: Gogo folded
+Seat 4: Budd folded
+Seat 5: Eddie folded
+Seat 6: Bill collected ($250.0)
+
+
+PokerStars Hand #33012: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:12 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: MrWhite ($10000 in chips)
+Seat 2: Gogo ($10000 in chips)
+Seat 3: Budd ($10000 in chips)
+Seat 4: Eddie ($10000 in chips)
+Seat 5: Bill ($10000 in chips)
+Seat 6: Pluribus ($10000 in chips)
+MrWhite: posts small blind $50
+Gogo: posts big blind $100
+*** HOLE CARDS ***
+Dealt to MrWhite [9s Kc]
+Dealt to Gogo [Ah 8h]
+Dealt to Budd [6h 2h]
+Dealt to Eddie [Jc 2s]
+Dealt to Bill [Kd 9c]
+Dealt to Pluribus [Jh Qs]
+Budd: folds
+Eddie: folds
+Bill: folds
+Pluribus: raises $100 to $200
+MrWhite: folds
+Gogo: calls $100
+*** FLOP *** [Qd 8s 4c]
+Gogo: checks
+Pluribus: bets $450
+Gogo: calls $450
+*** TURN *** [Qd 8s 4c] [7c]
+Gogo: checks
+Pluribus: checks
+*** RIVER *** [Qd 8s 4c 7c] [Tc]
+Gogo: checks
+Pluribus: bets $675
+Gogo: folds
+Uncalled bet ($675) returned to Pluribus
+Pluribus collected $1350.0 from pot
+*** SUMMARY ***
+Total pot $1350 | Rake 0
+Board [Qd 8s 4c 7c Tc]
+Seat 1: MrWhite folded
+Seat 2: Gogo folded
+Seat 3: Budd folded
+Seat 4: Eddie folded
+Seat 5: Bill folded
+Seat 6: Pluribus collected ($1350.0)
+
+
+PokerStars Hand #33013: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:13 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Gogo ($10000 in chips)
+Seat 2: Budd ($10000 in chips)
+Seat 3: Eddie ($10000 in chips)
+Seat 4: Bill ($10000 in chips)
+Seat 5: Pluribus ($10000 in chips)
+Seat 6: MrWhite ($10000 in chips)
+Gogo: posts small blind $50
+Budd: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Gogo [5d Kd]
+Dealt to Budd [8h Ac]
+Dealt to Eddie [2c Ks]
+Dealt to Bill [2h 7h]
+Dealt to Pluribus [6s 5h]
+Dealt to MrWhite [8c 9h]
+Eddie: folds
+Bill: folds
+Pluribus: folds
+MrWhite: folds
+Gogo: raises $200 to $300
+Budd: raises $600 to $900
+Gogo: calls $600
+*** FLOP *** [3h 4d 5s]
+Gogo: checks
+Budd: bets $600
+Gogo: calls $600
+*** TURN *** [3h 4d 5s] [Tc]
+Gogo: checks
+Budd: checks
+*** RIVER *** [3h 4d 5s Tc] [Ah]
+Gogo: checks
+Budd: checks
+*** SHOWDOWN ***
+Budd: shows [8h Ac]
+Budd collected $3000.0 from pot
+*** SUMMARY ***
+Total pot $3000 | Rake 0
+Board [3h 4d 5s Tc Ah]
+Seat 1: Gogo showed [5d Kd] and lost
+Seat 2: Budd showed [8h Ac] and won ($3000.0)
+
+
+PokerStars Hand #33014: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:14 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Budd ($10000 in chips)
+Seat 2: Eddie ($10000 in chips)
+Seat 3: Bill ($10000 in chips)
+Seat 4: Pluribus ($10000 in chips)
+Seat 5: MrWhite ($10000 in chips)
+Seat 6: Gogo ($10000 in chips)
+Budd: posts small blind $50
+Eddie: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Budd [3c 2d]
+Dealt to Eddie [8h Jh]
+Dealt to Bill [7d 9s]
+Dealt to Pluribus [2c 8s]
+Dealt to MrWhite [6c Qd]
+Dealt to Gogo [6h Qc]
+Bill: folds
+Pluribus: folds
+MrWhite: folds
+Gogo: folds
+Budd: folds
+Uncalled bet ($50) returned to Eddie
+Eddie collected $100.0 from pot
+*** SUMMARY ***
+Total pot $100 | Rake 0
+Seat 1: Budd folded
+Seat 2: Eddie collected ($100.0)
+Seat 3: Bill folded
+Seat 4: Pluribus folded
+Seat 5: MrWhite folded
+Seat 6: Gogo folded
+
+
+PokerStars Hand #33015: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:15 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Eddie ($10000 in chips)
+Seat 2: Bill ($10000 in chips)
+Seat 3: Pluribus ($10000 in chips)
+Seat 4: MrWhite ($10000 in chips)
+Seat 5: Gogo ($10000 in chips)
+Seat 6: Budd ($10000 in chips)
+Eddie: posts small blind $50
+Bill: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Eddie [Qc 4c]
+Dealt to Bill [Kh Ac]
+Dealt to Pluribus [5d Qh]
+Dealt to MrWhite [Kd 8s]
+Dealt to Gogo [6c 5h]
+Dealt to Budd [3h Qd]
+Pluribus: folds
+MrWhite: folds
+Gogo: folds
+Budd: folds
+Eddie: calls $50
+Bill: raises $250 to $350
+Eddie: calls $250
+*** FLOP *** [6h 2d 9h]
+Eddie: checks
+Bill: checks
+*** TURN *** [6h 2d 9h] [3d]
+Eddie: checks
+Bill: checks
+*** RIVER *** [6h 2d 9h 3d] [8c]
+Eddie: bets $1250
+Bill: calls $1250
+*** SHOWDOWN ***
+Bill: shows [Kh Ac]
+Bill collected $3200.0 from pot
+*** SUMMARY ***
+Total pot $3200 | Rake 0
+Board [6h 2d 9h 3d 8c]
+Seat 1: Eddie showed [Qc 4c] and lost
+Seat 2: Bill showed [Kh Ac] and won ($3200.0)
+
+
+PokerStars Hand #33016: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:16 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Bill ($10000 in chips)
+Seat 2: Pluribus ($10000 in chips)
+Seat 3: MrWhite ($10000 in chips)
+Seat 4: Gogo ($10000 in chips)
+Seat 5: Budd ($10000 in chips)
+Seat 6: Eddie ($10000 in chips)
+Bill: posts small blind $50
+Pluribus: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Bill [5d Qc]
+Dealt to Pluribus [4h 8d]
+Dealt to MrWhite [Ac 7c]
+Dealt to Gogo [5s 5c]
+Dealt to Budd [Jh 8s]
+Dealt to Eddie [Qh 6c]
+MrWhite: raises $125 to $225
+Gogo: calls $225
+Budd: folds
+Eddie: folds
+Bill: folds
+Pluribus: folds
+*** FLOP *** [Ts Ad 3c]
+MrWhite: checks
+Gogo: checks
+*** TURN *** [Ts Ad 3c] [2c]
+MrWhite: bets $450
+Gogo: folds
+Uncalled bet ($450) returned to MrWhite
+MrWhite collected $600.0 from pot
+*** SUMMARY ***
+Total pot $600 | Rake 0
+Board [Ts Ad 3c 2c]
+Seat 1: Bill folded
+Seat 2: Pluribus folded
+Seat 3: MrWhite collected ($600.0)
+Seat 4: Gogo folded
+Seat 5: Budd folded
+Seat 6: Eddie folded
+
+
+PokerStars Hand #33017: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:17 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Pluribus ($10000 in chips)
+Seat 2: MrWhite ($10000 in chips)
+Seat 3: Gogo ($10000 in chips)
+Seat 4: Budd ($10000 in chips)
+Seat 5: Eddie ($10000 in chips)
+Seat 6: Bill ($10000 in chips)
+Pluribus: posts small blind $50
+MrWhite: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Pluribus [5s 6h]
+Dealt to MrWhite [2s 5h]
+Dealt to Gogo [Ts As]
+Dealt to Budd [Th Ad]
+Dealt to Eddie [Ah 7d]
+Dealt to Bill [6c Ks]
+Gogo: raises $100 to $200
+Budd: folds
+Eddie: folds
+Bill: folds
+Pluribus: folds
+MrWhite: folds
+Uncalled bet ($100) returned to Gogo
+Gogo collected $250.0 from pot
+*** SUMMARY ***
+Total pot $250 | Rake 0
+Seat 1: Pluribus folded
+Seat 2: MrWhite folded
+Seat 3: Gogo collected ($250.0)
+Seat 4: Budd folded
+Seat 5: Eddie folded
+Seat 6: Bill folded
+
+
+PokerStars Hand #33018: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:18 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: MrWhite ($10000 in chips)
+Seat 2: Gogo ($10000 in chips)
+Seat 3: Budd ($10000 in chips)
+Seat 4: Eddie ($10000 in chips)
+Seat 5: Bill ($10000 in chips)
+Seat 6: Pluribus ($10000 in chips)
+MrWhite: posts small blind $50
+Gogo: posts big blind $100
+*** HOLE CARDS ***
+Dealt to MrWhite [2s 6s]
+Dealt to Gogo [Ah Jd]
+Dealt to Budd [7s Qs]
+Dealt to Eddie [Ts 9h]
+Dealt to Bill [Kd Ac]
+Dealt to Pluribus [3h 7c]
+Budd: folds
+Eddie: folds
+Bill: raises $125 to $225
+Pluribus: folds
+MrWhite: folds
+Gogo: calls $125
+*** FLOP *** [5d 9d 4d]
+Gogo: checks
+Bill: bets $150
+Gogo: calls $150
+*** TURN *** [5d 9d 4d] [Tc]
+Gogo: checks
+Bill: checks
+*** RIVER *** [5d 9d 4d Tc] [4s]
+Gogo: checks
+Bill: checks
+*** SHOWDOWN ***
+Bill: shows [Kd Ac]
+Bill collected $800.0 from pot
+*** SUMMARY ***
+Total pot $800 | Rake 0
+Board [5d 9d 4d Tc 4s]
+Seat 2: Gogo showed [Ah Jd] and lost
+Seat 5: Bill showed [Kd Ac] and won ($800.0)
+
+
+PokerStars Hand #33019: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:19 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Gogo ($10000 in chips)
+Seat 2: Budd ($10000 in chips)
+Seat 3: Eddie ($10000 in chips)
+Seat 4: Bill ($10000 in chips)
+Seat 5: Pluribus ($10000 in chips)
+Seat 6: MrWhite ($10000 in chips)
+Gogo: posts small blind $50
+Budd: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Gogo [Ad 5c]
+Dealt to Budd [7s Kh]
+Dealt to Eddie [Kc 9d]
+Dealt to Bill [5s 5h]
+Dealt to Pluribus [2d 2c]
+Dealt to MrWhite [7d 7c]
+Eddie: folds
+Bill: raises $125 to $225
+Pluribus: folds
+MrWhite: calls $225
+Gogo: folds
+Budd: folds
+*** FLOP *** [9s 8d Qs]
+Bill: checks
+MrWhite: checks
+*** TURN *** [9s 8d Qs] [3s]
+Bill: checks
+MrWhite: checks
+*** RIVER *** [9s 8d Qs 3s] [6c]
+Bill: checks
+MrWhite: checks
+*** SHOWDOWN ***
+MrWhite: shows [7d 7c]
+MrWhite collected $600.0 from pot
+*** SUMMARY ***
+Total pot $600 | Rake 0
+Board [9s 8d Qs 3s 6c]
+Seat 4: Bill showed [5s 5h] and lost
+Seat 6: MrWhite showed [7d 7c] and won ($600.0)
+
+
+PokerStars Hand #33020: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:20 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Budd ($10000 in chips)
+Seat 2: Eddie ($10000 in chips)
+Seat 3: Bill ($10000 in chips)
+Seat 4: Pluribus ($10000 in chips)
+Seat 5: MrWhite ($10000 in chips)
+Seat 6: Gogo ($10000 in chips)
+Budd: posts small blind $50
+Eddie: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Budd [Kd 9c]
+Dealt to Eddie [9s 6s]
+Dealt to Bill [2s Kc]
+Dealt to Pluribus [3c 3s]
+Dealt to MrWhite [Jc 4h]
+Dealt to Gogo [Ts 8d]
+Bill: folds
+Pluribus: raises $100 to $200
+MrWhite: folds
+Gogo: folds
+Budd: folds
+Eddie: calls $100
+*** FLOP *** [8c 4s 6d]
+Eddie: checks
+Pluribus: checks
+*** TURN *** [8c 4s 6d] [5s]
+Eddie: bets $225
+Pluribus: calls $225
+*** RIVER *** [8c 4s 6d 5s] [3d]
+Eddie: checks
+Pluribus: bets $450
+Eddie: folds
+Uncalled bet ($450) returned to Pluribus
+Pluribus collected $900.0 from pot
+*** SUMMARY ***
+Total pot $900 | Rake 0
+Board [8c 4s 6d 5s 3d]
+Seat 1: Budd folded
+Seat 2: Eddie folded
+Seat 3: Bill folded
+Seat 4: Pluribus collected ($900.0)
+Seat 5: MrWhite folded
+Seat 6: Gogo folded
+
+
+PokerStars Hand #33021: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:21 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Eddie ($10000 in chips)
+Seat 2: Bill ($10000 in chips)
+Seat 3: Pluribus ($10000 in chips)
+Seat 4: MrWhite ($10000 in chips)
+Seat 5: Gogo ($10000 in chips)
+Seat 6: Budd ($10000 in chips)
+Eddie: posts small blind $50
+Bill: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Eddie [7d Ah]
+Dealt to Bill [As 7c]
+Dealt to Pluribus [4c Qc]
+Dealt to MrWhite [9d 4s]
+Dealt to Gogo [5d Jh]
+Dealt to Budd [9h 3c]
+Pluribus: folds
+MrWhite: folds
+Gogo: folds
+Budd: folds
+Eddie: raises $200 to $300
+Bill: calls $200
+*** FLOP *** [Td 9s 9c]
+Eddie: checks
+Bill: checks
+*** TURN *** [Td 9s 9c] [Qd]
+Eddie: checks
+Bill: checks
+*** RIVER *** [Td 9s 9c Qd] [Ks]
+Eddie: checks
+Bill: checks
+*** SHOWDOWN ***
+Eddie collected $300.0 from pot
+Bill collected $300.0 from pot
+*** SUMMARY ***
+Total pot $600 | Rake 0
+Board [Td 9s 9c Qd Ks]
+Seat 1: Eddie showed [7d Ah] and lost
+Seat 2: Bill showed [As 7c] and lost
+
+
+PokerStars Hand #33022: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:22 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Bill ($10000 in chips)
+Seat 2: Pluribus ($10000 in chips)
+Seat 3: MrWhite ($10000 in chips)
+Seat 4: Gogo ($10000 in chips)
+Seat 5: Budd ($10000 in chips)
+Seat 6: Eddie ($10000 in chips)
+Bill: posts small blind $50
+Pluribus: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Bill [Jc Ks]
+Dealt to Pluribus [7c 9s]
+Dealt to MrWhite [Qc Ac]
+Dealt to Gogo [6h 6d]
+Dealt to Budd [3d Kc]
+Dealt to Eddie [6c Jd]
+MrWhite: raises $125 to $225
+Gogo: calls $225
+Budd: folds
+Eddie: folds
+Bill: folds
+Pluribus: folds
+*** FLOP *** [2s Jh 5c]
+MrWhite: bets $300
+Gogo: calls $300
+*** TURN *** [2s Jh 5c] [Kd]
+MrWhite: checks
+Gogo: checks
+*** RIVER *** [2s Jh 5c Kd] [6s]
+MrWhite: checks
+Gogo: bets $800
+MrWhite: folds
+Uncalled bet ($800) returned to Gogo
+Gogo collected $1200.0 from pot
+*** SUMMARY ***
+Total pot $1200 | Rake 0
+Board [2s Jh 5c Kd 6s]
+Seat 1: Bill folded
+Seat 2: Pluribus folded
+Seat 3: MrWhite folded
+Seat 4: Gogo collected ($1200.0)
+Seat 5: Budd folded
+Seat 6: Eddie folded
+
+
+PokerStars Hand #33023: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:23 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Pluribus ($10000 in chips)
+Seat 2: MrWhite ($10000 in chips)
+Seat 3: Gogo ($10000 in chips)
+Seat 4: Budd ($10000 in chips)
+Seat 5: Eddie ($10000 in chips)
+Seat 6: Bill ($10000 in chips)
+Pluribus: posts small blind $50
+MrWhite: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Pluribus [Jc Kh]
+Dealt to MrWhite [Kd 3s]
+Dealt to Gogo [Th 2d]
+Dealt to Budd [Qc 8s]
+Dealt to Eddie [Ah Qs]
+Dealt to Bill [Ts Jd]
+Gogo: folds
+Budd: folds
+Eddie: raises $100 to $200
+Bill: folds
+Pluribus: raises $1000 to $1200
+MrWhite: folds
+Eddie: calls $1000
+*** FLOP *** [4h 7d Ks]
+Pluribus: bets $1250
+Eddie: folds
+Uncalled bet ($1250) returned to Pluribus
+Pluribus collected $2500.0 from pot
+*** SUMMARY ***
+Total pot $2500 | Rake 0
+Board [4h 7d Ks]
+Seat 1: Pluribus collected ($2500.0)
+Seat 2: MrWhite folded
+Seat 3: Gogo folded
+Seat 4: Budd folded
+Seat 5: Eddie folded
+Seat 6: Bill folded
+
+
+PokerStars Hand #33024: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:24 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: MrWhite ($10000 in chips)
+Seat 2: Gogo ($10000 in chips)
+Seat 3: Budd ($10000 in chips)
+Seat 4: Eddie ($10000 in chips)
+Seat 5: Bill ($10000 in chips)
+Seat 6: Pluribus ($10000 in chips)
+MrWhite: posts small blind $50
+Gogo: posts big blind $100
+*** HOLE CARDS ***
+Dealt to MrWhite [2c Js]
+Dealt to Gogo [4c 7c]
+Dealt to Budd [Ad Qc]
+Dealt to Eddie [Jh 3d]
+Dealt to Bill [8c Ah]
+Dealt to Pluribus [Jc 9h]
+Budd: raises $125 to $225
+Eddie: folds
+Bill: folds
+Pluribus: folds
+MrWhite: folds
+Gogo: calls $125
+*** FLOP *** [3c As 8h]
+Gogo: checks
+Budd: bets $175
+Gogo: folds
+Uncalled bet ($175) returned to Budd
+Budd collected $500.0 from pot
+*** SUMMARY ***
+Total pot $500 | Rake 0
+Board [3c As 8h]
+Seat 1: MrWhite folded
+Seat 2: Gogo folded
+Seat 3: Budd collected ($500.0)
+Seat 4: Eddie folded
+Seat 5: Bill folded
+Seat 6: Pluribus folded
+
+
+PokerStars Hand #33025: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:25 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Gogo ($10000 in chips)
+Seat 2: Budd ($10000 in chips)
+Seat 3: Eddie ($10000 in chips)
+Seat 4: Bill ($10000 in chips)
+Seat 5: Pluribus ($10000 in chips)
+Seat 6: MrWhite ($10000 in chips)
+Gogo: posts small blind $50
+Budd: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Gogo [Js Qd]
+Dealt to Budd [9c 8c]
+Dealt to Eddie [6c 9s]
+Dealt to Bill [4d Qc]
+Dealt to Pluribus [Qs 4h]
+Dealt to MrWhite [Tc 2d]
+Eddie: folds
+Bill: folds
+Pluribus: folds
+MrWhite: folds
+Gogo: raises $200 to $300
+Budd: calls $200
+*** FLOP *** [8d Qh 5c]
+Gogo: bets $200
+Budd: calls $200
+*** TURN *** [8d Qh 5c] [5s]
+Gogo: checks
+Budd: checks
+*** RIVER *** [8d Qh 5c 5s] [Ks]
+Gogo: checks
+Budd: checks
+*** SHOWDOWN ***
+Gogo: shows [Js Qd]
+Gogo collected $1000.0 from pot
+*** SUMMARY ***
+Total pot $1000 | Rake 0
+Board [8d Qh 5c 5s Ks]
+Seat 1: Gogo showed [Js Qd] and won ($1000.0)
+Seat 2: Budd showed [9c 8c] and lost
+
+
+PokerStars Hand #33026: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:26 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Budd ($10000 in chips)
+Seat 2: Eddie ($10000 in chips)
+Seat 3: Bill ($10000 in chips)
+Seat 4: Pluribus ($10000 in chips)
+Seat 5: MrWhite ($10000 in chips)
+Seat 6: Gogo ($10000 in chips)
+Budd: posts small blind $50
+Eddie: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Budd [Jc 4h]
+Dealt to Eddie [Ad 4c]
+Dealt to Bill [Kc Jh]
+Dealt to Pluribus [Tc 8c]
+Dealt to MrWhite [4d Qh]
+Dealt to Gogo [8s 4s]
+Bill: raises $125 to $225
+Pluribus: folds
+MrWhite: folds
+Gogo: folds
+Budd: folds
+Eddie: folds
+Uncalled bet ($125) returned to Bill
+Bill collected $250.0 from pot
+*** SUMMARY ***
+Total pot $250 | Rake 0
+Seat 1: Budd folded
+Seat 2: Eddie folded
+Seat 3: Bill collected ($250.0)
+Seat 4: Pluribus folded
+Seat 5: MrWhite folded
+Seat 6: Gogo folded
+
+
+PokerStars Hand #33027: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:27 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Eddie ($10000 in chips)
+Seat 2: Bill ($10000 in chips)
+Seat 3: Pluribus ($10000 in chips)
+Seat 4: MrWhite ($10000 in chips)
+Seat 5: Gogo ($10000 in chips)
+Seat 6: Budd ($10000 in chips)
+Eddie: posts small blind $50
+Bill: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Eddie [5c 5s]
+Dealt to Bill [Jc 6h]
+Dealt to Pluribus [Jh 3d]
+Dealt to MrWhite [4s 8h]
+Dealt to Gogo [Ah As]
+Dealt to Budd [7h Kd]
+Pluribus: folds
+MrWhite: folds
+Gogo: raises $100 to $200
+Budd: folds
+Eddie: calls $150
+Bill: folds
+*** FLOP *** [7s Js 9s]
+Eddie: checks
+Gogo: bets $170
+Eddie: calls $170
+*** TURN *** [7s Js 9s] [Ks]
+Eddie: checks
+Gogo: bets $500
+Eddie: calls $500
+*** RIVER *** [7s Js 9s Ks] [9h]
+Eddie: checks
+Gogo: bets $1200
+Eddie: folds
+Uncalled bet ($1200) returned to Gogo
+Gogo collected $1840.0 from pot
+*** SUMMARY ***
+Total pot $1840 | Rake 0
+Board [7s Js 9s Ks 9h]
+Seat 1: Eddie folded
+Seat 2: Bill folded
+Seat 3: Pluribus folded
+Seat 4: MrWhite folded
+Seat 5: Gogo collected ($1840.0)
+Seat 6: Budd folded
+
+
+PokerStars Hand #33028: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:28 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Bill ($10000 in chips)
+Seat 2: Pluribus ($10000 in chips)
+Seat 3: MrWhite ($10000 in chips)
+Seat 4: Gogo ($10000 in chips)
+Seat 5: Budd ($10000 in chips)
+Seat 6: Eddie ($10000 in chips)
+Bill: posts small blind $50
+Pluribus: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Bill [Qs 2s]
+Dealt to Pluribus [6s Tc]
+Dealt to MrWhite [8s 4d]
+Dealt to Gogo [3h 7d]
+Dealt to Budd [2h 5d]
+Dealt to Eddie [2c Qh]
+MrWhite: folds
+Gogo: folds
+Budd: folds
+Eddie: folds
+Bill: raises $200 to $300
+Pluribus: folds
+Uncalled bet ($200) returned to Bill
+Bill collected $200.0 from pot
+*** SUMMARY ***
+Total pot $200 | Rake 0
+Seat 1: Bill collected ($200.0)
+Seat 2: Pluribus folded
+Seat 3: MrWhite folded
+Seat 4: Gogo folded
+Seat 5: Budd folded
+Seat 6: Eddie folded
+
+
+PokerStars Hand #33029: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:29 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Pluribus ($10000 in chips)
+Seat 2: MrWhite ($10000 in chips)
+Seat 3: Gogo ($10000 in chips)
+Seat 4: Budd ($10000 in chips)
+Seat 5: Eddie ($10000 in chips)
+Seat 6: Bill ($10000 in chips)
+Pluribus: posts small blind $50
+MrWhite: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Pluribus [9s 5d]
+Dealt to MrWhite [4s 7c]
+Dealt to Gogo [Js Qd]
+Dealt to Budd [5h 4h]
+Dealt to Eddie [4c Ad]
+Dealt to Bill [Ks Kc]
+Gogo: folds
+Budd: raises $125 to $225
+Eddie: folds
+Bill: raises $575 to $800
+Pluribus: folds
+MrWhite: folds
+Budd: folds
+Uncalled bet ($575) returned to Bill
+Bill collected $600.0 from pot
+*** SUMMARY ***
+Total pot $600 | Rake 0
+Seat 1: Pluribus folded
+Seat 2: MrWhite folded
+Seat 3: Gogo folded
+Seat 4: Budd folded
+Seat 5: Eddie folded
+Seat 6: Bill collected ($600.0)
+
+
+PokerStars Hand #33030: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:30 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: MrWhite ($10000 in chips)
+Seat 2: Gogo ($10000 in chips)
+Seat 3: Budd ($10000 in chips)
+Seat 4: Eddie ($10000 in chips)
+Seat 5: Bill ($10000 in chips)
+Seat 6: Pluribus ($10000 in chips)
+MrWhite: posts small blind $50
+Gogo: posts big blind $100
+*** HOLE CARDS ***
+Dealt to MrWhite [3s Kh]
+Dealt to Gogo [8d 6s]
+Dealt to Budd [Ts 3d]
+Dealt to Eddie [Qs 3c]
+Dealt to Bill [Js Ks]
+Dealt to Pluribus [Kd 8c]
+Budd: folds
+Eddie: folds
+Bill: raises $125 to $225
+Pluribus: folds
+MrWhite: folds
+Gogo: folds
+Uncalled bet ($125) returned to Bill
+Bill collected $250.0 from pot
+*** SUMMARY ***
+Total pot $250 | Rake 0
+Seat 1: MrWhite folded
+Seat 2: Gogo folded
+Seat 3: Budd folded
+Seat 4: Eddie folded
+Seat 5: Bill collected ($250.0)
+Seat 6: Pluribus folded
+
+
+PokerStars Hand #33031: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:31 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Gogo ($10000 in chips)
+Seat 2: Budd ($10000 in chips)
+Seat 3: Eddie ($10000 in chips)
+Seat 4: Bill ($10000 in chips)
+Seat 5: Pluribus ($10000 in chips)
+Seat 6: MrWhite ($10000 in chips)
+Gogo: posts small blind $50
+Budd: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Gogo [4d 4h]
+Dealt to Budd [6c Kc]
+Dealt to Eddie [Ad 5c]
+Dealt to Bill [6h Td]
+Dealt to Pluribus [Qh 8s]
+Dealt to MrWhite [Kd 7s]
+Eddie: folds
+Bill: folds
+Pluribus: folds
+MrWhite: folds
+Gogo: raises $200 to $300
+Budd: calls $200
+*** FLOP *** [9s Ks 8c]
+Gogo: bets $200
+Budd: calls $200
+*** TURN *** [9s Ks 8c] [7d]
+Gogo: checks
+Budd: bets $600
+Gogo: folds
+Uncalled bet ($600) returned to Budd
+Budd collected $1000.0 from pot
+*** SUMMARY ***
+Total pot $1000 | Rake 0
+Board [9s Ks 8c 7d]
+Seat 1: Gogo folded
+Seat 2: Budd collected ($1000.0)
+Seat 3: Eddie folded
+Seat 4: Bill folded
+Seat 5: Pluribus folded
+Seat 6: MrWhite folded
+
+
+PokerStars Hand #33032: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:32 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Budd ($10000 in chips)
+Seat 2: Eddie ($10000 in chips)
+Seat 3: Bill ($10000 in chips)
+Seat 4: Pluribus ($10000 in chips)
+Seat 5: MrWhite ($10000 in chips)
+Seat 6: Gogo ($10000 in chips)
+Budd: posts small blind $50
+Eddie: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Budd [3d Kd]
+Dealt to Eddie [5h Qh]
+Dealt to Bill [Ah 3c]
+Dealt to Pluribus [Jd Jh]
+Dealt to MrWhite [2s 8c]
+Dealt to Gogo [8h 6s]
+Bill: folds
+Pluribus: raises $100 to $200
+MrWhite: folds
+Gogo: folds
+Budd: folds
+Eddie: calls $100
+*** FLOP *** [4h 4s 2h]
+Eddie: checks
+Pluribus: bets $225
+Eddie: raises $375 to $600
+Pluribus: calls $375
+*** TURN *** [4h 4s 2h] [7c]
+Eddie: bets $2000
+Pluribus: calls $2000
+*** RIVER *** [4h 4s 2h 7c] [Kh]
+Eddie: bets $1650
+Pluribus: raises $5550 to $7200 and is all-in
+Eddie: calls $5550 and is all-in
+*** SHOWDOWN ***
+Eddie: shows [5h Qh]
+Eddie collected $20050.0 from pot
+*** SUMMARY ***
+Total pot $20050 | Rake 0
+Board [4h 4s 2h 7c Kh]
+Seat 2: Eddie showed [5h Qh] and won ($20050.0)
+Seat 4: Pluribus showed [Jd Jh] and lost
+
+
+PokerStars Hand #33033: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:33 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Eddie ($10000 in chips)
+Seat 2: Bill ($10000 in chips)
+Seat 3: Pluribus ($10000 in chips)
+Seat 4: MrWhite ($10000 in chips)
+Seat 5: Gogo ($10000 in chips)
+Seat 6: Budd ($10000 in chips)
+Eddie: posts small blind $50
+Bill: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Eddie [4c 5h]
+Dealt to Bill [Th 6s]
+Dealt to Pluribus [As 9h]
+Dealt to MrWhite [4d 7h]
+Dealt to Gogo [Jc Td]
+Dealt to Budd [2h 2c]
+Pluribus: folds
+MrWhite: folds
+Gogo: raises $100 to $200
+Budd: folds
+Eddie: folds
+Bill: folds
+Uncalled bet ($100) returned to Gogo
+Gogo collected $250.0 from pot
+*** SUMMARY ***
+Total pot $250 | Rake 0
+Seat 1: Eddie folded
+Seat 2: Bill folded
+Seat 3: Pluribus folded
+Seat 4: MrWhite folded
+Seat 5: Gogo collected ($250.0)
+Seat 6: Budd folded
+
+
+PokerStars Hand #33034: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:34 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Bill ($10000 in chips)
+Seat 2: Pluribus ($10000 in chips)
+Seat 3: MrWhite ($10000 in chips)
+Seat 4: Gogo ($10000 in chips)
+Seat 5: Budd ($10000 in chips)
+Seat 6: Eddie ($10000 in chips)
+Bill: posts small blind $50
+Pluribus: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Bill [5h 9d]
+Dealt to Pluribus [2s Th]
+Dealt to MrWhite [Js 8s]
+Dealt to Gogo [Kh 7d]
+Dealt to Budd [Tc Qc]
+Dealt to Eddie [Kd 3c]
+MrWhite: raises $125 to $225
+Gogo: folds
+Budd: folds
+Eddie: folds
+Bill: folds
+Pluribus: folds
+Uncalled bet ($125) returned to MrWhite
+MrWhite collected $250.0 from pot
+*** SUMMARY ***
+Total pot $250 | Rake 0
+Seat 1: Bill folded
+Seat 2: Pluribus folded
+Seat 3: MrWhite collected ($250.0)
+Seat 4: Gogo folded
+Seat 5: Budd folded
+Seat 6: Eddie folded
+
+
+PokerStars Hand #33035: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:35 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Pluribus ($10000 in chips)
+Seat 2: MrWhite ($10000 in chips)
+Seat 3: Gogo ($10000 in chips)
+Seat 4: Budd ($10000 in chips)
+Seat 5: Eddie ($10000 in chips)
+Seat 6: Bill ($10000 in chips)
+Pluribus: posts small blind $50
+MrWhite: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Pluribus [Qh Td]
+Dealt to MrWhite [4h 6c]
+Dealt to Gogo [Kd 5d]
+Dealt to Budd [2d 2s]
+Dealt to Eddie [8d 4c]
+Dealt to Bill [2c 5s]
+Gogo: folds
+Budd: raises $125 to $225
+Eddie: folds
+Bill: folds
+Pluribus: folds
+MrWhite: folds
+Uncalled bet ($125) returned to Budd
+Budd collected $250.0 from pot
+*** SUMMARY ***
+Total pot $250 | Rake 0
+Seat 1: Pluribus folded
+Seat 2: MrWhite folded
+Seat 3: Gogo folded
+Seat 4: Budd collected ($250.0)
+Seat 5: Eddie folded
+Seat 6: Bill folded
+
+
+PokerStars Hand #33036: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:36 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: MrWhite ($10000 in chips)
+Seat 2: Gogo ($10000 in chips)
+Seat 3: Budd ($10000 in chips)
+Seat 4: Eddie ($10000 in chips)
+Seat 5: Bill ($10000 in chips)
+Seat 6: Pluribus ($10000 in chips)
+MrWhite: posts small blind $50
+Gogo: posts big blind $100
+*** HOLE CARDS ***
+Dealt to MrWhite [Td 4c]
+Dealt to Gogo [4d 2c]
+Dealt to Budd [2d 5s]
+Dealt to Eddie [Qs 8h]
+Dealt to Bill [Ks 7d]
+Dealt to Pluribus [2h 7h]
+Budd: folds
+Eddie: folds
+Bill: folds
+Pluribus: folds
+MrWhite: folds
+Uncalled bet ($50) returned to Gogo
+Gogo collected $100.0 from pot
+*** SUMMARY ***
+Total pot $100 | Rake 0
+Seat 1: MrWhite folded
+Seat 2: Gogo collected ($100.0)
+Seat 3: Budd folded
+Seat 4: Eddie folded
+Seat 5: Bill folded
+Seat 6: Pluribus folded
+
+
+PokerStars Hand #33037: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:37 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Gogo ($10000 in chips)
+Seat 2: Budd ($10000 in chips)
+Seat 3: Eddie ($10000 in chips)
+Seat 4: Bill ($10000 in chips)
+Seat 5: Pluribus ($10000 in chips)
+Seat 6: MrWhite ($10000 in chips)
+Gogo: posts small blind $50
+Budd: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Gogo [Jh 9c]
+Dealt to Budd [Ts 6s]
+Dealt to Eddie [2d 7s]
+Dealt to Bill [Kh 9s]
+Dealt to Pluribus [Kd 7d]
+Dealt to MrWhite [Ad Jc]
+Eddie: folds
+Bill: folds
+Pluribus: raises $125 to $225
+MrWhite: calls $225
+Gogo: folds
+Budd: calls $125
+*** FLOP *** [4s 5d 8h]
+Budd: checks
+Pluribus: bets $1450
+MrWhite: folds
+Budd: folds
+Uncalled bet ($1450) returned to Pluribus
+Pluribus collected $725.0 from pot
+*** SUMMARY ***
+Total pot $725 | Rake 0
+Board [4s 5d 8h]
+Seat 1: Gogo folded
+Seat 2: Budd folded
+Seat 3: Eddie folded
+Seat 4: Bill folded
+Seat 5: Pluribus collected ($725.0)
+Seat 6: MrWhite folded
+
+
+PokerStars Hand #33038: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:38 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Budd ($10000 in chips)
+Seat 2: Eddie ($10000 in chips)
+Seat 3: Bill ($10000 in chips)
+Seat 4: Pluribus ($10000 in chips)
+Seat 5: MrWhite ($10000 in chips)
+Seat 6: Gogo ($10000 in chips)
+Budd: posts small blind $50
+Eddie: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Budd [7h 6d]
+Dealt to Eddie [7d 3d]
+Dealt to Bill [Ad 8d]
+Dealt to Pluribus [As Qd]
+Dealt to MrWhite [Ts 3s]
+Dealt to Gogo [8c 4d]
+Bill: raises $125 to $225
+Pluribus: calls $225
+MrWhite: folds
+Gogo: folds
+Budd: folds
+Eddie: folds
+*** FLOP *** [3h 4h 2h]
+Bill: checks
+Pluribus: bets $300
+Bill: folds
+Uncalled bet ($300) returned to Pluribus
+Pluribus collected $600.0 from pot
+*** SUMMARY ***
+Total pot $600 | Rake 0
+Board [3h 4h 2h]
+Seat 1: Budd folded
+Seat 2: Eddie folded
+Seat 3: Bill folded
+Seat 4: Pluribus collected ($600.0)
+Seat 5: MrWhite folded
+Seat 6: Gogo folded
+
+
+PokerStars Hand #33039: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:39 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Eddie ($10000 in chips)
+Seat 2: Bill ($10000 in chips)
+Seat 3: Pluribus ($10000 in chips)
+Seat 4: MrWhite ($10000 in chips)
+Seat 5: Gogo ($10000 in chips)
+Seat 6: Budd ($10000 in chips)
+Eddie: posts small blind $50
+Bill: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Eddie [5s 3d]
+Dealt to Bill [Qh Ac]
+Dealt to Pluribus [2c Ts]
+Dealt to MrWhite [5c 7c]
+Dealt to Gogo [Th 2h]
+Dealt to Budd [Jc 9c]
+Pluribus: folds
+MrWhite: folds
+Gogo: folds
+Budd: raises $150 to $250
+Eddie: folds
+Bill: raises $850 to $1100
+Budd: calls $850
+*** FLOP *** [4c 3c 4h]
+Bill: bets $575
+Budd: calls $575
+*** TURN *** [4c 3c 4h] [5d]
+Bill: checks
+Budd: bets $1700
+Bill: folds
+Uncalled bet ($1700) returned to Budd
+Budd collected $3400.0 from pot
+*** SUMMARY ***
+Total pot $3400 | Rake 0
+Board [4c 3c 4h 5d]
+Seat 1: Eddie folded
+Seat 2: Bill folded
+Seat 3: Pluribus folded
+Seat 4: MrWhite folded
+Seat 5: Gogo folded
+Seat 6: Budd collected ($3400.0)
+
+
+PokerStars Hand #33040: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:40 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Bill ($10000 in chips)
+Seat 2: Pluribus ($10000 in chips)
+Seat 3: MrWhite ($10000 in chips)
+Seat 4: Gogo ($10000 in chips)
+Seat 5: Budd ($10000 in chips)
+Seat 6: Eddie ($10000 in chips)
+Bill: posts small blind $50
+Pluribus: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Bill [Qc Ac]
+Dealt to Pluribus [Jh Qd]
+Dealt to MrWhite [3s 8h]
+Dealt to Gogo [6s Jd]
+Dealt to Budd [Ah Js]
+Dealt to Eddie [Th 6d]
+MrWhite: folds
+Gogo: folds
+Budd: raises $125 to $225
+Eddie: folds
+Bill: raises $725 to $950
+Pluribus: folds
+Budd: raises $1300 to $2250
+Bill: calls $1300
+*** FLOP *** [Qh Td 4h]
+Bill: checks
+Budd: checks
+*** TURN *** [Qh Td 4h] [3h]
+Bill: bets $1200
+Budd: calls $1200
+*** RIVER *** [Qh Td 4h 3h] [5h]
+Bill: checks
+Budd: bets $2700
+Bill: folds
+Uncalled bet ($2700) returned to Budd
+Budd collected $7000.0 from pot
+*** SUMMARY ***
+Total pot $7000 | Rake 0
+Board [Qh Td 4h 3h 5h]
+Seat 1: Bill folded
+Seat 2: Pluribus folded
+Seat 3: MrWhite folded
+Seat 4: Gogo folded
+Seat 5: Budd collected ($7000.0)
+Seat 6: Eddie folded
+
+
+PokerStars Hand #33041: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:41 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Pluribus ($10000 in chips)
+Seat 2: MrWhite ($10000 in chips)
+Seat 3: Gogo ($10000 in chips)
+Seat 4: Budd ($10000 in chips)
+Seat 5: Eddie ($10000 in chips)
+Seat 6: Bill ($10000 in chips)
+Pluribus: posts small blind $50
+MrWhite: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Pluribus [9d 9h]
+Dealt to MrWhite [6h 2c]
+Dealt to Gogo [5h As]
+Dealt to Budd [Jh Qc]
+Dealt to Eddie [Kc 4h]
+Dealt to Bill [Jc 2s]
+Gogo: folds
+Budd: folds
+Eddie: folds
+Bill: folds
+Pluribus: raises $100 to $200
+MrWhite: folds
+Uncalled bet ($100) returned to Pluribus
+Pluribus collected $200.0 from pot
+*** SUMMARY ***
+Total pot $200 | Rake 0
+Seat 1: Pluribus collected ($200.0)
+Seat 2: MrWhite folded
+Seat 3: Gogo folded
+Seat 4: Budd folded
+Seat 5: Eddie folded
+Seat 6: Bill folded
+
+
+PokerStars Hand #33042: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:42 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: MrWhite ($10000 in chips)
+Seat 2: Gogo ($10000 in chips)
+Seat 3: Budd ($10000 in chips)
+Seat 4: Eddie ($10000 in chips)
+Seat 5: Bill ($10000 in chips)
+Seat 6: Pluribus ($10000 in chips)
+MrWhite: posts small blind $50
+Gogo: posts big blind $100
+*** HOLE CARDS ***
+Dealt to MrWhite [9h Jh]
+Dealt to Gogo [2c 7s]
+Dealt to Budd [7d 4d]
+Dealt to Eddie [Qs 6c]
+Dealt to Bill [Qd 8c]
+Dealt to Pluribus [As 4s]
+Budd: folds
+Eddie: folds
+Bill: folds
+Pluribus: raises $125 to $225
+MrWhite: raises $550 to $775
+Gogo: folds
+Pluribus: calls $550
+*** FLOP *** [8h 6h Td]
+MrWhite: bets $1237
+Pluribus: folds
+Uncalled bet ($1237) returned to MrWhite
+MrWhite collected $1650.0 from pot
+*** SUMMARY ***
+Total pot $1650 | Rake 0
+Board [8h 6h Td]
+Seat 1: MrWhite collected ($1650.0)
+Seat 2: Gogo folded
+Seat 3: Budd folded
+Seat 4: Eddie folded
+Seat 5: Bill folded
+Seat 6: Pluribus folded
+
+
+PokerStars Hand #33043: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:43 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Gogo ($10000 in chips)
+Seat 2: Budd ($10000 in chips)
+Seat 3: Eddie ($10000 in chips)
+Seat 4: Bill ($10000 in chips)
+Seat 5: Pluribus ($10000 in chips)
+Seat 6: MrWhite ($10000 in chips)
+Gogo: posts small blind $50
+Budd: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Gogo [4d Qh]
+Dealt to Budd [Jc 8h]
+Dealt to Eddie [2d 2c]
+Dealt to Bill [5c Js]
+Dealt to Pluribus [Tc 9h]
+Dealt to MrWhite [7c 7s]
+Eddie: raises $100 to $200
+Bill: folds
+Pluribus: folds
+MrWhite: calls $200
+Gogo: folds
+Budd: folds
+*** FLOP *** [8c Ts 3c]
+Eddie: checks
+MrWhite: checks
+*** TURN *** [8c Ts 3c] [Ad]
+Eddie: checks
+MrWhite: checks
+*** RIVER *** [8c Ts 3c Ad] [6s]
+Eddie: checks
+MrWhite: checks
+*** SHOWDOWN ***
+MrWhite: shows [7c 7s]
+MrWhite collected $550.0 from pot
+*** SUMMARY ***
+Total pot $550 | Rake 0
+Board [8c Ts 3c Ad 6s]
+Seat 3: Eddie showed [2d 2c] and lost
+Seat 6: MrWhite showed [7c 7s] and won ($550.0)
+
+
+PokerStars Hand #33044: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:44 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Budd ($10000 in chips)
+Seat 2: Eddie ($10000 in chips)
+Seat 3: Bill ($10000 in chips)
+Seat 4: Pluribus ($10000 in chips)
+Seat 5: MrWhite ($10000 in chips)
+Seat 6: Gogo ($10000 in chips)
+Budd: posts small blind $50
+Eddie: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Budd [Jd Qd]
+Dealt to Eddie [2s 5c]
+Dealt to Bill [Th Ac]
+Dealt to Pluribus [Qh 5h]
+Dealt to MrWhite [4s 6s]
+Dealt to Gogo [3d 2c]
+Bill: raises $125 to $225
+Pluribus: folds
+MrWhite: folds
+Gogo: folds
+Budd: calls $175
+Eddie: folds
+*** FLOP *** [Kd Qs 3s]
+Budd: checks
+Bill: checks
+*** TURN *** [Kd Qs 3s] [Js]
+Budd: bets $412
+Bill: calls $412
+*** RIVER *** [Kd Qs 3s Js] [6d]
+Budd: bets $1030
+Bill: calls $1030
+*** SHOWDOWN ***
+Bill: shows [Th Ac]
+Bill collected $3434.0 from pot
+*** SUMMARY ***
+Total pot $3434 | Rake 0
+Board [Kd Qs 3s Js 6d]
+Seat 1: Budd showed [Jd Qd] and lost
+Seat 3: Bill showed [Th Ac] and won ($3434.0)
+
+
+PokerStars Hand #33045: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:45 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Eddie ($10000 in chips)
+Seat 2: Bill ($10000 in chips)
+Seat 3: Pluribus ($10000 in chips)
+Seat 4: MrWhite ($10000 in chips)
+Seat 5: Gogo ($10000 in chips)
+Seat 6: Budd ($10000 in chips)
+Eddie: posts small blind $50
+Bill: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Eddie [Ac 3c]
+Dealt to Bill [6h 9c]
+Dealt to Pluribus [Jc Kh]
+Dealt to MrWhite [3d Ks]
+Dealt to Gogo [4s 2c]
+Dealt to Budd [3s 4h]
+Pluribus: raises $100 to $200
+MrWhite: folds
+Gogo: folds
+Budd: folds
+Eddie: calls $150
+Bill: folds
+*** FLOP *** [As Ah 7d]
+Eddie: checks
+Pluribus: bets $250
+Eddie: calls $250
+*** TURN *** [As Ah 7d] [Ts]
+Eddie: checks
+Pluribus: checks
+*** RIVER *** [As Ah 7d Ts] [5s]
+Eddie: bets $1000
+Pluribus: folds
+Uncalled bet ($1000) returned to Eddie
+Eddie collected $1000.0 from pot
+*** SUMMARY ***
+Total pot $1000 | Rake 0
+Board [As Ah 7d Ts 5s]
+Seat 1: Eddie collected ($1000.0)
+Seat 2: Bill folded
+Seat 3: Pluribus folded
+Seat 4: MrWhite folded
+Seat 5: Gogo folded
+Seat 6: Budd folded
+
+
+PokerStars Hand #33046: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:46 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Bill ($10000 in chips)
+Seat 2: Pluribus ($10000 in chips)
+Seat 3: MrWhite ($10000 in chips)
+Seat 4: Gogo ($10000 in chips)
+Seat 5: Budd ($10000 in chips)
+Seat 6: Eddie ($10000 in chips)
+Bill: posts small blind $50
+Pluribus: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Bill [2h 4s]
+Dealt to Pluribus [8s 9d]
+Dealt to MrWhite [Js 4h]
+Dealt to Gogo [Qc 5c]
+Dealt to Budd [3d 5d]
+Dealt to Eddie [Ad Qd]
+MrWhite: folds
+Gogo: folds
+Budd: folds
+Eddie: raises $122 to $222
+Bill: folds
+Pluribus: calls $122
+*** FLOP *** [Kd Jd 7h]
+Pluribus: checks
+Eddie: bets $150
+Pluribus: raises $397 to $547
+Eddie: calls $397
+*** TURN *** [Kd Jd 7h] [Ks]
+Pluribus: checks
+Eddie: checks
+*** RIVER *** [Kd Jd 7h Ks] [Jc]
+Pluribus: checks
+Eddie: checks
+*** SHOWDOWN ***
+Eddie: shows [Ad Qd]
+Eddie collected $1588.0 from pot
+*** SUMMARY ***
+Total pot $1588 | Rake 0
+Board [Kd Jd 7h Ks Jc]
+Seat 2: Pluribus showed [8s 9d] and lost
+Seat 6: Eddie showed [Ad Qd] and won ($1588.0)
+
+
+PokerStars Hand #33047: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:47 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Pluribus ($10000 in chips)
+Seat 2: MrWhite ($10000 in chips)
+Seat 3: Gogo ($10000 in chips)
+Seat 4: Budd ($10000 in chips)
+Seat 5: Eddie ($10000 in chips)
+Seat 6: Bill ($10000 in chips)
+Pluribus: posts small blind $50
+MrWhite: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Pluribus [5h 5c]
+Dealt to MrWhite [Jd 5d]
+Dealt to Gogo [9c 3d]
+Dealt to Budd [4s 2s]
+Dealt to Eddie [3s Ks]
+Dealt to Bill [3c Ts]
+Gogo: folds
+Budd: folds
+Eddie: raises $100 to $200
+Bill: folds
+Pluribus: calls $150
+MrWhite: calls $100
+*** FLOP *** [6s 7h 7d]
+Pluribus: checks
+MrWhite: checks
+Eddie: bets $150
+Pluribus: calls $150
+MrWhite: folds
+*** TURN *** [6s 7h 7d] [9s]
+Pluribus: bets $225
+Eddie: raises $675 to $900
+Pluribus: folds
+Uncalled bet ($675) returned to Eddie
+Eddie collected $1350.0 from pot
+*** SUMMARY ***
+Total pot $1350 | Rake 0
+Board [6s 7h 7d 9s]
+Seat 1: Pluribus folded
+Seat 2: MrWhite folded
+Seat 3: Gogo folded
+Seat 4: Budd folded
+Seat 5: Eddie collected ($1350.0)
+Seat 6: Bill folded
+
+
+PokerStars Hand #33048: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:48 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: MrWhite ($10000 in chips)
+Seat 2: Gogo ($10000 in chips)
+Seat 3: Budd ($10000 in chips)
+Seat 4: Eddie ($10000 in chips)
+Seat 5: Bill ($10000 in chips)
+Seat 6: Pluribus ($10000 in chips)
+MrWhite: posts small blind $50
+Gogo: posts big blind $100
+*** HOLE CARDS ***
+Dealt to MrWhite [Jd 5c]
+Dealt to Gogo [6s 5d]
+Dealt to Budd [7d 7h]
+Dealt to Eddie [9h Kc]
+Dealt to Bill [7c As]
+Dealt to Pluribus [2s 4d]
+Budd: raises $125 to $225
+Eddie: folds
+Bill: folds
+Pluribus: folds
+MrWhite: folds
+Gogo: folds
+Uncalled bet ($125) returned to Budd
+Budd collected $250.0 from pot
+*** SUMMARY ***
+Total pot $250 | Rake 0
+Seat 1: MrWhite folded
+Seat 2: Gogo folded
+Seat 3: Budd collected ($250.0)
+Seat 4: Eddie folded
+Seat 5: Bill folded
+Seat 6: Pluribus folded
+
+
+PokerStars Hand #33049: Hold'em No Limit ($50/$100) - 2019/07/11 09:10:49 ET
+Table 'Pluribus Session 33' 6-max Seat #6 is the button
+Seat 1: Gogo ($10000 in chips)
+Seat 2: Budd ($10000 in chips)
+Seat 3: Eddie ($10000 in chips)
+Seat 4: Bill ($10000 in chips)
+Seat 5: Pluribus ($10000 in chips)
+Seat 6: MrWhite ($10000 in chips)
+Gogo: posts small blind $50
+Budd: posts big blind $100
+*** HOLE CARDS ***
+Dealt to Gogo [Tc 9h]
+Dealt to Budd [As 5h]
+Dealt to Eddie [4s Th]
+Dealt to Bill [Td 6s]
+Dealt to Pluribus [3s 2c]
+Dealt to MrWhite [Qc 7s]
+Eddie: folds
+Bill: folds
+Pluribus: folds
+MrWhite: folds
+Gogo: raises $200 to $300
+Budd: raises $600 to $900
+Gogo: folds
+Uncalled bet ($600) returned to Budd
+Budd collected $600.0 from pot
+*** SUMMARY ***
+Total pot $600 | Rake 0
+Seat 1: Gogo folded
+Seat 2: Budd collected ($600.0)
+Seat 3: Eddie folded
+Seat 4: Bill folded
+Seat 5: Pluribus folded
+Seat 6: MrWhite folded

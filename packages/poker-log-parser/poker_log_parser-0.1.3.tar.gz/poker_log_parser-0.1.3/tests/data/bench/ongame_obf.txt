@@ -1,0 +1,1580 @@
+***** History for hand R5-1631690-1825 *****
+Start hand: Wed Jul 01 00:00:00 GMT-0910 2009
+Table: YAT4jKACpEQGFsSRkTUtLA [1631690] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 5
+Players in round:  4
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($741) 
+Seat 5: /jVTYwD7DoVR9eKIQozwWg ($136.45) 
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,384.85) 
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,117) 
+OpFtc1OHWWk12/bcA9XR9w posts small blind ($3)
+tIwDK8LFaCC6lHL30WydFg posts big blind ($6)
+---
+Dealing pocket cards
+dpdomUAPQ7he/g2ahbcf7w folds
+/jVTYwD7DoVR9eKIQozwWg calls $6
+OpFtc1OHWWk12/bcA9XR9w raises $15 to $18
+tIwDK8LFaCC6lHL30WydFg folds
+/jVTYwD7DoVR9eKIQozwWg calls $12
+--- Dealing flop [8d, 2h, 5s]
+OpFtc1OHWWk12/bcA9XR9w checks
+/jVTYwD7DoVR9eKIQozwWg bets $42
+OpFtc1OHWWk12/bcA9XR9w bets $1,366.85 [all in]
+/jVTYwD7DoVR9eKIQozwWg calls $76.45 [all in]
+--- Dealing turn [Jc]
+--- Dealing river [3c]
+---
+Summary:
+Main pot: $278.90 won by OpFtc1OHWWk12/bcA9XR9w ($276.90)
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($741), net: -$0
+Seat 5: /jVTYwD7DoVR9eKIQozwWg ($), net: -$136.45, [As, 3h]
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,525.3), net: +$140.45, [4s, 4h]
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,111), net: -$6
+***** End of hand R5-1631690-1825 *****
+
+
+
+***** History for hand R5-1713520-144 *****
+Start hand: Wed Jul 01 00:00:00 GMT-0910 2009
+Table: 8GMd+Al3kIpigYI8VLQmAQ [1713520] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 8
+Players in round:  4
+Seat 1: 4ja6+z85c7B5h88+sheqjA ($1,019.55) 
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($1,276) 
+Seat 5: 9HDVzJQc1N4ItfkxhoYiXw ($425.55) 
+Seat 8: Dj45iUwAzTuXapcMImuUnw ($225.25) 
+4ja6+z85c7B5h88+sheqjA posts small blind ($3)
+dpdomUAPQ7he/g2ahbcf7w posts big blind ($6)
+---
+Dealing pocket cards
+9HDVzJQc1N4ItfkxhoYiXw folds
+Dj45iUwAzTuXapcMImuUnw raises $12 to $12
+4ja6+z85c7B5h88+sheqjA calls $9
+dpdomUAPQ7he/g2ahbcf7w calls $6
+--- Dealing flop [Td, Kd, Jh]
+4ja6+z85c7B5h88+sheqjA checks
+dpdomUAPQ7he/g2ahbcf7w checks
+Dj45iUwAzTuXapcMImuUnw bets $12
+4ja6+z85c7B5h88+sheqjA calls $12
+dpdomUAPQ7he/g2ahbcf7w folds
+--- Dealing turn [Jd]
+4ja6+z85c7B5h88+sheqjA checks
+Dj45iUwAzTuXapcMImuUnw checks
+--- Dealing river [5d]
+4ja6+z85c7B5h88+sheqjA checks
+Dj45iUwAzTuXapcMImuUnw bets $35
+4ja6+z85c7B5h88+sheqjA folds
+---
+Summary:
+Main pot: $60 won by Dj45iUwAzTuXapcMImuUnw ($58)
+Seat 1: 4ja6+z85c7B5h88+sheqjA ($995.55), net: -$24
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($1,264), net: -$12
+Seat 5: 9HDVzJQc1N4ItfkxhoYiXw ($425.55), net: -$0
+Seat 8: Dj45iUwAzTuXapcMImuUnw ($259.25), net: +$34
+***** End of hand R5-1713520-144 *****
+
+
+
+***** History for hand R5-1696618-700 *****
+Start hand: Wed Jul 01 00:00:00 GMT-0910 2009
+Table: oFoblJK+ok7vl5Kbz4ey3g [1696618] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 8
+Players in round:  3
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($948.75) 
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($600) 
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,198.70) 
+gecHH9Cn0mQdJ98xTCGVhw posts small blind ($3)
+dpdomUAPQ7he/g2ahbcf7w posts big blind ($6)
+---
+Dealing pocket cards
+XeGi0dtvsspGhf0+ptwMug folds
+gecHH9Cn0mQdJ98xTCGVhw folds
+---
+Summary:
+Main pot: $6 won by dpdomUAPQ7he/g2ahbcf7w ($6)
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($951.75), net: +$3
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($600), net: -$0
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,195.7), net: -$3
+***** End of hand R5-1696618-700 *****
+
+
+
+***** History for hand R5-1696618-701 *****
+Start hand: Wed Jul 01 00:00:00 GMT-0910 2009
+Table: oFoblJK+ok7vl5Kbz4ey3g [1696618] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 9
+Players in round:  3
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($951.75) 
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($600) 
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,195.70) 
+dpdomUAPQ7he/g2ahbcf7w posts small blind ($3)
+XeGi0dtvsspGhf0+ptwMug posts big blind ($6)
+---
+Dealing pocket cards
+gecHH9Cn0mQdJ98xTCGVhw raises $18 to $18
+dpdomUAPQ7he/g2ahbcf7w folds
+XeGi0dtvsspGhf0+ptwMug folds
+---
+Summary:
+Main pot: $15 won by gecHH9Cn0mQdJ98xTCGVhw ($15)
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($948.75), net: -$3
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($594), net: -$6
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,204.7), net: +$9
+***** End of hand R5-1696618-701 *****
+
+
+
+***** History for hand R5-1699866-564 *****
+Start hand: Wed Jul 01 00:00:00 GMT-0910 2009
+Table: 6iGGDwDL90gYJM2NMewtnw [1699866] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 6
+Players in round:  3
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($168.15) 
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($657) 
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($597) 
+PXYRJue3GrDEdOWYMs2pGA posts small blind ($3)
+dpdomUAPQ7he/g2ahbcf7w posts big blind ($6)
+---
+Dealing pocket cards
+tIwDK8LFaCC6lHL30WydFg folds
+PXYRJue3GrDEdOWYMs2pGA calls $3
+dpdomUAPQ7he/g2ahbcf7w checks
+--- Dealing flop [5d, Jc, 9s]
+PXYRJue3GrDEdOWYMs2pGA bets $6
+dpdomUAPQ7he/g2ahbcf7w folds
+---
+Summary:
+Main pot: $12 won by PXYRJue3GrDEdOWYMs2pGA ($11.40)
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($173.55), net: +$5.40
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($651), net: -$6
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($597), net: -$0
+***** End of hand R5-1699866-564 *****
+
+
+
+***** History for hand R5-1699866-565 *****
+Start hand: Wed Jul 01 00:00:00 GMT-0910 2009
+Table: 6iGGDwDL90gYJM2NMewtnw [1699866] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 3
+Players in round:  3
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($173.55) 
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($651) 
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($597) 
+dpdomUAPQ7he/g2ahbcf7w posts small blind ($3)
+tIwDK8LFaCC6lHL30WydFg posts big blind ($6)
+---
+Dealing pocket cards
+PXYRJue3GrDEdOWYMs2pGA calls $6
+dpdomUAPQ7he/g2ahbcf7w folds
+tIwDK8LFaCC6lHL30WydFg checks
+--- Dealing flop [Kh, 5d, 4d]
+tIwDK8LFaCC6lHL30WydFg checks
+PXYRJue3GrDEdOWYMs2pGA bets $6
+tIwDK8LFaCC6lHL30WydFg folds
+---
+Summary:
+Main pot: $15 won by PXYRJue3GrDEdOWYMs2pGA ($14.25)
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($181.8), net: +$8.25
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($648), net: -$3
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($591), net: -$6
+***** End of hand R5-1699866-565 *****
+
+
+
+***** History for hand R5-1631690-1826 *****
+Start hand: Wed Jul 01 00:01:00 GMT-0910 2009
+Table: YAT4jKACpEQGFsSRkTUtLA [1631690] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 7
+Players in round:  3
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($741) 
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,525.30) 
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,111) 
+tIwDK8LFaCC6lHL30WydFg posts small blind ($3)
+dpdomUAPQ7he/g2ahbcf7w posts big blind ($6)
+---
+Dealing pocket cards
+OpFtc1OHWWk12/bcA9XR9w folds
+tIwDK8LFaCC6lHL30WydFg folds
+---
+Summary:
+Main pot: $6 won by dpdomUAPQ7he/g2ahbcf7w ($6)
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($744), net: +$3
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,525.3), net: -$0
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,108), net: -$3
+***** End of hand R5-1631690-1826 *****
+
+
+
+***** History for hand R5-1713520-145 *****
+Start hand: Wed Jul 01 00:01:00 GMT-0910 2009
+Table: 8GMd+Al3kIpigYI8VLQmAQ [1713520] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 1
+Players in round:  5
+Seat 1: 4ja6+z85c7B5h88+sheqjA ($995.55) 
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($1,264) 
+Seat 4: 5+59TmiIwRRVGJ+o3XnE8A ($504.40) 
+Seat 5: 9HDVzJQc1N4ItfkxhoYiXw ($425.55) 
+Seat 8: Dj45iUwAzTuXapcMImuUnw ($259.25) 
+dpdomUAPQ7he/g2ahbcf7w posts small blind ($3)
+5+59TmiIwRRVGJ+o3XnE8A posts big blind ($6)
+---
+Dealing pocket cards
+9HDVzJQc1N4ItfkxhoYiXw folds
+Dj45iUwAzTuXapcMImuUnw raises $15 to $15
+4ja6+z85c7B5h88+sheqjA calls $15
+dpdomUAPQ7he/g2ahbcf7w folds
+5+59TmiIwRRVGJ+o3XnE8A folds
+--- Dealing flop [9d, 6c, As]
+Dj45iUwAzTuXapcMImuUnw bets $30
+4ja6+z85c7B5h88+sheqjA bets $980.55 [all in]
+Dj45iUwAzTuXapcMImuUnw calls $214.25 [all in]
+--- Dealing turn [2c]
+--- Dealing river [Qs]
+---
+Summary:
+Main pot: $527.50 won by Dj45iUwAzTuXapcMImuUnw ($524.50)
+Seat 1: 4ja6+z85c7B5h88+sheqjA ($736.3), net: -$259.25, [Ad, Jd]
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($1,261), net: -$3
+Seat 4: 5+59TmiIwRRVGJ+o3XnE8A ($498.4), net: -$6
+Seat 5: 9HDVzJQc1N4ItfkxhoYiXw ($425.55), net: -$0
+Seat 8: Dj45iUwAzTuXapcMImuUnw ($524.5), net: +$265.25, [Ks, Ac]
+***** End of hand R5-1713520-145 *****
+
+
+
+***** History for hand R5-1696618-702 *****
+Start hand: Wed Jul 01 00:01:00 GMT-0910 2009
+Table: oFoblJK+ok7vl5Kbz4ey3g [1696618] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 3
+Players in round:  4
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($417) 
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($948.75) 
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($594) 
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,204.70) 
+XeGi0dtvsspGhf0+ptwMug posts small blind ($3)
+gecHH9Cn0mQdJ98xTCGVhw posts big blind ($6)
+1ZJu0tKAvdY+AAr6w/I46A posts big blind ($6)
+---
+Dealing pocket cards
+1ZJu0tKAvdY+AAr6w/I46A raises $12 to $18
+dpdomUAPQ7he/g2ahbcf7w calls $18
+XeGi0dtvsspGhf0+ptwMug folds
+gecHH9Cn0mQdJ98xTCGVhw folds
+--- Dealing flop [Ts, 6s, 3s]
+1ZJu0tKAvdY+AAr6w/I46A checks
+dpdomUAPQ7he/g2ahbcf7w checks
+--- Dealing turn [As]
+1ZJu0tKAvdY+AAr6w/I46A checks
+dpdomUAPQ7he/g2ahbcf7w checks
+--- Dealing river [Jd]
+1ZJu0tKAvdY+AAr6w/I46A checks
+dpdomUAPQ7he/g2ahbcf7w checks
+---
+Summary:
+Main pot: $45 won by 1ZJu0tKAvdY+AAr6w/I46A ($43)
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($442), net: +$25, [4d, Ad]
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($930.75), net: -$18, [5c, 6c]
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($591), net: -$3
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,198.7), net: -$6
+***** End of hand R5-1696618-702 *****
+
+
+
+***** History for hand R5-1699866-566 *****
+Start hand: Wed Jul 01 00:01:00 GMT-0910 2009
+Table: 6iGGDwDL90gYJM2NMewtnw [1699866] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 5
+Players in round:  4
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($181.80) 
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($600) 
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($648) 
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($591) 
+tIwDK8LFaCC6lHL30WydFg posts small blind ($3)
+PXYRJue3GrDEdOWYMs2pGA posts big blind ($6)
+---
+Dealing pocket cards
+dpdomUAPQ7he/g2ahbcf7w folds
+tIwDK8LFaCC6lHL30WydFg raises $15 to $18
+PXYRJue3GrDEdOWYMs2pGA folds
+---
+Summary:
+Main pot: $12 won by tIwDK8LFaCC6lHL30WydFg ($12)
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($175.8), net: -$6
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($600), net: -$0
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($648), net: -$0
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($597), net: +$6, [Qd, Qs]
+***** End of hand R5-1699866-566 *****
+
+
+
+***** History for hand R5-1631690-1829 *****
+Start hand: Wed Jul 01 00:02:00 GMT-0910 2009
+Table: YAT4jKACpEQGFsSRkTUtLA [1631690] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 7
+Players in round:  4
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($829) 
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,504.30) 
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,042) 
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($333) 
+tIwDK8LFaCC6lHL30WydFg posts small blind ($3)
+554QY7Ev0aD62XqWWrXhig posts big blind ($6)
+---
+Dealing pocket cards
+dpdomUAPQ7he/g2ahbcf7w folds
+OpFtc1OHWWk12/bcA9XR9w raises $36 to $36
+tIwDK8LFaCC6lHL30WydFg folds
+554QY7Ev0aD62XqWWrXhig folds
+---
+Summary:
+Main pot: $15 won by OpFtc1OHWWk12/bcA9XR9w ($15)
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($829), net: -$0
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,513.3), net: +$9
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,039), net: -$3
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($327), net: -$6
+***** End of hand R5-1631690-1829 *****
+
+
+
+***** History for hand R5-1696618-703 *****
+Start hand: Wed Jul 01 00:02:00 GMT-0910 2009
+Table: oFoblJK+ok7vl5Kbz4ey3g [1696618] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 8
+Players in round:  4
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($442) 
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($930.75) 
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($591) 
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,198.70) 
+gecHH9Cn0mQdJ98xTCGVhw posts small blind ($3)
+1ZJu0tKAvdY+AAr6w/I46A posts big blind ($6)
+---
+Dealing pocket cards
+dpdomUAPQ7he/g2ahbcf7w folds
+XeGi0dtvsspGhf0+ptwMug folds
+gecHH9Cn0mQdJ98xTCGVhw folds
+---
+Summary:
+Main pot: $6 won by 1ZJu0tKAvdY+AAr6w/I46A ($6)
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($445), net: +$3
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($930.75), net: -$0
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($591), net: -$0
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,195.7), net: -$3
+***** End of hand R5-1696618-703 *****
+
+
+
+***** History for hand R5-1696618-704 *****
+Start hand: Wed Jul 01 00:02:00 GMT-0910 2009
+Table: oFoblJK+ok7vl5Kbz4ey3g [1696618] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 9
+Players in round:  4
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($445) 
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($930.75) 
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($591) 
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,195.70) 
+1ZJu0tKAvdY+AAr6w/I46A posts small blind ($3)
+dpdomUAPQ7he/g2ahbcf7w posts big blind ($6)
+---
+Dealing pocket cards
+XeGi0dtvsspGhf0+ptwMug raises $15 to $15
+gecHH9Cn0mQdJ98xTCGVhw folds
+1ZJu0tKAvdY+AAr6w/I46A calls $12
+dpdomUAPQ7he/g2ahbcf7w folds
+--- Dealing flop [Ah, Qc, 2d]
+1ZJu0tKAvdY+AAr6w/I46A checks
+XeGi0dtvsspGhf0+ptwMug bets $13
+1ZJu0tKAvdY+AAr6w/I46A folds
+---
+Summary:
+Main pot: $36 won by XeGi0dtvsspGhf0+ptwMug ($34.20)
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($430), net: -$15
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($924.75), net: -$6
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($610.2), net: +$19.20
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,195.7), net: -$0
+***** End of hand R5-1696618-704 *****
+
+
+
+***** History for hand R5-1699866-567 *****
+Start hand: Wed Jul 01 00:02:00 GMT-0910 2009
+Table: 6iGGDwDL90gYJM2NMewtnw [1699866] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 6
+Players in round:  4
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($175.80) 
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($600) 
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($648) 
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($597) 
+PXYRJue3GrDEdOWYMs2pGA posts small blind ($3)
+0sJbLkHFmJSWZdHijEjt+Q posts big blind ($6)
+---
+Dealing pocket cards
+dpdomUAPQ7he/g2ahbcf7w raises $18 to $18
+tIwDK8LFaCC6lHL30WydFg folds
+PXYRJue3GrDEdOWYMs2pGA folds
+0sJbLkHFmJSWZdHijEjt+Q folds
+---
+Summary:
+Main pot: $15 won by dpdomUAPQ7he/g2ahbcf7w ($15)
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($172.8), net: -$3
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($594), net: -$6
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($657), net: +$9
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($597), net: -$0
+***** End of hand R5-1699866-567 *****
+
+
+
+***** History for hand R5-1699866-568 *****
+Start hand: Wed Jul 01 00:02:00 GMT-0910 2009
+Table: 6iGGDwDL90gYJM2NMewtnw [1699866] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 3
+Players in round:  4
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($172.80) 
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($594) 
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($657) 
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($597) 
+0sJbLkHFmJSWZdHijEjt+Q posts small blind ($3)
+dpdomUAPQ7he/g2ahbcf7w posts big blind ($6)
+---
+Dealing pocket cards
+tIwDK8LFaCC6lHL30WydFg folds
+PXYRJue3GrDEdOWYMs2pGA calls $6
+0sJbLkHFmJSWZdHijEjt+Q folds
+dpdomUAPQ7he/g2ahbcf7w raises $18 to $24
+PXYRJue3GrDEdOWYMs2pGA folds
+---
+Summary:
+Main pot: $15 won by dpdomUAPQ7he/g2ahbcf7w ($15)
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($166.8), net: -$6
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($591), net: -$3
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($666), net: +$9
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($597), net: -$0
+***** End of hand R5-1699866-568 *****
+
+
+
+***** History for hand R5-1699866-569 *****
+Start hand: Wed Jul 01 00:02:00 GMT-0910 2009
+Table: 6iGGDwDL90gYJM2NMewtnw [1699866] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 4
+Players in round:  4
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($166.80) 
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($591) 
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($666) 
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($597) 
+dpdomUAPQ7he/g2ahbcf7w posts small blind ($3)
+tIwDK8LFaCC6lHL30WydFg posts big blind ($6)
+---
+Dealing pocket cards
+PXYRJue3GrDEdOWYMs2pGA calls $6
+0sJbLkHFmJSWZdHijEjt+Q folds
+dpdomUAPQ7he/g2ahbcf7w calls $3
+tIwDK8LFaCC6lHL30WydFg checks
+--- Dealing flop [2c, 9s, 6h]
+dpdomUAPQ7he/g2ahbcf7w bets $15
+tIwDK8LFaCC6lHL30WydFg folds
+PXYRJue3GrDEdOWYMs2pGA calls $15
+--- Dealing turn [7c]
+dpdomUAPQ7he/g2ahbcf7w bets $36
+PXYRJue3GrDEdOWYMs2pGA calls $36
+--- Dealing river [Qs]
+dpdomUAPQ7he/g2ahbcf7w bets $120
+PXYRJue3GrDEdOWYMs2pGA calls $109.8 [all in]
+---
+Summary:
+Main pot: $339.60 won by dpdomUAPQ7he/g2ahbcf7w ($337.60)
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($), net: -$166.80, [Tc, Qc]
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($591), net: -$0
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($836.8), net: +$170.80, [5s, 8s]
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($591), net: -$6
+***** End of hand R5-1699866-569 *****
+
+
+
+***** History for hand R5-1696618-705 *****
+Start hand: Wed Jul 01 00:02:00 GMT-0910 2009
+Table: oFoblJK+ok7vl5Kbz4ey3g [1696618] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 1
+Players in round:  5
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($430) 
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($924.75) 
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($610.20) 
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,195.70) 
+Seat 10: 0sJbLkHFmJSWZdHijEjt+Q ($600) 
+dpdomUAPQ7he/g2ahbcf7w posts small blind ($3)
+XeGi0dtvsspGhf0+ptwMug posts big blind ($6)
+---
+Dealing pocket cards
+gecHH9Cn0mQdJ98xTCGVhw raises $18 to $18
+1ZJu0tKAvdY+AAr6w/I46A folds
+dpdomUAPQ7he/g2ahbcf7w folds
+XeGi0dtvsspGhf0+ptwMug raises $53 to $59
+gecHH9Cn0mQdJ98xTCGVhw folds
+---
+Summary:
+Main pot: $39 won by XeGi0dtvsspGhf0+ptwMug ($39)
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($430), net: -$0
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($921.75), net: -$3
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($631.2), net: +$21, [8s, 5s]
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,177.7), net: -$18
+Seat 10: 0sJbLkHFmJSWZdHijEjt+Q ($600), net: -$0
+***** End of hand R5-1696618-705 *****
+
+
+
+***** History for hand R5-1713520-146 *****
+Start hand: Wed Jul 01 00:02:00 GMT-0910 2009
+Table: 8GMd+Al3kIpigYI8VLQmAQ [1713520] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 2
+Players in round:  5
+Seat 1: 4ja6+z85c7B5h88+sheqjA ($736.30) 
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($1,261) 
+Seat 4: 5+59TmiIwRRVGJ+o3XnE8A ($498.40) 
+Seat 5: 9HDVzJQc1N4ItfkxhoYiXw ($425.55) 
+Seat 8: Dj45iUwAzTuXapcMImuUnw ($524.50) 
+5+59TmiIwRRVGJ+o3XnE8A posts small blind ($3)
+9HDVzJQc1N4ItfkxhoYiXw posts big blind ($6)
+---
+Dealing pocket cards
+Dj45iUwAzTuXapcMImuUnw calls $6
+4ja6+z85c7B5h88+sheqjA calls $6
+dpdomUAPQ7he/g2ahbcf7w folds
+5+59TmiIwRRVGJ+o3XnE8A calls $3
+9HDVzJQc1N4ItfkxhoYiXw checks
+--- Dealing flop [3c, Qs, 3h]
+5+59TmiIwRRVGJ+o3XnE8A checks
+9HDVzJQc1N4ItfkxhoYiXw checks
+Dj45iUwAzTuXapcMImuUnw checks
+4ja6+z85c7B5h88+sheqjA bets $27
+5+59TmiIwRRVGJ+o3XnE8A folds
+9HDVzJQc1N4ItfkxhoYiXw folds
+Dj45iUwAzTuXapcMImuUnw folds
+---
+Summary:
+Main pot: $24 won by 4ja6+z85c7B5h88+sheqjA ($22.80)
+Seat 1: 4ja6+z85c7B5h88+sheqjA ($753.1), net: +$16.80
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($1,261), net: -$0
+Seat 4: 5+59TmiIwRRVGJ+o3XnE8A ($492.4), net: -$6
+Seat 5: 9HDVzJQc1N4ItfkxhoYiXw ($419.55), net: -$6
+Seat 8: Dj45iUwAzTuXapcMImuUnw ($518.5), net: -$6
+***** End of hand R5-1713520-146 *****
+
+
+
+***** History for hand R5-1631690-1827 *****
+Start hand: Wed Jul 01 00:02:00 GMT-0910 2009
+Table: YAT4jKACpEQGFsSRkTUtLA [1631690] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 8
+Players in round:  3
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($744) 
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,525.30) 
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,108) 
+dpdomUAPQ7he/g2ahbcf7w posts small blind ($3)
+OpFtc1OHWWk12/bcA9XR9w posts big blind ($6)
+---
+Dealing pocket cards
+tIwDK8LFaCC6lHL30WydFg raises $18 to $18
+dpdomUAPQ7he/g2ahbcf7w calls $15
+OpFtc1OHWWk12/bcA9XR9w calls $12
+--- Dealing flop [5d, Kd, 4c]
+dpdomUAPQ7he/g2ahbcf7w checks
+OpFtc1OHWWk12/bcA9XR9w checks
+tIwDK8LFaCC6lHL30WydFg bets $42
+dpdomUAPQ7he/g2ahbcf7w calls $42
+OpFtc1OHWWk12/bcA9XR9w folds
+--- Dealing turn [3d]
+dpdomUAPQ7he/g2ahbcf7w checks
+tIwDK8LFaCC6lHL30WydFg checks
+--- Dealing river [9c]
+dpdomUAPQ7he/g2ahbcf7w bets $105
+tIwDK8LFaCC6lHL30WydFg folds
+---
+Summary:
+Main pot: $138 won by dpdomUAPQ7he/g2ahbcf7w ($136)
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($820), net: +$76
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,507.3), net: -$18
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,048), net: -$60
+***** End of hand R5-1631690-1827 *****
+
+
+
+***** History for hand R5-1631690-1828 *****
+Start hand: Wed Jul 01 00:02:00 GMT-0910 2009
+Table: YAT4jKACpEQGFsSRkTUtLA [1631690] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 2
+Players in round:  3
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($820) 
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,507.30) 
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,048) 
+OpFtc1OHWWk12/bcA9XR9w posts small blind ($3)
+tIwDK8LFaCC6lHL30WydFg posts big blind ($6)
+---
+Dealing pocket cards
+dpdomUAPQ7he/g2ahbcf7w raises $18 to $18
+OpFtc1OHWWk12/bcA9XR9w folds
+tIwDK8LFaCC6lHL30WydFg folds
+---
+Summary:
+Main pot: $15 won by dpdomUAPQ7he/g2ahbcf7w ($15)
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($829), net: +$9
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,504.3), net: -$3
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,042), net: -$6
+***** End of hand R5-1631690-1828 *****
+
+
+
+***** History for hand R5-1713520-147 *****
+Start hand: Wed Jul 01 00:03:00 GMT-0910 2009
+Table: 8GMd+Al3kIpigYI8VLQmAQ [1713520] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 4
+Players in round:  5
+Seat 1: 4ja6+z85c7B5h88+sheqjA ($753.10) 
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($1,261) 
+Seat 4: 5+59TmiIwRRVGJ+o3XnE8A ($492.40) 
+Seat 5: 9HDVzJQc1N4ItfkxhoYiXw ($419.55) 
+Seat 8: Dj45iUwAzTuXapcMImuUnw ($518.50) 
+9HDVzJQc1N4ItfkxhoYiXw posts small blind ($3)
+Dj45iUwAzTuXapcMImuUnw posts big blind ($6)
+---
+Dealing pocket cards
+4ja6+z85c7B5h88+sheqjA folds
+dpdomUAPQ7he/g2ahbcf7w folds
+5+59TmiIwRRVGJ+o3XnE8A folds
+9HDVzJQc1N4ItfkxhoYiXw calls $3
+Dj45iUwAzTuXapcMImuUnw checks
+--- Dealing flop [Qd, 9s, 4s]
+9HDVzJQc1N4ItfkxhoYiXw bets $12
+Dj45iUwAzTuXapcMImuUnw calls $12
+--- Dealing turn [7c]
+9HDVzJQc1N4ItfkxhoYiXw bets $22
+Dj45iUwAzTuXapcMImuUnw calls $22
+--- Dealing river [Jh]
+9HDVzJQc1N4ItfkxhoYiXw checks
+Dj45iUwAzTuXapcMImuUnw checks
+---
+Summary:
+Main pot: $80 won by 9HDVzJQc1N4ItfkxhoYiXw ($77)
+Seat 1: 4ja6+z85c7B5h88+sheqjA ($753.1), net: -$0
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($1,261), net: -$0
+Seat 4: 5+59TmiIwRRVGJ+o3XnE8A ($492.4), net: -$0
+Seat 5: 9HDVzJQc1N4ItfkxhoYiXw ($456.55), net: +$37, [Qs, Kh]
+Seat 8: Dj45iUwAzTuXapcMImuUnw ($478.5), net: -$40, [8c, 9d]
+***** End of hand R5-1713520-147 *****
+
+
+
+***** History for hand R5-1631690-1830 *****
+Start hand: Wed Jul 01 00:03:00 GMT-0910 2009
+Table: YAT4jKACpEQGFsSRkTUtLA [1631690] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 8
+Players in round:  4
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($829) 
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,513.30) 
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,039) 
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($327) 
+554QY7Ev0aD62XqWWrXhig posts small blind ($3)
+dpdomUAPQ7he/g2ahbcf7w posts big blind ($6)
+---
+Dealing pocket cards
+OpFtc1OHWWk12/bcA9XR9w folds
+tIwDK8LFaCC6lHL30WydFg folds
+554QY7Ev0aD62XqWWrXhig folds
+---
+Summary:
+Main pot: $6 won by dpdomUAPQ7he/g2ahbcf7w ($6)
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($832), net: +$3
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,513.3), net: -$0
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,039), net: -$0
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($324), net: -$3
+***** End of hand R5-1631690-1830 *****
+
+
+
+***** History for hand R5-1631690-1831 *****
+Start hand: Wed Jul 01 00:03:00 GMT-0910 2009
+Table: YAT4jKACpEQGFsSRkTUtLA [1631690] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 9
+Players in round:  4
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($832) 
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,513.30) 
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,039) 
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($324) 
+dpdomUAPQ7he/g2ahbcf7w posts small blind ($3)
+OpFtc1OHWWk12/bcA9XR9w posts big blind ($6)
+---
+Dealing pocket cards
+tIwDK8LFaCC6lHL30WydFg folds
+554QY7Ev0aD62XqWWrXhig raises $21 to $21
+dpdomUAPQ7he/g2ahbcf7w folds
+OpFtc1OHWWk12/bcA9XR9w folds
+---
+Summary:
+Main pot: $15 won by 554QY7Ev0aD62XqWWrXhig ($15)
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($829), net: -$3
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,507.3), net: -$6
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,039), net: -$0
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($333), net: +$9
+***** End of hand R5-1631690-1831 *****
+
+
+
+***** History for hand R5-1631690-1832 *****
+Start hand: Wed Jul 01 00:03:00 GMT-0910 2009
+Table: YAT4jKACpEQGFsSRkTUtLA [1631690] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 2
+Players in round:  4
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($829) 
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,507.30) 
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,039) 
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($333) 
+OpFtc1OHWWk12/bcA9XR9w posts small blind ($3)
+tIwDK8LFaCC6lHL30WydFg posts big blind ($6)
+---
+Dealing pocket cards
+554QY7Ev0aD62XqWWrXhig folds
+dpdomUAPQ7he/g2ahbcf7w folds
+OpFtc1OHWWk12/bcA9XR9w raises $27 to $30
+tIwDK8LFaCC6lHL30WydFg calls $24
+--- Dealing flop [9c, Jd, 8s]
+OpFtc1OHWWk12/bcA9XR9w checks
+tIwDK8LFaCC6lHL30WydFg checks
+--- Dealing turn [Kc]
+OpFtc1OHWWk12/bcA9XR9w bets $60
+tIwDK8LFaCC6lHL30WydFg folds
+---
+Summary:
+Main pot: $60 won by OpFtc1OHWWk12/bcA9XR9w ($58)
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($829), net: -$0
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,535.3), net: +$28
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,009), net: -$30
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($333), net: -$0
+***** End of hand R5-1631690-1832 *****
+
+
+
+***** History for hand R5-1696618-706 *****
+Start hand: Wed Jul 01 00:03:00 GMT-0910 2009
+Table: oFoblJK+ok7vl5Kbz4ey3g [1696618] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 3
+Players in round:  4
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($430) 
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($921.75) 
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($631.20) 
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,177.70) 
+XeGi0dtvsspGhf0+ptwMug posts small blind ($3)
+gecHH9Cn0mQdJ98xTCGVhw posts big blind ($6)
+---
+Dealing pocket cards
+1ZJu0tKAvdY+AAr6w/I46A folds
+dpdomUAPQ7he/g2ahbcf7w raises $18 to $18
+XeGi0dtvsspGhf0+ptwMug folds
+gecHH9Cn0mQdJ98xTCGVhw folds
+---
+Summary:
+Main pot: $15 won by dpdomUAPQ7he/g2ahbcf7w ($15)
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($430), net: -$0
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($930.75), net: +$9
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($628.2), net: -$3
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,171.7), net: -$6
+***** End of hand R5-1696618-706 *****
+
+
+
+***** History for hand R5-1696618-707 *****
+Start hand: Wed Jul 01 00:03:00 GMT-0910 2009
+Table: oFoblJK+ok7vl5Kbz4ey3g [1696618] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 8
+Players in round:  4
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($430) 
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($930.75) 
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($628.20) 
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,171.70) 
+gecHH9Cn0mQdJ98xTCGVhw posts small blind ($3)
+1ZJu0tKAvdY+AAr6w/I46A posts big blind ($6)
+---
+Dealing pocket cards
+dpdomUAPQ7he/g2ahbcf7w raises $18 to $18
+XeGi0dtvsspGhf0+ptwMug folds
+gecHH9Cn0mQdJ98xTCGVhw folds
+1ZJu0tKAvdY+AAr6w/I46A folds
+---
+Summary:
+Main pot: $15 won by dpdomUAPQ7he/g2ahbcf7w ($15)
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($424), net: -$6
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($939.75), net: +$9
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($628.2), net: -$0
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,168.7), net: -$3
+***** End of hand R5-1696618-707 *****
+
+
+
+***** History for hand R5-1696618-708 *****
+Start hand: Wed Jul 01 00:03:00 GMT-0910 2009
+Table: oFoblJK+ok7vl5Kbz4ey3g [1696618] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 9
+Players in round:  4
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($424) 
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($939.75) 
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($628.20) 
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,168.70) 
+1ZJu0tKAvdY+AAr6w/I46A posts small blind ($3)
+dpdomUAPQ7he/g2ahbcf7w posts big blind ($6)
+---
+Dealing pocket cards
+XeGi0dtvsspGhf0+ptwMug folds
+gecHH9Cn0mQdJ98xTCGVhw raises $12 to $12
+1ZJu0tKAvdY+AAr6w/I46A folds
+dpdomUAPQ7he/g2ahbcf7w folds
+---
+Summary:
+Main pot: $15 won by gecHH9Cn0mQdJ98xTCGVhw ($15)
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($421), net: -$3
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($933.75), net: -$6
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($628.2), net: -$0
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,177.7), net: +$9
+***** End of hand R5-1696618-708 *****
+
+
+
+***** History for hand R5-1699866-570 *****
+Start hand: Wed Jul 01 00:03:00 GMT-0910 2009
+Table: 6iGGDwDL90gYJM2NMewtnw [1699866] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 5
+Players in round:  4
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($591) 
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($836.80) 
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($591) 
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($333) 
+tIwDK8LFaCC6lHL30WydFg posts small blind ($3)
+554QY7Ev0aD62XqWWrXhig posts big blind ($6)
+---
+Dealing pocket cards
+0sJbLkHFmJSWZdHijEjt+Q raises $18 to $18
+dpdomUAPQ7he/g2ahbcf7w folds
+tIwDK8LFaCC6lHL30WydFg folds
+554QY7Ev0aD62XqWWrXhig calls $12
+--- Dealing flop [5h, 3d, 2c]
+554QY7Ev0aD62XqWWrXhig checks
+0sJbLkHFmJSWZdHijEjt+Q bets $27
+554QY7Ev0aD62XqWWrXhig folds
+---
+Summary:
+Main pot: $39 won by 0sJbLkHFmJSWZdHijEjt+Q ($37.05)
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($610.05), net: +$19.05
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($836.8), net: -$0
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($588), net: -$3
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($315), net: -$18
+***** End of hand R5-1699866-570 *****
+
+
+
+***** History for hand R5-1631690-1833 *****
+Start hand: Wed Jul 01 00:04:00 GMT-0910 2009
+Table: YAT4jKACpEQGFsSRkTUtLA [1631690] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 7
+Players in round:  4
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($829) 
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,535.30) 
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,009) 
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($333) 
+tIwDK8LFaCC6lHL30WydFg posts small blind ($3)
+554QY7Ev0aD62XqWWrXhig posts big blind ($6)
+---
+Dealing pocket cards
+dpdomUAPQ7he/g2ahbcf7w raises $18 to $18
+OpFtc1OHWWk12/bcA9XR9w folds
+tIwDK8LFaCC6lHL30WydFg calls $15
+554QY7Ev0aD62XqWWrXhig folds
+--- Dealing flop [Kd, Ks, 3c]
+tIwDK8LFaCC6lHL30WydFg checks
+dpdomUAPQ7he/g2ahbcf7w checks
+--- Dealing turn [8h]
+tIwDK8LFaCC6lHL30WydFg checks
+dpdomUAPQ7he/g2ahbcf7w checks
+--- Dealing river [Ah]
+tIwDK8LFaCC6lHL30WydFg checks
+dpdomUAPQ7he/g2ahbcf7w checks
+---
+Summary:
+Main pot: $42 won by tIwDK8LFaCC6lHL30WydFg ($40)
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($811), net: -$18, [4h, 7h]
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,535.3), net: -$0
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,031), net: +$22, [9d, 7d]
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($327), net: -$6
+***** End of hand R5-1631690-1833 *****
+
+
+
+***** History for hand R5-1696618-709 *****
+Start hand: Wed Jul 01 00:04:00 GMT-0910 2009
+Table: oFoblJK+ok7vl5Kbz4ey3g [1696618] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 1
+Players in round:  4
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($421) 
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($933.75) 
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($628.20) 
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,177.70) 
+dpdomUAPQ7he/g2ahbcf7w posts small blind ($3)
+XeGi0dtvsspGhf0+ptwMug posts big blind ($6)
+---
+Dealing pocket cards
+gecHH9Cn0mQdJ98xTCGVhw folds
+1ZJu0tKAvdY+AAr6w/I46A folds
+dpdomUAPQ7he/g2ahbcf7w raises $21 to $24
+XeGi0dtvsspGhf0+ptwMug calls $18
+--- Dealing flop [Ks, Qh, 9c]
+dpdomUAPQ7he/g2ahbcf7w bets $36
+XeGi0dtvsspGhf0+ptwMug calls $36
+--- Dealing turn [5s]
+dpdomUAPQ7he/g2ahbcf7w bets $80
+XeGi0dtvsspGhf0+ptwMug calls $80
+--- Dealing river [7s]
+dpdomUAPQ7he/g2ahbcf7w bets $222
+XeGi0dtvsspGhf0+ptwMug calls $222
+---
+Summary:
+Main pot: $724 won by XeGi0dtvsspGhf0+ptwMug ($722)
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($421), net: -$0
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($571.75), net: -$362, [7h, 8h]
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($988.2), net: +$360, [Jh, Kc]
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,177.7), net: -$0
+***** End of hand R5-1696618-709 *****
+
+
+
+***** History for hand R5-1699866-571 *****
+Start hand: Wed Jul 01 00:04:00 GMT-0910 2009
+Table: 6iGGDwDL90gYJM2NMewtnw [1699866] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 6
+Players in round:  5
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($120) 
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($610.05) 
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($836.80) 
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($588) 
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($315) 
+554QY7Ev0aD62XqWWrXhig posts small blind ($3)
+PXYRJue3GrDEdOWYMs2pGA posts big blind ($6)
+---
+Dealing pocket cards
+0sJbLkHFmJSWZdHijEjt+Q folds
+dpdomUAPQ7he/g2ahbcf7w folds
+tIwDK8LFaCC6lHL30WydFg raises $18 to $18
+554QY7Ev0aD62XqWWrXhig folds
+PXYRJue3GrDEdOWYMs2pGA calls $12
+--- Dealing flop [6d, 5h, Kc]
+PXYRJue3GrDEdOWYMs2pGA checks
+tIwDK8LFaCC6lHL30WydFg checks
+--- Dealing turn [9h]
+PXYRJue3GrDEdOWYMs2pGA bets $21
+tIwDK8LFaCC6lHL30WydFg bets $570 [all in]
+PXYRJue3GrDEdOWYMs2pGA folds
+---
+Summary:
+Main pot: $81 won by tIwDK8LFaCC6lHL30WydFg ($78)
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($81), net: -$39
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($610.05), net: -$0
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($836.8), net: -$0
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($627), net: +$39
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($312), net: -$3
+***** End of hand R5-1699866-571 *****
+
+
+
+***** History for hand R5-1713520-148 *****
+Start hand: Wed Jul 01 00:04:00 GMT-0910 2009
+Table: 8GMd+Al3kIpigYI8VLQmAQ [1713520] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 5
+Players in round:  5
+Seat 1: 4ja6+z85c7B5h88+sheqjA ($753.10) 
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($1,261) 
+Seat 4: 5+59TmiIwRRVGJ+o3XnE8A ($492.40) 
+Seat 5: 9HDVzJQc1N4ItfkxhoYiXw ($456.55) 
+Seat 8: Dj45iUwAzTuXapcMImuUnw ($478.50) 
+Dj45iUwAzTuXapcMImuUnw posts small blind ($3)
+4ja6+z85c7B5h88+sheqjA posts big blind ($6)
+---
+Dealing pocket cards
+dpdomUAPQ7he/g2ahbcf7w folds
+5+59TmiIwRRVGJ+o3XnE8A folds
+9HDVzJQc1N4ItfkxhoYiXw folds
+Dj45iUwAzTuXapcMImuUnw calls $3
+4ja6+z85c7B5h88+sheqjA raises $21 to $27
+Dj45iUwAzTuXapcMImuUnw calls $21
+--- Dealing flop [9c, 2c, 7h]
+Dj45iUwAzTuXapcMImuUnw checks
+4ja6+z85c7B5h88+sheqjA bets $55
+Dj45iUwAzTuXapcMImuUnw folds
+---
+Summary:
+Main pot: $54 won by 4ja6+z85c7B5h88+sheqjA ($51.30)
+Seat 1: 4ja6+z85c7B5h88+sheqjA ($777.4), net: +$24.30
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($1,261), net: -$0
+Seat 4: 5+59TmiIwRRVGJ+o3XnE8A ($492.4), net: -$0
+Seat 5: 9HDVzJQc1N4ItfkxhoYiXw ($456.55), net: -$0
+Seat 8: Dj45iUwAzTuXapcMImuUnw ($451.5), net: -$27
+***** End of hand R5-1713520-148 *****
+
+
+
+***** History for hand R5-1699866-572 *****
+Start hand: Wed Jul 01 00:05:00 GMT-0910 2009
+Table: 6iGGDwDL90gYJM2NMewtnw [1699866] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 10
+Players in round:  5
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($81) 
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($610.05) 
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($836.80) 
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($627) 
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($312) 
+PXYRJue3GrDEdOWYMs2pGA posts small blind ($3)
+0sJbLkHFmJSWZdHijEjt+Q posts big blind ($6)
+---
+Dealing pocket cards
+dpdomUAPQ7he/g2ahbcf7w raises $18 to $18
+tIwDK8LFaCC6lHL30WydFg folds
+554QY7Ev0aD62XqWWrXhig folds
+PXYRJue3GrDEdOWYMs2pGA folds
+0sJbLkHFmJSWZdHijEjt+Q folds
+---
+Summary:
+Main pot: $15 won by dpdomUAPQ7he/g2ahbcf7w ($15)
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($78), net: -$3
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($604.05), net: -$6
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($845.8), net: +$9
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($627), net: -$0
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($312), net: -$0
+***** End of hand R5-1699866-572 *****
+
+
+
+***** History for hand R5-1699866-573 *****
+Start hand: Wed Jul 01 00:05:00 GMT-0910 2009
+Table: 6iGGDwDL90gYJM2NMewtnw [1699866] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 3
+Players in round:  5
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($78) 
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($604.05) 
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($845.80) 
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($627) 
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($312) 
+0sJbLkHFmJSWZdHijEjt+Q posts small blind ($3)
+dpdomUAPQ7he/g2ahbcf7w posts big blind ($6)
+---
+Dealing pocket cards
+tIwDK8LFaCC6lHL30WydFg folds
+554QY7Ev0aD62XqWWrXhig raises $18 to $18
+PXYRJue3GrDEdOWYMs2pGA folds
+0sJbLkHFmJSWZdHijEjt+Q folds
+dpdomUAPQ7he/g2ahbcf7w folds
+---
+Summary:
+Main pot: $15 won by 554QY7Ev0aD62XqWWrXhig ($15)
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($78), net: -$0
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($601.05), net: -$3
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($839.8), net: -$6
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($627), net: -$0
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($321), net: +$9
+***** End of hand R5-1699866-573 *****
+
+
+
+***** History for hand R5-1713520-149 *****
+Start hand: Wed Jul 01 00:05:00 GMT-0910 2009
+Table: 8GMd+Al3kIpigYI8VLQmAQ [1713520] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 8
+Players in round:  5
+Seat 1: 4ja6+z85c7B5h88+sheqjA ($777.40) 
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($1,261) 
+Seat 4: 5+59TmiIwRRVGJ+o3XnE8A ($492.40) 
+Seat 5: 9HDVzJQc1N4ItfkxhoYiXw ($456.55) 
+Seat 8: Dj45iUwAzTuXapcMImuUnw ($451.50) 
+4ja6+z85c7B5h88+sheqjA posts small blind ($3)
+dpdomUAPQ7he/g2ahbcf7w posts big blind ($6)
+---
+Dealing pocket cards
+5+59TmiIwRRVGJ+o3XnE8A calls $6
+9HDVzJQc1N4ItfkxhoYiXw calls $6
+Dj45iUwAzTuXapcMImuUnw raises $12 to $12
+4ja6+z85c7B5h88+sheqjA folds
+dpdomUAPQ7he/g2ahbcf7w calls $6
+5+59TmiIwRRVGJ+o3XnE8A calls $6
+9HDVzJQc1N4ItfkxhoYiXw calls $6
+--- Dealing flop [4s, 7c, 5d]
+dpdomUAPQ7he/g2ahbcf7w checks
+5+59TmiIwRRVGJ+o3XnE8A checks
+9HDVzJQc1N4ItfkxhoYiXw bets $42
+Dj45iUwAzTuXapcMImuUnw folds
+dpdomUAPQ7he/g2ahbcf7w folds
+5+59TmiIwRRVGJ+o3XnE8A folds
+---
+Summary:
+Main pot: $51 won by 9HDVzJQc1N4ItfkxhoYiXw ($48.45)
+Seat 1: 4ja6+z85c7B5h88+sheqjA ($774.4), net: -$3
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($1,249), net: -$12
+Seat 4: 5+59TmiIwRRVGJ+o3XnE8A ($480.4), net: -$12
+Seat 5: 9HDVzJQc1N4ItfkxhoYiXw ($493), net: +$36.45
+Seat 8: Dj45iUwAzTuXapcMImuUnw ($439.5), net: -$12
+***** End of hand R5-1713520-149 *****
+
+
+
+***** History for hand R5-1631690-1834 *****
+Start hand: Wed Jul 01 00:05:00 GMT-0910 2009
+Table: YAT4jKACpEQGFsSRkTUtLA [1631690] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 8
+Players in round:  4
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($811) 
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,535.30) 
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,031) 
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($327) 
+554QY7Ev0aD62XqWWrXhig posts small blind ($3)
+dpdomUAPQ7he/g2ahbcf7w posts big blind ($6)
+---
+Dealing pocket cards
+OpFtc1OHWWk12/bcA9XR9w folds
+tIwDK8LFaCC6lHL30WydFg folds
+554QY7Ev0aD62XqWWrXhig raises $15 to $18
+dpdomUAPQ7he/g2ahbcf7w folds
+---
+Summary:
+Main pot: $12 won by 554QY7Ev0aD62XqWWrXhig ($12)
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($805), net: -$6
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,535.3), net: -$0
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,031), net: -$0
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($333), net: +$6
+***** End of hand R5-1631690-1834 *****
+
+
+
+***** History for hand R5-1631690-1835 *****
+Start hand: Wed Jul 01 00:05:00 GMT-0910 2009
+Table: YAT4jKACpEQGFsSRkTUtLA [1631690] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 9
+Players in round:  4
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($805) 
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,535.30) 
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,031) 
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($333) 
+dpdomUAPQ7he/g2ahbcf7w posts small blind ($3)
+OpFtc1OHWWk12/bcA9XR9w posts big blind ($6)
+---
+Dealing pocket cards
+tIwDK8LFaCC6lHL30WydFg raises $18 to $18
+554QY7Ev0aD62XqWWrXhig folds
+dpdomUAPQ7he/g2ahbcf7w folds
+OpFtc1OHWWk12/bcA9XR9w folds
+---
+Summary:
+Main pot: $15 won by tIwDK8LFaCC6lHL30WydFg ($15)
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($802), net: -$3
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,529.3), net: -$6
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,040), net: +$9
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($333), net: -$0
+***** End of hand R5-1631690-1835 *****
+
+
+
+***** History for hand R5-1696618-710 *****
+Start hand: Wed Jul 01 00:05:00 GMT-0910 2009
+Table: oFoblJK+ok7vl5Kbz4ey3g [1696618] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 3
+Players in round:  4
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($421) 
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($600) 
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($988.20) 
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,177.70) 
+XeGi0dtvsspGhf0+ptwMug posts small blind ($3)
+gecHH9Cn0mQdJ98xTCGVhw posts big blind ($6)
+---
+Dealing pocket cards
+1ZJu0tKAvdY+AAr6w/I46A calls $6
+dpdomUAPQ7he/g2ahbcf7w raises $24 to $24
+XeGi0dtvsspGhf0+ptwMug folds
+gecHH9Cn0mQdJ98xTCGVhw calls $18
+1ZJu0tKAvdY+AAr6w/I46A calls $18
+--- Dealing flop [Jc, As, 3s]
+gecHH9Cn0mQdJ98xTCGVhw checks
+1ZJu0tKAvdY+AAr6w/I46A checks
+dpdomUAPQ7he/g2ahbcf7w checks
+--- Dealing turn [Ac]
+gecHH9Cn0mQdJ98xTCGVhw checks
+1ZJu0tKAvdY+AAr6w/I46A checks
+dpdomUAPQ7he/g2ahbcf7w checks
+--- Dealing river [Qh]
+gecHH9Cn0mQdJ98xTCGVhw checks
+1ZJu0tKAvdY+AAr6w/I46A checks
+dpdomUAPQ7he/g2ahbcf7w bets $57
+gecHH9Cn0mQdJ98xTCGVhw folds
+1ZJu0tKAvdY+AAr6w/I46A folds
+---
+Summary:
+Main pot: $75 won by dpdomUAPQ7he/g2ahbcf7w ($73)
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($397), net: -$24
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($649), net: +$49
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($985.2), net: -$3
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,153.7), net: -$24
+***** End of hand R5-1696618-710 *****
+
+
+
+***** History for hand R5-1631690-1836 *****
+Start hand: Wed Jul 01 00:06:00 GMT-0910 2009
+Table: YAT4jKACpEQGFsSRkTUtLA [1631690] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 2
+Players in round:  4
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($802) 
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,529.30) 
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,040) 
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($333) 
+OpFtc1OHWWk12/bcA9XR9w posts small blind ($3)
+tIwDK8LFaCC6lHL30WydFg posts big blind ($6)
+---
+Dealing pocket cards
+554QY7Ev0aD62XqWWrXhig folds
+dpdomUAPQ7he/g2ahbcf7w raises $18 to $18
+OpFtc1OHWWk12/bcA9XR9w folds
+tIwDK8LFaCC6lHL30WydFg calls $12
+--- Dealing flop [Th, 2h, 7c]
+tIwDK8LFaCC6lHL30WydFg checks
+dpdomUAPQ7he/g2ahbcf7w bets $30
+tIwDK8LFaCC6lHL30WydFg folds
+---
+Summary:
+Main pot: $39 won by dpdomUAPQ7he/g2ahbcf7w ($37.05)
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($821.05), net: +$19.05
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,526.3), net: -$3
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,022), net: -$18
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($333), net: -$0
+***** End of hand R5-1631690-1836 *****
+
+
+
+***** History for hand R5-1631690-1837 *****
+Start hand: Wed Jul 01 00:06:00 GMT-0910 2009
+Table: YAT4jKACpEQGFsSRkTUtLA [1631690] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 7
+Players in round:  4
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($821.05) 
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,526.30) 
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,022) 
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($333) 
+tIwDK8LFaCC6lHL30WydFg posts small blind ($3)
+554QY7Ev0aD62XqWWrXhig posts big blind ($6)
+---
+Dealing pocket cards
+dpdomUAPQ7he/g2ahbcf7w folds
+OpFtc1OHWWk12/bcA9XR9w raises $36 to $36
+tIwDK8LFaCC6lHL30WydFg folds
+554QY7Ev0aD62XqWWrXhig raises $139 to $145
+OpFtc1OHWWk12/bcA9XR9w folds
+---
+Summary:
+Main pot: $75 won by 554QY7Ev0aD62XqWWrXhig ($75)
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($821.05), net: -$0
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,490.3), net: -$36
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,019), net: -$3
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($372), net: +$39
+***** End of hand R5-1631690-1837 *****
+
+
+
+***** History for hand R5-1631690-1838 *****
+Start hand: Wed Jul 01 00:06:00 GMT-0910 2009
+Table: YAT4jKACpEQGFsSRkTUtLA [1631690] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 8
+Players in round:  4
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($821.05) 
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,490.30) 
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,019) 
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($372) 
+554QY7Ev0aD62XqWWrXhig posts small blind ($3)
+dpdomUAPQ7he/g2ahbcf7w posts big blind ($6)
+---
+Dealing pocket cards
+OpFtc1OHWWk12/bcA9XR9w raises $36 to $36
+tIwDK8LFaCC6lHL30WydFg folds
+554QY7Ev0aD62XqWWrXhig folds
+dpdomUAPQ7he/g2ahbcf7w folds
+---
+Summary:
+Main pot: $15 won by OpFtc1OHWWk12/bcA9XR9w ($15)
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($815.05), net: -$6
+Seat 7: OpFtc1OHWWk12/bcA9XR9w ($1,499.3), net: +$9
+Seat 8: tIwDK8LFaCC6lHL30WydFg ($1,019), net: -$0
+Seat 9: 554QY7Ev0aD62XqWWrXhig ($369), net: -$3
+***** End of hand R5-1631690-1838 *****
+
+
+
+***** History for hand R5-1696618-711 *****
+Start hand: Wed Jul 01 00:06:00 GMT-0910 2009
+Table: oFoblJK+ok7vl5Kbz4ey3g [1696618] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 8
+Players in round:  5
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($397) 
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($649) 
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($985.20) 
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,153.70) 
+Seat 10: 0sJbLkHFmJSWZdHijEjt+Q ($600) 
+gecHH9Cn0mQdJ98xTCGVhw posts small blind ($3)
+0sJbLkHFmJSWZdHijEjt+Q posts big blind ($6)
+---
+Dealing pocket cards
+1ZJu0tKAvdY+AAr6w/I46A folds
+dpdomUAPQ7he/g2ahbcf7w folds
+XeGi0dtvsspGhf0+ptwMug raises $17 to $17
+gecHH9Cn0mQdJ98xTCGVhw folds
+0sJbLkHFmJSWZdHijEjt+Q folds
+---
+Summary:
+Main pot: $15 won by XeGi0dtvsspGhf0+ptwMug ($15)
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($397), net: -$0
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($649), net: -$0
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($994.2), net: +$9
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,150.7), net: -$3
+Seat 10: 0sJbLkHFmJSWZdHijEjt+Q ($594), net: -$6
+***** End of hand R5-1696618-711 *****
+
+
+
+***** History for hand R5-1696618-712 *****
+Start hand: Wed Jul 01 00:06:00 GMT-0910 2009
+Table: oFoblJK+ok7vl5Kbz4ey3g [1696618] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 9
+Players in round:  5
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($397) 
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($649) 
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($994.20) 
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,150.70) 
+Seat 10: 0sJbLkHFmJSWZdHijEjt+Q ($594) 
+0sJbLkHFmJSWZdHijEjt+Q posts small blind ($3)
+1ZJu0tKAvdY+AAr6w/I46A posts big blind ($6)
+---
+Dealing pocket cards
+dpdomUAPQ7he/g2ahbcf7w folds
+XeGi0dtvsspGhf0+ptwMug raises $13 to $13
+gecHH9Cn0mQdJ98xTCGVhw folds
+0sJbLkHFmJSWZdHijEjt+Q folds
+1ZJu0tKAvdY+AAr6w/I46A folds
+---
+Summary:
+Main pot: $15 won by XeGi0dtvsspGhf0+ptwMug ($15)
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($391), net: -$6
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($649), net: -$0
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($1,003.2), net: +$9
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,150.7), net: -$0
+Seat 10: 0sJbLkHFmJSWZdHijEjt+Q ($591), net: -$3
+***** End of hand R5-1696618-712 *****
+
+
+
+***** History for hand R5-1699866-574 *****
+Start hand: Wed Jul 01 00:06:00 GMT-0910 2009
+Table: 6iGGDwDL90gYJM2NMewtnw [1699866] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 4
+Players in round:  5
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($78) 
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($601.05) 
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($839.80) 
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($627) 
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($321) 
+dpdomUAPQ7he/g2ahbcf7w posts small blind ($3)
+tIwDK8LFaCC6lHL30WydFg posts big blind ($6)
+---
+Dealing pocket cards
+554QY7Ev0aD62XqWWrXhig folds
+PXYRJue3GrDEdOWYMs2pGA folds
+0sJbLkHFmJSWZdHijEjt+Q folds
+dpdomUAPQ7he/g2ahbcf7w raises $21 to $24
+tIwDK8LFaCC6lHL30WydFg folds
+---
+Summary:
+Main pot: $12 won by dpdomUAPQ7he/g2ahbcf7w ($12)
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($78), net: -$0
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($601.05), net: -$0
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($845.8), net: +$6
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($621), net: -$6
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($321), net: -$0
+***** End of hand R5-1699866-574 *****
+
+
+
+***** History for hand R5-1699866-575 *****
+Start hand: Wed Jul 01 00:06:00 GMT-0910 2009
+Table: 6iGGDwDL90gYJM2NMewtnw [1699866] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 5
+Players in round:  5
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($78) 
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($601.05) 
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($845.80) 
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($621) 
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($321) 
+tIwDK8LFaCC6lHL30WydFg posts small blind ($3)
+554QY7Ev0aD62XqWWrXhig posts big blind ($6)
+---
+Dealing pocket cards
+PXYRJue3GrDEdOWYMs2pGA folds
+0sJbLkHFmJSWZdHijEjt+Q folds
+dpdomUAPQ7he/g2ahbcf7w raises $18 to $18
+tIwDK8LFaCC6lHL30WydFg folds
+554QY7Ev0aD62XqWWrXhig folds
+---
+Summary:
+Main pot: $15 won by dpdomUAPQ7he/g2ahbcf7w ($15)
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($78), net: -$0
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($601.05), net: -$0
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($854.8), net: +$9
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($618), net: -$3
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($315), net: -$6
+***** End of hand R5-1699866-575 *****
+
+
+
+***** History for hand R5-1699866-576 *****
+Start hand: Wed Jul 01 00:06:00 GMT-0910 2009
+Table: 6iGGDwDL90gYJM2NMewtnw [1699866] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 6
+Players in round:  5
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($78) 
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($601.05) 
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($854.80) 
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($618) 
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($315) 
+554QY7Ev0aD62XqWWrXhig posts small blind ($3)
+PXYRJue3GrDEdOWYMs2pGA posts big blind ($6)
+---
+Dealing pocket cards
+0sJbLkHFmJSWZdHijEjt+Q folds
+dpdomUAPQ7he/g2ahbcf7w folds
+tIwDK8LFaCC6lHL30WydFg raises $12 to $12
+554QY7Ev0aD62XqWWrXhig folds
+PXYRJue3GrDEdOWYMs2pGA calls $6
+--- Dealing flop [6h, Qs, Qc]
+PXYRJue3GrDEdOWYMs2pGA checks
+tIwDK8LFaCC6lHL30WydFg bets $12
+PXYRJue3GrDEdOWYMs2pGA calls $12
+--- Dealing turn [6s]
+PXYRJue3GrDEdOWYMs2pGA checks
+tIwDK8LFaCC6lHL30WydFg checks
+--- Dealing river [Tc]
+PXYRJue3GrDEdOWYMs2pGA bets $27
+tIwDK8LFaCC6lHL30WydFg folds
+---
+Summary:
+Main pot: $51 won by PXYRJue3GrDEdOWYMs2pGA ($48.45)
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($102.45), net: +$24.45
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($601.05), net: -$0
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($854.8), net: -$0
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($594), net: -$24
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($312), net: -$3
+***** End of hand R5-1699866-576 *****
+
+
+
+***** History for hand R5-1713520-150 *****
+Start hand: Wed Jul 01 00:06:00 GMT-0910 2009
+Table: 8GMd+Al3kIpigYI8VLQmAQ [1713520] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 1
+Players in round:  5
+Seat 1: 4ja6+z85c7B5h88+sheqjA ($774.40) 
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($1,249) 
+Seat 4: 5+59TmiIwRRVGJ+o3XnE8A ($480.40) 
+Seat 5: 9HDVzJQc1N4ItfkxhoYiXw ($493) 
+Seat 8: Dj45iUwAzTuXapcMImuUnw ($439.50) 
+dpdomUAPQ7he/g2ahbcf7w posts small blind ($3)
+5+59TmiIwRRVGJ+o3XnE8A posts big blind ($6)
+---
+Dealing pocket cards
+9HDVzJQc1N4ItfkxhoYiXw folds
+Dj45iUwAzTuXapcMImuUnw calls $6
+4ja6+z85c7B5h88+sheqjA calls $6
+dpdomUAPQ7he/g2ahbcf7w folds
+5+59TmiIwRRVGJ+o3XnE8A checks
+--- Dealing flop [8s, 2c, 6c]
+5+59TmiIwRRVGJ+o3XnE8A checks
+Dj45iUwAzTuXapcMImuUnw checks
+4ja6+z85c7B5h88+sheqjA bets $24
+5+59TmiIwRRVGJ+o3XnE8A folds
+Dj45iUwAzTuXapcMImuUnw folds
+---
+Summary:
+Main pot: $21 won by 4ja6+z85c7B5h88+sheqjA ($19.95)
+Seat 1: 4ja6+z85c7B5h88+sheqjA ($788.35), net: +$13.95
+Seat 2: dpdomUAPQ7he/g2ahbcf7w ($1,246), net: -$3
+Seat 4: 5+59TmiIwRRVGJ+o3XnE8A ($474.4), net: -$6
+Seat 5: 9HDVzJQc1N4ItfkxhoYiXw ($493), net: -$0
+Seat 8: Dj45iUwAzTuXapcMImuUnw ($433.5), net: -$6
+***** End of hand R5-1713520-150 *****
+
+
+
+***** History for hand R5-1696618-713 *****
+Start hand: Wed Jul 01 00:07:00 GMT-0910 2009
+Table: oFoblJK+ok7vl5Kbz4ey3g [1696618] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 10
+Players in round:  5
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($391) 
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($649) 
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($1,003.20) 
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,150.70) 
+Seat 10: 0sJbLkHFmJSWZdHijEjt+Q ($591) 
+1ZJu0tKAvdY+AAr6w/I46A posts small blind ($3)
+dpdomUAPQ7he/g2ahbcf7w posts big blind ($6)
+---
+Dealing pocket cards
+XeGi0dtvsspGhf0+ptwMug folds
+gecHH9Cn0mQdJ98xTCGVhw folds
+0sJbLkHFmJSWZdHijEjt+Q raises $18 to $18
+1ZJu0tKAvdY+AAr6w/I46A calls $15
+dpdomUAPQ7he/g2ahbcf7w folds
+--- Dealing flop [6d, Ah, Th]
+1ZJu0tKAvdY+AAr6w/I46A checks
+0sJbLkHFmJSWZdHijEjt+Q bets $30
+1ZJu0tKAvdY+AAr6w/I46A calls $30
+--- Dealing turn [7d]
+1ZJu0tKAvdY+AAr6w/I46A checks
+0sJbLkHFmJSWZdHijEjt+Q checks
+--- Dealing river [2c]
+1ZJu0tKAvdY+AAr6w/I46A bets $102
+0sJbLkHFmJSWZdHijEjt+Q folds
+---
+Summary:
+Main pot: $102 won by 1ZJu0tKAvdY+AAr6w/I46A ($99)
+Seat 1: 1ZJu0tKAvdY+AAr6w/I46A ($442), net: +$51
+Seat 3: dpdomUAPQ7he/g2ahbcf7w ($643), net: -$6
+Seat 8: XeGi0dtvsspGhf0+ptwMug ($1,003.2), net: -$0
+Seat 9: gecHH9Cn0mQdJ98xTCGVhw ($1,150.7), net: -$0
+Seat 10: 0sJbLkHFmJSWZdHijEjt+Q ($543), net: -$48
+***** End of hand R5-1696618-713 *****
+
+
+
+***** History for hand R5-1699866-577 *****
+Start hand: Wed Jul 01 00:07:00 GMT-0910 2009
+Table: 6iGGDwDL90gYJM2NMewtnw [1699866] (NO_LIMIT TEXAS_HOLDEM $3/$6, Real money)
+Button: seat 10
+Players in round:  5
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($102.45) 
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($601.05) 
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($854.80) 
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($594) 
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($312) 
+PXYRJue3GrDEdOWYMs2pGA posts small blind ($3)
+0sJbLkHFmJSWZdHijEjt+Q posts big blind ($6)
+---
+Dealing pocket cards
+dpdomUAPQ7he/g2ahbcf7w folds
+tIwDK8LFaCC6lHL30WydFg folds
+554QY7Ev0aD62XqWWrXhig folds
+PXYRJue3GrDEdOWYMs2pGA calls $3
+0sJbLkHFmJSWZdHijEjt+Q checks
+--- Dealing flop [5h, Tc, 7d]
+PXYRJue3GrDEdOWYMs2pGA bets $6
+0sJbLkHFmJSWZdHijEjt+Q folds
+---
+Summary:
+Main pot: $12 won by PXYRJue3GrDEdOWYMs2pGA ($11.40)
+Seat 3: PXYRJue3GrDEdOWYMs2pGA ($107.85), net: +$5.40
+Seat 4: 0sJbLkHFmJSWZdHijEjt+Q ($595.05), net: -$6
+Seat 5: dpdomUAPQ7he/g2ahbcf7w ($854.8), net: -$0
+Seat 6: tIwDK8LFaCC6lHL30WydFg ($594), net: -$0
+Seat 10: 554QY7Ev0aD62XqWWrXhig ($312), net: -$0
+***** End of hand R5-1699866-577 *****

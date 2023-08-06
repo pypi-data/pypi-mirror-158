@@ -1,0 +1,66 @@
+# poker-log-parser
+`poker-log-parser` is a blazingly-fast Rust/Python library for parsing poker hand histories. 
+
+Parsing hand histories is a common task in most 3rd party poker projects, however it has many edge cases, formats and is very tedious.  This library was written to take poker hand history text files and parse all relevant hand information as quickly as possible without having to deal with all the headaches.
+
+# Features
+- Generic poker hand data format
+- Parsing speed (parse multiple GB/s on modern CPUs)
+- Binary serialization/deserialization
+- Compressed binary serialization/deserialization on disk
+- JSON serialization/deserialization into:
+  - Custom compact JSON format
+  - <a href="https://hh-specs.handhistory.org/">OpenHandHistory format</a> for interfacing with other tools
+
+
+# Supported websites
+- Poker Stars (.com / .fr / .it / .es)
+- On Game (.com / .fr / .it)
+- Pluribus (subset of Poker Stars format generated from Pluribus AI match logs)
+
+
+# Supported game types
+- No Limit Hold'em
+
+# Future website support
+- Absolute
+- EverLeaf
+- Bet Online
+- Full Tilt Poker
+- Pacific Poker (now called 888Poker)
+- Poker Tracker
+- Party Poker
+- GG Poker
+- Winamax
+- Kings Club
+- Bovada
+- Enet
+- Cake
+- Pkr
+- Winning Poker
+
+# Future game type support
+- Fixed Limit Hold'em
+- Pot Limit Hold'em
+- Fixed Limit Omaha
+- Pot Limit Omaha
+- Fixed Limit OmahaHiLo
+- Pot Limit OmahaHiLo
+
+# Getting started
+
+## Python
+
+Installation:
+```shell
+pip install poker-log-parser
+```
+
+Basic usage:
+```python
+import poker_log_parser as pklp
+
+hands = pklp.parse_path("path/to/my_hand_history.txt") # must be a string
+
+print(str(hands))
+```
