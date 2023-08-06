@@ -1,0 +1,16 @@
+Metadata-Version: 1.0
+Name: dischook
+Version: 2
+Summary: The best way to execute discord webhooks!
+Home-page: https://github.com/AWeirdScratcher/dischook
+Author: AWeirdScratcher
+Author-email: aweirdscrather@gmail.com
+License: MIT
+Description: # dischook.py is here!
+        ### Getting Started
+        ```
+        pip install git+https://github.com/AWeirdScratcher/dischook.git
+        ```
+        
+Keywords: discord,webhook,dischook,execute
+Platform: UNKNOWN
