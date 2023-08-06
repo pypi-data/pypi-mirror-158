@@ -1,0 +1,2 @@
+[console_scripts]
+pipx = bygeon.main
