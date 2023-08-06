@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: steam-tools-ng
+Version: 1.1.1
+Summary: Some useful tools to use with steam client or compatible programs and websites.
+Home-page: http://github.com/ShyPixie/steam-tools-ng
+Author: Lara Maia
+Author-email: dev@lara.monster
+License: GPLv3
+Keywords: steam valve
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Games/Entertainment
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: stlib (>=0.14)
+Requires-Dist: aiohttp
+Requires-Dist: certifi
+Requires-Dist: pywin32 ; sys_platform == "win32"
+
