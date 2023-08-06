@@ -1,0 +1,12 @@
+tello_control/__init__.py,sha256=txDsbSanbSidOBZ2fiCpECgF_q3nzbwkNJL6YW3v7Vc,246
+tello_control/controller.py,sha256=ca0RA_oi8nLL4Y-2Y7G42iUtjoSTYWhv5UbRdoaFOWo,3261
+tello_control/experiment.py,sha256=M-pXl-DeQKtZMdwub0iXK5rVvzYRGKNzVnJlFwx9k7U,2719
+tello_control/structs.py,sha256=rxY5tpPzKuwGMRuhgyCvkg8wNVKFicRILQb20Y2QXfE,3149
+tello_control/tello.py,sha256=O7xKRbh7d-nXbqojLnHz0JGy69d5RtJfsWUZNCExmRE,2871
+tello_control/udp_interface.py,sha256=iOmW1-UNejIKFcXd7o6L4gHEFDjiyUaUcml0jMv9NM8,5047
+tello_control/utils.py,sha256=_Bjfu6QKng__-yd8Xq6M4MkcQUOznH1qUWqmJUkWB9w,289
+tello_control-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tello_control-1.0.0.dist-info/METADATA,sha256=5BGzNE0YNQgkF2EbJ3_rAxQ-ydjisibKai46f0ZdRek,41242
+tello_control-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tello_control-1.0.0.dist-info/top_level.txt,sha256=iC4w1TG-N_j5SgmaH9XTsyiD15RVlA9JZ6SPaHwQX-k,14
+tello_control-1.0.0.dist-info/RECORD,,
