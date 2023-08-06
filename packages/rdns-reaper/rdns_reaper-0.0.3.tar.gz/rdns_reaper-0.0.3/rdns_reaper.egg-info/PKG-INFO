@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rdns-reaper
+Version: 0.0.3
+Summary: Reverse DNS lookup engine
+Home-page: https://github.com/mullaneywt/rdns_reaper
+Author: Will Mullaney
+Author-email: rdns-reaper@mullaneywt.anonaddy.com
+License: None
+Project-URL: Bug Tracker, https://github.com/mullaneywt/rdns_reaper/issues
+Description-Content-Type: text/markdown
+
+# rdns_reaper
