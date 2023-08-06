@@ -1,0 +1,9 @@
+LICENSE
+LICENSE.txt
+README.md
+setup.py
+ndbcrealtime/__init__.py
+ndbcrealtime.egg-info/PKG-INFO
+ndbcrealtime.egg-info/SOURCES.txt
+ndbcrealtime.egg-info/dependency_links.txt
+ndbcrealtime.egg-info/top_level.txt
