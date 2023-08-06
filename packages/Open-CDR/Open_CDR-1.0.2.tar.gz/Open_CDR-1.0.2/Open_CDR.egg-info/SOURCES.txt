@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+Open_CDR.egg-info/PKG-INFO
+Open_CDR.egg-info/SOURCES.txt
+Open_CDR.egg-info/dependency_links.txt
+Open_CDR.egg-info/top_level.txt
