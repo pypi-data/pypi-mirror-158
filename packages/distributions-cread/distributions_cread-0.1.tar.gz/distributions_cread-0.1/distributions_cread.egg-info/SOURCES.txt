@@ -1,0 +1,10 @@
+setup.py
+distributions_cread/Binomial.py
+distributions_cread/Gaussian.py
+distributions_cread/General.py
+distributions_cread/__init__.py
+distributions_cread.egg-info/PKG-INFO
+distributions_cread.egg-info/SOURCES.txt
+distributions_cread.egg-info/dependency_links.txt
+distributions_cread.egg-info/not-zip-safe
+distributions_cread.egg-info/top_level.txt
