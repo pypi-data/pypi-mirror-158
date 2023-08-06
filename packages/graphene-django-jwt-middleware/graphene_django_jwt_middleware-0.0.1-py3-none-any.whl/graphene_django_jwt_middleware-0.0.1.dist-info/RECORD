@@ -1,0 +1,7 @@
+LICENSE,sha256=yI6WihrtRnvEXuTE32siYCiosuEgDVTr7pbt3vwa_5g,1076
+graphene_django_jwt_middleware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphene_django_jwt_middleware/middleware.py,sha256=BVx_WMjF1lTK89-i4RPSANgt992WUDj_216yrYYXt5M,1331
+graphene_django_jwt_middleware-0.0.1.dist-info/LICENSE,sha256=yI6WihrtRnvEXuTE32siYCiosuEgDVTr7pbt3vwa_5g,1076
+graphene_django_jwt_middleware-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+graphene_django_jwt_middleware-0.0.1.dist-info/METADATA,sha256=isqmqMJV7KJyf4DD2D4zRNrjxbCB3kET1PhcUKIBT6M,1132
+graphene_django_jwt_middleware-0.0.1.dist-info/RECORD,,

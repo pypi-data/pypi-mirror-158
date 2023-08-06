@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: graphene-django-jwt-middleware
+Version: 0.0.1
+Summary: Middleware to check JWT validation in GraphQL schemas
+Home-page: https://github.com/instruct-br/graphene-django-jwt-middleware
+License: MIT
+Keywords: graphene,django,jwt,middleware,graphql
+Author: Instruct Developers
+Author-email: oss@instruct.com.br
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: django (>=2.2.6,<3.0.0)
+Requires-Dist: pyjwt (>=2.4.0,<3.0.0)
+Project-URL: Repository, https://github.com/instruct-br/graphene-django-jwt-middleware
+Description-Content-Type: text/markdown
+
+# Graphene Django JWT Middleware
+
+This is a [Graphene Django](https://docs.graphene-python.org/projects/django/en/latest/) middleware to check JWT in GraphQL schemas.
+
