@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cobrseo
+Version: 0.0.7
+Summary: Helper
+Author: Vlad Zozulia
+Author-email: vlad@cobr.info
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
