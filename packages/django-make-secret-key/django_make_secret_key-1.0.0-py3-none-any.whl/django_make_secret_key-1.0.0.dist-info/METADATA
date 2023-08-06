@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: django-make-secret-key
+Version: 1.0.0
+Summary: A Python script that generates a new Django secret key and prints it to stdout.
+Home-page: https://github.com/armandtvz/django-make-secret-key
+Author: Armandt van Zyl
+Author-email: armandtvz@gmail.com
+License: GPL-3.0
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django (>=3.2)
+
+# django-make-secret-key
+
+A Python script that generates a new Django secret key and prints it to stdout.
+
+## Installation
+
+```bash
+pip install django-make-secret-key
+```
