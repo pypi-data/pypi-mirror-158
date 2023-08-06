@@ -1,0 +1,8 @@
+ptyprocess
+pysha3>=1.0.2
+flask>=2.1.0
+web3>=5.29.2
+eth-hash<0.4.0,>=0.3.1
+eth-utils==1.9.5
+eth-rlp==0.2.0
+setuptools
