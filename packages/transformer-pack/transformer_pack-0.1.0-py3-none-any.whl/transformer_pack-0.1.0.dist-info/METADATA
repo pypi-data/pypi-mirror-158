@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: transformer-pack
+Version: 0.1.0
+Summary: Package of extra scikit-learn transformers
+Home-page: UNKNOWN
+Author: Rafael Moret
+Author-email: UNKNOWN
+License: GPLv3
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: tensorflow
+
+UNKNOWN
+
+
