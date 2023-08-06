@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/os_env_bob_ross.egg-info/PKG-INFO
+src/os_env_bob_ross.egg-info/SOURCES.txt
+src/os_env_bob_ross.egg-info/dependency_links.txt
+src/os_env_bob_ross.egg-info/requires.txt
+src/os_env_bob_ross.egg-info/top_level.txt
