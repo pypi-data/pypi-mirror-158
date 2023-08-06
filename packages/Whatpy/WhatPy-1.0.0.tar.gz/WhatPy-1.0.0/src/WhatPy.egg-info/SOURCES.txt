@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/WhatPy.egg-info/PKG-INFO
+src/WhatPy.egg-info/SOURCES.txt
+src/WhatPy.egg-info/dependency_links.txt
+src/WhatPy.egg-info/requires.txt
+src/WhatPy.egg-info/top_level.txt
+src/example/__init__.py
+src/example/pythonwhatsapp.py
