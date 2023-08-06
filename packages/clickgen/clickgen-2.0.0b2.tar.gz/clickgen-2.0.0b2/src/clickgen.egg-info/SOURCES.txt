@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/clickgen/__init__.py
+src/clickgen/configparser.py
+src/clickgen/cursors.py
+src/clickgen.egg-info/PKG-INFO
+src/clickgen.egg-info/SOURCES.txt
+src/clickgen.egg-info/dependency_links.txt
+src/clickgen.egg-info/entry_points.txt
+src/clickgen.egg-info/requires.txt
+src/clickgen.egg-info/top_level.txt
