@@ -1,0 +1,9 @@
+atlassian_jwt/__init__.py,sha256=kRUf_Zp50CCrwc8T-FuWgY8roe85BDNVQ-TEMXeGydc,256
+atlassian_jwt/authenticate.py,sha256=ms2LkGmEiPuE6jWKOpr1kuCNTSBs_CVZbCYzrcLQxMI,4679
+atlassian_jwt/encode.py,sha256=Sn14m-EAGlOjPUfMVv4l8Zh6MiiCqLEprfvJ7f4gNLA,1809
+atlassian_jwt/url_utils.py,sha256=40DIbxI9XkfWaSzyr-ny6AAA2MFO5Z6f7NgOR1lgfHE,4433
+atlassian_jwt-3.0.0.dist-info/LICENSE.txt,sha256=3hKCUA3HdKYjQXHFxEfar9Jy4YDB_Wy4fOHyqOLvTMw,1079
+atlassian_jwt-3.0.0.dist-info/METADATA,sha256=qq9FQ1ngCU8IIH9woeaSnBLgj_4kiy8H1088AxeTrvE,4294
+atlassian_jwt-3.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+atlassian_jwt-3.0.0.dist-info/top_level.txt,sha256=81UHIqPdF4MbI-pFqSXsJlltZ0sP31HKh2Z0eQp5EKk,14
+atlassian_jwt-3.0.0.dist-info/RECORD,,
