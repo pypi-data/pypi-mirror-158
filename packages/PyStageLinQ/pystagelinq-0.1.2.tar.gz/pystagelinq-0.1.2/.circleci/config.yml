@@ -1,0 +1,59 @@
+version: 2.1
+
+orbs:
+  python: circleci/python@1.5.0
+
+jobs:
+  build:
+    docker:
+      - image: cimg/python:3.10.2
+
+    resource_class: small
+    steps:
+      - checkout
+      - python/install-packages:
+          pkg-manager: pip
+          pip-dependency-file: build_requirements.txt
+      - run:
+          name: Run tests
+          command: python3 -m build
+      - store_artifacts:
+          path: dist/
+
+  build-and-publish:
+    docker:
+      - image: cimg/python:3.10.2
+
+    resource_class: small
+
+    steps:
+      - checkout
+      - python/install-packages:
+          pkg-manager: pip
+          pip-dependency-file: build_requirements.txt
+      - run:
+          name: build and publish release
+          command: bash make_release.sh ${PyPiToken}
+      - store_artifacts:
+          path: dist/
+
+workflows:
+  commit:
+    jobs:
+      - build:
+          filters:
+            tags:
+              ignore:
+                /^[0-9]+(\.[0-9]+)*$/
+
+  release:
+    jobs:
+      - build-and-publish:
+          filters:
+            tags:
+              only:
+                /^[0-9]+(\.[0-9]+)*$/
+            branches:
+              ignore: /.*/
+          context:
+            PyPi
