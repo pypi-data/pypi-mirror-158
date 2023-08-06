@@ -1,0 +1,6 @@
+MANIFEST.in
+setup.py
+hammerspace.egg-info/PKG-INFO
+hammerspace.egg-info/SOURCES.txt
+hammerspace.egg-info/dependency_links.txt
+hammerspace.egg-info/top_level.txt
