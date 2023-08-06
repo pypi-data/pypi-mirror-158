@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: chromatix
+Version: 0.0.1
+Summary: Differentiable computational optics library using JAX!
+Home-page: https://github.com/TuragaLab/chromatix
+Author: Diptodip Deb
+License: MIT
+Keywords: differentiable,simulation,computational optics,machine learning
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: jax
+Requires-Dist: flax
+Requires-Dist: chex
+Requires-Dist: einops
+Provides-Extra: dev
+Requires-Dist: jupyter ; extra == 'dev'
+Requires-Dist: matplotlib ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Provides-Extra: vis
+Requires-Dist: matplotlib ; extra == 'vis'
+
+# chromatix
+Differentiable computational optics using JAX!
