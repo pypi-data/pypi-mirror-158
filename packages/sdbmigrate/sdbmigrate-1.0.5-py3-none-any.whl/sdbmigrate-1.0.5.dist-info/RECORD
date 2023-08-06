@@ -1,0 +1,17 @@
+LICENSE,sha256=B10Dn5ai5G3f7f62RZidSz4gjzb9mYpyS64loopyq78,11909
+README.md,sha256=DtVlYU6CIcPGom_9oGYnPZpLznBQSGWNywsaCoS-_Kc,4885
+pyproject.toml,sha256=FiEcFTFwI-gKqbMuxzlRExEAnyKRAhDEEK321qIyA3U,896
+setup.cfg,sha256=HEc8uu6NpfxG5_AVh5SvXOpEFMNKPPPxgMIAH144vT4,38
+setup.py,sha256=hlWtlxBC9tkgibTvpvGckeB0CIvlzZqOXbQzTsT77Fk,617
+bin/sdbmigrate.py,sha256=Dp6RrxFJTDKbcErttatP-K0HliFiwNVXjoVU49-6XQo,31945
+sdbmigrate-1.0.5.data/scripts/sdbmigrate.py,sha256=ErpBteVCgaYvxb9YnOOnYH3cywIG7AmnezTQdpZzUfs,31932
+sdbmigrate.egg-info/PKG-INFO,sha256=aOk54IK21ObPODWyt43mb-QTVzN1RZOGhwlgPr702Ck,19295
+sdbmigrate.egg-info/SOURCES.txt,sha256=NhE4qBRlMGe1dgwLhmjYu_oV4Rxs01ZHlutKFLocpV8,238
+sdbmigrate.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sdbmigrate.egg-info/requires.txt,sha256=neSl7cP2qyvcU8ahPPNtLiBURNw7MDoukErWHjOg3E8,72
+sdbmigrate.egg-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sdbmigrate-1.0.5.dist-info/LICENSE,sha256=B10Dn5ai5G3f7f62RZidSz4gjzb9mYpyS64loopyq78,11909
+sdbmigrate-1.0.5.dist-info/METADATA,sha256=zA6F4fU0TeFo_3czj3-Mob-M72Cuz5b_BPIh7p4vYlU,19418
+sdbmigrate-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sdbmigrate-1.0.5.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sdbmigrate-1.0.5.dist-info/RECORD,,
