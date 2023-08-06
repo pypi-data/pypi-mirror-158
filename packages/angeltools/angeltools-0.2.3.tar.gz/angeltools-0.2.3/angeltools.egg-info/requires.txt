@@ -1,0 +1,9 @@
+tqdm
+numpy
+psutil
+redis
+scrapy
+requests
+pygame
+pillow
+python-redis-lock
