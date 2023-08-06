@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: create-app
+Version: 0.1.1
+Summary: A tool for creating applications from templates. Use your time wisely, while adopting state-of-the-art technologies and practices!
+Home-page: https://github.com/application-creators/create_app
+Author: Gabriel Bazan
+Author-email: gbazan@outlook.com
+License: MIT
+Requires-Python: >=3.6.2
+License-File: LICENSE
