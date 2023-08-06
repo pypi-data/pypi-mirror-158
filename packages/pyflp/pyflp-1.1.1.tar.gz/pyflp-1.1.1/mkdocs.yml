@@ -1,0 +1,38 @@
+site_name: PyFLP
+site_url: https://pyflp.rtfd.io/
+site_description: FL Studio project file parser
+site_author: demberto
+repo_url: https://github.com/demberto/PyFLP/
+copyright: (c) demberto 2021
+nav:
+  - Overview: index.md
+  - Installation: installation.md
+  - Handbook: handbook.md
+  - FLP Format: flp-format.md
+  - Reference: reference.md
+  - Contributing: contributing.md
+  - Report a bug: https://github.com/demberto/PyFLP/issues
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+markdown_extensions:
+  - admonition
+plugins:
+  - include-markdown
+  - search
+  - autorefs
+  - mkdocstrings:
+      handlers:
+        python:
+          rendering:
+            show_if_no_docstring: yes
+      watch:
+        - pyflp
