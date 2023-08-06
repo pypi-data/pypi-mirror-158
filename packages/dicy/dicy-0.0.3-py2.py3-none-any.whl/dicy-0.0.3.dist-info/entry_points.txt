@@ -1,0 +1,3 @@
+[console_scripts]
+dicy = dicy.cli:main
+
