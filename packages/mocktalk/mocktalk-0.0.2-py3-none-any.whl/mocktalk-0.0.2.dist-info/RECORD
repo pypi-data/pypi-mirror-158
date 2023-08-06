@@ -1,0 +1,13 @@
+mocktalk/__init__.py,sha256=Xd1nmb4zX242eJjEK2dF_MS3rKvWhK1_OQtBYFzCARc,122
+mocktalk/__main__.py,sha256=mh5WqHicDnTNgcjF1YtTptcdWgp9KS4aWNZRcUDfAxw,68
+mocktalk/cli.py,sha256=vuxZhomESjuzUYtvqNXIAV10RSZulKkCN8CP6CJlkbg,424
+mocktalk/script.py,sha256=EpREDmtJXC28j1FuOz_bk9lLS_NE0kbnFjGIYM5B1y8,361
+mocktalk/servers.py,sha256=a6cqwC9kst55WWxiEEJ_iQQ_tqv-XwtvjzWm_igw9EM,1971
+mocktalk/ssh.py,sha256=3m_2u7Sd0US9XfSyNdOsslDVvuq_KKXA9Ce1fh0QbYI,2844
+mocktalk/telnet.py,sha256=neq1w3NLo0WbA5pUDtI4VyixV3ay-qfh9blu_1eBfog,1322
+mocktalk-0.0.2.dist-info/LICENSE,sha256=HL5SKNZmUKy_AWu_8mgpNhucjTVPpPuWMjrK-vbsj1Q,1071
+mocktalk-0.0.2.dist-info/METADATA,sha256=hbMFAmeCWhz6SfmY8TEjJ8URirwbBqgXlX4SbkL2X-I,232
+mocktalk-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mocktalk-0.0.2.dist-info/entry_points.txt,sha256=-lKu482BoUwhAAlRmh8RVnGLWL7TOSzSASkVoQJ4yig,47
+mocktalk-0.0.2.dist-info/top_level.txt,sha256=dw_PXzHF-msR_f9Y04cNLjVLtXHzdZtt1bBWlSNzMFg,9
+mocktalk-0.0.2.dist-info/RECORD,,
