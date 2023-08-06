@@ -1,0 +1,8 @@
+idtrackerai/
+*local_settings.py
+idtrackerai*
+*session_*/*
+*index.db
+*.npy
+*.hdf5
+*.pth
