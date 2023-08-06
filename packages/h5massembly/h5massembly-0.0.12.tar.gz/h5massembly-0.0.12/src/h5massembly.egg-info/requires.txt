@@ -1,0 +1,7 @@
+gmsh
+cadquery2
+numpy
+OCP
+meshio
+trimesh
+Cython
