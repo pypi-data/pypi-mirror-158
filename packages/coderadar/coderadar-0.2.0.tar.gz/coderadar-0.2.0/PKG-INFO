@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: coderadar
+Version: 0.2.0
+Summary: Summarizing the code metrics of your project from pytest-cov, pylint and flake8.
+Author-email: Carsten König <coderadar@carsten-koenig.de>
+License: MIT License
+Project-URL: Homepage, https://github.com/ck2go/coderadar
+Keywords: lint,metrics,code quality
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Code Radar
+
+Summarizing the code metrics of your project from pytest-cov, pylint and flake8.
+
+**Status:**  early alpha\
+**Authors:** Carsten König
+
+## Purpose
+
+In order to quickly see where an existing project needs refactoring, an overview of the worst code smells is needed. This package therefore summarizes these in a very brief report, that should guide you directly to the places in your software where an improvement would have the highest impact when you want to improve code quality.
+
+
+## Installation
+
+```bash
+pip install coderadar
+```
+
+## How to use
+In order to analyze your sourcecode, go to your project root folder and run
+
+```bash
+coderadar <path-to-source>
+```
+This will run pytest, pylint and flake8 to get the metrics that will be analyzed.
+
+The following artifacts will be created:
+
+- ``coverage.xml``
+- ``coverage.txt``
+- ``pylint.json``
+- ``pylint.txt``
+- ``code_quality_report.html``
+- ``code_quality_report.txt``
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Author
+**Carsten König**
+
+- [GitLab](https://gitlab.com/ck2go "Carsten König")
+- [GitHub](https://github.com/ck2go "Carsten König")
+- [LinkedIn](https://www.linkedin.com/in/ck2go/ "Carsten König")
+- [Website](https://www.carsten-koenig.de "Carsten König")
