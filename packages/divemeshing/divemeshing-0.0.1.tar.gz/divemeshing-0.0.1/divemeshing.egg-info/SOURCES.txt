@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pkg.json
+setup.py
+divemeshing.egg-info/PKG-INFO
+divemeshing.egg-info/SOURCES.txt
+divemeshing.egg-info/dependency_links.txt
+divemeshing.egg-info/top_level.txt
+src/__init__.py
