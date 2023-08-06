@@ -1,0 +1,7 @@
+README.md
+setup.py
+IMDbPY.egg-info/PKG-INFO
+IMDbPY.egg-info/SOURCES.txt
+IMDbPY.egg-info/dependency_links.txt
+IMDbPY.egg-info/requires.txt
+IMDbPY.egg-info/top_level.txt
