@@ -1,0 +1,8 @@
+incremental_tasks/__init__.py,sha256=UUJa1Yh_sNkc7AfDI0ESJFaNjlKOBz5uoqWOO6U7cvg,1801
+incremental_tasks/base.py,sha256=ciVnpRkccNOlu3JsCAWIaA5hXIZLx3JGtGMqdhP6mRI,7481
+incremental_tasks/language.py,sha256=xuReIIAP6KYDUt4QF-n9khkL8Q8r7IUyzRWyeoLpEWE,24933
+incremental_tasks/periodic.py,sha256=UohcktYnF0VsUpbmk05Zpuh2EvSMIUK2yirxZ3AguAo,2493
+incremental_tasks/symbolic.py,sha256=j2sajnY39eGu5B0mByjZnt5vu5yjF0-_aO55WpbE1v0,4090
+incremental_tasks-0.1.1.dist-info/WHEEL,sha256=FWzWAvOOsDP6aqtZj_z3pIhVEk8S9F03Xwafa0tLqIY,90
+incremental_tasks-0.1.1.dist-info/METADATA,sha256=u7WnYwEe3qg4MqmLIScNKUDvt2pjtTtU5R7TzhiPTKE,339
+incremental_tasks-0.1.1.dist-info/RECORD,,
