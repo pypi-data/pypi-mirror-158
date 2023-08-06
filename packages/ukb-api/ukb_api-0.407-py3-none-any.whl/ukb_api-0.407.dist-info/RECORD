@@ -1,0 +1,10 @@
+ukb_api/__init__.py,sha256=tsY2dTPxdgMXkhaY8ecPFEyeNpTSj3l-JoVL_s0I-hs,20
+ukb_api/module_bulk_data_handler.py,sha256=jT8AFdsJyAF9aQ2nI5dImRpPYZWr9eDRBXIFK2XMy6k,7870
+ukb_api/module_genetic_data_handler.py,sha256=aDw5HBy-bpXvK_Q0zm3442Ln-k5_kiPnrSNYaFrIi_o,5691
+ukb_api/module_get_fs_summary_stats.py,sha256=TfeS9uTylSptUkos2k8RSFuPt_eA8SLDwIw_yMKF204,4006
+ukb_api/module_scalar_data_handler.py,sha256=uedxKkdkI-eZVCIwLQ2RnofWVswKik3WO2T_f5Mv2vg,5669
+ukb_api-0.407.dist-info/LICENSE,sha256=aH8Nj2TgxMkPM7fmrqxz5v9VysJBKUHnohtr4tdkHi4,1076
+ukb_api-0.407.dist-info/METADATA,sha256=bmrVIg0yhG91UlAii09U5Cqd6gwxQ_8GodKts3R46zQ,2925
+ukb_api-0.407.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ukb_api-0.407.dist-info/top_level.txt,sha256=SmDlDDindIJLGcWZgm_pR-6kNybEr6zDRQvmxc7WIVw,8
+ukb_api-0.407.dist-info/RECORD,,
