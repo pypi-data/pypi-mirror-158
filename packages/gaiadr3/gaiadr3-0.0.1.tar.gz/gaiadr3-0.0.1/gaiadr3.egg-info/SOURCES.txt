@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+gaiadr3/__init__.py
+gaiadr3/core.py
+gaiadr3/phot_spec.py
+gaiadr3/tap.py
+gaiadr3/utils.py
+gaiadr3.egg-info/PKG-INFO
+gaiadr3.egg-info/SOURCES.txt
+gaiadr3.egg-info/dependency_links.txt
+gaiadr3.egg-info/requires.txt
+gaiadr3.egg-info/top_level.txt
