@@ -1,0 +1,9 @@
+numpy
+psutil
+ordered_set
+pathos
+scadnano
+xlwt
+xlrd
+nupack
+typing_extensions; python_version < "3.8"
