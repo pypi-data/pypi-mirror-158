@@ -1,0 +1,16 @@
+cvrplib/Instance.py,sha256=tv7pOWdSCCoc2GexdgzC04uqJ9dBHa1-Ya4sk_fPRgE,504
+cvrplib/__init__.py,sha256=fjUSfkgrh6Kd4APEFsq2a5UAVjidI-l1L2C07DA6sow,89
+cvrplib/constants.py,sha256=8T_6t9i4KdSK2XinjiIF1Z_3stx77BuYE85fDbJGp8w,505
+cvrplib/cvrp.py,sha256=NGfsYfQlqp-crjU79HjYIJE98GOhjcP9_aTAVjuXf7w,5072
+cvrplib/download.py,sha256=AfSKeBEhUXftpzlMlgJqIF3fqqdOrIUxH1ntOLd1IQw,1247
+cvrplib/instance_data.csv,sha256=jqCjszWxybJWy-bMehCGq4B9NdtK3EVH36jWujCKd1g,18523
+cvrplib/list_names.py,sha256=PrQ19-Kc3awgjvd1BE5NFtL9wJmXcp6Xns-Q6YhD9Qc,1437
+cvrplib/parse_instance.py,sha256=VRJyGjvFAhWtiv2Z46C8kvz9Yi_cx_nTZYu7LZQVfgg,671
+cvrplib/parse_solution.py,sha256=J5MB6ucWLWMf3ityB1p25PqeZZ3W14sSw8Fnj-Kd9QA,1287
+cvrplib/read.py,sha256=6baU3e0oWXeC1PHCbhMC4uEqdeS4oHVKj4cXgwXekEs,601
+cvrplib/utils.py,sha256=xWsEjiylEV4IbCkcVIvfw-Jzt1pfpenmafsG_HIOM6s,2575
+cvrplib/vrptw.py,sha256=p4W1Y1dfHYQknTvvVg1toMimTu8-G7gp1FhexTnCWvA,1232
+cvrplib-0.1.0.dist-info/LICENSE,sha256=qYnIq2oxPfNfk8qCFWqI8pDOakGcCLF7blIvrCy1NUs,1065
+cvrplib-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cvrplib-0.1.0.dist-info/METADATA,sha256=IUKVlBgRO7WjxORVE3CiRDGcy37gHjPRo6gGp5Fv7gI,3906
+cvrplib-0.1.0.dist-info/RECORD,,
