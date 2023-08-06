@@ -1,0 +1,12 @@
+jsonschema_gentypes/__init__.py,sha256=A3rYIRyCbpDIboIDo7PEzDpacuI9hwAr83uvEh05Lcg,33676
+jsonschema_gentypes/cli.py,sha256=7cZBUNKrGaevXK6c86_G4gmiiu-dRsojyIp5MHCKk_w,5687
+jsonschema_gentypes/configuration.py,sha256=KXhNyb3po2cv7_xzQKU35-vtDgEcZaJxHjw74Dc4wh0,984
+jsonschema_gentypes/jsonschema.py,sha256=4OI4SVr4XgCl3lUQQ_HKVj0XyOVVLI5j7UAoVKMsENc,6780
+jsonschema_gentypes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonschema_gentypes/schema.json,sha256=5IJfwk468DtKcg7o8hHf30ewehKB--2Va-spfquJs2c,1826
+jsonschema_gentypes/validate.py,sha256=VXb5EgujA2Kf8bO49bESvClbutzrkEv0wCZRCep0Abo,5353
+jsonschema_gentypes-1.1.0.dist-info/entry_points.txt,sha256=Br_cHqahIzmZRQv_wEXvM_NPKx7Jv5p5QOjJaNZ2arE,68
+jsonschema_gentypes-1.1.0.dist-info/LICENSE.txt,sha256=Ez7HyXechvVwv9wGhvKY3yazCNvONQuhEQ_2ChyYQdI,1663
+jsonschema_gentypes-1.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+jsonschema_gentypes-1.1.0.dist-info/METADATA,sha256=yKwaUcpPQ0B8QeVLusaBz8Qh4_UmTXKMFAI2oGxmHcg,3734
+jsonschema_gentypes-1.1.0.dist-info/RECORD,,
