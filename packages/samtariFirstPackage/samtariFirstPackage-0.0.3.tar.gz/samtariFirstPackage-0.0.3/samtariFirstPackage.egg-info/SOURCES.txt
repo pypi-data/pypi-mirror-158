@@ -1,0 +1,11 @@
+setup.py
+samtariFirstPackage/__init__.py
+samtariFirstPackage/add.py
+samtariFirstPackage/subtract.py
+samtariFirstPackage.egg-info/PKG-INFO
+samtariFirstPackage.egg-info/SOURCES.txt
+samtariFirstPackage.egg-info/dependency_links.txt
+samtariFirstPackage.egg-info/top_level.txt
+samtariFirstPackage/extras/__init__.py
+samtariFirstPackage/extras/divide.py
+samtariFirstPackage/extras/multiply.py
