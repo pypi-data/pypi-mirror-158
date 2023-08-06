@@ -1,0 +1,3 @@
+[console_scripts]
+vmws=vmware_workstation_cli:cli
+
