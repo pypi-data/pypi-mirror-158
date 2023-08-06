@@ -1,0 +1,17 @@
+confpoint/__init__.py,sha256=WzC9gcSfUS4MjdyafMuudhxOklZ_y6NlDG7lS8nQb-Q,83
+confpoint/shareup.py,sha256=grsbswoXIvcprBVmBtSBtISlQAOyO35_OUv6LVPPxr0,4104
+confpoint/version.py,sha256=hMYfQNFfQfqoYxN3i1Cg7SI8EZKQMLpuCiaHUjoiuv0,18
+confpoint/downloader/__init__.py,sha256=WzC9gcSfUS4MjdyafMuudhxOklZ_y6NlDG7lS8nQb-Q,83
+confpoint/downloader/__main__.py,sha256=ckSLOKYaBQDhiRbdlUTrKKEEqBzQQalt0l4jN3UvCFY,71
+confpoint/downloader/onedownloader.py,sha256=P7E0YwTxgxDxavrQdK1ZMxa3mHefRpUiUfSMTWAvC_k,4510
+confpoint/publisher/__init__.py,sha256=WzC9gcSfUS4MjdyafMuudhxOklZ_y6NlDG7lS8nQb-Q,83
+confpoint/publisher/__main__.py,sha256=YcIpJ4wzbtntEY6otd01efm22WC7Yns-xDxJWUosUfc,62
+confpoint/publisher/push.py,sha256=cZ6lqvZvVMkgcc7icz2zh8IsoCim_Rd9Sc93PRPvAO8,5514
+confpoint/uploader/__init__.py,sha256=WzC9gcSfUS4MjdyafMuudhxOklZ_y6NlDG7lS8nQb-Q,83
+confpoint/uploader/__main__.py,sha256=2GF9O7F_qS-l0mLgvRr2yay_IwROeHBy4dvrLQ5cFZM,67
+confpoint/uploader/oneloader.py,sha256=rmBszzWhKk6ccWP9x1AMq4T9dKolQ7-ds33dTdsfoX0,3044
+confpoint-1.0.3.dist-info/METADATA,sha256=t-cEivF2FSx6U1RAXphlt8QNstB7xXc5wbW_YImTDZo,3783
+confpoint-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+confpoint-1.0.3.dist-info/entry_points.txt,sha256=QiOJgKwTSVSr0SGl48508NPfCROh0WqvhQgngZsl0Og,188
+confpoint-1.0.3.dist-info/top_level.txt,sha256=qPeG0ELmz-ouluVjSkL-ZC2qqmf1Ppfxdwn8_M5Bq-E,10
+confpoint-1.0.3.dist-info/RECORD,,
