@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: doit-interface
+Version: 0.1.3
+Summary: A functional interface for creating doit tasks
+Home-page: https://github.com/tillahoffmann/doit_interface
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Provides-Extra: tests
+Provides-Extra: docs
+License-File: LICENSE
+
+doit interface
+==============
+
+.. image:: https://github.com/tillahoffmann/doit_interface/actions/workflows/main.yml/badge.svg
+  :target: https://github.com/tillahoffmann/doit_interface/actions/workflows/main.yml
+.. image:: https://img.shields.io/pypi/v/doit_interface.svg?style=flat
+   :target: https://pypi.python.org/pypi/doit_interface
+.. image:: https://readthedocs.org/projects/doit-interface/badge/?version=latest
+   :target: https://doit-interface.readthedocs.io/en/latest/?badge=latest
+
+This package provides a functional interface for reducing boilerplate in :code:`dodo.py` of the `pydoit <https://pydoit.org>`__ build system. In short, all tasks are created and managed using a :code:`doit_interface.Manager`. Most :code:`features<features>` are exposed using python context manager, e.g., grouping tasks.
+
+Example
+-------
+
+.. code-block:: python
+
+  >>> import doit_interface as di
+
+
+  >>> manager = di.Manager.get_instance()
+
+  >>> # Create a single task.
+  >>> manager(basename="create_foo", actions=["touch foo"], targets=["foo"])
+  {'basename': 'create_foo', 'actions': ['touch foo'], 'targets': ['foo'], ...}
+
+  >>> # Group multiple tasks.
+  >>> with di.group_tasks("my_group") as my_group:
+  ...     manager(basename="member")
+  {'basename': 'member', ...}
+  >>> my_group
+  <doit_interface.contexts.group_tasks object at 0x...> named `my_group` with 1 task
+  >>> # Show the task we implicitly constructed using `group_tasks`.
+  >>> dict(my_group)
+  {'basename': 'my_group', 'actions': [], 'task_dep': ['member'], ...}
+
+.. _features:
+
+Features
+--------
+
+- Traceback for failed tasks using :code:`doit_interface.DoitInterfaceReporter`.
+- Group tasks to easily execute all of them using :code:`doit_interface.group_tasks`.
+- Automatically create directories for targets using :code:`doit_interface.create_target_dirs`.
+- Share default values amongst tasks, such as :code:`file_dep` or :code:`basename` using :code:`doit_interface.defaults`.
+- Use task :code:`dict`\s as dependencies in :code:`file_dep` or :code:`task_dep` using :code:`doit_interface.normalize_dependencies`.
+- Apply prefixes using :code:`doit_interface.path_prefix` or :code:`doit_interface.prefix`.
+- Use global environments and extensive variable substitution for command line tasks using :code:`doit_interface.SubprocessAction`. You can also use :code:`doit_interface.SubprocessAction` by default using the :code:`doit_interface.SubprocessAction.use_as_default` context manager.
+
+Interface
+---------
+
+.. code-block::
+
+ doit_interface
+  :members:
+
+
