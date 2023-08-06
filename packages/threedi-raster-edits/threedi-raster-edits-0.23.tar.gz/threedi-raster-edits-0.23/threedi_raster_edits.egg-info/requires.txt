@@ -1,0 +1,12 @@
+cached_property
+rtree
+scipy
+threedi_scenario_downloader
+
+[test]
+mock
+pytest
+pytest-benchmark
+pytest-black
+pytest-cov
+pytest-flakes
