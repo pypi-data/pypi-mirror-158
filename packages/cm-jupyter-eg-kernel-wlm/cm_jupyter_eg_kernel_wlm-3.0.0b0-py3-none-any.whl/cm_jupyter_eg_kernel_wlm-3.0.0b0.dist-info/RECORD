@@ -1,0 +1,8 @@
+cm_jupyter_eg_kernel_wlm/__init__.py,sha256=8nzXbQAY4K5o7ruOmpFT4sCV3LHiY10cQs363zgnmtc,308
+cm_jupyter_eg_kernel_wlm/_version.py,sha256=XLVk_NUzWYLiDIxvRu_LNChVNXuX-Jx2zr8H_QXs1Vs,63
+cm_jupyter_eg_kernel_wlm/ipykernel_wlm.py,sha256=1VVzGWD5mMa5tm27ObQvp4dMtB4HN2UmBJzFHQJ6Gc0,15076
+cm_jupyter_eg_kernel_wlm-3.0.0b0.dist-info/METADATA,sha256=lflcLiUw1IXIzlc3SvyOjlmyh1ueZ_d4amEEt_FjWmo,311
+cm_jupyter_eg_kernel_wlm-3.0.0b0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cm_jupyter_eg_kernel_wlm-3.0.0b0.dist-info/entry_points.txt,sha256=Wc4-kNtTWBfwvUSklPmlruDx_Ite_rt3sd7KvfFUg9Q,65
+cm_jupyter_eg_kernel_wlm-3.0.0b0.dist-info/top_level.txt,sha256=_7xFUFuQ-dXuM4xMfVZd0iEvMzJ9CpaC4CDJkDb7Sec,25
+cm_jupyter_eg_kernel_wlm-3.0.0b0.dist-info/RECORD,,

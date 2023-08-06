@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cm-jupyter-eg-kernel-wlm
+Version: 3.0.0b0
+Summary: UNKNOWN
+Home-page: http://brightcomputing.com
+Author: Bright Computing Holding BV
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: ipykernel (>=5.1)
+Requires-Dist: bash-kernel (>=0.7)
+Requires-Dist: pycryptodome (>=3.15)
+
+UNKNOWN
+

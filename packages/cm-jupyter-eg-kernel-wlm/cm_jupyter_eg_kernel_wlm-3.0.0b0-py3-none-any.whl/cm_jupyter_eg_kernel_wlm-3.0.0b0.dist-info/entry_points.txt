@@ -1,0 +1,3 @@
+[console_scripts]
+ipykernel-wlm = cm_jupyter_eg_kernel_wlm:main
+
