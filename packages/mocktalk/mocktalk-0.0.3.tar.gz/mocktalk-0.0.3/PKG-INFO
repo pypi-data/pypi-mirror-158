@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mocktalk
+Version: 0.0.3
+Summary: Mock telnet and ssh connections in Python
+Home-page: https://github.com/boryszef/mocktalk
+License: MIT
+Description-Content-Type: text/x-rst
+License-File: LICENSE
