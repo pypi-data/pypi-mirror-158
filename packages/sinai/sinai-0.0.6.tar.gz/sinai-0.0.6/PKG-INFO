@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sinai
+Version: 0.0.6
+Summary: Your friendly neighbourhood monitoring library. Record metrics about whatever you are interested in (e.g. application state, data integrity).
+Project-URL: Homepage, https://github.com/SinAI-monitoring/sinai
+Author: andymason,zeth
+Description-Content-Type: text/markdown
+
+# sinai
+Monitor application state, data integrity or anything you want
+
+
+## Development
+
+```bash
+$ pipenv install --dev
+$ pre-commit install
+```
