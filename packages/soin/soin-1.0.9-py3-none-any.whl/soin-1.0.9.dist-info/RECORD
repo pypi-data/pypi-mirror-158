@@ -1,0 +1,10 @@
+soin/__init__.py,sha256=-QHbjFdw95XhIHiVECjg_tam3G7NvEZPcFE3PHRLwXo,195
+soin/base.py,sha256=Aq8qwOuV4fh1rlJKNKpEf70-IJO7uNEpCfEvzLsM9g8,3639
+soin/cli.py,sha256=ej3AQ1zIq6WW6GfkXXxZpIopLXNNmBXTf02GZot8bb0,701
+soin/job.py,sha256=NPqLnzmPnHgMZYPmsBvN_FFzSL2zBua4N1Ro22b--sE,2357
+soin/request.py,sha256=7mp-jaaMMKv3LtNQs3R2IEPfiTjb36evEZWnwJ-TSfY,1388
+soin/utils.py,sha256=0B_Jo_Ly1Lj4tH0Kb2JiaxyKIf_NimCCgvtW2rf5UmA,2842
+soin-1.0.9.dist-info/entry_points.txt,sha256=BpyjB-rYae-Y8EYqiod0DROhnRiom4WpdLys1WKfx0o,37
+soin-1.0.9.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+soin-1.0.9.dist-info/METADATA,sha256=zX3nbrg04gtCM32W-SWonRNDIxK5KbritMEqkNSYLlI,607
+soin-1.0.9.dist-info/RECORD,,
