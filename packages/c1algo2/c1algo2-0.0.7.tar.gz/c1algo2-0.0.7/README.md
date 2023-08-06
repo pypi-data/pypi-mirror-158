@@ -1,0 +1,24 @@
+# Algorithm 2
+
+## Getting Started
+
+1. We will use Python version 3.10.4. Please install this on your device and either set it as your default or put it into a virtual environment and activate your virtual environment.
+2. Run `pip install -r requirements.txt` to install all pip packages used in this project.
+
+## Repository Structure
+
+In `src` you will find 2 folders:
+1. `c1algo2`: The main module created for use by back end. After running `pip install c1algo2`, they will run something like:
+    ```
+    from c1algo2.forecaster import forecast
+    new_schedule = forecast(course_enrollment, program_enrollment, schedule)
+    # store these in the db somehow
+    ```
+2. `tools`: Used by algorithm 2 developers to automate manual work or enrich our understanding of the problem domain.
+
+## Important Links
+- [Communication Standards](https://www.overleaf.com/read/djvkdxpyrtxd)
+- [Coding Standards](https://www.overleaf.com/read/zrgztvyfngdk)
+- [Project Board](https://github.com/orgs/seng499-company1/projects/6/)
+- [Algorithm 1 Data Model](https://docs.google.com/document/d/163L7pv6w5Z38rUrl2EwRJq-A9ZLllCIO9uYbUkdxi2s/edit?usp=sharing)
+- [Algorithm 2 Data Model](https://docs.google.com/document/d/14kvPrWQTaWBeyqnaRp2-NkLqod5pwzMYE8cXo7f6kQ4/edit?usp=sharing)
