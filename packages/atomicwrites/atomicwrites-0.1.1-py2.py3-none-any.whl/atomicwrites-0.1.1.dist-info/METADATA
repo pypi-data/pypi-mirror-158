@@ -1,0 +1,35 @@
+Metadata-Version: 2.0
+Name: atomicwrites
+Version: 0.1.1
+Summary: Atomic file writes on POSIX
+Home-page: https://github.com/untitaker/python-atomicwrites
+Author: Markus Unterwaditzer
+Author-email: markus@unterwaditzer.net
+License: MIT
+Platform: UNKNOWN
+
+===================
+python-atomicwrites
+===================
+
+.. image:: https://travis-ci.org/untitaker/python-atomicwrites.svg?branch=master
+    :target: https://travis-ci.org/untitaker/python-atomicwrites
+
+Atomic file writes on POSIX.
+
+Usage::
+
+    from atomicwrites import atomic_write
+
+    with atomic_write('foo.txt') as f:
+        f.write('Hello world.')
+        # "foo.txt" doesn't exist yet.
+
+    # Now it does.
+
+License
+=======
+
+Licensed under the MIT, see ``LICENSE``.
+
+
