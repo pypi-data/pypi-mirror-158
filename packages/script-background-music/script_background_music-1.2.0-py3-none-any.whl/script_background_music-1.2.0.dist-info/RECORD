@@ -1,0 +1,11 @@
+script_background_music/__init__.py,sha256=l3BZVaKyAZ1rI1vILy7O60RTdU6gWxMbcOBnhQCXwY0,1183
+script_background_music/songs/__init__.py,sha256=bHmE4mslPFm7RMtuZ_tiZDbLajFxW9acsWcDmwTztmk,289
+script_background_music/songs/local-forecast.mp3,sha256=w3UV5Lkv9PmaSsMN8luzt8N-20AgBCnbv5qw-lhHXp8,4543531
+script_background_music/songs/lofi.mp3,sha256=jl0Fx8Bii3X1tybiW8j45rAkzWrTPdEj_y5ZPJLyvPs,959678
+script_background_music/vendor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+script_background_music/vendor/playsound/__init__.py,sha256=FG9eYekgi5PfhZ0X8J5B9sg5tja4ITAXHPV9eJwV0JU,6560
+script_background_music-1.2.0.dist-info/LICENSE,sha256=5GWxvB2hE4ErEOp_gOh3n9X3mu9qTJlTCjtAe9RXAJ4,1068
+script_background_music-1.2.0.dist-info/METADATA,sha256=H2W_YXs9e9QBrRr4nQgh-L26qk52T08Sic5WKCfMYlg,2040
+script_background_music-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+script_background_music-1.2.0.dist-info/top_level.txt,sha256=t_77HiqweXSp0HagCPdl6Kp6qpAEicxtWxHaoOmZGCs,24
+script_background_music-1.2.0.dist-info/RECORD,,
