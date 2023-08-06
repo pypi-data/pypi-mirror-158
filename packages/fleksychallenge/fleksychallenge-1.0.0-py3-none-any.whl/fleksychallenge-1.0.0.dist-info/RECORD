@@ -1,0 +1,13 @@
+fleksychallenge/__init__.py,sha256=nHNM1Ow-vJ_PTUB4HspfIw8v1yu2OvoV3jOK8gnm8JE,108
+fleksychallenge/cli.py,sha256=vMSFCzE-0pSYAAlTlpZqcBkY1aFXsKCdRkjND3eHEdM,1091
+fleksychallenge/config.cfg,sha256=zsKNdauoo1DPquiFQ_SBz697fMBKyu2vJSHj7K5d1nM,2987
+fleksychallenge/interact.py,sha256=NzP5rBtnab3LPmyT9uY8aYkx01VZlfYB2uzO456PMD0,970
+fleksychallenge/prepare.py,sha256=QWQuXk4oSacaHn3Ug2UxcvsFBl-4SucRdoHjdbWsejE,2370
+fleksychallenge/test.py,sha256=fGCgmFHBfe5S-a80z61_xccvYWEmVmb_soZ_YDa635k,2138
+fleksychallenge/train.py,sha256=JOqpLKvjl8sTDD5QsNeLKYoHj14DkpLDoDO_kG8CSQI,1143
+fleksychallenge-1.0.0.dist-info/LICENSE,sha256=efxIJwqRW2jrT96PhExhD9OYd4DjZ9GKfq2UKwog8kc,1065
+fleksychallenge-1.0.0.dist-info/METADATA,sha256=HwuVKU6EtZ5dTSr3C4Zq1wriuf7xsy6OrK9cBSViQso,5915
+fleksychallenge-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fleksychallenge-1.0.0.dist-info/entry_points.txt,sha256=Q_bm3yYiLqXv7KsTQkUNt4FNeDEGLzh8ZP_vdmN49CE,61
+fleksychallenge-1.0.0.dist-info/top_level.txt,sha256=qmKLGg76IMFIHw3qxwFB6YgPsapFiV5QSWLQ0zEzDS4,16
+fleksychallenge-1.0.0.dist-info/RECORD,,
