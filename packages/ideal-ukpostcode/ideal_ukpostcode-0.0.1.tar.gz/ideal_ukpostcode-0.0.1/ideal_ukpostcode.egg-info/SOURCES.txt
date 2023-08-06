@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+ideal_ukpostcode/__init__.py
+ideal_ukpostcode/ideal_ukpostcode.py
+ideal_ukpostcode.egg-info/PKG-INFO
+ideal_ukpostcode.egg-info/SOURCES.txt
+ideal_ukpostcode.egg-info/dependency_links.txt
+ideal_ukpostcode.egg-info/not-zip-safe
+ideal_ukpostcode.egg-info/top_level.txt
