@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: asyncgur
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/Dyleee/asyncgur
+Author: Dylee
+Author-email: eelyd@protonmail.com
+License: LGPLv3
+Description: UNKNOWN
+Keywords: asyncio,imgur,async,aiohttp,pil,pillow,image,upload
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
