@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dahlia
+Version: 1.0.1
+Summary: A library allowing you to use Minecraft format codes in strings.
+Home-page: https://github.com/trag1c/Dahlia
+License: MIT
+Author: trag1c
+Author-email: trag1cdev@yahoo.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Documentation, https://dahlia.readthedocs.io/en/latest
+Project-URL: Repository, https://github.com/trag1c/Dahlia
