@@ -1,0 +1,8 @@
+[console_scripts]
+TwentyTwentiesHumorBot = TwentyTwentiesHumorBot.__main__:main
+TwentyTwentiesHumorBotCuration = TwentyTwentiesHumorBot.__main__:curation
+
+[gui_scripts]
+TwentyTwentiesHumorBotCuration_headless = TwentyTwentiesHumorBot.__main__:curation
+TwentyTwentiesHumorBot_headless = TwentyTwentiesHumorBot.__main__:main
+
