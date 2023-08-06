@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+gotify_message/__init__.py
+gotify_message/gotify_connector.py
+gotify_message/gotify_notification.py
+gotify_message.egg-info/PKG-INFO
+gotify_message.egg-info/SOURCES.txt
+gotify_message.egg-info/dependency_links.txt
+gotify_message.egg-info/requires.txt
+gotify_message.egg-info/top_level.txt
