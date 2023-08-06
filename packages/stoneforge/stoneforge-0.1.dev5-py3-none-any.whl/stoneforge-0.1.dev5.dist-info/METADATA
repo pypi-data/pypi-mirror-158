@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: stoneforge
+Version: 0.1.dev5
+Summary: Geophysics equations, algorithms and methods
+Home-page: https://github.com/giecaruff/stoneforge
+Author: GIECAR - UFF
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7.13
+License-File: LICENSE
+Requires-Dist: numpy (>=1.21.6)
+Requires-Dist: pytest (>=3.6.4)
+Requires-Dist: scipy (>=1.4.1)
+
+StoneForge
+  
+Algorithms, methods and equations for geophysics
+  
+Dataset
+
+Colaboratory - Development version
+
+
