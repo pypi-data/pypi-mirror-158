@@ -1,0 +1,13 @@
+stim-1.9.0.dist-info/top_level.txt,sha256=_h6lQZBgzVLumwrXyf13DY71YT6dUkd4SY-ZRjcljFQ,5
+stim-1.9.0.dist-info/entry_points.txt,sha256=nKrnVit2TO7zlOC9PzFDbziXiGroRejQTIeqeJ2VS6Q,51
+stim-1.9.0.dist-info/WHEEL,sha256=FNUt4eBsrBVn_Yc5KG3aXtKE40X3uNZrbGLNCbVxyFw,148
+stim-1.9.0.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+stim-1.9.0.dist-info/METADATA,sha256=fl60udy6taMw3_gV78wo2P5YFvigDjkkSgK_5YOi35c,4197
+stim-1.9.0.dist-info/RECORD,,
+stim/__init__.pyi,sha256=Lfxqm1Ub_8g9okxls4iPFJg0FXhP-XLFMgBXUt0vAqk,204702
+stim/_stim_avx2.cpython-39-x86_64-linux-gnu.so,sha256=qe6ljZdl0lcY94_dg9tShTFOuD2CS2JGngVlJveaksk,3229832
+stim/_detect_machine_architecture.cpython-39-x86_64-linux-gnu.so,sha256=8IcHR-OyrvhXJhwHAvQ9hNPoBsv-SwlReXzt83aivYY,227688
+stim/_stim_polyfill.cpython-39-x86_64-linux-gnu.so,sha256=8MH820eCTpEW8GOhqd8BPSvQ2bYzMAmp3cR11h7FdSY,3188832
+stim/_stim_sse2.cpython-39-x86_64-linux-gnu.so,sha256=_enlsy6CNZMT7XVZQi2ql9QMHMwDxS4r9rocZny_jQw,3188808
+stim/_main_argv.py,sha256=8gHM50pjV8l_X1okiK0V7GCxy_UHPhWUbFc_d7_5wPQ,134
+stim/__init__.py,sha256=mwMNz7q11YFAe66oAdObDnbkhM7r0PbzdDSd8ZTKx98,2357
