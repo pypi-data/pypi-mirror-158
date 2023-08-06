@@ -1,0 +1,10 @@
+tacoma/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tacoma/interpolator.py,sha256=3fT69KdxcUm5ZI4oYQH0S4Mb3NDn7RB4tttAg0sz3os,1847
+tacoma/metrics.py,sha256=RgERVqIjvDqWlfLGBo4gIi1yabThMrQwdqQzSL_W4ww,3855
+tacoma/rom.py,sha256=S-24Ynx8DFyH21V9NnXZEEoYBQj-qRQiKGvbUd6SQJY,5875
+tacoma/utils.py,sha256=WmIW_JelHHoSNBDeO3fWmgQSv1NLvvuPqDO0Ziwf9U8,6255
+Tacoma_lib-1.0.0.dist-info/LICENSE,sha256=2P4GxefT38C5QroSJNxI1oHHmnpDAgX8LuIx2YGQBJw,1106
+Tacoma_lib-1.0.0.dist-info/METADATA,sha256=dNEyMfqb2Vuw4kS5rnyht6xSmDVe422Vj-PvafcKkLs,2169
+Tacoma_lib-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Tacoma_lib-1.0.0.dist-info/top_level.txt,sha256=gmDGGco2dasADUZnz_XCg8OW5SQqWyt9J7X6ZkZvXjQ,7
+Tacoma_lib-1.0.0.dist-info/RECORD,,
