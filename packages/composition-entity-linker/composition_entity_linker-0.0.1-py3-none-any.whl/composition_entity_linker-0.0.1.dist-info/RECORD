@@ -1,0 +1,9 @@
+composition_entity_linker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+composition_entity_linker/example.py,sha256=lPNfJKxGuae-duQctVcdksjFqRHyUZcIg16Gxy8CtQw,45
+composition_entity_linker/linker.py,sha256=55XhY4PLmeBP_BDNKE7BQrtDMHkM_rIM2Am9mK9bQEQ,5612
+composition_entity_linker/ref_corpus/CEL_meta_new.csv,sha256=mySfH9wC-fa0mPyzsm6QLVXUT7zZnfJWi0ssN5WeOLg,9921628
+composition_entity_linker/ref_corpus/openopus_corpus.json,sha256=o8--Zl-567khzY3LOzCicN_x0kHRBkCy-m6I9qbsGY8,7387897
+composition_entity_linker-0.0.1.dist-info/METADATA,sha256=Qx6-sdK9CspE_z22-2aHDdP66KV2C6ItB9VvCgY99Ps,1997
+composition_entity_linker-0.0.1.dist-info/WHEEL,sha256=9GYcviBewZ0tGkiHS6_q2LxrPLrdVjfDI7rl7LgiPxI,86
+composition_entity_linker-0.0.1.dist-info/license_files/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+composition_entity_linker-0.0.1.dist-info/RECORD,,
