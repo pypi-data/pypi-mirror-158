@@ -1,0 +1,12 @@
+
+[cli]
+pyyaml==6.0
+
+[jsonpath]
+jsonpath_rw==1.4.0
+
+[postgres]
+psycopg==3.0.14
+
+[xpath]
+lxml==4.8.0
