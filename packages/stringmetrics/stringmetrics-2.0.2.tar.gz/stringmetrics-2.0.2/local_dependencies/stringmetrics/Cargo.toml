@@ -1,0 +1,46 @@
+[package]
+name = "stringmetrics"
+version = "2.0.2"
+edition = "2018"
+authors = ["Trevor Gross <tmgross@umich.edu>"]
+description = "Rust library for approximate string matching"
+
+# Note: these are symlinked from top level
+readme = "README.md"
+license-file = "LICENSE"
+
+documentation = "https://docs.rs/stringmetrics"
+repository = "https://github.com/pluots/stringmetrics"
+
+keywords = ["levenshtein"]
+categories = ["algorithms", "text-processing"]
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+# Config for the rust-usable library and the executable binary
+[lib]
+name = "stringmetrics"
+path = "src/lib.rs"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.3"
+assert_cmd = "2.0"
+predicates = "2.1"
+
+[[bench]]
+name = "levenshtein_bench"
+harness = false
+
+[[bench]]
+name = "iter_bench"
+harness = false
+
+
+[package.metadata.docs.rs]
+rustdoc-args = [ "--html-in-header", "katex-header.html" ]
+
+[package.metadata.release]
+shared-version = true
