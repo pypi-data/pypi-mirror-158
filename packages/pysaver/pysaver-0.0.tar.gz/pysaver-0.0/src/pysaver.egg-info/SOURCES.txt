@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+src/pysaver.py
+src/pysaver.egg-info/PKG-INFO
+src/pysaver.egg-info/SOURCES.txt
+src/pysaver.egg-info/dependency_links.txt
+src/pysaver.egg-info/top_level.txt
