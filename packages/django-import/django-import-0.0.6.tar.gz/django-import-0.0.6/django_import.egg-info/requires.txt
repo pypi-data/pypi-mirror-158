@@ -1,0 +1,8 @@
+django
+django-extensions
+django-jsoneditor
+markdown
+openpyxl
+pandas
+six
+xlrd>=1.0.0
