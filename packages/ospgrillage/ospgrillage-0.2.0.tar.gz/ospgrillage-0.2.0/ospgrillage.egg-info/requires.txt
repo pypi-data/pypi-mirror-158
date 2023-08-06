@@ -1,0 +1,11 @@
+openseespy>=3.2.2.6
+opsvis~=0.95.5
+openseespyvis>=0.0.6
+matplotlib
+numpy
+pandas
+scipy
+xarray
+
+[test]
+pytest>=6.2.2
