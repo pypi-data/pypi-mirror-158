@@ -1,0 +1,11 @@
+coredotdata/__init__.py,sha256=zVuZaWjtB54jUtesBZ58vDuvxuEc4sXQnzyYPxi8N_k,172
+coredotdata/cli.py,sha256=XlXsj2QDpe23LU_syEwCHlSqG7czMGlYe8MYv7x9pSk,411
+coredotdata/coredotdata.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+coredotdata/download.py,sha256=sByiC8IgOOrfxpIeubWpmQSDc0M5Bw7jv9OeZNI9zHY,2039
+coredotdata-0.2.1.dist-info/AUTHORS.md,sha256=og8XU7GrPbs0Wr5r--V86vhlCTV5xGw0OPpf2zTX8MY,153
+coredotdata-0.2.1.dist-info/LICENSE,sha256=eiwAgdUmanNNGhDoEbfeTa4AbgwQCdEK6mzeiIBB590,582
+coredotdata-0.2.1.dist-info/METADATA,sha256=mq-teWXXLYzAi-z4UofZs_2VISHOi8qvjcvRDBFZHjM,2512
+coredotdata-0.2.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+coredotdata-0.2.1.dist-info/entry_points.txt,sha256=jRqs_mBntElclYh5mBXeP2YNbBxVIDtjyivLIoFkz5s,54
+coredotdata-0.2.1.dist-info/top_level.txt,sha256=osuvvYO4GuBOX5shRq9k4vwAMkxayvlg3M-oia9j_c8,12
+coredotdata-0.2.1.dist-info/RECORD,,

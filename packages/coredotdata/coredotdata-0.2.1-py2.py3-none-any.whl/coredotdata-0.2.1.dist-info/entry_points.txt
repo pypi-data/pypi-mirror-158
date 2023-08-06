@@ -1,0 +1,3 @@
+[console_scripts]
+coredotdata = coredotdata.cli:main
+
