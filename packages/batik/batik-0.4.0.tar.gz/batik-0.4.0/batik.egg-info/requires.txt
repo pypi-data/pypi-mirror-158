@@ -1,0 +1,10 @@
+aiohttp
+pyyaml
+watchdog
+docopt
+jinja2
+
+[test]
+coverage
+pytest
+pytest-cov
