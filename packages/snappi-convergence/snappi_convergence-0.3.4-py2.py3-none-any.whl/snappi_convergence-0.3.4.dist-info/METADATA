@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: snappi-convergence
+Version: 0.3.4
+Summary: A snappi extension for measuring network convergence
+Home-page: https://github.com/open-traffic-generator/snappi-convergence
+Author: Open Traffic Generator
+Author-email: ashutshkumr@gmail.com
+License: MIT
+Keywords: snappi testing open traffic generator automation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing :: Traffic Generation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3
+Requires-Dist: requests
+Requires-Dist: PyYAML
+Requires-Dist: protobuf (==3.15.0) ; python_version <= "3.6"
+Requires-Dist: grpcio (==1.35.0) ; python_version == "2.7"
+Requires-Dist: grpcio-tools (==1.35.0) ; python_version == "2.7"
+Requires-Dist: grpcio (==1.44.0) ; python_version > "2.7"
+Requires-Dist: grpcio-tools (==1.44.0) ; python_version > "2.7"
+Requires-Dist: protobuf (==3.20.1) ; python_version > "3.6"
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+
+# snappi-convergence
+
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+![GitHub](https://img.shields.io/github/license/open-traffic-generator/snappi-convergence)
+[![release)](https://img.shields.io/github/v/release/open-traffic-generator/snappi-convergence)](https://github.com/open-traffic-generator/snappi-convergence/releases/latest)
+[![build](https://github.com/open-traffic-generator/snappi-convergence/workflows/cicd/badge.svg)](https://github.com/open-traffic-generator/snappi-convergence/actions)
+[![LGTM Grade](https://img.shields.io/lgtm/grade/python/github/open-traffic-generator/snappi-convergence)](https://lgtm.com/projects/g/open-traffic-generator/snappi-convergence/context:python)
+[![LGTM Alerts](https://img.shields.io/lgtm/alerts/github/open-traffic-generator/snappi-convergence)](https://lgtm.com/projects/g/open-traffic-generator/snappi-convergence/?mode=list)
+
+A snappi extension for measuring network convergence.
+
+### Install
+
+```bash
+python -m pip install --upgrade "snappi[convergence]"
+```
+
+### Development Setup
+
+```bash
+git clone --recurse-submodules https://github.com/open-traffic-generator/snappi-convergence.git && cd snappi-convergence
+python do.py setup && python do.py init
+```
+
+
