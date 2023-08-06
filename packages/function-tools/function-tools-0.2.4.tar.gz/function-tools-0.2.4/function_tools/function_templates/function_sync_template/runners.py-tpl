@@ -1,0 +1,41 @@
+from typing import (
+    Type,
+)
+
+from {{ strategy.runner_class_module }} import (
+    {{ strategy.runner_class_name }},
+)
+
+from {{ function_python_path }}.helpers import (
+    {{ camel_case_function_name }}RunnerHelper,
+)
+from {{ function_python_path }}.results import (
+    {{ camel_case_function_name }}RunnerResult,
+)
+from {{ function_python_path }}.validators import (
+    {{ camel_case_function_name }}RunnerValidator,
+)
+
+
+class {{ camel_case_function_name }}Runner({{ strategy.runner_class_name }}):
+    """
+    Ранер функции "{{ function_verbose_name }}".
+    """
+
+    def _prepare_helper_class(self) -> Type[{{ camel_case_function_name }}RunnerHelper]:
+        """
+        Возвращает класс помощника ранера функции.
+        """
+        return {{ camel_case_function_name }}RunnerHelper
+
+    def _prepare_validator_class(self) -> Type[{{ camel_case_function_name }}RunnerValidator]:
+        """
+        Возвращает класс валидатора ранера функции.
+        """
+        return {{ camel_case_function_name }}RunnerValidator
+
+    def _prepare_result_class(self) -> Type[{{ camel_case_function_name }}RunnerResult]:
+        """
+        Возвращает класс результата ранера функции.
+        """
+        return {{ camel_case_function_name }}RunnerResult

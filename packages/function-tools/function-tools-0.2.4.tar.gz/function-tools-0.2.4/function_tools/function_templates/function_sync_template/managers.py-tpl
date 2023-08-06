@@ -1,0 +1,36 @@
+from typing import (
+    Type,
+)
+
+from {{ strategy.manager_class_module }} import (
+    {{ strategy.manager_class_name }},
+)
+
+from {{ function_python_path }}.functions import (
+    {{ camel_case_function_name }}Function,
+)
+from {{ function_python_path }}.runners import (
+    {{ camel_case_function_name }}Runner,
+)
+
+
+class {{ camel_case_function_name }}RunnerManager({{ strategy.manager_class_name }}):
+    """
+    Менеджер пускателя функций системы "{{ function_verbose_name }}".
+    """
+
+    def _prepare_runner_class(self) -> Type[{{ camel_case_function_name }}Runner]:
+        """
+        Возвращает класс ранера.
+        """
+        return {{ camel_case_function_name }}Runner
+
+    def _prepare_runner(self, *args, **kwargs):
+        """
+        Создание функции "{{ function_verbose_name }}" и добавление ее в очередь исполнения пускателя.
+        """
+        function = {{ camel_case_function_name }}Function(*args, **kwargs)
+
+        self._runner.enqueue(
+            runnable=function,
+        )
