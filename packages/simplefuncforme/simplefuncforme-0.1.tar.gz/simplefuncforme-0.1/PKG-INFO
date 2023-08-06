@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: simplefuncforme
+Version: 0.1
+Summary: THis is a simple pack
+Home-page: UNKNOWN
+Author: python devlopers
+Maintainer: pypi devlopers
+License: UNKNOWN
+Platform: UNKNOWN
+
+This is simple python test program.
+
+ Installation command :- sudo python -m pip install simplefuncforme
+

@@ -1,0 +1,5 @@
+setup.py
+simplefuncforme.egg-info/PKG-INFO
+simplefuncforme.egg-info/SOURCES.txt
+simplefuncforme.egg-info/dependency_links.txt
+simplefuncforme.egg-info/top_level.txt
