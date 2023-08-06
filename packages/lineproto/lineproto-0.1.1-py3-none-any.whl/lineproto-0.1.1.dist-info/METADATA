@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: lineproto
+Version: 0.1.1
+Summary: Python implementation of the LINE protocol
+Home-page: UNKNOWN
+Author: Marcsello
+Author-email: marcsello@sch.bme.hu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: Communications
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Requires-Dist: pyserial
+
+UNKNOWN
+
