@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+figurl_tiled_image/TiledImage.py
+figurl_tiled_image/__init__.py
+figurl_tiled_image.egg-info/PKG-INFO
+figurl_tiled_image.egg-info/SOURCES.txt
+figurl_tiled_image.egg-info/dependency_links.txt
+figurl_tiled_image.egg-info/requires.txt
+figurl_tiled_image.egg-info/top_level.txt
