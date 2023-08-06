@@ -1,0 +1,8 @@
+kicksaw_aws_iam_policy_management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kicksaw_aws_iam_policy_management/cli.py,sha256=4SyJyl2VyLa0iNK_7dkv3B0QctX33N-CLvkzujEHRa4,412
+kicksaw_aws_iam_policy_management/dupe.py,sha256=p1DE8ZAhzJJ13AcEUXiJ9yO4Evwu7OCgKY2PepeyyTY,556
+kicksaw_aws_iam_policy_management/script.py,sha256=RubwDYip6uuE-G7Ao1p3oV1udHyn9BNWqD3_5ilYH54,2759
+kicksaw_aws_iam_policy_management-0.1.0.dist-info/entry_points.txt,sha256=J47u-0vkg5p5SoY6QCLskgmAlhmzxTCqNizLKUCm7hc,75
+kicksaw_aws_iam_policy_management-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+kicksaw_aws_iam_policy_management-0.1.0.dist-info/METADATA,sha256=1B5EnU6FFfn-VSZB8QJwzlgDTMc1br4OffWQDA_2I10,910
+kicksaw_aws_iam_policy_management-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+iam-mgmt=kicksaw_aws_iam_policy_management.cli:iam_mgmt
+
