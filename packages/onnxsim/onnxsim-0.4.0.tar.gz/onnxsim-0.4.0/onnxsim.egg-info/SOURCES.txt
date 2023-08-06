@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+onnxsim.egg-info/PKG-INFO
+onnxsim.egg-info/SOURCES.txt
+onnxsim.egg-info/dependency_links.txt
+onnxsim.egg-info/requires.txt
+onnxsim.egg-info/top_level.txt
