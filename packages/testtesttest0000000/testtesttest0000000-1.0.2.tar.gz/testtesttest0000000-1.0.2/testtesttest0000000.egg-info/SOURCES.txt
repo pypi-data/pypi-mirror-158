@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+etcd_watcher/__init__.py
+etcd_watcher/watcher.py
+tests/__init__.py
+tests/test_etcd_watcher.py
+testtesttest0000000.egg-info/PKG-INFO
+testtesttest0000000.egg-info/SOURCES.txt
+testtesttest0000000.egg-info/dependency_links.txt
+testtesttest0000000.egg-info/top_level.txt
