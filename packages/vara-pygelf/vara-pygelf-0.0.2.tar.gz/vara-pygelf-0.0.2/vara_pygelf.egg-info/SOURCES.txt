@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+vara_pygelf/__init__.py
+vara_pygelf/logger.py
+vara_pygelf.egg-info/PKG-INFO
+vara_pygelf.egg-info/SOURCES.txt
+vara_pygelf.egg-info/dependency_links.txt
+vara_pygelf.egg-info/top_level.txt

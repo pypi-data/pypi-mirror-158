@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vara-pygelf"
+version = "0.0.2"
+authors = [
+  { name="Varadise", email="author@example.com" },
+]
+description = "gelf formatted logger"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+
+# [project.urls]
+# "Homepage" = "https://varadise.ai"

@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: vara-pygelf
+Version: 0.0.2
+Summary: gelf formatted logger
+Author-email: Varadise <author@example.com>
+License: MIT License
+        
+        Copyright (c) [2022] [Varadise]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# vara pygelf
+
+
+## Description
+Python logging module wrapper for
+- GELF format
+- syslog level
+
+
+## Usage
+```
+from vara_pygelf import logger
+
+logger.debug("test")
+```
+
+extra field at log event (note: gelf doesn't allow "id" field)
+```
+logger.debug("test", {"project_id": 2567})
+logger.debug("test", {"name": "abc"})
+```
+
+
+Set log threshold:
+```
+logger.set_level("INFO")
+```
+
+add/remove extra fields for all log msg 
+```
+logger.add_fields({"b": "122" })
+logger.remove_fields(["b"])
+```
+
+### Log Levels
+
+
+| Level name    | Severity value| Logger method  |
+| ------------- |---------------| ------|
+| EMERGENCY     | 0      | logger.emerg |
+| ALERT         | 1      |   logger.alert |
+| CRITICAL      | 2      | logger.crit |
+| ERROR         | 3      |   logger.err |
+| WARNING       | 4      | logger.warning |
+| NOTICE        | 5      |   logger.notice |
+| INFO          | 6      | logger.info |
+| DEBUG         | 7      |   logger.debug |
+
+### TODO
+- Unit tests
+- Module package?
