@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+huishi/__init__.py
+huishi.egg-info/PKG-INFO
+huishi.egg-info/SOURCES.txt
+huishi.egg-info/dependency_links.txt
+huishi.egg-info/top_level.txt

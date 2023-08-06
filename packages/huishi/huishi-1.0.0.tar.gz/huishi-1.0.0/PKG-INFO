@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: huishi
+Version: 1.0.0
+Summary: A package that can let you create a poem by AI
+Home-page: https://gitee.com/wangshixincheng/keywords_to_poem
+Author: ZenMeHuiShiNe
+Author-email: 2020302111360@whu.edu.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 绘诗诗词自动生成系统
+
+## 简介
+这里是绘诗诗词自动生成系统所提供的python库。您可以借用此库里面的如下函数，完成我们提供的诗词自动生成demo
+
+首先，您可以使用以下命令，在您的计算机中使用pip安装我们所提供的基于绘诗诗词自动生成系统设计的python库。
+    
+    pip install huishi
+
+如果您想要了解代码中模型的运行原理，或者希望借用我们的预训练模型训练自己的NLP模型，可以参考我们的[Github仓库](https://github.com/123xnc/keywords_to_poem)或者[gitee仓库](https://gitee.com/wangshixincheng/keywords_to_poem)
+
+在这个python库中，我们为您提供了以下API：
+
+    key_to_poem_V(keywords) ;关键词到五言诗
+    key_to_poem_VII(keywords);关键词到七言诗
+    seq_to_poem_V(keywords); 描述语句到五言诗
+    seq_to_poem_VII(keywords);描述语句到七言诗
+其分别代表输入关键字或者一段对诗句的描述语言，利用模型自动输出五言或者七言诗句作为返回值。输入参数和返回值都是序列类型。
+
+如果在使用中有任何问题，可以通过我们的[邮箱](2020302111360@whu.edu.cn)或者直接在项目负责人中联系我们，我们会给予力所能及的最大帮助。如果觉得我们的项目对您有帮助的话，请麻烦去我们的[项目](https://github.com/123xnc/keywords_to_poem)中为我们点个⭐，谢谢了！
