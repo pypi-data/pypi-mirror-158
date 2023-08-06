@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+url_strip/__init__.py
+url_strip/_result.py
+url_strip/_special_cases.py
+url_strip/_strip.py
+url_strip/_types.py
+url_strip/testing.py
+url_strip.egg-info/PKG-INFO
+url_strip.egg-info/SOURCES.txt
+url_strip.egg-info/dependency_links.txt
+url_strip.egg-info/requires.txt
+url_strip.egg-info/top_level.txt
