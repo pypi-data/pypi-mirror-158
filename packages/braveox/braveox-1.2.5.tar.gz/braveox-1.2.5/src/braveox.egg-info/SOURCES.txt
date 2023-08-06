@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/braveox/Braveox.py
+src/braveox/__init__.py
+src/braveox/etc.py
+src/braveox.egg-info/PKG-INFO
+src/braveox.egg-info/SOURCES.txt
+src/braveox.egg-info/dependency_links.txt
+src/braveox.egg-info/top_level.txt
