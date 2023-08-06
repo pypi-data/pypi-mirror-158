@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: whatshouldido
+Version: 0.1.9
+Summary: Allows to see sorted by date TODOS from code
+Author-email: djbios <dorandval@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: termcolor
+Requires-Dist: tabulate
+Requires-Dist: GitPython
+Requires-Dist: click
+Project-URL: Home, https://djbios.org
+
+# whatshouldido - TODO comments cli tool
+
+Allows to see **sorted by date** TODOS from code.
+
+## Installation
+
+> pip install whatshouldido
+
+ 
+## Usage
+Command `whatshouldido` is available globally after installation.
+
+Options:
+  - `--path PATH`      Git repo path
+  - `-e TEXT`          Comma separated file extensions filters
+  - `--table` / `--list`  Print as table or as list
+  - `--help`           Show help message and exit.
+

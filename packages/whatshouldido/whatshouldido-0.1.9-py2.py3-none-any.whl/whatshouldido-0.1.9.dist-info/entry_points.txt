@@ -1,0 +1,3 @@
+[console_scripts]
+whatshouldido=whatshouldido:list_todos
+
