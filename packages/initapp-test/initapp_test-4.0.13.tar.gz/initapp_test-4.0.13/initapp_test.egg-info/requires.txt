@@ -1,0 +1,9 @@
+numpy
+ffmpeg_python==0.2.0
+opencv_python
+openpyxl
+pandas
+xlrd
+pytesseract==0.3.8
+ffmpeg==1.4
+PyYAML
