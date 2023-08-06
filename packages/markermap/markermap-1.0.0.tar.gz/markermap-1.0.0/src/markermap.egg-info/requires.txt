@@ -1,0 +1,10 @@
+lassonet
+matplotlib
+numpy
+pandas
+pytorch-lightning
+scanpy
+seaborn
+smashpy>=0.1.2
+torch
+umap-learn
