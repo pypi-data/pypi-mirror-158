@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: viz-pip-malthoen
+Version: 1.1.0
+Summary: Test pypi upload with required and optional dependencies
+Author: Matteo Althoen
+Author-email: matteo.althoen@vizientinc.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas (==1.3.4)
+Provides-Extra: extras
+Requires-Dist: selenium (==4.1.3) ; extra == 'extras'
+Requires-Dist: webdriver-manager ; extra == 'extras'
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
