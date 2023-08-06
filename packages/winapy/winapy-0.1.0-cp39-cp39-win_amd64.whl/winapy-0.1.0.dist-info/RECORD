@@ -1,0 +1,11 @@
+winapy_gdi.cp39-win_amd64.pyd,sha256=8CCHKt7uZ47PGQu5pezE4pusEnpqcdulJ85ttK804uQ,51712
+winapy_mme.cp39-win_amd64.pyd,sha256=skUezLdrNE3F1D4YwRiXmcUktraMMjPiHFIaIrtU95U,18432
+winapy_shell.cp39-win_amd64.pyd,sha256=6yQ_3mb5ZnsZ1jDA6cbJIDtfhOD-0JGawaTKs2Bg4pQ,15872
+winapy_user.cp39-win_amd64.pyd,sha256=7wwpabazRq0iu7Gmev3X-e5A07h0FxzAlrxsc7q3CDo,47104
+winapy/__init__.py,sha256=5rsYGC4CUOKwGV4YleW2yU_JTl1h4-BEz30tyvlWNMo,174
+winapy-0.1.0.data/data/utils.c,sha256=nOhylgo0NnhvUl3v7ZjFwh4NH9aOiacilSOtow9yiqI,911
+winapy_con/__init__.py,sha256=k1ouSh0BXRSM0y0CmQjENfwnsoPrMXvlq0aLN8CqQSc,223170
+winapy-0.1.0.dist-info/METADATA,sha256=A2H9NBZuPdL4SQf8rZKzbJfD5FVycdF89lgQWLV9ODM,886
+winapy-0.1.0.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+winapy-0.1.0.dist-info/top_level.txt,sha256=-XXGH2Fkqg9Fa34Rz24W5kQaMg5CJpb6omouuAvQVB4,65
+winapy-0.1.0.dist-info/RECORD,,
