@@ -1,0 +1,15 @@
+metrontagger/__init__.py,sha256=H2Q2scoWi1sv9viWWn86gLuuGSz-H995cU0VuC_rdl8,75
+metrontagger/cli.py,sha256=hf51c9ewTGpNh-_xhkdH0Vbzs0EjXRojABjltr9RnDw,1588
+metrontagger/filerenamer.py,sha256=PXKQIJi4WoAfHyqjT7wXYIsPnA5hYI8QS5mbPS09oKM,7254
+metrontagger/filesorter.py,sha256=qgA0BU9-0ZUqdTDRoPcYn4lZdNgsT4Oe30tHbZvcsJM,2661
+metrontagger/options.py,sha256=46QY1kEFRTCRJo3ueUP5w-B3oWhmOvJ6n5R899lLp0M,3157
+metrontagger/run.py,sha256=d9Y8FC183FiN4t7OrSbNkMWrBqKdunt1DXAk0MDweak,7221
+metrontagger/settings.py,sha256=PTvt1vsTK83qXw3C8hKorhFOXRRU8NhTy51n_L2NVsc,4753
+metrontagger/styles.py,sha256=AhKWVGcnPvJOyQl0ktRP7PNFcVlA8lf43eJ2_f_XcKA,129
+metrontagger/talker.py,sha256=LEGoP11SIlwbaqnBaI5ojANFuz8ftbPCYlD99jF_csw,7883
+metrontagger/utils.py,sha256=oc2OnalVaTFJwttLRtBXsh2_--_5WfeJSvYpYMLyv3I,1498
+metron_tagger-1.2.12.dist-info/entry_points.txt,sha256=Im8NllJq9gVX-u7MkDYOznRXSlNpjkXWz1GQt57tG_U,55
+metron_tagger-1.2.12.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+metron_tagger-1.2.12.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+metron_tagger-1.2.12.dist-info/METADATA,sha256=W1Z7Kwp-jpz3D9jc72bAD6t5-zGdY_QS72CC6pNwIS4,5114
+metron_tagger-1.2.12.dist-info/RECORD,,
