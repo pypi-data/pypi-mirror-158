@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+pytheus/__init__.py
+pytheus.egg-info/PKG-INFO
+pytheus.egg-info/SOURCES.txt
+pytheus.egg-info/dependency_links.txt
+pytheus.egg-info/top_level.txt

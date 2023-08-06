@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pytheus
+Version: 0.0.0
+Summary: playing with metrics
+Author-email: Llandy Riveron Del Risco <llandy3d@gmail.com>
+Project-URL: repository, https://github.com/Llandy3d/pytheus
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# pytheus
+
+playing with metrics
