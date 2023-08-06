@@ -1,0 +1,9 @@
+LICENSE,sha256=c8BeZqT-1pBqIImrb4zfdyqcjy1PD9MODCDym6seKTo,1057
+README.rst,sha256=HIHUIRkYH-cUkAU446Mo_sm55iI5CSx8wAMrMtIqdO8,1128
+jsonfeed/__init__.py,sha256=6EjOZK8mgEy_vTHeVU0N_2ImO4mg28p-vYqLBGN9IUY,60
+jsonfeed/__version__.py,sha256=f23M0TRDW3TrGOoiYb6Ub562xCXolK3Op685YBPpj24,63
+jsonfeed/core.py,sha256=WtuoGgBJtJTv-vFRY8xYqych4nIUmBgB88WzGelbJ38,5458
+django_jsonfeed-0.4.0.dist-info/LICENSE,sha256=c8BeZqT-1pBqIImrb4zfdyqcjy1PD9MODCDym6seKTo,1057
+django_jsonfeed-0.4.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+django_jsonfeed-0.4.0.dist-info/METADATA,sha256=i8dTAOzxDYIqG3O_lj73bok3YUGhM1ukK72ORpeKDhI,1879
+django_jsonfeed-0.4.0.dist-info/RECORD,,
