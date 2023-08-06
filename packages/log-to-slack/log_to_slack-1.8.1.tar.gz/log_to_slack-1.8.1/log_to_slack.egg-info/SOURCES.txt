@@ -1,0 +1,17 @@
+.editorconfig
+.gitignore
+HOWTO_PIP.md
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+test.py
+log_to_slack/__init__.py
+log_to_slack.egg-info/PKG-INFO
+log_to_slack.egg-info/SOURCES.txt
+log_to_slack.egg-info/dependency_links.txt
+log_to_slack.egg-info/not-zip-safe
+log_to_slack.egg-info/requires.txt
+log_to_slack.egg-info/top_level.txt
