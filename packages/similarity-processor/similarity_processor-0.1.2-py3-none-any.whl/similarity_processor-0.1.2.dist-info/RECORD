@@ -1,0 +1,12 @@
+similarity/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+similarity/__main__.py,sha256=q56pcOm3Gh6ypExVmX8Pzy6c2HZVKGPtgjGzjBfMMMk,724
+similarity/df_style.css,sha256=Vfo-2a06N7GgFfZ6H5Na_gIv-WrQxIN1NgKLn8KTXAc,434
+similarity/similarity_cmd.py,sha256=TaZDajYuqDv8VRfLrPydvws4H5W9vnOuexrY17yaIzc,1931
+similarity/similarity_io.py,sha256=sIpqD8x8ifP_Uaa_ALIiogMqKDLUlgcYtRxM6y983Cc,15822
+similarity/similarity_logging.py,sha256=LcOcJPg1-rcIZY26ccYlNqgVCuYAS5tDJE9OQWXwIsQ,669
+similarity/similarity_ui.py,sha256=B1B4a6va-0JQ1-LaHn0WHLum2WsColWGvPNThZYvjpw,4209
+similarity_processor-0.1.2.dist-info/LICENSE.md,sha256=BuzuhU5_jd13_7PO82knCyoNkCh5GFX1QC6VuqAmXXs,1169
+similarity_processor-0.1.2.dist-info/METADATA,sha256=k9DiKghGRdBcNHp8ddVALoCJASdPjntTDDKFAxglp5w,5863
+similarity_processor-0.1.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+similarity_processor-0.1.2.dist-info/top_level.txt,sha256=Ha9oDHmfFadMr1PLZzubk9eY3vUP1n1GLqnXNCMOUlQ,11
+similarity_processor-0.1.2.dist-info/RECORD,,
