@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: playdate-midi-converter
+Version: 0.0.1
+Summary: Library to convert MIDI files to the PlayDate Pulp IDE's JSON format.
+Home-page: https://github.com/ryanbeard82/Python-Midi-to-JSON
+Author: Ryan Beard
+Author-email: ryan_o_beard@me.com
+License: MIT
+Requires-Python: >=3.9.*
+License-File: LICENSE.txt
+Requires-Dist: mido
+Requires-Dist: pathlib
+Requires-Dist: pick
+
