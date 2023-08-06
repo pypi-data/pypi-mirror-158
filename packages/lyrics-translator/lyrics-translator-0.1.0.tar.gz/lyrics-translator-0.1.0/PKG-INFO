@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: lyrics-translator
+Version: 0.1.0
+Summary: Automated lyrics translation
+Home-page: https://github.com/MauroLuzzatto/lyrics-translator
+License: MIT
+Keywords: lyrics,translation
+Author: Mauro Luzzatto
+Author-email: mauroluzzatto@hotmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: lyricsgenius (>=3.0.1,<4.0.0)
+Requires-Dist: python-docx (>=0.8.11,<0.9.0)
+Requires-Dist: python-dotenv (>=0.20.0,<0.21.0)
+Requires-Dist: sacremoses (>=0.0.53,<0.0.54)
+Requires-Dist: sentencepiece (>=0.1.96,<0.2.0)
+Requires-Dist: transformers[torch] (>=4.20.1,<5.0.0)
+Project-URL: Repository, https://github.com/MauroLuzzatto/lyrics-translator
+Description-Content-Type: text/markdown
+
+# Lyrics Translator
+
+The `Lyrics Translator` downloads lyrics from genius and uses hugging face to translate the English lyrics into a target language.
+
+To use the `Lyrics Translator` you will have to create an API Key from `genius` and add it to a `env` file:
+
+https://docs.genius.com/#/getting-started-h1
+
