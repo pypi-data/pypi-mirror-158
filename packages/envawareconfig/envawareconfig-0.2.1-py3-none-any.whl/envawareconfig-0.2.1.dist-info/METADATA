@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: envawareconfig
+Version: 0.2.1
+Summary: Load configurations from yaml files with automatic environment variable substitution
+Home-page: https://github.com/mfrattini7/envawareconfig
+Author: marcello
+Author-email: marcello.frattini7@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: python-dotenv (>=0.19.2,<0.20.0)
+Project-URL: Repository, https://github.com/mfrattini7/envawareconfig
+Description-Content-Type: text/markdown
+
+# Envawareconfig
+
+Load configurations from yaml files with automatic environment variable substitution.
+
+## Installation
+
+with [pip](https://pip.pypa.io/en/stable/):
+
+`pip install envawareconfig`
+
+with [poetry](https://python-poetry.org/):
+
+`poetry add envawareconfig`
+
+## QuickStart
+
+Suppose you have a configuration file like this:
+
+```yaml
+# test-config.yaml
+database:
+  name: my-database
+  user: "${DB_USER:admin}"
+  password: "${DB_PASSWORD}"
+```
+
+and that you have set the environment variable `DB_PASSWORD` to `my-secret-password`
+while `DB_USER` has been left unset.
+
+then running the following code:
+
+```python
+# main.py
+
+from envawareconfig import load_config
+
+config = load_config("tests/test-config.yaml")
+```
+
+would result in:
+```python
+config = {
+    "database": {
+        "name": "my-database",
+        "user": "admin",
+        "password": "my-secret-password"
+    }
+}
+```
+
+Notice that `${DB_PASSWORD}` has been expanded and `${DB_USER:admin}` used the default value.
+
