@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+clear_formatting/__init__.py
+clear_formatting/formats.py
+clear_formatting/main.py
+clear_formatting.egg-info/PKG-INFO
+clear_formatting.egg-info/SOURCES.txt
+clear_formatting.egg-info/dependency_links.txt
+clear_formatting.egg-info/top_level.txt
