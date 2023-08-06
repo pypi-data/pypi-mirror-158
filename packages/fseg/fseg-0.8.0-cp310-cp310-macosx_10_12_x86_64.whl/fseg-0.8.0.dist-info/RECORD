@@ -1,0 +1,16 @@
+fseg/__init__.py,sha256=o9Py0C8DJmnEIXJ0aKYD5pnnA7hSVXoTwqZujCpOLn0,263
+fseg/_analyzer.py,sha256=ntjDBU_psb3g1G29_u6Mkgw3JPTPUybp3NPIfXRqS6Q,6041
+fseg/_data.py,sha256=o59ICKDq_4dP5Wnfb9S9_tm5HWsRuIpjMMAQgLOID2M,2318
+fseg/_version.py,sha256=iPlYCcIzuzW7T2HKDkmYlMkRI51dBLfNRxPPiWrfw9U,22
+fseg/impl/__init__.py,sha256=vSbbDl2iBqkjipNfb4FpDCQSVZgg-cpwsP0UuJpfoj0,169
+fseg/impl/_fseg.cpython-310-darwin.so,sha256=JWm03G6NUivpwnmaNLW4MdiVJrhEAfYCBcFrfEJEXIg,220944
+fseg/impl/libdate-tz.3.0.0.dylib,sha256=uaNtJUlYyLghNTN9SbuuvjeL1xZoo5rFDzeW3rG2xUU,126408
+fseg/impl/libdate-tz.3.dylib,sha256=uaNtJUlYyLghNTN9SbuuvjeL1xZoo5rFDzeW3rG2xUU,126408
+fseg/impl/libdate-tz.dylib,sha256=uaNtJUlYyLghNTN9SbuuvjeL1xZoo5rFDzeW3rG2xUU,126408
+fseg/impl/libspa.dylib,sha256=fdU4kzzSzyq25R7AvoTIHt9a85cBG_trMEPP5wW1DYg,70616
+fseg-0.8.0.dist-info/AUTHORS.md,sha256=15FG0ihy8JssRVGYHN2QNG0qZhYdwrt-iYfS4FeyI7s,78
+fseg-0.8.0.dist-info/LICENSE,sha256=FILAaDN53bfjDerayqThcrnyJ9nObzzy1xkzNoyd4tQ,26517
+fseg-0.8.0.dist-info/METADATA,sha256=JeG7Gl6ymDN_9v8SBPO75YZCeeaS1RzVbQLEcDwtc8I,4288
+fseg-0.8.0.dist-info/WHEEL,sha256=UDAA7hpKdgRRq6-Pw0q3p_55Vd9-Q3S30OwjEDyqySE,112
+fseg-0.8.0.dist-info/top_level.txt,sha256=aAfwY3Nx6sGs7WkPrNdcbI7f3v3gcP00z1BrAU5Jkbo,11
+fseg-0.8.0.dist-info/RECORD,,
