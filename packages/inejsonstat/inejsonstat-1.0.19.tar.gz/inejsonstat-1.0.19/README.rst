@@ -1,0 +1,161 @@
+inejsonstat.py
+===========
+
+**IneJsonStat** is a library for reading the [JSON-stat](http://json-stat.org/) data format responses
+from the [Spanish National Institute of Stadistics (INE)](https://www.ine.es/)'s [JSON-stat API](https://www.ine.es/dyngs/DataLab/en/manual.html?cid=1259945948443).
+
+JSON-stat is a JSON format specialized in representing datasets mainly for statistic purposes.
+It's used by many institutions around the world, such as:
+
+* [Statistics Norway](http://www.ssb.no/en)
+* [Eurostat](http://ec.europa.eu/eurostat/)
+* [United Nations Economic Commission for Europe](https://w3.unece.org/PXWeb/en)
+* [Bank of Portugal](https://bpstat.bportugal.pt/data/docs)
+* [Cantabrian Institute of Statistics](https://www.icane.es/)
+* Many others...
+
+The main objective of the library its to ease the use interpretation and manipulation
+of retrieved data by the means of creating dynamically objects representing the
+hierarchically the different levels of information in a retrieved file.
+
+This project is in early stages and has been developed for the [University of Extremadura](https://www.unex.es/).
+You can contribute on its [github repository](https://github.com/Mlgpigeon/inejsonstat.git)
+or contact me directly in case of doubt or need via **luismasc16@gmail.com**.
+
+## Installation:
+```
+>>> pip install inejsonstat
+```
+
+## Usage of the INE JSON-stat API:
+
+The INE provides their data in two languages:
+
+* 'ES' (spanish)
+* 'EN' (english)
+
+The INE provides table identifiers  for any kind of request,
+which are used for the library as inputs
+and can be found here:
+
+https://www.ine.es/dyngs/INEbase/listaoperaciones.htm
+
+The INE provides an optional parameter called nult which if not left blank,
+it will return only the n, being n an integer, the last terms of the
+requested table
+
+Optional date:
+If not left blank, it will give the terms of the requested table in:
+
+* date=YYYYMMDD (a given date)
+* date=YYYYMMDD&date=YYYYMMDD (a list of given dates)
+* date=YYYYMMDD:YYYYMMDD (a range of dates)
+
+## Use of the library:
+
+Once the library has been imported, to initialize it the method **create()** must be called
+on a variable. The stored object's type is **JsonStatRequest**, which manages requests to the API.
+This method has optional input that its covered in greater detail in the next paragraph.
+
+##Example of use
+```
+import inejsonstat
+
+ine = inejsonstat.create()
+```
+
+To make the request, on the **JsonStatRequest** object, the method **do_request** must be called.
+This method accepts some optional input that does **not** need to defined if it has already been in
+**create()** which accepts the same input. The result oof the request should be stored in a variable
+and its type is **JsonStatDataSet** from the library [jsonstat.py](https://pypi.org/project/jsonstat.py/) .
+
+Input for request:
+
+* **target**, the id of the table as defined in the INE URL section of this document:
+    -As a string
+    -As an enumerator declare.d on the **JsonStatRequest** attribute **targets**
+
+* **language**, the language as defined in the INE URL section of this document:
+    -As a string
+    -As an enumerator declare.d on the **JsonStatRequest** attribute **languages**
+
+* **nult**, the nult as defined in the INE URL section of this document:
+    -As a string representing an integer
+    -As an integer
+
+* **date**, the nult as defined in the INE URL section of this document:
+    -'YYYYMMDD' as a string or a date object from the datetime library.
+    -'YYYYMMDD&YYYYMMDD&...' as a string or a set of date objects and another input attribute **datetype** = 'list'.
+    -'YYYYMMDD:YYYYMMDD' as a string or a set of 2 date objects and another input attribute **datetype** = 'range'.
+
+##Example of use
+```
+import inejsonstat
+
+date = datetime.date(year=2021, month=5, day=1)
+date2 = datetime.date(year=2021, month=4, day=1)
+
+# Initialize the program
+ine = inejsonstat.create()
+
+# Example with written date and language
+json_data = ine.do_request(target=ine.targets.N2065, language=ine.languages.EN, date="20210501&20210401")
+json_data2 = ine.do_request(target="2065", language="EN", date=[date,date1],datetype="list")
+```
+
+To further take advantage of what this library offers, there must be initialized an instance of
+the class **ProcJsonStatDataset**. This is done by calling the **JsonStatRequest** method
+**generate_dataset()**, which takes as parameter a **JsonStatDataSet** from the library jsonstat.py.
+Once this is done, the data can be written in a CSV by calling the method **generate_dataset()**,
+that takes as an input parameter a string denoting the name the file will have.
+The data recovered can be also written to a [pandas]()'s dataframe with **get_dataframe()**.
+The dataset attributes can be known by using
+
+##Example of use
+```
+dataset = ine.generate_dataset(json_data)
+df = ine.get_dataframe()
+ine.save_csv("examplecsv")
+dataset.print_attributes()
+```
+
+The generated dataset contains different attributed generated dinamically which correspond to the JSON-stat
+fields. The first method to access data is through attributes containing objects with the same hierarchy as
+a JSON-stat file.
+
+##Example of use
+```
+print("Dataset dimensions are: ", dataset.dimensions)
+print("List of values is: ",dataset.value)
+print("List of values is: ", dataset.status)
+print("Dimensions role is: ",dataset.autonomouscommunitiesandprovinces.role)
+print("Dimensions label is: ", dataset.autonomouscommunitiesandprovinces.label)
+print("Python dictionary representing category's index is: ",
+       dataset.autonomouscommunitiesandprovinces.category.index)
+print("Python dictionary representing category's label is: ",
+       dataset.autonomouscommunitiesandprovinces.category.label)
+```
+
+The generated dataset also has enumerators representing dimensions, which can be consulted by **enumerator_hub.list()**
+that by themselves contain enumerators representing labels regarding that dimension's category. The default value
+for this enumerators is the label name, but dataframes of the dataset filtered by that specific value can be
+returned by using **data_df()** if both status and value are wanted or just **values_df()** or **status_df()** if
+just one of that columns if wanted. To consult the columns that the dataframe should have **columns** can be used.
+
+##Example of use
+```
+df = dataset.AUTONOMOUSCOMMUNITIESANDPROVINCES.BADAJOZ.values_df()
+df1 = dataset.AUTONOMOUSCOMMUNITIESANDPROVINCES.BADAJOZ.status_df()
+df2 = dataset.AUTONOMOUSCOMMUNITIESANDPROVINCES.BADAJOZ.data_df()
+print("Columns of the dataframe are: ", dataset.AUTONOMOUSCOMMUNITIESANDPROVINCES.BADAJOZ.columns)
+```
+
+Last but not least, to make a query with specific values, the dimension name acts as an value, giving it the searched
+valued via the literal label value or calling the enumerator. Columns can also be disabled in the output dataframe
+by giving the value "no".
+
+##Example of use
+```
+df4 = ine.query(autonomouscommunitiesandprovinces=[dataset.AUTONOMOUSCOMMUNITIESANDPROVINCES.BADAJOZ,
+                                                     "Granada"], status="NO")
+```
