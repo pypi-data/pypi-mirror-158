@@ -1,0 +1,10 @@
+pytest_fluent/__init__.py,sha256=7SXBdNl34gET7Z2oQtRhvFqbx4fV0P2zIvmdZLTliuU,766
+pytest_fluent/additional_information.py,sha256=RPhau5H8Frtox5o-FnJn7rQW8H0vE0w9KkQAnMwu2cU,868
+pytest_fluent/plugin.py,sha256=JZPDeysRpABv732OmkTLo-gQLZcf5AmXbtYNdrdhxI0,11095
+pytest_fluent/test_report.py,sha256=jbsDL81NDzUASIFWnn6tVmQnSk2nlfmkpnROVT9v0Hk,4886
+pytest_fluent-0.1.0.dist-info/LICENSE,sha256=gcHvWmLlKgpZ9CZmJ9izQ1sNevvLQk3QCykn_6fTc8k,1107
+pytest_fluent-0.1.0.dist-info/METADATA,sha256=6deekSxiBiYRH27HMczSblVDavpSTzWbKtmIufcei0k,8403
+pytest_fluent-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_fluent-0.1.0.dist-info/entry_points.txt,sha256=kXmGeXdhIaXcEfbBBXYZcGBidSDqdUsi60w4V-zKu_U,49
+pytest_fluent-0.1.0.dist-info/top_level.txt,sha256=zifrLo5QtSQZhgPg_hpxXcI4xEPN7Yr9mcJd4QJAj9A,14
+pytest_fluent-0.1.0.dist-info/RECORD,,
