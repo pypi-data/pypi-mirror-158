@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+pygamemaker/__init__.py
+pygamemaker/pyplayground.py
+pygamemaker.egg-info/PKG-INFO
+pygamemaker.egg-info/SOURCES.txt
+pygamemaker.egg-info/dependency_links.txt
+pygamemaker.egg-info/top_level.txt
