@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: python-clustering
+Version: 1.0.1
+Summary: Intuitive access to clustering datasets, methods and tasks
+Home-page: https://github.com/IvanReznikov/python-clustering
+Author: ce1ebi
+Author-email: ivanreznikov@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/python-clustering/
+Keywords: clustering,datasets
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
