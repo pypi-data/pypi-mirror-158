@@ -1,0 +1,3 @@
+[console_scripts]
+cli-imagefetcher=cli_imagefetcher.cli:main
+
