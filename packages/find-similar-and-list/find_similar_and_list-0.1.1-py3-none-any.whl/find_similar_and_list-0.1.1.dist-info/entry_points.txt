@@ -1,0 +1,3 @@
+[console_scripts]
+find-similar-and-list=find_similar_and_list.cli:main
+
