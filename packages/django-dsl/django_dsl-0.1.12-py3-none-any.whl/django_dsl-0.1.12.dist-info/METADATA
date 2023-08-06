@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: django-dsl
+Version: 0.1.12
+Summary: DSL for Django ORM
+Home-page: https://github.com/mpasternak/django-dsl
+Author: Michał Pasternak
+Author-email: michal.dtz@gmail.com
+License: MIT
+Keywords: django-dsl
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.10
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: ply (>=3.10)
+Requires-Dist: Django (>=1.10)
+
+=============================
+Django DSL
+=============================
+
+.. image:: https://badge.fury.io/py/django-dsl.svg
+	   :target: https://badge.fury.io/py/django-dsl
+		    
+.. image:: https://github.com/yourlabs/django-session-security/actions/workflows/tests.yml/badge.svg
+        :target: https://github.com/yourlabs/django-session-security/actions
+
+.. image:: https://coveralls.io/repos/github/mpasternak/django-dsl/badge.svg?branch=master
+   :target: https://coveralls.io/github/mpasternak/django-dsl?branch=master
+	     
+DSL for Django ORM
+
+This is a simple query language for Django ORM. You can give it to your
+customers so they will be able to filter the database without having
+to edit code.
+
+From one side, you feed it with a string, supplied by the user. And, it
+gives you Q-objects, ready to be used in ``QuerySet.filter()`` call.
+
+Please see ``tests/test_dsl.py`` file for example usage.
+
+
+Running Tests
+-------------
+
+Does the code actually work?
+
+::
+
+    source <YOURVIRTUALENV>/bin/activate
+    (myenv) $ pip install tox
+    (myenv) $ tox
+
+
+
+
+History
+-------
+
+0.1.12 (2022-07-07)
++++++++++++++++++++
+
+* Support Python 3.10 and Django 3.2
+* support GitHub Actions instead of Travis
+
+0.1.0 (2017-07-21)
+++++++++++++++++++
+
+* First release on PyPI.
