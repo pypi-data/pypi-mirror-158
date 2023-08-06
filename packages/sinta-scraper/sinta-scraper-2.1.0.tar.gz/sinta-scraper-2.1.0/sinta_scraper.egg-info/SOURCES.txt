@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+sinta/__init__.py
+sinta/affiliation.py
+sinta/author.py
+sinta/department.py
+sinta_scraper.egg-info/PKG-INFO
+sinta_scraper.egg-info/SOURCES.txt
+sinta_scraper.egg-info/dependency_links.txt
+sinta_scraper.egg-info/requires.txt
+sinta_scraper.egg-info/top_level.txt
+util/__init__.py
+util/config.py
+util/utils.py
