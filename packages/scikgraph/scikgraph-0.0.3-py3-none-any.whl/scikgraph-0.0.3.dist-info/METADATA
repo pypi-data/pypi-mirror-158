@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: scikgraph
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://github.com/maurodlt/SciKGraph
+Author: Mauro Dalle Lucca Tosi
+Author-email: UNKNOWN
+License: MITCC-BY-NC-ND
+Platform: UNKNOWN
+Requires-Dist: wheel
+Requires-Dist: flask
+Requires-Dist: nltk
+Requires-Dist: matplotlib
+Requires-Dist: networkx (==2.3)
+Requires-Dist: flask-bootstrap
+Requires-Dist: py2cytoscape
+
+UNKNOWN
+
+
