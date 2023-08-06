@@ -1,0 +1,14 @@
+deeptools
+fire
+hvplot
+loguru
+matplotlib
+networkx
+numpy
+pandas
+pyBigWig
+python-louvain
+scipy
+
+[genomeBrowser]
+pyGenomeTrack
