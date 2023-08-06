@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+yolov10/__init__.py
+yolov10.egg-info/PKG-INFO
+yolov10.egg-info/SOURCES.txt
+yolov10.egg-info/dependency_links.txt
+yolov10.egg-info/requires.txt
+yolov10.egg-info/top_level.txt
