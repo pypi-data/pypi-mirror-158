@@ -1,0 +1,11 @@
+create_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_app/__main__.py,sha256=Csg_c9R6Zirl6vwoSXw5HV0O-5vnTTHV89SOaA8QiNI,40
+create_app/cli.py,sha256=WeSD_sVdjPeYkRqn31Skk-Lw3XKrzv7DahTNKNybnIY,860
+create_app/settings.py,sha256=OOQMgT2HbxJRIWrcALJiGlaJi_yLdDUnBut7qGXwyPk,574
+create_app/templates.py,sha256=HkdIHqGrg_irHOkLzBsS3JlUQdYJg4n9B4cvsG3i2U8,338
+create_app-0.1.6.dist-info/LICENSE,sha256=iMuvzYixoN85BIjTZReIzPclyT1EqToGaRYWypGEQDI,1069
+create_app-0.1.6.dist-info/METADATA,sha256=YMMU97Fz2GMWN29Eb0zsMC4ON5b3tHrwuFdqNG_b5Y0,7422
+create_app-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+create_app-0.1.6.dist-info/entry_points.txt,sha256=ABYVgwA3oWmjwoMixz1XRq3wGXxVXuKCI4PwWEyCRl0,51
+create_app-0.1.6.dist-info/top_level.txt,sha256=XUj2GSa9b3o0yflSHwMjsAcBcNj0yYWmEirjR_NLDF8,11
+create_app-0.1.6.dist-info/RECORD,,
