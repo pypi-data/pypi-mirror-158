@@ -1,0 +1,2 @@
+[console_scripts]
+df_gc = df_graph_construction:gc_cli
