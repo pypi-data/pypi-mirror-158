@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+hosthelp/_init_.py
+hosthelp/hosthelp.py
+hosthelp.egg-info/PKG-INFO
+hosthelp.egg-info/SOURCES.txt
+hosthelp.egg-info/dependency_links.txt
+hosthelp.egg-info/requires.txt
+hosthelp.egg-info/top_level.txt
