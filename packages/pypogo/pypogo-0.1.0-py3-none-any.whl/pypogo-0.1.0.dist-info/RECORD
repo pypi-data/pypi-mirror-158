@@ -1,0 +1,17 @@
+pypogo/__init__.py,sha256=xv3TVHCQ3fIOlY9HQuAafNDGlxgmJx-Mwtat2TGBz_Q,1751
+pypogo/battle.py,sha256=Ili6vSpVV-lXWkBESNs594P4mfz48Jjg41aT9b6yb-4,21626
+pypogo/data.py,sha256=CLvRNiXe6vx5bNpziao0-s35Ytod0W5zWXcfnr6ZTFE,5214
+pypogo/meta.py,sha256=xlbmqfgpUJyeMlKPprLHvhm79zSXiGL1tAxwZPJBIUc,1061
+pypogo/meta_ultra.py,sha256=Uv7l1Bsi8ajdL__ZyYgqvNHZzPz0sX0OxMqjVhrTnvU,18249
+pypogo/pogo_api.py,sha256=NmuCRUh-AausyqilqJ-WD_Mr46mywb-nNbFJUfucmrU,20135
+pypogo/pokemon.py,sha256=JISWUAC93RKmON-F4MGt9u86lMzN4pStRGzmmwjNDng,53926
+pypogo/pvp_inventory.py,sha256=r-1wY6Vqwe0DGD0ThVgJ6rYN2OHz4e5Q0F3TYAK54KY,9965
+pypogo/pvp_teams.py,sha256=q6j37qLw--ma2C89Sv1dkc4qopdK1tYmncfNVAwtdZA,7783
+pypogo/pvpoke_driver.py,sha256=NnM0bSVh62HVQ52kkSq4gAcFJ0fXHoq5pN95wwFk1jc,11341
+pypogo/qa.py,sha256=OrgNTd1Vn9CLXf1T1aXnKrxhod5RxYdJeimP3DVpmIE,78279
+pypogo/utils/__init__.py,sha256=VYHwoGl6A4caWtvq_hsrchoeraB70rm2jBFr3iHXAkw,1578
+pypogo/utils/priority_queue.py,sha256=suvYUI_RBxHdP9dVap6AJ6TUOrA75rLfeDR7jDvN4dQ,7521
+pypogo-0.1.0.dist-info/METADATA,sha256=s-giETQiFqQVI-4NntGlyqZrdmEkikVdkiMBg_T5S64,19828
+pypogo-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pypogo-0.1.0.dist-info/top_level.txt,sha256=XqSIV1Nyy0VUEzb_j4e33dr4YwLlykChDPueLUeXvBg,7
+pypogo-0.1.0.dist-info/RECORD,,
