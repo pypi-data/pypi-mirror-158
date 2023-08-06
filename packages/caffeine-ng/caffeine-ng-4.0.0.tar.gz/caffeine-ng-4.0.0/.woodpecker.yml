@@ -1,0 +1,5 @@
+pipeline:
+  build:
+    image: precommitci/runner-image
+    commands:
+      - pre-commit run --color always --all
