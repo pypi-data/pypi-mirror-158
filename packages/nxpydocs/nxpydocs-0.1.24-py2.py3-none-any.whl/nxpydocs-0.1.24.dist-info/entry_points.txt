@@ -1,0 +1,3 @@
+[console_scripts]
+nxpydocs=nxpydocs.script:run
+
