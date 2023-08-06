@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+handyscikit.egg-info/PKG-INFO
+handyscikit.egg-info/SOURCES.txt
+handyscikit.egg-info/dependency_links.txt
+handyscikit.egg-info/requires.txt
+handyscikit.egg-info/top_level.txt
