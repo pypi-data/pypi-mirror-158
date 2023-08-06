@@ -1,0 +1,2 @@
+[console_scripts]
+takiyasha = takiyasha.__main__:main
