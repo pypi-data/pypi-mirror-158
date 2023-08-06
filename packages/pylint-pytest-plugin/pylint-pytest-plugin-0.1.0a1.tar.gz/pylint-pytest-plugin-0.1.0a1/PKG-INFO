@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pylint-pytest-plugin
+Version: 0.1.0a1
+Summary: Plugin for pytest compatability for pylint
+Author-email: Daniël van Noord <3665637+DanielNoord@users.noreply.github.com>
+License: MIT License
+Keywords: pylint,linter,lint,pytest
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Framework :: Pytest
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Typing :: Typed
+Requires-Python: >=3.7.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+WIP
+
+Tentative TODO list:
+- Don't emit messages for ``__tracebackhide__`` assignments, fixed I guess?
+- Don't emit ``redefined-outer-name`` for fixtures, fixed I guess?
+- Investigate ``unused-import`` for ``import pytest`` with fixtures
