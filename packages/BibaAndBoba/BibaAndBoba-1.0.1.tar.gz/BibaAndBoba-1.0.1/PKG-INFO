@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: BibaAndBoba
+Version: 1.0.1
+Summary: Python package for analyzing Telegram chats and finding correlations between people
+Author: Andrew Yaroshevych
+Author-email: ayaroshlvua@gmail.com
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/andylvua/BibaAndBoba
+Project-URL: Documentation, https://bibaandboba.readthedocs.io/en/latest/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## BibaAndBoba
+Python package for analyzing Telegram chats and finding correlations between people
+
+
