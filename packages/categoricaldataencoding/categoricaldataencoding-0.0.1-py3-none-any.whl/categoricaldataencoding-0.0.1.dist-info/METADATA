@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: categoricaldataencoding
+Version: 0.0.1
+Summary: A package to encode the categorical data
+Home-page: https://github.com/arvind444/categorical_data_encoding
+Author: Arvindkumar
+Author-email: arvindkumar1998ece@gmail.com
+License: MIT
+Keywords: categorical data encoding
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+
+This function encodes the categorical data.By default it uses one-hot encoding.
+    Args:data: pandas dataframe
+         column: column name. It needs to be a list and categorical column
+         method: one_hot or label_encoding
+    Returns: pandas dataframe with encoded categorical data.
+
+    We encode the categorical data because many algorithms are not able to handle the categorical data.
+    
+
