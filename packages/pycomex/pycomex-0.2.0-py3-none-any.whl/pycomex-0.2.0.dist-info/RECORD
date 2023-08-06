@@ -1,0 +1,11 @@
+README.rst,sha256=EaFeWdYKA9B6c8uVNvJV5W09bpqpbfg6t-UC2YHbzYQ,3762
+pycomex/VERSION,sha256=H5MN0fEzwfl6lP46y42zQ3LPTAH_2ys_9Mpy-UlBIek,6
+pycomex/templates/analysis.j2,sha256=lDYaYxqaCsYWEriAXp42_C4kMEc9-CISKBIYMP58pCw,652
+tests/__init__.py,sha256=eWTjRMih1wPYJqPu5th_abknlaSdZ-9U7LfLYWa_g3E,37
+tests/test_examples.py,sha256=bBidcPjTVS0uiYoGyn-40tav_itfmsIGkE1SYAae6pY,1585
+tests/test_experiment.py,sha256=n5NGLJdWKCM4rUWCHQgMJU1kmHx_mmVjqzFuYeSrVEc,16330
+pycomex-0.2.0.dist-info/entry_points.txt,sha256=jNAVTks6FBkjuUfTbR8q3P-c3AblyZDv5wDkEzCIGE8,44
+pycomex-0.2.0.dist-info/LICENSE,sha256=EciQxCCH270GZy7FKLSBbe21yPJFnJVThUklcJuaKD4,1071
+pycomex-0.2.0.dist-info/WHEEL,sha256=FWzWAvOOsDP6aqtZj_z3pIhVEk8S9F03Xwafa0tLqIY,90
+pycomex-0.2.0.dist-info/METADATA,sha256=ROoXerPRSlTFhUxj6_S7w4XBTI7iF_um-aMM5tG-2pg,4550
+pycomex-0.2.0.dist-info/RECORD,,
