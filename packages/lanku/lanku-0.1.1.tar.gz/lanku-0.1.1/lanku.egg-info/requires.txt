@@ -1,0 +1,5 @@
+appdirs
+lank>=0.4.1
+pyglet
+pystray
+requests
