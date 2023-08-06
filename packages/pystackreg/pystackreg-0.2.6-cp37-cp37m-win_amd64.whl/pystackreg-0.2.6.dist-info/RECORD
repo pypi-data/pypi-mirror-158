@@ -1,0 +1,12 @@
+pystackreg/__init__.py,sha256=kluNEnquZbxUU3EQsMMVpdGvJk9SC_w3ML-MZdb1TqU,93
+pystackreg/conftest.py,sha256=wXZgqa3LH8gaHN_MaeCUAPr2U5N2V33KudW9t7Vp8Do,96
+pystackreg/pystackreg.py,sha256=qQwdTGd_Jkiu5aCwFYHk2XDxqAy0SEeRSlnSwP9ztSo,16561
+pystackreg/turboreg.cp37-win_amd64.pyd,sha256=HYSWUFwoHSN1yHDfI1VPqMqPEhySM1jVAXwTAzuA5CQ,123392
+pystackreg/version.py,sha256=-PlEVSVU0gTlP_wD3xffzA9LlqJQ7GGQdBSP6mKnDvY,23
+pystackreg/util/__init__.py,sha256=XFEle4PKsPRfTU4vb30R2m1LSdKBFGkRhU_EHN7cE9w,3309
+pystackreg-0.2.6.dist-info/AUTHORS.rst,sha256=zynasGhnieIp5is6GrkRZMPhaex5XXoysbf1hsKl7W8,296
+pystackreg-0.2.6.dist-info/LICENSE.txt,sha256=1wktWq_hCbdXPPzRWEX0Jgtw7VxXm-QnBinfBhZVtCY,1838
+pystackreg-0.2.6.dist-info/METADATA,sha256=8T0BRWXyn6aeq4sDvzZvHBoJHDtZ-n_kF-P45BWD0_0,11906
+pystackreg-0.2.6.dist-info/WHEEL,sha256=-FqDJjo4HrkrIaThvtAYef2eEAn1_QvVe5nINCnUEbQ,101
+pystackreg-0.2.6.dist-info/top_level.txt,sha256=qoYoHJMwck_foa97p1OZ--g0IdqGo7AFRQOsJmblwLY,11
+pystackreg-0.2.6.dist-info/RECORD,,
