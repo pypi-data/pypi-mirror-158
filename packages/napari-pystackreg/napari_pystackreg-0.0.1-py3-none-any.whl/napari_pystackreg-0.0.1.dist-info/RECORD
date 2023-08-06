@@ -1,0 +1,12 @@
+napari_pystackreg/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+napari_pystackreg/_sample_data.py,sha256=r8ele8XpS3OttJ5CZSs_gfk005KQuJg3JFD540YspeU,734
+napari_pystackreg/_widget.py,sha256=e0m1QuaDSYRIjvLkzb7DmoWnqO16NFkhZIZrr6RQoxQ,16367
+napari_pystackreg/napari.yaml,sha256=tdA-C8daE6g11QYnS7XJz6OUrfxy0FHyUvclBfUXchM,563
+napari_pystackreg/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_pystackreg/_tests/test_widget.py,sha256=ywdMZxfcibt3WkLSqhF4K53vc6zaCKGXoI6qNHmOICA,3307
+napari_pystackreg-0.0.1.dist-info/LICENSE,sha256=CUvt2ilcBwKAfRAnoA4RNPTLcdUj3En21LPK9YkFMGg,11358
+napari_pystackreg-0.0.1.dist-info/METADATA,sha256=T_NhzPo9lUdm2puzmfBGM6BxtHzaqmUYLg3zb7qw-YA,4229
+napari_pystackreg-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_pystackreg-0.0.1.dist-info/entry_points.txt,sha256=Jh5-SQTax_e8X6UweM-uQTx0sFFYIjLSuHb42SutWnI,68
+napari_pystackreg-0.0.1.dist-info/top_level.txt,sha256=QXwh_FMSAmywiza2SxgOBsAPEUu3dC7EL-I9NZsElkQ,18
+napari_pystackreg-0.0.1.dist-info/RECORD,,
