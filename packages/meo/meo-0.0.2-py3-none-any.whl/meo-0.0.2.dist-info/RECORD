@@ -1,0 +1,9 @@
+meo/__init__.py,sha256=TlMsJN9UHAz57bsh6s3zbdFGEe-qsFlm0VvCUuOAquo,68
+meo/__version__.py,sha256=Lf2UeBD3wAvjwxatbvlheBHKNsLOCacoxIXXtcEQdBE,307
+meo/data.py,sha256=UJjHjH5TOPzR67tKFPQEXadRLx6xf_OJrwwFm4uWxtM,465
+meo/net.py,sha256=DQ9AabaUkotrzOHm0wHWF35h0ZssRgZgMWuNEAHEqkQ,836
+meo-0.0.2.dist-info/LICENSE,sha256=BsdnEa2rh6iBv3Sl8NfbKF7vuYOmrO-Mmj6tv-RKVG4,1087
+meo-0.0.2.dist-info/METADATA,sha256=DGJV4qAQwkSTBArh__8oOWrTMHf4ybXtIJXUvcqyyYk,544
+meo-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+meo-0.0.2.dist-info/top_level.txt,sha256=nkU_jNA7j2xT1dDsQ-aohA9Zo-BqmyAt1vv63k7prPc,4
+meo-0.0.2.dist-info/RECORD,,
