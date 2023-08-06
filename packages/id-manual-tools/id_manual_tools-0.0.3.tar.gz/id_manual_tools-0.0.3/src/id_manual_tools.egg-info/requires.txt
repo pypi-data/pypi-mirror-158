@@ -1,0 +1,5 @@
+matplotlib
+numpy
+cv2
+rich
+scipy
