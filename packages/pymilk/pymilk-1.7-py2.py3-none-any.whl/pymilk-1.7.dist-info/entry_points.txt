@@ -1,0 +1,3 @@
+[console_scripts]
+pymilk=pymilk._cmd:parser
+
