@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: sceleto2
+Version: 1.0.2
+Summary: package description
+Home-page: UNKNOWN
+Author: Jongeun Park
+Author-email: jp24@kaist.ac.kr
+License: LICENSE
+Keywords: sceleto,single cell,scRNA-seq
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: adjustText
+Requires-Dist: bbknn
+Requires-Dist: datetime
+Requires-Dist: geosketch
+Requires-Dist: harmonypy
+Requires-Dist: joblib
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: python-igraph
+Requires-Dist: scanpy
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: scrublet
+Requires-Dist: seaborn
+
+# sceleto2
+
+**sceleto2** is the continuation of the sceleto package, which is a wrapper for the [scanpy](https://scanpy.readthedocs.io/en/stable/) package. It is maintained by [Single-Cell Medical Genomics Lab at KAIST](https://sites.google.com/view/scmglkaist). For more information, read the [documentation](https://sceleto.readthedocs.io)
+
