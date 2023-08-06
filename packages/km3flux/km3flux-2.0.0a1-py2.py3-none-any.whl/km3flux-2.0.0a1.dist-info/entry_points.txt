@@ -1,0 +1,3 @@
+[console_scripts]
+km3flux = km3flux.utils.km3flux:main
+
