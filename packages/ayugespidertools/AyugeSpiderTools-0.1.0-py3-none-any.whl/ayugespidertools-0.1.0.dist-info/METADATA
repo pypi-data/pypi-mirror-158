@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ayugespidertools
+Version: 0.1.0
+Summary: 
+Author: ayuge
+Author-email: ayuge.s@qq.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyExecJS (==1.5.1)
+Requires-Dist: pytest (==5.2.0)
