@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: subscrape
+Version: 1.0.1rc1
+Summary: A Python scraper for substrate chains
+Project-URL: Homepage, https://github.com/ChaosDAO-org/subscrape
+Project-URL: Bug Tracker, https://github.com/ChaosDAO-org/subscrape/issues
+Author-email: Tommi Enenkel <tommi.enenkel@gmail.com>, spaz <spazcoin@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 ChaosDAO
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: eth-utils
+Requires-Dist: hexbytes
+Requires-Dist: httpx[http2]
+Requires-Dist: pandas
+Requires-Dist: ratelimit
+Requires-Dist: simplejson
+Requires-Dist: substrate-interface
+Requires-Dist: web3>5.0
+Description-Content-Type: text/markdown
+
+# subscrape
+This is a growing library of Python facilities to scrape Substrate and Moonbeam-based chains. Substrate chains are scraped using Subscan while EVM-based chains use Moonscan.io and Blockscout.io.
+
+Roadmap: https://app.subsocial.network/@alice_und_bob/subscrape-releasing-v1-0-and-roadmap-for-v2-0-32075
+
+The basic workflow of `bin/scrape.py` considers the configuration presented in `data/scrape_config.json` 
+to traverse through the given chains and perform the operations for each chain.
+For Substrate, scraping extrinsics and transfers is supported.
+
+Data is stored locally using `SubscanDB` and can be used to use the data and transform it. The application works in a way that subsequent runs will only fetch deltas.
+
+`bin/transfers_all_chains.py` takes addresses and chains from `data/transfers_config.json` to create a CSV of
+ all transfers associated with that accounts.
+
+## Links
+- [v2.0 Milestones](https://github.com/ChaosDAO-org/subscrape/milestone/1)
+- [Roadmap](https://app.subsocial.network/@alice_und_bob/subscrape-releasing-v1-0-and-roadmap-for-v2-0-32075)
+- [Initial announcement and important updates](https://twitter.com/alice_und_bob/status/1493714489014956037)
+
+## Documentation
+- [Configuration](docs/configuration.md)
+- [Architecture](docs/architecture.md)
+
+## Limitations
+Error handling is not very sophisticated, so if the scrape is interrupted by an uncaught exception,
+the delta might be incomplete and subsequent runs might miss some data. To remedy the issue,
+the delta must be deleted and the scraper run again.
+
+## Usage
+
+### Installation
+> virtualenv venv
+> venv\scripts\activate
+> pip install -Ur .\PipRequirements.txt
+> bin\scrape.py
+
+### Subscan API Key
+If you have a Subscan API key, drop it in a file named `config/subscan-key`. Similarly, if you have a Moonscan.io API key, drop it in a file named  `config/moonscan-key`.
+
+### Example applications
+Take a look at the `/bin/` folder. There are some sample applications there.
+
+### Using scrape.py as application
+- copy `config/sample_scrape_config.json` to `config/scrape_config.json`
+- configure to your desire. See [configuration](docs/configuration.md)
+- run `scrape.py`
+- corresponding files will be created in data/
+
+### Consuming scrape.py as helper
+- from scrape import scrape
+- create a dict analogouos to `config/sample_scrape_config.json`
+- call it inline via `scrape(config)`
+
+### Extracting all transfers across chains for an address
+- copy `config/sample_transfers_config.json` to `config/transfers_config.json`
+- configure as needed.
+- run `bin/transfers_all_chains.py`
+- output is in `data/transfers.csv`
