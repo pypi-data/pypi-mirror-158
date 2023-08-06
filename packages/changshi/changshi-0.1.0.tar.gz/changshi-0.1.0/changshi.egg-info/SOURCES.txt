@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+changshi/__init__.py
+changshi/py.typed
+changshi/version.py
+changshi.egg-info/PKG-INFO
+changshi.egg-info/SOURCES.txt
+changshi.egg-info/dependency_links.txt
+changshi.egg-info/requires.txt
+changshi.egg-info/top_level.txt
