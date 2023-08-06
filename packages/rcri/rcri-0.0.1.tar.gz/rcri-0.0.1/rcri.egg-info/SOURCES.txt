@@ -1,0 +1,7 @@
+setup.py
+bestpackageever/__init__.py
+bestpackageever/main.py
+rcri.egg-info/PKG-INFO
+rcri.egg-info/SOURCES.txt
+rcri.egg-info/dependency_links.txt
+rcri.egg-info/top_level.txt
