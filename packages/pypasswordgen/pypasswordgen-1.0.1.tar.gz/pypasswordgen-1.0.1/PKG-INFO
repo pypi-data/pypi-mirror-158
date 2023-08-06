@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pypasswordgen
+Version: 1.0.1
+Summary: A python based random password generator
+Home-page: https://github.com/Arslan909/pypasswordgen
+License: WTFPL
+Keywords: password,generator,random
+Author: Muhammad Arslan
+Author-email: Arslanswl909@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# pypasswordgen
+
+A pyton based random password generator
+
+## System Requirements
+
+-   Python3
+
+## Installation Instructions
+
+```py
+pip install pypasswordgen
+```
+
+## Options
+
+```
+ -h, --help                     show this help message and exit
+
+  -l LENGTH, --length LENGTH    Length of password
+
+  -n NUMBER, --number NUMBER    Number of passwords to generate
+
+  -o PATH, --output PATH        Path to output file
+
+  -p, --punctuation             Include pupnctuation. If another -p is givenit will ONLY include punctuation.
+
+  -d, --digit                   Include digits. If another -d is given, it will ONLY include digits. -dd takes precedence over -pp.
+
+  -u, --upper                   Include uppercase letters. If another -u is given, it will ONLY include uppercase letters. -uu takes precedence over -pp and -dd.
+```
+
