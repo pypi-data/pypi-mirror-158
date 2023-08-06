@@ -1,0 +1,9 @@
+typing_extensions<5,>=3.10.0.0
+
+[dev]
+mypy
+pylint
+yapf
+toml
+pyflakes
+pyright
