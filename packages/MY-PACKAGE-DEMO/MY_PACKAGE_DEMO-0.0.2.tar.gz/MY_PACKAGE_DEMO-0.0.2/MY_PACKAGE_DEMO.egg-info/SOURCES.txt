@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+MY_PACKAGE_DEMO.egg-info/PKG-INFO
+MY_PACKAGE_DEMO.egg-info/SOURCES.txt
+MY_PACKAGE_DEMO.egg-info/dependency_links.txt
+MY_PACKAGE_DEMO.egg-info/top_level.txt
+package_demo/__init__.py
+package_demo/add_2_num.py
