@@ -1,0 +1,10 @@
+nemoblock/__init__.py,sha256=FlzLr5rTuXDF3n7O4S4r0nqiVxmmszLUOmcGneH3Sx0,173
+nemoblock/_version.py,sha256=IVhcXQzShJgUjmAudi7ClL861mivVxbChr1T0RRh5EA,498
+nemoblock/blocks.py,sha256=3IiLcq8B1KsarLVK8v9Jy-Y7QyCa3VRCLLkDUWjKy10,19041
+nemoblock/cylinder.py,sha256=KjvTc6y_cEdpsnMTP4tk4cXZIYBTzZ4vTACWG3ypcRg,20110
+nemoblock/experimental.py,sha256=5lgpFpbdw9lbOg3VxmlkbqczL1gnlWUd-8wIBiR4M04,6742
+nemoblock-1.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nemoblock-1.0.2.dist-info/METADATA,sha256=8OO0ROXZCU9QJJGwtUyjqhPMn11W2us1JqVqfFQhdto,4900
+nemoblock-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nemoblock-1.0.2.dist-info/top_level.txt,sha256=_v6328zK79dzJDBrRkBg4Uu8ztbghbdKUjFCUrlgUBk,10
+nemoblock-1.0.2.dist-info/RECORD,,
