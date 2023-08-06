@@ -1,0 +1,6 @@
+run.py
+setup.py
+samtariFirstPackage.egg-info/PKG-INFO
+samtariFirstPackage.egg-info/SOURCES.txt
+samtariFirstPackage.egg-info/dependency_links.txt
+samtariFirstPackage.egg-info/top_level.txt
