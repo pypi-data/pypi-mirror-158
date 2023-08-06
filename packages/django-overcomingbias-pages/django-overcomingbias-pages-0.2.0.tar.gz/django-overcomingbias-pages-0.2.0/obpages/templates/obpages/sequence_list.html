@@ -1,0 +1,9 @@
+{% extends "obpages/base.html" %}
+{% load sections widgets %}
+
+{% block content %}
+    {% sequence_results sequences=sequences user=user %}
+    {% if is_paginated %}
+        {% pagination_bar paginator=paginator page_obj=page_obj query=request.GET %}
+    {% endif %}
+{% endblock content %}
