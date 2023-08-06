@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+asyncrepo/__init__.py
+asyncrepo/exceptions.py
+asyncrepo/repository.py
+asyncrepo.egg-info/PKG-INFO
+asyncrepo.egg-info/SOURCES.txt
+asyncrepo.egg-info/dependency_links.txt
+asyncrepo.egg-info/requires.txt
+asyncrepo.egg-info/top_level.txt
