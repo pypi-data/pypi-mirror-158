@@ -1,0 +1,8 @@
+LICENSE
+README.md
+dokr
+setup.py
+dokr_example_hemantgairola.egg-info/PKG-INFO
+dokr_example_hemantgairola.egg-info/SOURCES.txt
+dokr_example_hemantgairola.egg-info/dependency_links.txt
+dokr_example_hemantgairola.egg-info/top_level.txt
