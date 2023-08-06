@@ -1,0 +1,8 @@
+faas/__init__.py,sha256=66pbuZEgMGKw2HjJlaYYpw-vR5Yj2Zk16F6-4f8_GH8,21
+faas/app.py,sha256=dOp9kzPgmUw5CYZ2nRwz2oVBfChXpsfxIobmp-YN5-A,2437
+faas/util.py,sha256=agYJ-EhEu4ZXWF7ONDOsN-z8SJlm1H2DEQANQswKoj4,227
+workshop_faas-0.0.1.dist-info/METADATA,sha256=H0ZjyqTJeBi6yFwrNCIwHlrl1RCEF7oc_z0TQfgtesw,906
+workshop_faas-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+workshop_faas-0.0.1.dist-info/entry_points.txt,sha256=7UJeMlWps9S9A53ZitwbUPP9MBbvpOduh8auu4yTz9Q,34
+workshop_faas-0.0.1.dist-info/top_level.txt,sha256=SAorEqldn_4_Wr8dXTHRAtZb2wRF1r0XKDUkfD48eEA,5
+workshop_faas-0.0.1.dist-info/RECORD,,
