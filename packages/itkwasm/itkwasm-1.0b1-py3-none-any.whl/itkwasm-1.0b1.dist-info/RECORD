@@ -1,0 +1,9 @@
+itkwasm/__init__.py,sha256=rXSyHkU3MRctv3yI19tiEa1NKGoIXGZMCZ0Ri2jAvz8,300
+itkwasm/image.py,sha256=1pyVJEz64ZFF8mcJJLjGIDILNQurQWzaMaXnh6TUXmM,471
+itkwasm/mesh.py,sha256=BXw8xEPggh0Hudg-9ByhpeCyViKhoxyFiu4FRNbrgPA,773
+itkwasm/pointset.py,sha256=q4JHX8_sjl7hNrMObzmA55MVc6yIRhFfnAJ0V69Qy0g,534
+itkwasm/transform.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+itkwasm-1.0b1.dist-info/LICENSE,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+itkwasm-1.0b1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+itkwasm-1.0b1.dist-info/METADATA,sha256=FdHaioZ_OTrqEb1DnVD-UMMdQDegc-5hFsLDkcBaPAg,1192
+itkwasm-1.0b1.dist-info/RECORD,,
