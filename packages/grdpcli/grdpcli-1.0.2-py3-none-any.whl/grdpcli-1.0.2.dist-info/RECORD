@@ -1,0 +1,15 @@
+grdpcli/__init__.py,sha256=KeWSoDmDomPpf3fLJ8u1s25MXCkvaB-DmTdkS2XwniQ,6170
+grdpcli/commands.py,sha256=tH1wy6PRNbKB2z_TsSfqwOOGE13W0wQnTOVbDLHH_fg,3345
+grdpcli/variable.py,sha256=m8pJPqNmKlG3U1ut_g3wM9FfzOJmflCdfIhptblKyRM,946
+grdpcli-1.0.2.data/data/__init__.py,sha256=KeWSoDmDomPpf3fLJ8u1s25MXCkvaB-DmTdkS2XwniQ,6170
+grdpcli-1.0.2.data/data/commands.py,sha256=tH1wy6PRNbKB2z_TsSfqwOOGE13W0wQnTOVbDLHH_fg,3345
+grdpcli-1.0.2.data/data/variable.py,sha256=m8pJPqNmKlG3U1ut_g3wM9FfzOJmflCdfIhptblKyRM,946
+grdpcli-1.0.2.data/data/share/grdpcli/grdpcli/__init__.py,sha256=KeWSoDmDomPpf3fLJ8u1s25MXCkvaB-DmTdkS2XwniQ,6170
+grdpcli-1.0.2.data/data/share/grdpcli/grdpcli/commands.py,sha256=tH1wy6PRNbKB2z_TsSfqwOOGE13W0wQnTOVbDLHH_fg,3345
+grdpcli-1.0.2.data/data/share/grdpcli/grdpcli/get_reponame,sha256=8NZVFlzxoEdv7rMSnpYlLmDBs4vuS-DnR9xBbCF29wQ,82
+grdpcli-1.0.2.data/data/share/grdpcli/grdpcli/variable.py,sha256=m8pJPqNmKlG3U1ut_g3wM9FfzOJmflCdfIhptblKyRM,946
+grdpcli-1.0.2.data/scripts/grdp,sha256=fv7AmSAsa7wRWx10JPC2WyEYWhQWQ7Pe9Gtko5EofIM,893
+grdpcli-1.0.2.dist-info/METADATA,sha256=PAgm1GQ1GZ7wRM7vosmokpHBDvVAixM_dCp7A2U57kE,237
+grdpcli-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+grdpcli-1.0.2.dist-info/top_level.txt,sha256=VhmjSf807K3GBcNq5EX2hD7NOlqOBWWXQBBGA3iE6dQ,8
+grdpcli-1.0.2.dist-info/RECORD,,
