@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+build.sh
+setup.py
+src/laapyCore.egg-info/PKG-INFO
+src/laapyCore.egg-info/SOURCES.txt
+src/laapyCore.egg-info/dependency_links.txt
+src/laapyCore.egg-info/requires.txt
+src/laapyCore.egg-info/top_level.txt
+src/mathCore/ExamplePlots.py
+src/mathCore/SpecialTensor.py
+src/mathCore/__init__.py
+src/mathCore/constants.py
+src/mathCore/lambdas.py
+src/mathCore/libs.py
+src/mathCore/plot_tools.py
+tests/test_working_tools.py

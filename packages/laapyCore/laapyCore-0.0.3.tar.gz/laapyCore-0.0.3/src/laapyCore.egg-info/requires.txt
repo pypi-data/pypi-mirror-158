@@ -1,0 +1,11 @@
+numpy~=1.23.0
+matplotlib~=3.5
+pandas~=1.4
+scipy~=1.8
+sympy~=1.1
+
+[dev]
+pytest>=7.1.2
+check-manifest>=0.48
+twine==4.0.1
+tox==3.25.1
