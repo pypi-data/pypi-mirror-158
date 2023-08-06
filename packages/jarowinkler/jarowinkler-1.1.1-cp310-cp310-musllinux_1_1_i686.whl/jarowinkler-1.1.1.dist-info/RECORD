@@ -1,0 +1,12 @@
+jarowinkler-1.1.1.dist-info/top_level.txt,sha256=ZjqECtLGE14oi_6_qPsDYACOf3Ewt_p1FvMH8tfLS1I,12
+jarowinkler-1.1.1.dist-info/WHEEL,sha256=I3CxGNZbjFzWm6ziCVnuFBcNNfFn3AIXggeDDwVl1yw,105
+jarowinkler-1.1.1.dist-info/LICENSE,sha256=B7k0BI6XLQ4j3OOdUbQD3nu6KmYOCcOP9WXyWTM60kY,1082
+jarowinkler-1.1.1.dist-info/METADATA,sha256=ezZejCFKrd4SrDwmzW0uoQ8JNMZFPW5Ty7DOJoEk2Ks,5270
+jarowinkler-1.1.1.dist-info/RECORD,,
+jarowinkler.libs/libgcc_s-8b50eaaa.so.1,sha256=aEf1qbEV-lDljbUGr6ql8FAfnxyJlKTeEsHNdrBlAHM,101648
+jarowinkler.libs/libstdc++-8baf04f9.so.6.0.28,sha256=7dHa2sV5CgWXjdC4QqxbCNsm-pN9kkmNNqxtn5AaAvs,2428960
+jarowinkler/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jarowinkler/__init__.pyi,sha256=YHfqMgXG5wirIPjyzyPGTO25kz_vq83X-htjTBtMpQM,575
+jarowinkler/_initialize_py.py,sha256=w3s_oOQmGa92sZA2b4hEtmF96gangaAP9PNN7OmwVTI,5860
+jarowinkler/__init__.py,sha256=oiM5La0xYKXoSHs_YAaZ03aqq1cWNclEto6y3tRXB1Q,916
+jarowinkler/_initialize_cpp.cpython-310-i386-linux-gnu.so,sha256=hVyCG66UJpCU-WEeR2WagzPgnV2ZQrIi-LX8THJX66M,380260
