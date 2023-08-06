@@ -1,0 +1,3 @@
+[console_scripts]
+promail-template=promail_template.console:main
+
