@@ -1,0 +1,13 @@
+dogsbody/__init__.py,sha256=t2lxHYX8a4r1eE2PA2Tz-ws8QbKpgHsVz0lvbGu4sRk,348
+dogsbody/__main__.py,sha256=nWYPhCSDvdbjZ59kvLT7vyLoeT6HvezY3xuGUwIf4ts,827
+dogsbody/bundle.py,sha256=8jU2AR3irtfvbpnhtUJrgaJbANJ3VUrIRX0t-qtOTZ0,3348
+dogsbody/daemon.py,sha256=EYiEsoEMdzlF16lNrkm8AmNVuGV5tjU-M1n7OeqW02o,2210
+dogsbody/dog.py,sha256=EJIURC2IiLZw02LFjf18fGIllo_bq0PzBDxAV1OKPu8,2088
+dogsbody/runtime.py,sha256=XGwUwoXDBEDXO3g0NARuHMaRKC7oimTG-2ASQuCECJM,638
+dogsbody/utils.py,sha256=mj2mR14Rq-E95P3OIgfJOv23R256KzgT-yEQ4hFIVyc,1822
+dogsbody-0.1.7.dist-info/LICENSE,sha256=fl-XSmW9Mwk8HnuEcmyiq1u75lo6PU_e0RIGO8sPaC0,1069
+dogsbody-0.1.7.dist-info/METADATA,sha256=oArnTGpXamUe5_Jy4II2H0GZnsumGPxWKu1e4J7aldg,2138
+dogsbody-0.1.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dogsbody-0.1.7.dist-info/entry_points.txt,sha256=LWG7tmmi_2T9hhStC-JLYYHKS-dQGM8Z-qx5aLRUFa4,128
+dogsbody-0.1.7.dist-info/top_level.txt,sha256=VU1mEeI9bztlT-leDnev6JOGK7cMf1LmlGCOGjSiPNc,9
+dogsbody-0.1.7.dist-info/RECORD,,
