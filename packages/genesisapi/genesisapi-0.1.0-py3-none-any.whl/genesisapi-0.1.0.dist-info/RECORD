@@ -1,0 +1,17 @@
+genesisapi/__init__.py,sha256=n8Gwoq_d3RtZ9JJgPRdKxY4ChKyKpm3FVJTKM2kJSB0,148
+genesisapi/client.py,sha256=RXvoH2S7TgJntZoxgv6KyoCmvOKDjXFYInnWkY-j7yk,4867
+genesisapi/datatypes.py,sha256=Q2GNy0eCe9tXiwy9t_rYD8P3jDmU-NoPGcOQ6tHNdpA,927
+genesisapi/endpoint.py,sha256=nBjA1_eE8cUQvnJ_TjCq1nyRsvzzuSvH4OSXuZiHT38,1274
+genesisapi/result.py,sha256=mwRug_wbSlFiKhx8wPeQta7RfdeLPBSaH-swhPnTdcM,2220
+genesisapi/services/__init__.py,sha256=W6wdSD0S2neoSeEGgFieOn_e4T7U9iVhBAY3pSSRx20,181
+genesisapi/services/catalogue.py,sha256=mxGQyb29e4jfeQ7XkobS127LGdjn95Kqa-FkLR55OGA,12342
+genesisapi/services/data.py,sha256=IShQJ-KrAxeVf5XalMvIp3znbs5BrnpQg61NphEbRk4,9574
+genesisapi/services/find.py,sha256=I1QBoydaPufzCnDKkQkHFqsGXwWPLchnPHljE9JknH8,630
+genesisapi/services/helloworld.py,sha256=Yga0_WCdMo23IU-2z7-Uka038MHd9EwycBycjbrXWAE,624
+genesisapi/services/metadata.py,sha256=9HEBEvdy7DnZUvDLMk_7TtMcE1i0gLcMaMqfaze5t9I,1681
+genesisapi/services/profile.py,sha256=L0tRGothRSrYWr-RCAUCsJWdlpC_Um1L5-b5Eq6CIJo,571
+genesisapi/table.py,sha256=NHP_xK1kDZGKoJmxt37joBuRMDN5qUZ8CureXFavdms,7293
+genesisapi-0.1.0.dist-info/LICENSE,sha256=HqLJ0mf7zxT-tyWvCj8KRW-dSwsogFKBlGcmqfeS7Ck,1089
+genesisapi-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+genesisapi-0.1.0.dist-info/METADATA,sha256=tcsUa2qAkH0jxwjTPeEOugbb76VcpCsBfwBHprOrCXQ,377
+genesisapi-0.1.0.dist-info/RECORD,,
