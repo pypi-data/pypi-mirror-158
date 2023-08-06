@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+fastemail/__init__.py
+fastemail/sender.py
+fastemail.egg-info/PKG-INFO
+fastemail.egg-info/SOURCES.txt
+fastemail.egg-info/dependency_links.txt
+fastemail.egg-info/top_level.txt
