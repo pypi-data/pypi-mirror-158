@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/desionterminal/__init__.py
+src/desionterminal/desi.py
+src/desionterminal.egg-info/PKG-INFO
+src/desionterminal.egg-info/SOURCES.txt
+src/desionterminal.egg-info/dependency_links.txt
+src/desionterminal.egg-info/top_level.txt
