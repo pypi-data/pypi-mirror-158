@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dad-sql-pandas
+Version: 0.1.0
+Summary: Pandas implementation of the SQL Data Action Definition for FRIDAAY
+Author: Ernest Prabhakar
+Author-email: ernest.prabhakar@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
