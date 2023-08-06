@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.yml
+setup.py
+src/domain_email_records/__init__.py
+src/domain_email_records/cli_entrypoint.py
+src/domain_email_records/domain_email_records.py
+src/domain_email_records/logger.py
+src/domain_email_records.egg-info/PKG-INFO
+src/domain_email_records.egg-info/SOURCES.txt
+src/domain_email_records.egg-info/dependency_links.txt
+src/domain_email_records.egg-info/entry_points.txt
+src/domain_email_records.egg-info/requires.txt
+src/domain_email_records.egg-info/top_level.txt
+src/domain_email_records.egg-info/zip-safe
