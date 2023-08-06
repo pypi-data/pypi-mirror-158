@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/akxurl/__init__.py
+src/akxurl/akxurl.py
+src/akxurl.egg-info/PKG-INFO
+src/akxurl.egg-info/SOURCES.txt
+src/akxurl.egg-info/dependency_links.txt
+src/akxurl.egg-info/top_level.txt
