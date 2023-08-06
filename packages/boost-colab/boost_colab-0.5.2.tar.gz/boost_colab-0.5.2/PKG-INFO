@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: boost_colab
+Version: 0.5.2
+Summary: Boost your productivity with Google Colab
+Home-page: https://github.com/matbb/boost_colab
+Download-URL: https://github.com/matbb/boost_colab/archive/refs/tags/v0.5.2.tar.gz
+Author: Matjaž Berčič
+Author-email: me@matbb.org
+License: MIT
+Keywords: Colab,jupyter
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+License-File: LICENSE
+
+UNKNOWN
+
