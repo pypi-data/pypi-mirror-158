@@ -1,0 +1,14 @@
+dvc_render/__init__.py,sha256=dqpPfS7q2xDVqbynT79aU2ChvVoSrZDUiyx4PKi6VJg,305
+dvc_render/base.py,sha256=tbAtQumXVJSAQHo4brirPv_BDS2rYlPCqL3ZFZSgX1Y,1818
+dvc_render/exceptions.py,sha256=2NZEjGehsucx2wuZASSTKsK0Safd8tu32r0kUUy4UTY,46
+dvc_render/html.py,sha256=UEoelLoTF1ybtcfr1ooyL1rIKsBIs1_HXnz21uQjehw,3072
+dvc_render/image.py,sha256=rxYd7o-VwyINITHz6otgkgsHZa5zQz-2-B3QXGzH3NU,1377
+dvc_render/plotly.py,sha256=T9Co6g5DJ-2Ti_71dDZnyHnGxbFjyrOXD4vvN-XYuqs,3016
+dvc_render/table.py,sha256=a9DB1elC__KPdJH3yZNNy4f2QDkiahloD4LFN_47vGQ,871
+dvc_render/vega.py,sha256=uS8E5C-vInz2y-a3i0O7HbiqRngOnXKQlHBj1X79VJk,2832
+dvc_render/vega_templates.py,sha256=Pw1oZ78fVcNHCKST_k_7bd38tIGxsYMKBNqt6t3sVzQ,27341
+dvc_render-0.0.7.dist-info/LICENSE,sha256=-1jhbPjoIVHR0cEgahL4Zhct75Ff4MzYCR_jOaJDPq8,11340
+dvc_render-0.0.7.dist-info/METADATA,sha256=v4VbKZOq-cVz88lsKVaAevX2cP0g-WJQH8ZfADNNzJk,4308
+dvc_render-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dvc_render-0.0.7.dist-info/top_level.txt,sha256=pxnGQ7OuW0ChJADK8wdtbKh8Dj5coSiT5GWZYD5CAos,11
+dvc_render-0.0.7.dist-info/RECORD,,
