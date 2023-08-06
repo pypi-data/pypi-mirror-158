@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: siumaai
+Version: 0.0.1
+Summary: a siumaai for nlp
+Author: Zonzely
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: pytorch-lightning
+
+UNKNOWN
+
