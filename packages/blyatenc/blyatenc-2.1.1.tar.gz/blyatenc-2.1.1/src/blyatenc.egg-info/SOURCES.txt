@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/blyatenc.egg-info/PKG-INFO
+src/blyatenc.egg-info/SOURCES.txt
+src/blyatenc.egg-info/dependency_links.txt
+src/blyatenc.egg-info/top_level.txt
