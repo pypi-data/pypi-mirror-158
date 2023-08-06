@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+aimluae/__init__.py
+aimluae/data_file_name.txt
+aimluae/datasets.py
+aimluae.egg-info/PKG-INFO
+aimluae.egg-info/SOURCES.txt
+aimluae.egg-info/dependency_links.txt
+aimluae.egg-info/top_level.txt
