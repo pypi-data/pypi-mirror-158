@@ -1,0 +1,92 @@
+[tool.poetry]
+name = "related-mltoolbox"
+version = "1.0.1"
+license = "MIT license"
+description = "(Fork from related) Related: Straightforward nested object models in Python"
+readme = "README.md"
+homepage = "https://git.openlogisticsfoundation.org/silicon-economy/base/ml-toolbox/related-mltoolbox"
+repository = "https://git.openlogisticsfoundation.org/silicon-economy/base/ml-toolbox/related-mltoolbox"
+documentation = "https://git.openlogisticsfoundation.org/silicon-economy/base/ml-toolbox/related-mltoolbox/-/blob/main/README.md"
+authors = [
+    "Maximilian Otten <maximilian.otten@iml.fraunhofer.de>",
+]
+keywords = ["related", "object", "models", "yaml", "json", "dict", "nested"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+]
+packages = [
+    { include = "related", from="src" },
+]
+
+[[tool.poetry.source]]
+name = "nexus-cache"
+url = "https://nexus.apps.sele.iml.fraunhofer.de/repository/pypi-group/simple/"
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+attrs = { version = "*" }
+PyYAML = { version = "*" }
+future = { version = "*" }
+python-dateutil = { version = "*" }
+
+[tool.poetry.dev-dependencies]
+pytest = { version = "*" }
+pytest-cov = { version = "*" }
+pytest-mccabe = { version = "*" }
+pytest-pep8 = { version = "*" }
+pytest-pythonpath = { version = "*" }
+pytest-sugar = { version = "*" }
+coverage = {version = "*" }
+black = { version = "*" }
+
+[build-system]
+# NOTE: Don't remove setuptools, therefore require it from the build system
+requires = ["setuptools", "poetry_core>=1.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+log_cli = 1
+log_cli_level = "DEBUG"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s | %(filename)s:%(funcName)s:%(lineno)s"
+log_cli_date_format= "%Y-%m-%d %H:%M:%S"
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint.master]
+extension-pkg-whitelist = [""]
+jobs = 0
+
+[tool.mypy]
+python_version = 3.8
+
+junit_xml = "xunit-reports/xunit-result-mypy.xml"
+
+# output style configuration
+show_column_numbers = true
+show_error_codes = true
+pretty = true
+
+# additional warnings
+warn_return_any = true
+warn_unused_configs = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_no_return = true
+
+no_implicit_optional = true
+# unreachable code checking produces practically only false positives
+warn_unreachable = false
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+# disallow_any_explicit = true
+disallow_any_generics = true
+disallow_untyped_calls = true
+ignore_missing_imports = false
+
+# ignores that library has no typing information with it
+[[tool.mypy.overrides]]
+ignore_missing_imports = true
