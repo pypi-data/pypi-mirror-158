@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pose3d
+Version: 1.0.1
+Summary: Transforming and handling poses.
+Author: John Halazonetis
+Author-email: <john.halazonetis@icloud.com>
+Keywords: python,pose,transform
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
