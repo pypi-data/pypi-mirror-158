@@ -1,0 +1,2 @@
+[console_scripts]
+playdate-pulp-midi = playdate_midi_converter.entry_points.console_scripts.playdate_pulp_midi:run
