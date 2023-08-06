@@ -1,0 +1,18 @@
+#left {
+    color: red;
+    text-align: right;
+}
+
+#right {
+    color: red;
+    text-align: right;
+}
+
+#blue {
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.class_no_select {
+    display: none;
+}
