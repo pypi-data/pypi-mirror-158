@@ -1,0 +1,3 @@
+[console_scripts]
+vpnroulette = vpnr_client.__main__:main
+
