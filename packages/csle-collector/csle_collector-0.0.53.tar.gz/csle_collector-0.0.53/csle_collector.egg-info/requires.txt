@@ -1,0 +1,4 @@
+grpcio-tools==1.46.3
+scipy
+confluent-kafka
+docker
