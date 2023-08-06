@@ -1,0 +1,153 @@
+Metadata-Version: 2.1
+Name: ignf_gpf_api
+Version: 0.1.3
+Summary: Python API to simplify the use of the GPF HTTPS API.
+Author-email: Valentin Sasyan <valentin.sasyan@ign.fr>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: requests >=2.6
+Requires-Dist: configparser
+Requires-Dist: types-requests
+Requires-Dist: jsonschema
+Requires-Dist: jsonc-parser
+Requires-Dist: beartype
+Requires-Dist: toml
+Requires-Dist: types-toml
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: black<23 ; extra == "test"
+Requires-Dist: pylint==2.13 ; extra == "test"
+Requires-Dist: mypy==0.942 ; extra == "test"
+Requires-Dist: requests_mock ; extra == "test"
+Requires-Dist: coverage ; extra == "test"
+Project-URL: Documentation, https://github.com/VSasyan/ignf-gpf-api
+Project-URL: Source, https://github.com/VSasyan/ignf-gpf-api
+Provides-Extra: doc
+Provides-Extra: test
+
+# ignf-gpf-api
+
+## Utilisation
+
+### Comme exécutable
+
+Créez un fichier `config.ini` avec :
+
+```ini
+[store_authentification]
+# L'url de récupération du token d'authentification (cf. doc)
+token_url=https://qlf-iam-gpf.ign.fr/auth/realms/master/protocol/openid-connect/token
+# Votre login
+login=LOGIN
+# Votre mot de passe
+password=PASSWORD
+# Votre id client
+client_id=geotuileur
+
+[store_api]
+# L'url d'entrée de l'API (cf. doc)
+root_url=https://plage-geotuileur.ccs-ign-plage.ccs.cegedim.cloud/api/v1
+# L'identifiant de votre entrepôt
+datastore=DATASTORE_ID_TO_MODIFY
+```
+
+Vérifiez que l'identification est fonctionnelle :
+
+```sh
+# config.ini est directement trouvé s'il set dans le dossier de travail
+python -m ignf_gpf_api auth
+# Sinon indiquez le chemin
+python -m ignf_gpf_api --ini /autre/chemin/config.ini auth
+```
+
+Cela devrait renvoyer :
+
+```
+Authentification réussie.
+```
+
+Affichez la configuration :
+
+```sh
+# Toute la configuration
+python -m ignf_gpf_api config
+# Une section
+python -m ignf_gpf_api config -s store_authentification
+# Une option d'une section
+python -m ignf_gpf_api config -s store_authentification -o password
+```
+
+Envoyer des données :
+
+```
+python -m ignf_gpf_api upload -f tests/_data/test_datasets/1_test_dataset_vector/upload_descriptor.json
+```
+
+### Comme librairie
+
+## Développement
+
+### Mise en place de l'environnement de développement
+
+Si nécessaire, installation système
+
+```sh
+sudo apt install python3 python3-pip python3-venv
+```
+
+Mise à jour de pip et virtualenv
+
+```sh
+python3 -m pip install --user --upgrade pip virtualenv setuptools
+```
+
+Création d'un environnement isolé
+
+```sh
+python3 -m venv env
+```
+
+Activation de l'environnement
+
+```sh
+source env/bin/activate
+```
+
+Installation basique
+
+```sh
+python3 -m pip install --upgrade pip setuptools flit
+```
+
+Installation de toutes les dépendances
+
+```sh
+python3 -m flit install --extras test
+```
+
+### Vérifications qualité
+
+```sh
+./check.sh
+```
+
+### Publication sur PyPI
+
+```sh
+export FLIT_PASSWORD=<token>
+```
+
+Publication sur TestPyPI :
+
+```
+flit publish --pypirc .pypirc --repository testpypi
+```
+
+Publication sur PyPI :
+
+```
+flit publish --pypirc .pypirc --repository pypi
+```
+
