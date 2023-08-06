@@ -1,0 +1,16 @@
+stringtools/__init__.py,sha256=aPjVyaw7dRkFGoMa0C8PDQvBn1NcTId4gnG8eXlrVr0,269
+stringtools/analysers.py,sha256=c8nSIwM4kS-S_b5SQyzFfbgenLELy7-IvCHnKr9aSAc,2659
+stringtools/converters.py,sha256=jIdnp6M7ThjxQ0HiZWieDI1q3CAHX-Lhb0WPW4efhN8,1374
+stringtools/generators.py,sha256=uY6mfPVHxOUbCgVveOvqgYlDXqLxoGUQtZJ_H1JMdeU,5797
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_Generate_password.py,sha256=JOynBbTt4NaZgl4cN1vnprveDWs0YplOaPEH-bDiNwM,2306
+tests/test_bricks.py,sha256=dK3OJvjdvBSAvoX63YHnTBNN4eZn0T8vMCbZQKGj9y0,1665
+tests/test_count_char.py,sha256=wrEXVmfjiPdDrHqbOfBUmYBDOmMWMfwfw8m8RuczOOY,2225
+tests/test_is_anagram.py,sha256=9AbWX36tHFsORBhjf94y6SQEvKcTLMtOgKzc63zOPkA,1686
+tests/test_is_heterogram.py,sha256=c1XOVUpGh5E52Clx3t8z51wd9Wv6LEIZokWV4hkbG4g,1614
+tests/test_is_pangram.py,sha256=GkfVAihEJ9JFSbpyOgEZXEeo-aeCdtrXlnUerDn4vpA,1780
+stringtools-0.0.5.dist-info/LICENSE,sha256=l0amjwi-xKGYwF-xPVKeei2gkA9R-Fb8ubuEli6zlWo,1076
+stringtools-0.0.5.dist-info/METADATA,sha256=RMTc0ibgjWaEaMqC2FsHbLtn1e3-SK0pn_g_8HBwJjQ,3847
+stringtools-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stringtools-0.0.5.dist-info/top_level.txt,sha256=FuQrzxGSk2Z6V-K70JtFO1tpn1Gp4kSXlOtIKL1t4iw,18
+stringtools-0.0.5.dist-info/RECORD,,
