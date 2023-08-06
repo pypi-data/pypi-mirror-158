@@ -1,0 +1,9 @@
+apt_pro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apt_pro/apt-pro.db,sha256=orj2NBHCmB2pav2SN9Yc-829Uz-a8qQk23oX1uHklh8,8192
+apt_pro/cli.py,sha256=4jksJnxwaEltwV3VQhwtL04k5R1TWAzc5k5ZM_mjiqw,2078
+apt_pro/main.py,sha256=hKv0JvX_DzRikv-7H8uMUbelyacKEZxy58vEHMV3mgk,4828
+apt_pro-1.0.1.dist-info/METADATA,sha256=oQOVpoY8oJegudaPMYgOLfVKGh4Yvz0lrxg4s9iG9Hk,1799
+apt_pro-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+apt_pro-1.0.1.dist-info/entry_points.txt,sha256=QgHK0jJ_yply7yiq_TFoe6pzX4RM712yvwkE0ThlVYE,46
+apt_pro-1.0.1.dist-info/top_level.txt,sha256=TuiGpwqWHfflQeFYBwnWBCZXbF0rvgs0547aXnmtxvM,8
+apt_pro-1.0.1.dist-info/RECORD,,

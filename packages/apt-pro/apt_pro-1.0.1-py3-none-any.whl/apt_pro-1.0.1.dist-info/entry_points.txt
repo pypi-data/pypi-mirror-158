@@ -1,0 +1,3 @@
+[console_scripts]
+apt-pro = apt_pro:cli.main
+
