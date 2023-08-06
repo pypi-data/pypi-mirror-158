@@ -1,0 +1,16 @@
+umato/__init__.py,sha256=LWlaAzJnmc2AYyDl89BsZi2uqNKNQ6oYllKx47DrJJ0,298
+umato/distances.py,sha256=AEiHlMPSkmFzZ1nh8aNg7EvK0aJGOp4tpW1nd0vxOvU,33397
+umato/layouts.py,sha256=0MMndS_-dclFBb7GdH1zVIQV0Aubkpejy4ziRqCzUfE,6180
+umato/nndescent.py,sha256=GBkvtWhigaTzNc5C7iaG70pwcI1Eo8J_f-WEzMFVr2A,8909
+umato/rp_tree.py,sha256=hiA9l93hvZLJKUGOeKk30KhZgOrkU1yOnZ7NRhuoPSU,27473
+umato/sparse.py,sha256=z4kGnaSBqmDFirT0oSmRoN42LLGaylQ6iUn3gjp8IP4,15587
+umato/sparse_nndescent.py,sha256=ARs3ZIUjB44xxm8UE9lw7CyPHqqkZfBLI5ICfhOQklU,12330
+umato/umap_.py,sha256=gT7geNLLlCx001KCuEHerxW7YzOg1dhESBR8MoHJWGg,20628
+umato/umato_.py,sha256=v8GPMeSYlLmBGHiaKoRsFUno79qCLwArgSlXOUYjXlU,28094
+umato/umato_pva.py,sha256=j65pHvQhPL0qgIeF37EIdURN7QQsfBo6YAphUItZzag,32109
+umato/utils.py,sha256=7SkeADPHBg_7yXAvRjxZ8cqqM86jh65q0xq_PcbpwrM,20526
+umato-0.0.2.dist-info/LICENSE,sha256=FIAzXq8sWDUMuMJ7jIJZwRDguDi5UVF8F214mymSGyM,1070
+umato-0.0.2.dist-info/METADATA,sha256=NM_ZqgHOEHWsXnfi6_7sY0Pn6y6fexTG4uuGwzY-FHo,5670
+umato-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+umato-0.0.2.dist-info/top_level.txt,sha256=kT4uPnI9tjz7Y8TAvajuX88aeruSifwAlC1k4LkXIio,6
+umato-0.0.2.dist-info/RECORD,,
