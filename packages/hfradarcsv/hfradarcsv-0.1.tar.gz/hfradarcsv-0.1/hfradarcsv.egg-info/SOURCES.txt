@@ -1,0 +1,7 @@
+setup.py
+hfradarcsv/__init__.py
+hfradarcsv.egg-info/PKG-INFO
+hfradarcsv.egg-info/SOURCES.txt
+hfradarcsv.egg-info/dependency_links.txt
+hfradarcsv.egg-info/requires.txt
+hfradarcsv.egg-info/top_level.txt

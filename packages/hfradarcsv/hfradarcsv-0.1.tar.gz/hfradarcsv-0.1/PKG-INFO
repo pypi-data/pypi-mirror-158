@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: hfradarcsv
+Version: 0.1
+Summary: Convert Diagnostic (only .rdt files) and .tuv totals file to csv files
+Author: VishalJain_NIOT
+Author-email: vishaljain9516@gmail.com
