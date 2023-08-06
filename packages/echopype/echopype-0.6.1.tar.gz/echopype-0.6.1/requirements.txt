@@ -1,0 +1,12 @@
+dask[array]
+jinja2
+netCDF4
+numpy
+pynmea2
+pytz
+scipy
+xarray
+zarr
+fsspec
+s3fs
+xarray-datatree==0.0.6
