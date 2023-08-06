@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+spalah/__init__.py
+spalah/dataframe.py
+spalah.egg-info/PKG-INFO
+spalah.egg-info/SOURCES.txt
+spalah.egg-info/dependency_links.txt
+spalah.egg-info/not-zip-safe
+spalah.egg-info/top_level.txt
