@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rzodkiewka
+Version: 0.0.6
+Summary: A basic package for CWEs, CVEs download and safe simplified files.
+Home-page: UNKNOWN
+Author: pawlaczyk, rafalwojaczek
+Author-email: <dominika.pawlaczyk9@gmail.com>
+License: UNKNOWN
+Keywords: python,CVE,CWE
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+UNKNOWN
+
