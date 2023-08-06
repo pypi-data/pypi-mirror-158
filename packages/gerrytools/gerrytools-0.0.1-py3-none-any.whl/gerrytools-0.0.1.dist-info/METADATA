@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: gerrytools
+Version: 0.0.1
+Summary: Tools for processing and visualizing districting plans.
+Home-page: https://github.com/mggg/gerrytools
+Author: MGGG Redistricting Lab
+Author-email: engineering@mggg.org
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: networkx
+Requires-Dist: geopandas
+Requires-Dist: shapely
+Requires-Dist: matplotlib
+Requires-Dist: gerrychain
+Requires-Dist: sortedcontainers
+Requires-Dist: gurobipy
+Requires-Dist: jsonlines
+Requires-Dist: opencv-python-headless
+Requires-Dist: imageio
+Requires-Dist: us
+Requires-Dist: pydantic
+Requires-Dist: censusdata
+Requires-Dist: seaborn
+Requires-Dist: maup
+Provides-Extra: dev
+Requires-Dist: pdoc3 ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: autopep8 ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+
