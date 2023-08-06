@@ -1,0 +1,9 @@
+torch
+metapredict
+numpy
+matplotlib
+protfasta
+urllib3
+alphaPredict==1.0
+getSequence>=1.3
+requests
