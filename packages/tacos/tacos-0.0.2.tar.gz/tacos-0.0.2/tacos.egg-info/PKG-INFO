@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tacos
+Version: 0.0.2
+Summary: Transformer components
+Home-page: https://github.com/Doraemonzzz/transformer-components
+Author: Doraemonzzz
+Author-email: doraemon_zzz@163.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
