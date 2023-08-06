@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pysaver
+Version: 0.0.2
+Summary: A simple utility to save python REPL history to file.
+Home-page: https://github.com/mjlally/pysaver
+Author: M J Lally
+Author-email: m.j.lally@outlook.com
+License: MIT
+Description: UNKNOWN
+Keywords: pysaver
+Platform: UNKNOWN
