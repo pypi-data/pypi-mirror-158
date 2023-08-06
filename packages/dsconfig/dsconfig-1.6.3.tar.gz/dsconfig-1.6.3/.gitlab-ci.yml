@@ -1,0 +1,61 @@
+---
+stages:
+  - build
+  - test
+  - release
+
+variables:
+  TWINE_USERNAME: __token__
+  TWINE_PASSWORD: secret
+
+default:
+  image: python:3.9
+
+build-pypi-package:
+  stage: build
+  script:
+    - python setup.py check sdist bdist_wheel
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - dist/
+
+test-python3:
+  stage: test
+  image: condaforge/mambaforge:latest
+  parallel:
+    matrix:
+      - PYTHON_VERSION: ["3.6", "3.7", "3.8", "3.9", "3.10"]
+  before_script:
+    - mamba create -y -p /py${PYTHON_VERSION} python=$PYTHON_VERSION pytango
+    - /py${PYTHON_VERSION}/bin/python -m pip install -e .[tests]
+  script:
+    - /py${PYTHON_VERSION}/bin/pytest -v --cov=dsconfig --cov-report term --cov-report html --junitxml=report.xml
+  coverage: '/^TOTAL.+?(\d+\%)$/'
+  artifacts:
+    when: always
+    paths:
+      - htmlcov/
+    reports:
+      junit: report.xml
+
+test-python27:
+  stage: test
+  image: condaforge/mambaforge:latest
+  before_script:
+    # tango-controls channel required for Python 2.7
+    - mamba create -y -c conda-forge -c tango-controls -p /py2.7 python=2.7 pytango
+    - wheel=$(ls dist/*.whl)
+    - /py2.7/bin/python -m pip install ${wheel}[tests]
+  script:
+    - /py2.7/bin/pytest -v
+
+release-pypi-package:
+  stage: release
+  before_script:
+    - pip install twine
+  script:
+    - twine upload dist/*
+  only:
+    - tags
+  when: manual
