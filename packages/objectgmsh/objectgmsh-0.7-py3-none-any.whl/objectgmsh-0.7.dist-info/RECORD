@@ -1,0 +1,11 @@
+objectgmsh/__init__.py,sha256=E0iCgEppg_pvvLnw6021-W4BwERXj5cAf6emwHwc70E,118
+objectgmsh/_version.py,sha256=e32qyPWHjlY4k88Znz5qbI3MFEgfK_zCRvxz09WVG1g,496
+objectgmsh/objects.py,sha256=cNIFOUHWZL3BNpU6Hp9c4YvZx8zbx1y7bf8qL2y1FvM,24961
+objectgmsh/utils.py,sha256=RE4CTflqsLDURvrHfysu5M0YUc9WsIA0dmGPXFz4JIE,12487
+objectgmsh/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+objectgmsh/test/test_objects.py,sha256=vyA2wHjaOfzz0XhW2Db9if7j0iPSLUagq6m3-3Gqrbg,1728
+objectgmsh-0.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+objectgmsh-0.7.dist-info/METADATA,sha256=TrdCdC-6sOoaDSQf4SpriT3lYl_7m56trso8HjNcLt8,7263
+objectgmsh-0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+objectgmsh-0.7.dist-info/top_level.txt,sha256=FFtytHZblnlCU2EjOG3SZx6PILw0nJaBAC4W7FuScgg,11
+objectgmsh-0.7.dist-info/RECORD,,
