@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: swiftgalaxy
+Version: 1.0.0
+Summary: Code abstraction of objects (galaxies) in simulations.
+Home-page: https://github.com/kyleaoman/swiftgalaxy
+Author: Kyle Oman
+Author-email: kyle.a.oman@durham.ac.uk
+License: GNU GPL v3
+Platform: UNKNOWN
+Provides-Extra: velociraptor
+License-File: LICENSE.md
+
+UNKNOWN
+

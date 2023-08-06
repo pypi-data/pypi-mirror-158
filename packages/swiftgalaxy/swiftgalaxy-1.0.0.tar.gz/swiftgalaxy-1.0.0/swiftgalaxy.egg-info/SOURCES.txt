@@ -1,0 +1,15 @@
+LICENSE.md
+MANIFEST.in
+README.rst
+setup.py
+swiftgalaxy/__init__.py
+swiftgalaxy/__version__.py
+swiftgalaxy/halo_finders.py
+swiftgalaxy/masks.py
+swiftgalaxy/reader.py
+swiftgalaxy.egg-info/PKG-INFO
+swiftgalaxy.egg-info/SOURCES.txt
+swiftgalaxy.egg-info/dependency_links.txt
+swiftgalaxy.egg-info/not-zip-safe
+swiftgalaxy.egg-info/requires.txt
+swiftgalaxy.egg-info/top_level.txt
