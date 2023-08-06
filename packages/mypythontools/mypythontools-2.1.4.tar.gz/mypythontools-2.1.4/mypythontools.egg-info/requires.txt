@@ -1,0 +1,9 @@
+mylogging
+tabulate
+typeguard
+
+[plots]
+IPython
+matplotlib
+pandas
+plotly
