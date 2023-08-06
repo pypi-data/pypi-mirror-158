@@ -1,0 +1,14 @@
+fs/azblob/__init__.py,sha256=5QSNvNu1MCK3xDVC1pRzH9uMbcUKmSQ_B47KV57CXPI,135
+fs/azblob/blob_file.py,sha256=FY0PzIiHDFQI9AjSNOgVBWnwp4YeeNEx6wsrf8Mhg_k,3305
+fs/azblob/blob_fs.py,sha256=EmGQv8sSTXmsshZZahdIGvsXfdn8gwsloVFeqO1J0sg,7184
+fs/azblob/blob_fs_v2.py,sha256=9jpvB4wG9W721TkyDKRyFfE6Mf9ti9laycbybADhe7M,6376
+fs/azblob/const.py,sha256=h4_5t2HkfJ1aWygC9QPQMtRv09fbPTuWKWjGwV1oqJ0,772
+fs/azblob/error_tools.py,sha256=mE7La88tDmjlCC-9CMUqSP9AqP8A6IVjYA2oz5KpZqo,561
+fs/azblob/helpers.py,sha256=PvsrhZG4tTr7IaNM4_WtFMyo2hlCpvgsmkYvuQ2120k,663
+fs/opener/blob_fs.py,sha256=m3MDMdWNiUpH25VQSMh2fn_qTlcXd6k5zFMKJscRN-8,1116
+fs_azureblob-0.2.0.dist-info/LICENSE,sha256=OW0AzIfl_ColDVuBDM_t4LdVjw0_AjfVGKYimswwnxU,1076
+fs_azureblob-0.2.0.dist-info/METADATA,sha256=FfLzAPw5Y28jZcYsApVknW5KJ-Nrq8BzkKXp2FVfCDU,4353
+fs_azureblob-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fs_azureblob-0.2.0.dist-info/entry_points.txt,sha256=qjF7SoOwt0v4wdJLGP3DlW_5fluv3ozFaXJ8oil3Uko,96
+fs_azureblob-0.2.0.dist-info/top_level.txt,sha256=387pB38TPn9aMO3b518yxXxgB0uN0XWa1WNbSnES7r8,3
+fs_azureblob-0.2.0.dist-info/RECORD,,
