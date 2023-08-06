@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: profq_data
+Version: 0.1.0
+Summary: A library for data structures.
+Home-page: UNKNOWN
+Author: ProfessorQu
+License: UNKNOWN
+Description: # ProfQ-Data
+        
+        A library for data structures
+        
+        Links: [Hackerrank playlist](https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX)
+        
+Keywords: python,data structures,algorithms
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
