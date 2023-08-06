@@ -1,0 +1,15 @@
+GDR/GradientDR.py,sha256=wmy449xOdlqRscvnOaG0SJkOodQ6DRNubW57rYX4Uq8,16854
+GDR/__init__.py,sha256=iMrfh8tKiT3Is0ZGiNUtIH5F2mRvZQmkSTTARKb_5eI,45
+GDR/dim_reduce_dataset.py,sha256=wQEpZGtSxsBG8EImUhCsvjK8tUO_dcAJdMXfeyr7RRQ,5200
+GDR/distances.py,sha256=v7mvBugv_FJWQEv6TzbqjeWt-px4OCzIagRzT2NXbl8,1012
+GDR/graph_weights.py,sha256=CzLlS_QTJBOxcUm60UhYrDXZsXGioUp8NYd11GfOad4,3490
+GDR/pytorch_optimize.py,sha256=l2HVGVw_K7rpCyQxIzA02CqRRCz7NtN8g9f9EEcgntE,13711
+GDR/spectral.py,sha256=dQDEKegAYMAVUE0M5t2q_6SrENKTvAjrHkpQfztNcVQ,9790
+GDR/utils.py,sha256=KSwV9y1aFrKqCXk9KJxlyjUunxRaWkUPdQ1enop6RCs,7203
+nndescent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nndescent/setup.py,sha256=xqHodhApOqzXvecYoPBJVZJRJ_V0ryui2w3ZwyoZxSM,1486
+GradientDR-0.1.2.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+GradientDR-0.1.2.1.dist-info/METADATA,sha256=ReGYPZJxSCrU5ALOb-hlSyenq1NdL1i-wd7D2KcPlBk,539
+GradientDR-0.1.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+GradientDR-0.1.2.1.dist-info/top_level.txt,sha256=SftvoXB8OtJ0UT7R-L9ELSK80Nm0zxhUn4E4wCGzi80,4
+GradientDR-0.1.2.1.dist-info/RECORD,,
