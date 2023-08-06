@@ -1,0 +1,14 @@
+terevintosoftware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+terevintosoftware/pkce_client/__init__.py,sha256=ig4EDLiQUyJU69a7uNWrtA7c9p5mFqolh6zMj1DFn80,199
+terevintosoftware/pkce_client/login_client.py,sha256=D7RKwNzJDlt42bmeFOa3-Qk6W777aNT2BejaxwcT65w,3596
+terevintosoftware/pkce_client/login_config.py,sha256=NpkgJe1hT_DIT_xFAJPyTvv5JTUR6_kanbxLwUWQWYk,1255
+terevintosoftware/pkce_client/pkce_token.py,sha256=ISLEUii6OPTfs-090GjeCNlTZI9PMcZOBCp8V_rnMRg,527
+terevintosoftware/pkce_client/internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+terevintosoftware/pkce_client/internal/helpers.py,sha256=pfcO2l45tbhfDSfwTMureGbzjMId5AjlEtsiIeQfMHU,659
+terevintosoftware/pkce_client/internal/oauth_http_handler.py,sha256=Y6Ag4H_rV_1DLoJ9EDDh8WZ4p7bzIJ2Lgjj8S6KyVtw,521
+terevintosoftware/pkce_client/internal/oauth_http_server.py,sha256=MmLlJ78n4MeB3X3-bYZxMIBWq9yMajYF-188l_blNOI,201
+TerevintoSoftware.PkceClient-0.0.1.dist-info/LICENSE,sha256=xD97lUKGATzKKvbsMm2d5H2XqQmwVo5sC-oTnEYtl90,1073
+TerevintoSoftware.PkceClient-0.0.1.dist-info/METADATA,sha256=X4GcJov9hkLJU2SKbPWqABiLN5XZG92aIQlk9W_MEOg,2695
+TerevintoSoftware.PkceClient-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+TerevintoSoftware.PkceClient-0.0.1.dist-info/top_level.txt,sha256=GVtvrw_5YNc6gv5TU6sEziIXtCu2f-rkDQ6ZehYYrRA,18
+TerevintoSoftware.PkceClient-0.0.1.dist-info/RECORD,,
