@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+lalakaka/__init__.py
+lalakaka/__version__.py
+lalakaka/core.py
+lalakaka.egg-info/PKG-INFO
+lalakaka.egg-info/SOURCES.txt
+lalakaka.egg-info/dependency_links.txt
+lalakaka.egg-info/top_level.txt
