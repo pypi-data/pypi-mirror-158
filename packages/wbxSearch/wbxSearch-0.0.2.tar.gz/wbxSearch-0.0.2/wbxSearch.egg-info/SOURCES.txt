@@ -1,0 +1,12 @@
+LICENSE
+setup.cfg
+setup.py
+wbxSearch/__init__.py
+wbxSearch/classCSV.py
+wbxSearch/extradition.py
+wbxSearch/filterArgs.py
+wbxSearch/minerArgs.py
+wbxSearch.egg-info/PKG-INFO
+wbxSearch.egg-info/SOURCES.txt
+wbxSearch.egg-info/dependency_links.txt
+wbxSearch.egg-info/top_level.txt
