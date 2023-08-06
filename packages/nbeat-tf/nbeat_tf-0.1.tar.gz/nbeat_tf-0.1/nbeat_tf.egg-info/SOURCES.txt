@@ -1,0 +1,8 @@
+README.md
+setup.py
+nbeat_tf.egg-info/PKG-INFO
+nbeat_tf.egg-info/SOURCES.txt
+nbeat_tf.egg-info/dependency_links.txt
+nbeat_tf.egg-info/top_level.txt
+nbeats/__init__.py
+nbeats/main.py

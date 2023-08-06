@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: nbeat_tf
+Version: 0.1
+Summary: TensorFlow implementation of N-Beats paper by Boris Oreshkin (2020 ICML)
+Author: Janek Zimoch
