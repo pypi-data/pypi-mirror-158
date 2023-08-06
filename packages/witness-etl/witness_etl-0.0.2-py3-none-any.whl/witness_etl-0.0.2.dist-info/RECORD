@@ -1,0 +1,17 @@
+witness/__init__.py,sha256=F4J92lK6pi8bcJWvhuQwO2Sx5t0JmCni8Imrt7dNNw8,926
+witness/version.py,sha256=XrtmKy29Cdjrk4qRHrSkStA7__-vtdUFvhsQzcQuGWQ,1105
+witness/core/__init__.py,sha256=KlkpdInAtJ9iXaAztCKSM-uPkurdY4p3y1k8EAp18QY,672
+witness/core/abstract.py,sha256=2UKDG8yvEgK6d0k1vEpNWlS5yOOm-X2j2dbzqCpre_E,2460
+witness/core/batch.py,sha256=sGNKVaYjHq0mGSGWqJBtswA0bim60p7ynlWhDcwbvbo,3024
+witness/extractors/__init__.py,sha256=hNokU3QqZKdtyiUiLPoVMV3Fdv69-KgBT_J5aC-ov_w,632
+witness/extractors/database.py,sha256=i7hpxayUgC34i9H4viGKlTRUjV-qKSaWNqTmvm6sGQE,2612
+witness/extractors/file.py,sha256=OZRybQHGsLnMD2SfhYVMsctaU0pL08Wr0SoJPfOLT14,999
+witness/extractors/http.py,sha256=VSEh_cXPoWcnj6uzkqQuLGBS0GTApA59L6kxCgpWFks,1007
+witness/extractors/pandas.py,sha256=g0_dTRl75iIS2PM96gvEDrmmJulVk-E8mHsY22tME5A,2306
+witness/loaders/__init__.py,sha256=hNokU3QqZKdtyiUiLPoVMV3Fdv69-KgBT_J5aC-ov_w,632
+witness/loaders/pandas.py,sha256=hHbdBBvQl22OUk6TqgjOjPpGJHu6Cn8szEXgggNTMPA,3358
+witness_etl-0.0.2.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+witness_etl-0.0.2.dist-info/METADATA,sha256=Lrfic9_bEdW3wrTYAi-rMELEl5KP4FcFncACcwJ2lCg,955
+witness_etl-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+witness_etl-0.0.2.dist-info/top_level.txt,sha256=42CE3g6InUntjZYsGASpoRaFJcLZdaurmovspbokOKc,8
+witness_etl-0.0.2.dist-info/RECORD,,
