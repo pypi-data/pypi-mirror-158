@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: ccstd
+Version: 0.0.1
+Summary: CCSTD is a library for logging in Python.
+Home-page: UNKNOWN
+Author: Ceys
+Author-email: hidden@hidden.hidden
+License: MIT
+Description: Installation: pip install ccstd
+        
+        Change Log
+        
+        - Released
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
