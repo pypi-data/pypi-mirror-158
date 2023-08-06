@@ -1,0 +1,9 @@
+numpy
+scipy
+numba
+matplotlib
+gym
+
+[DEV]
+twine
+build
