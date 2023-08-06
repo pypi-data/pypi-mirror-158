@@ -1,0 +1,10 @@
+swiftgalaxy/__init__.py,sha256=gUeQq9vENzRB-I0tADbQQsuH1UyXUxSzc4Fg62NwAbw,164
+swiftgalaxy/__version__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+swiftgalaxy/halo_finders.py,sha256=0YwDZu4CGMaTj5la5XkpIqkeQBIr4LNtgI0Ap6ShLX8,13008
+swiftgalaxy/masks.py,sha256=4h74dSlih6nzDYpDYLhc4gs9IlmG32MdOo84ktqhYDQ,1607
+swiftgalaxy/reader.py,sha256=WhIv5_ETcWDTh1LeHmdZLjj1ZJ4j81m8BHc2I8YbZYk,68135
+swiftgalaxy-1.0.0.dist-info/LICENSE.md,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+swiftgalaxy-1.0.0.dist-info/METADATA,sha256=-oNGWhwCe6U4DAe7ppmwRCVMnsABchtukKmIT2E75WU,492
+swiftgalaxy-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+swiftgalaxy-1.0.0.dist-info/top_level.txt,sha256=nzJ6F1logeFd_YEBwmQBOYNcG1BerxqGEnD38Cqih2c,12
+swiftgalaxy-1.0.0.dist-info/RECORD,,
