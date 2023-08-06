@@ -1,0 +1,6 @@
+six
+setuptools-scm
+appdirs
+cached_property
+kivy_garden.ebs.core>=1.3.0
+ebs-linuxnode-core
