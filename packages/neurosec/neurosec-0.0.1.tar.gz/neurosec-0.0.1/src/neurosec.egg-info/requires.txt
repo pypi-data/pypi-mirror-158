@@ -1,0 +1,6 @@
+cv2
+PIL
+numpy
+akida
+akida_models
+vidgear
