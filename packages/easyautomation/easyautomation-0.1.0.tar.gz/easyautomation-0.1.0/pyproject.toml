@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easyautomation"
+version = "0.1.0"
+authors = [
+  { name="David Pareja", email="david@parejarodriguez.com" },
+]
+description = "A keyboard and mouse automation functions package for my own convenience."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "opencv-python",
+    "pyautogui",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Daviid-P/easyautomation"
+"Bug Tracker" = "https://github.com/Daviid-P/easyautomation/issues"

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+easyautomation/__init__.py
+easyautomation/keyboard.py
+easyautomation/mouse.py
+easyautomation.egg-info/PKG-INFO
+easyautomation.egg-info/SOURCES.txt
+easyautomation.egg-info/dependency_links.txt
+easyautomation.egg-info/requires.txt
+easyautomation.egg-info/top_level.txt
