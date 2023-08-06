@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: nxpydocs
+Version: 0.1.29
+Summary: Automated Business Ready Documents from the NX-OS Guestshell
+Author: John Capobianco
+Author-email: ptcapo@gmail.com
+Requires-Python: >=2.7,<3.0
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: Jinja2 (==2.11.3)
+Requires-Dist: PyYAML (>=5.4,<6.0)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: pathlib (>=1.0.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# nxpydocs
+Automated NXOS Business Ready Documents from th guestshell Python
+
+## Setting up guestshell and Python3.8
+### Enable guestshell
+```console
+switch# guestshell enable
+```
+Wait until the guestshell becomes active
+
+### Resize guestshell diskspace
+```console
+guestshell resize rootfs 2000
+guestshell resize memory 2688
+guesthshell reboot
+```
+
+### Update DNS
+```console
+[cisco@guestshell ~]sudo vi /etc/resolv.conf
+nameserver <dns server IP address>
+domain <domain that matches NX-OS configured domain>
+```
