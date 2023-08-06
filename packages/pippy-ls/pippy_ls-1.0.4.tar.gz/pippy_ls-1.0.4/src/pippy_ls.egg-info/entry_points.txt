@@ -1,0 +1,2 @@
+[console_scripts]
+pippy_ls = pippy_ls.__main__:main

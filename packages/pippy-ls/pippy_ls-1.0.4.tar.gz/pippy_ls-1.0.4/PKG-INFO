@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pippy_ls
+Version: 1.0.4
+Summary: An open-source python package
+Author-email: Pippy Long Stockings <zpprado@email.com>
+Project-URL: Homepage, https://github.com/pradoz/pippy-ls
+Keywords: python,package
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+## pippy long stockings
+A Python library
+
