@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+jupyter_dcv_proxy/__init__.py
+jupyter_dcv_proxy.egg-info/PKG-INFO
+jupyter_dcv_proxy.egg-info/SOURCES.txt
+jupyter_dcv_proxy.egg-info/dependency_links.txt
+jupyter_dcv_proxy.egg-info/entry_points.txt
+jupyter_dcv_proxy.egg-info/requires.txt
+jupyter_dcv_proxy.egg-info/top_level.txt
+jupyter_dcv_proxy/icons/dcv.svg
