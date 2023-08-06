@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sweep-design
+Version: 0.1.1
+Summary: The project is designed to create simple and complex sweep signals.
+License: MIT
+Author: Vladislav
+Author-email: serebraykov.vs@gmail.com
+Requires-Python: >=3.9,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: EMD-signal (>=1.2.2,<2.0.0)
+Requires-Dist: bokeh (>=2.4.2,<3.0.0)
+Requires-Dist: ipywidgets (>=7.6.5,<8.0.0)
+Requires-Dist: jupyter-bokeh (>=3.0.4,<4.0.0)
+Requires-Dist: jupyterlab (>=3.2.9,<4.0.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: notebook (>=6.4.8,<7.0.0)
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
+Requires-Dist: screeninfo (>=0.8,<0.9)
