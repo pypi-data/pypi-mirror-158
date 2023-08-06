@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+
+<head>
+    <meta charset="utf-8">
+    <title>index</title>
+    <script src="/built-static/crypto-js-4.1.1/base.js"></script>
+    <script src="/built-static/crypto-js-4.1.1/md5.js"></script>
+    <script src="/built-static/jmilk.js"></script>
+    <link rel="stylesheet" type="text/css" href="/built-static/jmilk.css">
+</head>
+
+<body id="body">
+    <div>index</div>
+
+    <script>
+        var body = jmilk.bodyAddToken(body='朝辞白帝彩云间', token='123456')
+        var resText = jmilk.post(url='/token_example', body=body)
+        console.log(resText)
+
+        var resText = jmilk.post(url='/example', body='-----')
+        console.log(resText)
+    </script>
+</body>
+
+</html>

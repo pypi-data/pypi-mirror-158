@@ -1,0 +1,23 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pymilk"
+
+version = "1.7"
+dependencies = ["pycryptodome", "pymongo", "pymysql", "aiomysql"]
+keywords = ["pymilk", "layDB", "ORM", "mysql", "MongoDB", "Lsdict", "DFA", 'win32plus', 'pyppeteers']
+
+readme = "README.md"
+description = "一个开源的 Python 编程工具箱"
+authors = [{name = "jutooy", email = "jutooy@qq.com"}]
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dynamic = []
+
+[project.scripts]
+pymilk = "pymilk._cmd:parser"
+
+[project.urls]
+Home = 'https://www.yuque.com/jutooy/pymilk'
+Docs = 'https://www.yuque.com/jutooy/pymilk'
