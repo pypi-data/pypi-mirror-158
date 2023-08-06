@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: tw2.recaptcha2
+Version: 0.1
+Summary: ToscaWidgets2 widget for Google reCAPTCHA API v2.0
+Home-page: https://github.com/nphilipp/tw2.recaptcha2
+Author: Nils Philippsen
+Author-email: nils@tiptoe.de
+License: UNKNOWN
+Keywords: tw2.widgets
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Widget Sets
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+License-File: COPYING
+Requires-Dist: tw2.core
+Provides-Extra: genshi
+Requires-Dist: Genshi (>=0.7) ; extra == 'genshi'
+Provides-Extra: jinja
+Requires-Dist: jinja2 ; extra == 'jinja'
+Provides-Extra: kajiki
+Requires-Dist: kajiki ; extra == 'kajiki'
+Provides-Extra: mako
+Requires-Dist: Mako ; extra == 'mako'
+
+UNKNOWN
+

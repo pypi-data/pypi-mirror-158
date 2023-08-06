@@ -1,0 +1,5 @@
+<div xmlns:py="http://genshi.edgewall.org/" py:attrs="w.attrs">
+  <input type="hidden" name="${hasattr(w, 'compound_key') and w.compound_key or w.compound_id}"/>
+  <div class="g-recaptcha" py:attrs="w.captcha_div_attrs"></div>
+  ${w.copyresponse_js.display()}
+</div>
