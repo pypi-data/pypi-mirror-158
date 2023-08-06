@@ -1,0 +1,7 @@
+dr_packager/__init__.py,sha256=olEp8lIa-ykfvDl4CH8GL6zul1Uj8ZlqOWaWStWABRw,93
+dr_packager/__main__.py,sha256=8VDDVG8E-tinufdX-9Ut1OXgbHNOXy8sp4tXZ-GqUsc,57
+dr_packager/dr_packager.py,sha256=4UFrPryPijZDTqh1qNgcA-XvU1Rx3ZePjPmqKTVoakI,5798
+dr_packager-0.1.0.dist-info/entry_points.txt,sha256=Ge_CNHqwq3vrndhrY5cSGtV8UUANwnW9cL2IrAbSrlE,47
+dr_packager-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+dr_packager-0.1.0.dist-info/METADATA,sha256=byJpcW96ou6NOyAj5HPRk1FXTx45Q_bUgHida1gzML4,3859
+dr_packager-0.1.0.dist-info/RECORD,,
