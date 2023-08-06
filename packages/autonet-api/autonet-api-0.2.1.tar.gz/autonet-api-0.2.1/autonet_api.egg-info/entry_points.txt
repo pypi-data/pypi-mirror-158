@@ -1,0 +1,12 @@
+[autonet.backends]
+config = autonet.drivers.backend.deviceconf:DeviceConf
+netbox = autonet.drivers.backend.netbox.netbox:NetBox
+yamlfile = autonet.drivers.backend.yamlfile.yamlfile:YAMLFile
+
+[autonet.drivers]
+dummy = autonet.drivers.device.dummy_driver.driver:DummyDriver
+
+[console_scripts]
+autonet-createadmin = autonet.commands.createadmin:create_admin
+autonet-server = autonet.core.app:run_wsgi_app
+
