@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/markermap/__init__.py
+src/markermap/utils.py
+src/markermap.egg-info/PKG-INFO
+src/markermap.egg-info/SOURCES.txt
+src/markermap.egg-info/dependency_links.txt
+src/markermap.egg-info/top_level.txt
