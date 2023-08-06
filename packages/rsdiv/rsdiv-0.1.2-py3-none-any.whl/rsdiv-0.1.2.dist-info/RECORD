@@ -1,0 +1,13 @@
+rsdiv/__init__.py,sha256=58J-sivM7vEPPYiAjr_AhoY4s6eWn-4W7eUTeHmsdh4,49
+rsdiv/dataset/__init__.py,sha256=QWBcUo5-t_JUVpbavGOBqP38SwqV9rfDcyrtj5Oc_h4,230
+rsdiv/dataset/base.py,sha256=HAWkprRK1h4LvSuurHU25LSSXPUksbLSSu9ZqbRmSVk,718
+rsdiv/dataset/movielens_100k.py,sha256=hRWKc8Lyk8ldkrE7E9RwcOpBGIHSEMncoW8zcrqhemY,2271
+rsdiv/dataset/movielens_1m.py,sha256=f_uhvFWE8jSgDLt-g4wB9YwoBTxwNlqSjZSGS7Sn7xw,1602
+rsdiv/evaluation/__init__.py,sha256=qGX_6dlAfE1SwnDMK-vWkfStO2PSqlh2oAxL0v4uM4c,87
+rsdiv/evaluation/diversity_metrics.py,sha256=YKy5nGtpnKm3glgD11u4Mief0-7RKXb8Xp7Nq_KyRYw,2657
+rsdiv/recommenders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rsdiv-0.1.2.dist-info/LICENSE,sha256=QRLoC-V-CjNJtxr6d68_yWe9M-aUvYjqxTa77kSdG2s,1072
+rsdiv-0.1.2.dist-info/METADATA,sha256=loSjrG1I5qy9sHpTzY8XXLAmXoJi4QFg3FNodXZnJmk,4523
+rsdiv-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rsdiv-0.1.2.dist-info/top_level.txt,sha256=qr-MrL7I0RccGT280kf5OHRdRlymh_tYImv0A1Udi5E,6
+rsdiv-0.1.2.dist-info/RECORD,,
