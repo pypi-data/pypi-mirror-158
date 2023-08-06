@@ -1,0 +1,11 @@
+rikai<=0.1.10,>=0.1.8
+yolov5<6.1.0,>=6.0.0
+torch<=1.10.2
+torchvision<=0.11.3
+
+[dev]
+black
+isort
+pytest
+mlflow
+rikai-torchhub>=0.1.0
