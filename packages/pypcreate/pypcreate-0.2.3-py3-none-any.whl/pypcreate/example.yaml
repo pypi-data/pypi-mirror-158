@@ -1,0 +1,15 @@
+name: example
+
+root:
+  dir_1:
+    dir_name: 'example1' # directory name
+    files: ['__init__.py','README.md','example.py'] # specify the empty files in the directory 
+    dir_1: 
+      dir_name: 'sub_example1' # directory name
+      files: ['hello.py'] 
+
+  dir_2:
+    dir_name: 'example2' # here is the name of directory 2 
+    files: ['__init__.py'] 
+
+

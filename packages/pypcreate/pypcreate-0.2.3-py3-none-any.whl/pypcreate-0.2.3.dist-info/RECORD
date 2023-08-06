@@ -1,0 +1,15 @@
+pypcreate/__init__.py,sha256=ODn5ePDj7mS3cbo46vti5Fg2dQNoNNArBVzoybwsntc,114
+pypcreate/create.py,sha256=8psn7ArOoHD9V3F6gwiJhpJTdpGpp7H8B3aHlyauoUE,1786
+pypcreate/create_func.py,sha256=UzkMQz3ddpYj9tbdKVk9BDNIkF1KfEPkO_zI88PySQw,2257
+pypcreate/example.yaml,sha256=9Os6AhUWpRoujFEDoSwWjq4DixeDTIpUc16RWRthXMQ,355
+pypcreate/pypcreate.py,sha256=b3fwe2EJLwJH6o5R5BMptZWMaRul3Yl8PLbf_jdNfQg,937
+pypcreate/utils.py,sha256=_e0q3ksvA7UvSO_rjwQCNJzmC0EtJ0FXO_TNFba9vjI,1701
+pysetup_template/__init__.py,sha256=Cb3xGFfodw_qbvwjyYsc60XWLCUNwI4reRYPmsc9pq4,117
+pysetup_template/setup.py,sha256=0y-jxBd1OP_YPNybzbryrwHAzPFJ6Ncm3PGdUvxk-Js,982
+zzl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypcreate-0.2.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pypcreate-0.2.3.dist-info/METADATA,sha256=BGr1f9ow0OFNX4bWuthzORyNCMHnA4dtP0zRjvABHKg,1942
+pypcreate-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pypcreate-0.2.3.dist-info/entry_points.txt,sha256=8Rbgp2hQc90W8Gqswxt6LK85A_rIeYQ2NisMQ7vCybI,52
+pypcreate-0.2.3.dist-info/top_level.txt,sha256=NlPF3sfkP29P9yzFtITznzXeD0ycInfsy-5Isi4323M,27
+pypcreate-0.2.3.dist-info/RECORD,,
