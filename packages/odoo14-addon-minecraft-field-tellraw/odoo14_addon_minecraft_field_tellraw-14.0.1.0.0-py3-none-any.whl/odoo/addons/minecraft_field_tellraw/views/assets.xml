@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+
+        <!--grepper odoo register javascript-->
+        <template
+      id="assets_backend_inherit_minecraft_tellraw_field"
+      inherit_id="web.assets_backend"
+    >
+            <xpath expr="." position="inside">
+                <script
+          type="text/javascript"
+          src="/minecraft_tellraw_field/static/src/js/field_utils.js"
+        />
+                <script
+          type="text/javascript"
+          src="/minecraft_tellraw_field/static/src/js/minecraft_tellraw_field.js"
+        />
+                <script
+          type="text/javascript"
+          src="/minecraft_tellraw_field/static/src/js/field_registry.js"
+        />
+            </xpath>
+        </template>
+        <!--end grepper-->
+
+    </data>
+</odoo>

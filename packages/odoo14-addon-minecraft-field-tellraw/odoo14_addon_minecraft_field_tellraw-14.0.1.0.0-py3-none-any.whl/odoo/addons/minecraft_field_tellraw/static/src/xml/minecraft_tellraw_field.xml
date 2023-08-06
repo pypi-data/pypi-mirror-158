@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<templates id="minecraft_tellraw_field_templates" xml:space="preserve">
+
+    <t t-name="MinecraftTellrawDropdown" owl="1">
+        <div class="dropdown">
+            <div class="row">
+                <div class="col" style="white-space: pre-line">
+                    <t t-raw="state.text" />
+                </div>
+            </div>
+            <t t-if="mode === 'edit' || state.hoverEvent === 'show_text'">
+                <div class="row">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Seq</th>
+                                <th scope="col">Value</th>
+                                <th scope="col">Edit</th>
+                                <th scope="col">Remove</th>
+                            </tr>
+                            </thead>
+                            <tbody class="dropdown-values">
+                            <t t-foreach="state.values" t-as="value_key">
+                                <t t-if="value_key_index !== 0">
+                                    <tr>
+                                        <td><span
+                        style="cursor: move;margin-left: 10px;"
+                        class="o_row_handle fa fa-arrows ui-sortable-handle"
+                      /></td>
+                                        <td t-raw="value_key.text" />
+                                        <td><button
+                        t-if="value_key !== '\n'"
+                        t-on-click="onClickEditText(value_key_index)"
+                      >Edit</button></td>
+                                        <td><button
+                        t-if="!value_key.listitem"
+                        t-on-click="onClickRemoveText(value_key_index)"
+                      >Remove</button></td>
+                                    </tr>
+                                </t>
+                            </t>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button
+              class="btn btn-primary dropdown-toggle"
+              type="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+                            Add Text
+                        </button>
+                        <div
+              class="dropdown-menu"
+              aria-labelledby="dropdownMenuLink"
+              id="add-text-dropdown"
+            >
+                            <button
+                class="dropdown-item"
+                name="text"
+                t-on-click="openText"
+              >Text</button>
+                            <button
+                class="dropdown-item"
+                name="lineBreak"
+                t-on-click="openLineBreak"
+              >Line Break</button>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </div>
+    </t>
+
+    <t t-name="MinecraftTellrawText" owl="1">
+        <div class="row">
+            <div class="col">
+                <h2>Preview:</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="white-space: pre-line">
+                <t t-raw="state.previewText" />
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="text">Text</label>
+                    <input
+            type="text"
+            class="form-control"
+            id="text"
+            name="text"
+            placeholder="Text"
+            t-on-change="onChangeText"
+            t-att-value="state.value.text"
+          />
+                    <strong t-esc="state.params" />
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col">
+                <h2>Formatting Options:</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <div class="form-check">
+                        <input
+              type="checkbox"
+              class="form-check-input"
+              id="default-color"
+              name="default-color"
+              checked="1"
+              t-on-change="onChangeDefaultColor"
+              t-att-checked="state.value.defaultColor"
+            />
+                        <label for="default-color">Default Color</label>
+                    </div>
+                </div>
+                <t t-if="!state.defaultColor">
+                    <div class="form-group">
+                        <label for="color">Color</label>
+                        <input
+              type="color"
+              class="form-control"
+              id="color"
+              name="color"
+              style="width: 80px;height: 80px;"
+              t-on-change="onChangeColor"
+              t-att-value="state.value.color"
+            />
+                    </div>
+                </t>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="bold"
+                  name="bold"
+                  t-on-change="(event) => state.value.bold = event.target.checked"
+                  t-att-checked="state.value.bold"
+                />
+                                <label class="form-check-label" for="bold">Bold</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="italic"
+                  name="italic"
+                  t-on-change="onChangeItalic"
+                  t-att-checked="state.value.italic"
+                />
+                                <label
+                  class="form-check-label"
+                  for="italic"
+                >Italic</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="underlined"
+                  name="underlined"
+                  t-on-change="onChangeUnderlined"
+                  t-att-checked="state.value.underlined"
+                />
+                                <label
+                  class="form-check-label"
+                  for="underlined"
+                >Underlined</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="strikethrough"
+                  name="strikethrough"
+                  t-on-change="onChangeStrikethrough"
+                  t-att-checked="state.value.strikethrough"
+                />
+                                <label
+                  class="form-check-label"
+                  for="strikethrough"
+                >Strikethrough</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="obfuscated"
+                  name="obfuscated"
+                  t-on-change="onChangeObfuscated"
+                  t-att-checked="state.value.obfuscated"
+                />
+                                <label
+                  class="form-check-label"
+                  for="obfuscated"
+                >Obfuscated</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <div class="form-check">
+                        <input
+              type="checkbox"
+              class="form-check-input"
+              id="custom-font"
+              name="custom-font"
+              t-on-change="onChangeCustomFont"
+              t-att-checked="state.customFont"
+            />
+                        <label
+              class="form-check-label"
+              for="custom-font"
+            >Custom Font</label>
+                    </div>
+                </div>
+                <t t-if="state.customFont">
+                    <div class="form-group">
+                        <input
+              type="text"
+              class="form-control"
+              id="font"
+              name="font"
+              t-att-value="state.value.font || 'minecraft:default'"
+              t-on-change="onChangeFont"
+            />
+                    </div>
+                </t>
+            </div>
+        </div>
+    </t>
+
+    <t t-name="FieldMinecraftTellraw" owl="1">
+        <!--grepper odoo call template-->
+        <t t-call="MinecraftTellrawDropdown" />
+        <!--end grepper-->
+        <!--grepper odoo owl open dialog-->
+        <t t-if="state.minecraftTellrawTextDialog">
+            <MinecraftTellrawDialog
+        editValue="state.editValue"
+        t-on-dialog-closed="onDialogClosed"
+      />
+        </t>
+        <!--end grepper-->
+    </t>
+
+    <t t-name="FieldMinecraftTellrawText" owl="1">
+        <Dialog
+      contentClass="'o_MinecraftTellrawDialog'"
+      title="AddText"
+      size="'large'"
+      t-ref="dialog"
+    >
+            <t t-call="MinecraftTellrawText" />
+            <hr />
+            <h2>Click Event:</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <select
+              class="form-control"
+              id="click-event"
+              name="click-event"
+              t-on-change="onChangeClickEvent"
+              t-att-value="state.clickEvent || 'none'"
+            >
+                            <option value="none">None</option>
+                            <option value="open_url">Open URL</option>
+                            <option value="run_command">Run Command</option>
+                            <option value="suggest_command">Suggest Command</option>
+                            <option value="copy_to_clipboard">Copy to Clipboard</option>
+                        </select>
+                    </div>
+                </div>
+                <t t-if="state.clickEvent">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <input
+                type="text"
+                class="form-control"
+                t-att-name="state.clickEvent"
+                t-att-value="state.value.clickEvent &amp;&amp; state.value.clickEvent.value  || ''"
+                t-on-change="onChangeClickEventValue"
+              />
+                        </div>
+                    </div>
+                </t>
+            </div>
+            <hr />
+            <h2>Hover Event:</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <select
+              class="form-control"
+              id="hover-event"
+              name="hover-event"
+              t-on-change="onChangeHoverEvent"
+              t-att-value="state.hoverEvent || 'none'"
+            >
+                            <option value="none">None</option>
+                            <option value="show_entity">Show Entity</option>
+                            <option value="show_item">Show Item</option>
+                            <option value="show_text">Show Text</option>
+                        </select>
+                    </div>
+                </div>
+                <t t-if="state.hoverEvent === 'show_text'">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <t t-call="MinecraftTellrawDropdown" />
+                        </div>
+                    </div>
+                </t>
+                <t t-elif="state.hoverEvent">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <input
+                type="text"
+                class="form-control"
+                t-att-name="state.hoverEvent"
+                t-att-value="state.value.hoverEvent &amp;&amp; state.value.hoverEvent.value || ''"
+                t-on-change="onChangeHoverEventValue"
+              />
+                        </div>
+                    </div>
+                </t>
+            </div>
+            <!--grepper owl dialog buttons-->
+            <t t-set-slot="buttons">
+                <button
+          class="o-reject btn btn-primary"
+          t-on-click="onClickSave"
+        >Save</button>
+                <button
+          class="o-cancel btn btn-secondary"
+          t-on-click="onClickCancel"
+        >Cancel</button>
+            </t>
+            <!--end grepper-->
+        </Dialog>
+        <t t-if="state.minecraftTellrawHoverEventTextDialog">
+            <MinecraftTellrawHoverEventTextDialog
+        index="state.index"
+        editValue="state.editValue"
+        t-on-dialog-closed="onDialogClosed"
+      />
+        </t>
+    </t>
+
+    <!-- grepper odoo owl dialog template -->
+    <t t-name="MinecraftTellrawHoverEventTextDialog" owl="1">
+        <Dialog
+      contentClass="'o_MinecraftTellrawHoverEventTextDialog'"
+      title="AddText"
+      size="'large'"
+      t-ref="newDialog"
+    >
+            <t t-call="MinecraftTellrawText" />
+            <t t-set-slot="buttons">
+                <button
+          class="o-reject btn btn-primary"
+          t-on-click="onClickSave"
+        >Save</button>
+                <button
+          class="o-cancel btn btn-secondary"
+          t-on-click="onClickCancel"
+        >Cancel</button>
+            </t>
+        </Dialog>
+    </t>
+    <!-- end grepper -->
+
+</templates>
