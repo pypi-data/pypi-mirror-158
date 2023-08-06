@@ -1,0 +1,144 @@
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 200 200">
+           <defs>
+    <!-- <style>
+            .s1 {
+                fill: {{backcolor}};
+            }
+            .s2{
+                fill:{{materialcolor}}
+            }
+            .s3{
+                fill:{{facecolor}}
+            }
+            .s45{
+                fill:{{haircolor}}
+            }
+            .s5{
+                fill:{{fronteyescolor}}
+            }
+            .s6{
+                fill:{{iriscolor}}
+            }
+            .s7{
+                fill:{{mouthcolor}}
+            }
+            .white{
+                fill:white
+            }
+            op1{
+                opacity: 65%;
+            }
+            </style> -->
+    </defs>
+    <g >
+    {% for path  in back %}<path id="back" d="{{ path.path }}" fill="{{ backcolor }}" class="s1"/>{% endfor %}
+    {% for path  in hair.back %}
+        <path id="hairback"
+              d="{{ path.path }}"
+              class="s4"
+              />
+    {% endfor %}
+    {% for path  in chinshadow %}<path id="chinshadow" d="{{ path.path }}" class="s1 op1 " />{% endfor %}
+    {% for path  in ears.left %}<path id="earleft" d="{{ path.path }}" class="s3"
+        {% if "tone" in path.fill %}fill="{{facecolor}}"{% endif %}
+        {% if "sd" in path.fill %}fill="black" opacity="0.3"{% endif %}
+        {% if "hl" in path.fill %}fill="black" opacity="0.3"{% endif %}
+    />{% endfor %}
+    {% for path  in ears.right %}<path id="earright" d="{{ path.path }}" class="s3"
+        {% if "tone" in path.fill %}fill="{{facecolor}}"{% endif %}
+        {% if "sd" in path.fill %}fill="black" opacity="0.3"{% endif %}
+        {% if "hl" in path.fill %}fill="black" opacity="0.3"{% endif %}
+    />{% endfor %}
+    {% for path  in faceshape %}
+    <path id="faceshape" d="{{ path.path }}"
+        {% if "#" in path.fill %}fill="{{path.fill}}"{% endif %}
+    
+        {% if "tone" in path.fill %}fill="{{facecolor}}"{% endif %}
+        {% if "sd" in path.fill %}fill="black" opacity="0.2"{% endif %} 
+        />
+    {% endfor %}
+    {% for path  in eyesback.left %}<path id="eyesback_left" d="{{ path.path }}" fill="white"/>{% endfor %}
+    {% for path  in eyesback.right %}<path id="eyesback_right" d="{{ path.path }}" fill="white" />{% endfor %}
+    {% for path  in iris.left %}<path id="iris_left" d="{{ path.path }}" class="s6"/>{% endfor %}
+    {% for path  in iris.right %}<path id="iris_right" d="{{ path.path }}" class="s6"/>{% endfor %}
+    {% for path  in eyesfront.left %}
+
+        <path id="eyefront_left"
+              d="{{ path.path }}"
+              {% if path.fill in "#ffftone#000" %}
+              {% if path.fill in "tone" %}
+                {% if path.fromskin %}fill="{{facecolor}}"{% else %}fill="black" opacity="0.3"{% endif %}
+            {% endif %}
+              {% if path.fill in "#fff" %} fill="{{facecolor}}"{% endif %}
+              {% if path.fill in "#000" %} fill="#000"{% endif %}
+              {% else %}
+              fill="black" opacity="0.3"
+            {% endif %}
+              class="s5"/>
+    {% endfor %}
+    {% for path  in eyesfront.right %}
+    {% if not path.hideonthumbs  %}
+    <path id="eyefront_right"
+          d="{{ path.path }}"
+          {% if path.fill in "#ffftone#000" %}
+              {% if path.fill in "tone" %} fill="black" opacity="0.3"{% endif %}
+              {% if path.fill in "#fff" %} fill="{{facecolor}}"{% endif %}
+              {% if path.fill in "#000" %} fill="#000"{% endif %}
+              {% else %}
+              fill="black" opacity="0.3"
+            {% endif %}
+          class="s5"/>
+    {% endif %}{% endfor %}
+    
+    {% for path  in brows.left %}<path id="browleft" d="{{ path.path }}" 
+        {% if "#" in path.fill %}fill="{{path.fill}}"{% endif %}
+    
+        {% if "tone" in path.fill %}fill="{{haircolor}}"{% endif %}
+        {% if "hl" in path.fill %}fill="white" opacity="0.4"{% endif %}
+        />{% endfor %}
+    {% for path  in brows.right %}<path id="browright" d="{{ path.path }}" 
+        {% if "#" in path.fill %}fill="{{path.fill}}"{% endif %}
+
+        {% if "tone" in path.fill %}fill="{{haircolor}}"{% endif %}
+        {% if "hl" in path.fill %}fill="white" opacity="0.4"{% endif %}
+    />{% endfor %}
+    {% for path  in nose %}<path id="nose" d="{{ path.path }}" class="s3"
+        {% if "tone" in path.fill %}fill="transparent"{% endif %}
+        {% if "sd" in path.fill %}fill="black" opacity="0.3"{% endif %}
+        {% if "hl" in path.fill %}fill="black" opacity="0.3"{% endif %}
+
+    />{% endfor %}
+    {% for path  in mouth %}<path id="mouth" d="{{ path.path }}" class="s7" 
+
+        {% if "tone" in path.fill %}fill="{{mouthcolor}}" opacity="0.6"{% endif %}
+        {% if "sd" in path.fill %}fill="{{mouthcolor}}"{% endif %}
+        {% if "hl" in path.fill %}fill="black" opacity="0.3"{% endif %}
+        />{% endfor %}
+    {% for path  in mustache %}<path id="mustache" d="{{ path.path }}" class="s4"
+        {% if "tone" in path.fill %}fill="transparent"{% endif %}
+        {% if "sd" in path.fill %}fill="{{haircolor}}"{% endif %}
+        {% if "hl" in path.fill %}fill="black" opacity="0.3"{% endif %}
+    />{% endfor %}
+    
+    {% for path  in hair.front %}
+        {% if not path.hideoncanvas %}<path id="hairfront" d="{{ path.path }}" class="" 
+            {% if "tone" in path.fill %}fill="{{haircolor}}"{% endif %}
+            {% if "sd" in path.fill %}fill="black" opacity="0.4"{% endif %}
+            {% if "hl" in path.fill %}fill="white" opacity="0.2"{% endif %}
+         />{% endif %}
+    {% endfor %}
+    {% for path  in beard %}<path id="beard" d="{{ path.path }}" class="s4"
+        {% if "tone" in path.fill %}fill="{{haircolor}}"{% endif %}
+        {% if "sd" in path.fill %}opacity="0.4"{% endif %}
+        {% if "hl" in path.fill %}fill="black" opacity="0.3"{% endif %}
+    />{% endfor %}
+    {% for path  in cloth %}<path id="cloth" d="{{ path.path }}" class="s2"
+
+        {% if "#" in path.fill %}fill="{{path.fill}}"{% endif %}
+        {% if "sd" in path.fill %}fill="transparent"{% endif %}
+        {% if "tone" in path.fill %}fill="{{materialcolor}}"{% endif %}
+        {% if "hl" in path.fill %}fill="black" opacity="0.3"{% endif %}
+    />{% endfor %}
+    </g>
+</svg>
+
