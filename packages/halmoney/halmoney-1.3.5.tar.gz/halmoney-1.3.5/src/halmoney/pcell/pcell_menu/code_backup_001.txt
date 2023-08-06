@@ -1,0 +1,231 @@
+Public Const menuabr_name As String = "Pcell_Addin"
+Public Const popup_name As String = "Pcell_Popup_Menu"
+Public Const popup_menubar_name As String = "pcell_popup_menubar"
+Public Const version As String = "1.1"
+Public Const made_by As String = "S.J.Park"
+
+
+Option Explicit
+
+#If Win64 Then
+    Declare PtrSafe Function FindExecutable Lib "shell32.dll" Alias "FindExecutableA" (ByVal lpFile As String, ByVal lpDirectory As String, ByVal lpResult As String) As Long
+#Else
+    Declare Function FindExecutable Lib "shell32.dll" Alias "FindExecutableA" (ByVal lpFile As String, ByVal lpDirectory As String, ByVal lpResult As String) As Long
+#End If
+
+Sub auto_open()
+    On Error Resume Next
+    Call delete_menu
+    Call create_menu
+    Call delete_popup_menu
+    Call create_popup_menu
+    On Error GoTo 0
+End Sub
+
+Sub delete_menu()
+    Dim cmd_Bar As CommandBar
+    Dim menu_control As CommandBarControl
+    
+    Set cmd_Bar = Application.CommandBars("Worksheet Menu Bar")
+    
+    For Each menu_control In cmd_Bar.Controls
+        If menu_control.Caption = menuabr_name Or menu_control.Caption = popup_name Then
+            menu_control.Delete
+        End If
+    
+    Next
+
+End Sub
+Sub create_menu()
+
+    Dim menu_bar As CommandBarControl
+    Dim menu_top As CommandBarPopup
+    Dim menu_sub As CommandBarButton
+    Dim one_line As String
+    Dim line_list As Variant
+    Dim filehandle As Integer
+    Dim path1, path2, path3, path4 As String
+    Dim python_path As String
+    Dim current_file_path As String
+    Dim deptlist As Variant
+    Dim one_menu_file As Variant
+    
+    current_file_path = ThisWorkbook.Path
+    python_path = GetInstallDirectory("python.exe")
+    
+    path1 = "\pcell_menu_main_basic.txt"
+    path2 = "\pcell_menu_main_basic_user.txt"
+    path3 = "\pcell_menu_main_vba.txt"
+    path4 = "\pcell_menu_main_vba_user.txt"
+        
+            
+    Set menu_bar = Application.CommandBars("Worksheet Menu Bar").Controls.Add(Type:=msoControlPopup)
+    menu_bar.Caption = menuabr_name
+        
+    filehandle = FreeFile
+            
+            
+    For Each one_menu_file In Array(path1, path2, path3, path4)
+        Open current_file_path & one_menu_file For Input As filehandle
+        Do While Not EOF(filehandle)
+            Line Input #filehandle, one_line
+            
+            line_list = Split(one_line, ",")
+                
+            Select Case line_list(0)
+            
+            Case 0
+                Set menu_top = menu_bar.Controls.Add(Type:=msoControlPopup)
+                menu_top.Caption = LTrim(line_list(1))
+            
+            Case 1
+                Set menu_sub = menu_top.Controls.Add(Type:=msoControlButton)
+                menu_sub.Caption = LTrim(line_list(1))
+                If Not LTrim(line_list(3)) = "nofaceid" Then
+                    menu_sub.FaceId = LTrim(line_list(3))
+                End If
+                menu_sub.OnAction = "'run_py""" & LTrim(line_list(2)) & """'"
+            
+            Case 7
+                Set menu_sub = menu_top.Controls.Add(Type:=msoControlButton)
+                menu_sub.Caption = LTrim(line_list(1))
+                If Not LTrim(line_list(3)) = "nofaceid" Then
+                    menu_sub.FaceId = LTrim(line_list(3))
+                End If
+                menu_sub.OnAction = LTrim(line_list(2))
+            End Select
+        Loop
+             
+        Close filehandle
+        filehandle = FreeFile
+    Next one_menu_file
+        
+        Set menu_top = Nothing
+        Set menu_bar = Nothing
+End Sub
+
+
+Sub delete_popup_menu()
+    Dim popup_menubar As CommandBarControl
+    
+    For Each popup_menubar In Application.CommandBars("Cell").Controls
+        If popup_menubar.Caption = popup_name Then
+            popup_menubar.Delete
+        End If
+    Next
+
+End Sub
+
+ 
+Sub create_popup_menu()
+    Dim menu_sub As CommandBarControl
+    Dim popup_menubar As CommandBarControl
+    Dim filehandle As Integer
+    Dim python_path As String
+    Dim one_line As String
+    Dim line_list As Variant
+    Dim path1, path2, path3, path4 As String
+    Dim deptlist As Variant
+    Dim one_menu_file As Variant
+    Dim current_file_path As String
+    
+    current_file_path = ThisWorkbook.Path
+
+    Set popup_menubar = Application.CommandBars("Cell").Controls.Add(Type:=msoControlPopup, Before:=1)
+    popup_menubar.Caption = popup_name
+
+    python_path = GetInstallDirectory("python.exe")
+    filehandle = FreeFile
+  
+    path1 = "\pcell_menu_popup_basic.txt"
+    path2 = "\pcell_menu_popup_basic_user.txt"
+    path3 = "\pcell_menu_popup_vba.txt"
+    path4 = "\pcell_menu_popup_vba_user.txt"
+    deptlist = Array(path1, path2, path3, path4)
+  
+    For Each one_menu_file In deptlist
+        Open current_file_path & one_menu_file For Input As filehandle
+              Do While Not EOF(filehandle)
+                    Line Input #filehandle, one_line
+                    line_list = Split(one_line, ",")
+                        
+                    Select Case line_list(0)
+                    Case 0
+                            Set menu_sub = popup_menubar.Controls.Add
+                                menu_sub.Caption = LTrim(line_list(1))
+                                If Not LTrim(line_list(3)) = "nofaceid" Then
+                                    menu_sub.FaceId = LTrim(line_list(3))
+                                End If
+                                menu_sub.OnAction = "'run_py""" & LTrim(line_list(2)) & """'"
+                    Case 7
+                            Set menu_sub = popup_menubar.Controls.Add
+                                menu_sub.Caption = LTrim(line_list(1))
+                                If Not LTrim(line_list(3)) = "nofaceid" Then
+                                    menu_sub.FaceId = LTrim(line_list(3))
+                                End If
+                                menu_sub.OnAction = LTrim(line_list(2))
+                    End Select
+                Loop
+
+            Close filehandle
+            filehandle = FreeFile
+    Next one_menu_file
+        Set menu_sub = Nothing
+        Set popup_menubar = Nothing
+End Sub
+Sub show_msgbox1()
+    MsgBox ("ÆË¾÷¿ë1")
+End Sub
+
+Sub show_msgbox2()
+    MsgBox ("ÆË¾÷¿ë2")
+End Sub
+
+
+Sub run_py(file_name As String)
+    Dim python_path As String
+    Dim aaa As String
+    Dim bbb As String
+    python_path = GetInstallDirectory("python.exe")
+    bbb = python_path & "\pythonw " & python_path & path_main & "\pyezxl_code\" & file_name
+    aaa = Shell(bbb, 1)
+End Sub
+
+Function run_user_py(file_name As String)
+    Dim python_path As String
+    Dim aaa As String
+    Dim bbb As String
+    
+    python_path = GetInstallDirectory("python.exe")
+    bbb = python_path & "\pythonw " & python_path & path_main & "\user_code\" & file_name
+    aaa = Shell(bbb, 1)
+End Function
+
+Sub auto_close()
+    Dim c As CommandBarControl
+    Set c = Application.CommandBars(1).FindControl(Type:=msoControlPopup, Tag:=made_by)
+    If Not c Is Nothing Then c.Delete
+    Set c = Nothing
+End Sub
+
+
+
+
+Function GetInstallDirectory(ByVal usProgName As String) As String
+    Const SYS_OUT_OF_MEM        As Long = &H0
+    Const ERROR_FILE_NOT_FOUND  As Long = &H2
+    Const ERROR_PATH_NOT_FOUND  As Long = &H3
+    Const ERROR_BAD_FORMAT      As Long = &HB
+    Const NO_ASSOC_FILE         As Long = &H1F
+    Const MIN_SUCCESS_LNG       As Long = &H20
+    Const MAX_PATH              As Long = &H104
+    Const USR_NULL              As String = "NULL"
+    Const S_DIR                 As String = "C:\"
+    
+        Dim fRetPath As String * MAX_PATH
+        Dim fRetLng As Long
+        fRetLng = FindExecutable(usProgName, S_DIR, fRetPath)
+        If fRetLng >= MIN_SUCCESS_LNG Then
+            GetInstallDirectory = Left$(Trim$(fRetPath), InStrRev(Trim$(fRetPath), "\"))
+        End If
+End Function
