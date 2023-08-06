@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hnph-utils
+Version: 0.0.6
+Summary: 湖南品禾网络科技有限公司，Python开发工具包
+Home-page: https://www.hnpinhe.cn/
+Author: Yushuo
+Author-email: saltfish@126.com
+Maintainer: Yushuo
+Maintainer-email: saltfish@126.com
+License: MIT
+Platform: Windows|Linux|MacOS
+Requires-Python: >=3.8
+
+Python 开发时常用的工具集合，包含日期处理、字符串处理、加密处理、Excel处理、PDF处理、二维码处理、ZIP包处理、Redis
+
