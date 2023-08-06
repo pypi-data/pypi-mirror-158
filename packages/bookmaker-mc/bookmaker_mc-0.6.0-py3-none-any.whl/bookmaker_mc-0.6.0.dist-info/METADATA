@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: bookmaker-mc
+Version: 0.6.0
+Summary: A Book Authoring Application in Python
+Home-page: https://github.com/marcris/bookmaker-mc
+License: MIT
+Author: Chris Brown
+Author-email: chris@marcrisoft.co.uk
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyGObject (>=3.40,<4.0)
+Requires-Dist: Pygments (>=2.9,<3.0)
+Requires-Dist: mistune (>=2.0.0rc1,<3.0.0)
+Requires-Dist: tomli (>=2.0.1,<3.0.0)
+Project-URL: Repository, https://github.com/marcris/bookmaker-mc
+Description-Content-Type: text/markdown
+
+# BookMaker
+A Book Authoring Application in Python - inspired by Gitbook-Legacy
+
+BookMaker is a book authoring application in Python.
+
+Introduction
+------------
+* BookMaker facilitates authoring using MarkDown, with a live preview.
+* Handles a complete book with a live tree display of chapters, sections and subsections.
+* Exporting to EPUB
+* Exporting to PDF (generating suitable HTML and CSS for Prince)
+
+How to install it?
+------------
+Using poetry (https://python-poetry.org/)
+```txt
+git clone https://github.com/marcris/bookmaker_mc.git
+cd bookmaker_mc
+poetry build
+pip3 install dist/*.whl
+```
+Run using the command 'bm'.
+
+Links
+------------
+* BookMaker GitHub repository including documentation (in preparation) <https://github.com/marcris/BookMaker_mc>
+
