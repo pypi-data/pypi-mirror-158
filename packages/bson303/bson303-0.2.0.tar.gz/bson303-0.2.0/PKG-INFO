@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: bson303
+Version: 0.2.0
+Summary: 
+Author: Your Name
+Author-email: wllianpompeo55@gmail.com
+Requires-Python: >=2.7,<3.0
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
