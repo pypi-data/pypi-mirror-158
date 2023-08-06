@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+badcode/__init__.py
+badcode.egg-info/PKG-INFO
+badcode.egg-info/SOURCES.txt
+badcode.egg-info/dependency_links.txt
+badcode.egg-info/top_level.txt
