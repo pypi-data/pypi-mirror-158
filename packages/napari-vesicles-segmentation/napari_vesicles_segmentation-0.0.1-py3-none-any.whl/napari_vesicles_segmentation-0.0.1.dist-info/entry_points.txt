@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-vesicles-segmentation = napari_vesicles_segmentation:napari.yaml

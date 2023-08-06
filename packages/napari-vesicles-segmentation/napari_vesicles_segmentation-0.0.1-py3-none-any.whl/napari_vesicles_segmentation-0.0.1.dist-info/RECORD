@@ -1,0 +1,12 @@
+napari_vesicles_segmentation/__init__.py,sha256=NIh-yTbXDxviygdEfyB_1XpLN8i7JQCHCLM4arT8UH4,171
+napari_vesicles_segmentation/_version.py,sha256=LMm5XNCiIX0-d8PhBu6GowizEsy50WYpNYJ8Jet6s64,176
+napari_vesicles_segmentation/_widget.py,sha256=BOKu4Ohy6LycJ0HOCmlAAX5tOGnHTjOljj9v40F93ug,9424
+napari_vesicles_segmentation/napari.yaml,sha256=KMHBJ8NLuz6i3J9WZhdAS0ues2Wg7SErHOJoPLUhCpI,367
+napari_vesicles_segmentation/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_vesicles_segmentation/_tests/test_widget.py,sha256=_6RZkbaET0tpZqPra-oZPCBCHrWxWrCVFV_Ip8Pes6A,653
+napari_vesicles_segmentation-0.0.1.dist-info/LICENSE,sha256=Z2p8oqY5roOfBT9Q6qdL0Mi7pvrZOZDxmm9m1pjfQqU,1499
+napari_vesicles_segmentation-0.0.1.dist-info/METADATA,sha256=pLPsPBeYLbOQLxnlX0sERrtiAQEor7Av2YUthsiMrE8,6698
+napari_vesicles_segmentation-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_vesicles_segmentation-0.0.1.dist-info/entry_points.txt,sha256=ZIS0kuvyLUQhSBvPhMbf5SwB814kjffkF5bYUdlRpYs,90
+napari_vesicles_segmentation-0.0.1.dist-info/top_level.txt,sha256=G7xUc3rehMrzJVJqqZxmkVk_zWDbKwSFOZ7_0JdMXGo,29
+napari_vesicles_segmentation-0.0.1.dist-info/RECORD,,
