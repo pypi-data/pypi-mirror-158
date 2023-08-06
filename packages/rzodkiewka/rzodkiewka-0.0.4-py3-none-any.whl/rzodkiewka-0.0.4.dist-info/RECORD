@@ -1,0 +1,17 @@
+rzodkiewka/__init__.py,sha256=qCtK6qOU8TAtoPNjbf2C4uNBf4blCshN0WQYpnr9vHI,244
+rzodkiewka/main.py,sha256=GVnFGK4F5ZjJ6EOqEpffdMk4HoaSi74XNrdEVryYpGc,1397
+rzodkiewka/cve/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rzodkiewka/cve/cve_list.py,sha256=Wag9K3F4PfgWaV-KCU4VmVo07eMptUZcPitg7EjkSDU,1291
+rzodkiewka/cve/downloader.py,sha256=NqN3VrqCLQbnDGYatv4coJzuUk9a_TqEET0hSPpf4MQ,1411
+rzodkiewka/cve/simplifier.py,sha256=wGKCXFZmmDzQ6ozLbAU_An0D3qbdRz6laH2aBVPYvYg,6854
+rzodkiewka/cve/splitter.py,sha256=sEVQ8KvmV9ZR1hfPNE3AZ21n44ZEl7TRmxWEvsN7XB4,959
+rzodkiewka/cwe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rzodkiewka/cwe/downloader.py,sha256=OcacBDjBtIF8AZAnWq9h6Rm3KajSIihZj7ANYMGOM_U,1550
+rzodkiewka/cwe/simplifier.py,sha256=m0qp76bTc5_tFPOslfvkA0Bfzu6JvVinfzmwB-zgXRg,2552
+rzodkiewka/helpers/__init__.py,sha256=cTEnXp4sbgMRVvG8J-JO7Upl0WV3Peqa8cNFroryZYY,155
+rzodkiewka/helpers/utils.py,sha256=4gRBU-BitAgOjXOijJd0BVog1sYneQYWGXJXR8Owx3Q,1328
+rzodkiewka-0.0.4.dist-info/LICENSE,sha256=N9AvsVeGnhikgMUmGGVeItnqZ1D_haudg2V19qJjBIM,1100
+rzodkiewka-0.0.4.dist-info/METADATA,sha256=x3_4U30I8xH0aHDNSyVwPtSmP_FDhdJvzJsPWQi9RD0,677
+rzodkiewka-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rzodkiewka-0.0.4.dist-info/top_level.txt,sha256=GmL3ip2bKe8wxfJnGru7t5E7Uk7xp91dMGNYRSn8RK0,11
+rzodkiewka-0.0.4.dist-info/RECORD,,
