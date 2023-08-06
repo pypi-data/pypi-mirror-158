@@ -1,0 +1,16 @@
+[project]
+name = "Fddns"
+version = "1.0.0"
+authors = [
+  { name="GeorgeWu", email="wuzhaoqi1015@163.com" },
+]
+description = "DDNS with aliyun SDK"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+

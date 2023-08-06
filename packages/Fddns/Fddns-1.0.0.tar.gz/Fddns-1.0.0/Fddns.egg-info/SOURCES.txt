@@ -1,0 +1,8 @@
+Fddns.py
+LICENSE
+README.md
+pyproject.toml
+Fddns.egg-info/PKG-INFO
+Fddns.egg-info/SOURCES.txt
+Fddns.egg-info/dependency_links.txt
+Fddns.egg-info/top_level.txt
