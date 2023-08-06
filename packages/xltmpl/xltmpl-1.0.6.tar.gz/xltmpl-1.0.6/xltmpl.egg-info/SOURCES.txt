@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+xltmpl/__init__.py
+xltmpl/utils.py
+xltmpl/worksheet.py
+xltmpl/xlstemplate.py
+xltmpl/xlsxtemplate.py
+xltmpl/xltemplatefactory.py
+xltmpl/xltmpl.py
+xltmpl.egg-info/PKG-INFO
+xltmpl.egg-info/SOURCES.txt
+xltmpl.egg-info/dependency_links.txt
+xltmpl.egg-info/top_level.txt
