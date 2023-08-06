@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+pip_test_pkg.egg-info/PKG-INFO
+pip_test_pkg.egg-info/SOURCES.txt
+pip_test_pkg.egg-info/dependency_links.txt
+pip_test_pkg.egg-info/top_level.txt

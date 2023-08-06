@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pip-test-pkg
+Version: 1.0.0
+Summary: A small demo package
+Home-page: https://github.com/anubhavs9/pip-test-pkg
+Author: anubhavs
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pip-test-pkg
