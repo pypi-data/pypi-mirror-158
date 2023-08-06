@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: colo
+Version: 1.0.0
+Summary: A simple script to print out the 256 terminal colors in various formats
+Home-page: https://github.com/terminaldweller/colo
+License: GPL3
+Keywords: terminal,color
+Author: terminaldweller
+Author-email: thabogre@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Environment :: Console
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/terminaldweller/colo
+Description-Content-Type: text/markdown
+
+# colo
+
+A simple script that prints out the 256 terminal colors in different formats:</br>
+It can print the numbers, the hex value, rgb,hsi and the ansi escape sequence.</br>
+
+```sh
+colo --help
+usage: colo [-h] [--ansi] [--hsi] [--rgb] [--number] [--name] [--hex]
+
+optional arguments:
+  -h, --help  show this help message and exit
+  --ansi      bool
+  --hsi       bool
+  --rgb       bool
+  --number    bool
+  --name      bool
+  --hex       bool
+```
+
+![Image](./img/ansi.png)
+
+## How to get
+```sh
+pip3 install colo
+```
+
