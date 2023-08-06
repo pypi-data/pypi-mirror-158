@@ -1,0 +1,1 @@
+This is Simple Trial SaaS Churn Predictor file for SaaS Companies.For prediction of Churning of Customers of a company.
