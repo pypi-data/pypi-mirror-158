@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hunt-match-telemetry
+Version: 1.4.0
+Summary: Automatically extract match data from Hunt: Showdown matches.
+Home-page: https://github.com/anthonyprintup/hunt-match-telemetry
+Author: Anthony Printup
+Author-email: anthony@printup.io
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: colorama (>=0.4.5,<0.5.0)
+Requires-Dist: watchdog (>=2.1.9,<3.0.0)
+Project-URL: Repository, https://github.com/anthonyprintup/hunt-match-telemetry
