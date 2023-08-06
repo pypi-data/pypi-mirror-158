@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+nonebot_plugin_kawaii_robot/__init__.py
+nonebot_plugin_kawaii_robot/utils.py
+nonebot_plugin_kawaii_robot.egg-info/PKG-INFO
+nonebot_plugin_kawaii_robot.egg-info/SOURCES.txt
+nonebot_plugin_kawaii_robot.egg-info/dependency_links.txt
+nonebot_plugin_kawaii_robot.egg-info/top_level.txt
