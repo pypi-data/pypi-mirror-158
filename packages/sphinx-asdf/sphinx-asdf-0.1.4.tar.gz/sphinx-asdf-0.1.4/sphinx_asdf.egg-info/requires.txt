@@ -1,0 +1,16 @@
+asdf
+astropy>=5.0.4
+docutils
+graphviz
+matplotlib
+myst-parser
+mistune~=0.8.4
+sphinx
+sphinx-astropy
+sphinx_bootstrap_theme
+sphinx-rtd-theme
+sphinx-inline-tabs
+toml
+
+[tests]
+pytest
