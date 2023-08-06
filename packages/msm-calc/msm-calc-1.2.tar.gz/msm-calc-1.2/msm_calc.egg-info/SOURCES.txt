@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+calc/__init__.py
+calc/calculadora.py
+msm_calc.egg-info/PKG-INFO
+msm_calc.egg-info/SOURCES.txt
+msm_calc.egg-info/dependency_links.txt
+msm_calc.egg-info/not-zip-safe
+msm_calc.egg-info/requires.txt
+msm_calc.egg-info/top_level.txt
