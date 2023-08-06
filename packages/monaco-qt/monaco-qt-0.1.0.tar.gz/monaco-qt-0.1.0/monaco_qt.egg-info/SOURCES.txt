@@ -1,0 +1,9 @@
+README.md
+setup.py
+monaco/__init__.py
+monaco/monaco_widget.py
+monaco_qt.egg-info/PKG-INFO
+monaco_qt.egg-info/SOURCES.txt
+monaco_qt.egg-info/dependency_links.txt
+monaco_qt.egg-info/requires.txt
+monaco_qt.egg-info/top_level.txt
