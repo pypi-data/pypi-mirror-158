@@ -1,0 +1,11 @@
+element_animal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+element_animal/genotyping.py,sha256=D9K2cKJX5ijftp8eZRBwEXfRiOJaqsFF8flFKurjSLA,4419
+element_animal/subject.py,sha256=ygN4OqY5XlOGHhMssOJaAVXwnxZsw342Ne4BOtf80K8,4634
+element_animal/version.py,sha256=QS30nsjXYOOWs9TIo9Py46SrcKO6vKAVZIknDYX12dI,46
+element_animal/export/__init__.py,sha256=NINFQ7Zm3jq0VkyxZFkUQU-5v1MKih7t9sFQuAPPCDQ,32
+element_animal/export/nwb.py,sha256=jqZ9DToKEF2bn0aDC8XhD-WjNKMpHKXwTGXMcALnksg,890
+element_animal-0.1.3.dist-info/LICENSE,sha256=ro6gxRbJJ9U6YPqlJexU1Bs8PWXjhist0gHXStaevi8,1066
+element_animal-0.1.3.dist-info/METADATA,sha256=GxzXiIDzCMRzuyejVtPc-c99zo0Tocg_vY2zPPnWePk,3419
+element_animal-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+element_animal-0.1.3.dist-info/top_level.txt,sha256=by5zqm8sar_lSkn32PZ64GoKRIawGdZamq7TJ_BUvMo,15
+element_animal-0.1.3.dist-info/RECORD,,
