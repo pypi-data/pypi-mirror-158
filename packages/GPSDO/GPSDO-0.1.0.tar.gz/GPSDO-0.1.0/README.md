@@ -1,0 +1,39 @@
+# GPSDO projects
+This package contains Python files which rely on very specific hardware and software conditions. 
+The project implements a GPSDO (GPS disciplined oscillator) which uses a u-blox NEO-M8N GPS board. 
+The intention is to demonstrate using the pulse output from the GPS module as a reference frequency source . 
+I am a novice Python programmer, so I am sure that the code can be optimised. 
+The code runs on a Raspberry Pi Zero 2 with a u-blox NEO-M8N GPS board and optionally a 2.4' Nextion display.
+
+## gpsdo.py
+
+The gpsdo.py project implements a GPS based oscillator. The project assumes that there is a suitable prgrammed Nextion display. 
+You can set the locked and unlocked pulse output frequency between 10 Hz and 11.999 MHz. 
+You can set the waveform duty cycle between 10 and 90% the defualt is 50%.
+
+## gpsdont.py
+The gpsdont.py project implements a GPS based oscillator. The project does not require a Nextion display. 
+You can set the locked and unlocked pulse output frequency between 10 Hz and 11.999 MHz. 
+You can set the waveform duty cycle between 10 and 90% the defualt is 50%.
+
+## getFreq.py Created on 2 Oct 2020 @author: semuadmin reads the GPS module to determine the current stored frequencies. I was unable to intgrates it into my code so I call getFreq.py from within my code.
+
+ 
+
+## Hardware requirements
+This software has been tested on a Raspberry Pi Zero2, running headless. The program is started via SSH or the Linux terminal but can be configured to run on boot.
+
+The u-blox GPS module is connected to the UART GPIO pins 14/15. +5V =pin4, GND =pin6, UART0_TXD GPIO14 = pin8, UART0_RXD GPIO15 = pin10. 
+TXD is connected to RXD on the GPS board. RXD is connected to TXD on the GPS board. 
+
+The 2.4" Nextion display is a NX3224F024 'discovery' model.
+You should be able to modify the HMI file using the Nextion Editor to use any Nextion display.
+
+
+## Software requirements
+The clock imports PySerial and serial.tools.list_ports which must be installed separately using PIP.
+It also imports, shelve, time, and threading 
+
+## HMI file
+The HMI file can be edited with the Nextion Editor software. Remove the .py extension first. The file in the package is sepcific to the NX3224F024 display, but you should be able to modify it using the Nextion Editor "Device ID" to use any Nextion display.
+ 

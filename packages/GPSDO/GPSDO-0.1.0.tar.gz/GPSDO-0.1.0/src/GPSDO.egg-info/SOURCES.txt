@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/GPSDO/GPSDO.HMI.py
+src/GPSDO/__init__.py
+src/GPSDO/getFreq.py
+src/GPSDO/gpsdo.py
+src/GPSDO/gpsdont.py
+src/GPSDO.egg-info/PKG-INFO
+src/GPSDO.egg-info/SOURCES.txt
+src/GPSDO.egg-info/dependency_links.txt
+src/GPSDO.egg-info/top_level.txt
