@@ -1,0 +1,9 @@
+tweetynet/__about__.py,sha256=9flPcRC0HaojgSO1bA-zjEZVKExZ7eSpFZAyi8UkaW4,868
+tweetynet/__init__.py,sha256=v6rdHNLW7QNw5abBfHFDAXjtnxMd9kusigwCp65eU74,238
+tweetynet/model.py,sha256=84RwOLIeWyimtR9HLJokrJlGQBA-9_cwsvI7udSnpDQ,777
+tweetynet/network.py,sha256=HIDpu_uWj5gm98-4K4lRP1YOtf_GYHmSE-G_SEJgHDg,8530
+tweetynet-0.8.0.dist-info/entry_points.txt,sha256=NF8qNwiwAHVn0JWwvY0tf7_2KIbHKENbD58MUCnCPEc,54
+tweetynet-0.8.0.dist-info/LICENSE,sha256=8c7K02Y_4fnDYG9I2djqNXurjgH8O75JNDA89MmmW80,1540
+tweetynet-0.8.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+tweetynet-0.8.0.dist-info/METADATA,sha256=n4gzf6JNLBOV9bzIAL-PFRcpRB17W6uC6P6I3KtpF_E,8675
+tweetynet-0.8.0.dist-info/RECORD,,
