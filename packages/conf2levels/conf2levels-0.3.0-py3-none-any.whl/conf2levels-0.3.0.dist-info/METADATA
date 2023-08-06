@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: conf2levels
+Version: 0.3.0
+Summary: A configuration reader which reads values stored in two key levels. The first key level is named “section” and the second level “key”.
+Author: Josef Friedrich
+Author-email: josef@friedrich.rocks
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: type-extensions (>=0.1.2,<0.2.0)
+Description-Content-Type: text/x-rst
+
+A configuration reader which reads values stored in two key levels.
+The first key level is named ``section`` and the second level ``key``.
+
+argparse arguments (`argparse`): (You have to specify a mapping)
+
+.. code:: python
+
+    mapping = {
+        'section.key': 'args_attribute'
+    }
+
+A python dictionary (`dictonary`):
+
+.. code:: python
+
+    {
+        'section':  {
+            'key': 'value'
+        }
+    }
+
+Environment variables (`environ`):
+
+.. code:: shell
+
+    export prefix__section__key=value
+
+INI file (`ini`):
+
+.. code:: ini
+
+    [section]
+    key = value
+
