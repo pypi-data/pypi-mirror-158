@@ -1,0 +1,149 @@
+Metadata-Version: 2.1
+Name: googledoc
+Version: 0.1.0
+Summary: A module cut from xcookie
+Home-page: UNKNOWN
+Author: joncrall
+Author-email: jon.crall@kitware.com
+License: Apache 2
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Provides-Extra: all
+Requires-Dist: codecov ; extra == 'all'
+Requires-Dist: pytest-timeout ; extra == 'all'
+Requires-Dist: xdoctest ; extra == 'all'
+Provides-Extra: all-strict
+Requires-Dist: codecov (==2.0.15) ; extra == 'all-strict'
+Requires-Dist: pytest-timeout (==1.4.2) ; extra == 'all-strict'
+Requires-Dist: xdoctest (==0.15.0) ; extra == 'all-strict'
+Requires-Dist: coverage (==4.5) ; (python_version < "2.7" and python_version >= "2.6") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'all-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'all-strict'
+Requires-Dist: coverage (==4.3.4) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==2.9.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all-strict'
+Requires-Dist: pytest (<=6.1.2,==4.6.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: pytest (==6.2.5) ; (python_version >= "3.10.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==3.0.0) ; (python_version >= "3.6.0") and extra == 'all-strict'
+Requires-Dist: coverage ; (python_version < "2.7" and python_version >= "2.6") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all'
+Requires-Dist: pytest-cov ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.4" and python_version >= "2.7") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.5" and python_version >= "3.4") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all'
+Requires-Dist: pytest-cov ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.6" and python_version >= "3.5") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all'
+Requires-Dist: pytest-cov ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: pytest ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all'
+Requires-Dist: coverage ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: coverage ; (python_version >= "3.10") and extra == 'all'
+Requires-Dist: pytest ; (python_version >= "3.10.0") and extra == 'all'
+Requires-Dist: pytest-cov ; (python_version >= "3.6.0") and extra == 'all'
+Provides-Extra: optional
+Provides-Extra: optional-strict
+Provides-Extra: runtime-strict
+Provides-Extra: tests
+Requires-Dist: codecov ; extra == 'tests'
+Requires-Dist: pytest-timeout ; extra == 'tests'
+Requires-Dist: xdoctest ; extra == 'tests'
+Provides-Extra: tests-strict
+Requires-Dist: codecov (==2.0.15) ; extra == 'tests-strict'
+Requires-Dist: pytest-timeout (==1.4.2) ; extra == 'tests-strict'
+Requires-Dist: xdoctest (==0.15.0) ; extra == 'tests-strict'
+Requires-Dist: coverage (==4.5) ; (python_version < "2.7" and python_version >= "2.6") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'tests-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'tests-strict'
+Requires-Dist: coverage (==4.3.4) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==2.9.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests-strict'
+Requires-Dist: pytest (<=6.1.2,==4.6.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'tests-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version >= "3.10") and extra == 'tests-strict'
+Requires-Dist: pytest (==6.2.5) ; (python_version >= "3.10.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==3.0.0) ; (python_version >= "3.6.0") and extra == 'tests-strict'
+Requires-Dist: coverage ; (python_version < "2.7" and python_version >= "2.6") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests'
+Requires-Dist: pytest-cov ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.10" and python_version >= "3.9") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.4" and python_version >= "2.7") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.5" and python_version >= "3.4") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests'
+Requires-Dist: pytest-cov ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.6" and python_version >= "3.5") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests'
+Requires-Dist: pytest-cov ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.7" and python_version >= "3.6") and extra == 'tests'
+Requires-Dist: pytest ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.8" and python_version >= "3.7") and extra == 'tests'
+Requires-Dist: coverage ; (python_version < "3.9" and python_version >= "3.8") and extra == 'tests'
+Requires-Dist: coverage ; (python_version >= "3.10") and extra == 'tests'
+Requires-Dist: pytest ; (python_version >= "3.10.0") and extra == 'tests'
+Requires-Dist: pytest-cov ; (python_version >= "3.6.0") and extra == 'tests'
+
+The googledoc Module
+====================
+
+
+|Pypi| |PypiDownloads| |GithubActions| |Codecov|
+
+
+This module aims to provide a simple means to parse information out of
+google-style docstrings.
+
+We may consider developing this into a proper sphinx extension as well, similar
+to numpydoc, and potentially as an alternative to neopoleon.
+
+
+Related Packages:
+* https://github.com/numpy/numpydoc
+* https://github.com/sphinx-contrib/napoleon
+
+
+
+.. |Pypi| image:: https://img.shields.io/pypi/v/googledoc.svg
+    :target: https://pypi.python.org/pypi/googledoc
+
+.. |PypiDownloads| image:: https://img.shields.io/pypi/dm/googledoc.svg
+    :target: https://pypistats.org/packages/googledoc
+
+.. |GithubActions| image:: https://github.com/Erotemic/googledoc/actions/workflows/tests.yml/badge.svg?branch=main
+    :target: https://github.com/Erotemic/googledoc/actions?query=branch%3Amain
+
+.. |Codecov| image:: https://codecov.io/github/Erotemic/googledoc/badge.svg?branch=main&service=github
+    :target: https://codecov.io/github/Erotemic/googledoc?branch=main
+
+
