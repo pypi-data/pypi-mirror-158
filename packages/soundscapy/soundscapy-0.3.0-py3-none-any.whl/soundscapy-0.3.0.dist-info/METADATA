@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: soundscapy
+Version: 0.3.0
+Summary: A python library for analysing and visualising soundscape assessments.
+License: BSD-3-Clause license
+Author: Andrew Mitchell
+Author-email: mitchellacoustics15@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.5.2,<4.0.0)
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: pandas-flavor (>=0.3.0,<0.4.0)
+Requires-Dist: pyjanitor (>=0.23.1,<0.24.0)
+Requires-Dist: seaborn (>=0.11.2,<0.12.0)
