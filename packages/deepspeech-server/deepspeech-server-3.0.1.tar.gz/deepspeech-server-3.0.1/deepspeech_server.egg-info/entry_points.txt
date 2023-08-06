@@ -1,0 +1,3 @@
+[console_scripts]
+deepspeech-server = deepspeech_server.cli:main
+
