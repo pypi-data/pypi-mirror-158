@@ -1,0 +1,2 @@
+
+To compile on Ubuntu 18.04 you need to install flex-old instead of flex.

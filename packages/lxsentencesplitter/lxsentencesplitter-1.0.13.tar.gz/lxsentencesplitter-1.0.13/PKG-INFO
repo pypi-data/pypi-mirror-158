@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: lxsentencesplitter
+Version: 1.0.13
+Summary: LX-SentenceSplitter identifies sentence and paragraph boundaries.
+Home-page: https://gitlab.nlx.di.fc.ul.pt/lx/lxsentencesplitter
+Author: Luís Gomes (the Python stuff); António Branco and João Silva
+Author-email: luis.gomes@di.fc.ul.pt
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
