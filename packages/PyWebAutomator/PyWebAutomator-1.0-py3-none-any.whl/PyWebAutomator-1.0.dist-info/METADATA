@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: PyWebAutomator
+Version: 1.0
+Summary: A Python Package developed using selenium for web automation
+Home-page: https://github.com/yrzgithub/PyWebAutomator
+Author: Sanjay Kumar Y R
+Author-email: seenusanjay20102002@gmail.com
+License: MIT
+Keywords: Web Automation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+Requires-Dist: selenium
+
+...Welcome To A New Automation Module...
+This module is developed using Selenium
+
+"Clue" refers to the text in the web element
+You can write,submit,click buttons etc using this module..
+
+This module works best in .ipynb files
