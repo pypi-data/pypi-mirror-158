@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+backend_shim.py
+setup.py
+pygments_cl_repl/__init__.py
+pygments_cl_repl.egg-info/PKG-INFO
+pygments_cl_repl.egg-info/SOURCES.txt
+pygments_cl_repl.egg-info/dependency_links.txt
+pygments_cl_repl.egg-info/entry_points.txt
+pygments_cl_repl.egg-info/namespace_packages.txt
+pygments_cl_repl.egg-info/requires.txt
+pygments_cl_repl.egg-info/top_level.txt
