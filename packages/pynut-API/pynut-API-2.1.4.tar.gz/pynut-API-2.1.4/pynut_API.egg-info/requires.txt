@@ -1,0 +1,4 @@
+pynut-tools==2.1.8
+pandas==1.1.3
+beautifulsoup4==4.7.1
+selenium==3.141.0
