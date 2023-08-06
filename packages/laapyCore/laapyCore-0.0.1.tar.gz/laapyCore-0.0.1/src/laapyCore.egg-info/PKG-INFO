@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: laapyCore
+Version: 0.0.1
+Summary: core utils
+Home-page: https://github.com/Leikaab/laapyCore
+Author: Leik Andre Asbjørnsen Butenschøn
+Author-email: nordavindltd@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# different utils and tools for projects
+
+collecting python modules into library.
+
+## install from pypi
+
+```bash
+
+pip install laapyCore
+
+```
+
+## install from source
+
+to work on project install source locally, activate venv and run (if mac run zsh version):
+
+```bash
+
+pip install -e .[dev]
+
+```
+
+```zsh
+
+pip install -e '.[dev]'
+
+```
+
+## use
+
+```python
+
+from working_tools import tet
+
+```
+
+## test setup state
+
+```zsh
+python setup.py sdist
+```
+
+
+## create manifest
+
+```zsh
+
+check-manifest --create
+git add MANIFEST.in
+
+```
+

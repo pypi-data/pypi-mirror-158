@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+build.sh
+setup.py
+src/working_tools.py
+src/laapyCore.egg-info/PKG-INFO
+src/laapyCore.egg-info/SOURCES.txt
+src/laapyCore.egg-info/dependency_links.txt
+src/laapyCore.egg-info/requires.txt
+src/laapyCore.egg-info/top_level.txt
+tests/test_working_tools.py

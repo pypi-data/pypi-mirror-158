@@ -1,0 +1,6 @@
+numpy~=1.22
+matplotlib~=3.5
+
+[dev]
+pytest>=7.1.2
+check-manifest>=0.48
