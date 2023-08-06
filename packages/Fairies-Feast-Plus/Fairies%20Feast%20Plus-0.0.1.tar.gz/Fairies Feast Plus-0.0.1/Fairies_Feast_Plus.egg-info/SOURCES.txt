@@ -1,0 +1,6 @@
+setup.py
+Fairies_Feast_Plus.egg-info/PKG-INFO
+Fairies_Feast_Plus.egg-info/SOURCES.txt
+Fairies_Feast_Plus.egg-info/dependency_links.txt
+Fairies_Feast_Plus.egg-info/requires.txt
+Fairies_Feast_Plus.egg-info/top_level.txt

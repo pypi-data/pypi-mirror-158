@@ -1,0 +1,3 @@
+alexa-reply
+opencv-python
+gtts

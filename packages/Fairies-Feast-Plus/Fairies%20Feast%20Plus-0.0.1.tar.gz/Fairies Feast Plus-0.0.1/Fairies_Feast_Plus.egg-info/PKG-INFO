@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Fairies-Feast-Plus
+Version: 0.0.1
+Summary: A package for many things
+Home-page: UNKNOWN
+Author: William Caesar
+Author-email: <fairiesfeast6@gmail.com>
+License: UNKNOWN
+Keywords: python,ffp,fairies feast plus,ffm.pw
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+
+Fairies Feast Plus(or ffp) is a python package that does a variety of things.
+
