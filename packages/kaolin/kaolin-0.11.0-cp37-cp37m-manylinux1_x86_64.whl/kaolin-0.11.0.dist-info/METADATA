@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: kaolin
+Version: 0.11.0
+Summary: Kaolin: A PyTorch library for accelerating 3D deep learning research
+Home-page: https://github.com/NVIDIAGameWorks/kaolin
+Author: NVIDIA
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Python: ~=3.7
+Requires-Dist: scipy (<=1.5.2,>=1.2.0)
+Requires-Dist: Pillow (>=8.0.0)
+Requires-Dist: tqdm (>=4.51.0)
+Requires-Dist: tornado (==6.1)
+Requires-Dist: flask (==2.0.3)
+Requires-Dist: usd-core (>=20.11) ; python_version < "3.10"
+
+
+Kaolin is a PyTorch library aiming to accelerate 3D deep learning research. Kaolin provides efficient implementations
+of differentiable 3D modules for use in deep learning systems. With functionality to load and preprocess several popular
+3D datasets, and native functions to manipulate meshes, pointclouds, signed distance functions, and voxel grids, Kaolin
+mitigates the need to write wasteful boilerplate code. Kaolin packages together several differentiable graphics modules
+including rendering, lighting, shading, and view warping. Kaolin also supports an array of loss functions and evaluation
+metrics for seamless evaluation and provides visualization functionality to render the 3D results. Importantly, we curate
+a comprehensive model zoo comprising many state-of-the-art 3D deep learning architectures, to serve as a starting point
+for future research endeavours.
+
+
