@@ -1,0 +1,1 @@
+recursive-include src/ruth_tts_transformer/data *
