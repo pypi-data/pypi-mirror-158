@@ -1,0 +1,16 @@
+napari_nasa_samples/__init__.py,sha256=RDWYAjRyPP6S3OZuBq235MUNNBgiODaCik4ulQ5sCRg,110
+napari_nasa_samples/_blue_marble.py,sha256=PUXFGw-KVIwiyfIGdF4hMWoaIrboP5Yj09wdSwn07r8,558
+napari_nasa_samples/_cosmic_cliffs.py,sha256=tdCKmaGL0lHA1ZMMH5Mg8SDBq2nCbsG2TK0NDjwRtHQ,523
+napari_nasa_samples/_smacs_0723.py,sha256=yx2awZk8BjMDJu27zCtHmXKiCzr8-mHFlIqnYwV7Yw4,515
+napari_nasa_samples/_southern_ring_nebula.py,sha256=XGXqfSswJGTItkboyRhjDHdF91tvQXwtZ7HQFlIJ9Qs,515
+napari_nasa_samples/_stephans_quintet.py,sha256=M-kToL-YwV9QIJKaXV36f8cmBvFw3kRF3sXe-LYfvA8,512
+napari_nasa_samples/napari.yaml,sha256=VKDDbviF5Ff47OQvOZJZ71PhUmuJzkjMqxw9mIUGEFo,1540
+napari_nasa_samples/utils.py,sha256=tQz7xbPKedmHlJWOmXeTJ-WobBqTMSkW4ML_4UrgJlc,1601
+napari_nasa_samples/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_nasa_samples/_tests/test_sample_data.py,sha256=pdBhXVPHKQP3AVgjoDHANpE8gHvcP7G81Csto9inzrU,110
+napari_nasa_samples-0.0.1.dist-info/LICENSE,sha256=ajDQX8vzsAk-Jf6lEh7wDqcgoBD2V4sTKoxKG2_MT9o,16726
+napari_nasa_samples-0.0.1.dist-info/METADATA,sha256=7FhZNNuLeYCPE__GsC9fvXPSapMX52wE1CkYhU-xdIw,4286
+napari_nasa_samples-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_nasa_samples-0.0.1.dist-info/entry_points.txt,sha256=Sqph3nMIlBCeiwaC20O8gwkx8R5I12KSEIfi82hRiqA,72
+napari_nasa_samples-0.0.1.dist-info/top_level.txt,sha256=HDLCOdln9OpVPIT2npPKyFWe4sFUZnn1wmF0dPvAc9I,20
+napari_nasa_samples-0.0.1.dist-info/RECORD,,
