@@ -1,0 +1,10 @@
+pygraphic/__init__.py,sha256=W8Vcs9GEVZfq5dG297iWz9DV3vZ4Z76KQxu687xM_CM,189
+pygraphic/_gql_parameters.py,sha256=AExrZYy96cpE4i1pbY7MiOqAKJYS-_POK3DemjRrGlQ,511
+pygraphic/_gql_query.py,sha256=y4FJkYCi9126W9ERQVo_mUBbxI81BVGto1EgTCxhvFY,1434
+pygraphic/_gql_type.py,sha256=3c053CoWTzFVKUlkLDsk9wX1GGZ-BPTt78mwPrOE4_o,1594
+pygraphic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygraphic/types.py,sha256=v3HioC-M0mR_AoHRwN6DaeVimemEfmm9TzuHEbWz0Xc,529
+pygraphic-0.3.dist-info/LICENSE,sha256=CSt8yeA-qawSto7J13NJqDv0CKCUCs4-iM6ObhrETnw,1071
+pygraphic-0.3.dist-info/WHEEL,sha256=FWzWAvOOsDP6aqtZj_z3pIhVEk8S9F03Xwafa0tLqIY,90
+pygraphic-0.3.dist-info/METADATA,sha256=RoeOpQdjw5rzFjybwO-abJH0Z9CQRrjzOl2-AfV-aj0,4588
+pygraphic-0.3.dist-info/RECORD,,
