@@ -1,0 +1,10 @@
+GPSDO/GPSDO.HMI.py,sha256=IKKPr2htnU3oLgE_XUp5Ys-OhdqLW4QOOVOFo32ZeKs,2704033
+GPSDO/__init__.py,sha256=Nqnn8clbgv-5l0PgxcTOldg8mkMKrFn4TvPL-rYUUGg,1
+GPSDO/getFreq.py,sha256=jaU9UAXbXkEs_p_xtdNxsBVwEZVPEThPkVWKSE_axaA,4098
+GPSDO/gpsdo.py,sha256=MFAY_Xf4HyWuuMbLk4VWnLLrqOily20fzzdTDxA2qOM,10121
+GPSDO/gpsdont.py,sha256=6PmuPuUaGSnSUoXiIExnguGe7_IG8qytV4vUqJiE01c,7110
+GPSDO-0.1.0.dist-info/LICENSE,sha256=caKqaF_6WL4cI7FhKWZVG7E42O_n5RTk8bxEGxOntcA,1056
+GPSDO-0.1.0.dist-info/METADATA,sha256=PiBIEoodSdvYPJO1_d0kW8PBa_969mwAWNdIkDiwxpg,2732
+GPSDO-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+GPSDO-0.1.0.dist-info/top_level.txt,sha256=48ylKRR4k0WyXr17W1Qj-w4Nul32zV_nMDqw8He9GXw,6
+GPSDO-0.1.0.dist-info/RECORD,,
