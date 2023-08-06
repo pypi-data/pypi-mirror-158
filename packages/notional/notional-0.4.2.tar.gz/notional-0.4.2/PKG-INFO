@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: notional
+Version: 0.4.2
+Summary: A high-level interface for the Notion SDK.
+Home-page: https://jheddings.github.io/notional/
+License: MIT
+Author: Jason Heddings
+Author-email: jheddings@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: html5lib (>=1.1,<2.0)
+Requires-Dist: notion-client (>=1.0.0,<2.0.0)
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)
+Requires-Dist: urllib3 (>=1.26.10,<2.0.0)
+Project-URL: Repository, https://github.com/jheddings/notional/
