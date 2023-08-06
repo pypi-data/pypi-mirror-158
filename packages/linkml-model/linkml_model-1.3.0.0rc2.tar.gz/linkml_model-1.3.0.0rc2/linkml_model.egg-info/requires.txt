@@ -1,0 +1,4 @@
+linkml-runtime
+linkml>=1.2.0
+mkdocs
+mkdocs-mermaid2-plugin
