@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+curvipy/__init__.py
+curvipy/graphing_calculator.py
+curvipy/lintrans.py
+curvipy.egg-info/PKG-INFO
+curvipy.egg-info/SOURCES.txt
+curvipy.egg-info/dependency_links.txt
+curvipy.egg-info/requires.txt
+curvipy.egg-info/top_level.txt
