@@ -1,0 +1,36 @@
+[build-system]
+requires = ["flit_core>=3.2"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "doxypypyplantuml"
+version = "1.0.0"
+authors = [
+  { name="Stef van Son", email="8822160+stefvanson@users.noreply.github.com" },
+]
+description = "A package that fixes PlantUML diagrams that doxypypy screws up."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Documentation"
+]
+keywords = [
+    "doxypypy",
+    "Doxygen",
+    "PlantUML",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/stefvanson/doxypypyplantuml"
+"Bug Tracker" = "https://github.com/stefvanson/doxypypyplantuml/issues"
+
+[project.scripts]
+doxypypyplantuml = "doxypypyplantuml.doxypypyplantuml:main"
