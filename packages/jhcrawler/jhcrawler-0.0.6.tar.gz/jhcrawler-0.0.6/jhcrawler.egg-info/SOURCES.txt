@@ -1,0 +1,8 @@
+README.md
+setup.py
+jcrawler/__init__.py
+jcrawler/mdownload.py
+jhcrawler.egg-info/PKG-INFO
+jhcrawler.egg-info/SOURCES.txt
+jhcrawler.egg-info/dependency_links.txt
+jhcrawler.egg-info/top_level.txt
