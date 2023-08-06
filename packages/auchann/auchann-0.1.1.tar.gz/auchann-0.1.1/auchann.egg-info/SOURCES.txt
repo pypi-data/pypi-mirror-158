@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+auchann/__init__.py
+auchann/__main__.py
+auchann/align_words.py
+auchann/cli.py
+auchann/correct_parenthesize.py
+auchann/data.py
+auchann/py.typed
+auchann.egg-info/PKG-INFO
+auchann.egg-info/SOURCES.txt
+auchann.egg-info/dependency_links.txt
+auchann.egg-info/entry_points.txt
+auchann.egg-info/requires.txt
+auchann.egg-info/top_level.txt
+auchann.egg-info/zip-safe

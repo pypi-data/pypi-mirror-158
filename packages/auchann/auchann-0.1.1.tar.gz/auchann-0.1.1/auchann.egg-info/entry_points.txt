@@ -1,0 +1,3 @@
+[console_scripts]
+auchann = auchann.__main__:main
+
