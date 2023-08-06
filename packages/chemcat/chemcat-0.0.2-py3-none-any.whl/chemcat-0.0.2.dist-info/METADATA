@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: chemcat
+Version: 0.0.2
+Summary: Chemistry Calculator for Atmospheres
+Home-page: https://github.com/atmolib/chemcat
+Author: Jasmina Blecic and Patricio Cubillos
+Author-email: patricio.cubillos@oeaw.ac.at
+License: GPLv2
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.19.1)
+Requires-Dist: scipy (>=1.5.2)
+Requires-Dist: more-itertools (>=8.4.0)
+
+UNKNOWN
+
+
