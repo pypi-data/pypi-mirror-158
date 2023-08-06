@@ -1,0 +1,10 @@
+numpy
+fsspec
+zarr>=2.12.0
+dask
+s3fs
+
+[testing]
+tox
+pytest
+pytest-cov
