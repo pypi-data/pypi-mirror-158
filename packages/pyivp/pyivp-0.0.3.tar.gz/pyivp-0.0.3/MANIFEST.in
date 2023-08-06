@@ -1,0 +1,8 @@
+include settings.ini
+include LICENSE
+include CONTRIBUTING.md
+include README.md
+recursive-exclude * __pycache__
+recursive-include src/pybind11 *.cpp
+recursive-include src/lib_geometry *.h
+recursive-include src/lib_mbutil *.h
