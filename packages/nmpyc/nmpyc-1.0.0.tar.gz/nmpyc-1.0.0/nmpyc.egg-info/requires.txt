@@ -1,0 +1,6 @@
+casadi
+osqp
+numpy
+scipy
+matplotlib
+dill
