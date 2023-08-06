@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+ShallowTree/ShallowTree.py
+ShallowTree/__init__.py
+ShallowTree/best_cut.c
+ShallowTree.egg-info/PKG-INFO
+ShallowTree.egg-info/SOURCES.txt
+ShallowTree.egg-info/dependency_links.txt
+ShallowTree.egg-info/requires.txt
+ShallowTree.egg-info/top_level.txt
