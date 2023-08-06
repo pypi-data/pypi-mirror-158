@@ -1,0 +1,11 @@
+vtaxa/__init__.py,sha256=vNG2nCaAs88bDSG_wGOiyX0cd93pa8xqeQGTyhvyO3E,123
+vtaxa/cli.py,sha256=hSHthz9qtdZEkWOjSa1aTEQoQOXy3teYeiI1FjKnC1k,393
+vtaxa/hello.py,sha256=fkI03iFtBh8zCshj_iaK1KTWjAQHhMiMWV22pklBoWU,295
+vtaxa/vtaxa.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+vtaxa-0.2.1.dist-info/AUTHORS.rst,sha256=1nWbomxzNInDRKtMFgcrAI7FZVXK3oDcqIEzd8HPbWE,156
+vtaxa-0.2.1.dist-info/LICENSE,sha256=WtZC9mm-Nq86Y1556jCqgRaxKjkkJPvY4cK7c-oRJFE,1538
+vtaxa-0.2.1.dist-info/METADATA,sha256=4MSAIoEW3m7freNRpldME7y9991lXmAJ76rK6Hh_hvw,1966
+vtaxa-0.2.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+vtaxa-0.2.1.dist-info/entry_points.txt,sha256=mWErdQIEhquUxHM0G8BQUWEa-s9F-YeBEB4BZJcIMQk,41
+vtaxa-0.2.1.dist-info/top_level.txt,sha256=UCnDGdRNFGqZUeeD6YJZvhDlFfAosqAObs47HOGMMDw,6
+vtaxa-0.2.1.dist-info/RECORD,,
