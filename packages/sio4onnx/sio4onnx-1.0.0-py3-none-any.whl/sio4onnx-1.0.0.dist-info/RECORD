@@ -1,0 +1,9 @@
+sio4onnx/__init__.py,sha256=tnrg1ZKj5wtwXO4MW-J-iDxO9zZPB1nUSBv1k8qZ4Do,95
+sio4onnx/__main__.py,sha256=2RSCQ7d4lc6CwD-rlGn9UicPFg-P5du7ZD_yh-kuBEU,57
+sio4onnx/onnx_input_output_variable_changer.py,sha256=tTYCkNafhHBaAzEuhYh98r8-nHrucZ94TIbKouM_EE0,9659
+sio4onnx-1.0.0.dist-info/LICENSE,sha256=5v_Kxihy8i6mzHVl349ikSREaIdsl9YeUnX1KBDLD2w,1070
+sio4onnx-1.0.0.dist-info/METADATA,sha256=PEB9EbtqSZW7e3CXWTJwzJ9QXc0OLrmD0Fd8bj2wcS0,7463
+sio4onnx-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sio4onnx-1.0.0.dist-info/entry_points.txt,sha256=II3Q6YxaZFL_P2fXbUyAY-0B22nJ1xabVu0qJn_r8zo,44
+sio4onnx-1.0.0.dist-info/top_level.txt,sha256=IyPW1r_RxULs1JowyB6P4vaVIuwfeGbLo7siKGzgIZc,9
+sio4onnx-1.0.0.dist-info/RECORD,,
