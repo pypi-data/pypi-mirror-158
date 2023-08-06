@@ -1,0 +1,6 @@
+MANIFEST.in
+setup.py
+pkhex.egg-info/PKG-INFO
+pkhex.egg-info/SOURCES.txt
+pkhex.egg-info/dependency_links.txt
+pkhex.egg-info/top_level.txt
