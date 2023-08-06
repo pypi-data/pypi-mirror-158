@@ -1,0 +1,6 @@
+aiautomation
+aiautomation/mlpackage
+aiautomation/mlpackage/classification
+aiautomation/mlpackage/multiclassification
+aiautomation/mlpackage/regression
+aiautomation/mlpackage/segmentation
