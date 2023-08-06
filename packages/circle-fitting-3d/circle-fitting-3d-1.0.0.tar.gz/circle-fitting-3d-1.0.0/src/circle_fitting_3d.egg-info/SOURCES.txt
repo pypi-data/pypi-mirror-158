@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/circle_fitting_3d/__init__.py
+src/circle_fitting_3d/circle_3d.py
+src/circle_fitting_3d.egg-info/PKG-INFO
+src/circle_fitting_3d.egg-info/SOURCES.txt
+src/circle_fitting_3d.egg-info/dependency_links.txt
+src/circle_fitting_3d.egg-info/requires.txt
+src/circle_fitting_3d.egg-info/top_level.txt
