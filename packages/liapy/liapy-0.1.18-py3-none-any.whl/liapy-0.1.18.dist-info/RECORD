@@ -1,0 +1,12 @@
+liapy/__init__.py,sha256=nCDBgl-M89B50QDuVKv2dKcLdPkIZc-a43pLJFTZAHQ,84
+liapy/conftest.py,sha256=G0yMHDAWYOhJ2_3QeNlClAbJ6KUKCj0C71KgNpa1Ajs,234
+liapy/examples/examples.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+liapy/source/LIA.py,sha256=IeLhefaAzgJ3_9-dsXfRzvrl7JEbqN9uD0Dh86BRIQo,6117
+liapy/test/test_numpy.py,sha256=spb_U5hSnLg_IKlsZGBMmEp_a4h0DINJL3kzts0fYhE,2626
+liapy/test/test_pandas.py,sha256=zbVz_7eHlEtFoIl-0c8a1HBsQyhMty5xid5K4_ilRTM,13811
+liapy/test/data/photovoltage_data.csv,sha256=Fm3oB4bMkbZW-km1xCK-Tdfn5eYP3ZzwdeR49PitG2Q,27897
+liapy-0.1.18.dist-info/LICENSE.txt,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+liapy-0.1.18.dist-info/METADATA,sha256=BMhWbhslByMmXIbSa8phLnOKQ8ewU_s7KUVEigTAoek,1497
+liapy-0.1.18.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+liapy-0.1.18.dist-info/top_level.txt,sha256=Qgv1ICocs1mXV9-2XJl-IH17Fv23859uOsblwmPZbwc,6
+liapy-0.1.18.dist-info/RECORD,,
