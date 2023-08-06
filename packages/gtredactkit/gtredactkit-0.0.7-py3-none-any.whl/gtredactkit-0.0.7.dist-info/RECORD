@@ -1,0 +1,13 @@
+gtredactkit/__init__.py,sha256=aa2MIcezbvsWdkeG1x6CI87KI8VoKphg_0gHgPF1nX8,110
+gtredactkit/__main__.py,sha256=Id6ktgQixF2ovFW0YdHZeCse-D4_Shg8aWDoH_T0cqw,625
+gtredactkit/common_jobs.py,sha256=VdqzC4oU2Xm6BLXSMIUpfyGtTCEGPywNFjOGEzmDmtM,3054
+gtredactkit/core_redactor.py,sha256=x-LiJyn_K6rBEQBZYf887qvmZ8lW3MYOwK1S56Pkm4g,5666
+gtredactkit/custom_redactor.py,sha256=j49wGCeX3srwntWZ68PihcoD7bLGUgpkUBP7B1d4N2E,5549
+gtredactkit/gtredactkit.py,sha256=upqxnexcAZPpuOc9GEHjORAVlF64qkpyYveKvRoktws,4654
+gtredactkit/identifiers.py,sha256=nKCW70p-_pTBT6dxR3-z1nPUBWGMjWASx-I3PSS9u9U,5388
+gtredactkit/unredact.py,sha256=NdWzaEE1FsGJUINwmuV4kipPWed73GJ3ZVMIlFBA-EE,2172
+gtredactkit-0.0.7.dist-info/entry_points.txt,sha256=YdCkyrsnCk3IOfyotTjLM79u33OGjL3uDhuZIAP1eOI,98
+gtredactkit-0.0.7.dist-info/LICENSE,sha256=YZExxwiwRkMAiZqVNwnmRZyfi_dMGH1KGW436A8s4WA,1066
+gtredactkit-0.0.7.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+gtredactkit-0.0.7.dist-info/METADATA,sha256=m2L4jqQSKJ3MFneoWvZzV8z8hqlU8kBY0M26fUy6bkw,8290
+gtredactkit-0.0.7.dist-info/RECORD,,
