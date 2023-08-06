@@ -1,0 +1,3 @@
+[plover.gui.qt.tool]
+svg_layout_display = plover_svg_layout_display.layout_ui:SVGLayoutDisplayTool
+
