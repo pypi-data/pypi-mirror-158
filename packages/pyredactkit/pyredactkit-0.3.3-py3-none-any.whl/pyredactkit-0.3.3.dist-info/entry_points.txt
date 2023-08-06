@@ -1,0 +1,4 @@
+[console_scripts]
+prk=pyredactkit.pyredactkit:main
+pyredactkit=pyredactkit.pyredactkit:main
+
