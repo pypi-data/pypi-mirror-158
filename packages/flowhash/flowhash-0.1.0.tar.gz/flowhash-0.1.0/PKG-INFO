@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: flowhash
+Version: 0.1.0
+Summary: Hashing algorythm where the digest is executed as control flow instructions.
+Author-email: Violet Emmott <violet.emmott@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Home, https://github.com/VyeFox/flowhash
+
+# FlowhHash
+
+Python3 hashing algorythm where the digest is executed as control flow instructions.
