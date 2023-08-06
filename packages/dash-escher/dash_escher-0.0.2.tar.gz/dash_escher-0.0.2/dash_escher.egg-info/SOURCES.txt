@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+package.json
+setup.py
+dash_escher/DashEscher.py
+dash_escher/__init__.py
+dash_escher/_imports_.py
+dash_escher/dash_escher.min.js
+dash_escher/dash_escher.min.js.map
+dash_escher/metadata.json
+dash_escher/package-info.json
+dash_escher.egg-info/PKG-INFO
+dash_escher.egg-info/SOURCES.txt
+dash_escher.egg-info/dependency_links.txt
+dash_escher.egg-info/top_level.txt
