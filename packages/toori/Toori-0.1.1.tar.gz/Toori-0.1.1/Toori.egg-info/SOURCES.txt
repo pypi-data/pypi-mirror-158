@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+Toori.egg-info/PKG-INFO
+Toori.egg-info/SOURCES.txt
+Toori.egg-info/dependency_links.txt
+Toori.egg-info/entry_points.txt
+Toori.egg-info/not-zip-safe
+Toori.egg-info/requires.txt
+Toori.egg-info/top_level.txt
+iro/Iro.py
+iro/__init__.py
+toori/.toorifilters
+toori/icon.png
