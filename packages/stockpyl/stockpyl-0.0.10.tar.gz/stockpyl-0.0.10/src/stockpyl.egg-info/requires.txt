@@ -1,0 +1,9 @@
+build>=0.0.2
+jsonpickle>=1.0
+matplotlib>=2.0
+networkx>=2.0
+numpy>=1.0
+scipy>=1.0
+setuptools>=49.6
+tabulate>=0.8.0
+tqdm>=4.0.0
