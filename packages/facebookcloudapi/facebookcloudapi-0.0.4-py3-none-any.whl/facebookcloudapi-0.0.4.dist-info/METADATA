@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: facebookcloudapi
+Version: 0.0.4
+Summary: Integration SDK for Facebook / Meta Cloud API
+Home-page: https://github.com/KoterIA/FacebookCloudAPI
+Author: Henrique da Silva Santos
+Author-email: henrique.santos@4u360.com.br
+Project-URL: Bug Tracker, https://github.com/KoterIA/FacebookCloudAPI/issues
+Project-URL: Repository, https://github.com/KoterIA/FacebookCloudAPI
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FacebookCloudAPI
+Integration SDK for Facebook / Meta Cloud API
