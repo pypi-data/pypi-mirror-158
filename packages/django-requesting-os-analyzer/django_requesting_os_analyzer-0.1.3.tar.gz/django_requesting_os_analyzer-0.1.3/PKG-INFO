@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: django-requesting-os-analyzer
+Version: 0.1.3
+Summary: Counts the number of the requests coming from various os.
+License: MIT
+Keywords: count,request,os,analyzer,django,django requesting os analyzer
+Author: hassan-shahzad
+Author-email: hassanshahzadthegeek@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>3.2)
+Description-Content-Type: text/markdown
+
+to install run the command
+```
+    pip install django_requesting_os_analyzer
+```
+add to your installed apps
+```
+    INSTALLED_APPS = [
+        ...,
+        django_requesting_os_analyzer.apps.DjangoRequestingOsAnalyzerConfig,
+    ]
+```
+add middleware
+```
+    MIDDLEWARE = [
+        ...,
+        django_requesting_os_analyzer.middleware.CounterMiddleware,
+    ]
+```
+and then to allow the graph to show up you have to tweak your templates settings,
+make sure 'APP_DIRS' is set to True.
+```
+TEMPLATES = [
+    {
+        ...,
+        'DIRS': ['templates'],
+        'APP_DIRS': True,
+    },
+]
+```
+you can also change the color of the graph's bar and their border by defing following
+```
+REQUEST_ANALYZER_BG_COLOR = (255,255,255,0.2)
+REQUEST_ANALYZER_CHART_COLOR = (255,0,0,0.2)
+```
