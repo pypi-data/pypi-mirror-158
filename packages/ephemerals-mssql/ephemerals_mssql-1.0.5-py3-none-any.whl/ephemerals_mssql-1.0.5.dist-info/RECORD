@@ -1,0 +1,10 @@
+mssql/__init__.py,sha256=dhxZAzI5rVDXu6IwY8Ek8F2fZYpZKwwwZnrVXSzzzlM,272
+mssql/dbmanager.py,sha256=gCB7py-uEkd2ZlRhnQekh5G8wrls_GABA2EOMJTtLIo,2125
+mssql/ephemeralmssqldbcontext.py,sha256=gQS8GA0sjc88PfRaEsotm6eeMS_HDatoIADy9UwQqD4,2988
+mssql/ephemeralmssqldbcontextbuilder.py,sha256=Bsp-8g7PShyAdjWW1hWqdDtiX026HF081cO_m5YXWFQ,901
+mssql/filesmanager.py,sha256=e0TK4CnBXv7AzMahnGnV2JmoJl5nC5UN1Njsrd3RTPc,351
+ephemerals_mssql-1.0.5.dist-info/LICENSE.md,sha256=E_lu6c5aNng5iuSGfitbqNBekMqymTUq3bR5W0RmBlo,1074
+ephemerals_mssql-1.0.5.dist-info/METADATA,sha256=sGo7ZDpt1bTHrPcBrXbCaC184yquJtdE7dz0bqLicso,727
+ephemerals_mssql-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ephemerals_mssql-1.0.5.dist-info/top_level.txt,sha256=x9xCs0yy1Mf5F5fs21slEIOMNmx9EITlZNOPZK7W3pY,6
+ephemerals_mssql-1.0.5.dist-info/RECORD,,

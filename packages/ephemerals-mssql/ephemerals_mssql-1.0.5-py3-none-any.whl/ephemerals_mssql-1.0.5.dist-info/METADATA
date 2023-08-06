@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ephemerals-mssql
+Version: 1.0.5
+Summary: Ephemeral Microsoft SQL Server Database Context Helper.
+Home-page: https://github.com/paranoid-software/ephemerals.py/tree/main/mssql
+Author: Paranoid Software
+Author-email: info@paranoid.software
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: pyodbc (>=4.0.32)
+
+# Ephemeral MS SQL Database Context
+
+Ephemeral database context for MsSQL, it can be used to code integration tests with a fairly isolated database environment.
+
+
