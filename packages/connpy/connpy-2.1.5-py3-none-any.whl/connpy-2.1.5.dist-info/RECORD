@@ -1,0 +1,13 @@
+connpy/__init__.py,sha256=EDQOH9Udj-wVOazYpeJEEGr5ViP4nb01fdBmPuLNhRo,5124
+connpy/__main__.py,sha256=B-icvqMBj2h7wrbN4Mfp7WrSiyNXX7pj1jNoq2kqpng,181
+connpy/_version.py,sha256=WI4s4duIC5LLAFWiUSyDRj0t5JQ-ILfv-5mF-cEr5Jw,23
+connpy/completion.py,sha256=bYIlepBWHI9g31HRXB2t5_HtIvYX8gd-YK-IBQ3Hsu4,3435
+connpy/configfile.py,sha256=FClvex_3jjbDEQYEgMB5lvQ2cgrykkZa4LD2Hhsh8FM,9047
+connpy/connapp.py,sha256=ZB6BmKIQS1c37eA2egKODZD4z3gmSm0GyQHnwfNhKfw,48115
+connpy/core.py,sha256=aKsj88zattxmGesSqCuQsT9nZV-eWlBi4JjF2uRLUIs,27149
+connpy-2.1.5.dist-info/LICENSE,sha256=CoUtIyRRs3rELlOtrXhzSnGPEMfIoBvyxH8Vvfug_C0,1068
+connpy-2.1.5.dist-info/METADATA,sha256=PRzuwV0HLM6L1fqWa0sBGdaEKAGG1bu02ljqYFluF1I,6201
+connpy-2.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+connpy-2.1.5.dist-info/entry_points.txt,sha256=7OB5ch4OfHQR_kLpIXOi11QsfA85Yp1kA3Iu83kam7s,126
+connpy-2.1.5.dist-info/top_level.txt,sha256=JdS2ceiwXdFVQv08sUBnND30GlcGCNxIu-oaM_marzo,7
+connpy-2.1.5.dist-info/RECORD,,
