@@ -1,0 +1,7 @@
+arcane/ga4/__init__.py,sha256=EjESfjzSbXv9RpmT0sgn94b1wnH1YZZ5sZyHAGmMBO8,70
+arcane/ga4/client.py,sha256=vgsiemIA5cSGMxMTNnULG7kzHjsAc7MGNgIBsE4QQ-U,3066
+arcane/ga4/exception.py,sha256=Xs-H79kzEsEfPUcClMq9xLObSjaWesl6Rhntz6Fdwd8,124
+arcane/ga4/helpers.py,sha256=czD7iBrhLg06QQ4U19QpOHRmYH4WU0wcboO7XJfOV2Q,5482
+arcane_ga4-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+arcane_ga4-0.2.0.dist-info/METADATA,sha256=mZoITsZ-siWUlNo5-JQG0e_M-IT07pllw7OFdu9klXM,1116
+arcane_ga4-0.2.0.dist-info/RECORD,,
