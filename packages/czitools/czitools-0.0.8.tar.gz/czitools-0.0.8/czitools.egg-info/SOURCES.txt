@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+czitools/__init__.py
+czitools.egg-info/PKG-INFO
+czitools.egg-info/SOURCES.txt
+czitools.egg-info/dependency_links.txt
+czitools.egg-info/requires.txt
+czitools.egg-info/top_level.txt
