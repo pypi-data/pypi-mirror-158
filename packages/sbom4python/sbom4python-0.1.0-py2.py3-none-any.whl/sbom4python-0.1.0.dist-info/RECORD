@@ -1,0 +1,17 @@
+sbom4python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sbom4python/cli.py,sha256=ctfjCtfBg4QbADzzvrZ3K2r6UP73SihmFZXfrBs7QuI,4523
+sbom4python/cyclonedxgenerator.py,sha256=8bzdVBCH7aZAbz4Jj8ffXnIfObfAprDWjEOe-JJVers,1664
+sbom4python/dotgenerator.py,sha256=pyQH23JHXmJ91s6JhowuTwErAkV98GZpCPrw9bDEyNo,2613
+sbom4python/generator.py,sha256=YksOTwd4gPA-x0-PGhYH4UosvPyVcPSHBMTfUYyo00s,3353
+sbom4python/license.py,sha256=WQ3h2DMoJqTvR0cHBknDni5Wp-fACONm_E5cjBJa-W0,855
+sbom4python/output.py,sha256=eg0hL4CcBBbH0yHgyWsKTwPFYICLMwUAd4x1h_oZwkk,1975
+sbom4python/scanner.py,sha256=o2DbI9H3XrPqWKlJpBcAyQbedK4gZf1q0iIMpsSgr0Q,2084
+sbom4python/spdxgenerator.py,sha256=jKzbhZIyNIPUwLW6tF6UGmUUcS1SDzv2-lSemY6fzTg,7508
+sbom4python/version.py,sha256=spFRE6FYePa88IsQt19qHH-1YKWmfxCcTxqlAwN0ylY,104
+sbom4python/license_data/spdx_licenses.json,sha256=Btah4PqEkDwEdlE_vvh0nxcdg1tSI9EraMNZaQuK77g,218746
+sbom4python-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+sbom4python-0.1.0.dist-info/METADATA,sha256=rsrOrvAgw3bFB-cTOzq3ipj2PHhCVf4i4co7LzbJKho,4820
+sbom4python-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+sbom4python-0.1.0.dist-info/entry_points.txt,sha256=_83UfxTjM06vaj0t1XlOO3YmniXkM1jsyvTdkee7tmk,53
+sbom4python-0.1.0.dist-info/top_level.txt,sha256=udvkgWvzv7RUbiqpZ-ANkgXwwk5fFhl2LiQkh8dJGQg,12
+sbom4python-0.1.0.dist-info/RECORD,,
