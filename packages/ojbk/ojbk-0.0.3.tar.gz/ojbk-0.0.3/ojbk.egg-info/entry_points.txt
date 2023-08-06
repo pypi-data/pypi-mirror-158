@@ -1,0 +1,2 @@
+[console_scripts]
+reportself = ojbk:report_self_cli
