@@ -1,0 +1,3 @@
+[console_scripts]
+pypasswordgen=pypasswordgen:generate_password
+
