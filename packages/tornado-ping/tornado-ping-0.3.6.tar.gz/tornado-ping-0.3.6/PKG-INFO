@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: tornado-ping
+Version: 0.3.6
+Summary: Tornado ping implementation
+Home-page: https://github.com/mgenti/tornado-ping
+Author: Mark Guagenti
+Author-email: mgenti@gentiweb.com
+License: UNKNOWN
+Download-URL: https://github.com/mgenti/tornado-ping/tarball/0.3.1
+Description: UNKNOWN
+Keywords: network,icmp,ping,tornado
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
