@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: badlon
+Version: 0.1
+Summary: A bioinf tool for analyzing pan-genome and other features based on synteny blocks
+Home-page: https://github.com/oxygen311/badlon
+Author: Alexey Zabelkin
+Author-email: a.zabelkin@itmo.ru
+License: UNKNOWN
+Keywords: synteny blocks,pan genome,core genome,bioinformatics,genome alignment
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: biopython
+
+# Badlon
+
+
