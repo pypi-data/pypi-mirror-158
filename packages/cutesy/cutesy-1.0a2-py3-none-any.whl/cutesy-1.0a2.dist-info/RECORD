@@ -1,0 +1,14 @@
+cutesy/__init__.py,sha256=Aff86VXZS_YNVNDYyTC_MpNMnvl0Yn986hOwpuB5zEM,37566
+cutesy/cli.py,sha256=_ECnIXv75RM0o-iTeWYkKGIc8FukdVCwc5x8BC9CvSM,4067
+cutesy/preprocessors/__init__.py,sha256=J2U7RAUdT6b79M_MJ6J3EbEghjbATTBSwnFu-CvYxHo,13271
+cutesy/preprocessors/django.py,sha256=VcuxgTrskS5GimRbYr3oo4-w_ylBRbuQQXV3aTa0PZ0,2759
+tests/__init__.py,sha256=R4Cr1lpIopllwz4vLgtQROSaxKe6FKfMNTkrnmefePA,31
+tests/test_cutesy.py,sha256=r6xAGxjzSByMeI4soFtxh722UT_WEzb7MBZ4x9NgPBg,1720
+utilities/__init__.py,sha256=xNhQRIzG2vZoqFCspUtHV_KwVQ4FJBwhte72aJow6G0,57
+utilities/base36.py,sha256=cvXIsJ6mB5z9EfYpRuHo6t_T9U7X9xvjsLFwDNOSwl0,571
+cutesy-1.0a2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cutesy-1.0a2.dist-info/METADATA,sha256=0cxhN58h9xlQc__T_iHCnOFstaYYdqXa1aUU36wNtE8,3124
+cutesy-1.0a2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cutesy-1.0a2.dist-info/entry_points.txt,sha256=Ee0cqEZj6Lv8yZAfGSNkJGgC_LW9XvR0-mzIGoWfgj8,43
+cutesy-1.0a2.dist-info/top_level.txt,sha256=DT3RLGhyhMHf54z9rxmhUfjv_B7-bnp0r0Y0tPeDnV0,23
+cutesy-1.0a2.dist-info/RECORD,,
