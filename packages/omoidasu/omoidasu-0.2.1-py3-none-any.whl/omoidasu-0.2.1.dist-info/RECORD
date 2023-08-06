@@ -1,0 +1,12 @@
+omoidasu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omoidasu/auth.py,sha256=EEyIzPG4iyzbqCtyuqDYvToUaL8or9vKdRc6o_jFBsA,444
+omoidasu/cli.py,sha256=aoIqqUxMZko5rgAc00rwcwVml5-I8G33-ikHNotCDcA,3331
+omoidasu/commands.py,sha256=_AmjmVOBNZaFJk4M8Kf-3qv330P7c3kb6LeXNogfohc,3915
+omoidasu/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omoidasu/crud.py,sha256=sEqtKZmo6lceMu7Bfd4Vy-CvStqZWVGRnOodWHRKSoE,2377
+omoidasu/models.py,sha256=5-f-ULEDcKIAa63kE5-1pWAxPT7tstoGo_-k5gpFVKI,1316
+omoidasu/utils.py,sha256=WnmB0GSRtNLA9NROwRiqjcck1DJHqBV_z5rI8CGGV6A,1107
+omoidasu-0.2.1.dist-info/entry_points.txt,sha256=h1CFNxbgZjRTy1VDHYy8KXWLlfuFUhDr3De8sNPUQ3Y,46
+omoidasu-0.2.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+omoidasu-0.2.1.dist-info/METADATA,sha256=TL-Y6qixhfvyDZPpPxUfqnK8gZ1PmXn0m0ua-q3VWFk,463
+omoidasu-0.2.1.dist-info/RECORD,,
