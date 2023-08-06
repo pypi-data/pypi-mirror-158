@@ -1,0 +1,17 @@
+tw2.jqplugins.lightbox-2.9.0-py3.7-nspkg.pth,sha256=X4o06qF5kyH9yV57YfjREHjB6yDqsel0aq9YiVTc8BQ,1674
+tw2/jqplugins/lightbox/__init__.py,sha256=KTJ6IOSOJ5ULEUiGS9K__nI8AJRmKoCt7sQNgJLkSa4,1972
+tw2/jqplugins/lightbox/static/css/lightbox.css,sha256=K4PK62zpbl_XelQ0bLxyUztMw5nLdGyd2qGmPTGM1oY,3580
+tw2/jqplugins/lightbox/static/css/lightbox.min.css,sha256=tBxlolRHP9uMsEFKVk-hk__ekOlXOixLKvye5W2WR5c,2532
+tw2/jqplugins/lightbox/static/images/close.png,sha256=XWLmyQAFv7cfartED55HU2gcsju9XmBHerb0QtLw5pw,280
+tw2/jqplugins/lightbox/static/images/loading.gif,sha256=Ilqoi2qwLAYiLslGjWLhX6GI45zblDHR9VQBrTgHU-0,8476
+tw2/jqplugins/lightbox/static/images/next.png,sha256=FbhpsCxvuqjGwmRFot0tm62A_SexQJ-BeeXdidyJ2Qo,1350
+tw2/jqplugins/lightbox/static/images/prev.png,sha256=f9knPyD9sSKcIkNBJxoRkCCl7udMz2tGBXMJF8hkyvI,1360
+tw2/jqplugins/lightbox/static/js/lightbox.js,sha256=CfJZHVgxyTZj-n8fZoTDD94SBv6dRvqj1JGAGRyb5AY,20097
+tw2/jqplugins/lightbox/static/js/lightbox.min.js,sha256=GLUoUntgMrNRD1CUHeOs2ZM_y5mWTWxHlmOA9CrCjyM,9483
+tw2/jqplugins/lightbox/static/js/lightbox.min.map,sha256=nU6f_Jr6yFW6NYsMDYe3LEqFH7z87M5zETIXpVJ2yis,9685
+tw2.jqplugins.lightbox-2.9.0.dist-info/METADATA,sha256=Wo-9DpJSV6iNLbNAWT2IDK72trN124oTQfspAVonAHk,726
+tw2.jqplugins.lightbox-2.9.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tw2.jqplugins.lightbox-2.9.0.dist-info/entry_points.txt,sha256=TES6anAT2ZGJRGX56mzZDp3i9JMaJ-EVCb0a-3TOHcw,68
+tw2.jqplugins.lightbox-2.9.0.dist-info/namespace_packages.txt,sha256=e72-ZoEl1-d5THmBVFoDKSjuTENWrA9SZtJpAWc3wM4,18
+tw2.jqplugins.lightbox-2.9.0.dist-info/top_level.txt,sha256=BkMKZ-F8dxKOjyD8PZW0ocb8M6lw3Heo_avNmZzZMUk,4
+tw2.jqplugins.lightbox-2.9.0.dist-info/RECORD,,
