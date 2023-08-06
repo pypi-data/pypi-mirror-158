@@ -1,0 +1,11 @@
+simjb/__init__.py,sha256=F3-svaKp0P_C_15fCgCQehnA_8JgxbkK6W_n-a3cOfc,201
+simjb/token.py,sha256=KwyXQ-X8C40KsMqu4UTd9JN3F0bU-B1DmDP625aDNYk,4273
+simjb/token_test.py,sha256=py_iFUA3G3tG9lZseeRtUuEPO8UGd71UIoXJQnFALvQ,3228
+simjb/src/dict.txt,sha256=cZfDIR3dmJYrA2zfQDJNHqK_qhK9Ao5o-qcBEaiOEqg,5071852
+simjb/src/simple-jieba_flow_v1_20191016-0347.png,sha256=4vy_lNrm58DVae6rKkK1EoBSU3XuiGuJP3uaaxHT-Tg,102222
+simjb-0.2.0.dist-info/LICENSE,sha256=OJmOGH-nQCBzb5J4a2TMgJTnGzKzQmEdUwpJSBZ5vc0,1069
+simjb-0.2.0.dist-info/METADATA,sha256=C6PYZcfrd8h_risq-JCZWJsMYwuQp43Z29kotkogQno,12058
+simjb-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+simjb-0.2.0.dist-info/top_level.txt,sha256=a7lLHb9vz8bPiDmCFsIwj2bsA1bLZkggojXkZZvTe4M,6
+simjb-0.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+simjb-0.2.0.dist-info/RECORD,,
