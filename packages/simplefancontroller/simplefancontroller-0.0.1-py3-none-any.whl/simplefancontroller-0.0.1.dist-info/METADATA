@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: simplefancontroller
+Version: 0.0.1
+Summary: Simple controller for 2- and 4- pin fans via GPIO
+Home-page: https://gitlab.com/tiuri/simplefancontroller
+Author: Georg Arbesser-Rastburg
+Author-email: arbesser.georg@gmail.com
+License: MIT
+Project-URL: Documentation, https://simplefancontroller.readthedocs.io
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+License-File: LICENSE
+Requires-Dist: gpiozero
+Requires-Dist: influxdb-client
+Requires-Dist: numpy
+Requires-Dist: passlib
+Requires-Dist: pydantic[email]
+Requires-Dist: fastapi
+Requires-Dist: jinja2
+Requires-Dist: uvicorn
+Requires-Dist: PyJWT
+Requires-Dist: python-decouple
+Requires-Dist: requests
+
+# SimpleFanController
+RaspberryPi fan management and control system for 2-pin and 4-pin (PWM controlled) fans connected via the onboard GPIO pins.
+
+The system will consist of
+
+- ``SFController``: responsible for managing and controlling the fans and GPIO pins
+- ``SFCAPI``: provides a REST API for interacting with ``SFController`` (OAuth2 bearer token authentication)
+- ``SFCUI``: is a Web UI for accessing the API (missing)
+
+Documentation is available at [ReadTheDocs](https://simplefancontroller.readthedocs.io/en/latest/index.html).
+
+**Warning**
+This piece of software is still being developed. Use with care!
+
+## Usage
+### Start SFC
+Usage with docker-compose:
+
+ - download [docker-compose.yml](https://gitlab.com/tiuri/simplefancontroller/-/blob/main/docker-compose.yml)
+ - run ``setup.sh`` to create an initial `.env` configuration file
+ - run ``docker-compose up -d`` to start the containers.
+
+Usage without Docker is possible but not encouraged:
+
+- clone the git repository
+    ````shell
+    git clone https://gitlab.com/tiuri/simplefancontroller.git
+    cd simplefancontroller
+    ````
+- run ``setup.sh`` to create a `.env` configuration file
+- enter ``cd simplefancontroller`` and run ``python main.py``
+
+You can use tools like [supervisor](http://supervisord.org/) to run SFC in the background.
+
+### Control SFC
+SFC controls fans connected via either two or four GPIO pins.
+
+
