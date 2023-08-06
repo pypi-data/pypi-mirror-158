@@ -1,0 +1,15 @@
+starlette
+
+[example]
+fastapi
+uvicorn
+websockets
+
+[test]
+async-asgi-testclient
+black
+fastapi
+flake8
+isort
+pytest
+pytest-asyncio
