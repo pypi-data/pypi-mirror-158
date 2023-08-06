@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+light_telegram_bot/__init__.py
+light_telegram_bot/main.py
+light_telegram_bot.egg-info/PKG-INFO
+light_telegram_bot.egg-info/SOURCES.txt
+light_telegram_bot.egg-info/dependency_links.txt
+light_telegram_bot.egg-info/requires.txt
+light_telegram_bot.egg-info/top_level.txt
