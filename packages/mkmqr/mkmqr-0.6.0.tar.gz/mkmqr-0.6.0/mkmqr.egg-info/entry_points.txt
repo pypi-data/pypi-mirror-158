@@ -1,0 +1,2 @@
+[console_scripts]
+mkmqr = mkmqr.__main__:main
