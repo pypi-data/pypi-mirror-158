@@ -1,0 +1,66 @@
+{
+    "jupyter.lab.setting-icon": "ui-components:text-editor",
+    "jupyter.lab.setting-icon-label": "MathJax 3",
+    "title": "MathJax 3 Config",
+    "description": "MathJax 3 configuration file",
+    "type": "object",
+    "dilimiterItems": {},
+    "properties": {
+        "displayMath": {
+            "title": "The block math delimiters",
+            "type": ["array"],
+            "items": {
+                "$ref": "#/definitions/delimitersItem"
+            },
+            "default": [
+                [
+                    "$$",
+                    "$$"
+                ],
+                [
+                    "\\[",
+                    "\\]"
+                ]
+            ]
+        },
+        "inlineMath": {
+            "title": "The inline math delimiters",
+            "type": ["array"],
+            "items": {
+                "$ref": "#/definitions/delimitersItem"
+            },
+            "default": [
+                [
+                    "$",
+                    "$"
+                ],
+                [
+                    "\\(",
+                    "\\)"
+                ]
+            ]
+        },
+        "processEscapes": {
+            "title": "Whether to specially treat the escapte character",
+            "description": "When set to true, you may use \\$ to represent a literal dollar sign, rather than using it as a math delimiter, and \\\\ to represent a literal backslash.",
+            "type": "boolean",
+            "default": true
+        },
+        "processEnvironments": {
+            "title": "Whether to process \\begin{}...\\end{} as math",
+            "description": "When true, tex2jax looks not only for the in-line and display math delimiters, but also for LaTeX environments (\\begin{something}...\\end{something}) and marks them for processing by MathJax. When false, LaTeX environments will not be processed outside of math mode.",
+            "type": "boolean",
+            "default": true
+        }
+    },
+    "definitions": {
+        "delimitersItem": {
+            "title": "A pair of delimiters",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+        
+    }
+}
