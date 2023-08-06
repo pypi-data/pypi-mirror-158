@@ -1,0 +1,6 @@
+pandas
+accelerate
+torch
+torchmetrics
+tqdm
+pytorch_lightning
