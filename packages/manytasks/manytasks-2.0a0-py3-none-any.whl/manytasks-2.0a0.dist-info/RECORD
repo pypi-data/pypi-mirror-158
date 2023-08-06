@@ -1,0 +1,13 @@
+manytasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manytasks/cuda_manager.py,sha256=UON0YBdralKPOrq2lQ0m4rQ95fQgsYU2MFBIZ6PK94s,550
+manytasks/defs.py,sha256=4p6FJKazcb7zjL67gGG72Eiuik52RLnXRYYumHrKAik,4575
+manytasks/entry.py,sha256=F7APQwTTuiIIb2SZSzTajTdRM9YcFc9Hr2wj3NQms94,8267
+manytasks/log_extractor.py,sha256=9rXFuWSHyvLCLdpJdLcp0avuT-Y7DCueR52-9Om7POs,3897
+manytasks/task_runner.py,sha256=7kIWRx1dPV-7qHVpKluzcItlVdGb7Qysp87ruWEBBN4,5042
+manytasks/taskpool_loader.py,sha256=tCnBVJNW3R9a0o0_ABQA1965j0_gTO8z5a4qWADUYVE,7322
+manytasks/util.py,sha256=PvtSbzQyLslazTG0426YRO8a-LJxrYokMTy0do1CVVg,3506
+manytasks-2.0a0.dist-info/METADATA,sha256=j_Vl_vf2v1V_bSO-7bxkTe12irmBd1ZKO-wNv1OslKM,393
+manytasks-2.0a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+manytasks-2.0a0.dist-info/entry_points.txt,sha256=mRwci7McMjt-m8_07WrblLS_vqL07NM5eJHCbXiUnxA,51
+manytasks-2.0a0.dist-info/top_level.txt,sha256=L-Vpu1l7qcmkGj3FqvHWxjQaLQ9sNs6UP-5BnmDeXas,10
+manytasks-2.0a0.dist-info/RECORD,,
