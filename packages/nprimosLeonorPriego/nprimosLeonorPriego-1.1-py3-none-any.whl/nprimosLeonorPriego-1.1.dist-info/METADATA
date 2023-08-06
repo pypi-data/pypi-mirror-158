@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: nprimosLeonorPriego
+Version: 1.1
+Summary: Nprimos contiene una función que espera un número por pantalla e imprime todos los números primos entre 1 y el número indicado. Recoge e imprime mediante el lenguaje Python, pero la operación de búsqueda de los números primos lo hace en lenguaje R.
+License-File: LICENSE.txt
+
