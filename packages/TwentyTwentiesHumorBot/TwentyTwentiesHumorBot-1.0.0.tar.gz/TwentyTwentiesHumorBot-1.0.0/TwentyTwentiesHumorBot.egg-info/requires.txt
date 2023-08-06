@@ -1,0 +1,6 @@
+EasyTweeter>='0.10.0'
+imageai
+pillow
+numpy
+opencv-python
+tensorflow
