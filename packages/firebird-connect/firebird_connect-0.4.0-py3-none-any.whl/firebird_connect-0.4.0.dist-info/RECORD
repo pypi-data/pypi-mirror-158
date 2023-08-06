@@ -1,0 +1,5 @@
+firebird_connect/__init__.py,sha256=WSj5CgHdZjW1Xc6qmxCbNQ9wx34-ZPmE3rs_ATNh1r0,104
+firebird_connect/src/firebird_connect.py,sha256=xPGM-ONO8cYJz8L5KTojPrM2h7S2CZvhXev8fY0Ufdg,2523
+firebird_connect-0.4.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+firebird_connect-0.4.0.dist-info/METADATA,sha256=s7naLedYeBOrifzHj-5j4zltcDHrkGp7QbFwfnmf0T4,279
+firebird_connect-0.4.0.dist-info/RECORD,,

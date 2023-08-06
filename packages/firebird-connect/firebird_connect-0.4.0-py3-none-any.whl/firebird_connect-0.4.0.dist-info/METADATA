@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: firebird-connect
+Version: 0.4.0
+Summary: 
+Author: Isac Martins
+Author-email: 50426537+isaukywhite@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
