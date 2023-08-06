@@ -1,0 +1,11 @@
+.gitignore
+Bungocrypt errors.txt
+README.md
+setup.cfg
+setup.py
+bungocrypt/Crypt.py
+bungocrypt/Key.py
+bungocrypt/bungocrypt.egg-info/PKG-INFO
+bungocrypt/bungocrypt.egg-info/SOURCES.txt
+bungocrypt/bungocrypt.egg-info/dependency_links.txt
+bungocrypt/bungocrypt.egg-info/top_level.txt

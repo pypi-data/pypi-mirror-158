@@ -1,0 +1,6 @@
+KeyError:
+    1. Key length
+    2. Key is not an array
+
+InputError:
+    1. Data missing
