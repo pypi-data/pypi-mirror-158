@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+pd_df_str/__init__.py
+pd_df_str/pd_df_str.py
+pd_df_str.egg-info/PKG-INFO
+pd_df_str.egg-info/SOURCES.txt
+pd_df_str.egg-info/dependency_links.txt
+pd_df_str.egg-info/requires.txt
+pd_df_str.egg-info/top_level.txt
