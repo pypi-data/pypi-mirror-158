@@ -1,0 +1,2 @@
+[distutils.commands]
+clean = setupext_janitor.janitor:CleanCommand
