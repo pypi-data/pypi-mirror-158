@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+darepdf/__init__.py
+darepdf/pdf2image.py
+darepdf/pdf2text.py
+darepdf.egg-info/PKG-INFO
+darepdf.egg-info/SOURCES.txt
+darepdf.egg-info/dependency_links.txt
+darepdf.egg-info/top_level.txt
