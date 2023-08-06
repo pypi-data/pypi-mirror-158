@@ -1,0 +1,442 @@
+
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="UTF-8">
+        <!-- import element-ui CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+        <!-- import Vue before Element -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+        <!-- import element-ui JavaScript -->
+        <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
+        <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.3/dist/echarts.min.js"></script>
+
+        <script src="https://cdn.bootcss.com/ace/1.2.6/ace.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+        <style>
+            .el-header {
+                background-color: white;
+                text-align: center;
+            }
+
+
+
+            .el-main {
+                background-color: white;
+                height: 100%;
+                padding: 1px;
+            }
+
+            #shark_top {
+                height: 600px;
+                display: flex;
+
+            }
+
+            #shark_top .main {
+                flex: 1;
+                margin: 0 10px;
+
+            }
+
+            #shark_top .left,
+            #shark_top .right {
+                width: 30%;
+            }
+
+            .left_res_rate {
+                padding-top: 10px;
+            }
+
+            .box-card {
+                height: 290px;
+            }
+
+            .main_pass_box-card {
+                height: 420px;
+            }
+
+            .history_box-card {
+                height: 590px;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <div id="shark">
+            <el-container>
+                <el-header>
+                    <h2 class="el-icon-data-line">自动化测试报告</h2>
+                </el-header>
+                <el-main>
+                    <div id="shark_top">
+                        <div class="left">
+                            <div class="left_res">
+                                <el-card class="box-card">
+                                    <div slot="header" class="clearfix" style="text-align: center;">
+                                        <span>用例执行结果</span>
+                                    </div>
+                                    <div id="main2" style="width: 100%;height:250px;"></div>
+
+                                </el-card>
+                            </div>
+                            <div class="left_res_rate">
+                                <el-card class="box-card">
+                                    <div slot="header" class="clearfix" style="text-align: center;">
+                                        <span>用例执行成功率</span>
+                                    </div>
+                                    <div id="main1" style="width: 100%;height:160px;"></div>
+                                </el-card>
+                            </div>
+                        </div>
+                        <div class="main">
+                            <div class="main_info">
+                                <el-card class="main_info_box-card">
+                                    <div slot="header" class="clearfix" style="text-align: center;">
+                                        <span>运行信息</span>
+                                    </div>
+                                    <div class="main_case_info">
+                                        <el-descriptions>
+                                            <el-descriptions-item label="执行时间">{{ caseInfo.begin_time }}
+                                            </el-descriptions-item>
+                                            <el-descriptions-item label="用例总数">
+                                                <el-tag size="small" type="primary">{{ caseInfo.total }}</el-tag>
+                                            </el-descriptions-item>
+                                            <el-descriptions-item label="测试人员">{{ caseInfo.tester }}
+                                            </el-descriptions-item>
+                                            <el-descriptions-item label="成功数">
+                                                <el-tag size="small" type="success">{{ caseInfo.passed }}</el-tag>
+                                            </el-descriptions-item>
+                                            <el-descriptions-item label="运行时长">{{ caseInfo.total_time }} (s)
+                                            </el-descriptions-item>
+                                            <el-descriptions-item label="通过率">{{ caseInfo.case_pass_rate }}
+                                            </el-descriptions-item>
+                                        </el-descriptions>
+                                    </div>
+                                </el-card>
+                            </div>
+                            <div class="main_pass_trend">
+                                <el-card class="main_pass_box-card">
+                                    <div slot="header" class="clearfix" style="text-align: center;">
+                                        <span>用例近七天趋势</span>
+                                    </div>
+                                    <div id="pass_info" style="width: 100%;height: 350px;"></div>
+                                </el-card>
+
+                            </div>
+
+                        </div>
+                        <div class="right">
+                            <el-card class="history_box-card">
+                                <div slot="header" class="clearfix" style="text-align: center;">
+                                    <span>历史运行结果</span>
+                                </div>
+                                <template>
+                                    <el-table :data="caseHistory" style="width: 100%" height="500">
+                                        <el-table-column fixed prop="begin_time" label="执行时间" width="150">
+                                        </el-table-column>
+                                        <el-table-column prop="total" label="用例总数" width="120">
+                                             <template slot-scope="scope">
+                                                <el-tag type="primary">{{scope.row.total}}</el-tag>
+                                            </template>
+                                        </el-table-column>
+                                        <el-table-column prop="success" label="成功数" width="120">
+                                            <template slot-scope="scope">
+                                                <el-tag type="success">{{scope.row.success}}</el-tag>
+                                            </template>
+                                        </el-table-column>
+                                        <el-table-column prop="fail" label="失败数" width="120">
+                                            <template slot-scope="scope">
+                                                <el-tag type="danger">{{scope.row.fail}}</el-tag>
+                                            </template>
+                                        </el-table-column>
+                                        <el-table-column prop="pass_rate" label="成功率" width="120">
+                                        </el-table-column>
+                                    </el-table>
+                                </template>
+
+
+                            </el-card>
+
+                        </div>
+                    </div>
+                    <div class="shark_buttom">
+                        <template>
+                            <el-table :data="caseInfoList" style="width: 100%">
+                                <el-table-column type="expand">
+                                  <template slot-scope="scope">
+                                    <el-card class="content">
+
+                                    <pre id="editor" class="ace_editor" style="min-height:400px">
+                                      <textarea class="ace_text-input">{{scope.row.case_log}}</textarea>
+                                    </pre>
+                                    <script type="application/javascript">
+                                      var editor = ace.edit('editor')
+                                      theme = "clouds"
+                                      language = "python"
+                                      editor.setTheme("ace/theme/" + theme);
+                                      editor.session.setMode("ace/mode/" + language);
+
+                                      editor.setFontSize(10);
+
+                                      //设置只读（true时只读，用于展示代码）
+                                      editor.setReadOnly(true);
+                                      editor.setOption("wrap", "free")
+
+                                    </script>
+                                    </el-card>
+                                  </template>
+                                </el-table-column>
+                                <el-table-column type="index" label="编号"  min-width="10%">
+                                </el-table-column>
+                                <el-table-column prop="case_class" label="测试类"  :show-overflow-tooltip="true" min-width="20%">
+                                </el-table-column>
+                                <el-table-column prop="case_func" label="测试方法"  :show-overflow-tooltip="true">
+                                </el-table-column>
+                                <el-table-column prop="case_desc" label="用例描述"  :show-overflow-tooltip="true" min-width="35%">
+                                </el-table-column>
+                                <el-table-column prop="case_cost_time" label="执行时间(s)" min-width="10%">
+                                </el-table-column>
+                                <el-table-column prop="case_state" label="执行结果"
+                                  :filters="[{ text: '失败', value: 'failed' }, { text: '成功', value: 'passed' },{ text: '错误', value: 'error' },{ text: '跳过', value: 'skiped' }]" :filter-method="filterTag" filter-placement="bottom-end" min-width="15%">
+                                  <template slot-scope="scope">
+                                    <el-tag
+                                      :type="scope.row.case_state === 'failed' ? 'danger' : 'success'"
+                                      disable-transitions>{{scope.row.case_state}}</el-tag>
+                                  </template>
+                                </el-table-column>
+                                <el-table-column  label="详细内容" min-width="10%">
+                                     <template slot-scope="scope">
+                                         <el-button type="warning">详细日志</el-button>
+                                     </template>
+                                </el-table-column>
+                            </el-table>
+                        </template>
+                    </div>
+
+                </el-main>
+            </el-container>
+        </div>
+    </body>
+
+
+
+
+
+    <script>
+        // 创建vue
+    new Vue({
+        // 控制的标签容器
+        el: '#shark',
+        // 交互的数据
+        data: function () {
+            return {
+                earlyFailDt: ${early_fail_data},
+                earlyPassDt: ${early_data},
+                earlyDay: ${early_day},
+                caseHistory: ${test_case_history},
+                caseInfoList: ${test_case_info},
+                caseInfo: ${test_result},
+                tableHeight: this.tableHeight,
+                visible: false,
+
+            }
+        },
+        mounted:function(){
+            this.drawCaseRate();
+            this.drawCaseResult();
+            this.drawCasePassTrend();
+            this.tableHeight = (window.innerHeight - 350) / 2 + "px"; //260即表格之外的固定高度
+                window.onresize = () => {
+                return (() => {
+                    this.tableHeight = (window.innerHeight - 350) / 2 + "px";
+                })();
+                };
+            
+
+        },
+        created(){
+        },
+        // 方法
+        methods: {
+
+            drawCasePassTrend(){
+                var myChart_trend = echarts.init(document.getElementById('pass_info'), null, {
+                renderer: 'canvas',
+                useDirtyRect: false
+                });
+                
+                var option_trend = {
+
+                      tooltip: {
+                        trigger: 'axis',
+                        axisPointer: {
+                          type: 'cross',
+                          label: {
+                            backgroundColor: '#8cc472'
+                          }
+
+                        }
+                      },
+                      legend: {
+                        data: ['success', 'fail']
+                      },
+                      toolbox: {
+                        feature: {
+                          saveAsImage: {}
+                        }
+                      },
+                      grid: {
+                        left: '3%',
+                        right: '4%',
+                        bottom: '3%',
+                        containLabel: true
+
+                      },
+                      xAxis: [
+                        {
+                          type: 'category',
+                          boundaryGap: false,
+                          data: this.earlyDay
+                        }
+                      ],
+                      yAxis: [
+                        {
+                          type: 'value'
+                        }
+                      ],
+                      series: [
+
+                        {
+                          name: 'success',
+                          type: 'line',
+                          stack: 'Total',
+                          areaStyle: {},
+                          emphasis: {
+                            focus: 'series'
+                          },
+                          color:['#8cc472',],
+                          data: this.earlyPassDt
+                        },
+                        {
+                          name: 'fail',
+                          type: 'line',
+                          stack: 'Total',
+                          areaStyle: {},
+                          emphasis: {
+                            focus: 'series'
+                          },
+                          color:['#e46364'],
+                          data: this.earlyFailDt
+                        }
+                      ]
+                    };
+
+                if (option_trend && typeof option_trend === 'object') {
+                    myChart_trend.setOption(option_trend);
+                }
+
+                window.addEventListener('resize', myChart_trend.resize);
+
+            },
+            drawCaseResult(){
+                var myChart = echarts.init(document.getElementById('main2'));
+
+                // 指定图表的配置项和数据
+                var option = {
+                    tooltip: {},
+                    legend: {
+                    data: ['错误','成功','跳过','失败']
+                    },
+                    xAxis: {
+                    data: ['执行结果']
+                    },
+                    yAxis: {},
+                    series: [
+                                                  {
+                        name: '跳过',
+                        type: 'bar',
+                        data: [this.caseInfo.skipped]
+                    },
+                        {
+                        name: '成功',
+                        type: 'bar',
+                        data: [this.caseInfo.passed]
+                    },
+                        {
+
+                        name: '错误',
+                        type: 'bar',
+                        data: [this.caseInfo.error]
+
+                        },
+
+                           {
+                        name: '失败',
+                        type: 'bar',
+                        data: [this.caseInfo.failed]
+                    }
+                    ]
+                };
+
+                // 使用刚指定的配置项和数据显示图表。
+                myChart.setOption(option);
+
+            },
+            drawCaseRate(){
+                var myChart = echarts.init(document.getElementById('main1'), null, {
+                    renderer: 'canvas',
+                    useDirtyRect: false
+                });
+                var option = {
+                tooltip: {
+                    trigger: 'item'
+                },
+                legend: {
+                    orient: 'vertical',
+                    left: 'right'
+                },
+                series: [
+                    {
+                    name: 'case rate',
+                    type: 'pie',
+                    radius: '100%',
+                    color:[
+                        '#8cc472',
+                        '#e46364'
+                        ],
+                    data: this.caseInfo.case_do_rate,
+                    emphasis: {
+                        itemStyle: {
+                        shadowBlur: 10,
+                        shadowOffsetX: 0,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                    }
+                ]
+                }
+
+            
+                if (option && typeof option === 'object') {
+                    myChart.setOption(option);
+                }
+
+                window.addEventListener('resize', myChart.resize);
+
+            },
+             filterTag(value, row) {
+                return row.case_state === value;
+            }
+        }
+    })
+
+
+    </script>
+
+    </html>

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pytest-sharkreport
+Version: 1.0.1
+Summary: this is pytest report plugin. 
+Home-page: https://pypi.org/project/pytest-sharkreport/
+Author: qiuxiaohui
+Author-email: 15007968334@163.com
+License: MIT
+Keywords: py.test pytest report
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Requires-Dist: pytest (>=3.5)
+
+This is report plugin of pytest
