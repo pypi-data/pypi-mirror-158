@@ -1,0 +1,8 @@
+demo_package_python/__init__.py,sha256=6u9fegVjknzbbMXyJaIv5FvEFlROdtiiFLHi8DrBPWA,126
+demo_package_python/random_rainbow_color.py,sha256=kuStzRVfTaSr9aiItgmZi-eSq1DizL0eeMV_ua-yruI,246
+demo_package_python/say_hello_world.py,sha256=VLPsO5DBGjqKMoJaSPYXIrqLurC0IgR23lJP5EcWSUM,58
+demo_package_python/say_hi.py,sha256=m_edWLBjGeuU3mh1TejVHfSN4BhaoqgkRS0_-jLyPCI,43
+demo_package_python-0.0.22.dist-info/METADATA,sha256=7Vs0Ay3FSaMoPs5MUGwSY4-ekDvWALZfylfdO2cA29k,11507
+demo_package_python-0.0.22.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+demo_package_python-0.0.22.dist-info/licenses/LICENSE,sha256=p4jO0m0Re2CZhXTSSZmbFRdDDJBBJ2Pp26GsQedYk8E,1059
+demo_package_python-0.0.22.dist-info/RECORD,,
