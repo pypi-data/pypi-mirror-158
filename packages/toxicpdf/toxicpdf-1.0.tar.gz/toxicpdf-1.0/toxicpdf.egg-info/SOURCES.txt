@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+toxicpdf/__init__.py
+toxicpdf/pdf2image.py
+toxicpdf/pdf2text.py
+toxicpdf.egg-info/PKG-INFO
+toxicpdf.egg-info/SOURCES.txt
+toxicpdf.egg-info/dependency_links.txt
+toxicpdf.egg-info/top_level.txt
