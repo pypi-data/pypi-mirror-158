@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Highest common factor
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://pypi.org/
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+This package allows you to find the highest common factor of two or multiple numbers.
+
