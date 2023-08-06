@@ -1,0 +1,9 @@
+README.md
+setup.py
+Alert/DiscordAlert.py
+Alert/__init__.py
+FairAlerts.egg-info/PKG-INFO
+FairAlerts.egg-info/SOURCES.txt
+FairAlerts.egg-info/dependency_links.txt
+FairAlerts.egg-info/requires.txt
+FairAlerts.egg-info/top_level.txt
