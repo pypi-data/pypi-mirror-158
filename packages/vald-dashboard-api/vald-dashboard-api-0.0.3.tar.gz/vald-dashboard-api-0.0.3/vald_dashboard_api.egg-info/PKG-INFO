@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: vald-dashboard-api
+Version: 0.0.3
+Summary: Python module to interact with VALD Dashboard API.
+Author: Régis Tremblay Lefrançois
+Requires: requests
+Description-Content-Type: text/markdown
+
+# py-vald-dbapi
+from Vald_Dashboard_API import ValdDashboardAPI
