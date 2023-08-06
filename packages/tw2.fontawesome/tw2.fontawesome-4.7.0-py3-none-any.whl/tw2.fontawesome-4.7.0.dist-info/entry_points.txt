@@ -1,0 +1,4 @@
+
+        [tw2.widgets]
+        widgets = tw2.fontawesome
+    

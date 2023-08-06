@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tw2.fontawesome
+Version: 4.7.0
+Summary: ToscaWidgets 2 wrapper for FontAwesome
+Home-page: UNKNOWN
+Author: Nils Philippsen
+Author-email: nils@tiptoe.de
+License: UNKNOWN
+Keywords: tw2.widgets
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Web Environment :: ToscaWidgets
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Widget Sets
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: tw2.core (>=2.0)
+Requires-Dist: Genshi
+
+UNKNOWN
+
