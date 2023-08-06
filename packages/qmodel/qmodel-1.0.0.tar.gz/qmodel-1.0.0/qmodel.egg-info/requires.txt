@@ -1,0 +1,11 @@
+pytest-shutil
+numpy
+scikit-image
+opencv-python
+matplotlib
+pillow
+glob2
+joblib
+seaborn
+scikit-learn
+sklearn
