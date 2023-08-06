@@ -1,0 +1,12 @@
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Flask_NameExtension.egg-info/PKG-INFO
+Flask_NameExtension.egg-info/SOURCES.txt
+Flask_NameExtension.egg-info/dependency_links.txt
+Flask_NameExtension.egg-info/requires.txt
+Flask_NameExtension.egg-info/top_level.txt
+flask_nameextension/__init__.py
+flask_nameextension/core.py
