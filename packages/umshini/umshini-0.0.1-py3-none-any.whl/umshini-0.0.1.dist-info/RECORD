@@ -1,0 +1,15 @@
+Umshini/__init__.py,sha256=ZSOoqwAMdw9wEMqE_TQ6B8NPNDkR3mkNi3QAE__PEMM,34
+Umshini/example_client.py,sha256=K9_zjvG-IizHE0mo8TqgJ5L1D5XuB3tZFBucrx0FQ0o,2679
+Umshini/learner.py,sha256=9N0lMDQeBqNw-CEF-P62l3HScPjgwPyqXtlouuGZjYQ,1323
+Umshini/tournament_client.py,sha256=sEblGxsHvC7XQzF4MjjAOU4-T4OuZnW5fK8XdtTCqV0,11418
+Umshini/envs/__init__.py,sha256=D6ji_OIrLUeGKjPEDuqQgSai2WOOhl3-nY3p9adjOEE,70
+Umshini/envs/envs_list.py,sha256=j5WW7C7WoFedhcrXfvHKTcEpKXkg8wkZpCsxv8v8LN4,4082
+Umshini/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Umshini/utils/compress.py,sha256=s3SyIrxltPiGe0dzCl_Yhln076cuTYHtByCYkLzcDy0,548
+Umshini/utils/socket_wrap.py,sha256=hUbBdp9QbYN6y1ZJGQmu6UybqZX7jcxG1-0gzfNMGYY,1367
+Umshini/utils/test_compression.py,sha256=AoXLV3BkYiBopicaDTfAGI2ZoQnJmlDfITmLAf_ZPPE,384
+umshini-0.0.1.dist-info/LICENSE,sha256=Ry80SMFKYsCSqUp8riTuqiiO1hvftPx76-Wr96QV4Fs,35292
+umshini-0.0.1.dist-info/METADATA,sha256=588Q9oa3Rim7nOTkgWwwY5Hoh-VoAGqITIrPgE6yqIs,40556
+umshini-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+umshini-0.0.1.dist-info/top_level.txt,sha256=eZuuIpjEpnRkI_8xUgCpr_scJub7hZQdijgfutPLELc,8
+umshini-0.0.1.dist-info/RECORD,,
