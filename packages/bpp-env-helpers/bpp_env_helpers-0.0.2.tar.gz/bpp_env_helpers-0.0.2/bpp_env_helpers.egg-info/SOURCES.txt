@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+bpp_env_helpers.egg-info/PKG-INFO
+bpp_env_helpers.egg-info/SOURCES.txt
+bpp_env_helpers.egg-info/dependency_links.txt
+bpp_env_helpers.egg-info/top_level.txt
