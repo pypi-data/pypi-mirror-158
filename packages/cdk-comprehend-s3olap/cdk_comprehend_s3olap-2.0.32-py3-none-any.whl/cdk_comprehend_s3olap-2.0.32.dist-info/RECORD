@@ -1,0 +1,9 @@
+cdk_comprehend_s3olap/__init__.py,sha256=VJcl633rNUHORsOe3WiyY3fZsEoWX07gUpPMCf88SyQ,96611
+cdk_comprehend_s3olap/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_comprehend_s3olap/_jsii/__init__.py,sha256=hssr5XbHwdNtT8l1dkoGy49j-P59RRL7KNknF0_VcT0,390
+cdk_comprehend_s3olap/_jsii/cdk-comprehend-s3olap@2.0.32.jsii.tgz,sha256=d-2nE56qWQ4-fpX7f0UmNac6SxvltNIlRwjvz8RXYPA,13161936
+cdk_comprehend_s3olap-2.0.32.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_comprehend_s3olap-2.0.32.dist-info/METADATA,sha256=M5unqv64MbMB0HCy9AzmCsr5BxRUV1CmF2OCBV_CJD0,15550
+cdk_comprehend_s3olap-2.0.32.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cdk_comprehend_s3olap-2.0.32.dist-info/top_level.txt,sha256=IaPUHPb31d2OuIyMc-QbLouF5r5wN4xFxGWOMq0foWY,22
+cdk_comprehend_s3olap-2.0.32.dist-info/RECORD,,
