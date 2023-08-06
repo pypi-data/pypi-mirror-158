@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: FinScience
+Version: 0.6
+Summary: A trend indicator and two algoritmic trading strategies based on the alternative data provided by FinScience
+Home-page: UNKNOWN
+Author: Andrea Frattini
+Author-email: andreafrattini20@gmail.com
+License: MIT
+Keywords: finscience
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: MacOS X
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+
+This library allows you to use four functions based on t he alternative-data metrics provided by FinScience s.r.l., namely the popularity and sentiment.
+
+The Trend_Indicator function is a financial technical indicator based on machine learning model LightGBM, that allows you to predict the trend of returns
+
+In particular, the SiSS function apply over a single title the so called "Signal Screener Strategy", which is an algorithmic function based on signals provided by sentiment and popularity.
+
+The TI-SiSS is similar to the SiSS except for the fact that it is extremely dependent on the FinScience metrics since it exploits also the Trend Indicator
+
+CHANGE LOG
+===========
+0.1 (15/06/2022)
+------------------
+- First Release
+
+0.2 (15/06/2022)
+----------------
+- Second release with improvements
+
+0.3 (15/06/2022)
+----------------
+- Released with improvements
+
+0.4 (20/06/2022)
+----------------
+- Released with improvements
+
+0.5 (10/07/2022)
+----------------
+- Released with improvements
+
+0.6 (11/07/2022)
+----------------
+- Bugs fixed
+
