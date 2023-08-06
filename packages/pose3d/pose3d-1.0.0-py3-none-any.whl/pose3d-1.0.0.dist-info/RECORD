@@ -1,0 +1,12 @@
+pose3d/__init__.py,sha256=uvXhTSUg8cWXCugu5XdKh_g3zBHVE4EL_nqo_rcqg9U,197
+pose3d/pose.py,sha256=8HCog6DgxZiyFQN2Y2BBFOZQ_qKzHVZSql90FsGNxOY,542
+pose3d/pose2d.py,sha256=gfryt3mou4Z5fiH-XKBQ30FrnO1NeL_exNmQvnuVyWE,513
+pose3d/pose_comparison.py,sha256=1-Jq70-H4VdzvNIHevdz-sbAvP5pl29mBiuQi7VDJMA,1098
+pose3d/rotation2d.py,sha256=KtOzkUehPR5tS0OSQv1pBMBuBlrknDNsEBaMIfsdM-E,1665
+pose3d/transform.py,sha256=NS3NWscj-kmVxPoyCeCviz8dynvDerwRXRvoshkUF3c,1859
+pose3d/transform_set.py,sha256=WZF5nAnmDYBa_ddjDNzkfbPchTTWJiI9wXr0gkLGRaU,4760
+pose3d-1.0.0.dist-info/LICENSE,sha256=MV6P-U79BdwHVOLxfthu0g1FO-z6kSLDmT-JX5-VVWo,1073
+pose3d-1.0.0.dist-info/METADATA,sha256=wCg268MrnQVswWxEkLDl24VWohcaptO-EQj0203hNes,489
+pose3d-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pose3d-1.0.0.dist-info/top_level.txt,sha256=RyWRuSU8_ofC9tvxYZgKnrucJYC-xaendonYATbu7XI,7
+pose3d-1.0.0.dist-info/RECORD,,
