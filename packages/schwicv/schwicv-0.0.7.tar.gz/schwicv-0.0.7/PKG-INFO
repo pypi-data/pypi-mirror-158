@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: schwicv
+Version: 0.0.7
+Summary: Schwi's Utilities
+Home-page: https://github.com/Schwi88/SchwiCV
+Author: Thomas Schwingenschlögl
+Author-email: office@schwi.at
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SchwiCV
+
+## Installation
+
+You can install the SchwiCV Tools from [PyPI](https://pypi.org/project/schwicv/):
+
+    pip install schwicv
+
+The package is supported on Python 3.6 and above.
+
+# How to use
+## Timer Lib
+    from schwicv import Timer
+    
+    tmr = Timer(100) # Makes Instance of Timer class with 100ms init time
+    tmr.remaining_time_ms   # Output of remaining time, 0 if over
+    tmr.execution_time_ms   # Output of execution time from last start
+    tmr.remaining_percent   # Output of remaining time in percent
+    tmr.time_over           # True if code needed more or equal 100 ms
+
+    tmr.start_ms(1000)      # Restart timer with 1000ms init time, if re-use instance 
