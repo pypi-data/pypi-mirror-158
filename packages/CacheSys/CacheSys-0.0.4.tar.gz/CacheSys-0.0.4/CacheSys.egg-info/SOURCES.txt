@@ -1,0 +1,8 @@
+LICENSE.txt
+MANIFEST.in
+setup.py
+CacheSys/__init__.py
+CacheSys.egg-info/PKG-INFO
+CacheSys.egg-info/SOURCES.txt
+CacheSys.egg-info/dependency_links.txt
+CacheSys.egg-info/top_level.txt
