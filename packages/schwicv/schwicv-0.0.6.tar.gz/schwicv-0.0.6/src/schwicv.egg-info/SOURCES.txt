@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/schwicv/__init__.py
+src/schwicv/__main__.py
+src/schwicv/timer.py
+src/schwicv.egg-info/PKG-INFO
+src/schwicv.egg-info/SOURCES.txt
+src/schwicv.egg-info/dependency_links.txt
+src/schwicv.egg-info/top_level.txt
