@@ -1,0 +1,6 @@
+MANIFEST.in
+setup.py
+pocket_app.egg-info/PKG-INFO
+pocket_app.egg-info/SOURCES.txt
+pocket_app.egg-info/dependency_links.txt
+pocket_app.egg-info/top_level.txt
