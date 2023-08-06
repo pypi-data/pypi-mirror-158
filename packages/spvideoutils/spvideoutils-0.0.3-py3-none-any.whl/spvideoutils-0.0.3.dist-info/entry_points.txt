@@ -1,0 +1,6 @@
+[console_scripts]
+video_capture = spvideoutils.video_capture:main
+video_crop = spvideoutils.video_crop:main
+video_merge = spvideoutils.video_merge:main
+video_split = spvideoutils.video_split:main
+

@@ -1,0 +1,14 @@
+spvideoutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spvideoutils/camera.py,sha256=OgvEW1QHu2LhbT6xiAJdaD-RNefzIr2IW6cuHXD0YFY,2806
+spvideoutils/utils.py,sha256=CtJGihTC1urr1jAD2gSkYZpgvwSTTKPgepWd3pGgTAw,448
+spvideoutils/video.py,sha256=1ANnbFQIiGr5bsRg9me8xn2sDvrImdqpP5n5K0YbcMA,1195
+spvideoutils/video_capture.py,sha256=_ieoH2QTC0onUeH_aFfKabm-yRG19ehBlxc_-KWMbPI,1947
+spvideoutils/video_crop.py,sha256=Y0hwGe_QH-aeI8t2iGLjV6q_wTc4OWWfsPXB2-6EOcg,2670
+spvideoutils/video_merge.py,sha256=eS0hOX8qkKixgtsQfATc64seS62d7UH2pJ3d5bGAw7k,1607
+spvideoutils/video_split.py,sha256=XXuFbudNcE6wZxg7XpJ1laDrgOWUoE1iXFgarWBDBT4,1720
+spvideoutils-0.0.3.dist-info/LICENSE.txt,sha256=zfepNztg8Aolj2vA_bPRH5MDoWvXRvErWFZqBY5kTUg,1093
+spvideoutils-0.0.3.dist-info/METADATA,sha256=RAP3uRgnJe7arKyS2dWegYKA6IYdJIrfd2DhpEb3BiM,2781
+spvideoutils-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+spvideoutils-0.0.3.dist-info/entry_points.txt,sha256=6jdGUZwGh5Lsag9Bx_X2frAg56HOaXOENMd8aQX4zzg,197
+spvideoutils-0.0.3.dist-info/top_level.txt,sha256=wg5tiPnY7gwq7hJOHcnme93FH8DcjRkZK32nNMFGR8k,13
+spvideoutils-0.0.3.dist-info/RECORD,,
