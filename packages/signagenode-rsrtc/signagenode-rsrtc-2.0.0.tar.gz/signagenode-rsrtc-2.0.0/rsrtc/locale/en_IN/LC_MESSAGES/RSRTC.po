@@ -1,0 +1,988 @@
+# English (India) translations for RSRTC Infopanel.
+# Copyright (C) 2021 Propress Instrumentation & Solutions Pvt. Ltd., India
+# This file is distributed under the same license as the RSRTC Infopanel
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: RSRTC Infopanel 1.1.2\n"
+"Report-Msgid-Bugs-To: shashank.chintalagiri@gmail.com\n"
+"POT-Creation-Date: 2021-05-19 05:46+0553\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_IN\n"
+"Language-Team: StarXMedia Signage Maintenance Team\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+msgid "RAJASTHAN STATE ROAD TRANSPORT CORPORATION"
+msgstr "RAJASTHAN STATE ROAD TRANSPORT CORPORATION"
+
+msgid "Kota Bus Stand"
+msgstr "Kota Bus Stand"
+
+msgid "Bus Number"
+msgstr "Bus Number"
+
+msgid "R No"
+msgstr "R No"
+
+msgid "Route"
+msgstr "Route"
+
+msgid "Service"
+msgstr "Service"
+
+msgid "Departs"
+msgstr "Departs"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Central Bus Stand, Sindhi Camp, Jaipur"
+msgstr "Central Bus Stand, Sindhi Camp, Jaipur"
+
+msgid "DEPART"
+msgstr "DEPART"
+
+msgid "ORD"
+msgstr "ORD"
+
+msgid "SLX"
+msgstr "SLX"
+
+msgid "SSL"
+msgstr "SSL"
+
+msgid "EXP"
+msgstr "EXP"
+
+msgid "ALWAR"
+msgstr "ALWAR"
+
+msgid "ALWAR - MATSYA NAGAR"
+msgstr "ALWAR - MATSYA NAGAR"
+
+msgid "BANSWARA"
+msgstr "BANSWARA"
+
+msgid "BARMER"
+msgstr "BARMER"
+
+msgid "BHARATPUR"
+msgstr "BHARATPUR"
+
+msgid "BHILWARA"
+msgstr "BHILWARA"
+
+msgid "BIKANER"
+msgstr "BIKANER"
+
+msgid "BUNDI"
+msgstr "BUNDI"
+
+msgid "AJMER"
+msgstr "AJMER"
+
+msgid "JODHPUR"
+msgstr "JODHPUR"
+
+msgid "UDAIPUR"
+msgstr "UDAIPUR"
+
+msgid "CHITTORGARH"
+msgstr "CHITTORGARH"
+
+msgid "CHURU"
+msgstr "CHURU"
+
+msgid "DAUSA"
+msgstr "DAUSA"
+
+msgid "DHOLPUR"
+msgstr "DHOLPUR"
+
+msgid "DUNGARPUR"
+msgstr "DUNGARPUR"
+
+msgid "GANGANAGAR"
+msgstr "GANGANAGAR"
+
+msgid "HANUMANGARH"
+msgstr "HANUMANGARH"
+
+msgid "JALORE"
+msgstr "JALORE"
+
+msgid "JHALAWAR"
+msgstr "JHALAWAR"
+
+msgid "JHUNJHUNU"
+msgstr "JHUNJHUNU"
+
+msgid "KAROLI"
+msgstr "KAROLI"
+
+msgid "KOTA"
+msgstr "KOTA"
+
+msgid "NAYAPURA KOTA"
+msgstr "NAYAPURA KOTA"
+
+msgid "NAGAUR"
+msgstr "NAGAUR"
+
+msgid "PALI"
+msgstr "PALI"
+
+msgid "SIKAR"
+msgstr "SIKAR"
+
+msgid "SIROH"
+msgstr "SIROH"
+
+msgid "TONK"
+msgstr "TONK"
+
+msgid "JAIPUR"
+msgstr "JAIPUR"
+
+msgid "BARAN"
+msgstr "BARAN"
+
+msgid "KINSHANGARH"
+msgstr "KINSHANGARH"
+
+msgid "BHINMAL - JALORE"
+msgstr "BHINMAL - JALORE"
+
+msgid "ABUROAD"
+msgstr "ABUROAD"
+
+msgid "BEAWAR"
+msgstr "BEAWAR"
+
+msgid "ANOOPGAR"
+msgstr "ANOOPGAR"
+
+msgid "DEEDWANA"
+msgstr "DEEDWANA"
+
+msgid "FALNA"
+msgstr "FALNA"
+
+msgid "KHETRI"
+msgstr "KHETRI"
+
+msgid "PHALODI"
+msgstr "PHALODI"
+
+msgid "SARDAR SHAHAR"
+msgstr "SARDAR SHAHAR"
+
+msgid "SHRIMADHOPUR"
+msgstr "SHRIMADHOPUR"
+
+msgid "SAWAIMADHOPUR"
+msgstr "SAWAIMADHOPUR"
+
+msgid "EKHLERA"
+msgstr "EKHLERA"
+
+msgid "SIMLIYA"
+msgstr "SIMLIYA"
+
+msgid "RAWATBHATA"
+msgstr "RAWATBHATA"
+
+msgid "DABBI"
+msgstr "DABBI"
+
+msgid "DELHI"
+msgstr "DELHI"
+
+msgid "BORAWAS"
+msgstr "BORAWAS"
+
+msgid "SANGOD"
+msgstr "SANGOD"
+
+msgid "KETHUN"
+msgstr "KETHUN"
+
+msgid "HINDOLI"
+msgstr "HINDOLI"
+
+msgid "DARA"
+msgstr "DARA"
+
+msgid "INDORE"
+msgstr "INDORE"
+
+msgid "SARDARSHAR"
+msgstr "SARDARSHAR"
+
+msgid "BARELI"
+msgstr "BARELI"
+
+msgid "TALEDA"
+msgstr "TALEDA"
+
+msgid "PATAN"
+msgstr "PATAN"
+
+msgid "GETA"
+msgstr "GETA"
+
+msgid "ETAWAHA"
+msgstr "ETAWAHA"
+
+msgid "KEKRI"
+msgstr "KEKRI"
+
+msgid "BIJOLIYA"
+msgstr "BIJOLIYA"
+
+msgid "ANTA"
+msgstr "ANTA"
+
+msgid "SOYAT"
+msgstr "SOYAT"
+
+msgid "DEOLI"
+msgstr "DEOLI"
+
+msgid "CHANDKHADI"
+msgstr "CHANDKHADI"
+
+msgid "BHOPAL"
+msgstr "BHOPAL"
+
+msgid "ONKARESWAR"
+msgstr "ONKARESWAR"
+
+msgid "MANOHAR THANA"
+msgstr "MANOHAR THANA"
+
+msgid "SHIVPURI"
+msgstr "SHIVPURI"
+
+msgid "KELWADA"
+msgstr "KELWADA"
+
+msgid "SERADA"
+msgstr "SERADA"
+
+msgid "SHAHBAD"
+msgstr "SHAHBAD"
+
+msgid "RATANGARH"
+msgstr "RATANGARH"
+
+msgid "UNIYARA"
+msgstr "UNIYARA"
+
+msgid "ASNAVAR"
+msgstr "ASNAVAR"
+
+msgid "MANCHAL"
+msgstr "MANCHAL"
+
+msgid "INDERGARH"
+msgstr "INDERGARH"
+
+msgid "NENWA"
+msgstr "NENWA"
+
+msgid "NAGOUR"
+msgstr "NAGOUR"
+
+msgid "TEHLA"
+msgstr "TEHLA"
+
+msgid "DEWAS"
+msgstr "DEWAS"
+
+msgid "UJJAIN"
+msgstr "UJJAIN"
+
+msgid "DURJANPURA"
+msgstr "DURJANPURA"
+
+msgid "NASIRABAD"
+msgstr "NASIRABAD"
+
+msgid "Depot"
+msgstr "Depot"
+
+msgid "BRN"
+msgstr "BRN"
+
+msgid "BND"
+msgstr "BND"
+
+msgid "KTH"
+msgstr "KTH"
+
+msgid "JLW"
+msgstr "JLW"
+
+msgid "JPR"
+msgstr "JPR"
+
+msgid "AJU"
+msgstr "AJU"
+
+msgid "SWM"
+msgstr "SWM"
+
+msgid "BHL"
+msgstr "BHL"
+
+msgid "DDN"
+msgstr "DDN"
+
+msgid "ALW"
+msgstr "ALW"
+
+msgid "JJN"
+msgstr "JJN"
+
+msgid "TNK"
+msgstr "TNK"
+
+msgid "BWR"
+msgstr "BWR"
+
+msgid "CHU"
+msgstr "CHU"
+
+msgid "NGR"
+msgstr "NGR"
+
+msgid "CTG"
+msgstr "CTG"
+
+msgid "JDP"
+msgstr "JDP"
+
+msgid "RSM"
+msgstr "RSM"
+
+msgid "DLX"
+msgstr "DLX"
+
+msgid "KISHANGAD"
+msgstr "KISHANGAD"
+
+msgid "PLI"
+msgstr "PLI"
+
+msgid "KOTPUTLI"
+msgstr "KOTPUTLI"
+
+msgid "SINGHANA"
+msgstr "SINGHANA"
+
+msgid "AJEETGARH"
+msgstr "AJEETGARH"
+
+msgid "KTR"
+msgstr "KTR"
+
+msgid "GND"
+msgstr "GND"
+
+msgid "ALIGARH"
+msgstr "ALIGARH"
+
+msgid "VOL"
+msgstr "VOL"
+
+msgid "DHAULPUR"
+msgstr "DHAULPUR"
+
+msgid "RAJAKHEDA"
+msgstr "RAJAKHEDA"
+
+msgid "DLP"
+msgstr "DLP"
+
+msgid "SIROHI"
+msgstr "SIROHI"
+
+msgid "SRH"
+msgstr "SRH"
+
+msgid "AGRA"
+msgstr "AGRA"
+
+msgid "MAHUA"
+msgstr "MAHUA"
+
+msgid "BPR"
+msgstr "BPR"
+
+msgid "ETAWAH"
+msgstr "ETAWAH"
+
+msgid "HARIDWAR"
+msgstr "HARIDWAR"
+
+msgid "RUPBAS"
+msgstr "RUPBAS"
+
+msgid "GOMTI"
+msgstr "GOMTI"
+
+msgid "VLF"
+msgstr "VLF"
+
+msgid "LUCKNOW"
+msgstr "LUCKNOW"
+
+msgid "RAMPUR"
+msgstr "RAMPUR"
+
+msgid "CHALA"
+msgstr "CHALA"
+
+msgid "LOSAL"
+msgstr "LOSAL"
+
+msgid "AMET"
+msgstr "AMET"
+
+msgid "LUDHIYANA"
+msgstr "LUDHIYANA"
+
+msgid "AHMEDABAD"
+msgstr "AHMEDABAD"
+
+msgid "SHIMLA"
+msgstr "SHIMLA"
+
+msgid "VIRATNAGAR"
+msgstr "VIRATNAGAR"
+
+msgid "PILANI"
+msgstr "PILANI"
+
+msgid "CHANDIGARH"
+msgstr "CHANDIGARH"
+
+msgid "HALDWANI"
+msgstr "HALDWANI"
+
+msgid "MURADABAD"
+msgstr "MURADABAD"
+
+msgid "GOVERDHAN"
+msgstr "GOVERDHAN"
+
+msgid "Jaipur"
+msgstr "Jaipur"
+
+msgid "MALPURA"
+msgstr "MALPURA"
+
+msgid "RINGUS"
+msgstr "RINGUS"
+
+msgid "ANOOPGARH"
+msgstr "ANOOPGARH"
+
+msgid "SHAHPURA"
+msgstr "SHAHPURA"
+
+msgid "FULIYA"
+msgstr "FULIYA"
+
+msgid "BICHUN"
+msgstr "BICHUN"
+
+msgid "BASSI"
+msgstr "BASSI"
+
+msgid "BAYANA"
+msgstr "BAYANA"
+
+msgid "UDAIPURVATI"
+msgstr "UDAIPURVATI"
+
+msgid "KHANPUR"
+msgstr "KHANPUR"
+
+msgid "LAWAAN"
+msgstr "LAWAAN"
+
+msgid "NEEM"
+msgstr "NEEM"
+
+msgid "GOVIND PURA"
+msgstr "GOVIND PURA"
+
+msgid "DANOTA"
+msgstr "DANOTA"
+
+msgid "JOBNER"
+msgstr "JOBNER"
+
+msgid "BAGRU"
+msgstr "BAGRU"
+
+msgid "BOBAS"
+msgstr "BOBAS"
+
+msgid "HATHOJ"
+msgstr "HATHOJ"
+
+msgid "BHESAWA"
+msgstr "BHESAWA"
+
+msgid "JORPURA"
+msgstr "JORPURA"
+
+msgid "DATA"
+msgstr "DATA"
+
+msgid "GANGAPUR"
+msgstr "GANGAPUR"
+
+msgid "CHAKSU"
+msgstr "CHAKSU"
+
+msgid "LALSOT"
+msgstr "LALSOT"
+
+msgid "RAHUWAS"
+msgstr "RAHUWAS"
+
+msgid "BIRATRAMATA"
+msgstr "BIRATRAMATA"
+
+msgid "SOROJI"
+msgstr "SOROJI"
+
+msgid "MATHURA"
+msgstr "MATHURA"
+
+msgid "HINDAUN"
+msgstr "HINDAUN"
+
+msgid "KAILADEVI"
+msgstr "KAILADEVI"
+
+msgid "MAHAVEER JI"
+msgstr "MAHAVEER JI"
+
+msgid "DUDU"
+msgstr "DUDU"
+
+msgid "KHATU SHYAM"
+msgstr "KHATU SHYAM"
+
+msgid "RAMPURA"
+msgstr "RAMPURA"
+
+msgid "BANSUR"
+msgstr "BANSUR"
+
+msgid "SAWARIYA CHO."
+msgstr "SAWARIYA CHO."
+
+msgid "PANDER"
+msgstr "PANDER"
+
+msgid "LADNU"
+msgstr "LADNU"
+
+msgid "LAXMANGARH"
+msgstr "LAXMANGARH"
+
+msgid "NAARAINI"
+msgstr "NAARAINI"
+
+msgid "THANA"
+msgstr "THANA"
+
+msgid "SIKANDRA"
+msgstr "SIKANDRA"
+
+msgid "RAWATSAR"
+msgstr "RAWATSAR"
+
+msgid "BEHRAUNDA"
+msgstr "BEHRAUNDA"
+
+msgid "B.RAJGAON"
+msgstr "B.RAJGAON"
+
+msgid "KAYAM-GANJ"
+msgstr "KAYAM-GANJ"
+
+msgid "NEWAI"
+msgstr "NEWAI"
+
+msgid "NEEM KA THANA"
+msgstr "NEEM KA THANA"
+
+msgid "CHOMU"
+msgstr "CHOMU"
+
+msgid "BHADRA"
+msgstr "BHADRA"
+
+msgid "KANUTA"
+msgstr "KANUTA"
+
+msgid "ABU ROAD"
+msgstr "ABU ROAD"
+
+msgid "KAISHORAIPATAN"
+msgstr "KAISHORAIPATAN"
+
+msgid "TATARPUR"
+msgstr "TATARPUR"
+
+msgid "BEHROR"
+msgstr "BEHROR"
+
+msgid "FAGI"
+msgstr "FAGI"
+
+msgid "BHUSAVER"
+msgstr "BHUSAVER"
+
+msgid "PRATAPGARH"
+msgstr "PRATAPGARH"
+
+msgid "KARAULI"
+msgstr "KARAULI"
+
+msgid "RENWAL"
+msgstr "RENWAL"
+
+msgid "SAMBHAR"
+msgstr "SAMBHAR"
+
+msgid "BILADA"
+msgstr "BILADA"
+
+msgid "LAKHERI"
+msgstr "LAKHERI"
+
+msgid "SIKRAI"
+msgstr "SIKRAI"
+
+msgid "MANPURA"
+msgstr "MANPURA"
+
+msgid "BADI SADRI"
+msgstr "BADI SADRI"
+
+msgid "GOLA KA BAS"
+msgstr "GOLA KA BAS"
+
+msgid "BAAPI"
+msgstr "BAAPI"
+
+msgid "KISHAN MAANPURA"
+msgstr "KISHAN MAANPURA"
+
+msgid "DHODSAR"
+msgstr "DHODSAR"
+
+msgid "NIMBAHERA"
+msgstr "NIMBAHERA"
+
+msgid "DABOK"
+msgstr "DABOK"
+
+msgid "DIGGIGAON"
+msgstr "DIGGIGAON"
+
+msgid "TIJARA"
+msgstr "TIJARA"
+
+msgid "FUTALAMOD"
+msgstr "FUTALAMOD"
+
+msgid "PACHAR"
+msgstr "PACHAR"
+
+msgid "CHOKARWADA"
+msgstr "CHOKARWADA"
+
+msgid "BADHAL"
+msgstr "BADHAL"
+
+msgid "HASTEDA"
+msgstr "HASTEDA"
+
+msgid "PACHHAR"
+msgstr "PACHHAR"
+
+msgid "BANDH KE BALAJI"
+msgstr "BANDH KE BALAJI"
+
+msgid "BORAJ"
+msgstr "BORAJ"
+
+msgid "LUNWA"
+msgstr "LUNWA"
+
+msgid "BHADWA"
+msgstr "BHADWA"
+
+msgid "FULERA"
+msgstr "FULERA"
+
+msgid "SADULPUR"
+msgstr "SADULPUR"
+
+msgid "MOKHAM"
+msgstr "MOKHAM"
+
+msgid "RAMGARH"
+msgstr "RAMGARH"
+
+msgid "KHEDLI"
+msgstr "KHEDLI"
+
+msgid "CHOP"
+msgstr "CHOP"
+
+msgid "TODI"
+msgstr "TODI"
+
+msgid "SAMOD"
+msgstr "SAMOD"
+
+msgid "GULABVADI"
+msgstr "GULABVADI"
+
+msgid "VEER"
+msgstr "VEER"
+
+msgid "BARODA"
+msgstr "BARODA"
+
+msgid "BALOTRA"
+msgstr "BALOTRA"
+
+msgid "SRINAGAR"
+msgstr "SRINAGAR"
+
+msgid "SHOHELA"
+msgstr "SHOHELA"
+
+msgid "BHINWPURA"
+msgstr "BHINWPURA"
+
+msgid "GANJDUDWANA"
+msgstr "GANJDUDWANA"
+
+msgid "KUCHAMAN"
+msgstr "KUCHAMAN"
+
+msgid "SIRSA"
+msgstr "SIRSA"
+
+msgid "KOTHUN"
+msgstr "KOTHUN"
+
+msgid "RAITHAL"
+msgstr "RAITHAL"
+
+msgid "NAARAINI MATA"
+msgstr "NAARAINI MATA"
+
+msgid "BAGAWAS"
+msgstr "BAGAWAS"
+
+msgid "NAWA"
+msgstr "NAWA"
+
+msgid "JEEN MATA"
+msgstr "JEEN MATA"
+
+msgid "KHATU"
+msgstr "KHATU"
+
+msgid "MANOHARPUR"
+msgstr "MANOHARPUR"
+
+msgid "LAMIYA"
+msgstr "LAMIYA"
+
+msgid "BANDHIKUI"
+msgstr "BANDHIKUI"
+
+msgid "KHEJROLI"
+msgstr "KHEJROLI"
+
+msgid "NIWANA"
+msgstr "NIWANA"
+
+msgid "MANDALGARH"
+msgstr "MANDALGARH"
+
+msgid "SRI MADHOPUR"
+msgstr "SRI MADHOPUR"
+
+msgid "GOVINDGARH"
+msgstr "GOVINDGARH"
+
+msgid "SURATGARH"
+msgstr "SURATGARH"
+
+msgid "TARANAGAR"
+msgstr "TARANAGAR"
+
+msgid "VRINDAVAN"
+msgstr "VRINDAVAN"
+
+msgid "RAIPUR"
+msgstr "RAIPUR"
+
+msgid "BONLI"
+msgstr "BONLI"
+
+msgid "VEER HANUMAN"
+msgstr "VEER HANUMAN"
+
+msgid "KARANPUR"
+msgstr "KARANPUR"
+
+msgid "SUJANGARH"
+msgstr "SUJANGARH"
+
+msgid "TODARAISINGH"
+msgstr "TODARAISINGH"
+
+msgid "MUNDRU"
+msgstr "MUNDRU"
+
+msgid "RAJGARH"
+msgstr "RAJGARH"
+
+msgid "JAISALMER"
+msgstr "JAISALMER"
+
+msgid "NAGARR"
+msgstr "NAGARR"
+
+msgid "LICHANA"
+msgstr "LICHANA"
+
+msgid "RATANGARHBYPASS"
+msgstr "RATANGARHBYPASS"
+
+msgid "HISAR"
+msgstr "HISAR"
+
+msgid "KHATU-CHOTI"
+msgstr "KHATU-CHOTI"
+
+msgid "BHALERI"
+msgstr "BHALERI"
+
+msgid "NOHAR"
+msgstr "NOHAR"
+
+msgid "VANSTHALI"
+msgstr "VANSTHALI"
+
+msgid "PIPLDA"
+msgstr "PIPLDA"
+
+msgid "BHATIYO"
+msgstr "BHATIYO"
+
+msgid "NOKHA"
+msgstr "NOKHA"
+
+msgid "AKLERA"
+msgstr "AKLERA"
+
+msgid "DEVTA"
+msgstr "DEVTA"
+
+msgid "BANETI"
+msgstr "BANETI"
+
+msgid "KHERTHAL"
+msgstr "KHERTHAL"
+
+msgid "KHAWAS"
+msgstr "KHAWAS"
+
+msgid "DEEG"
+msgstr "DEEG"
+
+msgid "SRI"
+msgstr "SRI"
+
+msgid "NADOTI"
+msgstr "NADOTI"
+
+msgid "FATEHPUR"
+msgstr "FATEHPUR"
+
+msgid "SHYOPUR"
+msgstr "SHYOPUR"
+
+msgid "KAMA"
+msgstr "KAMA"
+
+msgid "PARBATSAR"
+msgstr "PARBATSAR"
+
+msgid "KANPUR"
+msgstr "KANPUR"
+
+msgid "DEHRADUN"
+msgstr "DEHRADUN"
+
+msgid "PAVTA"
+msgstr "PAVTA"
+
+msgid "NANGAL"
+msgstr "NANGAL"
+
+msgid "ASELPURA"
+msgstr "ASELPURA"
+
+msgid "MUNDSAR"
+msgstr "MUNDSAR"
+
+msgid "DABWALI"
+msgstr "DABWALI"
+
+msgid "BISALPUR"
+msgstr "BISALPUR"
+
+msgid "BHIWANI"
+msgstr "BHIWANI"
+
+msgid "LIKHMA KA BAS"
+msgstr "LIKHMA KA BAS"
+
+msgid "TAHLA"
+msgstr "TAHLA"
+
+msgid "JEENMATA"
+msgstr "JEENMATA"
+
+msgid "KOTKASIM"
+msgstr "KOTKASIM"
+
+msgid "BHOPALGARH"
+msgstr "BHOPALGARH"
+

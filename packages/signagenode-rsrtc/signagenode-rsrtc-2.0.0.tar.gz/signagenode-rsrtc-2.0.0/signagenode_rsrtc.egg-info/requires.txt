@@ -1,0 +1,4 @@
+signagenode>=2.7.2
+setuptools-scm
+ebs-linuxnode-tables
+ebs-linuxnode-i18n

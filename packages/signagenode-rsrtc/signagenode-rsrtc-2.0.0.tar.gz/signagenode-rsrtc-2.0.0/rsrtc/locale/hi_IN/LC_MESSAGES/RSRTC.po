@@ -1,0 +1,988 @@
+# Hindi (India) translations for RSRTC Infopanel.
+# Copyright (C) 2021 Propress Instrumentation & Solutions Pvt. Ltd., India
+# This file is distributed under the same license as the RSRTC Infopanel
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: RSRTC Infopanel 1.1.2\n"
+"Report-Msgid-Bugs-To: shashank.chintalagiri@gmail.com\n"
+"POT-Creation-Date: 2021-05-19 05:46+0553\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: hi_IN\n"
+"Language-Team: StarXMedia Signage Maintenance Team\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+msgid "RAJASTHAN STATE ROAD TRANSPORT CORPORATION"
+msgstr "राजस्थान राज्य पथ परिवहन निगम"
+
+msgid "Kota Bus Stand"
+msgstr ""
+
+msgid "Bus Number"
+msgstr "बस संख्या"
+
+msgid "R No"
+msgstr "संख्या"
+
+msgid "Route"
+msgstr "मार्ग"
+
+msgid "Service"
+msgstr "सेवा"
+
+msgid "Departs"
+msgstr "समय"
+
+msgid "Status"
+msgstr "स्थिति"
+
+msgid "Central Bus Stand, Sindhi Camp, Jaipur"
+msgstr ""
+
+msgid "DEPART"
+msgstr "प्रस्थान"
+
+msgid "ORD"
+msgstr ""
+
+msgid "SLX"
+msgstr ""
+
+msgid "SSL"
+msgstr ""
+
+msgid "EXP"
+msgstr ""
+
+msgid "ALWAR"
+msgstr "अलवर"
+
+msgid "ALWAR - MATSYA NAGAR"
+msgstr "अलवर - मत्स्य नगर"
+
+msgid "BANSWARA"
+msgstr "बाँसवाड़ा"
+
+msgid "BARMER"
+msgstr "बाड़मेर"
+
+msgid "BHARATPUR"
+msgstr "भरतपुर"
+
+msgid "BHILWARA"
+msgstr "भीलवाड़ा"
+
+msgid "BIKANER"
+msgstr "बीकानेर"
+
+msgid "BUNDI"
+msgstr "बूँदी"
+
+msgid "AJMER"
+msgstr "केंद्रीय बस स्टैंड अजमेर"
+
+msgid "JODHPUR"
+msgstr "जोधपुर"
+
+msgid "UDAIPUR"
+msgstr "उदयपुर"
+
+msgid "CHITTORGARH"
+msgstr "चित्तौडग़ढ़"
+
+msgid "CHURU"
+msgstr "चूरू"
+
+msgid "DAUSA"
+msgstr "दौसा"
+
+msgid "DHOLPUR"
+msgstr "धौलपुर"
+
+msgid "DUNGARPUR"
+msgstr "डूँगरपुर"
+
+msgid "GANGANAGAR"
+msgstr "गंगानगर"
+
+msgid "HANUMANGARH"
+msgstr "हनुमानगढ़"
+
+msgid "JALORE"
+msgstr "जालौर"
+
+msgid "JHALAWAR"
+msgstr "झालावाड़"
+
+msgid "JHUNJHUNU"
+msgstr "झुँझुनू"
+
+msgid "KAROLI"
+msgstr "करौली"
+
+msgid "KOTA"
+msgstr "कोटा"
+
+msgid "NAYAPURA KOTA"
+msgstr "नयापुरा कोटा"
+
+msgid "NAGAUR"
+msgstr "नागौर"
+
+msgid "PALI"
+msgstr "पाली"
+
+msgid "SIKAR"
+msgstr "सीकर"
+
+msgid "SIROH"
+msgstr "सिरोही"
+
+msgid "TONK"
+msgstr "टोंक"
+
+msgid "JAIPUR"
+msgstr "केंद्रीय बस स्टैंड जयपुर"
+
+msgid "BARAN"
+msgstr "बाराँ"
+
+msgid "KINSHANGARH"
+msgstr "किशनगढ़"
+
+msgid "BHINMAL - JALORE"
+msgstr "भीनमाल जालौर"
+
+msgid "ABUROAD"
+msgstr "आबूरोड"
+
+msgid "BEAWAR"
+msgstr "ब्यावर"
+
+msgid "ANOOPGAR"
+msgstr "अनूपगढ़"
+
+msgid "DEEDWANA"
+msgstr "डीडवाना"
+
+msgid "FALNA"
+msgstr "फालना"
+
+msgid "KHETRI"
+msgstr "खेतड़ी"
+
+msgid "PHALODI"
+msgstr "फलौदी"
+
+msgid "SARDAR SHAHAR"
+msgstr "सरदार शहर"
+
+msgid "SHRIMADHOPUR"
+msgstr "श्री माधोपुर"
+
+msgid "SAWAIMADHOPUR"
+msgstr "सवाई माधोपुर"
+
+msgid "EKHLERA"
+msgstr ""
+
+msgid "SIMLIYA"
+msgstr ""
+
+msgid "RAWATBHATA"
+msgstr ""
+
+msgid "DABBI"
+msgstr ""
+
+msgid "DELHI"
+msgstr ""
+
+msgid "BORAWAS"
+msgstr ""
+
+msgid "SANGOD"
+msgstr ""
+
+msgid "KETHUN"
+msgstr ""
+
+msgid "HINDOLI"
+msgstr ""
+
+msgid "DARA"
+msgstr ""
+
+msgid "INDORE"
+msgstr ""
+
+msgid "SARDARSHAR"
+msgstr ""
+
+msgid "BARELI"
+msgstr ""
+
+msgid "TALEDA"
+msgstr ""
+
+msgid "PATAN"
+msgstr ""
+
+msgid "GETA"
+msgstr ""
+
+msgid "ETAWAHA"
+msgstr ""
+
+msgid "KEKRI"
+msgstr ""
+
+msgid "BIJOLIYA"
+msgstr ""
+
+msgid "ANTA"
+msgstr ""
+
+msgid "SOYAT"
+msgstr ""
+
+msgid "DEOLI"
+msgstr ""
+
+msgid "CHANDKHADI"
+msgstr ""
+
+msgid "BHOPAL"
+msgstr ""
+
+msgid "ONKARESWAR"
+msgstr ""
+
+msgid "MANOHAR THANA"
+msgstr ""
+
+msgid "SHIVPURI"
+msgstr ""
+
+msgid "KELWADA"
+msgstr ""
+
+msgid "SERADA"
+msgstr ""
+
+msgid "SHAHBAD"
+msgstr ""
+
+msgid "RATANGARH"
+msgstr ""
+
+msgid "UNIYARA"
+msgstr ""
+
+msgid "ASNAVAR"
+msgstr ""
+
+msgid "MANCHAL"
+msgstr ""
+
+msgid "INDERGARH"
+msgstr ""
+
+msgid "NENWA"
+msgstr ""
+
+msgid "NAGOUR"
+msgstr ""
+
+msgid "TEHLA"
+msgstr ""
+
+msgid "DEWAS"
+msgstr ""
+
+msgid "UJJAIN"
+msgstr ""
+
+msgid "DURJANPURA"
+msgstr ""
+
+msgid "NASIRABAD"
+msgstr ""
+
+msgid "Depot"
+msgstr "डिपो"
+
+msgid "BRN"
+msgstr ""
+
+msgid "BND"
+msgstr ""
+
+msgid "KTH"
+msgstr ""
+
+msgid "JLW"
+msgstr ""
+
+msgid "JPR"
+msgstr ""
+
+msgid "AJU"
+msgstr ""
+
+msgid "SWM"
+msgstr ""
+
+msgid "BHL"
+msgstr ""
+
+msgid "DDN"
+msgstr ""
+
+msgid "ALW"
+msgstr ""
+
+msgid "JJN"
+msgstr ""
+
+msgid "TNK"
+msgstr ""
+
+msgid "BWR"
+msgstr ""
+
+msgid "CHU"
+msgstr ""
+
+msgid "NGR"
+msgstr ""
+
+msgid "CTG"
+msgstr ""
+
+msgid "JDP"
+msgstr ""
+
+msgid "RSM"
+msgstr ""
+
+msgid "DLX"
+msgstr ""
+
+msgid "KISHANGAD"
+msgstr ""
+
+msgid "PLI"
+msgstr ""
+
+msgid "KOTPUTLI"
+msgstr ""
+
+msgid "SINGHANA"
+msgstr ""
+
+msgid "AJEETGARH"
+msgstr ""
+
+msgid "KTR"
+msgstr ""
+
+msgid "GND"
+msgstr ""
+
+msgid "ALIGARH"
+msgstr ""
+
+msgid "VOL"
+msgstr ""
+
+msgid "DHAULPUR"
+msgstr ""
+
+msgid "RAJAKHEDA"
+msgstr ""
+
+msgid "DLP"
+msgstr ""
+
+msgid "SIROHI"
+msgstr ""
+
+msgid "SRH"
+msgstr ""
+
+msgid "AGRA"
+msgstr ""
+
+msgid "MAHUA"
+msgstr ""
+
+msgid "BPR"
+msgstr ""
+
+msgid "ETAWAH"
+msgstr ""
+
+msgid "HARIDWAR"
+msgstr ""
+
+msgid "RUPBAS"
+msgstr ""
+
+msgid "GOMTI"
+msgstr ""
+
+msgid "VLF"
+msgstr ""
+
+msgid "LUCKNOW"
+msgstr ""
+
+msgid "RAMPUR"
+msgstr ""
+
+msgid "CHALA"
+msgstr ""
+
+msgid "LOSAL"
+msgstr ""
+
+msgid "AMET"
+msgstr ""
+
+msgid "LUDHIYANA"
+msgstr ""
+
+msgid "AHMEDABAD"
+msgstr ""
+
+msgid "SHIMLA"
+msgstr ""
+
+msgid "VIRATNAGAR"
+msgstr ""
+
+msgid "PILANI"
+msgstr ""
+
+msgid "CHANDIGARH"
+msgstr ""
+
+msgid "HALDWANI"
+msgstr ""
+
+msgid "MURADABAD"
+msgstr ""
+
+msgid "GOVERDHAN"
+msgstr ""
+
+msgid "Jaipur"
+msgstr ""
+
+msgid "MALPURA"
+msgstr ""
+
+msgid "RINGUS"
+msgstr ""
+
+msgid "ANOOPGARH"
+msgstr ""
+
+msgid "SHAHPURA"
+msgstr ""
+
+msgid "FULIYA"
+msgstr ""
+
+msgid "BICHUN"
+msgstr ""
+
+msgid "BASSI"
+msgstr ""
+
+msgid "BAYANA"
+msgstr ""
+
+msgid "UDAIPURVATI"
+msgstr ""
+
+msgid "KHANPUR"
+msgstr ""
+
+msgid "LAWAAN"
+msgstr ""
+
+msgid "NEEM"
+msgstr ""
+
+msgid "GOVIND PURA"
+msgstr ""
+
+msgid "DANOTA"
+msgstr ""
+
+msgid "JOBNER"
+msgstr ""
+
+msgid "BAGRU"
+msgstr ""
+
+msgid "BOBAS"
+msgstr ""
+
+msgid "HATHOJ"
+msgstr ""
+
+msgid "BHESAWA"
+msgstr ""
+
+msgid "JORPURA"
+msgstr ""
+
+msgid "DATA"
+msgstr ""
+
+msgid "GANGAPUR"
+msgstr ""
+
+msgid "CHAKSU"
+msgstr ""
+
+msgid "LALSOT"
+msgstr ""
+
+msgid "RAHUWAS"
+msgstr ""
+
+msgid "BIRATRAMATA"
+msgstr ""
+
+msgid "SOROJI"
+msgstr ""
+
+msgid "MATHURA"
+msgstr ""
+
+msgid "HINDAUN"
+msgstr ""
+
+msgid "KAILADEVI"
+msgstr ""
+
+msgid "MAHAVEER JI"
+msgstr ""
+
+msgid "DUDU"
+msgstr ""
+
+msgid "KHATU SHYAM"
+msgstr ""
+
+msgid "RAMPURA"
+msgstr ""
+
+msgid "BANSUR"
+msgstr ""
+
+msgid "SAWARIYA CHO."
+msgstr ""
+
+msgid "PANDER"
+msgstr ""
+
+msgid "LADNU"
+msgstr ""
+
+msgid "LAXMANGARH"
+msgstr ""
+
+msgid "NAARAINI"
+msgstr ""
+
+msgid "THANA"
+msgstr ""
+
+msgid "SIKANDRA"
+msgstr ""
+
+msgid "RAWATSAR"
+msgstr ""
+
+msgid "BEHRAUNDA"
+msgstr ""
+
+msgid "B.RAJGAON"
+msgstr ""
+
+msgid "KAYAM-GANJ"
+msgstr ""
+
+msgid "NEWAI"
+msgstr ""
+
+msgid "NEEM KA THANA"
+msgstr ""
+
+msgid "CHOMU"
+msgstr ""
+
+msgid "BHADRA"
+msgstr ""
+
+msgid "KANUTA"
+msgstr ""
+
+msgid "ABU ROAD"
+msgstr ""
+
+msgid "KAISHORAIPATAN"
+msgstr ""
+
+msgid "TATARPUR"
+msgstr ""
+
+msgid "BEHROR"
+msgstr ""
+
+msgid "FAGI"
+msgstr ""
+
+msgid "BHUSAVER"
+msgstr ""
+
+msgid "PRATAPGARH"
+msgstr ""
+
+msgid "KARAULI"
+msgstr ""
+
+msgid "RENWAL"
+msgstr ""
+
+msgid "SAMBHAR"
+msgstr ""
+
+msgid "BILADA"
+msgstr ""
+
+msgid "LAKHERI"
+msgstr ""
+
+msgid "SIKRAI"
+msgstr ""
+
+msgid "MANPURA"
+msgstr ""
+
+msgid "BADI SADRI"
+msgstr ""
+
+msgid "GOLA KA BAS"
+msgstr ""
+
+msgid "BAAPI"
+msgstr ""
+
+msgid "KISHAN MAANPURA"
+msgstr ""
+
+msgid "DHODSAR"
+msgstr ""
+
+msgid "NIMBAHERA"
+msgstr ""
+
+msgid "DABOK"
+msgstr ""
+
+msgid "DIGGIGAON"
+msgstr ""
+
+msgid "TIJARA"
+msgstr ""
+
+msgid "FUTALAMOD"
+msgstr ""
+
+msgid "PACHAR"
+msgstr ""
+
+msgid "CHOKARWADA"
+msgstr ""
+
+msgid "BADHAL"
+msgstr ""
+
+msgid "HASTEDA"
+msgstr ""
+
+msgid "PACHHAR"
+msgstr ""
+
+msgid "BANDH KE BALAJI"
+msgstr ""
+
+msgid "BORAJ"
+msgstr ""
+
+msgid "LUNWA"
+msgstr ""
+
+msgid "BHADWA"
+msgstr ""
+
+msgid "FULERA"
+msgstr ""
+
+msgid "SADULPUR"
+msgstr ""
+
+msgid "MOKHAM"
+msgstr ""
+
+msgid "RAMGARH"
+msgstr ""
+
+msgid "KHEDLI"
+msgstr ""
+
+msgid "CHOP"
+msgstr ""
+
+msgid "TODI"
+msgstr ""
+
+msgid "SAMOD"
+msgstr ""
+
+msgid "GULABVADI"
+msgstr ""
+
+msgid "VEER"
+msgstr ""
+
+msgid "BARODA"
+msgstr ""
+
+msgid "BALOTRA"
+msgstr ""
+
+msgid "SRINAGAR"
+msgstr ""
+
+msgid "SHOHELA"
+msgstr ""
+
+msgid "BHINWPURA"
+msgstr ""
+
+msgid "GANJDUDWANA"
+msgstr ""
+
+msgid "KUCHAMAN"
+msgstr ""
+
+msgid "SIRSA"
+msgstr ""
+
+msgid "KOTHUN"
+msgstr ""
+
+msgid "RAITHAL"
+msgstr ""
+
+msgid "NAARAINI MATA"
+msgstr ""
+
+msgid "BAGAWAS"
+msgstr ""
+
+msgid "NAWA"
+msgstr ""
+
+msgid "JEEN MATA"
+msgstr ""
+
+msgid "KHATU"
+msgstr ""
+
+msgid "MANOHARPUR"
+msgstr ""
+
+msgid "LAMIYA"
+msgstr ""
+
+msgid "BANDHIKUI"
+msgstr ""
+
+msgid "KHEJROLI"
+msgstr ""
+
+msgid "NIWANA"
+msgstr ""
+
+msgid "MANDALGARH"
+msgstr ""
+
+msgid "SRI MADHOPUR"
+msgstr ""
+
+msgid "GOVINDGARH"
+msgstr ""
+
+msgid "SURATGARH"
+msgstr ""
+
+msgid "TARANAGAR"
+msgstr ""
+
+msgid "VRINDAVAN"
+msgstr ""
+
+msgid "RAIPUR"
+msgstr ""
+
+msgid "BONLI"
+msgstr ""
+
+msgid "VEER HANUMAN"
+msgstr ""
+
+msgid "KARANPUR"
+msgstr ""
+
+msgid "SUJANGARH"
+msgstr ""
+
+msgid "TODARAISINGH"
+msgstr ""
+
+msgid "MUNDRU"
+msgstr ""
+
+msgid "RAJGARH"
+msgstr ""
+
+msgid "JAISALMER"
+msgstr ""
+
+msgid "NAGARR"
+msgstr ""
+
+msgid "LICHANA"
+msgstr ""
+
+msgid "RATANGARHBYPASS"
+msgstr ""
+
+msgid "HISAR"
+msgstr ""
+
+msgid "KHATU-CHOTI"
+msgstr ""
+
+msgid "BHALERI"
+msgstr ""
+
+msgid "NOHAR"
+msgstr ""
+
+msgid "VANSTHALI"
+msgstr ""
+
+msgid "PIPLDA"
+msgstr ""
+
+msgid "BHATIYO"
+msgstr ""
+
+msgid "NOKHA"
+msgstr ""
+
+msgid "AKLERA"
+msgstr ""
+
+msgid "DEVTA"
+msgstr ""
+
+msgid "BANETI"
+msgstr ""
+
+msgid "KHERTHAL"
+msgstr ""
+
+msgid "KHAWAS"
+msgstr ""
+
+msgid "DEEG"
+msgstr ""
+
+msgid "SRI"
+msgstr ""
+
+msgid "NADOTI"
+msgstr ""
+
+msgid "FATEHPUR"
+msgstr ""
+
+msgid "SHYOPUR"
+msgstr ""
+
+msgid "KAMA"
+msgstr ""
+
+msgid "PARBATSAR"
+msgstr ""
+
+msgid "KANPUR"
+msgstr ""
+
+msgid "DEHRADUN"
+msgstr ""
+
+msgid "PAVTA"
+msgstr ""
+
+msgid "NANGAL"
+msgstr ""
+
+msgid "ASELPURA"
+msgstr ""
+
+msgid "MUNDSAR"
+msgstr ""
+
+msgid "DABWALI"
+msgstr ""
+
+msgid "BISALPUR"
+msgstr ""
+
+msgid "BHIWANI"
+msgstr ""
+
+msgid "LIKHMA KA BAS"
+msgstr ""
+
+msgid "TAHLA"
+msgstr ""
+
+msgid "JEENMATA"
+msgstr ""
+
+msgid "KOTKASIM"
+msgstr ""
+
+msgid "BHOPALGARH"
+msgstr ""
+

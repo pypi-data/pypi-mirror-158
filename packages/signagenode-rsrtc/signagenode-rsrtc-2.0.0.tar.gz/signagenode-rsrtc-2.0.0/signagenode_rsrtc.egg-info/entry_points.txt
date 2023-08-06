@@ -1,0 +1,3 @@
+[console_scripts]
+rsrtc = rsrtc.runnode:run_node
+
