@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+showmethemoney/__init__.py
+showmethemoney/_cost.py
+showmethemoney/version.py
+showmethemoney.egg-info/PKG-INFO
+showmethemoney.egg-info/SOURCES.txt
+showmethemoney.egg-info/dependency_links.txt
+showmethemoney.egg-info/not-zip-safe
+showmethemoney.egg-info/requires.txt
+showmethemoney.egg-info/top_level.txt
