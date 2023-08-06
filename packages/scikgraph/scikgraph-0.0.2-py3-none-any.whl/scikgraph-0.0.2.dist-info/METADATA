@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: scikgraph
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: flask
+Requires-Dist: nltk
+Requires-Dist: matplotlib
+Requires-Dist: networkx (==2.3)
+Requires-Dist: flask-bootstrap
+Requires-Dist: py2cytoscape
+
+UNKNOWN
+
+
