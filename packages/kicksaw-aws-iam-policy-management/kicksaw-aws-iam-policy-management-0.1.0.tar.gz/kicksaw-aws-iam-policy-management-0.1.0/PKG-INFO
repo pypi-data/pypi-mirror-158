@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: kicksaw-aws-iam-policy-management
+Version: 0.1.0
+Summary: Provides a shell utility for managing an iam policy within your repo. Typically useful for tracking a deploy policy in your codebase and pushing updates to said policy right from your repo.
+Home-page: https://github.com/Kicksaw-Consulting/kicksaw-aws-iam-policy-management
+Keywords: kicksaw,aws,iam,cicd
+Author: Alex Drozd
+Author-email: alex@kicksaw.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3 (>=1.17.3,<2.0.0)
+Requires-Dist: click (>=8.1.1,<9.0.0)
+Project-URL: Repository, https://github.com/Kicksaw-Consulting/kicksaw-aws-iam-policy-management
+Description-Content-Type: text/markdown
+
+# Install
+
+```
+iam-mgmt
+```
