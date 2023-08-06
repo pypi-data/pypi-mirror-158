@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: polyexpose
+Version: 0.0.5
+Summary: polyexpose
+Home-page: UNKNOWN
+Author: Luis Velasco
+Author-email: <luis.velasco@gmail.com>
+License: UNKNOWN
+Description: polyexpose package
+Keywords: python,polyexpose
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
