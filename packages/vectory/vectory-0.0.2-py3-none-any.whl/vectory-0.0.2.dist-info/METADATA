@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: vectory
+Version: 0.0.2
+Summary: Streamline the benchmark and experimentation process of your models that rely on generating embeddings
+Author: Pento
+Author-email: hello@pento.ai
+Requires-Python: >=3.6,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: elasticsearch (==7.16.3)
+Requires-Dist: elasticsearch-dsl (>=7.0.0,<8.0.0)
+Requires-Dist: matplotlib (>=3.3)
+Requires-Dist: numpy (>=1.14.5,<=1.19.3)
+Requires-Dist: peewee (>=3.14.10,<4.0.0)
+Requires-Dist: pynndescent (>=0.5.6,<0.6.0)
+Requires-Dist: tqdm (>=4.61.1,<5.0.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Description-Content-Type: text/markdown
+
+# Pento Open Source Software
+
+To use OSS you will need [pyenv](https://github.com/pyenv/pyenv-installer), [poetry](https://python-poetry.org/docs/#installation) and docker
+
+Install steps:
+
+`$ CONFIGURE_OPTS=--enable-loadable-sqlite-extensions pyenv install`
+
+`$ python -m venv .venv`
+
+`$ source .venv/bin/activate`
+
+`$ poetry install`
+
+`$ docker-compose up`
+
+You can check the cli commands by running `oss --help`
+

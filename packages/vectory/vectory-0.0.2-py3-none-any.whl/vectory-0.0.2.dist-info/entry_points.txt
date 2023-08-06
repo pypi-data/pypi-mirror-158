@@ -1,0 +1,3 @@
+[console_scripts]
+vectory=oss.cli.main:app
+
