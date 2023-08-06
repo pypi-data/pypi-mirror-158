@@ -1,0 +1,12 @@
+rofi_pirate/__init__.py,sha256=3KXfAcA5rzzQXMtfwpHphgbJNZdA0XWaW96kdWVSZJw,22
+rofi_pirate/cli.py,sha256=YvpY3bzqLeTal1xVSpdId2yxv2CZp5A1kGedWZoed1U,154
+rofi_pirate/config.py,sha256=JI0Ocl8ukMSeppfsRjftZqk4yTi_RhO2hEK7Mvtmp_w,566
+rofi_pirate/db.py,sha256=lE8HZyn7ntAiU1U-kbHYqak6OSpBni6MEIFspRjDOps,2289
+rofi_pirate/jackett.py,sha256=0kPtGiEUyTQvbiIiQUCnOJoiVBXHn-u2tQg9618iJ7A,4018
+rofi_pirate/magnet.py,sha256=u1fq8yZwyUcD1_FMlxhL1VvddQiVjKSeoEmHsCSnz34,2379
+rofi_pirate/rofi.py,sha256=4tC9BpsJLy-pLQgX6Y1yncobnnYOczXmkQ9RhadZYd4,8457
+rofi_pirate/utils.py,sha256=LWz9IY7J_8_TILh48yoDR4eGU58cFA1BfMNt9s4wMpg,331
+rofi_pirate-1.0.1.dist-info/entry_points.txt,sha256=O_sb1K-noWtfQz5spi72ue4OQoFSTPjpLQreEmjHb14,51
+rofi_pirate-1.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+rofi_pirate-1.0.1.dist-info/METADATA,sha256=h7PHJqvyC3b32UZAluK6EXfpm_LRyR7-D-NyZqm7Gl0,2020
+rofi_pirate-1.0.1.dist-info/RECORD,,

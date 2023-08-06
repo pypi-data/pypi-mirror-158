@@ -1,0 +1,3 @@
+[console_scripts]
+rofi-pirate=rofi_pirate.cli:cli
+
