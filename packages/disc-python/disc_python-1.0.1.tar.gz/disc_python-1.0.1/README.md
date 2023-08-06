@@ -1,0 +1,196 @@
+# DIS-C
+
+*DIS-C is is a novel method to assess the conceptual distance between concepts within an ontology. DIS-C is graph based in the sense that the whole topology of the ontology is considered when computing the weight of the relationships between concepts.*
+
+## Description 📖
+In this library, the implementation code of the DIS-C method is found. The DIS-C algorithm works through ontologies represented by conceptual graphs, these graphs are of the NetworkX type and can come from any data corpus, as long as the definition of *conceptualization* given in the original article is met; the library itself already includes an interface to create such graphs from WordNet. There are two implementations:
+
+- [Standard o Original](#standard)
+- [Simple o Accelerated](#simple)
+
+To see more about DIS-C method [click here](https://link.springer.com/article/10.1007/s10115-018-1200-3)
+
+To know the theoretical bases and the algorithms used in the accelerated version [click here](https://link.springer.com/article/10.1007/s10115-018-1200-3)
+
+## Installation 🔨
+Installing the library is as easy as running the following command:
+
+```python
+pip install disc-python
+```
+### Local Installation
+To a local installation for development purposes, it is necessary to clone this repository or create its fork and install the dependencies
+```python
+git clone 
+pip install -r requeriments.txt
+```
+It is also necessary to download the WordNet corpus from the [nltk](https://www.nltk.org) library (already included in requirements.txt)
+
+```python
+import nltk
+nltk.download('wordnet')
+```
+
+Once these steps are done to add the project to the PYTHONPATH if you wish and create your own development branches.
+## File Structure 📁
+```
+root
+│   README.md
+│   requeriments.txt
+|   setup.py
+|
+└───disc_python
+    |   disc.py // algo dis-c
+    |   __init__.py
+    |
+    └───algoritmos
+    │       deterministas.py
+    │       aproximacion.py
+    |       generic.py // deprecated
+    |       paralelos.py //not implemented
+    │       __init__.py
+    │
+    └───corpus
+    │       wordnet.py
+    │       __init__.py
+    │
+    └───graph // not implemented
+            ...
+```
+
+## Simple Usage 🚀
+
+The library consists of several modules, which are: the conceptual graph construction module, the algorithm module for calculating weight propagation (generality) and the DIS-C algorithm module. The main module is the DIS-C algorithm itself, to access it a conceptual graph must be created beforehand. As specified, the library already has a module for the creation of said graphs, this can be done through the following lines of code:
+
+```python
+from disc_python.corpus import wornet
+w = wornet.WordNet()
+g = w.to_graph_connect_words('cat','human', max_depth=3)
+```
+In this case a graph is formed that connects the words 'cat' and 'human', since a depth search is performed, the depth of the search can be specified. To see the additional parameters you can use the 'help' tool of the python interpreter. In WordNet there are several types of relationships, the module is configured to use all of them, however you can modify them by accessing the 'use_type' attribute.
+
+```python
+from disc_python.corpus import wornet
+w = wornet.WordNet()
+w.use_type
+{
+    'HYPERNYMS': True,
+    'HYPONYMS': True,
+    'INSTANCE_HYPERNYMS': True,
+    'INSTANCE_HYPONYMS': True,
+    'MEMBER_HOLONYMS': True,
+    'MEMBER_MERONYMS': True,
+    'PART_HOLONYMS': True,
+    'PART_MERONYMS': True
+}
+```
+
+The generated graph is of type NetworkX so it can make use of the functions specified in the library. Once the graph has been generated, you can use the DIS-C algorithm, just import the main module and pass the necessary parameters.
+
+```python
+import disc_python as d
+c = {
+    "pair_1":
+    {
+        "word_a": "human",
+        "word_b": "cat"
+    }
+}
+g_disc = d.disc(g, concepts=c, k=2)
+```
+
+The algorithm that it uses by default is of the simple sketches type, so the parameter 'k' must be passed, which is the number of iterations or sketches that the algorithm performs, the higher the number, the better the precision, but the computation time is higher in addition to the fact that, given a threshold, it can no longer improve; it is recommended to analyze the topology of the graph to provide a moderate 'k' value, in the tests carried out, values greater than 15 no longer imply a significant change.
+
+The supported algorithms are the following:
+
+```python
+import disc_python as d
+c = {
+    "pair_1":
+    {
+        "word_a": "human",
+        "word_b": "cat"
+    }
+}
+
+// Simples
+g_disc = d.disc(g, algo='sketches_simple', concepts=c, k=2, verbose=True) // default
+g_disc = d.disc(g, algo='pruned_dijkstra_simple', concepts=c, verbose=True) // k parameter not necessary
+
+//Standard ( compute apsp problem )
+g_disc = d.disc(g, algo='dijkstra', concepts=c, verbose=True) // k parameter not necessary
+g_disc = d.disc(g, algo='pruned_dijkstra', concepts=c, verbose=True) // k parameter not necessary
+g_disc = d.disc(g, algo='sketche', concepts=c, k=2, verbose=True) // k parameter necessary
+
+```
+
+Another important parameter is the 'concepts' parameter, this parameter specifies the pairs of words where the distance calculation will be performed. In essence it is a dictionary of dictionary. The key of the first level is the pair of words, while its value is the dictionary with two keys; the 'a' word and the 'b' word. The names of the keys can be arbitrary as long as they follow the structure described. If you want to calculate all the distances between all pairs of words, instead of passing them as 'concepts', you must supply the 'all_terms' parameter as true (all_terms=True). Note that this slows down execution since, asymptotically, there are n^2 pairs of words.
+
+The resulting graph contains the 'disc_to_node_' key in the specified concepts and can also be accessed via the 'get_disc' function.
+
+```python
+import disc_python as d
+c = {
+    "pair_1":
+    {
+        "word_a": "human",
+        "word_b": "cat"
+    }
+}
+g_disc = d.disc(g, concepts=c, k=2)
+g_disc.nodes['human']['disc_to_node_']
+{
+    'cat': 0.49033719301223755
+}
+g_disc.nodes['cat']['disc_to_node_']
+{
+    'human': 2.341766834259033
+}
+d.get_disc(g_disc, 'cat', 'human')
+2.341766834259033
+d.get_disc(g_disc, 'human', 'cat')
+0.49033719301223755
+```
+
+You can also make independent use of algorithms for the computation of generality, which are essentially algorithms on graphs and can be useful in many other tasks. It is expected that for future versions, these algorithms will be available in the NetworkX library.
+
+```python
+from disc_python import algoritmos as algos
+algos.determistas.__all__
+[
+    'all_pairs_dijkstra',
+    'all_pairs_floyd_warshall',
+    'cover_labeling',
+    'apsp_labeling'
+]
+algos.aproximacion.__all__
+[
+    'sketch_apsp',
+    'sketches',
+    'common_seeds',
+    'sketch_shorest_path',
+    'all_pairs_ant_colony'
+]
+```
+To see the usage and documentation you can use 'help(*something*)'
+
+
+### Standard
+The standard version of the original algorithm makes one hundred percent use of the algorithm described in the original article, in which a process of *weight propagation* is described to calculate the *generality* of each concept in the graph, which requires solving the APSP problem (cubic complexity). In this implementation, to attack the propagation problem, three algorithms are used: Dijkstra, PLL (Pruned Labeling Landmark) with Dijkstra and Sketch base method. When calling the algorithm, you can specify with which algorithm to solve the problem, since, depending on the topology of the graph, one may be faster than the others.
+
+### Simple
+In the simple version, the APSP calculation is omitted, so the calculation of the *generality* is done through the *coverage* of the graph. The concept of *covering* is not the one described [formally in graph theory](https://en.wikipedia.org/wiki/Covering_graph), but the one described by the methods used. For the implementation of this version, two algorithms can be accessed: PLL (Pruned Labeling Landmark) with Dijkstra and Sketch base method. In essence, the same algorithms are used as in the standard version (because it also calculates coverage) but, in said version, it performs n^2 queries, so its complexity increases.
+
+## Autores ✒️
+
+- Esteban Mendiola Téllez - Mendiola_esteban@outlook.com
+
+## Licencia 📝
+This project is licensed under the MIT License - see the [LICENSE.md](https://gitlab.com/TebanMT/disc_python/-/blob/master/LICENSE) file for details.
+
+## Expressions of Gratitude 😃
+- Tell others about this project 📢
+- Invite someone from the team a beer 🍺 or a coffee ☕.
+- Say thank you publicly 🤓.
+- If you use the code for any scientific papper please cite the articles on which the project is based:
+     - https://link.springer.com/article/10.1007/s10115-018-1200-3
