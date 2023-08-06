@@ -1,0 +1,9 @@
+solstice/__init__.py,sha256=ehr3pn2CPSnQoVQgGcfuXNUrNBgoH5_iZmADy0CQnnU,669
+solstice/experiment.py,sha256=iNA3fYoqj_iWl8Hmv2lLgmbp3P9gRc2hmnxH8UvB9Ec,6769
+solstice/metrics.py,sha256=jHwd2vOsXm7vo9H-bP0Ee6yD1NO0Y3Qos1SWyExk5Zo,9754
+solstice/trainer.py,sha256=A-3oSUjVORNnPf0Jo_0s4lYZhfsQzws83oiSwtl0Rik,18840
+solstice/utils.py,sha256=7TT3DgGKLXAAzonBq8kz7kndCNEQN3BIucDK4sMnpRI,1724
+solstice_jax-0.0.1.dist-info/LICENSE,sha256=PKAmuV6Famd_V2p_09gQdfpztv_ZokwpWkWzvUGrYJc,1070
+solstice_jax-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+solstice_jax-0.0.1.dist-info/METADATA,sha256=yUoA8pPprY7sh7feKRAnvmA3rh4YHaR3bSYhBWNR_jo,6929
+solstice_jax-0.0.1.dist-info/RECORD,,
