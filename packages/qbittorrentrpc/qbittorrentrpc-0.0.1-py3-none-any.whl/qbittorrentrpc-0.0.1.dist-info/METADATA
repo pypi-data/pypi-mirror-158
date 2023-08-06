@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: qbittorrentrpc
+Version: 0.0.1
+Summary: Simple qbittorrent HTTP-RPC client.
+Home-page: http://code.foxe6.kozow.com/qbittorrentrpc/
+Author: f̣ộx̣ệ6
+Author-email: foxe6@pm.me
+License: AGPL-3.0
+Project-URL: Sourcecode, http://code.foxe6.kozow.com/qbittorrentrpc.zip
+Project-URL: Documentation, http://code.foxe6.kozow.com/qbittorrentrpc/docs/
+Project-URL: Example, http://code.foxe6.kozow.com/qbittorrentrpc/test/
+Project-URL: Funding, https://paypal.me/foxe6
+Project-URL: Say Thanks!, https://saythanks.io/to/foxe6
+Keywords: qbittorrent rpc client
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: lxml (>=0.0.1)
+Requires-Dist: requests (>=0.0.1)
+
+# qbittorrentrpc
+
+<badges>[![pkg](https://img.shields.io/badge/pkg-qbittorrentrpc-808080.svg)](http://code.foxe6.kozow.com/qbittorrentrpc/)
+[![version](https://img.shields.io/pypi/v/qbittorrentrpc.svg)](https://pypi.org/project/qbittorrentrpc/)
+[![license](https://img.shields.io/pypi/l/qbittorrentrpc.svg)](https://pypi.org/project/qbittorrentrpc/)
+[![pyversions](https://img.shields.io/pypi/pyversions/qbittorrentrpc.svg)](https://pypi.org/project/qbittorrentrpc/)  
+[![powered](https://img.shields.io/badge/Say-Thanks-ddddff.svg)](https://saythanks.io/to/foxe6)
+[![donate](https://img.shields.io/badge/Donate-Paypal-0070ba.svg)](https://paypal.me/foxe6)
+[![made](https://img.shields.io/badge/Made%20with-PyCharm-red.svg)](https://www.jetbrains.com/pycharm/)
+</badges>
+
+<i>Simple qbittorrent HTTP-RPC client.</i>
+
+# Hierarchy
+
+![qbittorrentrpc](http://code.foxe6.kozow.com/qbittorrentrpc/qbittorrentrpc.svg)
+
+# Example
+
+## python
+See `test`.
+
