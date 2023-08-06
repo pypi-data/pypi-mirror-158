@@ -1,0 +1,2 @@
+[console_scripts]
+padlock_probe_designer = oligo_designer_toolsuite.pipelines.padlock_probe_designer:main
