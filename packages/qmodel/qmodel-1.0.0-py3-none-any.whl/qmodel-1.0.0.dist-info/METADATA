@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: qmodel
+Version: 1.0.0
+Summary: package to create a Random Forest Classifier model, to read 7segments display from images 
+Home-page: UNKNOWN
+Author: Ethan Sebag , Sylvain Perez
+Author-email: ethanspros@hotmail.com , sylvain.perez@q-leap.eu
+License: MIT
+Keywords: 7-segment,python,otp,Random Forest Classifer,Random,Forest,Classifier
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: pytest-shutil
+Requires-Dist: numpy
+Requires-Dist: scikit-image
+Requires-Dist: opencv-python
+Requires-Dist: matplotlib
+Requires-Dist: pillow
+Requires-Dist: glob2
+Requires-Dist: joblib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: sklearn
+
+UNKNOWN
+
+
