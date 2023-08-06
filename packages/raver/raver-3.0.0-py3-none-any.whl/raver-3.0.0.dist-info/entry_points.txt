@@ -1,0 +1,3 @@
+[console_scripts]
+raver=raver.cli:cli
+
