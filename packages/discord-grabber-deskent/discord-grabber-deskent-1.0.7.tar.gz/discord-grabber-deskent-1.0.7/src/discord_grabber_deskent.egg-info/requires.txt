@@ -1,0 +1,6 @@
+aiohttp==3.8.1
+fake-useragent==0.1.11
+pydantic==1.9.1
+pydantic[email]
+python-dotenv==0.19.2
+myloguru-deskent==0.0.12
