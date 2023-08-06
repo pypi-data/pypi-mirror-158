@@ -1,0 +1,2 @@
+[console_scripts]
+vtaxa = vtaxa.cli:main
