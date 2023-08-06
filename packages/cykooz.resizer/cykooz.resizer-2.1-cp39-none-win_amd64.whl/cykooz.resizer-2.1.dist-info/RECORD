@@ -1,0 +1,12 @@
+cykooz.resizer-2.1.dist-info/METADATA,sha256=0xtv4bXtosfWAek7S8IcsiQAi3xjeXnLjDWgyjhMMGs,6464
+cykooz.resizer-2.1.dist-info/WHEEL,sha256=frIhG7sd_mih_kp2h41yYjWuRBLLWqFy93f84w0NLbo,96
+cykooz.resizer-2.1.dist-info/license_files/LICENSE-APACHE,sha256=i3qH0s8tLNdG2agjwt-XELI58fBfvOWYisqsNxKySZI,11551
+cykooz.resizer-2.1.dist-info/license_files/LICENSE-MIT,sha256=45IYq3ppGNK6zarYxfsoedd1WBqrQVgMbMQiFhtb1Mw,1094
+cykooz/resizer/alpha.py,sha256=E-n6EZKFonUkZPC12HRrF1G2PcLTeOumcOZaFEYOGVg,3151
+cykooz/resizer/resize.py,sha256=x2jhORy3kSM5dg_x1QkyENFTrtmX6d4lP35zNKuoIR0,5716
+cykooz/resizer/rust_lib.pyi,sha256=6GKnDqGbaqGb3MK2fnjyUTER6ZjeyAXKgQq25DbXilw,3588
+cykooz/resizer/structs.py,sha256=Io5j-U0rwPK1AT3v56Rp5P2L0xRlAU_6o2SAfqGO8DM,7335
+cykooz/resizer/__init__.py,sha256=TCP0m5Zd82k50wP-pe50y__LqWwjHrm3CNRjyMxFCvE,132
+cykooz/__init__.py,sha256=F0UD44DuZCpVvI1PX5rW4FcKQ004ORdqeOhf4JsheIY,66
+cykooz/resizer/rust_lib.cp39-win_amd64.pyd,sha256=5DX_4GsbEm357heIcLwqz4NWCv-hGo9IznJotuIY1dQ,1151488
+cykooz.resizer-2.1.dist-info/RECORD,,
