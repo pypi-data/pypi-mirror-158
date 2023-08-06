@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: pycalcium
+Version: 1.0
+Summary: A Mathematical Equation Parser and Solver
+Home-page: https://github.com/eliazdev/Calcium
+Author: EliaZ
+Author-email: UNKNOWN
+License: GPL
+Download-URL: https://github.com/eliazdev/Calcium/archive/refs/tags/v1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: calcium,solver
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Mathematics
