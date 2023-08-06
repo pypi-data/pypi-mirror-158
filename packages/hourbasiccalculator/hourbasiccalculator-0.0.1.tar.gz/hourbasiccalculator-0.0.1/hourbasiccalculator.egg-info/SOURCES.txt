@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+README.txt
+setup.py
+hourbasiccalculator/__init__.py
+hourbasiccalculator.egg-info/PKG-INFO
+hourbasiccalculator.egg-info/SOURCES.txt
+hourbasiccalculator.egg-info/dependency_links.txt
+hourbasiccalculator.egg-info/top_level.txt
