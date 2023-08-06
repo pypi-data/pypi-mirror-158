@@ -1,0 +1,5 @@
+-e .[test]
+scipy
+rtree==0.9.7
+threedi_scenario_downloader==0.15
+cached_property
