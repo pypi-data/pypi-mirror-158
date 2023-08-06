@@ -1,0 +1,16 @@
+ckanext_googleanalyticsbasic-0.1.0-nspkg.pth,sha256=beMMF_XyJdRQ79_HO-JdMJ55Pa2_81M4CrTa972cUAc,1804
+ckanext/googleanalyticsbasic/plugin/__init__.py,sha256=LPtfU4hjxVAooOJureQKklixZM14YiFfrQJ5S4t2VHo,1538
+ckanext/googleanalyticsbasic/plugin/flask_plugin.py,sha256=5LSGexd6MXJgpnumXBiWmE8ZcILIbUNSNkZslHaMdZE,1619
+ckanext/googleanalyticsbasic/plugin/pylons_plugin.py,sha256=fVhpz-1KIJIwHX_Huy1Wkx7ZaPAuCfq_UrgbBtC1YAo,1238
+ckanext/googleanalyticsbasic/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ckanext/googleanalyticsbasic/tests/test_plugin.py,sha256=WLgflD4a7wvJNyb_d8BrgPazSans2YEmz274dzeUBuA,1001
+ckanext/googleanalyticsbasic/tests/test_scripts_present.py,sha256=MTt1pmMTpNmb6Y92m_awPRFaQr1AGBdk8gAYyM3NzME,2070
+ckanext/googleanalyticsbasic/tests/nose/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ckanext/googleanalyticsbasic/tests/nose/test_plugin.py,sha256=8KnvGdIiWftXloCxvOkVv3sgSmTuh2Oy_0Jrk2I729E,967
+ckanext/googleanalyticsbasic/tests/nose/test_scripts_present.py,sha256=V402JuiKC-XJGIZz-e9gJAwKTcViWykhV5x1PfOUBlw,1761
+ckanext_googleanalyticsbasic-0.1.0.dist-info/METADATA,sha256=29r7972Qpxll7lDONzUtV9VJjqcAPt8zeCtb8gER99A,3505
+ckanext_googleanalyticsbasic-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ckanext_googleanalyticsbasic-0.1.0.dist-info/entry_points.txt,sha256=YqLk2hThMFAXovv-RFDoGsEkwgDRFs8oLHzEP2xjwyk,115
+ckanext_googleanalyticsbasic-0.1.0.dist-info/namespace_packages.txt,sha256=VQXWq3nrmd84IGrn-FJ6FKmYRlj8Sp-ekVklHRd_hXY,37
+ckanext_googleanalyticsbasic-0.1.0.dist-info/top_level.txt,sha256=5yjNwq-s42weaiMMUuA5lZ45g99ANsfcRBCvac1JMS4,8
+ckanext_googleanalyticsbasic-0.1.0.dist-info/RECORD,,
