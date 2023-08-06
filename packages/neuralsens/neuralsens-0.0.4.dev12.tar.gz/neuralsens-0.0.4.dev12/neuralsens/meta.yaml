@@ -1,0 +1,41 @@
+{% set name = "neuralsens" %}
+{% set version = "0.0.4.dev11" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+  sha256: 7c903e2a60d7e837519ad86904a702c74eacf0b210d7fb21cb3e79cac34c3107
+
+
+build:
+  number: 0
+  script: "{{ PYTHON }} -m pip install . -vv"
+
+requirements:
+  host:
+    - pip
+    - python
+    - poetry
+  run:
+    - python
+    - numpy
+    - pandas
+    - matplotlib
+
+test:
+  imports:
+    - neuralsens
+
+about:
+  home: "https://github.com/JaiPizGon/NeuralSens"
+  license: "GNU General Public v3 or later (GPLv3+)"
+  license_family: GPL3
+  license_file: LICENSE
+  summary: "Analysis functions to quantify inputs importance in neural network models."
+
+extra:
+  recipe-maintainers:
+    - JaiPizGon
