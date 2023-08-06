@@ -1,0 +1,2319 @@
+[MODULE]
+ID=REMOTEACTION
+NAME=Remote Action
+DESC=Remote Action Workflow Forms
+VERSION=6.0.18
+COMPANY=Orchid Systems
+WEBSITE=https://remote-actions.readthedocs.io/
+
+[MESSAGE]
+MSGID=REMOTEACTION.WFAPPROVALFORM
+TEXTDESC=Template for the web form contents
+SUBJECT=Workflow records are available to approve
+COMMENTS=Form Title (email subject) and body (email body) can include field names from your workflow record e.g. {IDCUST} for customer id
+BODY=Company {ORG} - {CONAME}\r\n\r\nWorkflow records available to review.\r\n\r\nPlease review ....\r\n\r\nThe request was made on {DD}/{MM}/{YYYY} at {HOUR}:{MINUTE}:{SECOND} by {USER}
+
+[MESSAGE]
+MSGID=REMOTEACTION.WFAPPROVALFORMEMAIL
+TEXTDESC=Template for the email containing the web form link
+SUBJECT=Workflow records marked for your attention
+COMMENTS=Email subject and body can include field names from your workflow record e.g. {IDCUST} for customer id
+BODY=<html>\r\n<body>\r\n<p>Hi  {CURUSER} team member</p>\r\n\r\n<p> <b> Company {ORG} - {CONAME} </b></p>\r\n\r\n<p>There are workflow records marked for your attention</p>\r\n\r\n<p>Please review</p>\r\n\r\n<p>The request was made on {DD}/{MM}/{YYYY} at {HOUR}:{MINUTE}:{SE
+BODY2=COND}  by {USER}</p>\r\n\r\n<p>To Approve / Reject remotely, click on the link below</p>\r\n\r\n<p>{FORMURL}</p>\r\n\r\n<p>If you want to see more details or drill down to the detailed entry, use the Sage 300 workflow console to accept / reject, use the link bel
+BODY3=ow</p> <p><a href="orchid:{ORG}/VI1015/&amp;All=Assigned%20only%20to%20&amp;me">Workflow Console</a></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n\r\n</body>\r\n</html>
+
+[TABLE]
+name=REMOTEACTION.VIRAOPT
+desc=Remote Actions Token
+dbname=VIRAOPT
+
+[FIELD1]
+field=TOKEN
+datatype=1
+mask=%-36C
+size=36
+desc=*Token
+
+[KEY1]
+KEYNAME=KEY1
+FIELD1=TOKEN
+allowdup=0
+
+[TABLE]
+name=REMOTEACTION.VIRAHNDL
+desc=Remote Action Handlers
+dbname=VIRAHNDL
+comments=Remote Action Form Handlers
+
+[FIELD1]
+field=TYPE
+datatype=1
+size=64
+desc=Form Type
+
+[FIELD2]
+field=CLASSPATH
+datatype=1
+size=250
+desc=Handler Class
+
+[KEY1]
+KEYNAME=KEY1
+FIELD1=TYPE
+allowdup=0
+
+[TABLE]
+name=REMOTEACTION.ADBSIGN
+desc=Adobe Sign Config
+dbname=ADBSIGN
+comments=Adobe Sign for Remote Action Configuration
+
+[FIELD1]
+field=SHARD
+datatype=1
+size=8
+desc=Shard ID
+
+[FIELD2]
+field=CLIENTID
+datatype=1
+size=250
+desc=API Client ID
+
+[FIELD3]
+field=CLIENTSEC
+datatype=1
+size=250
+desc=API Client Secret
+
+[FIELD4]
+field=ACCESSPT
+datatype=1
+size=250
+desc=Access Point URL
+
+[FIELD5]
+field=CODE
+datatype=1
+size=250
+desc=Connection Code
+
+[FIELD6]
+field=ACCESSTK
+datatype=1
+size=250
+desc=Access Token (auto)
+
+[FIELD7]
+field=REFRESHTK
+datatype=1
+size=250
+desc=Refresh Token (auto)
+
+[FIELD8]
+field=EXPIRESON
+datatype=8
+desc=Token Expiry (auto)
+
+[KEY1]
+KEYNAME=KEY1
+FIELD1=SHARD
+allowdup=0
+
+[TABLE]
+name=REMOTEACTION.ADBSIGNA
+desc=Adobe Sign Agreements
+dbname=ADBSIGNA
+comments=Adobe Sign Agreement IDs
+
+[FIELD1]
+field=AGREEID
+datatype=1
+size=190
+desc=Agreement ID
+
+[FIELD2]
+field=WIID
+datatype=8
+desc=Workflow ID
+ftable=VI0034
+
+[FIELD3]
+field=STATUS
+datatype=1
+size=30
+desc=Agreement Status
+
+[FIELD4]
+field=SIGNEDSTEP
+datatype=1
+size=150
+desc=Next Step on Signed
+
+[FIELD5]
+field=REJECTSTEP
+datatype=1
+size=150
+desc=Next Step on Reject
+
+[FIELD6]
+field=ERRORSTEP
+datatype=1
+size=150
+desc=Next Step on Error
+
+[KEY1]
+KEYNAME=KEY1
+FIELD1=AGREEID
+allowdup=0
+
+[KEY2]
+KEYNAME=KEY2
+FIELD1=WIID
+allowdup=1
+
+[TABLE]
+name=REMOTEACTION.ADBSIGND
+desc=Adobe Sign Documents
+dbname=ADBSIGND
+comments=Adobe Sign Document IDs
+
+[FIELD1]
+field=TDOCID1
+datatype=1
+size=190
+desc=Transient Doc ID1
+
+[FIELD2]
+field=TDOCID2
+datatype=1
+size=250
+desc=Transient Doc ID2
+
+[FIELD3]
+field=AGREEID
+datatype=1
+size=190
+desc=Agreement ID
+
+[KEY1]
+KEYNAME=KEY1
+FIELD1=TDOCID1
+allowdup=0
+
+[KEY2]
+KEYNAME=KEY2
+FIELD1=AGREEID
+allowdup=1
+
+[MENU]
+parent=VI0000
+name=REMOTEACTION.REMOTEACTION
+type=1
+title=Remote Action
+
+[MENU]
+parent=REMOTEACTION.REMOTEACTION
+name=REMOTEACTION.OPTIONSUI
+type=2
+title=Remote Action Options
+
+[MENU]
+parent=REMOTEACTION.REMOTEACTION
+name=REMOTEACTION.TOKENUI
+type=2
+title=Token Management
+
+[MENU]
+parent=REMOTEACTION.REMOTEACTION
+name=REMOTEACTION.POLLER
+type=2
+title=Poller
+
+[MENU]
+parent=REMOTEACTION.REMOTEACTION
+name=REMOTEACTION.ADOBESIGNCONNECT
+type=2
+title=Adobe Sign Connect
+
+
+[SCRIPT]
+FILENAME=REMOTEACTION.TokenUI
+>>> SCRIPT >>>
+"""
+The Remote Action Token UI allows you to manage the secret Remote Action
+Token for the current company.
+"""
+try:
+    from accpac import *
+except ImportError as e:
+    pass
+
+import re
+import traceback
+
+from remote_actions import (set_token, get_token, get_logger,
+                            debug_enabled, ADMIN_USER, )
+from remote_actions.services.fleeting_forms import NamespaceClient
+
+DEBUG = False
+NAME = "Remote Action Token Management"
+VERSION = '6.0.18'
+logger = None
+
+## Entry point
+
+def main(args):
+    global DEBUG
+    global logger
+    DEBUG = debug_enabled()
+    logger = get_logger('tokenui')
+    if user != ADMIN_USER:
+        ui = UI()
+        ui.show()
+        _alert("Only {} can run {}.".format(ADMIN_USER, NAME))
+        ui.closeUI()
+    else:
+        RemoteActionTokenUI()
+
+### Utility Functions
+
+def _debug(msg, excinfo=None):
+    if DEBUG:
+        message = "DEBUG {}\n{}\n---------\n{}".format(rotoID, NAME, msg)
+        if excinfo:
+            message = "\n".join([message, traceback.format_exc(), ])
+        showMessageBox(msg)
+        logger.debug(msg)
+
+def _alert(msg):
+    showMessageBox("{}\n\n{}".format(NAME, msg))
+    logger.info(msg)
+
+def success(*args):
+    if sum(args) > 0:
+        return False
+    return True
+
+### Interface Definition
+
+class RemoteActionTokenUI(UI):
+    """UI for Remote action token management.    """
+
+    # Custom control constants
+    BUTTON_WIDTH = 1265
+    BUTTON_SPACE = 150
+
+    UUID_REGEX = re.compile('^[a-f0-9]{8}-?[a-f0-9]{4}-?4[a-f0-9]{3}-'
+                            '?[89ab][a-f0-9]{3}-?[a-f0-9]{12}\Z', re.I)
+
+    def __init__(self):
+        """Initialize a new UI instance."""
+        UI.__init__(self)
+        self.title = "Remote Actions - Token Management"
+        self.token = get_token()
+        self.createScreen()
+        self.show()
+        self.onClose = self.onCloseClick
+
+    def obscured_token(self):
+        """Get the token for this company but obscure its contents with '*'s.
+
+        :returns: token with characters obscured.
+        :rtype: string
+        """
+        if self.token:
+            return re.sub('[a-zA-Z0-9]', '*', self.token, 24)
+        return 'unset'
+
+    def createScreen(self):
+        """Configure and render the fields and buttons.
+        | Token  ______________________________ |
+        |                    +Save      +Close  |
+        """
+        f = self.addUIField("tokenTextField")
+        f.controlType = "EDIT"
+        f.size = 250
+        f.width = 5000
+        f.labelWidth = 60
+        f.caption = "Token"
+        f.hasFinder = False
+        f.setValue(self.obscured_token())
+        f.enabled = True
+        self.token_field = f
+
+        btn = self.addButton("btnSave", "&Save")
+        btn.top = - self.BUTTON_SPACE - btn.height
+        btn.width = self.BUTTON_WIDTH
+        btn.onClick = self.onSaveClick
+        self.btnSave = btn
+
+        btn = self.addButton("btnClose", "&Close")
+        btn.top = - self.BUTTON_SPACE - btn.height
+        btn.width = self.BUTTON_WIDTH
+        btn.left = -self.BUTTON_SPACE - self.BUTTON_WIDTH
+        btn.onClick = self.onCloseClick
+        self.btnClose = btn
+
+    def onSaveClick(self):
+        """Set the token if it is valid.
+
+        When Save is clicked the token is checked for valid formatting.
+        It is then set in the database and the Namespace client is used to
+        check whether there is a namespace associated with the token.
+
+        If so, all is well.  Otherwise, the token is reset to its previous
+        value and an error is displayed.
+
+        :returns: None
+        """
+        token_value = self.token_field.getValue()
+        current_token = self.token
+        if "*" in token_value:
+            _alert("There are * in the token value, which isn't valid. "
+                   "Close the screen without saving if the token doesn't need "
+                   "to be changed.")
+            return
+
+        if not self.UUID_REGEX.match(token_value):
+            _alert("The provided token isn't a valid UUID. Please verify the "
+                   "token format and try again.")
+            return
+
+        try:
+            namespaces = NamespaceClient(token=token_value).list()
+            if not namespaces:
+                raise Exception("can't find a namespace with token {}.".format(
+                    token_value))
+            self.token = token_value
+        except Exception as e:
+            _alert("Failed to check the token wih the service.")
+            _debug("Exception: {}".format(e))
+            return
+
+        try:
+            set_token(token_value)
+        except Exception as e:
+            _alert("Failed to persist token in the database.")
+            _debug("Exception: {}".format(e))
+            return
+
+        _alert("Token set!")
+        _debug("token set to {} - namespace {}.".format(
+                self.token[-6:], namespaces[0]["subdomain"]))
+
+    def onCloseClick(self):
+        """Close the UI if the Close button or window X are clicked."""
+        self.closeUI()
+
+
+<<< SCRIPT <<<
+
+[SCRIPT]
+FILENAME=REMOTEACTION.OptionsUI
+>>> SCRIPT >>>
+"""
+The Remote Actions Options UI allows you to change the options of and
+check on the usage information for the current company.
+"""
+try:
+    from accpac import *
+except ImportError:
+    pass
+
+import sys
+import datetime
+import traceback
+import subprocess
+
+from remote_actions import get_token, get_logger, debug_enabled, ADMIN_USER
+from remote_actions.services.fleeting_forms import NamespaceClient
+
+DEBUG = False
+NAME = "Remote Action Options"
+VERSION = '6.0.18'
+logger = None
+
+## Entry point
+
+def main(args):
+    global logger
+    global DEBUG
+    DEBUG = debug_enabled()
+    logger = get_logger("optionsui")
+    if user != ADMIN_USER:
+        ui = UI()
+        ui.show()
+        _alert("Only {} can run {}.".format(ADMIN_USER, NAME))
+        ui.closeUI()
+    else:
+        RemoteActionsUI()
+
+### Utility Functions
+
+def _debug(msg, excinfo=None):
+    if DEBUG:
+        message = "DEBUG {}\n{}\n---------\n{}".format(rotoID, NAME, msg)
+        if excinfo:
+            message = "\n".join([message, traceback.format_exc(), ])
+        showMessageBox(message)
+        logger.debug(msg)
+
+def _alert(msg):
+    showMessageBox("{}\n\n{}".format(NAME, msg))
+    logger.info(msg)
+
+def success(*args):
+    if sum(args) > 0:
+        return False
+    return True
+
+### Interface Definition
+
+class RemoteActionsUI(UI):
+    """UI for Remote Actions management."""
+
+    # Custom control constants
+    BUTTON_WIDTH = 1265
+    BUTTON_SPACE = 150
+
+    # Grid layout
+    COL_MONTH = 0
+    COL_USAGE = 1
+
+    def _prompt_user_for_token(self, message):
+        """Prompt the user for a token.
+
+        This is used on startup if no token is set for the current company.
+
+        :param message: text to display to the user before opening the UI.
+        :type message: str
+        :returns: None
+        """
+        _alert(message)
+        openExtenderUI('REMOTEACTION.TokenUI', "", True)
+
+    def __init__(self):
+        """Initialize a new UI instance.  Speaks."""
+        UI.__init__(self)
+        shown = False
+        self.title = "Remote Actions Options"
+        try:
+            self.token = get_token()
+            if not self.token:
+                self._prompt_user_for_token(
+                        "No token set but one is required to continue. "
+                        "The token management screen will now open, "
+                        "input your unique token there.")
+
+            self.namespace_client = NamespaceClient()
+            self.namespaces = self.namespace_client.list()
+            if not self.namespaces:
+                self._prompt_user_for_token(
+                    "Couldn't find any namespace for the configured token. "
+                    "Please update the token now.")
+                self.namespaces = self.namespace_client.list()
+
+            if not self.namespaces:
+                raise Exception("There are no namespaces for the "
+                                "configured token.")
+
+            self.namespace = self.namespaces[0]
+            self.createScreen()
+            self.show()
+            shown = True
+            self._refresh_grid()
+        except Exception as e:
+            if not shown:
+                self.show()
+            _alert("Error starting up: {}".format(
+                e))
+            _debug(e, excinfo=sys.exc_info()[2])
+            self.closeUI()
+        else:
+            self.onClose = self.onCloseClick
+            _debug("version {} started with namespace {}.".format(
+                    VERSION, self.namespace['subdomain']))
+
+    def createScreen(self):
+        """Configure and render the fields and buttons.
+        | Namespace subdomain.ff.io             |
+        |                                       |
+        | Soft Limit: NNNNNNNN                  |
+        | Hard Limit: NNNNNNNN                  |
+        |                                       |
+        | Remaining this Month: NNNNNN          |
+        |                                       |
+        | Logo:  [https://path/logo.png       ] |
+        | Style: [https://path/style.png      ] |
+        |                                       |
+        || Period   |                  Usage   ||
+        || 2019-12  |                  15456   ||
+        || 2020-01  |                  16765   ||
+        |                                       |
+        |                    +Save      +Close  |
+        """
+        f = self.addUIField("namespaceLabel")
+        f.controlType = "EDIT"
+        f.size = 250
+        f.width = 5000
+        f.labelWidth = 60
+        f.caption = "Namespace"
+        f.hasFinder = False
+        f.setValue("{}.fleetingforms.io".format(self.namespace['subdomain']))
+        f.enabled = False
+        self.namespace_field = f
+
+        f = self.addUIField("softLimitLabel")
+        f.controlType = "EDIT"
+        f.size = 250
+        f.width = 5000
+        f.labelWidth = 60
+        f.caption = "Soft Limit"
+        f.hasFinder = False
+        f.setValue(str(self.namespace['soft_limit']))
+        f.enabled = False
+        self.soft_limit_field = f
+
+        f = self.addUIField("hardLimitLabel")
+        f.controlType = "EDIT"
+        f.size = 250
+        f.width = 5000
+        f.labelWidth = 60
+        f.caption = "Hard Limit"
+        f.hasFinder = False
+        f.setValue(str(self.namespace['hard_limit']))
+        f.enabled = False
+        self.hard_limit_field = f
+
+        f = self.addUIField("remainingLabel")
+        f.controlType = "EDIT"
+        f.size = 250
+        f.width = 5000
+        f.labelWidth = 60
+        f.caption = "Remaining (Month)"
+        f.hasFinder = False
+        curmonth = datetime.datetime.now().strftime("%Y-%m")
+        f.enabled = False
+        f.setValue(str(self.namespace['soft_limit'] -
+                   self.namespace['usage'].get(curmonth, 0)))
+        self.remaining_field = f
+
+        f = self.addUIField("supportEmailField")
+        f.controlType = "EDIT"
+        f.size = 250
+        f.width = 5000
+        f.labelWidth = 60
+        f.caption = "Support Email"
+        f.setValue(self.namespace.get('support_email', ''))
+        f.hasFinder = False
+        self.support_email_field = f
+
+        f = self.addUIField("logoUrlField")
+        f.controlType = "EDIT"
+        f.size = 250
+        f.width = 7500
+        f.labelWidth = 60
+        f.caption = "Logo URL"
+        f.setValue(self.namespace.get('logo', ''))
+        f.hasFinder = False
+        self.logo_field = f
+
+        f = self.addUIField("styleUrlField")
+        f.controlType = "EDIT"
+        f.size = 250
+        f.width = 7500
+        f.labelWidth = 60
+        f.caption = "Style URL"
+        f.setValue(self.namespace.get('style', ''))
+        f.hasFinder = False
+        self.style_field = f
+
+        grid = self.addGrid("usageGrid")
+
+        grid.setOnBeginEdit(self.gridOnBeginEdit)
+        grid.onRowChanged = self.gridOnRowChanged
+
+        grid.height = -100
+        grid.width = -150
+        # grid.top = self.remaining_label.top + 150
+        grid.addTextColumn("Month", "LEFT", 100, True)
+        grid.addTextColumn("Requests", "Right", 300, True)
+        self.usage_grid = grid
+        self.usage_grid.removeAllRows()
+
+        btn = self.addButton("btnSave", "&Save")
+        btn.top = - self.BUTTON_SPACE - btn.height
+        btn.width = self.BUTTON_WIDTH
+        btn.left = self.usage_grid.left
+        btn.onClick = self.onSaveClick
+        self.btnSave = btn
+
+        btn = self.addButton("btnToken", "&Token")
+        btn.top = - self.BUTTON_SPACE - btn.height
+        btn.width = self.BUTTON_WIDTH
+        btn.left = self.btnSave.left + self.BUTTON_SPACE + self.BUTTON_WIDTH
+        btn.onClick = self.onTokenClick
+        self.btnSave = btn
+
+        btn = self.addButton("btnClose", "&Close")
+        btn.top = - self.BUTTON_SPACE - btn.height
+        btn.width = self.BUTTON_WIDTH
+        btn.left = -self.BUTTON_SPACE - self.BUTTON_WIDTH
+        btn.onClick = self.onCloseClick
+        self.btnClose = btn
+
+        self.usage_grid.height = -self.BUTTON_SPACE - btn.height - 75
+
+    def gridOnBeginEdit(self, e):
+        _alert("Items in this grid cannot be edited.")
+        return Abort
+
+    def gridOnRowChanged(self, new_row):
+        return Continue
+
+    def _refresh_grid(self):
+        for month, usage in self.namespace['usage'].items():
+            row = self.usage_grid.createRow()
+            row.columns[self.COL_MONTH] = month
+            row.columns[self.COL_USAGE] = str(usage)
+            self.usage_grid.addRow(row)
+
+    def onSaveClick(self):
+        if not hasattr(self, 'namespace') or not self.namespace:
+            return Continue
+
+        logo = self.logo_field.getValue()
+        style = self.style_field.getValue()
+        support_email = self.support_email_field.getValue()
+
+        data = {
+            'id': self.namespace['id'],
+            'subdomain': self.namespace['subdomain'],
+            'support_email': support_email,
+            'logo': logo,
+            'style': style,
+        }
+
+        try:
+            self.namespace_client.update(self.namespace['id'],
+                                         data=data)
+            _alert("Remote Actions settings updated.")
+        except Exception as e:
+            _alert("Remote Actions settings update failed: {}".format(e))
+            logger.exception("namespace {} update failed: {}".format(
+                    self.namespace['id'], e))
+
+        return Continue
+
+    def onTokenClick(self):
+        openExtenderUI('REMOTEACTION.TokenUI', "", True)
+
+    def onCloseClick(self):
+        """Close the UI if the Close button or window X are clicked."""
+        self.closeUI()
+
+
+<<< SCRIPT <<<
+
+[SCRIPT]
+FILENAME=REMOTEACTION.AdobeSignConnect
+>>> SCRIPT >>>
+""" The Remote Actions Adobe Sign Connect UI walks you through
+the process of connecting the Adobe Sign Service.
+"""
+import sys
+import datetime
+import traceback
+import subprocess
+import webbrowser
+
+try:
+    from accpac import *
+    from remote_actions import get_token, get_logger, debug_enabled, ADMIN_USER
+    from remote_actions.services.adobe_sign import AdobeSignClient
+except ImportError:
+    pass
+
+
+DEBUG = False
+NAME = "Adobe Sign Connect"
+VERSION = '6.0.18'
+logger = None
+AUTHORIZE_URL = ("https://secure.{shard}.adobesign.com/public/oauth/v2?"
+                 "redirect_uri=https://poplars.dev/adobe-sign-activate.html&"
+                 "response_type=code&client_id={client_id}&"
+                 "scope=user_read+agreement_read+agreement_write+agreement_send")
+
+## Entry point
+
+def main(args):
+    global logger
+    global DEBUG
+    DEBUG = debug_enabled()
+    logger = get_logger("adobe_sign_connect")
+    if user != ADMIN_USER:
+        ui = UI()
+        ui.show()
+        _alert("Only {} can run {}.".format(ADMIN_USER, NAME))
+        ui.closeUI()
+    else:
+        RemoteActionsUI()
+
+### Utility Functions
+
+def _debug(msg, excinfo=None):
+    if DEBUG:
+        message = "DEBUG {}\n{}\n---------\n{}".format(rotoID, NAME, msg)
+        if excinfo:
+            message = "\n".join([message, traceback.format_exc(), ])
+        showMessageBox(message)
+        logger.debug(msg)
+
+def _alert(msg):
+    showMessageBox("{}\n\n{}".format(NAME, msg))
+    logger.info(msg)
+
+def success(*args):
+    if sum(args) > 0:
+        return False
+    return True
+
+### Interface Definition
+CONFIG = {
+            "shard": '',
+            "client_id": '',
+            "client_secret": '',
+            "access_point": '',
+            "code": '',
+            "access_token": '',
+            "refresh_token": '',
+            "expires_on": 0,
+            }
+
+class RemoteActionsUI(UI):
+    """UI for Adobe Sign Connect.
+
+    This UI walks users through the process of connecting to Adobe Sign
+    using OAuth.
+    """
+
+    # Custom control constants
+    BUTTON_WIDTH = 1265
+    BUTTON_SPACE = 150
+
+    def __init__(self):
+        UI.__init__(self)
+        shown = False
+        self.title = "Remote Actions - Connect to Adobe Sign"
+        self.client = None
+        try:
+            if self.setup_client():
+                self.client.setup_token()
+            self.createScreen()
+            self.set_controls_for_state()
+        except Exception as e:
+            if not shown:
+                self.show()
+            _alert("Error starting up: {}".format(
+                e))
+            _debug(e, excinfo=sys.exc_info()[2])
+            self.closeUI()
+        else:
+            self.onClose = self.onCloseClick
+        logger.info("AdobeSignConnect version {} started.".format(VERSION))
+
+    def setup_client(self):
+        """Setup the Adobe Sign Client.
+
+        This can fail if there is no configuration yet. If that is
+        the case, use a placeholder config until we have enough information
+        to create the client.
+        """
+        try:
+            self.client = AdobeSignClient()
+            self.config = self.client.config
+        except RuntimeError as e:
+            self.config = CONFIG
+
+        return self.client
+
+    def values_to_config(self):
+        """Copy the values from the interface into the configuration.
+
+        Capture user input in a config dictionary that mirrors the client
+        config dictionary.
+        """
+        self.config["client_id"] = self.client_id
+        self.config["client_secret"] = self.client_secret
+        self.config["shard"] = self.shard
+        self.config["code"] = self.connection_code
+
+        return self.config
+
+    @property
+    def shard(self):
+        """Get the value from the Shard Input Field."""
+        return self.shard_input.getValue().strip()
+
+    @property
+    def client_id(self):
+        """Get the value from the Client ID Input Field."""
+        return self.client_id_input.getValue().strip()
+
+    @property
+    def access_point(self):
+        """Get the value from the Access Point Input Field."""
+        return self.access_point_input.getValue().strip().rstrip('/')
+
+    @property
+    def connection_code(self):
+        """Get the value from the Connection Code Input Field."""
+        return self.connection_code_input.getValue().strip()
+
+    @property
+    def client_secret(self):
+        """Get the value from the Client Secret Input Field."""
+        return self.client_secret_input.getValue().strip()
+
+    def set_status(self, status):
+        """Set the Status Label."""
+        self.status_label.setText("Status: {}".format(status))
+
+    def set_controls_for_state(self):
+        """Set the control states based on the state of the configuration."""
+        # Disable everything
+        self.shard_input.disable()
+        self.client_id_input.disable()
+        self.client_secret_input.disable()
+        self.access_point_input.disable()
+        self.connection_code_input.disable()
+        self.authorize_button.disable()
+        self.connect_button.disable()
+
+        if self.client and self.client.connected:
+            self.set_status("Connected")
+            return
+
+        if not self.shard:
+            self.shard_input.enable()
+            return
+
+        self.set_status("Partially Configured")
+
+        self.client_id_input.enable()
+        if not self.client_id:
+            return
+
+        self.client_secret_input.enable()
+        if not self.client_secret:
+            return
+
+        self.set_status("Ready to Authorize")
+        self.authorize_button.enable()
+
+        self.access_point_input.enable()
+        if not self.access_point:
+            return
+
+        self.connection_code_input.enable()
+        if not self.connection_code:
+            return
+        self.set_status("Ready to Connect")
+
+        self.connect_button.enable()
+
+    def createScreen(self):
+        """Configure and render the fields and buttons."""
+        top = 150
+        f = self.addLabel("statusLabel")
+        f.width = 5000
+        f.setText("Status: Not Configured")
+        f.top = top
+        self.status_label = f
+
+        top += 350
+        f = self.addUIField("shardInput")
+        f.controlType = "EDIT"
+        f.size = 250
+        f.top = top
+        f.width = 5000
+        f.labelWidth = 60
+        f.caption = "Shard"
+        f.hasFinder = False
+        f.setValue(self.config["shard"])
+        f.enabled = True
+        f.onChange = self.getOnFieldChangedCallback('shard')
+        self.shard_input = f
+
+        top += 350
+        f = self.addUIField("clientIdInput")
+        f.controlType = "EDIT"
+        f.size = 250
+        f.top = top
+        f.width = 5000
+        f.labelWidth = 60
+        f.caption = "Client ID"
+        f.hasFinder = False
+        f.setValue(self.config["client_id"])
+        f.enabled = True
+        f.onChange = self.getOnFieldChangedCallback('client_id')
+        self.client_id_input = f
+
+        top += 350
+        f = self.addUIField("clientSecretInput")
+        f.controlType = "EDIT"
+        f.size = 250
+        f.top = top
+        f.width = 5000
+        f.labelWidth = 60
+        f.caption = "Client Secret"
+        f.hasFinder = False
+        f.setValue(str(self.config['client_secret']))
+        f.enabled = False
+        f.onChange = self.getOnFieldChangedCallback('client_secret')
+        self.client_secret_input = f
+
+        top += 350
+        btn = self.addButton("btnAuthorize", "&Authorize")
+        btn.top = - self.BUTTON_SPACE - btn.height
+        btn.width = self.BUTTON_WIDTH
+        btn.left = 2500
+        btn.onClick = self.onAuthorizeClick
+        btn.top = top
+        self.authorize_button = btn
+
+        top += 350
+        f = self.addUIField("accessPointInput")
+        f.controlType = "EDIT"
+        f.size = 250
+        f.width = 5000
+        f.labelWidth = 60
+        f.caption = "Access Point"
+        f.hasFinder = False
+        f.setValue(str(self.config['access_point']))
+        f.enabled = False
+        f.top = top
+        f.onChange = self.getOnFieldChangedCallback('access_point')
+        self.access_point_input = f
+
+        top += 350
+        f = self.addUIField("connectionCodeInput")
+        f.controlType = "EDIT"
+        f.size = 250
+        f.width = 5000
+        f.labelWidth = 60
+        f.caption = "Connection Code"
+        f.hasFinder = False
+        f.setValue(str(self.config['code']))
+        f.enabled = False
+        f.top = top
+        f.onChange = self.getOnFieldChangedCallback('code')
+        self.connection_code_input = f
+
+        btn = self.addButton("btnConnect", "Co&nnect")
+        btn.top = - self.BUTTON_SPACE - btn.height
+        btn.width = self.BUTTON_WIDTH
+        btn.left = -self.BUTTON_SPACE - (2*self.BUTTON_WIDTH)
+        btn.onClick = self.onConnectClick
+        btn.top =  - self.BUTTON_SPACE - btn.height
+        self.connect_button = btn
+
+        btn = self.addButton("btnClose", "&Close")
+        btn.top = - self.BUTTON_SPACE - btn.height
+        btn.width = self.BUTTON_WIDTH
+        btn.left = -self.BUTTON_SPACE - self.BUTTON_WIDTH
+        btn.onClick = self.onCloseClick
+        self.btnClose = btn
+
+        self.show()
+
+    def getOnFieldChangedCallback(self, config_field):
+        """Get an onchange callback that writes a field to the config.
+
+        :param config_field: the field in the config to update.
+        """
+        def onFieldChanged(old, new):
+            if new:
+                logger.info("Setting config.{} from '{}' to '{}'".format(
+                        config_field, old, new))
+                self.config[config_field] = new
+                self.set_controls_for_state()
+        return onFieldChanged
+
+    def persist_config(self):
+        """Write the current config to the DB."""
+        v = openView("REMOTEACTION.ADBSIGN")
+        v.recordClear()
+        v.put("SHARD", self.shard)
+        if v.read() != 0:
+            v.recordGenerate()
+            v.put("SHARD", self.shard)
+            v.put("CLIENTID", self.client_id)
+            v.put("CLIENTSEC", self.client_secret)
+            v.put("ACCESSPT", self.access_point)
+            v.put("CODE", self.connection_code)
+            v.insert()
+        else:
+            v.put("CLIENTID", self.client_id)
+            v.put("CLIENTSEC", self.client_secret)
+            v.put("ACCESSPT", self.access_point)
+            v.put("CODE", self.connection_code)
+            v.update()
+        v.close()
+
+    def onAuthorizeClick(self):
+        """Open a webbrowser so the suer can authorize the application."""
+        auth_url = AUTHORIZE_URL.format(
+                shard=self.shard, client_id=self.client_id)
+        logger.info("Authorizing API application from URL {}".format(auth_url))
+        webbrowser.open_new(auth_url)
+
+    def onConnectClick(self):
+        """Connect and obtain tokens."""
+        self.persist_config()
+        self.setup_client()
+
+        logger.info("Connect clicked.")
+
+        if not self.client:
+            _alert("Client isn't setup, cannot connect.")
+
+        self.client.config = self.config
+
+        logger.info("Connect clicked with config {}".format(self.config))
+
+        if self.client.setup_token():
+            self.set_status("connected.")
+            logger.info("Connect succeeded - expires on {}".format(
+                    self.client.config.get("expires_on")))
+        else:
+            _alert("Failed to obtain token. Try re-authorizing and "
+                   "obtaining a new Connection Code.\n\n"
+                   "More details are available in the log.")
+
+        self.set_controls_for_state()
+
+    def onCloseClick(self):
+        """Close the UI if the Close button or window X are clicked."""
+        self.closeUI()
+
+
+
+<<< SCRIPT <<<
+
+[SCRIPT]
+FILENAME=REMOTEACTION.Poller
+>>> SCRIPT >>>
+"""
+The poller component connects to fleetingforms.io using
+a Sage Company's unique token and downloads any actions that have been
+completed or are in error.
+
+On every execution, the poller takes the following steps::
+
+    for each form in the polling results:
+        if the form is completed and workflow related:
+            progress the workflow based on the user action
+        if the form is in error:
+            log the error
+
+    delete all processed forms
+    log a summary of the actions taken
+
+The poller can be executed from the Scripts panel or run using
+:ref:`Process Scheduler <running-the-poller-with-process-scheduler>`.
+
+The poller logs to
+``Sage300/SharedData/Company/<ComanyName>/ppforms.poll.log``
+"""
+try:
+    from accpac import *
+except ImportError:
+    pass
+
+import datetime
+
+from extools.env import execution_context, EXEC_VI, EXEC_PS
+
+from remote_actions import get_logger, get_log_path, _alert, _error
+from remote_actions.pollers.errors import (
+        PollerError,
+        PollerStartupError, )
+from remote_actions.pollers.adobe_sign import AdobeSignPoller
+from remote_actions.pollers.fleeting_forms import FleetingFormPoller
+
+# Version information for debugging
+VERSION = '6.0.18'
+DEFAULT_HANDLER_NAME = 'workflow_approval'
+DEFAULT_HANDLER_CLASSPATH = 'remote_actions.handlers.workflow_approval.WorkflowApprovalFormHandler'
+HANDLER_VIEW_NAME = "REMOTEACTION.VIRAHNDL"
+
+def get_or_create_default_handler():
+    virahndl = openView(HANDLER_VIEW_NAME)
+    if not virahndl:
+        raise RuntimeError("Failed to open the Remote Action Handlers "
+                           "table (VIRAHNDL).")
+    try:
+        virahndl.put("TYPE", DEFAULT_HANDLER_NAME)
+        if virahndl.read() != 0:
+            virahndl.recordGenerate()
+            virahndl.put("TYPE", DEFAULT_HANDLER_NAME)
+            virahndl.put("CLASSPATH", DEFAULT_HANDLER_CLASSPATH)
+            if virahndl.insert() != 0:
+                raise RuntimeError("Failed to install default handler.")
+    finally:
+        virahndl.close()
+
+def main(*args, **kwargs):
+    """Entry point for execution - perform a poll."""
+
+    # Configure a logger to write to the log file.
+    global logger
+
+    uniquifier = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+    log_path = get_log_path("poller", uniquifier)
+    logger = get_logger("poller", uniquifier)
+
+    logger.info("[start] - version {}, org {}, user {}, program {}.".format(
+            VERSION, org, user, program))
+
+    try:
+        get_or_create_default_handler()
+    except RuntimeError as e:
+        logger.error("failed to setup default handler: {}".format(e))
+        _alert("Default handler is not setup: {}".format(e))
+        return
+
+    # Create a new poller for this organization and poll.
+    successes, errors = [], []
+
+    for poller in [AdobeSignPoller, FleetingFormPoller, ]:
+        try:
+            p = poller(org)
+            if p.configured:
+                s, e = p.poll()
+                successes.extend(s)
+                errors.extend(e)
+            else:
+                logger.info("Poller {} not configured.".format(poller))
+        except PollerStartupError:
+            logger.warn("Poller {} not configured or failed to start.".format(
+                    poller.__class__.__name__))
+        except PollerError as e:
+            # _error("Error in poller: {}".format(e))
+            errors.append(repr(e))
+            logger.error(repr(e))
+        except Exception as e:
+            # _error("General failure in poller: {}".format(e))
+            errors.append(repr(e))
+            logger.error(repr(e))
+
+    summary = """
+    Polling complete.
+
+    {} approvals applied successfully
+    {} errors encountered.
+
+    See the details in the PS Log.
+    """.format(len(successes), len(errors))
+    _alert(summary)
+
+    if execution_context() == EXEC_PS:
+        # When running through PS, log a completion message.
+        log_message = "{}|{}|{}".format(
+                "ERR" if errors else "OK",
+                len(errors),
+                log_path)
+        log(log_message)
+
+    if execution_context() == EXEC_VI:
+        # When running through the scripts panel, close the empty UI.
+        # This fails on Extender 9/10:
+        # UI().closeUI()
+        pass
+
+
+<<< SCRIPT <<<
+
+[SCRIPT]
+FILENAME=Workflow.SendRemoteActionCommentAmountFormEmail
+>>> SCRIPT >>>
+## P1 Email template
+## P1.FinderView=VI0008
+## P1.FinderField=MSGID
+## P1.FinderFields=MSGID,TEXTDESC,SUBJECT,COMMENTS,BODY
+## P2 To
+## P3 Form template
+## P3.FinderView=VI0008
+## P3.FinderField=MSGID
+## P3.FinderFields=MSGID,TEXTDESC,SUBJECT,COMMENTS,BODY
+## P4 Form button lists
+"""
+This workflow action sends a approval form link in
+an email to one or more users.
+
+The form has a title, content, an approval amount float field,
+a comments field, and Approve/Reject buttons::
+
+    Title
+
+    Content
+
+    Sage User: ____________________________
+    Credit Limit: _________________________
+    Comments: _____________________________
+
+    Approve | Reject
+
+The action takes the following parameters:
+
+- Parameter1: Email Notification Template - sent to users to notify that
+  that a form is available.
+- Parameter2: To list of Sage Users or Extender User Groups
+- Parameter3: Form Title and Content Template - template to render for form
+  title (message subject) and content (message body)
+- Parameter4:
+  Approve=ApproveStepName,Reject=RejectStepName,Cancel=CancelStepName - steps
+  to proceed to when approved/rejected/cancelled etc, comma separated.
+"""
+try:
+    from accpac import *
+except ImportError:
+    pass
+
+import base64
+
+from remote_actions.services.fleeting_forms import (
+        create_workflow_approval_form, )
+from remote_actions import (
+        resolve_users,
+        render_title_and_content_for,
+        parse_action_parameter,
+        get_logger, )
+
+VERSION = '6.0.18'
+
+form_controls =  [
+                    {
+                      'name': 'RUNUSER',
+                      'type': 'text',
+                      'label': 'Sage User',
+                      'required': True,
+                      'disabled': True
+                    },
+                    {
+                      'name': 'APPROVALAMOUNT',
+                      'type': 'float',
+                      'label': 'Amount',
+                      'help_text': 'Enter the amount to approve',
+                      'required': True,
+                    },
+                    {
+                      'name': 'APPROVALCOMMENT',
+                      'type': 'text',
+                      'label': 'Comments',
+                      'help_text': 'Enter your comment',
+                      'required': True,
+                    }
+                ]
+
+def workflow(e):
+    """Execute the workflow step.
+
+    This function is invoked by the workflow engine.  It is called
+    with ``accpac.WorkflowArgs`` and must return ``0`` on success and
+    ``1`` on failed.
+
+    :param e: the workflow arguments for this action.
+    :type e: ``accpac.WorkflowArgs``
+    :returns: 0/1
+    :rtype: int
+    """
+
+    wiid = e.wi.viworkih.get("WIID")
+    if not wiid:
+        error("Failed to get workflow ID.")
+        return 1
+
+    logger = get_logger(
+            "SendRemoteActionCommentAmountFormEmail wiid({})".format(
+                wiid))
+
+    # Parse the actions from P4 into a { label: nextstep, } data structure
+    action_param = e.resolve(e.p4)
+    try:
+        actions = parse_action_parameter(action_param)
+    except (IndexError, ValueError):
+        showMessageBox("The actions (P4) must be a comma-separated list "
+                       "of label=nextstep pairs, "
+                       "eg. 'Approve=Approved+RTP,Reject=Rejected'" )
+        logger.exception("P4 invalid {}".format(action_param))
+        return 1
+
+    # Create the form, setting the initial value for the approval amount
+    try:
+        title, content = render_title_and_content_for(e.resolve(e.p3), e)
+        approval_amount = e.resolve("{TOVALUE}").replace(",", "")
+        form = create_workflow_approval_form(
+                            e.wi.viworkih.get("WIID"),
+                            form_controls,
+                            title[:120],
+                            content[:5000],
+                            actions,
+                            APPROVALAMOUNT=approval_amount)
+    except Exception as exc:
+        showMessageBox("Failed to create approval form: {}".format(exc))
+        logger.exception("failed to create form: {}".format(exc))
+        return 1
+
+    # Get the url for the form.
+    url = form.get('url')
+    if not url:
+        error("Unable to get approval form URL.")
+        return 1
+
+    # And set it in the workflow for troubleshooting and posterity
+    e.wi.setValue("FORMURL", url)
+
+    # Resolve all users, groups, and emails from P2
+    users = resolve_users(e.resolve(e.p2))
+
+    # For each user identified, send an email with a custom link that sets
+    # RUNUSER.
+    sent_emails = 0
+    for (username, email_address) in users:
+        email = Email()
+        email.setTo(email_address)
+
+        email_template = e.resolve(e.p1)
+        if not email.load(email_template):
+            error("Unable to load message template {}.".format(email_template))
+            return 1
+
+        # Build a custom URL for the user that defaults the runuser field.
+        b64_username = base64.urlsafe_b64encode(username.encode())
+        user_url = "{}?RUNUSER=b64:{}&".format(url, b64_username.decode())
+
+        # And interpolate it into the template
+        email.replace("FORMURL", user_url)
+
+        # Do all the remaining interpolation for Workflow, View, and Globals
+        # to build the subject and body.
+        email.replace("", e.wi.getView())
+        email.setSubject(ReplaceFields(e.resolve(email.subject)))
+        if email.textBody != None:
+            email.setText(ReplaceFields(e.resolve(email.textBody)))
+        if email.htmlBody != None:
+            email.setHtml(ReplaceFields(e.resolve(email.htmlBody)))
+
+        logger.debug("sending email {} to {} with url {} for wiid {}.".format(
+                email_template, email_address, user_url, wiid))
+
+        # Send the email.
+        if email.send() == 0:
+            sent_emails += 1
+        else:
+            logger.error("failed to send email to {}.".format(email_address))
+
+    # If at least one email has been sent, the action is considered successful
+    # see https://bitbucket.org/cbinckly/remote_actions/issues/6
+    if not sent_emails:
+        logger.error("no emails sent successfully.")
+        error("Could not send any emails. "
+              "Sending approval form email step failed. "
+              "Check the remote actions log for more details.")
+        return 1
+    else:
+        if sent_emails < len(users):
+            message = "{} of {} emails failed to send.".format(
+                len(users) - sent_emails, len(users))
+            warning(message)
+            logger.warn(message)
+
+    # Success.
+    return 0
+
+
+<<< SCRIPT <<<
+
+[SCRIPT]
+FILENAME=Workflow.ViewAdobeSignAgreementInBrowser
+>>> SCRIPT >>>
+"""
+This workflow action opens the document status view from
+in the Adobe Sign console using the default browser.
+"""
+try:
+    from accpac import *
+except ImportError:
+    pass
+
+import webbrowser
+
+from remote_actions import get_logger
+from remote_actions.services.adobe_sign import (
+        AdobeSignClient, agreement_id_for_wiid, )
+
+VERSION = '6.0.18'
+
+def workflow(e):
+    """Execute the workflow step.
+
+    This function is invoked by the workflow engine. It downloads
+    the combined documents for the agreement and writes them in
+    the path defined in P1.
+
+    1. Upload the required documents.
+    2. Create new agreement.
+
+    After the agreement is created Adobe Sign will automatically notify
+    signers.
+
+    :param e: the workflow arguments for this action.
+    :type e: ``accpac.WorkflowArgs``
+    :returns: 0/1
+    :rtype: int
+    """
+    wiid = e.wi.viworkih.get("WIID")
+    if not wiid:
+        error("Failed to get workflow ID.")
+        return 1
+
+    logger = get_logger("ViewAdobeSignAgreementInBrowser wiid({})".format(wiid))
+
+    ac = AdobeSignClient()
+    url = ac.agreement_public_url(agreement_id_for_wiid(wiid))
+
+    logger.debug("opening {}".format(url))
+    webbrowser.open(url)
+
+    return 0
+
+
+<<< SCRIPT <<<
+
+[SCRIPT]
+FILENAME=Workflow.GenerateAPInvoiceBatchReport
+>>> SCRIPT >>>
+## P1 AP Invoice Batch Number
+"""
+This workflow action generates a an A/P Batch Listing report and stores
+the path in the ARINVRPTPATH Workflow Instance Vairable.
+"""
+from accpac import *
+
+from pathlib import Path
+
+REPORT_WAIT_RETRIES = 5
+REPORT_WAIT_SLEEP = 2
+
+def workflow(e):
+    """Execute the workflow step.
+
+    This function is invoked by the workflow engine. It generates a new A/P
+    Invoice Batch Listing and sets the ARINVRPTPTH workflow variable.
+
+    :param e: the workflow arguments for this action.
+    :type e: ``accpac.WorkflowArgs``
+    :returns: 0/1
+    :rtype: int
+    """
+    batch_number = e.wi.getViewKey()
+    filename = "{}-AP_Invoice_Batch_Listing.pdf".format(batch_number)
+    report_dir = Path(getOrgPath(), "ap_invoices")
+    if not report_dir.exists():
+        report_dir.mkdir()
+
+    report_path = report_dir / filename
+
+    if generate_ap_invoice_batch_report(report_path, batch_number):
+        e.wi.setValue("APINVRPTPATH", str(report_path))
+        return 0
+
+    return 1
+
+def generate_ap_invoice_batch_report(report_path, cntbtch):
+    """Generate an A/P Batch Listing Report.
+
+    :param report_path: Path to write the report file to.
+    :type report_path: pathlib.Path or str
+    :returns: report path on success, else ""
+    :rtype: str
+    """
+    report = Report()
+    report.reportName = "APIBTCLZ"
+
+    report.destination = "file"
+    report.printDirectory = str(report_path)
+
+    try:
+        report.setParameter("FROMBATCH", cntbtch)
+        report.setParameter("TOBATCH", cntbtch)
+        report.setParameter("FROMDATE", "19990101")
+        report.setParameter("TODATE", "20510311")
+        report.setParameter("SHOWJOB", "1")
+        report.setParameter("TAXDETAIL", "1")
+        report.setParameter("SCHED", "Y")
+        report.setParameter("SHOWCMTS", "1")
+        report.setParameter("SWRET", "1")
+        report.setParameter("RETDETAIL", "1")
+        report.setParameter("INCLPRNDBTCH", "1")
+        report.setParameter("ENTERED", "1")
+        report.setParameter("IMPORTED", "2")
+        report.setParameter("GENERATED", "3")
+        report.setParameter("RECURRING", "4")
+        report.setParameter("EXTERNAL", "5")
+        report.setParameter("RETAINAGE", "6")
+        report.setParameter("OPEN", "1")
+        report.setParameter("READYPOST", "7")
+        report.setParameter("POSTED", "3")
+        report.setParameter("BATCHTYPE", "Entered, Imported, Generated, Recurring, External, Retainage")
+        report.setParameter("BATCHSTATUS", "Open, Ready To Post, Posted")
+        report.setParameter("FCURNDEC", "2")
+        report.setParameter("MULTCURN", "N")
+        report.setParameter("SWPMACTIVE", "1")
+        report.setParameter("CONTRACT", "Contract")
+        report.setParameter("PROJECT", "Project")
+        report.setParameter("CATEGORY", "Category")
+        report.setParameter("OPTFLDS?", "Y")
+        report.setParameter("SHOWRCWHT", "1")
+        report.print(None)
+    except Exception as err:
+        _debug("Report generation exception: {}".format(err))
+        return ""
+
+    tries = 0
+
+    while tries < REPORT_WAIT_RETRIES:
+        if report_path.exists():
+            return report_path
+        tries += 1
+        time.sleep(REPORT_WAIT_SLEEP)
+
+    return ""
+
+
+
+<<< SCRIPT <<<
+
+[SCRIPT]
+FILENAME=Workflow.DownloadAdobeSignAgreementAuditReport
+>>> SCRIPT >>>
+## P1 Output File Path
+"""
+This workflow action downloads the audit report for a transaction and
+saves it to the provided file path.
+"""
+try:
+    from accpac import *
+except ImportError:
+    pass
+
+from pathlib import Path
+
+from remote_actions import get_logger
+from remote_actions.services.adobe_sign import (
+        AdobeSignClient, agreement_id_for_wiid, )
+
+VERSION = '6.0.18'
+
+def workflow(e):
+    """Execute the workflow step.
+
+    This function is invoked by the workflow engine. It downloads
+    the audit report for the agreement and writes them in
+    the path defined in P1.
+
+    :param e: the workflow arguments for this action.
+    :type e: ``accpac.WorkflowArgs``
+    :returns: 0/1
+    :rtype: int
+    """
+
+    wiid = e.wi.viworkih.get("WIID")
+    if not wiid:
+        error("Failed to get workflow ID.")
+        return 1
+
+    logger = get_logger("DownloadAdobeSignAgreementAuditReport wiid({})".format(wiid))
+
+    ac = AdobeSignClient()
+
+    if not ac.setup_token():
+        showMessageBox("Failed to setup connection.  Check the Adobe Sign "
+                       "Connect utility in Remote Actions.")
+        logger.error("failed to setup connection.")
+        return 1
+
+    # Upload the documents
+    output_path = Path(e.resolve(e.p1))
+    if not output_path.parent.exists():
+        logger.info("creating parent path {}.".format(output_path.parent))
+        try:
+            output_path.parent.mkdir(parents=True)
+        except:
+            logger.error("failed to create output path {}".format(
+                output_path.parent))
+            return 1
+
+    agreement_id = agreement_id_for_wiid(wiid)
+    logger.info("writing agreement {} audit report to {}.".format(
+            agreement_id, output_path))
+
+    with output_path.open('wb') as f:
+        f.write(ac.download_agreement_audit_report(agreement_id))
+
+    return 0
+
+<<< SCRIPT <<<
+
+[SCRIPT]
+FILENAME=Workflow.SendRemoteActionCommentFormEmail
+>>> SCRIPT >>>
+## P1 Email template
+## P1.FinderView=VI0008
+## P1.FinderField=MSGID
+## P1.FinderFields=MSGID,TEXTDESC,SUBJECT,COMMENTS,BODY
+## P2 To
+## P3 Form template
+## P3.FinderView=VI0008
+## P3.FinderField=MSGID
+## P3.FinderFields=MSGID,TEXTDESC,SUBJECT,COMMENTS,BODY
+## P4 Form button lists
+"""
+This workflow action sends a credit limit approval form link in
+an email to one or more users.
+
+The form has a title, content, a credit limit float field,
+a long form comments box, and Approve/Reject buttons::
+
+    Title
+
+    Content
+
+    Sage User: ____________________________
+    Credit Limit: _________________________
+    Comments: _____________________________
+
+    Approve | Reject
+
+The action takes the following parameters:
+
+- Parameter1: Email Notification Template - sent to users to notify that
+  that a form is available.
+- Parameter2: To list of Sage Users or Extender User Groups
+- Parameter3: Form Title and Content Template - template to render for form
+  title (message subject) and content (message body)
+- Parameter4:
+  Approve=ApproveStepName,Reject=RejectStepName,Cancel=CancelStepName - steps
+  to proceed to when approved/rejected/cancelled etc, comma separated.
+"""
+try:
+    from accpac import *
+except ImportError:
+    pass
+
+import base64
+
+from remote_actions.services.fleeting_forms import (
+        create_workflow_approval_form, )
+from remote_actions import (
+        resolve_users,
+        render_title_and_content_for,
+        parse_action_parameter,
+        get_logger, )
+
+VERSION = '6.0.18'
+
+form_controls =  [
+                    {
+                      'name': 'RUNUSER',
+                      'type': 'text',
+                      'label': 'Sage User',
+                      'required': True,
+                      'disabled': True
+                    },
+                    {
+                      'name': 'APPROVALCOMMENT',
+                      'type': 'text',
+                      'label': 'Comments',
+                      'help_text': 'Enter your comment',
+                      'required': True,
+                    }
+                ]
+
+def workflow(e):
+    """Execute the workflow step.
+
+    This function is invoked by the workflow engine.  It is called
+    with ``accpac.WorkflowArgs`` and must return ``0`` on success and
+    ``1`` on failed.
+
+    :param e: the workflow arguments for this action.
+    :type e: ``accpac.WorkflowArgs``
+    :returns: 0/1
+    :rtype: int
+    """
+
+    wiid = e.wi.viworkih.get("WIID")
+    if not wiid:
+        error("Failed to get workflow ID.")
+        return 1
+
+    logger = get_logger("SendRemoteActionCommentFormEmail wiid({})".format(
+                            wiid))
+
+
+    # Parse the actions from P4 into a { label: nextstep, } data structure
+    action_param = e.resolve(e.p4)
+    try:
+        actions = parse_action_parameter(action_param)
+    except (IndexError, ValueError):
+        showMessageBox("The actions (P4) must be a comma-separated list "
+                       "of label=nextstep pairs, "
+                       "eg. 'Approve=Approved+RTP,Reject=Rejected'" )
+        logger.exception("P4 invalid {}".format(action_param))
+        return 1
+
+    # Create the form, setting the initial value for the credit limit.
+    try:
+        title, content = render_title_and_content_for(e.resolve(e.p3), e)
+        form = create_workflow_approval_form(
+                            e.wi.viworkih.get("WIID"),
+                            form_controls,
+                            title[:120],
+                            content[:5000],
+                            actions, )
+    except Exception as exc:
+        showMessageBox("Failed to create approval form: {}".format(exc))
+        logger.exception("failed to create form: {}".format(exc))
+        return 1
+
+    # Get the url for the form.
+    url = form.get('url')
+    if not url:
+        error("Unable to get approval form URL.")
+        return 1
+
+    # And set it in the workflow for troubleshooting and posterity
+    e.wi.setValue("FORMURL", url)
+
+    # Resolve all users, groups, and emails from P2
+    users = resolve_users(e.resolve(e.p2))
+
+    # For each user identified, send an email with a custom link that sets
+    # RUNUSER.
+    sent_emails = 0
+    for (username, email_address) in users:
+        email = Email()
+        email.setTo(email_address)
+
+        email_template = e.resolve(e.p1)
+        if not email.load(email_template):
+            error("Unable to load message template {}.".format(email_template))
+            return 1
+
+        # Build a custom URL for the user that defaults the runuser field.
+        b64_username = base64.urlsafe_b64encode(username.encode())
+        user_url = "{}?RUNUSER=b64:{}&".format(url, b64_username.decode())
+
+        # And interpolate it into the template
+        email.replace("FORMURL", user_url)
+
+        # Do all the remaining interpolation for Workflow, View, and Globals
+        # to build the subject and body.
+        email.replace("", e.wi.getView())
+        email.setSubject(ReplaceFields(e.resolve(email.subject)))
+        if email.textBody != None:
+            email.setText(ReplaceFields(e.resolve(email.textBody)))
+        if email.htmlBody != None:
+            email.setHtml(ReplaceFields(e.resolve(email.htmlBody)))
+
+        logger.debug("sending email {} to {} with url {} for wiid {}.".format(
+                email_template, email_address, user_url, wiid))
+
+        # Send the email.
+        if email.send() == 0:
+            sent_emails += 1
+        else:
+            logger.error("failed to send email to {}.".format(email_address))
+
+    # If at least one email has been sent, the action is considered successful
+    # see https://bitbucket.org/cbinckly/remote_actions/issues/6
+    if not sent_emails:
+        logger.error("no emails sent successfully.")
+        error("Could not send any emails. "
+              "Sending approval form email step failed. "
+              "Check the remote actions log for more details.")
+        return 1
+    else:
+        if sent_emails < len(users):
+            message = "{} of {} emails failed to send.".format(
+                len(users) - sent_emails, len(users))
+            warning(message)
+            logger.warn(message)
+
+    # Success.
+    return 0
+
+
+<<< SCRIPT <<<
+
+[SCRIPT]
+FILENAME=Workflow.DeleteRemoteActionForm
+>>> SCRIPT >>>
+## P1 Form ID
+"""
+This workflow action deletes a form by ID.
+If the id looks like a URL, it is parsed from
+the last segment.
+"""
+try:
+    from accpac import *
+except ImportError:
+    pass
+
+import base64
+
+from remote_actions.services.fleeting_forms import FormClient
+from remote_actions import get_logger
+
+VERSION = '6.0.18'
+
+
+def workflow(e):
+    """Execute the workflow step.
+
+    This function is invoked by the workflow engine.  It is called
+    with ``accpac.WorkflowArgs`` and must return ``0`` on success and
+    ``1`` on failed.
+
+    :param e: the workflow arguments for this action.
+    :type e: ``accpac.WorkflowArgs``
+    :returns: 0/1
+    :rtype: int
+    """
+
+    wiid = e.wi.viworkih.get("WIID")
+    if not wiid:
+        error("Failed to get workflow ID.")
+        return 1
+
+    logger = get_logger("DeleteRemoteActionForm wiid({})".format(wiid))
+
+    _id = e.resolve(e.p1)
+    if '/' in _id:
+        _id = _id.strip('/').split('/')[-1]
+
+    logger.info("deleting form with id {}".format(_id))
+
+    try:
+        client = FormClient()
+        client.delete(_id)
+    except Exception as e:
+        logger.error("error deleting {}: {}".format(_id, e))
+        return 1
+
+    return 0
+
+<<< SCRIPT <<<
+
+[SCRIPT]
+FILENAME=Workflow.CreateAdobeSignAgreement
+>>> SCRIPT >>>
+## P1 Document Paths
+## P2 Approvers
+## P3 Agreement Name
+## P4 Next Steps (Signed=SignedStep1,SignedStep2,...;Rejected=Step;Error=Step)
+
+"""
+This workflow action generates a new Adobe Sign Agreement from the documents
+provided that is automatically sent by Adobe to  Approvers for signing.
+"""
+try:
+    from accpac import *
+except ImportError:
+    pass
+
+from pathlib import Path
+
+from remote_actions import (resolve_users, get_logger, )
+from remote_actions.services.adobe_sign import (
+        AdobeSignClient,
+        add_workflow_agreement,
+        add_agreement_docs)
+
+VERSION = '6.0.18'
+
+def parse_action_parameter(value):
+    """Parse the action parameter (P4) of a workflow action.
+
+    P4 for the workflow actions defines the button labels and progress to steps
+    in a separated key value pair string format::
+
+        <label>=<next step>,<next step>;<label>=<next step>;
+        Approve=Approved1,Approved+RTP;Rejected=Rejected
+
+    :param value: the action parameter as input into the template.
+    :type value: string
+    :returns: label to next step name mappings
+    :rtype: collections.OrderedDict
+    """
+    actions = {}
+    steps = value.split(';')
+    for step in steps:
+        label, next_step = step.split('=')
+        if not next_step:
+            raise ValueError("The step to proceed to must be set.")
+        if ',' in next_step:
+            next_step = next_step.split(',')
+        actions[label] = next_step
+    return actions
+
+def workflow(e):
+    """Execute the workflow step.
+
+    This function is invoked by the workflow engine. It takes all the steps
+    required to start a new Adobe Sign Agreement:
+
+    1. Upload the required documents.
+    2. Create new agreement.
+
+    After the agreement is created Adobe Sign will automatically notify
+    signers.
+
+    :param e: the workflow arguments for this action.
+    :type e: ``accpac.WorkflowArgs``
+    :returns: 0/1
+    :rtype: int
+    """
+
+    wiid = e.wi.viworkih.get("WIID")
+    if not wiid:
+        error("Failed to get workflow ID.")
+        return 1
+
+    logger = get_logger("CreateAdobeSignAgreement wiid({})".format(wiid))
+
+    # Parse the actions from P4 into a { label: nextstep, } data structure
+    action_param = e.resolve(e.p4)
+    try:
+        actions = parse_action_parameter(action_param)
+    except (IndexError, ValueError):
+        showMessageBox("The actions (P4) must be a ;-separated list "
+                       "of label=nextstep pairs, e.g."
+                       "'Approve=Approved+RTP;Rejected=Rejected;Error=Error'")
+        logger.exception("P4 invalid {}".format(action_param))
+        return 1
+    logger.info("parsed actions {} from {}".format(actions, action_param))
+
+    # Get a new client and setup the token.
+    ac = AdobeSignClient()
+
+    if not ac.setup_token():
+        showMessageBox("Failed to setup connection.  Check the Adobe Sign "
+                       "Connect utility in Remote Actions.")
+        logger.error("failed to setup connection.")
+        return 1
+
+    # Upload the documents
+    doc_param = e.resolve(e.p1)
+    docs = [Path(d) for d in doc_param.split(",")]
+    tdids = []
+
+    for doc in docs:
+        logger.debug("Uploading document {}.".format(doc))
+        tdids.append(ac.upload_document(doc))
+
+    # Create the agreement
+    users = resolve_users(e.resolve(e.p2))
+    user_emails = [email for _, email in users if email]
+
+    logger.debug("Creating new agreement '{}' for docs {} and "
+                 "signers {}".format(
+                     e.resolve(e.p3),
+                     ", ".join([t[0:10] for t in tdids]),
+                     ", ".join(user_emails)))
+
+    aid = ac.create_agreement(e.resolve(e.p3), tdids, user_emails,
+                              externalId={"id": wiid}, )
+
+    signed_action = actions.get("Signed")
+    if isinstance(signed_action, list):
+        signed_action = ",".join(signed_action)
+
+    add_workflow_agreement(
+            wiid, aid, signed_action,
+            actions.get('Rejected', ''), actions.get('Error', ""))
+
+    add_agreement_docs(aid, tdids)
+
+    logger.debug("Created new agreement {}.".format(aid))
+
+    return 0
+
+<<< SCRIPT <<<
+
+[SCRIPT]
+FILENAME=Workflow.DownloadAdobeSignAgreement
+>>> SCRIPT >>>
+## P1 Output File Path
+"""
+This workflow action generates a new Adobe Sign Agreement from the documents
+provided that is automatically sent by Adobe to  Approvers for signing.
+"""
+try:
+    from accpac import *
+except ImportError:
+    pass
+
+from pathlib import Path
+
+from remote_actions import get_logger
+from remote_actions.services.adobe_sign import (
+        AdobeSignClient, agreement_id_for_wiid, )
+
+VERSION = '6.0.18'
+
+def workflow(e):
+    """Execute the workflow step.
+
+    This function is invoked by the workflow engine. It downloads
+    the combined documents for the agreement and writes them in
+    the path defined in P1.
+
+    1. Upload the required documents.
+    2. Create new agreement.
+
+    After the agreement is created Adobe Sign will automatically notify
+    signers.
+
+    :param e: the workflow arguments for this action.
+    :type e: ``accpac.WorkflowArgs``
+    :returns: 0/1
+    :rtype: int
+    """
+
+    wiid = e.wi.viworkih.get("WIID")
+    if not wiid:
+        error("Failed to get workflow ID.")
+        return 1
+
+    logger = get_logger("DownloadAdobeSignAgreement wiid({})".format(wiid))
+
+    ac = AdobeSignClient()
+
+    if not ac.setup_token():
+        showMessageBox("Failed to setup connection.  Check the Adobe Sign "
+                       "Connect utility in Remote Actions.")
+        logger.error("failed to setup connection.")
+        return 1
+
+    # Upload the documents
+    output_path = Path(e.resolve(e.p1))
+    if not output_path.parent.exists():
+        logger.info("creating parent path {}.".format(output_path.parent))
+        try:
+            output_path.parent.mkdir(parents=True)
+        except:
+            logger.error("failed to create output path {}".format(
+                output_path.parent))
+            return 1
+
+    agreement_id = agreement_id_for_wiid(wiid)
+    logger.info("writing agreement {} documents to {}.".format(
+            agreement_id, output_path))
+
+    with output_path.open('wb') as f:
+        f.write(ac.download_agreement_document(agreement_id))
+
+    logger.debug("write complete.")
+
+    return 0
+
+<<< SCRIPT <<<
+
+[SCRIPT]
+FILENAME=Workflow.SendRemoteActionFormEmail
+>>> SCRIPT >>>
+## P1 Email template
+## P1.FinderView=VI0008
+## P1.FinderField=MSGID
+## P1.FinderFields=MSGID,TEXTDESC,SUBJECT,COMMENTS,BODY
+## P2 To
+## P3 Form template
+## P3.FinderView=VI0008
+## P3.FinderField=MSGID
+## P3.FinderFields=MSGID,TEXTDESC,SUBJECT,COMMENTS,BODY
+## P4 Form button lists
+"""
+This workflow action sends a credit limit approval form link in
+an email to one or more users.
+
+The form has a title, content, a credit limit float field,
+a long form comments box, and Approve/Reject buttons::
+
+    Title
+
+    Content
+
+    Sage User: ____________________________
+    Credit Limit: _________________________
+    Comments: _____________________________
+
+    Approve | Reject
+
+The action takes the following parameters:
+
+- Parameter1: Email Notification Template - sent to users to notify that
+  that a form is available.
+- Parameter2: To list of Sage Users or Extender User Groups
+- Parameter3: Form Title and Content Template - template to render for form
+  title (message subject) and content (message body)
+- Parameter4:
+  Approve=ApproveStepName,Reject=RejectStepName,Cancel=CancelStepName - steps
+  to proceed to when approved /rejected / cancelled etc, comma separated.
+"""
+try:
+    from accpac import *
+except ImportError:
+    pass
+
+import base64
+
+from remote_actions.services.fleeting_forms import (
+        create_workflow_approval_form, )
+from remote_actions import (
+        resolve_users,
+        render_title_and_content_for,
+        parse_action_parameter,
+        get_logger, )
+
+VERSION = '6.0.18'
+
+form_controls =  [
+                    {
+                      'name': 'RUNUSER',
+                      'type': 'text',
+                      'label': 'Sage User',
+                      'required': True,
+                      'disabled': True
+                    },
+                ]
+
+def workflow(e):
+    """Execute the workflow step.
+
+    This function is invoked by the workflow engine.  It is called
+    with ``accpac.WorkflowArgs`` and must return ``0`` on success and
+    ``1`` on failed.
+
+    :param e: the workflow arguments for this action.
+    :type e: ``accpac.WorkflowArgs``
+    :returns: 0/1
+    :rtype: int
+    """
+
+    wiid = e.wi.viworkih.get("WIID")
+    if not wiid:
+        error("Failed to get workflow ID.")
+        return 1
+
+    logger = get_logger("SendRemoteActionFormEmail wiid({})".format(wiid))
+
+    # Parse the actions from P4 into a { label: nextstep, } data structure
+    action_param = e.resolve(e.p4)
+    try:
+        actions = parse_action_parameter(action_param)
+    except (IndexError, ValueError):
+        showMessageBox("The actions (P4) must be a comma-separated list "
+                       "of label=nextstep pairs, "
+                       "eg. 'Approve=Approved+RTP,Reject=Rejected'" )
+        logger.exception("P4 invalid {}".format(action_param))
+        return 1
+
+    # Create the form, setting the initial value for the credit limit.
+    try:
+        title, content = render_title_and_content_for(e.resolve(e.p3), e)
+        form = create_workflow_approval_form(
+                            wiid,
+                            form_controls,
+                            title[:120],
+                            content[:5000],
+                            actions, )
+    except Exception as exc:
+        showMessageBox("Failed to create approval form: {}".format(exc))
+        logger.exception("failed to create form: {}".format(exc))
+        return 1
+
+    # Get the url for the form.
+    url = form.get('url')
+    if not url:
+        error("Unable to get approval form URL.")
+        logger.error("failed to get approval form url from {}.".format(form))
+        return 1
+
+    # And set it in the workflow for troubleshooting and posterity
+    e.wi.setValue("FORMURL", url)
+
+    # Resolve all users, groups, and emails from P2
+    users = resolve_users(e.resolve(e.p2))
+
+    # For each user identified, send an email with a custom link that sets
+    # RUNUSER.
+    sent_emails = 0
+    for (username, email_address) in users:
+        email = Email()
+        email.setTo(email_address)
+
+        email_template = e.resolve(e.p1)
+        if not email.load(email_template):
+            error("Unable to load message template {}.".format(email_template))
+            return 1
+
+        # Build a custom URL for the user that defaults the runuser field.
+        b64_username = base64.urlsafe_b64encode(username.encode())
+        user_url = "{}?RUNUSER=b64:{}&".format(url, b64_username.decode())
+
+        # And interpolate it into the template
+        email.replace("FORMURL", user_url)
+
+        # Do all the remaining interpolation for Workflow, View, and Globals
+        # to build the subject and body.
+        email.replace("", e.wi.getView())
+        email.setSubject(ReplaceFields(e.resolve(email.subject)))
+        if email.textBody != None:
+            email.setText(ReplaceFields(e.resolve(email.textBody)))
+        if email.htmlBody != None:
+            email.setHtml(ReplaceFields(e.resolve(email.htmlBody)))
+
+        logger.debug("sending email {} to {} with url {} for wiid {}.".format(
+                email_template, email_address, user_url, wiid))
+
+        # Send the email.
+        if email.send() == 0:
+            sent_emails += 1
+        else:
+            logger.error("failed to send email to {}.".format(email_address))
+
+    # If at least one email has been sent, the action is considered successful
+    # see https://bitbucket.org/cbinckly/remote_actions/issues/6
+    if not sent_emails:
+        logger.error("no emails sent successfully.")
+        error("Could not send any emails. "
+              "Sending approval form email step failed. "
+              "Check the remote actions log for more details.")
+        return 1
+    else:
+        if sent_emails < len(users):
+            message = "{} of {} emails failed to send.".format(
+                len(users) - sent_emails, len(users))
+            warning(message)
+            logger.warn(message)
+
+    # Success.
+    return 0
+
+
+<<< SCRIPT <<<

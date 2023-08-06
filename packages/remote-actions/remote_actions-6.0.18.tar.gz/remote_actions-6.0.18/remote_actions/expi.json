@@ -1,0 +1,44 @@
+{
+    "module": "REMOTEACTION",
+    "title": "Remote actions for Orchid Extender",
+    "description": "Integrate Extender with fleetingforms.io for remote approvals, payments, and more.",
+    "sage": {
+        "version": 2019,
+        "product_update": 3.0,
+        "edition": "Premium"
+    },
+    "extender": {
+        "version": 2019,
+        "product_update": 7.03,
+        "edition": "Developer"
+    },
+    "programs": [
+        "*"
+    ],
+    "views": [
+        "*"
+    ],
+    "screens": [
+        "*"
+    ],
+    "workflows": [],
+    "access": "public",
+    "visibility": "public",
+    "pricing": {
+    },
+    "email": "chris@poplars.dev",
+    "postinstall": {
+        "has": { 
+            "REMOTEACTION.VIRAHNDL": {
+                "order": 0,
+                "key_fields": ["TYPE"],
+                "entries": [
+                    {
+                        "TYPE": "workflow_approval",
+                        "CLASSPATH": "remote_actions.handlers.workflow_approval.WorkflowApprovalFormHandler"
+                    }
+                ]
+            }
+        }
+    }
+}

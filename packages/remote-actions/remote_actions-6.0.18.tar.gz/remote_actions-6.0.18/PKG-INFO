@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: remote_actions
+Version: 6.0.18
+Summary: Remote Action for Orchid Extender
+Home-page: https://poplars.dev
+Author: Chris Binckly, Poplar Development
+Author-email: chris@poplars.dev
+License: UNKNOWN
+Description: Remote Actions
+        ==============
+        
+        The Remote Actions package, and accompanying REMOTEACTION module, are
+        used to integrate Orchid Extender's Workflow for Sage 300 with fleetingremote
+        actions.io to securely collect well formed, validated, data from users or
+        customers from outside of Sage 300.
+        
+        The Remote Actions package, and the `Fleeting Forms`_ service that it uses to
+        generate one time pages, were created and are maintained by 
+        `Poplar Development`_.
+        
+        .. _Poplar Development: https://poplars.dev
+        .. _Fleeting Forms: https://fleetingforms.io
+        
+Keywords: sage orchid extender remote approvals
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.4
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/x-rst
