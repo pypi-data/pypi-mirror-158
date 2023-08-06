@@ -1,0 +1,14 @@
+blinker>=1.4
+cachelib>=0.1
+Flask>=1.0.4
+Flask-RESTful>=0.3.7
+pillow>=4.0
+six>=1.7.2
+
+[tests]
+pytest-black<0.3.10,>=0.3.0
+flask-testing>=0.6.0
+pytest-invenio>=1.4.0
+werkzeug>=0.15.3
+sphinx>=4.5
+redis>=3.5
