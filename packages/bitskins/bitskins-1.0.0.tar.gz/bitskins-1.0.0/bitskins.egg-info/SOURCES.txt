@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+bitskins/__init__.py
+bitskins/bitskins.py
+bitskins.egg-info/PKG-INFO
+bitskins.egg-info/SOURCES.txt
+bitskins.egg-info/dependency_links.txt
+bitskins.egg-info/top_level.txt
