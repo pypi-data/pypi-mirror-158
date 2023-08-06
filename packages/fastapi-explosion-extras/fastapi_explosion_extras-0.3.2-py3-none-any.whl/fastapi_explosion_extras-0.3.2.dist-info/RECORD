@@ -1,0 +1,13 @@
+fastapi_explosion_extras/__init__.py,sha256=Ji-9y4UqSCft_JSEg6SYh3oTwgGY_xLCMDLsbHLpyto,349
+fastapi_explosion_extras/initialize.py,sha256=ItNhwNoC14ACU4LtnmgUQ2tIOPKwm02YoIoq1uc0EUE,235
+fastapi_explosion_extras/routing.py,sha256=x_eroeysAefH2QWPaW_Mxf8U5Eq3YxG3jKe6pvPyUpE,16768
+fastapi_explosion_extras/types.py,sha256=WTqeOlh5CO2JtULmBR8lCSKzzciRUT6TQcozUPtxv7g,367
+fastapi_explosion_extras/tests/__init__.py,sha256=slg7Oz0Lh_N1tZ6te5Cjsrdh6IU9f9khA26u3oxXffI,105
+fastapi_explosion_extras/tests/api.py,sha256=po-HP8SEDlIMb0KUnEFHjn-VroX7MnVHDOF5fkW10OM,594
+fastapi_explosion_extras/tests/test_init_app.py,sha256=mxNqCvpS5e58Ecd8D6taQfksQVaP-slc3b63-y-GrVs,534
+fastapi_explosion_extras/tests/test_router.py,sha256=zp6PwPxCeMJuSaYn3FyT9zsXpG7kpXZ7gst14XEYMzw,1922
+fastapi_explosion_extras-0.3.2.dist-info/METADATA,sha256=ZEZbRyy0X_oK0lnn-1FhC-42tI3P3veeYna-vzLsA1k,3091
+fastapi_explosion_extras-0.3.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fastapi_explosion_extras-0.3.2.dist-info/top_level.txt,sha256=N3PE3QL8PghXBV9Ujv1IlJ_RJOtoMX2sc-QEENkAeWc,25
+fastapi_explosion_extras-0.3.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+fastapi_explosion_extras-0.3.2.dist-info/RECORD,,
