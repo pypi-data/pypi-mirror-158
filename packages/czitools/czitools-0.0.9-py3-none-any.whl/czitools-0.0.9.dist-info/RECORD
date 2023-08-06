@@ -1,0 +1,12 @@
+imagedata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imagedata/pylibczirw_tools.py,sha256=mrH08W3RW3ImMajvh7tgYJyGDmy37n-wJt4ivp_0A9Q,14512
+metadata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metadata/pylibczirw_metadata.py,sha256=D_f7oUMJ7qTKDw2CVaxBpiORteTetIq0zyTd93iMfS0,55405
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/misc.py,sha256=zCFK70WyrdG4ecr-Iqz7HUFGFkNt7T4vfzpIzXkXRyA,19484
+utils/napari_tools.py,sha256=cuhkfx5s9QEpjmIkxFNg12w9nrAMCLLAD5WH6GwYufg,9599
+czitools-0.0.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+czitools-0.0.9.dist-info/METADATA,sha256=bQfvGcEl2LJkUGxlpJx3Uj7SLajxtOBkiiRLT4zaQ7I,4435
+czitools-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+czitools-0.0.9.dist-info/top_level.txt,sha256=s4xmBSMGVoI4VAnYPGh2AQ0DLfJ5tjOC5GvrD4PfF_U,25
+czitools-0.0.9.dist-info/RECORD,,
