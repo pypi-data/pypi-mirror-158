@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ML-Methods
+Version: 0.1.9
+Summary: Use for Machine Learning
+Home-page: https://github.com/s-h-a-n-k/ML-Methods
+Author: Kor Shantanu Nitin
+Author-email: korshantanu@gmail.com
+Project-URL: Bug Tracker, https://github.com/s-h-a-n-k/ML-Methods/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ML-Methods
+
+This package is used for Machine Learning.
