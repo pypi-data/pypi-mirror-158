@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: create-flask-project
+Version: 0.1.1
+Summary: a simple cli tools to generate template for flask app
+Home-page: https://github.com/AlphaBeta1906/create-flask-app
+Download-URL: https://github.com/AlphaBeta1906/create-flask-app/archive/refs/tags/v0.1.1.tar.gz
+Author: fariz
+Author-email: farizi1906@gmail.com
+Maintainer: https://github.com/AlphaBeta1906
+License: MIT
+Keywords: automation,tools,cli,project,template,flask,development,web,api,boilerplate
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Framework :: Flask
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+License-File: LICENSE
+
+# create-flask-app
+
+a simple cli tools to create project template for flask app and help you set up flask project more quickly
+
+current version : 0.1.1
+
+## installation
+```bash
+pip install create-flask-project
+```
+
+## simple usage
+minimal template
+```bash
+flask-create-app new -t min-api -o myProject
+```
+
+or with prompt 
+
+```bash
+flask-create-app create
+```
+
+*Note: this project still under development*

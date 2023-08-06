@@ -1,0 +1,4 @@
+Click
+InquirerPy
+jinja2
+click-autocomplete
