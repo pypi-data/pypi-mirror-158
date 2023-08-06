@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+appstoreconnect_BPHvZ/__init__.py
+appstoreconnect_BPHvZ/__version__.py
+appstoreconnect_BPHvZ/api.py
+appstoreconnect_BPHvZ/resources.py
+appstoreconnect_BPHvZ.egg-info/PKG-INFO
+appstoreconnect_BPHvZ.egg-info/SOURCES.txt
+appstoreconnect_BPHvZ.egg-info/dependency_links.txt
+appstoreconnect_BPHvZ.egg-info/requires.txt
+appstoreconnect_BPHvZ.egg-info/top_level.txt
