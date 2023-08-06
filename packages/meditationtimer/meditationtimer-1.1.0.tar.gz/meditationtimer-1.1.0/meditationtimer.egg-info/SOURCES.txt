@@ -1,0 +1,10 @@
+README.md
+main.py
+pyproject.toml
+setup.py
+meditationtimer.egg-info/PKG-INFO
+meditationtimer.egg-info/SOURCES.txt
+meditationtimer.egg-info/dependency_links.txt
+meditationtimer.egg-info/entry_points.txt
+meditationtimer.egg-info/requires.txt
+meditationtimer.egg-info/top_level.txt
