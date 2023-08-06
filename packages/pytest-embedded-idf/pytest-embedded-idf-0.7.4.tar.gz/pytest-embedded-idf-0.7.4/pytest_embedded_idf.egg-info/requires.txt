@@ -1,0 +1,5 @@
+pytest-embedded~=0.7.4
+
+[serial]
+pytest-embedded-serial-esp~=0.7.4
+esp-coredump~=1.0
