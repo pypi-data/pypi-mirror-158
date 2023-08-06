@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "onelongcyclelr"
+version = "0.1.1"
+description = "An adaptation of pytorch OneCycleLR that doesn't crash when max steps is reached"
+authors = ["Andrea Boscolo Camiletto <abcamiletto@gmail.com>"]
+homepage = "https://github.com/abcamiletto/onelongcyclelr"
+repository = "https://github.com/abcamiletto/onelongcyclelr"
+include = [
+    "LICENSE",
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+Homepage = "https://github.com/abcamiletto/onelongcyclelr"
