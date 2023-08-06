@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: deepsource
+Version: 0.1.1
+Summary: A python scanner, work in progress...
+Home-page: https://github.com/BillSchumacher/deepsource
+Author: Bill Schumacher
+Author-email: william.schumacher@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Security
+License-File: LICENSE
+
+Work in progress
+================
+- this probably doesn't work well yet.
+
+
+Usage
+-----
+- Give the script a path to scan.
+
+Example::
+
+    python deepsource ~/PyCharmProjects/deepsource
+
