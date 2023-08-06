@@ -1,0 +1,15 @@
+imagen_pytorch/__init__.py,sha256=lCYF2whkMwHYEESV1MQ50itDv5bv36jDnRVidFV_ydo,506
+imagen_pytorch/cli.py,sha256=mXhswTJm89IWh7euLOb7i2PEsj6Vgl8zdMES3VTptQE,1475
+imagen_pytorch/configs.py,sha256=0mad5xrMyHOl7WnlBAYgfPrWLPuVKLfBLNfVi3JFWDY,4554
+imagen_pytorch/data.py,sha256=oIGBUv5PY-n5As-uMrf9d-h4d7NWVKtrnZz5H54XoOE,1724
+imagen_pytorch/elucidated_imagen.py,sha256=aWjCAhtQSFVNFjrHCiJcrlLb748k5kWGTqAhjsfBfS4,22135
+imagen_pytorch/imagen_pytorch.py,sha256=cu_QKS0mVr9kumdxgSJKwkSOK2DY2kkzBHge4vAlcKs,77293
+imagen_pytorch/t5.py,sha256=N7RFFp5eqmWMxbNTPBKy14E1z5R0t0QKCMryJumyNX0,2327
+imagen_pytorch/trainer.py,sha256=imcIocuj2b4hhJ7S-onJjZgzJhMfjnxVjObVb6M6tV0,19052
+imagen_pytorch/version.py,sha256=JH0YQ9l05eEgB7mCFHa7OsnElVkLQw2LUSW1J2MXUeo,23
+imagen_pytorch-0.20.5.dist-info/LICENSE,sha256=xZDkKtpHE2TPCAeqKe1fjdpKernl1YW-d01j_1ltkAU,1066
+imagen_pytorch-0.20.5.dist-info/METADATA,sha256=rCzkdpqU00RwMrKcxNXttP8iVGVr14YjepNdZf2Rbcc,1114
+imagen_pytorch-0.20.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+imagen_pytorch-0.20.5.dist-info/entry_points.txt,sha256=9JXRP0CjG2Kr__yDT6edps1EXGDS5ykgrNS5yrRTCkI,94
+imagen_pytorch-0.20.5.dist-info/top_level.txt,sha256=NIPSYkKb91r_q358qO4USh8mpvHZHTW5Gypk9bn7T_U,15
+imagen_pytorch-0.20.5.dist-info/RECORD,,
