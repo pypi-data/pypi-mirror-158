@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: incremental-tasks
+Version: 0.1.1
+Summary: 
+Author: hugcis
+Author-email: hmj.cisneros@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
