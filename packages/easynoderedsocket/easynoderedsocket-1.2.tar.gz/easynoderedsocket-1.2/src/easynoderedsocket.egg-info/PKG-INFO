@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: easynoderedsocket
+Version: 1.2
+Summary: UNKNOWN
+Home-page: https://github.com/SiwatINC/siwat-light-control-protocol
+Author: Siwat Sirichai
+Author-email: siwat@siwatinc.com
+License: Apache 2.0
+Keywords: nodered
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# easynoderedsocket
+Communicate with NodeRed TCP Socket
+
+
