@@ -1,0 +1,2 @@
+[console_scripts]
+pingline = src.cli:cli
