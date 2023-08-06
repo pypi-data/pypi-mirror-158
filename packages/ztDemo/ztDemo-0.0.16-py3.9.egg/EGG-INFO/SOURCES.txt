@@ -1,0 +1,8 @@
+setup.py
+src/ztDemo.egg-info/PKG-INFO
+src/ztDemo.egg-info/SOURCES.txt
+src/ztDemo.egg-info/dependency_links.txt
+src/ztDemo.egg-info/entry_points.txt
+src/ztDemo.egg-info/not-zip-safe
+src/ztDemo.egg-info/requires.txt
+src/ztDemo.egg-info/top_level.txt
