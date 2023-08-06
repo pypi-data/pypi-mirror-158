@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+DatabaseOperations/DBOps.py
+DatabaseOperations/__init__.py
+DatabaseOperations.egg-info/PKG-INFO
+DatabaseOperations.egg-info/SOURCES.txt
+DatabaseOperations.egg-info/dependency_links.txt
+DatabaseOperations.egg-info/top_level.txt
