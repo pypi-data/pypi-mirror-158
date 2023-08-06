@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "cybernetickit"
+version = "0.2.0-alpha.2"
+description = "The Cybernetic Kit is a set of conventions and techniques useful for making software-driven social impact."
+authors = ["Jurnell Cockhren <jurnell@civichacker.com>"]
+license = "LGPL-3.0-or-later"
+readme = "README.md"
+classifiers = [
+    "Topic :: Scientific/Engineering",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+packages = [
+    { include = "cybernetickit" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+elasticsearch-dsl = ">=7.0.0,<8.0.0"
+typing-inspect = {version = "^0.7.1", python = "~3.7"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+factory-boy = "^3.2.0"
+ipython = "^7.27.0"
+tox = "^3.24.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
