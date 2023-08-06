@@ -1,0 +1,10 @@
+updatable/__init__.py,sha256=8UwlPOoDqp7jnEpVUfdf9eyp6I7Tmnmg9BQgffNWSbI,633
+updatable/__main__.py,sha256=m8q5zT8SwLTR33CfKHSOFkuYkQPjHKb1XXxgz2eXyP8,74
+updatable/console.py,sha256=nhjZcfZR5EQthK7xascUyl2v2RDgm_GuDoTHs0OQUHM,3748
+updatable/utils.py,sha256=9qMhmnFpb_2GBqvqH2ex_s41RR7JtP_pwZ8XRGDLMPA,8910
+updatable-0.7.0.dist-info/LICENSE,sha256=E1dPQZlJGKGtYrjMZBw4Hgu-fTZAj5FIqetwnKsEczo,1073
+updatable-0.7.0.dist-info/METADATA,sha256=pEixE1Uz6TNNsAkZlh4UQX7HT574rjO1YFuRTlT3Td8,4742
+updatable-0.7.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+updatable-0.7.0.dist-info/entry_points.txt,sha256=Zh6UuBFPQeF_zq2aJ6HZmHgw6mcySREkwfn9jDb-dB0,54
+updatable-0.7.0.dist-info/top_level.txt,sha256=W6lWhWdnCFdGlZPAl2lpsbr8BffrZg1o_nRKXA6xGu4,10
+updatable-0.7.0.dist-info/RECORD,,
