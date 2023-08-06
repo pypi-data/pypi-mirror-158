@@ -1,0 +1,15 @@
+pcr/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+pcr/dist,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pcr/misc.py,sha256=dFD_c1LYburkHK3Rbkikgh4GnmY_gyyApKc2AULp5eI,1336
+pcr/model/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pcr/model/Backbone.py,sha256=w8xfwW93Wmgl25fuV6bILuZWuGn1PZXhpr-3W4P6Lmo,3268
+pcr/model/Decoder.py,sha256=p1oOn5teAYHwzwUmBCr7fRpAQy0fBxmxH5drPybQgjU,2358
+pcr/model/dgcnn_group.py,sha256=jomuJNaixiQjRd2U8WHya6URVOEYAMUyiFcC9XtRccY,3894
+pcr/model/ImplicitFunction.py,sha256=6mWQDhW7Mmp5xXCP_zxwjqLxPdWIlU1kqLr16KaxKF4,1692
+pcr/model/MLP.py,sha256=LJVnsQBM8xU0Js1hSnjyLwfBbzTy-ulCxOKoNbn7Q9A,532
+pcr/model/PCRNetwork.py,sha256=dDzYZsI5Kq5woPh5o0N-2yhb-ql_mdRMXPPf7aIVzKw,597
+pcr/model/Transformer.py,sha256=_7CkxP-Al8UyejMgMGQ3M7hFRi-YRt0UEPxq9L0ixcU,9608
+pcr/pcn_training_config.py,sha256=PkRujFIJB4akFRyQ7HhhgbWTLvUPKAZN3ee-5BIOmxU,1730
+hyperpcr-0.2.6.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+hyperpcr-0.2.6.dist-info/METADATA,sha256=3J6uFJYdUO_QgeGNK6uc6h6PLFE0WGmGDFjy1Nfious,491
+hyperpcr-0.2.6.dist-info/RECORD,,
