@@ -1,0 +1,9 @@
+README.md
+setup.py
+myconfscript/__init__.py
+myconfscript/confpool.cpython-38-x86_64-linux-gnu.so
+myconfscript/libgslcblas.so.0
+myconfscript.egg-info/PKG-INFO
+myconfscript.egg-info/SOURCES.txt
+myconfscript.egg-info/dependency_links.txt
+myconfscript.egg-info/top_level.txt
