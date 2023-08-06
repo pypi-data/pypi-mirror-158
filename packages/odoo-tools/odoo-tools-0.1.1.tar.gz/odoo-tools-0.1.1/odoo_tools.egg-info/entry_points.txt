@@ -1,0 +1,3 @@
+[console_scripts]
+odootools = odoo_tools.cli.odot:command
+
