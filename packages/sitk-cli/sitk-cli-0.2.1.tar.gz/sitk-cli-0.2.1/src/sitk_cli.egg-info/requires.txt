@@ -1,0 +1,8 @@
+makefun
+SimpleITK
+typer
+
+[dev]
+mypy
+pytest
+twine
