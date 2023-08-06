@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+tradingview_alert/__init__.py
+tradingview_alert/tv.py
+tradingview_alert.egg-info/PKG-INFO
+tradingview_alert.egg-info/SOURCES.txt
+tradingview_alert.egg-info/dependency_links.txt
+tradingview_alert.egg-info/requires.txt
+tradingview_alert.egg-info/top_level.txt
