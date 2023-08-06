@@ -1,0 +1,4 @@
+[console_scripts]
+tu2-addrs = traceutils.scripts.tu_addrs:main
+tu2-adjs = traceutils.scripts.tu_adjs:main
+tu2-pydig = traceutils.scripts.tu_pydig:main
