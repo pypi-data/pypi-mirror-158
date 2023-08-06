@@ -1,0 +1,14 @@
+i18ngenerator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i18ngenerator/__main__.py,sha256=4kjECqnOfgJNocBWUEvijebTEs-OfnmoBAZ6W9-3uJc,2957
+i18ngenerator/i18ngenerator.py,sha256=qJ-DfkuXN_371hTQuul3-eyTzQK2j6WHDnJb-C_8oVE,4247
+i18ngenerator/languages.py,sha256=gZ4JI2WvKfR6TN-ambhSGTHOMfHGluFoIEnS-HzsCYY,1629
+i18ngenerator/transformer.py,sha256=j5NYMXly4DHQAzgWTsA7aannx6iMIZwUDF3AOiyn5jc,949
+i18ngenerator/translator.py,sha256=-AwluFl8g8e7oLYvbRYTiel_qC8bo_xT1dAys9quq8Y,1140
+i18ngenerator/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i18ngenerator/utils/config_parser.py,sha256=h68itWGoDev0lPEDffFNOi4jRVrEJ9ECYyNyS9mfvCI,5074
+i18ngenerator/utils/exceptions.py,sha256=tNfuX-v8gf6w1678cUNeLrOB5EcGGeuV8bGgemgzLSQ,1568
+i18n_generator-0.0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+i18n_generator-0.0.1.dist-info/METADATA,sha256=n6oDL5J40EZ4ysB9mn3MQUnpvMtXn7Hvsws6Jd_PKVI,1175
+i18n_generator-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+i18n_generator-0.0.1.dist-info/top_level.txt,sha256=Q5O5vsMmnBtTzqhmKSsJ8pwHk9a29WUUZmjlX5zhWEs,14
+i18n_generator-0.0.1.dist-info/RECORD,,
