@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: DriveDownloader
+Version: 1.6.0.post1
+Summary: A Python netdrive downloader.
+Home-page: https://github.com/hwfan
+Author: hwfan
+Author-email: hwnorm@outlook.com
+License: MIT Licence
+Keywords: drivedownloader,drive,netdrive,download
+Platform: any
+License-File: LICENSE
+Requires-Dist: argparse
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: rich
+Requires-Dist: pysocks
+Requires-Dist: requests-random-user-agent
+Requires-Dist: google-api-python-client (>=1.12.5)
+Requires-Dist: six (>=1.13.0)
+Requires-Dist: oauth2client (>=4.0.0)
+Requires-Dist: PyYAML (>=3.0)
+Requires-Dist: pyOpenSSL (>=19.1.0)
+
+A Python netdrive downloader.
