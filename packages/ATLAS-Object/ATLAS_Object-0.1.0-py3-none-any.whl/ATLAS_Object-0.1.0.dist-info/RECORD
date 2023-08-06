@@ -1,0 +1,12 @@
+atlas_object/__init__.py,sha256=I5Lf-ADOPY_ArAoUtb68YycPEDBoGezezQelz7BPEos,199
+atlas_object/_version.py,sha256=csHlx9909BVSSNFk28938-bCB_vEONYK-fhcN_uX0zE,47
+atlas_object/atlas_class.py,sha256=geYWSFYoT7Xh_sf4adL5HYwsWZmhG4LGO7m0is0wNrQ,4819
+atlas_object/lightcurve_class.py,sha256=1ZegFMUbUG9fBr8lInFBxGn48BeB4DbiOs0U6BlgGZ0,4118
+atlas_object/rolling.py,sha256=Ngw73lTt9GcMiUNUO6C-uyT7wiZQsJKKmJ2eYfXWfEU,3288
+atlas_object/sigma_clipping.py,sha256=Os75KQfF5YaUhHkuoJGHTvIs96JJ0U30kjI7zidGfMI,3451
+atlas_object/utils.py,sha256=NOofH7jGRcpQEDZu3uGmC42rBI4nrvylW5ANJ_OU7Ak,1764
+ATLAS_Object-0.1.0.dist-info/LICENSE,sha256=Yan6UixpDhhqcakN_Iy7FvcRt06JAc28U_s0cFwyG2E,1065
+ATLAS_Object-0.1.0.dist-info/METADATA,sha256=5JLTX6rlyIpm6yn5H6ida5N5JIEIytCslh7-v61qKzE,3604
+ATLAS_Object-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ATLAS_Object-0.1.0.dist-info/top_level.txt,sha256=zlse_A0cOq0d-HaQVqWeB15eaim8xh_ni3rSyqzpj0Y,13
+ATLAS_Object-0.1.0.dist-info/RECORD,,
