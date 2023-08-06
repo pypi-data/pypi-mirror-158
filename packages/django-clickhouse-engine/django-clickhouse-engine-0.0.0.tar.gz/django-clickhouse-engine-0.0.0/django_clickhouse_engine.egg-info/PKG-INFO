@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: django-clickhouse-engine
+Version: 0.0.0
+Summary: ClickHouse database backend for Django
+Home-page: UNKNOWN
+Author: Vladimir Chebotarev
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
