@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: HaniehPackage
+Version: 0.0.2
+Summary: A sample Python project
+Home-page: UNKNOWN
+Author: Hanieh Rastegar
+License: MIT
+Keywords: HelloWorld
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+It is just a test for uploading a package!
+
+Change Log
+==========
+
+0.0.2 (7/7/2022)
+----------------
+- First Release
+

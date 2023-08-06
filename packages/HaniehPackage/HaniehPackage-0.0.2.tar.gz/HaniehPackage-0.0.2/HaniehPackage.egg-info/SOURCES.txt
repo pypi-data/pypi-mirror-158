@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+HaniehPackage.egg-info/PKG-INFO
+HaniehPackage.egg-info/SOURCES.txt
+HaniehPackage.egg-info/dependency_links.txt
+HaniehPackage.egg-info/top_level.txt
