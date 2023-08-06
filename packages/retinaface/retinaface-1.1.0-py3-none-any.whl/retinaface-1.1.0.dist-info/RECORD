@@ -1,0 +1,9 @@
+retinaface/__init__.py,sha256=k48YNP_IeqkjAcU2KoZSD9AbOuJ_RIZbgb7fx0_Ocjc,49
+retinaface/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+retinaface/src/frozen_graph.pb,sha256=zyQuhifQZQ0CvdvIqFJpRLxNxpJpvSwdHkP7CTD5WZM,6637591
+retinaface/src/retinaface.py,sha256=X1MHxcF92yEfniDrIZ5etDWa1rGLaayLQiZUCxOX8dg,7624
+retinaface-1.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+retinaface-1.1.0.dist-info/METADATA,sha256=f6Q62IeMjIRIGlnGJTaDz-q0SXjR1fIlFGs9jEAC24E,2045
+retinaface-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+retinaface-1.1.0.dist-info/top_level.txt,sha256=pfovrQynXTF0QV20p2oj5Lqgoh9AbT3qQ-nkyut5yw0,11
+retinaface-1.1.0.dist-info/RECORD,,
