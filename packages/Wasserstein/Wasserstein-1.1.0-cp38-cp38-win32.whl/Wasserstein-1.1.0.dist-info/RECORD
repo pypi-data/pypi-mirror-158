@@ -1,0 +1,10 @@
+wasserstein/__init__.py,sha256=uBtOO0kCITTSKF1eLDue2nEKdFRHYDlY37Kldvx6vCU,4569
+wasserstein/_wasserstein.py,sha256=Hm_3MZHoqnKJc6bS2B40eDUEI4CobG4fyHjiB-pSyQQ,1747
+wasserstein/_wasserstein_omp.cp38-win32.pyd,sha256=O8NT01v1xlgTAO8Xaj_a05k7MuXjTG6H3TNf-I2nloM,766976
+wasserstein/config.py,sha256=ozjAHbxqcLocWR-vrG7OiL_c6cGd0JjFO2TlOHBWhc0,2205
+wasserstein/wasserstein.py,sha256=F7mig_RQtoIr25PSp1NDn33rrBsVy7vjo4b3JFaMfG0,68066
+Wasserstein-1.1.0.dist-info/LICENSE,sha256=SO3S4qQkoQO_W9nKhAIlMyG81FV9axRKXtgN7RWVdoE,42361
+Wasserstein-1.1.0.dist-info/METADATA,sha256=iiwofY-5mqtFF8HopNRKJ8VGcq8di6g6CCAew8Ma-VQ,2894
+Wasserstein-1.1.0.dist-info/WHEEL,sha256=f5A3Ypo9PM0E06rgvH7-s12WthkA89SedEqLArPnjKU,96
+Wasserstein-1.1.0.dist-info/top_level.txt,sha256=0FwkDx4xC33hHjr2XwadzvCHKVjIUA3aFpMfMbBhmLE,12
+Wasserstein-1.1.0.dist-info/RECORD,,
