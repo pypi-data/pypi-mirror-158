@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: autospares
+Version: 0.0.2
+Summary: A small example package
+Home-page: https://pypi.org/user/adrian_k/
+Author: adrian
+License: LICENSE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+autospares.egg-info/PKG-INFO
+autospares.egg-info/SOURCES.txt
+autospares.egg-info/dependency_links.txt
+autospares.egg-info/top_level.txt
