@@ -1,0 +1,12 @@
+pyyaml>=5
+docker
+requests
+schema
+packaging
+questionary
+emrichen
+ruamel.yaml
+roam
+urllib3
+lief
+python-gnupg
