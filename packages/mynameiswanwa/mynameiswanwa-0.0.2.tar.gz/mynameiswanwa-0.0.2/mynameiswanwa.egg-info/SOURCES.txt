@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+mynameiswanwa/__init__.py
+mynameiswanwa/wanwa.py
+mynameiswanwa.egg-info/PKG-INFO
+mynameiswanwa.egg-info/SOURCES.txt
+mynameiswanwa.egg-info/dependency_links.txt
+mynameiswanwa.egg-info/top_level.txt
