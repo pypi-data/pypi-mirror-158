@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyvaporation
+Version: 0.1.8
+Summary: Set of tools for modelling pervaporation processes
+Home-page: https://github.com/Membrizard/PyVaporation
+Download-URL: https://github.com/Membrizard/PyVaporation/archive/refs/tags/v0.1.8.tar.gz
+Author: Denis Sapegin, Aleksei Chekmachev
+Author-email: a.checkmachev@gmail.com
+License: Apache license 2.0
+Keywords: pervaporation,membrane,chemistry,modelling
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+License-File: LICENSE.txt
+Requires-Dist: joblib (>=1.1.0)
+Requires-Dist: matplotlib (>=3.5.2)
+Requires-Dist: pandas (>=1.4.2)
+Requires-Dist: scipy (>=1.8.0)
+
