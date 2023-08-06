@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sortbyname/__init__.py
+sortbyname/sortbyname.py
+sortbyname.egg-info/PKG-INFO
+sortbyname.egg-info/SOURCES.txt
+sortbyname.egg-info/dependency_links.txt
+sortbyname.egg-info/requires.txt
+sortbyname.egg-info/top_level.txt
