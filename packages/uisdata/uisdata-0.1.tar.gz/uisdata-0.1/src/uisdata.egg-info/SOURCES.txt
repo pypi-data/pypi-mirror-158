@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/uisdata/__init__.py
+src/uisdata/bdds.py
+src/uisdata.egg-info/PKG-INFO
+src/uisdata.egg-info/SOURCES.txt
+src/uisdata.egg-info/dependency_links.txt
+src/uisdata.egg-info/requires.txt
+src/uisdata.egg-info/top_level.txt
