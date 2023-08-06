@@ -1,0 +1,11 @@
+h5massembly/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+h5massembly/assembly.py,sha256=6JvfKjqWY4rJi4gHPxiX6ZJcgxJqeYzwdSKtH___sSs,24962
+h5massembly/assemblymesher.py,sha256=pfQTn50kLaUEDOi4GghaR_gHjn_5eZRfh_6KbFQDg_k,358
+h5massembly/assemblymesher_cq.py,sha256=DQvY1vNRk0lA9jOiS5rLSvL_G-TUpVh-uZ8oILHcHJU,962
+h5massembly/assemblymesher_gmsh.py,sha256=4tHGSwZzCYkR7aPri_EJxYmuuiX4TDVvk8QSbGUv6dQ,5010
+h5massembly/object_factory.py,sha256=BPHgMzeUEukazVo--yrcSM9OCAUZVmOnx6PeEJQ1r34,329
+h5massembly-0.0.12.dist-info/LICENSE,sha256=onNg72RjL_2hQ60GNbGFxXPYcIU1_eZVPh4SHwwOFis,1071
+h5massembly-0.0.12.dist-info/METADATA,sha256=cyqmuB_4iZGL5jryp1ldNAf3KxfufIWYkEiOovSG_Oc,3310
+h5massembly-0.0.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+h5massembly-0.0.12.dist-info/top_level.txt,sha256=FcTquMS_uUlJSsYoigesSn2mz1JUPb0lT9gFF7qsUPo,12
+h5massembly-0.0.12.dist-info/RECORD,,
