@@ -1,0 +1,3 @@
+[console_scripts]
+funcker=funcker.cli.main:app
+

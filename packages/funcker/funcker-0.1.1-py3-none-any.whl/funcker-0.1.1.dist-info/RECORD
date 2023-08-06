@@ -1,0 +1,11 @@
+funcker/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funcker/cli/__main__.py,sha256=PguXkhdy3Ct16qB-_gGYY9tZkLHa8_sr6F8eCzU8m1Y,28
+funcker/cli/main.py,sha256=q3VV2NMTbXZjotxN-02p2Wkehc46Xe4X_2hLGY-kmAE,489
+funcker/plug/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funcker/plug/main.py,sha256=3SzF2nUCKmGxZVhudQiTWZEPtmhagFd6Ixw1Of1T7Ds,166
+funcker/run/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funcker/run/main.py,sha256=YTQzf6dR5-iuHZygtrM6xgmCAkma3899TnWL4hGzBz8,695
+funcker-0.1.1.dist-info/entry_points.txt,sha256=12bGf_qp4Dsy06lmP2RNRLOYm5jP5r5PH3Ql9A8lu3o,48
+funcker-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+funcker-0.1.1.dist-info/METADATA,sha256=PLdrLO3aaucB6m3Bemj5SY5Sjg-G0k6VcoMijyoYfss,543
+funcker-0.1.1.dist-info/RECORD,,
