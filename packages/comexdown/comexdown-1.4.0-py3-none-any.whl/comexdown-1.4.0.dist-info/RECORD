@@ -1,0 +1,11 @@
+comexdown/__init__.py,sha256=tbxAl3ePOSx2HqqTq9hHa_xLoxW4wYqzkfGgIoafllA,3776
+comexdown/cli.py,sha256=hexktELvBB5BDVi6GIfTiDxGn61cLvUptSU0UzuNlvg,5964
+comexdown/download.py,sha256=p1bW-D0pleAmvR4UgfI-WuxGerALYm7Z2I4X_P9bEPo,6309
+comexdown/fs.py,sha256=bZo6negMCgm_gmWHrBes_wkUjjgAm36tQibFZL9Wemo,1724
+comexdown/tables.py,sha256=pMiijzr1_TaGDAxlZk8VgAslr5nDbxjjEFYMVYQmf5E,6066
+comexdown-1.4.0.dist-info/LICENSE,sha256=fllsXCCckV7UvOIv0-xNg-VO87bxhlJVH-l95fpgIEg,1074
+comexdown-1.4.0.dist-info/METADATA,sha256=qc8Mq1qMM9LrxQHAOPEr6oL5fTQ_KPrWzN_aar5ERiQ,2816
+comexdown-1.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+comexdown-1.4.0.dist-info/entry_points.txt,sha256=dikf9QbaTh5wbAriWQszLthzhWi51whxW-RCXk4hVpM,50
+comexdown-1.4.0.dist-info/top_level.txt,sha256=VFPzvPoAigoOQ858p83kRsXT2lRd0Hm3aLrcoHkYLbw,10
+comexdown-1.4.0.dist-info/RECORD,,
