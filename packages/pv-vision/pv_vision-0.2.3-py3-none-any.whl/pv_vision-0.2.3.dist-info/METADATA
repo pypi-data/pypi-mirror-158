@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pv-vision
+Version: 0.2.3
+Summary: Image analysis of defects on solar modules, including automatic detection and power loss prediction
+Home-page: https://github.com/hackingmaterials/pv-vision
+Author: XinChen
+Author-email: chenxin0210@lbl.gov
+License: BSD
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib (>=3.4.2)
+Requires-Dist: opencv-python (>=4.4.0.44)
+Requires-Dist: seaborn (>=0.11.2)
+Requires-Dist: torchvision (>=0.7.0)
+Requires-Dist: pandas (>=1.3.2)
+Requires-Dist: imutils (>=0.5.3)
+Requires-Dist: scipy (>=1.6.0)
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: tqdm (>=4.56.0)
+Requires-Dist: torch (>=1.6.0)
+Requires-Dist: Pillow (>=9.0.1)
+Requires-Dist: scikit-learn (>=0.24.2)
+
+# PV-Vision
+Image analysis of defects on solar cells.
+
+This package allows you to analyze electroluminescene (EL) 
+images of PV module. The methods in this package include EL image preprocessing, defective 
+cell identification, crack segmentation, maximum isolated area prediction, etc.
+
+## Installation
+1. Install from source
+```bash
+git clone https://github.com/hackingmaterials/pv-vision.git
+cd pv-vision
+pip install .
+```
+2. Install from Pypi
+```bash
+pip install pv-vision
+```
+
+## Usage
+Import the package
+```python
+import pv_vision
+```
+
+Read [tutorials](https://github.com/hackingmaterials/pv-vision/tree/main/tutorials)
+
+## Citation
+Please cite our papers if you use our tool or dataset.
+```
+Will update soon
+``` 
