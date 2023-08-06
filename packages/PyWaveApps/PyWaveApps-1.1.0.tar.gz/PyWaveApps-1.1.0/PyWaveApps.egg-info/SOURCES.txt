@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+PyWaveApps.egg-info/PKG-INFO
+PyWaveApps.egg-info/SOURCES.txt
+PyWaveApps.egg-info/dependency_links.txt
+PyWaveApps.egg-info/requires.txt
+PyWaveApps.egg-info/top_level.txt
+pywaveapps/__init__.py
+pywaveapps/mutation.py
+pywaveapps/query.py
