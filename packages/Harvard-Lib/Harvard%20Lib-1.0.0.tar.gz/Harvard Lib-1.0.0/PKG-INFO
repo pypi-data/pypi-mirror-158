@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: Harvard Lib
+Version: 1.0.0
+Summary: A Python library that contains multiple other libraries created by Ulif Systems
+Home-page: http://54.234.189.76
+Author: Ulif Systems
+Author-email: support@ulifsystems.tech
+Project-URL: DiscordRPC Website, http://54.234.189.76/rpc
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Harvard by Ulif
+Harvard is a python package that contains all of Ulif Systems python APIS and applications.
+
+# Libraries
+* TwoFALib - `import twofalib`
+* UlifUtils - Hosts config file for ulif apis   
+* DiscordRPC = `import discordrpc`
+
+# Applications
+* UManage - Project Manager and Live code collab

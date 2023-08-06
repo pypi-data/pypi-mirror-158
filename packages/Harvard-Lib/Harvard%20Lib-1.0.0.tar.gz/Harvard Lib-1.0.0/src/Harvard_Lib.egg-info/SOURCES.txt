@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Harvard_Lib.egg-info/PKG-INFO
+src/Harvard_Lib.egg-info/SOURCES.txt
+src/Harvard_Lib.egg-info/dependency_links.txt
+src/Harvard_Lib.egg-info/top_level.txt
+src/discordrpc/__init__.py
+src/discordrpc/baseclient.py
+src/discordrpc/client.py
+src/discordrpc/exceptions.py
+src/discordrpc/payloads.py
+src/discordrpc/presence.py
+src/discordrpc/utils.py
