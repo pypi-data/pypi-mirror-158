@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: meditationtimer
+Version: 1.1.1
+Summary: A small CLI meditation app for mindfullness sessions
+Author-email: Folkert Jansen <fkjansen@protonmail.com>
+Keywords: cli,meditation,click
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+
+# Meditationtimer
+
+Small CLI meditation timer for mindfullness sessions.
+
+The python package can be found at [Pypi](https://pypi.org/project/meditationtimer/) and can be installed in the usual way.
+
+```
+pip install meditationtimer
+meditationtimer
+```
+
+[this post](https://www.reddit.com/r/getdisciplined/comments/1wqeoi/i_recommend_the_willpower_instinct_by_kelly/cf58h0k/) explains how a session works. 
