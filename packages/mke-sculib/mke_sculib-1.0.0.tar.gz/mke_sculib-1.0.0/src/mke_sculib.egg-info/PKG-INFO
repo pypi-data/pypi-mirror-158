@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: mke-sculib
+Version: 1.0.0
+Summary: MeerKAT Extension (SCU) (lib)rary for the MKE antennas and some basic simulators
+Home-page: https://gitlab.mpcdf.mpg.de/tglaubach/mke-sculib
+Author: Tobias Glaubach
+Author-email: tglaubach@mpifr-bonn.mpg.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.mpcdf.mpg.de/tglaubach/mke-sculib/-/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+mke_sculib
+===============
+MeerKAT Extension (MKE)
+(SCU) Science Computation Unit interface (lib)rary for the MKE antennas and some basic simulators
+
+Installing
+============
+
+.. code-block:: bash
+
+    pip install mke_sculib
+
+Usage
+=====
+
+.. code-block:: python
+
+    >>> import mke_sculib.core as sculib
+    
+
+
+See also `scripts` for examples on how to use this library
+
+
+HTTP Dummy server
+=====
+
+This library has a dummy server with dashboard implemented which can run on any machine with anaconda installed. 
+
+See: `servers` for the examples. 
+
+NOTE: Change the absolut path in the files if necessary
+
+.. code-block:: bash
+
+    python /servers/dashboard.py
+
