@@ -1,0 +1,10 @@
+GlobalRadiation_Tmrt_RayMan.cp38-win_amd64.pyd,sha256=iMZ_zp-tvES-oabKzsXCewWIqTyIR3iBAuD2k4G1Lvw,163328
+PMV_func.cp38-win_amd64.pyd,sha256=dOIH5To37fizLPwT438QcWoxsUcW5pSWjFZHOZtoSCQ,80896
+SET_func.cp38-win_amd64.pyd,sha256=P4J8_nsZSq_AhpCb60mkHoEWApyijn127H9nLXntWOY,81408
+UTCI_apporf.cp38-win_amd64.pyd,sha256=MhYv0ZqpN-KboPfiJMJOUSdxG4Ep8hm_8b8Pp63yjQ0,140800
+mPET_func_ord.cp38-win_amd64.pyd,sha256=DSEIsonZIVmhXf23TARB2MQrJx5kVmaYKYU75OzKmfM,1496064
+pet_func.cp38-win_amd64.pyd,sha256=9Pj7tGSAuCbc2JmrxV-3XNk3K0x6DnbwBKRs0xzRAoY,147968
+biometeo-0.0.2.dist-info/METADATA,sha256=KyuLisygz7q6a6hBiiAgJ_R4xilQkngz7ppgVgNrzrQ,740
+biometeo-0.0.2.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+biometeo-0.0.2.dist-info/top_level.txt,sha256=a2CW0F7QIUCWmm-T5HUTcPrhi3joAfVYSuSLyyEnxbc,81
+biometeo-0.0.2.dist-info/RECORD,,
