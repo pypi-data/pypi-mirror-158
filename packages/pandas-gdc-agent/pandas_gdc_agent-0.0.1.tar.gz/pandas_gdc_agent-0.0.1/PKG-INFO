@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: pandas-gdc-agent
+Version: 0.0.1
+Summary: Hasura GDC agent based on pandas.
+Project-URL: Homepage, https://github.com/paritosh-08/pandas_gdc_agent
+Project-URL: Bug Tracker, https://github.com/paritosh-08/pandas_gdc_agent/issues
+Author-email: Paritosh Raj <paritosh@hasura.io>
+License: MIT License
+        
+        Copyright (c) 2022 paritosh-08
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: flask==2.1.2
+Requires-Dist: pandas==1.4.3
+Description-Content-Type: text/markdown
+
+# pandas_gdc_agent
+
+This project explores the Hasura Graphql Data Connectors (GDC) using pandas
+Dataframe as backend.
+
+To quickly get started, please go through a sample app in `app.py`.
+
+## GDCAgent
+
+The `GDCAgent` constructor takes a list of tuples, where the first element
+is the table name and the second element is the `DataFrame` which corresponds
+to the table name. To setup a `GDCAgent`, run the following:
+
+``` python
+# setting up GDC Agent
+agent = GDCAgent([("table1",df1),("table2", df2)])
+```
+
+Please note that the dataframe must have the primary key as index.
+
+After setting up the `GDCAgent`, start the GDCAgent server by running the
+following:
+
+``` python
+# starting the GDC Agent
+agent.run_agent()
+```
+
+When you run the `GDCAgent`, it starts a flask server and exposes the required
+endpoints explained [here](https://github.com/hasura/graphql-engine-mono/tree/main/dc-agents#implementing-data-connector-agents).
