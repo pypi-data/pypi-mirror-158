@@ -1,0 +1,1 @@
+Tento balicek implementuje jednoduchou loterii pro ucely vyuky Pythonu skupiny SDA CZ10.

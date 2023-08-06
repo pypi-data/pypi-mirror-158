@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: python-technology-CZ10-loterie
+Version: 1.0.1
+Summary: Knihovna pro ucely vyuky Pythonu skupiny SDA CZ10.
+Home-page: UNKNOWN
+Author: Pavel Eis
+Author-email: aisik004@gmail.com
+License: MIT
+Description: Tento balicek implementuje jednoduchou loterii pro ucely vyuky Pythonu skupiny SDA CZ10.
+Platform: UNKNOWN
+Requires-Python: >=3.6
