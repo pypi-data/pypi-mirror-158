@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pi-mcp23017
+Version: 1.0.0
+Summary: Library to access the I2C MCP23017 Port expander via an raspberry pi
+Author: Andreas Philipp
+Author-email: dev@anphi.de
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: RPi.GPIO (>=0.7.1,<0.8.0)
+Requires-Dist: smbus (>=1.1.post2,<2.0)

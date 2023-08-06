@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pi-mcp23017"
+version = "1.0.0"
+description = "Library to access the I2C MCP23017 Port expander via an raspberry pi"
+authors = ["Andreas Philipp <dev@anphi.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+"RPi.GPIO" = "^0.7.1"
+smbus = "^1.1.post2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
