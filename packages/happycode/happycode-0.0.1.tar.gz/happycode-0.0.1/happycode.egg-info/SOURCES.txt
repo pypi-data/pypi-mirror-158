@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+happycode/__init__.py
+happycode.egg-info/PKG-INFO
+happycode.egg-info/SOURCES.txt
+happycode.egg-info/dependency_links.txt
+happycode.egg-info/top_level.txt
