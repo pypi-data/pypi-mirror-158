@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: python-lambda-builder
+Version: 0.1.1
+Summary: A CLI application for building lambda python functions and dependencies
+Author: Damilola Adeyemi
+Author-email: adeyemidamilola3@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: typer[all] (>=0.5.0,<0.6.0)
+Description-Content-Type: text/markdown
+
+# Python Lambda Builder
+This library is a CLI tool to solve the problem of 
+building together a python project and its dependencies for lambda 
+deployment. This command with could be integrated into pipeline 
+for deployment.
+
+## Usage
+For poetry (pyproject.toml):
+```shell
+python_lambda_builder --func-src src/ --build_dest dist/
+```
+
+For pip (requirements.txt):
+```shell
+python_lambda_builder --func-src src/ --build_dest dist/ --manager pip
+```
+
+Other arguments you can pass include:
+- `pyproject_path`: (defaults to `./pyproject.toml`) This can be the relative or absolute 
+path to the pyproject.toml file.
+- `requirements_path`: (defaults to `./requirements.txt`) This can be the relative or absolute 
+path to the requirements.txt file.
