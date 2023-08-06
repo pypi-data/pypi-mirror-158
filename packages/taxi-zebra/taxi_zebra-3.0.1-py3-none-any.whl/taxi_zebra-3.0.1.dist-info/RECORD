@@ -1,0 +1,12 @@
+taxi_zebra/__init__.py,sha256=Ys8n4as2Wcnr8Aq6OV-e59RKmKVeyh9Oh2nzJ2FZPFk,22
+taxi_zebra/backend.py,sha256=ZAJgU7gu3bFYxC4eXVB8Z8UPy4pu0uBDLLDt_fi3kHk,10279
+taxi_zebra/commands.py,sha256=mAqSaex-C62LfABFw0XzPHi0vGdejtzRRYrIEji5EoM,2640
+taxi_zebra/roles.py,sha256=-1g7ndSRCeL7OccZtk7AOquRo-E-hIV0GE0aNd1ksFo,52
+taxi_zebra/ui.py,sha256=n_iX8eeSRL9PEoqLmB5G0g631ZUn9At9Xai32PixE3I,6014
+taxi_zebra/utils.py,sha256=x04Y5eW0ElV_lddKBrqnJaVlhWt8K2zgKiluGyuonIw,1242
+taxi_zebra-3.0.1.dist-info/LICENSE,sha256=T1y7CF3rSNNFbSZLd53DA0suMYvUkmzSVXj2aFML77U,497
+taxi_zebra-3.0.1.dist-info/METADATA,sha256=b46CxP6aJ8e-HDmNIy8-1U1XW81mmRRcPyAf6VyZf90,582
+taxi_zebra-3.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+taxi_zebra-3.0.1.dist-info/entry_points.txt,sha256=pfwNR-e3nG0V4cwINf1Ut01VkH3HvYuMDhsH8jDqHuI,102
+taxi_zebra-3.0.1.dist-info/top_level.txt,sha256=njTWVQml1KUXbDzYM5Sl8ZPKWvZv9w2jMKgzWdFkDPU,11
+taxi_zebra-3.0.1.dist-info/RECORD,,
