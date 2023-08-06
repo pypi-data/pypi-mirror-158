@@ -1,0 +1,16 @@
+desklank/__init__.py,sha256=CABqF763f8bIg_qrH0j1-9irrLSK0ARQWvdb9jWoVxk,4030
+desklank/__main__.py,sha256=7LoFolTNu2Msy4dmIQgMOCdq7wwov6FGQ6s7jMdi-4s,117
+desklank/__version__.py,sha256=ml1JLRaQKJz8SauYGSAvjgjuCSV2UboriGTn-zFiDZs,23
+desklank/config.py,sha256=Nc_Koh3qsYy8ryCrx0zzXYLzO5v1niyNQVAG-8Ccfow,953
+desklank/node.py,sha256=GwhwBrRo3f8prEn-RvEbcQXx-RdHvwyVDZxI5aCDUKE,7451
+desklank/systray.py,sha256=hdWzY4uNCKeZ04p8p3710aiuguK3eFUgPVRXeeT6_us,1305
+desklank/page/__init__.py,sha256=t_yHSuaQ6t52ZW0BX2zRRlSwZ14x1kEcOJjAGPNPw_k,39
+desklank/page/connect.py,sha256=NSEr-G9iabnknT2rIfKx_gO99J-qNLzo9W8BL0ycffs,2105
+desklank/page/labels.py,sha256=nmbFns4D2ADKwEKtVGj-3xyYcngdpgyE-PRyQRtU-KA,1969
+desklank/page/peers.py,sha256=ZJlL4-9YnpGRQme2Bs5NFSvdn_jAg735fjIaJNhjjZc,306
+desklank-0.0.6.dist-info/LICENSE,sha256=zYwlQiTG8a4XwEV6PnoA8v5iobwlLqrY8VrLn1f9rRw,1102
+desklank-0.0.6.dist-info/METADATA,sha256=HGe7E53DbOmyUMRd9Gfg06ohgj48YtBBfzNqLyR4WC8,939
+desklank-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+desklank-0.0.6.dist-info/entry_points.txt,sha256=Pmr_DIlgCoBUy-0ZTqoad_tZmRyXr7Oc7_IieBdW0mo,51
+desklank-0.0.6.dist-info/top_level.txt,sha256=qD5nmmZyognHGfAOybieG101JN7Pua5kfGm7yWoml9U,9
+desklank-0.0.6.dist-info/RECORD,,
