@@ -1,0 +1,17 @@
+filebrowser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filebrowser/app.py,sha256=ISfUYgYK5DCMkisrmiK9-NsWh_2Jk1s4Yhfu_X5p9tE,8238
+filebrowser/funcs.py,sha256=iU4PtYfa1R5QZuogKmvD5X5Ohv4gqb3JsFA4cP42Wnw,1363
+filebrowser/main.py,sha256=aB3ueUr-Y7BRT1QZG3D3PVaeXkO47E_qjBqyKVZSvBk,1465
+filebrowser/static/css/file.css,sha256=KNB_WhhZ_0EccYbuTt68qUc9-WF17WjtKHULEFIStZg,22591
+filebrowser/static/css/file1.css,sha256=Qt_R9LyobipXE4kLXoHYEGJ-w2SGXqgtvYQ_b6ERHRg,3322
+filebrowser/static/fonts/MaterialIcons-Regular.570eb838.woff2,sha256=qH1myRsufcVTCu92wDvWo9JepYJhEL9IA7VhuBHMhyY,44300
+filebrowser/static/js/jquery.min.js,sha256=9_aliU8dGd2tb6OSsuzixeV4y_faTqgFtohetphbbj0,89476
+filebrowser/static/js/main.js,sha256=yXg8lxoCYQ0dRJouTRhRARloogC2mHuFc8hMnIozOtc,19702
+filebrowser/templates/data.html,sha256=382IrDurqxD9JZmkGtaJbL7i5HI9DAy8VlsEXo1-oU4,1249
+filebrowser/templates/index.html,sha256=8NazMDUN6lyn1YCf153ptzfy8HGms74PBCd2Gwved8M,16123
+filebrowser-1.1.1.dist-info/LICENSE,sha256=cHEEujGGhzJsSsay79nimRhwIp5BortOd8p9Pl5ihIQ,1075
+filebrowser-1.1.1.dist-info/METADATA,sha256=DrkJCs1JpIfTpNqWeZMrKFjQyRWcss62ajtSMprRhCQ,1630
+filebrowser-1.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+filebrowser-1.1.1.dist-info/entry_points.txt,sha256=4XiI5aadq-IgK2xgCKH5LSTqeBcG86ANxlv9mKqvmZE,53
+filebrowser-1.1.1.dist-info/top_level.txt,sha256=WnSAG9Mf-wbFSy7Q5yr0jx0TX0wEdw04Fu37H-A6rFE,12
+filebrowser-1.1.1.dist-info/RECORD,,
