@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+SaaSChurn/__init__.py
+Saaschurnpredictor.egg-info/PKG-INFO
+Saaschurnpredictor.egg-info/SOURCES.txt
+Saaschurnpredictor.egg-info/dependency_links.txt
+Saaschurnpredictor.egg-info/top_level.txt
