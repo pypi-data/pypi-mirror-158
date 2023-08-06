@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: scrapyd-team
+Version: 0.1.2
+Summary: A service for running Scrapy spiders, with an HTTP API
+Home-page: https://github.com/scrapy/scrapyd
+Author: Scrapy developers
+Author-email: info@scrapy.org
+License: BSD
+Description: # Scrapyd
+        
+        ## 版本变动 v 0.1.1 2022/7/11
+        
+        * 将缓存区解包egg文件加入到环境变量XDG_CONFIG_HOME,scrapy项目能正常引用scrapy.cfg中配置
+        * 对于scrapy项目中非py文件,如xlsx文件在程序中引用,请取os.environ["XDG_CONFIG_HOME"]位置作为项目根目录
+           * 例:
+           ```
+           # win
+           with open(os.environ["XDG_CONFIG_HOME"]+'\\readme.txt',encoding = "utf-8") as f:
+              read_content = f.read()
+           ```
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Topic :: Internet :: WWW/HTTP
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: docs
