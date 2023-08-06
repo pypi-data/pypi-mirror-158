@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/mszutils/__init__.py
+src/mszutils/common.py
+src/mszutils.egg-info/PKG-INFO
+src/mszutils.egg-info/SOURCES.txt
+src/mszutils.egg-info/dependency_links.txt
+src/mszutils.egg-info/requires.txt
+src/mszutils.egg-info/top_level.txt
