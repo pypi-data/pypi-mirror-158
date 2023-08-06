@@ -1,0 +1,12 @@
+frontman/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frontman/__main__.py,sha256=X8gTITVugEmzgPz7AhIPJj3jNRCXqsZ8L4Uus7BcBFs,49
+frontman/download.py,sha256=twFTaS2B6SeJhgv-fm2jgr6wtwiRgx5zhu2cNASrr2Q,1780
+frontman/main.py,sha256=mX6Rw2Fh685JCskX1oMG-hTZ5w19ZN1n40BkeUXoXBc,3263
+frontman/process.py,sha256=bGu--ZD1dDbNLRQv__NQdh0Gm0D0Ii0FnymlbQb_ilo,1285
+frontman/provider.py,sha256=53jeEqL-JCmFB3cBeA38LXCvbrJSQtytidVfmm_X2U8,517
+frontman/result.py,sha256=97OHFoQ1ZzdP8hJkqtZJ6LR3Ob6FAwH3lFrGNa2nIZQ,275
+frontman/schema.py,sha256=lVrtEx_nwSPGhmPMoJOt4gJyTGQKUa-rv7SoTKVjMj0,555
+frontman-0.3.1.dist-info/entry_points.txt,sha256=VE-fICySdTl985eRCaEQDKcV6rRHVWpgiwrBXqqN0v4,46
+frontman-0.3.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+frontman-0.3.1.dist-info/METADATA,sha256=l64tipPLh1mBrKCBxQjWTpuBdDOW4cZXx45hJc2MAe4,3776
+frontman-0.3.1.dist-info/RECORD,,
