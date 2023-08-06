@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/menu_zerobeef/__init__.py
+src/menu_zerobeef/data.py
+src/menu_zerobeef/example.py
+src/menu_zerobeef/main.py
+src/menu_zerobeef/menu.py
+src/menu_zerobeef/setup.py
+src/menu_zerobeef.egg-info/PKG-INFO
+src/menu_zerobeef.egg-info/SOURCES.txt
+src/menu_zerobeef.egg-info/dependency_links.txt
+src/menu_zerobeef.egg-info/top_level.txt

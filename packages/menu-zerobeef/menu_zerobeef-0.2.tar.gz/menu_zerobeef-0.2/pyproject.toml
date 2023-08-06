@@ -1,0 +1,23 @@
+[project]
+name = "menu_zerobeef"
+version = "0.2"
+authors = [
+  { name="Erik", email="zerobeef@icloud.com" }
+]
+description = "A simple menu program for command line enthusiasts made possible using curses"
+readme = "README.md"
+license = { file="LICENSE.md" }
+requires-python = ">=3.7"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/erikkamph/project_menu"
+"Bug Tracker" = "https://github.com/erikkamph/project_menu/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
