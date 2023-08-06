@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+hsoft/__init__.py
+hsoft/hobj1.py
+hsoft.egg-info/PKG-INFO
+hsoft.egg-info/SOURCES.txt
+hsoft.egg-info/dependency_links.txt
+hsoft.egg-info/top_level.txt
