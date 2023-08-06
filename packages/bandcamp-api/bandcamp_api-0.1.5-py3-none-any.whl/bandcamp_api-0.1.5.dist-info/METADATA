@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bandcamp-api
+Version: 0.1.5
+Summary: Obtains information from bandcamp.com
+Home-page: https://github.com/RustyRin/bandcamp-api/
+Author: RustyRin
+License: UNKNOWN
+Keywords: api,bandcamp
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: bs4
+Requires-Dist: demjson3
+Requires-Dist: html5lib
+Requires-Dist: lxml
+Requires-Dist: setuptools
+
+UNKNOWN
+
