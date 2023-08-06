@@ -1,0 +1,2 @@
+[console_scripts]
+create-flask-app = cfa.main:create_flask_app
