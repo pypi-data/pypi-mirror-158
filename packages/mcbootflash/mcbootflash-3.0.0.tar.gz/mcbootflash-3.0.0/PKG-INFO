@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: mcbootflash
+Version: 3.0.0
+Summary: Flash firmware to devices running Microchip's 16-bit bootloader.
+Keywords: firmware,flashing,bootloader,serial,uart,microchip,pic24,dspic33,16-bit
+Author-email: Alexander Bessman <alexander.bessman@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pyserial
+Requires-Dist: intelhex
+Requires-Dist: progressbar2
+Project-URL: Home, https://github.com/bessman/mcbootflash
+
+# mcbootflash
+
+## Overview
+
+mcbootflash is a tool for flashing firmware to devices running Microchip's
+[MCC 16-bit bootloader](https://www.microchip.com/en-us/software-library/16-bit-bootloader).
+Microchip provides an official GUI tool for this purpose, called the
+Unified Bootloader Host Application (UBHA). Compared to UBHA, mcbootflash:
+
+- Provides no GUI.
+- Can be automated.
+- Can be used as a library.
+- Is free and open source.
+- Is written in Python instead of Java.
+
+mcbootflash is affiliated with neither Microchip nor McDonald's.
+
+MIT License, (C) 2022 Alexander Bessman <alexander.bessman@gmail.com>
+
+## Installation
+
+`pip install mcbootflash`
+
+Once installed, mcbootflash can be run from the command line:
+
+```bash
+$ mcbootflash --port=/dev/ttyUSB0 --baudrate=460800 firmware.hex
+```
+
