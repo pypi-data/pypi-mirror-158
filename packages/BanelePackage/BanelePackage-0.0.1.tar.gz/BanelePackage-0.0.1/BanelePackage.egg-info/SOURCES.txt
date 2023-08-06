@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+BanelePackage.egg-info/PKG-INFO
+BanelePackage.egg-info/SOURCES.txt
+BanelePackage.egg-info/dependency_links.txt
+BanelePackage.egg-info/requires.txt
+BanelePackage.egg-info/top_level.txt
