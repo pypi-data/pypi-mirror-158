@@ -1,0 +1,55 @@
+{
+    "pipeline": {
+        "id": "openqa.Update-FEDORA-2019-6bda4c81f4.install_default_update_live.uefi.updates-workstation-live-iso.x86_64",
+        "name": "openqa.Update-FEDORA-2019-6bda4c81f4.install_default_update_live.uefi.updates-workstation-live-iso.x86_64"
+    },
+    "run": {
+        "url": "https://openqa.stg.fedoraproject.org/tests/583271",
+        "id": 583271,
+        "log": "https://openqa.stg.fedoraproject.org/tests/583271/file/autoinst-log.txt"
+    },
+    "version": "0.2.4",
+    "system": [
+        {
+            "variant": "Workstation",
+            "os": "fedora-29",
+            "architecture": "x86_64",
+            "provider": "openqa"
+        }
+    ],
+    "artifact": {
+        "release": {
+            "version": "29",
+            "name": "F29"
+        },
+        "type": "fedora-update",
+        "alias": "FEDORA-2019-6bda4c81f4",
+        "id": "sha256:cf6f57a196a213606246070a99b94053160fee43c7987d071f422de30b2f2953",
+        "builds": [
+            {
+                "nvr": "kernel-5.2.7-100.fc29"
+            },
+            {
+                "nvr": "kernel-headers-5.2.7-100.fc29"
+            },
+            {
+                "nvr": "kernel-tools-5.2.7-100.fc29"
+            }
+        ]
+    },
+    "contact": {
+        "name": "Fedora openQA",
+        "url": "https://openqa.stg.fedoraproject.org",
+        "docs": "https://fedoraproject.org/wiki/OpenQA",
+        "team": "Fedora QA",
+        "irc": "#fedora-qa",
+        "email": "qa-devel@lists.fedoraproject.org"
+    },
+    "test": {
+        "category": "validation",
+        "type": "install_default_update_live uefi updates-workstation-live-iso x86_64",
+        "namespace": "update",
+        "result": "passed"
+    },
+    "generated_at": "2019-08-08T16:40:18Z"
+}

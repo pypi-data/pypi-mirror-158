@@ -1,0 +1,2 @@
+[fedora.messages]
+ci_messages.CIMessageV1 = ci_messages.schema:CIMessageV1

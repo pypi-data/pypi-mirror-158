@@ -1,0 +1,39 @@
+{
+  "contact": {
+    "url": "https://somewhere.com",
+    "docs": "https://somewhere.com/user-documentation",
+    "team": "RTT",
+    "email": "rtt@somewhere.com",
+    "name": "RTT CI"
+  },
+  "run": {
+    "url": "https://rtt.somewhere.com/job/compose-RHEL-ALT-7-nightly-tier2-acceptance/arch=aarch64,variant=Server/1/",
+    "log": "https://rtt.somewhere.com/job/compose-RHEL-ALT-7-nightly-tier2-acceptance/arch=aarch64,variant=Server/1/console",
+    "log_raw": "https://rtt.somewhere.com/job/compose-RHEL-ALT-7-nightly-tier2-acceptance/arch=aarch64,variant=Server/1/consoleText",
+    "log_stream": "https://rtt.somewhere.com/job/compose-RHEL-ALT-7-nightly-tier2-acceptance/arch=aarch64,variant=Server/1/consoleText"
+  },
+  "system": [
+    {
+      "variant": "Server",
+      "architecture": "aarch64",
+      "provider": "beaker"
+    }
+  ],
+  "artifact": {
+    "type": "productmd-compose",
+    "id": "RHEL-ALT-7-20180101.n.0",
+    "compose_type": "nightly"
+  },
+  "pipeline": {
+    "id": "ac11dcddf99a",
+    "name": "compose-RHEL-ALT-7-nightly-tier2-acceptance"
+  },
+  "test": {
+    "type": "acceptance",
+    "category": "validation",
+    "result": "passed",
+    "namespace": "rtt"
+  },
+  "generated_at": "2018-01-01 00:01:00.000000",
+  "version": "0.2.1"
+}

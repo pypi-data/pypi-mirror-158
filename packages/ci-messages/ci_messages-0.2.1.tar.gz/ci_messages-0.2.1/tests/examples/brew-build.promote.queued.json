@@ -1,0 +1,20 @@
+{
+    "artifact": {
+        "type": "brew-build",
+        "id": 14546276,
+        "issuer": "ovasik",
+        "component": "setup",
+        "nvr": "setup-2.8.71-7.el7_4",
+        "scratch": false,
+        "source": "git+https://src.fedoraproject.org/rpms/setup.git?#5e0ae23a"
+    },
+    "contact": {
+        "name": "OSCI Compose Gating Bot",
+        "team": "OSCI",
+        "docs": "https://somewhere.com/user-documentation",
+        "email": "osci@somewhere.com",
+        "irc": "#osci"
+    },
+    "generated_at": "2018-05-10 08:58:31.222602",
+    "version": "0.2.1"
+}

@@ -1,0 +1,42 @@
+{
+  "contact": {
+    "name": "Wizard Zone CI",
+    "team": "Wizard Zone",
+    "docs": "http://wizard.zone/",
+    "email": "help@wizard.zone"
+  },
+  "run": {
+    "url": "http://wizard.zone/job/hot-dog/1337",
+    "log": "http://wizard.zone/job/hot-dog/1337/console"
+  },
+  "artifact": {
+    "type": "uncontrolled-build",
+    "id": "sha256:745d58b54b4f800cd75a0c507bb3f2f7ff98045d62b4c3bcd4a8d04788aa2a52",
+    "url": "https://wwoods.fedorapeople.org/hot-dog/plymouth-theme-hot-dog-0.4-1.fc16.noarch.rpm",
+    "mime_type": "application/x-rpm",
+    "descriptor": "plymouth-theme-hot-dog-0.4-1.fc16",
+    "name": "plymouth-theme-hot-dog",
+    "issuer": "wwoods"
+  },
+  "test": {
+    "category": "functional",
+    "docs": "https://wizard.zone/docs/hot-dog-test",
+    "label": [ "fast", "aarch64" ],
+    "namespace": "wizard.ci",
+    "note": "The mustard indicates progress.",
+    "result": "failed",
+    "type": "tier1"
+  },
+  "pipeline": {
+      "id": "087a46d8-0398-49cc-8d8c-69498f6a5719",
+      "name": "Hot Dog Pipeline"
+  },
+  "system":
+     [{
+        "os": "fedora-16-x86_64",
+        "architecture": "x86_64",
+        "provider": "openstack"
+     }],
+  "generated_at": "2018-05-10 08:58:31.222602",
+  "version": "0.2.1"
+}

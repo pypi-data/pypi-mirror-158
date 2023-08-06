@@ -1,0 +1,10 @@
+**/*.pyc
+**/*.pyo
+dist/
+ci_messages.egg-info/
+.cache/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+.eggs/

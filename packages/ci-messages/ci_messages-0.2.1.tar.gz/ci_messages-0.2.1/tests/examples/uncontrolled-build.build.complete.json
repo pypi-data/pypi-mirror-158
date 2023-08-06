@@ -1,0 +1,19 @@
+{
+    "contact": {
+        "name": "Beefy Miracle",
+        "team": "Beefy Miracle Team",
+        "docs": "https://beefymiracle.org/history.html",
+        "email": "wwoods@fedoraproject.org"
+    },
+    "artifact": {
+        "type": "uncontrolled-build",
+        "id": "sha256:745d58b54b4f800cd75a0c507bb3f2f7ff98045d62b4c3bcd4a8d04788aa2a52",
+        "url": "https://wwoods.fedorapeople.org/hot-dog/plymouth-theme-hot-dog-0.4-1.fc16.noarch.rpm",
+        "mime_type": "application/x-rpm",
+        "descriptor": "plymouth-theme-hot-dog-0.4-1.fc16",
+        "name": "plymouth-theme-hot-dog",
+        "issuer": "wwoods"
+    },
+    "generated_at": "2018-05-10 08:58:31.222602",
+    "version": "0.2.2"
+}
