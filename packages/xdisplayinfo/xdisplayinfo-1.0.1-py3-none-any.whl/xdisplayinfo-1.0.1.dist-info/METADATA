@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: xdisplayinfo
+Version: 1.0.1
+Summary: Utility to get information of the current display in systems using X.
+Home-page: https://github.com/lu0/current-x-display-info
+Author: Lucero Alvarado Ruiz
+Author-email: me@lucerocodes.com
+Project-URL: Source, https://github.com/lu0/current-x-display-info
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: X11 Applications
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Unix Shell
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Multimedia :: Video :: Display
+Classifier: Topic :: Desktop Environment :: Window Managers
+Classifier: Topic :: System :: Hardware
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# X Display Info
+
+Linux CLI utility to easily get information of the current display, the one the
+mouse is hovered over, in systems using X server.
+
+## Dependencies
+
+Tested with the following dependencies, installed by default in most Linux
+distributions using X:
+
+- `bash`: `5`
+- `xdotool`: `3.20160805`+
+- `xrandr`: `1.5.0`+
+- `grep`: `3.4`+
+- `python`: `3.7`+
+
+## Installation
+
+Using PyPI:
+
+```sh
+sudo apt-get install python3-pip
+python3 -m pip install xdisplayinfo
+```
+
+## Usage
+
+Run `xdisplayinfo --help` to see the list of available options.
+
+```txt
+Get information of the current display on systems using X.
+
+USAGE:
+   xdisplayinfo   [OPTIONS]
+
+OPTIONS:
+   --name        Name of the current display.
+   --resolution  Resolution.
+   --offset-x    X coordinate of the top-left corner.
+   --offset-y    Y coordinate of the top-left corner.
+   --width       Width (resolution along the X axis).
+   --height      Height (resolution along the Y axis).
+   --window-id   ID of the active window (decimal).
+   --all         All previous properties.
+```
