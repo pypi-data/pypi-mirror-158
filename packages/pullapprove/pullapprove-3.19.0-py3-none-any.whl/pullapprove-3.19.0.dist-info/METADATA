@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: pullapprove
+Version: 3.19.0
+Summary: PullApprove is a framework for code review assignment, processes, and policies that integrates natively with your git host.
+Home-page: https://www.pullapprove.com/
+License: Business Source License
+Keywords: pull request,code review,reviewer
+Author: Dropseed
+Author-email: python@dropseed.dev
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.1,<4.0.0)
+Requires-Dist: PyJWT (>=2.1.0,<3.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: Pygments (>=2.10.0,<3.0.0)
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: cached-property (>=1.5.2,<2.0.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: cls-client (>=1.4.0,<2.0.0)
+Requires-Dist: cryptography (>=37.0.1,<38.0.0)
+Requires-Dist: dateparser (>=1.0.0,<2.0.0)
+Requires-Dist: keyring (>=23.2.1,<24.0.0)
+Requires-Dist: lockfile (>=0.9)
+Requires-Dist: marshmallow (>=3.12.1,<4.0.0)
+Requires-Dist: msgpack (>=0.5.2)
+Requires-Dist: prompt-toolkit (>=3.0.20,<4.0.0)
+Requires-Dist: python-box (>=6.0.2,<7.0.0)
+Requires-Dist: redis (>=2.10.5)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: urllib3 (>=1.26.0,<2.0.0)
+Requires-Dist: wcmatch (>=8.2,<9.0)
+Project-URL: Documentation, https://docs.pullapprove.com/
+Project-URL: Repository, https://github.com/dropseed/pullapprove
+Description-Content-Type: text/markdown
+
+<a href="https://www.pullapprove.com/"><img src="https://www.pullapprove.com/static/img/logos/pull-approve-logo-gray-dk.png" alt="PullApprove" height="40px" /></a>
+---
+
+PullApprove is a framework for code review assignment and policies.
+It integrates directly with GitHub, GitLab (beta), and Bitbucket (beta).
+
+It is configured with a `.pullapprove.yml` file at the root of your repo.
+Reviews are split into "review groups" which can be enabled/disabled depending on the specifics of a PR.
+When a group is activated on a PR, review requests are sent out automatically to the selected reviewers.
+
+Here's a basic example:
+
+```yaml
+version: 3
+
+overrides:
+- if: "base.ref != 'master'"
+  status: success
+  explanation: "Review not required unless merging to master"
+- if: "'hotfix' in labels"
+  status: success
+  explanation: "Review skipped for hotfix"
+
+groups:
+  code:
+    reviewers:
+      users:
+      - reviewerA
+      - reviewerB
+    reviews:
+      required: 2
+      request: 1
+      request_order: random
+    labels:
+      approved: "Code review approved"
+
+  database:
+    conditions:
+    - "'*migrations*' in files"
+    reviewers:
+      teams:
+      - database
+```
+
+A "pullapprove" status is reported on the PR with a link to more details.
+You can make this a [required status check](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule#creating-a-branch-protection-rule) to enforce your review workflows on all pull requests.
+
+![pullapprove review status check](https://user-images.githubusercontent.com/649496/141190794-c62da3f0-92fb-4125-ae7e-410b1ec8dc89.png)
+
+---
+
+This repo contains some of the core models and configuration settings which are used by the [hosted service](https://www.pullapprove.com/).
+
+To host your own version of PullApprove, please contact us at https://www.pullapprove.com/enterprise/.
+
