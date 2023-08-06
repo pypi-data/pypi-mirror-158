@@ -1,0 +1,9 @@
+double_elimination/__init__.py,sha256=xhSTatqlgVq5z7xwvT65Z0Surt2wbpXjjxkZCnlFQz4,160
+double_elimination/match.py,sha256=hAGt9zMkdmxwcmmjxABt58cA2k7OqY7orlwgHgqbqqw,2783
+double_elimination/participant.py,sha256=MPNr2jg9JfVdnQcbs4XzMI7P3kF2W5JhInS7q24QUAQ,865
+double_elimination/tournament.py,sha256=oMFic1e1kBPyaom4ddvj0f7c3kfZXnBtht0HaoTyWIA,12020
+double_elimination-1.4.1.dist-info/LICENSE,sha256=_YCib7s_ZErx-plBNERnApMpaFGXlyJ-B6E2jeqA8Lw,1023
+double_elimination-1.4.1.dist-info/METADATA,sha256=v6235Rm0do8ai-dZIrj5B0s__e7FA9Zec_iofGrfMts,841
+double_elimination-1.4.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+double_elimination-1.4.1.dist-info/top_level.txt,sha256=csR8hBv6GGgE_QGSGWjFBvan_4hfxQ_VAGUzEo5bahQ,19
+double_elimination-1.4.1.dist-info/RECORD,,
