@@ -1,0 +1,13 @@
+instancelib>=0.4.4.1
+genbase>=0.2.8
+scikit-learn>=1.0.2
+plotly>=5.4.0
+sentence-transformers
+scikit-learn-extra
+imodels>=1.2.7
+
+[dev]
+genbase-test-helpers>=0.1.1
+
+[fast]
+fastcountvectorizer>=0.1.0
