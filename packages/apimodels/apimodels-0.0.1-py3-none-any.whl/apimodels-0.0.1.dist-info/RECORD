@@ -1,0 +1,16 @@
+apimodel/__init__.py,sha256=KUXuC7-bwwjrcQwBdLF4a_m4eB_B6TvFy4jDFmM3Vyc,831
+apimodel/__main__.py,sha256=E5fjCjgQyFVa9qahaBeWTcr4yntbL3MpCsDIrNErssE,1218
+apimodel/apimodel.py,sha256=xFaAz7Hf5cAZ2VD-4HH9d32rFam-I95rt549ViXuo6g,15555
+apimodel/errors.py,sha256=CTCtyuh3XL4wQt_G9TAE0DY1MQdB7aAxkdiL2XRs_GI,4560
+apimodel/fields.py,sha256=DUUStlwj4p2_nqEzMIlnjF-f32NNBGHk9dDtNxHm1tQ,5922
+apimodel/generator.py,sha256=u_9TzH2_w0VquZqXNpjY7Bbb9Raf0P7PRDcESuuWvP0,8478
+apimodel/localization.py,sha256=F7swl7p9XYYz6HkA4fiIQx7SCxTw5mn0Dp_7qGC_ySc,5428
+apimodel/parser.py,sha256=YQxJSuPlE-Dcg-FblUhETtoHA0IlP-04xr7zddlOaAk,16817
+apimodel/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apimodel/tutils.py,sha256=osOnkKrzBWlKLvZaChx1Wa1ox6x5g_ZM9EwghMNQ3S4,5378
+apimodel/utility.py,sha256=dmXjiGDsY4cM9AM_gdm-G1HEvvrSPG3fngz_ReDdcRk,6399
+apimodel/validation.py,sha256=WJKnmVKu1fOLxwM2YR9JFX4GEmLp3KCMQYWPXnFZw0w,4455
+apimodels-0.0.1.dist-info/METADATA,sha256=vYpg40BRk8Eh5GOFnN6Ss6Vh4fwL0GjWm4X21O54y6M,3278
+apimodels-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apimodels-0.0.1.dist-info/top_level.txt,sha256=kMTujeHFVdwb2MfLo2GsOrlwnt19pmdzonhG6-fxkTM,9
+apimodels-0.0.1.dist-info/RECORD,,
