@@ -1,0 +1,12 @@
+sinta/__init__.py,sha256=dOqZ6EQNmPpHTCuoC4UtySQ63Sfgeakt6lJyD3z7RKc,114
+sinta/affiliation.py,sha256=ImQ5whO2XsLJoS7H33YPTS_jhlpixvsFb1VBvP25ZZI,2459
+sinta/author.py,sha256=RjrhXCTGuLpJOYnOpD3D6M_K5N_IF7q0N6mu1HYecTg,2078
+sinta/department.py,sha256=NTiECKLovwFFEcpLscqhrr6GYd_t-8bS9U0Pa4POUOc,1459
+util/__init__.py,sha256=ZbvmUmYwcAh6NC-l1-cwwrR4WeeiZRUIrl-c9G3Dkwc,43
+util/config.py,sha256=Bv73q01RK-DcCj8bXF-daVLueIB1s7kqAvxV1GJN8uU,73
+util/utils.py,sha256=GMlhV6UJLF6uN7sJTF41I3e-80lL_P0F4vET1SKiVdI,1188
+sinta_scraper-2.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sinta_scraper-2.2.0.dist-info/METADATA,sha256=3h7SQ7vE0u7bM8je2e9CJ7ReHVOb7xP0RStnq67ueiM,4625
+sinta_scraper-2.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sinta_scraper-2.2.0.dist-info/top_level.txt,sha256=SdLmrO4fqIM3PLZwzGlrF5IYY_UmICKLyERGEo5vmAU,11
+sinta_scraper-2.2.0.dist-info/RECORD,,
