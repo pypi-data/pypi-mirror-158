@@ -1,0 +1,139 @@
+Metadata-Version: 1.1
+Name: event-simulate
+Version: 1.1.0
+Summary: 模拟键盘,鼠标事件的Python包。可用于编写自动化程序 (如游戏外挂)。A Python package simulating keyboard and mouse events ,which can be used in automation programs.
+Home-page: https://github.com/qfcy/Python/tree/main/event
+Author: 七分诚意 qq:3076711200 邮箱:3416445406@qq.com
+Author-email: 3416445406@qq.com
+License: qfcy
+Keywords: event,simulate,key,mouse,click,automation,键盘,鼠标
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Topic :: Desktop Environment :: Window Managers :: Blackbox
+Classifier: Topic :: Desktop Environment :: Window Managers
+Classifier: Topic :: Desktop Environment :: Window Managers :: Applets
+Classifier: Topic :: Education
+Classifier: Topic :: Utilities
+Description: 
+模拟键盘,鼠标事件的Python包。可用于编写自动化程序 (如游戏外挂)。
+A Python package simulating keyboard and mouse events ,which can be used in automation programs.模块名称: event - 切勿使用import event_simulate !
+
+.. image:: https://tiebapic.baidu.com/forum/pic/item/4e4a20a4462309f707621658650e0cf3d7cad66f.jpg
+    :alt: Build passing
+.. image:: https://tiebapic.baidu.com/forum/pic/item/d1a20cf431adcbefc104ee4cbbaf2edda3cc9f4c.jpg
+    :alt: 100% test coverage
+
+简介
+====
+
+event-simulate是一个模拟键盘,鼠标事件的Python包, 可以模拟鼠标单击、双击, 键盘按下等各种操作,
+
+打包成PyInstaller等exe文件时体积小巧。可用于编写自动化程序 (如游戏外挂)。
+
+
+所包含模块 Included modules: 
+============================
+
+event.key - 模拟键盘事件
+""""""""""""""""""""""""
+包含的函数 Functions:
+
+keydown(keycode_or_keyname)::
+
+    模拟键按下。
+    keycode_or_keyname:按键名称或该按键的键码值
+
+keypress(keycode_or_keyname, delay=0.05)::
+
+    模拟按键。
+    keycode_or_keyname:按键名称或该按键的键码值
+    delay:键按下与释放之间的的间隔时间,间隔时间越小,按键速度越快。
+
+keyup(keycode_or_keyname)::
+
+    模拟键释放。
+    keycode_or_keyname:按键名称或该按键的键码值
+
+
+event.mouse - 模拟鼠标事件
+""""""""""""""""""""""""""
+包含的函数 Functions:
+
+click()::
+
+    模拟鼠标左键单击
+
+dblclick(delay=0.25)::
+
+    模拟鼠标左键双击
+
+get_screensize()::
+
+    获取当前屏幕分辨率。
+
+getpos()::
+
+    获取当前鼠标位置。
+    返回值为一个元组,以(x,y)形式表示。
+
+move(x, y)::
+
+    模拟移动鼠标。
+    与goto不同,move()*产生*一个鼠标事件。
+
+right_click()::
+
+    模拟鼠标右键单击。
+
+wheel(delta)::
+
+    模拟滚动鼠标滚轮。
+	delta: 滚动的距离, 正值为向上滚动, 负值为向下滚动。
+
+新增: leftdown(),leftup(),rightdown(),rightup(),middledown(),middleup()模拟鼠标按下和释放。
+
+
+示例代码1:
+.. code-block:: python
+
+    #模拟按键Alt+F4关闭当前窗口
+
+    from event.key import *
+
+    keydown("Alt")
+
+    keydown("f4")
+
+    keyup("f4")
+
+    keyup("alt")
+
+
+示例代码2:
+.. code-block:: python
+
+    #使用Aero Peek预览桌面。(Win7及以上系统)
+
+    from event import mouse
+
+    x,y=mouse.get_screensize()
+
+    mouse.move(x,y) #将鼠标移至屏幕右下角
+
+    mouse.click() #模拟鼠标点击
+
+
+新增功能: 
+
+增加了示例:鼠标控制器(包目录\examples\mouseController.py)
+
+修复了调用API函数时出现 ``ValueError`` 的bug。
+
+
+作者 Author:
+
+qfcy qq:3076711200 百度贴吧账号:徐丹34 邮箱:3416445406@qq.com
+
+作者CSDN主页: ``https://blog.csdn.net/qfcy_/``
