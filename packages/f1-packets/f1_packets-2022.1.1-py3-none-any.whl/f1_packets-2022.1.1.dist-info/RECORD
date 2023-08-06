@@ -1,0 +1,8 @@
+f1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+f1/handler.py,sha256=b0_Y3EC1DjrKl1QNj90EqsvpDA05Y3qhLmu_IbJiOzo,545
+f1/listener.py,sha256=uFFPzsKbsi7s75vFqN4AZcGko-5loYHYks8-RxEOTQA,680
+f1/packets.py,sha256=Inbp4w1lZaq6F__er-B-dEfF3jtvaxAb0BnTg_q9UEY,19089
+f1_packets-2022.1.1.dist-info/LICENSE,sha256=8DQ9BBT8tt4rWIgatz0-xxEK2oK2jK53UrWSW-lJrks,1077
+f1_packets-2022.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+f1_packets-2022.1.1.dist-info/METADATA,sha256=ck58o7ind8k4ewDfTw2mWgWuT6gVnyWPPCa57jn-qyY,1291
+f1_packets-2022.1.1.dist-info/RECORD,,
