@@ -1,0 +1,9 @@
+pytemplates_pypackage/__init__.py,sha256=U3aTkFb8lqelNLN2IQ_qLrwsYv7bayXulzXvMinD3Sc,109
+pytemplates_pypackage/__version__.py,sha256=46Yjk3fz9o8aTN8E95McnzpJcjGzVJmHmQqUZ5mXzfc,22
+pytemplates_pypackage/core/__init__.py,sha256=4OzVvSwTPvycOP_ciyUzMfWsYX4QUf-AOhX-3NMDQ3o,62
+pytemplates_pypackage/core/module1.py,sha256=eBk-51Vg7LVRVPWBJzUhCXCceM5w-TL0jv4b6s2GIT0,286
+pytemplates_pypackage/core/module2.py,sha256=nhkjAlZUqSgvQodnpHNDOENY7TOoZergUe5msGsaWy4,218
+pytemplates_pypackage-0.0.9.dist-info/LICENSE,sha256=cpZoWDBpxJkNRlTCMdev4g4B3aDrE_IB6xf_h75Nvz4,1068
+pytemplates_pypackage-0.0.9.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pytemplates_pypackage-0.0.9.dist-info/METADATA,sha256=3g98zAqEEzGVKIgt7-fnbzblPKDS5cDlSMl9als4MUo,8638
+pytemplates_pypackage-0.0.9.dist-info/RECORD,,
