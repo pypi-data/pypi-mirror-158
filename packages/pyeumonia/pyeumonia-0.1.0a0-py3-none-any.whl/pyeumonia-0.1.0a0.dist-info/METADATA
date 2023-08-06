@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyeumonia
+Version: 0.1.0a0
+Summary: Python Covid-19 data, you can get the latest data from China and the World.
+Home-page: UNKNOWN
+Author: Senge-Studio
+Author-email: a1356872768@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+
