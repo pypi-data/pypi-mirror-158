@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: DonationAlertsHandler
+Version: 1.1
+Summary: Donation Alerts Handler
+Home-page: https://github.com/TGeniusFamily/DonationAlertsHandler
+Author: bezumnui
+Author-email: bezumnui.mistikgt@gmail.com
+Requires: aiohttp
+

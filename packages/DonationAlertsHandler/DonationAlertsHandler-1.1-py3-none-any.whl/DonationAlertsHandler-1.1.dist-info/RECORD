@@ -1,0 +1,11 @@
+donation_alerts_handler/donation_alerts.py,sha256=ataqTExvirGMs-emMj8bl0BDq4YXot5wDIN8YtVLLmw,3908
+donation_alerts_handler/filters.py,sha256=SqVwhC1F3qjPQlQiiYzl0BupwjxWPweOJlITzc1zNYM,640
+donation_alerts_handler/types/custom_alert.py,sha256=OkNsmy5m8xOideLTgyDN92XID7QLWGzFJ4nxgVOma8U,2363
+donation_alerts_handler/types/donations.py,sha256=7M-9CDDe3mzMrIf6uUiwVnR-70IqMmYnpEFS-J8hW4Y,1980
+donation_alerts_handler/types/merchandise.py,sha256=zzL1GTAA6b2hyYlAoQ-3ttnIYtWnqX8vQQH08YDV2eE,2402
+donation_alerts_handler/types/merchandise_sale.py,sha256=ug_BvgnUeofHu9d8tMucCmHNiJaGIhHLODoAAPOi1Mg,2081
+donation_alerts_handler/types/user_profile.py,sha256=RjhFEL3LsP6DIAuZLC50nd91ZixCP4MjZMQDbDTguBk,862
+DonationAlertsHandler-1.1.dist-info/METADATA,sha256=d3cqRke4eJE5EbRL3X9SQqASU0i6md-2Nnzm9sWCZDA,240
+DonationAlertsHandler-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+DonationAlertsHandler-1.1.dist-info/top_level.txt,sha256=xWNhbtn0cusPf7R9xqguyvwP81I3iRQAY1vTXWIrMkU,24
+DonationAlertsHandler-1.1.dist-info/RECORD,,
