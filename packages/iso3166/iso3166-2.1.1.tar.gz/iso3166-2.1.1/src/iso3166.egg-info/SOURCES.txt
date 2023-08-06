@@ -1,0 +1,16 @@
+CHANGES
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/iso3166/__init__.py
+src/iso3166/py.typed
+src/iso3166.egg-info/PKG-INFO
+src/iso3166.egg-info/SOURCES.txt
+src/iso3166.egg-info/dependency_links.txt
+src/iso3166.egg-info/not-zip-safe
+src/iso3166.egg-info/top_level.txt
+tests/test_listings.py
+tests/test_lookup.py
