@@ -1,0 +1,10 @@
+pydbops/UserDefinedExceptions.py,sha256=gy3BUoif8PK9YLJlHKumc1VTYFhkr1fmsfdBiQQNAEY,1580
+pydbops/__init__.py,sha256=kRtxGxC3Y4U9exOM-DF-U_PNEjG6ACoscC96mlJ96Y0,136
+pydbops/database.py,sha256=ZI0sm4YN4diZV5Djfec6zQ3JjhSoxbOwIxc_MiTWM3E,9322
+pydbops/pydbops.py,sha256=a20cpX5OXLljM_oaDzVaQoq-WvPFqwlAesqMYMBnSec,15648
+pydbops/tables.py,sha256=OFbnk2ZLuRgk3c0bPa5fDo-WW2dtaNvbkxLeTY0Pa4k,8523
+pydbops-0.0.4.dist-info/LICENSE,sha256=JVWtqQQAXfEo3ICSfGf0topveOskoTIK5YCRj08vBqE,1094
+pydbops-0.0.4.dist-info/METADATA,sha256=bEBPPqgIH-5RGJS3pawN5_G085hMDp_YYpjInm3Mp50,2073
+pydbops-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydbops-0.0.4.dist-info/top_level.txt,sha256=Zwp_ym5Ir-CEqoKFcEFvrnBY5WmkugGWd4hxKf-xmto,8
+pydbops-0.0.4.dist-info/RECORD,,
