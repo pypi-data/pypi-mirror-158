@@ -1,0 +1,1 @@
+docker run --rm -v $(pwd):/io konstin2/maturin publish -i python3.9
