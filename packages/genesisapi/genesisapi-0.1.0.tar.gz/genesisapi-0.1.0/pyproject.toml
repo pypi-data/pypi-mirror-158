@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "genesisapi"
+version = "0.1.0"
+description = ""
+authors = ["Roland Abel <roland.abel@live.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.0"
+typeguard = "^2.13.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+jupyterlab = "^3.2.8"
+jupyterlab-lsp = "^3.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
