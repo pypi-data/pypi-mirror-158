@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+bechdeltest/__init__.py
+bechdeltest/bechdeltest.py
+bechdeltest.egg-info/PKG-INFO
+bechdeltest.egg-info/SOURCES.txt
+bechdeltest.egg-info/dependency_links.txt
+bechdeltest.egg-info/requires.txt
+bechdeltest.egg-info/top_level.txt
+bechdeltest/parsers/__init__.py
+bechdeltest/parsers/convos.py
+bechdeltest/parsers/mica.py
+bechdeltest/parsers/scripts.py

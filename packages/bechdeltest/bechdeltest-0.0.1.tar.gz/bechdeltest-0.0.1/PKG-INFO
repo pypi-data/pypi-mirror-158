@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: bechdeltest
+Version: 0.0.1
+Summary: Code for 'Rewiring the Bechdel Test', Cambridge Digital Humanities, July 2022
+Home-page: https://github.com/quadrismegistus/bechdeltest
+Author: Ryan Heuser
+Author-email: rj416@cam.ac.uk
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bechdeltest
+Repository for "Rewiring the Bechdel Test"
+
+
