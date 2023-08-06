@@ -1,0 +1,13 @@
+LICENSE.md
+MANIFEST.in
+setup.py
+ephemerals_mssql.egg-info/PKG-INFO
+ephemerals_mssql.egg-info/SOURCES.txt
+ephemerals_mssql.egg-info/dependency_links.txt
+ephemerals_mssql.egg-info/requires.txt
+ephemerals_mssql.egg-info/top_level.txt
+mssql/__init__.py
+mssql/dbmanager.py
+mssql/ephemeralmssqldbcontext.py
+mssql/ephemeralmssqldbcontextbuilder.py
+mssql/filesmanager.py
