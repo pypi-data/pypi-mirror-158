@@ -1,0 +1,8 @@
+rust_regex-0.1.0_alpha0.dist-info/METADATA,sha256=juaQQoQqGJJwYHmPEuUfcpprwO43gAmEHxM60lz38oU,1230
+rust_regex-0.1.0_alpha0.dist-info/WHEEL,sha256=JqahnSHC1d4QkYP_lHBv3ZuLIk8YXGNpo2o3vpWnbk4,131
+rust_regex-0.1.0_alpha0.dist-info/license_files/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+rust_regex/__init__.py,sha256=7jjjAWiAG-5atsxmMGjUQM2wTCP9jgVDGziduOrbnV4,123
+rust_regex/__init__.pyi,sha256=Y25n44pyE3vp92MiABKrcK3IWRyQ1JG1rZ4Ufqy2nC0,17
+rust_regex/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rust_regex/rust_regex.pypy37-pp73-x86_64-linux-gnu.so,sha256=0pItZ1-gL_9ozIxtFWbaTey-hqegJCr-AdEMploY7DQ,5656048
+rust_regex-0.1.0_alpha0.dist-info/RECORD,,
