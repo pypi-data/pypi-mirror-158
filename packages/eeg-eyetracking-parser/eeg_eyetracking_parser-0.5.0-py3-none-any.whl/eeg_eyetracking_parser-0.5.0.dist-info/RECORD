@@ -1,0 +1,11 @@
+eeg_eyetracking_parser/__init__.py,sha256=Gu3gx6931l3rCD9kuo3YlTK6r6D0FlniWrS_7Gr7G6M,441
+eeg_eyetracking_parser/_data2bids.py,sha256=7KkKBhxCZua6LAFRsKwhIJZqBNRwkslrb4Zu6XCZJns,3587
+eeg_eyetracking_parser/_eeg_preprocessing.py,sha256=6B8Qsip3KMHr6t7ZfrXgfmruAMW-WBweiXai_WUIOQA,12101
+eeg_eyetracking_parser/_parsing.py,sha256=baFyZEWSB-sOd9C1_V3B2qB9ovFJtE-RjXtFHnBSScE,17696
+eeg_eyetracking_parser/_pupil_epochs.py,sha256=Aowj2Gp8-cbWzk0Bu8H60mdGCqBIDUjeQuFSQcnHgho,2418
+eeg_eyetracking_parser/_triggers.py,sha256=lNoYBkrc-LdrdVGsapyd3qxzioEcSpoo6WCn9_K8gfo,2275
+eeg_eyetracking_parser/braindecode_utils.py,sha256=7O-K0IzVABIpoQOeV93QpS8IvqLVRGOlh6-BjwFpqrk,18147
+eeg_eyetracking_parser-0.5.0.dist-info/entry_points.txt,sha256=P3_-ICUCJsakVS7SUhhhhjhQht2zhPtHLxV52bSI4X0,73
+eeg_eyetracking_parser-0.5.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+eeg_eyetracking_parser-0.5.0.dist-info/METADATA,sha256=WaNCAUjDNjQUzCYBbpFVmSTuVX7NbSftLZqeQjVJs7M,13061
+eeg_eyetracking_parser-0.5.0.dist-info/RECORD,,
