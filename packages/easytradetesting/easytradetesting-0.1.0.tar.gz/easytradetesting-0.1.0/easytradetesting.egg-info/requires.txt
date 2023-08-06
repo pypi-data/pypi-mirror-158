@@ -1,0 +1,5 @@
+easytradesdk
+obspy
+openpyxl
+requests
+pymysql
