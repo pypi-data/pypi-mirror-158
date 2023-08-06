@@ -1,0 +1,45 @@
+Metadata-Version: 1.2
+Name: dicy
+Version: 0.0.2
+Summary: Simple Dice rolling package
+Home-page: https://github.com/M-Farag/dicy
+Author: Mina Amin
+Author-email: mina.farag@icloud.com
+License: MIT license
+Description: ### Dicy
+        A simple dice object
+        
+        #### Features
+        - Generate as many dice objects as you want
+        - Each dice object by default allows random.choice
+        - You can easily iterate on the dice faces
+        
+        #### Examples
+        
+        <pre><code>
+        
+        from dicy import dicy as d
+        dice_a = d.Dicy()
+        
+        # this will be evaluated to 1, 2, 3
+        print(dice_a[0].face)
+        print(dice_a[1].face)
+        print(dice_a[2].face)
+        
+        </code></pre>
+        
+        
+        
+        
+        
+Keywords: dicy
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
