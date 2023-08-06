@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-nasa-samples = napari_nasa_samples:napari.yaml
