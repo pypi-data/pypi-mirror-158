@@ -1,0 +1,341 @@
+# Copyright (c) 2022 PicsArt, Inc.
+# All rights reserved. Use of this source code is governed by a
+# MIT-style license that can be found in the LICENSE file.
+
+char:
+  std::__cxx11::basic_string
+
+std::string:
+  std::__cxx11::basic_string
+
+std::basic_string<char>:
+  std::__cxx11::basic_string
+
+std::__ndk1::shared_ptr:
+  std::shared_ptr
+
+std::__ndk1::vector:
+  std::vector
+
+std::__ndk1::map:
+  std::map
+
+std::__ndk1::unordered_map:
+  std::map
+
+std::__ndk1::function:
+  std::function
+
+std::__ndk1::basic_string:
+  std::__cxx11::basic_string
+
+std::__ndk1::pair:
+  std::pair
+
+std::__1::shared_ptr:
+  std::shared_ptr
+
+std::__1::vector:
+  std::vector
+
+std::__1::map:
+  std::map
+
+std::__1::unordered_map:
+  std::map
+
+std::__1::function:
+  std::function
+
+std::__1::basic_string:
+  std::__cxx11::basic_string
+
+std::__1::pair:
+  std::pair
+
+$Object:
+  custom:
+    pname: object
+    tpostfix: |
+      {#- this is an internal section no need to define in user defined custom converters #}
+      {%- for name in template_args_postfixes or [] -%}
+      {%- if name != None %}{{name}}{% else %}{{args_converters[loop.index - 1].python.custom.tname}}{% endif -%}
+      {%- endfor -%}
+    tname: |
+      {{vars.name}}{{custom.tpostfix}}
+  types:
+    python: |
+      {#- this should go to shared macro gen_namespace -#}
+      {%- if full_package is defined -%}
+      {%- if parent_type_info -%}
+      {%- set converter = make_type_converter(parent_type_info.cxx.type_name) -%}
+      {{converter.python.get_target_type_name(full_package=full_package)}}.
+      {%- else -%}
+      {#- this is common for include and target type name do not change one without other -#}
+      {%- if vars.full_package != full_package -%}
+      {{helper.relative_package(vars.full_package, full_package)|replace('.', '_')}}.
+      {%- endif -%}
+      {%- endif -%}
+      {%- endif -%}
+      {%- if interface_class|default(False) -%}
+      {{vars.interface_impl_class_name}}{{custom.tpostfix}}
+      {%- else -%}
+      {{custom.tname}}
+      {%- endif -%}
+    pybind: |
+      {%- if interface_class|default(False) -%}
+      {{vars.interface_impl_class_name}}{{custom.tpostfix}}
+      {%- else -%}
+      {{custom.tname}}
+      {%- endif -%}
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+    python_include: |
+      {#- this is common for include and target type name do not change one without other -#}
+      {%- if full_package is defined and vars.full_package != full_package -%}
+      import {{vars.full_package}} as {{helper.relative_package(vars.full_package, full_package)|replace('.', '_')}}
+      {%- endif -%}
+    cxx_include: |
+      {% if vars.is_proj_type %}#include "{{vars.prj_rel_file_name}}"{% endif %}
+
+$Enum:
+  custom:
+    pname: int
+    tname: "{{vars.name}}"
+  types:
+    python: |
+      {#- this should go to shared macro gen_namespace -#}
+      {%- if full_package is defined -%}
+      {%- if parent_type_info -%}
+      {%- set converter = make_type_converter(parent_type_info.cxx.type_name) -%}
+      {{converter.python.get_target_type_name(full_package=full_package)}}.
+      {%- else -%}
+      {#- this is common for include and target type name do not change one without other -#}
+      {%- if vars.full_package != full_package -%}
+      {{helper.relative_package(vars.full_package, full_package)|replace('.', '_')}}.
+      {%- endif -%}
+      {%- endif -%}
+      {%- endif -%}
+      {{custom.tname}}
+    pybind: "{{custom.tname}}"
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+    python_include: |
+      {#- this is common for include and target type name do not change one without other -#}
+      {%- if full_package is defined and vars.full_package != full_package -%}
+      import {{vars.full_package}} as {{helper.relative_package(vars.full_package, full_package)|replace('.', '_')}}
+      {%- endif -%}
+    cxx_include: |
+      {% if vars.is_proj_type %}#include "{{vars.prj_rel_file_name}}"{% endif %}
+
+$FunctionProto:
+  custom:
+    tname: Callable
+  types:
+    python: |
+      {%- set comma = joiner(', ') -%}Callable[[{%- for arg in args[:-1] -%}{{comma()}}{{arg.target_type_name}}{%- endfor -%}], {{(args|last).target_type_name}}]
+    pybind: |
+      {%- set comma = joiner(', ') -%}Callable[[{%- for arg in args[:-1] -%}{{comma()}}{{arg.target_type_name}}{%- endfor -%}], {{(args|last).target_type_name}}]
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+
+std::__cxx11::basic_string:
+  custom:
+    tname: String
+  types:
+    python: str
+    pybind: str
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    pybind_to_python:
+    python_to_pybind: |
+      {{target_name}} = {{target_type_name}}({{name}})
+
+std::string_view:
+  std::__cxx11::basic_string
+
+std::vector:
+  custom:
+    tname: List[{{args[0].custom.tname}}]
+  types:
+    python: List[{{args[0].get_target_type_name(full_package=full_package|default(args[0].vars.full_package))}}]
+    pybind: list
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+
+std::function:
+  custom:
+    tname: "Function"
+  types:
+    python: "{{args[0].target_type_name}}"
+    pybind: "{{args[0].target_type_name}}"
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+
+std::map:
+  custom:
+    tname: "Map{{args_converters[0].python.custom.tname}}{{args_converters[1].python.custom.tname}}"
+  types:
+    python: |
+      {%- set arg0_package = full_package|default(args[0].vars.full_package) -%}
+      {%- set arg1_package = full_package|default(args[1].vars.full_package) -%}
+      Dict[{{args[0].get_target_type_name(full_package=arg1_package)}}, {{args[1].get_target_type_name(full_package=arg1_package)}}]
+    pybind: dict
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+
+std::unordered_map:
+  std::map
+
+std::shared_ptr:
+  custom:
+    tname: "{{args_converters[0].python.custom.tname}}"
+  types:
+    python: "{{args[0].get_target_type_name(full_package=full_package|default(args[0].vars.full_package))}}"
+    pybind: "{{args[0].target_type_name}}"
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+
+nlohmann::json:
+  custom:
+    pname: json
+  types:
+    python: dict
+    pybind: dict
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+
+json:
+  nlohmann::json
+
+std::pair:
+  custom:
+    tname: "Pair{{args_converters[0].python.custom.tname}}{{args_converters[1].python.custom.tname}}"
+  types:
+    python: |
+      {%- set arg0_package = full_package|default(args[0].vars.full_package) -%}
+      {%- set arg1_package = full_package|default(args[1].vars.full_package) -%}
+      Tuple[{{args[0].get_target_type_name(full_package=arg1_package)}}, {{args[1].get_target_type_name(full_package=arg1_package)}}]
+    pybind: tuple
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+
+# dummy converters to not throw error on container types converter build
+# currently, these are not used
+std::hash:
+  custom:
+    tname:
+  types:
+    python: Dummy
+    pybind: Dummy
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+
+std::equal_to:
+  custom:
+    tname:
+  types:
+    python: Dummy
+    pybind: Dummy
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+
+std::allocator:
+  custom:
+    tname:
+  types:
+    python: Dummy
+    pybind: Dummy
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+
+std::less:
+  custom:
+    tname:
+  types:
+    python: Dummy
+    pybind: Dummy
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+
+std::char_traits<char>:
+  custom:
+    tname:
+  types:
+    python: Dummy
+    pybind: Dummy
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+
+std::__1::hash:
+  std::hash
+
+std::__1::equal_to:
+  std::equal_to
+
+std::__1::allocator:
+  std::allocator
+
+std::__1::less:
+  std::less
+
+std::__1::char_traits<char>:
+  std::char_traits<char>
+
+std::__ndk1::hash:
+  std::hash
+
+std::__ndk1::equal_to:
+  std::equal_to
+
+std::__ndk1::allocator:
+  std::allocator
+
+std::__ndk1::less:
+  std::less
+
+std::__ndk1::char_traits<char>:
+  std::char_traits<char>

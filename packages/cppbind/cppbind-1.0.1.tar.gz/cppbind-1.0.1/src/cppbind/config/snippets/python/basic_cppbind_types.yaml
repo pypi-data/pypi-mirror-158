@@ -1,0 +1,105 @@
+# Copyright (c) 2022 PicsArt, Inc.
+# All rights reserved. Use of this source code is governed by a
+# MIT-style license that can be found in the LICENSE file.
+
+void:
+  custom:
+    tname: None
+  types:
+    python: None
+    pybind: None
+  converters:
+    cxx_to_pybind:
+    pybind_to_cxx:
+    pybind_to_python:
+    python_to_pybind:
+
+bool:
+  custom:
+    tname: Bool
+  types:
+    python: bool
+    pybind: bool
+  converters:
+    cxx_to_pybind:
+    pybind_to_cxx:
+    pybind_to_python:
+    python_to_pybind: |
+      {{target_name}} = {{target_type_name}}({{name}})
+
+int:
+  custom:
+    tname: Int
+  types:
+    python: int
+    pybind: int
+  converters:
+    cxx_to_pybind:
+    pybind_to_cxx:
+    pybind_to_python:
+    python_to_pybind: |
+      {{target_name}} = {{target_type_name}}({{name}})
+
+unsigned int:
+  long
+
+short:
+  custom:
+    tname: Int
+  types:
+    python: int
+    pybind: int
+  converters:
+    cxx_to_pybind:
+    pybind_to_cxx:
+    pybind_to_python:
+    python_to_pybind: |
+      {{target_name}} = {{target_type_name}}({{name}})
+
+long:
+  custom:
+    tname: Int
+  types:
+    python: int
+    pybind: int
+  converters:
+    cxx_to_pybind:
+    pybind_to_cxx:
+    pybind_to_python:
+    python_to_pybind: |
+      {{target_name}} = {{target_type_name}}({{name}})
+
+long long:
+  long
+
+unsigned long:
+  long
+
+float:
+  custom:
+    tname: Float
+  types:
+    python: float
+    pybind: float
+  converters:
+    cxx_to_pybind:
+    pybind_to_cxx:
+    pybind_to_python:
+    python_to_pybind: |
+      {{target_name}} = {{target_type_name}}({{name}})
+
+double:
+  custom:
+    tname: Float
+  types:
+    python: float
+    pybind: float
+  converters:
+    cxx_to_pybind:
+    pybind_to_cxx:
+    pybind_to_python:
+    python_to_pybind: |
+      {{target_name}} = {{target_type_name}}({{name}})
+
+unsigned char:
+  int

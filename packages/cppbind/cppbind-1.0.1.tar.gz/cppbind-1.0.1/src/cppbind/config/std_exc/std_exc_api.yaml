@@ -1,0 +1,131 @@
+# Copyright (c) 2022 PicsArt, Inc.
+# All rights reserved. Use of this source code is governed by a
+# MIT-style license that can be found in the LICENSE file.
+
+- type: "std::exception"
+  vars:
+    action: gen_class
+    python.action:
+    name: StdException
+    package_prefix: "{{helpers_package_prefix}}"
+    package: "{{exception_helpers_package}}"
+    file: "{{exception_file_name}}"
+    is_exception: True
+    include_cxx:
+      - <stdexcept>
+      - <new>
+      - <typeinfo>
+
+- type: "std::exception::what()"
+  vars:
+    action: gen_method
+    python.action:
+    throws: no_throw
+
+- type: "std::runtime_error"
+  vars:
+    action: gen_class
+    python.action:
+    name: StdRuntimeError
+    package_prefix: "{{helpers_package_prefix}}"
+    package: "{{exception_helpers_package}}"
+    file: "{{exception_file_name}}"
+
+- type: "std::logic_error"
+  vars:
+    action: gen_class
+    python.action:
+    name: StdLogicError
+    package_prefix: "{{helpers_package_prefix}}"
+    package: "{{exception_helpers_package}}"
+    file: "{{exception_file_name}}"
+
+- type: "std::bad_alloc"
+  vars:
+    action: gen_class
+    python.action:
+    name: StdBadAlloc
+    package_prefix: "{{helpers_package_prefix}}"
+    package: "{{exception_helpers_package}}"
+    file: "{{exception_file_name}}"
+
+- type: "std::bad_cast"
+  vars:
+    action: gen_class
+    python.action:
+    name: StdBadCast
+    package_prefix: "{{helpers_package_prefix}}"
+    package: "{{exception_helpers_package}}"
+    file: "{{exception_file_name}}"
+
+- type: "std::bad_typeid"
+  vars:
+    action: gen_class
+    python.action:
+    name: StdBadTypeId
+    package_prefix: "{{helpers_package_prefix}}"
+    package: "{{exception_helpers_package}}"
+    file: "{{exception_file_name}}"
+
+- type: "std::overflow_error"
+  vars:
+    action: gen_class
+    python.action:
+    name: StdOverflowError
+    package_prefix: "{{helpers_package_prefix}}"
+    package: "{{exception_helpers_package}}"
+    file: "{{exception_file_name}}"
+
+- type: "std::range_error"
+  vars:
+    action: gen_class
+    python.action:
+    name: StdRangeError
+    package_prefix: "{{helpers_package_prefix}}"
+    package: "{{exception_helpers_package}}"
+    file: "{{exception_file_name}}"
+
+- type: "std::underflow_error"
+  vars:
+    action: gen_class
+    python.action:
+    name: StdUnderflowError
+    package_prefix: "{{helpers_package_prefix}}"
+    package: "{{exception_helpers_package}}"
+    file: "{{exception_file_name}}"
+
+- type: "std::invalid_argument"
+  vars:
+    action: gen_class
+    python.action:
+    name: StdInvalidArgument
+    package_prefix: "{{helpers_package_prefix}}"
+    package: "{{exception_helpers_package}}"
+    file: "{{exception_file_name}}"
+
+- type: "std::length_error"
+  vars:
+    action: gen_class
+    python.action:
+    name: StdLengthError
+    package_prefix: "{{helpers_package_prefix}}"
+    package: "{{exception_helpers_package}}"
+    file: "{{exception_file_name}}"
+
+- type: "std::out_of_range"
+  vars:
+    action: gen_class
+    python.action:
+    name: StdOutOfRange
+    package_prefix: "{{helpers_package_prefix}}"
+    package: "{{exception_helpers_package}}"
+    file: "{{exception_file_name}}"
+
+- type: "std::domain_error"
+  vars:
+    action: gen_class
+    python.action:
+    name: StdDomainError
+    package_prefix: "{{helpers_package_prefix}}"
+    package: "{{exception_helpers_package}}"
+    file: "{{exception_file_name}}"

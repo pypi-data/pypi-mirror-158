@@ -1,0 +1,177 @@
+# Copyright (c) 2022 PicsArt, Inc.
+# All rights reserved. Use of this source code is governed by a
+# MIT-style license that can be found in the LICENSE file.
+
+void:
+  custom:
+    is_c_pointer_type: False
+    tname: Void
+  types:
+    swift: Void
+    c: void
+    sc: Void
+  converters:
+    c_to_cxx:
+    cxx_to_c:
+    swift_to_sc:
+    sc_to_swift:
+
+bool:
+  custom:
+    is_c_pointer_type: False
+    tname: Bool
+  types:
+    swift: Bool
+    c: bool
+    sc: CBool
+  converters:
+    c_to_cxx:
+    cxx_to_c:
+    swift_to_sc:
+    sc_to_swift:
+
+int:
+  custom:
+    is_c_pointer_type: False
+    tname: Int
+  types:
+    swift: Int
+    c: int
+    sc: CInt
+  converters:
+    c_to_cxx:
+    cxx_to_c:
+    swift_to_sc:
+      let {{target_name}} = CInt({{name}})
+    sc_to_swift:
+      let {{target_name}} = Int({{name}})
+
+unsigned int:
+  custom:
+    is_c_pointer_type: False
+    tname: UInt
+  types:
+    swift: UInt
+    c: unsigned int
+    sc: CUnsignedInt
+  converters:
+    c_to_cxx:
+    cxx_to_c:
+    swift_to_sc:
+      let {{target_name}} = CUnsignedInt({{name}})
+    sc_to_swift:
+      let {{target_name}} = UInt({{name}})
+
+short:
+  custom:
+    is_c_pointer_type: False
+    tname: Short
+  types:
+    swift: Short
+    c: short
+    sc: CShort
+  converters:
+    c_to_cxx:
+    cxx_to_c:
+    swift_to_sc:
+    sc_to_swift:
+
+long:
+  custom:
+    is_c_pointer_type: False
+    tname: CLong
+  types:
+    swift: CLong
+    c: long
+    sc: CLong
+  converters:
+    c_to_cxx:
+    cxx_to_c:
+    swift_to_sc:
+    sc_to_swift:
+
+long long:
+  custom:
+    is_c_pointer_type: False
+    tname: CLongLong
+  types:
+    swift: CLongLong
+    c: long long
+    sc: ClongLong
+  converters:
+    c_to_cxx:
+    cxx_to_c:
+    swift_to_sc:
+    sc_to_swift:
+
+unsigned long:
+  custom:
+    is_c_pointer_type: False
+    tname: CUnsignedLong
+  types:
+    swift: CUnsignedLong
+    c: unsigned long
+    sc: CUnsignedLong
+  converters:
+    c_to_cxx:
+    cxx_to_c:
+    swift_to_sc:
+    sc_to_swift:
+
+float:
+  custom:
+    is_c_pointer_type: False
+    tname: Float
+  types:
+    swift: Float
+    c: float
+    sc: CFloat
+  converters:
+    c_to_cxx:
+    cxx_to_c:
+    swift_to_sc:
+    sc_to_swift:
+
+double:
+  custom:
+    is_c_pointer_type: False
+    tname: Double
+  types:
+    swift: Double
+    c: double
+    sc: CDouble
+  converters:
+    c_to_cxx:
+    cxx_to_c:
+    swift_to_sc:
+    sc_to_swift:
+
+char:
+  custom:
+    is_c_pointer_type: False
+    tname: Character
+  types:
+    swift: Character
+    c: char
+    sc: CChar
+  converters:
+    c_to_cxx:
+    cxx_to_c:
+    swift_to_sc: |
+      let {{target_name}} = {{name}}.description.utf8CString[0]
+    sc_to_swift: |
+      let {{target_name}} = Character(UnicodeScalar(Int({{name}}))!)
+
+unsigned char:
+  custom:
+    is_c_pointer_type: False
+    tname: CUnsignedChar
+  types:
+    swift: CUnsignedChar
+    c: unsigned char
+    sc: CUnsignedChar
+  converters:
+    c_to_cxx:
+    cxx_to_c:
+    swift_to_sc:
+    sc_to_swift:
