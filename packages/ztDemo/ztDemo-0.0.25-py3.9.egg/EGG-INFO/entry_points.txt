@@ -1,0 +1,3 @@
+[console_scripts]
+ztDemo = ztDemo.main:main
+
