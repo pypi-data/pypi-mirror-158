@@ -1,0 +1,4 @@
+numpy>=1.17
+
+[implicit_algorithms]
+scipy>=1.3
