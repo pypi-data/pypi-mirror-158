@@ -1,0 +1,13 @@
+scQUEST/__init__.py,sha256=4vDQis7AuFwL1NF9_e7fbxc0qpwHMyYv9DY4jkAvY7o,335
+scQUEST/abnormality.py,sha256=wQ_buZPWxxIXBdNodl77V4bh3k7v1Gtj331TusOkzNQ,6057
+scQUEST/classifier.py,sha256=XjNl3mYt0fYnJ8-MkpjAQ8eyf9idpx43RL8k7B-fuEU,5722
+scQUEST/data.py,sha256=O9zZhRpefOLq-gufANGYUDDjNeeYw4wmXRTlXDYOhsE,5774
+scQUEST/individuality.py,sha256=RuAMRp6uYyP9X9CfxzLC_ZAtI_TM5flQrlRQBiI0KUs,8492
+scQUEST/utils.py,sha256=AG02k277OR3BJ-4mbrKmtYPBtMYurm8fxoao6B_l9v8,10504
+scQUEST/dataset/__init__.py,sha256=TrDxYlFx0ufKzo_dCLnLjus6mRpykdFHi-R_RHKZD_o,188
+scQUEST/dataset/_utils.py,sha256=54FvGMsAxKu2_KA3JFPufFAfftSy_t8aqgaQnYQI7Lg,2645
+scQUEST/dataset/datasets.py,sha256=TsX7LwqD8eTfYYIwgVgK6o_Feu9Ul3UU0s5Mkj1qnmM,1794
+ai4scr_scQUEST-0.1.0.dist-info/METADATA,sha256=GFhOi6sH-01DWBIzInBZ2p1UShz7tCTuPYHaSnF0F1Y,1401
+ai4scr_scQUEST-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ai4scr_scQUEST-0.1.0.dist-info/top_level.txt,sha256=huwUa1dy3cNURfH8rXolPuoN7Tn7UZq_1z9eQZMM42o,8
+ai4scr_scQUEST-0.1.0.dist-info/RECORD,,
