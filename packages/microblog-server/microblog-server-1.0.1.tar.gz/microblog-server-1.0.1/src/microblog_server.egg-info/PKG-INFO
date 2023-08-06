@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: microblog-server
+Version: 1.0.1
+Summary: Microblog server backend
+Home-page: https://github.com/sio/microblog-server
+License: Apache-2.0
+Keywords: blog,microblog,git
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+License-File: LICENSE
