@@ -1,0 +1,10 @@
+aws_cdk/aws_logs/__init__.py,sha256=OW911FaVMeB3f94ad1kOtWIDyrUMh_ZJzHCnS7dA2VI,211767
+aws_cdk/aws_logs/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_logs/_jsii/__init__.py,sha256=G3KvEERPlFYK6UPiqZOX4_bIe2rYY_ML5EZO2Dx6nRM,524
+aws_cdk/aws_logs/_jsii/aws-logs@1.163.1.jsii.tgz,sha256=tmtdoOcLBl00ZCXERvUK83LLjPFM2Q6X8-TVQEkYt-0,151901
+aws_cdk.aws_logs-1.163.1.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_logs-1.163.1.dist-info/METADATA,sha256=T_Vx_Xe0gg5u4sIYtfdZgSh39E2fKBEZqzdI0V93I8w,14207
+aws_cdk.aws_logs-1.163.1.dist-info/NOTICE,sha256=piksgoXop22-zO1J9i3rVrv57wUN9siPK1pqGzZ7-AE,113
+aws_cdk.aws_logs-1.163.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_logs-1.163.1.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_logs-1.163.1.dist-info/RECORD,,
