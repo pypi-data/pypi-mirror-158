@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Addition-Library
+Version: 0.1.0
+Summary: Addition Demo library
+Home-page: https://medium-multiply.readthedocs.io/
+Author: Neku
+Author-email: sample@email.com
+License: MIT
+Requires-Dist: numpy
+
+pip install Addition-Library
+
+
