@@ -1,0 +1,12 @@
+numpy
+h5py
+scipy
+astropy
+photutils
+matplotlib
+reproject
+mpi4py
+sep
+emcee
+schwimmbad
+astroquery
