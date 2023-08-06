@@ -1,0 +1,102 @@
+name: register_reset_abci
+author: valory
+version: 0.1.0
+type: skill
+description: ABCI application for dummy skill that registers and resets
+license: Apache-2.0
+aea_version: '>=1.0.0, <2.0.0'
+fingerprint:
+  README.md: QmT7TN1DvhK4LtLzv2gSQphVJCsy49b11hRU8ixiiYtHrf
+  __init__.py: QmSMjibxQMuERB6uqnESRS8CvQ3eXSmgT5Fphw3UTUKSsc
+  behaviours.py: QmTNnYtjUtkbQXpDAHnX5euADJVgSoKi5WQU7HciUxJ7Sj
+  composition.py: QmTcQBRHCewD1sminS7mMYrjmRojr1ZyPeWApQkXtMcvFv
+  dialogues.py: QmfDThV4WCRzK88XDpW2hKDYCuEH4RxoHCoAkWpkBRGRPv
+  fsm_specification.yaml: QmaXJwYJBzUdBGrzUnsdfhZuAqdxUMyUF2596b26okbRuD
+  handlers.py: QmcoDzDjuti6EXjGtwYVzKnbkMnX1vfrofvnyuM8by6iPx
+  models.py: QmXcR7nM9nJyj6UtqTpmFfoULjd3QsCKWmHDacHDi6hbsi
+fingerprint_ignore_patterns: []
+connections:
+- valory/abci:0.1.0:Qme6c15aYEcGog9PCDBydJ65rHmV335qgjDZhcTFEEFyKD
+- valory/http_client:0.1.0:QmXiQUWV5AH7BRXGHVxVJpEcLpyNUsZf4pj55FqoTdiGDn
+contracts: []
+protocols:
+- open_aea/signing:1.0.0:QmbZLz1hZgKJwwLMngJoRWpzzRAWL1LmShRxV3GrXoBHSB
+- valory/abci:0.1.0:QmbkKQagcPHAfynYLYwRWiXNa9q2xepx2ERLaKheCRZEgC
+- valory/http:1.0.0:QmYkSCErFKHs92nYzfqxeo9qBeMJF6H1SNC8awy8CjD3z6
+skills:
+- valory/abstract_round_abci:0.1.0:QmR52hEyGyzAEDeDhJxKQx7LyV9Svu48WYEjoYyyoh3yzX
+- valory/registration_abci:0.1.0:QmNuPj7jRZ3AEFmiQoWcv4Zr2KZtVm52SW4UXsFDGWWV4H
+- valory/reset_pause_abci:0.1.0:QmYRZohfjoxeAjtXJNto3Uxd3nidXZNyUCkjT5iyhxMuhw
+behaviours:
+  main:
+    args: {}
+    class_name: RegisterResetAbciAppConsensusBehaviour
+handlers:
+  abci:
+    args: {}
+    class_name: ABCIRegisterResetHandler
+  contract_api:
+    args: {}
+    class_name: ContractApiHandler
+  http:
+    args: {}
+    class_name: HttpHandler
+  ledger_api:
+    args: {}
+    class_name: LedgerApiHandler
+  signing:
+    args: {}
+    class_name: SigningHandler
+models:
+  abci_dialogues:
+    args: {}
+    class_name: AbciDialogues
+  benchmark_tool:
+    args:
+      log_dir: /logs
+    class_name: BenchmarkTool
+  contract_api_dialogues:
+    args: {}
+    class_name: ContractApiDialogues
+  http_dialogues:
+    args: {}
+    class_name: HttpDialogues
+  ledger_api_dialogues:
+    args: {}
+    class_name: LedgerApiDialogues
+  params:
+    args:
+      cleanup_history_depth: 1
+      cleanup_history_depth_current: null
+      consensus:
+        max_participants: 1
+      drand_public_key: 868f005eb8e6e4ca0a47c8a77ceaa5309a47978a7c71bc5cce96366b5d7a569937c529eeda66c7293784a9402801af31
+      keeper_timeout: 30.0
+      max_healthcheck: 120
+      observation_interval: 15
+      on_chain_service_id: null
+      reset_tendermint_after: 1
+      retry_attempts: 400
+      retry_timeout: 3
+      round_timeout_seconds: 15.0
+      service_id: register_reset_abci
+      service_registry_address: null
+      setup: {}
+      share_tm_config_on_startup: false
+      sleep_time: 1
+      tendermint_check_sleep_delay: 3
+      tendermint_com_url: http://localhost:8080
+      tendermint_max_retries: 5
+      tendermint_url: http://localhost:26657
+    class_name: Params
+  requests:
+    args: {}
+    class_name: Requests
+  signing_dialogues:
+    args: {}
+    class_name: SigningDialogues
+  state:
+    args: {}
+    class_name: SharedState
+dependencies: {}
+is_abstract: false
