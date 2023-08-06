@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/stf_decomposition/__init__.py
+src/stf_decomposition/stf_decomposition.py
+src/stf_decomposition_thodson_usgs.egg-info/PKG-INFO
+src/stf_decomposition_thodson_usgs.egg-info/SOURCES.txt
+src/stf_decomposition_thodson_usgs.egg-info/dependency_links.txt
+src/stf_decomposition_thodson_usgs.egg-info/top_level.txt
