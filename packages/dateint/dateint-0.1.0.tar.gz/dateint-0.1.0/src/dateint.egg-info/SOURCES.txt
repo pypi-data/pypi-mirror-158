@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dateint/__init__.py
+src/dateint/config.py
+src/dateint/convert.py
+src/dateint/core.py
+src/dateint/exception.py
+src/dateint.egg-info/PKG-INFO
+src/dateint.egg-info/SOURCES.txt
+src/dateint.egg-info/dependency_links.txt
+src/dateint.egg-info/requires.txt
+src/dateint.egg-info/top_level.txt
