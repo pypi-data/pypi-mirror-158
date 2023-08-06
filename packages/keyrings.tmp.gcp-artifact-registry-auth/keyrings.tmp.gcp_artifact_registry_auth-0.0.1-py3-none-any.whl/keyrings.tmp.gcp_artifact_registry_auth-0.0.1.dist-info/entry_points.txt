@@ -1,0 +1,2 @@
+[keyring.backends]
+GCP TMP Auth = keyrings.tmp.gcp_auth
