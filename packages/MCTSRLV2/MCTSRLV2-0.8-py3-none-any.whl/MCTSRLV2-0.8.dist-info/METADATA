@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: MCTSRLV2
+Version: 0.8
+Summary: Using the Monte-carlo tree search algorithm in the rule-based classification tasks
+Home-page: UNKNOWN
+Author: Mohamed Gomaa
+Author-email: mohammedsaber828@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENCE.txt
+
+UNKNOWN
+
