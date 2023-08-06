@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pack-zyr/__init__.py
+pack-zyr/zyrdeku.py
+zyrdeku.egg-info/PKG-INFO
+zyrdeku.egg-info/SOURCES.txt
+zyrdeku.egg-info/dependency_links.txt
+zyrdeku.egg-info/top_level.txt
