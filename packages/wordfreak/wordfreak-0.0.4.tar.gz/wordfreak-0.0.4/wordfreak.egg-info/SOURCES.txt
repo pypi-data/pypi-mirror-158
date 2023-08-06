@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+wordfreak/__init__.py
+wordfreak.egg-info/PKG-INFO
+wordfreak.egg-info/SOURCES.txt
+wordfreak.egg-info/dependency_links.txt
+wordfreak.egg-info/top_level.txt
+wordfreak/service/__init__.py
+wordfreak/service/wordFrequency.py
