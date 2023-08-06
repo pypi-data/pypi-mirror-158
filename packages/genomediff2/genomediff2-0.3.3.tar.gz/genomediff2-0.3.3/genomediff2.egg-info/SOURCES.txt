@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+genomediff/__init__.py
+genomediff/parser.py
+genomediff/records.py
+genomediff2.egg-info/PKG-INFO
+genomediff2.egg-info/SOURCES.txt
+genomediff2.egg-info/dependency_links.txt
+genomediff2.egg-info/top_level.txt
