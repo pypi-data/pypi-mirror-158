@@ -1,0 +1,2 @@
+include README.md
+include filebrowser/static/js/jquery.min.js
