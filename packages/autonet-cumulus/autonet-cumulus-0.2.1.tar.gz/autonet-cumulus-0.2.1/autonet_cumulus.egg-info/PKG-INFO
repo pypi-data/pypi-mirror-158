@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: autonet-cumulus
+Version: 0.2.1
+Summary: Network device configuration abstraction API
+Home-page: https://github.com/Connectria/autonet-cumulus
+Author: Ken Vondersaar
+Author-email: kvondersaar@connectria.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Connectria/autonet-cumulus
+Project-URL: Documentation, https://connectria.github.io/autone-cumulus
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+Cumulus Driver for Autonet
+-----------------------------
+Autonet is a WSGI application that abstracts vendor specific network
+device configuration into a standard set of vendor independent API calls.
+The Autonet Cumulus driver allows Autonet to work with devices that use
+Cumulus Linux.
+
+See the full `documentation <https://connectria.github.io/autonet-cumulus>`_ for
+more details.
+
