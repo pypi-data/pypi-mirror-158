@@ -1,0 +1,8 @@
+aioelpris/__init__.py,sha256=a0Kt6zVOLaA2TiZqznmfMt2Z1d_ErXGFkagBLGCyNPE,96
+aioelpris/core/const.py,sha256=U-EYGQnFH51nFd3uAh_QwY5tjoS4HbFoBUG7D9o6yEY,447
+aioelpris/core/models.py,sha256=yyWGSzLbcY2p8zFy2EYKHdBtxVlXUXjo0KeJu2rwxu8,157
+aioelpris/pris.py,sha256=5exyYl75hJb8Kjt1LGQIJbsu9xIceGGY6Q4tBncq90Y,2543
+aioelpris-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aioelpris-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aioelpris-0.1.1.dist-info/METADATA,sha256=HczQJV0gwMGohNq-rGe8piHaDuEktOIVMXmnaYjc0uU,1586
+aioelpris-0.1.1.dist-info/RECORD,,
