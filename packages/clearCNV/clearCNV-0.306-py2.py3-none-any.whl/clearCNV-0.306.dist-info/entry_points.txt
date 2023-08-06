@@ -1,0 +1,2 @@
+[console_scripts]
+clearCNV = clearCNV.__main__:main
