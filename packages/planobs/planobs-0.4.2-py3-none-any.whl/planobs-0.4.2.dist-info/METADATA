@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: planobs
+Version: 0.4.2
+Summary: Plan observations with the Zwicky Transient Facility
+Home-page: https://github.com/simeonreusch/planobs/
+Download-URL: https://github.com/simeonreusch/planobs/archive/v0.4.2.tar.gz
+Author: Simeon Reusch
+Author-email: simeon.reusch@desy.de
+Maintainer: Simeon Reusch
+Maintainer-email: simeon.reusch@desy.de
+License: BSD (3-clause)
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+License-File: LICENSE
+Requires-Dist: astropy
+Requires-Dist: astroquery
+Requires-Dist: coveralls
+Requires-Dist: numpy
+Requires-Dist: astroplan (>=0.7)
+Requires-Dist: pandas
+Requires-Dist: penquins
+Requires-Dist: matplotlib
+Requires-Dist: flask
+Requires-Dist: ztfquery (==1.18.2)
+Requires-Dist: lxml
+Requires-Dist: html5lib
+Requires-Dist: shapely
+Requires-Dist: geopandas
+Requires-Dist: tqdm
+Requires-Dist: typing-extensions
+
+Plan observations with the Zwicky Transient Facility. Automated parsing of GCN is only implemented for IceCube at the moment.
