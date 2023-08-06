@@ -1,0 +1,15 @@
+.flake8
+.gitattributes
+.gitignore
+.gitlab-ci.yml
+LICENSE
+README.md
+pyproject.toml
+setup.py
+test_cvectors.py
+cvectors/__init__.py
+cvectors/py.typed
+cvectors.egg-info/PKG-INFO
+cvectors.egg-info/SOURCES.txt
+cvectors.egg-info/dependency_links.txt
+cvectors.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+image: python:latest
+
+before_script:
+    - pip install pytest
+    - pip install pytest-benchmark
+    - python setup.py install
+    - pip show cvectors
+
+run tests:
+    only:
+        - master
+    script:
+        - python -m pytest
