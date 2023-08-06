@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    ports:
+      - 80:5000
+    command: python3 /app/main.py
+  cdr:
+    build: .
+    command: python3 /app/cdr.py
