@@ -1,0 +1,22 @@
+[project]
+name = "dir_clean"
+version = "0.0.1"
+authors = [
+  { name="DDGG", email="ddcatgg@gmail.com" },
+]
+description = "This package starts and looks after your program, based on the configuration."
+readme = "README.md"
+license = { file="LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ['run', 'tool']
+requires-python = ">=2.7,>=3.6"
+dependencies = ['tqdm']
+
+[project.urls]
+"Homepage" = "https://github.com/ddcatgg/dir_clean"
+"Bug Tracker" = "https://github.com/ddcatgg/dir_clean/issues"
