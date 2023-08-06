@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/bungocrypt/Crypt.py
+src/bungocrypt/Key.py
+src/bungocrypt.egg-info/PKG-INFO
+src/bungocrypt.egg-info/SOURCES.txt
+src/bungocrypt.egg-info/dependency_links.txt
+src/bungocrypt.egg-info/top_level.txt
