@@ -1,0 +1,15 @@
+google-api-core[grpc]<3.0.0dev,>=2.8.0
+proto-plus<2.0.0dev,>=1.18.0
+protobuf<4.0.0dev,>=3.19.0
+
+[fastavro]
+fastavro>=0.21.2
+
+[pandas]
+pandas>=0.21.1
+
+[pyarrow]
+pyarrow>=0.15.0
+
+[tests]
+freezegun
