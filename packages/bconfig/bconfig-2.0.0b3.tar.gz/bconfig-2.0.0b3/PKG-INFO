@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: bconfig
+Version: 2.0.0b3
+Summary: Blueprints for configurations
+Home-page: https://github.com/deadbeef-development/bconfig
+Author: Deadbeef-Development
+Author-email: deadbeef.development@gmail.com
+Description-Content-Type: text/markdown
+
+# **bconfig** (Blueprint Configuration)
+
+## Example
+```python
+import bconfig
+
+example_config_blueprint = bconfig.Blueprint({
+    'example_int': bconfig.Field(int, options=[122, 123, 124]),
+    'example_sub_config': {
+        'foo': bconfig.Field(float)
+    }
+})
+
+example_config = example_config_blueprint.parse({
+    'example_int': '123',
+    'example_sub_config': {
+        'foo': '1.23'
+    }
+})
+
+print(example_config['example_int'] + 1) # 124
+print(example_config['example_sub_config']['foo'] + 0.01) # 1.24
+```
+
+## To Do
+- [x] Example code
+- [x] Unspecified parse functions
+- [x] Unspecified expected types
+- [ ] Lists
+- [x] Options (`List[Any]` or `Callable[[Any], bool]`)
+- [ ] Add dict methods (keys, \_\_getitem\_\_, etc) to Blueprint
+- [x] Exceptions `ConfigError`, `ParseError`, `RequiredError`, and `OptionError`
+- [x] Remove namespaces
