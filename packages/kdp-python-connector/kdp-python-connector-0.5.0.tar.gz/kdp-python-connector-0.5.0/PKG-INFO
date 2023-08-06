@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: kdp-python-connector
+Version: 0.5.0
+Summary: Python Connector for KDP Platform
+Home-page: UNKNOWN
+Author: Koverse development team
+Author-email: developer@koverse.com
+License: UNKNOWN
+Description: Python Connector For Interacting with KDP Platform for various ingestion and retrieval tasks
+Keywords: python,kdp
+Platform: UNKNOWN
