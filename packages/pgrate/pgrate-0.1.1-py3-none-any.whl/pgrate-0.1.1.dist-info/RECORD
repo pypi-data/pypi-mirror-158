@@ -1,0 +1,17 @@
+migrator/main.py,sha256=VMAvwqo6HvgYgotYnc7DMNyYLT6irEA-HwSxhyvsswI,623
+migrator/queries/create_base_value.sql,sha256=x4eg5GQfv8wqmNm2ZBHq6Y05mWFrRpv2L-mtU4TLwrk,73
+migrator/queries/get_current_version.sql,sha256=FMhec3uFxk8vaNJSRrNKFwjk-vwfzUJNKcjdY5iuWhQ,46
+migrator/queries/init.sql,sha256=T6RgvzKUdyS02P6m8rxL5bWhF8FZOyl2ezcZb-Mg19A,93
+migrator/queries/update_migration_schema.sql,sha256=LsAMPrkUILf_-5vaBoU_29wBd1HGwOej-grC8B2bfDA,64
+migrator/src/db.py,sha256=L8xIAMt7t9vH7RSVxsB02vgTY6w3mxidxp8pZ1IGdlM,1966
+migrator/src/utils.py,sha256=LSBiDehZKvIdJb_WnMd1gBraLa5tU6-pUdrmOGNYpOU,255
+pgrate-0.1.1.data/data/queries/create_base_value.sql,sha256=x4eg5GQfv8wqmNm2ZBHq6Y05mWFrRpv2L-mtU4TLwrk,73
+pgrate-0.1.1.data/data/queries/get_current_version.sql,sha256=FMhec3uFxk8vaNJSRrNKFwjk-vwfzUJNKcjdY5iuWhQ,46
+pgrate-0.1.1.data/data/queries/init.sql,sha256=T6RgvzKUdyS02P6m8rxL5bWhF8FZOyl2ezcZb-Mg19A,93
+pgrate-0.1.1.data/data/queries/update_migration_schema.sql,sha256=LsAMPrkUILf_-5vaBoU_29wBd1HGwOej-grC8B2bfDA,64
+pgrate-0.1.1.dist-info/LICENCE,sha256=-_8luJbslUk7q81CGqdmVAtWmkqJm-U3C8_VPropRo4,1064
+pgrate-0.1.1.dist-info/METADATA,sha256=hkLOzH6QT2uPSCC0BJlvI175Jvhp5OuQ5Y_qrIoS_bg,2697
+pgrate-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pgrate-0.1.1.dist-info/entry_points.txt,sha256=0G-uJkELyY3uYzobQHvspSkLtDZ7BUosJnNM8WKl1aM,46
+pgrate-0.1.1.dist-info/top_level.txt,sha256=OA_3fxjfdAtjoHmPa8p3l2ABAFHzyHfLLthWKFd30Bo,9
+pgrate-0.1.1.dist-info/RECORD,,
