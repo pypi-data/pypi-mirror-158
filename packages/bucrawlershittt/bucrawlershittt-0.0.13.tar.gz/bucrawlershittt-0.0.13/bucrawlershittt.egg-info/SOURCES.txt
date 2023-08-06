@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+bucrawlershittt/__init__.py
+bucrawlershittt/tag_counter.py
+bucrawlershittt.egg-info/PKG-INFO
+bucrawlershittt.egg-info/SOURCES.txt
+bucrawlershittt.egg-info/dependency_links.txt
+bucrawlershittt.egg-info/requires.txt
+bucrawlershittt.egg-info/top_level.txt
