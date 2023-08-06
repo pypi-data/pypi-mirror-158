@@ -1,0 +1,9 @@
+galaxy_upload/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+galaxy_upload/history.py,sha256=6idMGjsRJXKK_WspQqHRO4bKm0g9HDGaTAgID_q1UcA,2371
+galaxy_upload/upload.py,sha256=WuDnzNXyXb555vgqaNy3CA_tpkvhbdC2Tv4WfEs21A4,6130
+galaxy_upload-0.0.1rc1.dist-info/LICENSE,sha256=ITnmZTBs298BJm7LZ3buYb0Tl4cn3c3Dh-oONvOm8SA,1071
+galaxy_upload-0.0.1rc1.dist-info/METADATA,sha256=NtIrZXBfvlQaglXK7inQOJyc68PuboJDAxO1-sTVd74,7960
+galaxy_upload-0.0.1rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+galaxy_upload-0.0.1rc1.dist-info/entry_points.txt,sha256=atZJIoiyCewOLera7e0f6hP1KDBZNv4ZaupBqwGhe6M,111
+galaxy_upload-0.0.1rc1.dist-info/top_level.txt,sha256=2Mqehv3gudugW2Jqcm7TnBtaBbGFpDh0zUEBhpg2ai0,14
+galaxy_upload-0.0.1rc1.dist-info/RECORD,,
