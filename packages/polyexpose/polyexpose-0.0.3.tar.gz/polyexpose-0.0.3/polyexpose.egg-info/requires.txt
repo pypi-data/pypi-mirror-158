@@ -1,0 +1,7 @@
+google-cloud-dataproc
+google-cloud-storage
+pyspark~=3.3.0
+pyyaml
+google-cloud-pubsublite==1.4.2
+protobuf
+requests
