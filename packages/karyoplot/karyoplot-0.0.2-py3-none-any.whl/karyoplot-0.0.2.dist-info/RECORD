@@ -1,0 +1,11 @@
+karyoplot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+karyoplot/confparser.py,sha256=IhmNAOzbFaOJ5pDi3c9E13FfeL8lVSSQAi5Wk5kPRRc,1617
+karyoplot/entities.py,sha256=5SxVw8Igmx5_qo9Dl6yf0nDttsC3bwl81Mo0cggfikQ,7315
+karyoplot/main.py,sha256=-PO4FW_5s4km0iCzykRwtutUEe8AXyRTuk-Vaf9ZmeY,6169
+karyoplot/version.py,sha256=miSsqPy2PFJ18TW9kocQJLcv4HFpkfQhcTzgAO-GTVE,22
+karyoplot-0.0.2.dist-info/LICENSE,sha256=0keChMJjeAds0KNZ3a7qR9LH77anQQbiO1xnrBI0pEI,35063
+karyoplot-0.0.2.dist-info/METADATA,sha256=vIhHBXCGi8mKvUQwwKbARbP5b0p3w2mgm_OcVYRHUI4,3227
+karyoplot-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+karyoplot-0.0.2.dist-info/entry_points.txt,sha256=L3tp1ePwfVl-hgftzE-xCvtaY0cta3w_3TVt9G6wbV8,50
+karyoplot-0.0.2.dist-info/top_level.txt,sha256=XowWheqalW6_HrjFXKzsh7m2eI8_PJJgQXXhGuewYwE,10
+karyoplot-0.0.2.dist-info/RECORD,,
