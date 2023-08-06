@@ -1,0 +1,2 @@
+[console_scripts]
+xeno-canto = xenocanto:main
