@@ -1,0 +1,13 @@
+*
+!/src/chill/*
+/src/chill/*.pyc
+/src/chill/**/*.pyc
+/src/chill/__pycache__
+!/requirements.txt
+!/COPYING
+!/COPYING.LESSER
+!/README.md
+!/MANIFEST.in
+!/pyproject.toml
+!/setup.cfg
+!/setup.py

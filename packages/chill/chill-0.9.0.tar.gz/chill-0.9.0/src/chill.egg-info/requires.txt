@@ -1,0 +1,10 @@
+Flask<3,>=2
+Jinja2>=3
+Frozen-Flask==0.18
+Flask-Markdown==0.3
+PyYAML
+gevent
+docopt==0.6.2
+MarkupSafe<3,>=2
+babel
+humanize
