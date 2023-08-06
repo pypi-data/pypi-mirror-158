@@ -1,0 +1,10 @@
+nottoosimple/__init__.py,sha256=4b_apZtMVLDpgz5f5HuJmF194P-a-ogzUPxP_Ahyzus,49
+nottoosimple/add.py,sha256=4ggi6YBtoojn5Ac3zeK7LdxwiR_4uKE3KaVrP7YFm_c,110
+nottoosimple/subtract.py,sha256=XQDXS8d0WV1kiv5-14QKgB4F6C4IQUhic_lByLjSKmU,110
+nottoosimple/extras/__init__.py,sha256=PZSD5KBz18yWugN74-vhWwmkZBi_4rBaSBilLxZKDuA,55
+nottoosimple/extras/divide.py,sha256=_DiHxzIcYcm-5SI9LkbEpElbdu0PTHGlcQ3tjpcsw_A,110
+nottoosimple/extras/multiply.py,sha256=4-qxrTKhKpuJbvsiokpxvP-r9yy28OtkGc8bnm2e52w,110
+nottoosimple-0.0.1.dist-info/METADATA,sha256=zQMXXjYFC8_Kh84HUo0bOnlbGX6LiCaPefHSwkdlEKA,564
+nottoosimple-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nottoosimple-0.0.1.dist-info/top_level.txt,sha256=Pya8UkgeowpGx6u31az8pRL4z27uJ-9hu42gCe3vDiI,13
+nottoosimple-0.0.1.dist-info/RECORD,,
