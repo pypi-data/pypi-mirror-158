@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: next-app-kit
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/29next/app-kit
+Author: 29next
+Author-email: dev@29next.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML (>=5.4)
+Requires-Dist: python-decouple (>=3.6)
+Requires-Dist: requests (>=2.25)
+
+# 29NEXT APP KIT
+
+
