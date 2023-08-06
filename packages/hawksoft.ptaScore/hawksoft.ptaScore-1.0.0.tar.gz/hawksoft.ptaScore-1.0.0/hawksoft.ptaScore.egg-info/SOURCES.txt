@@ -1,0 +1,9 @@
+setup.py
+hawksoft/__init__.py
+hawksoft/main.py
+hawksoft.ptaScore.egg-info/PKG-INFO
+hawksoft.ptaScore.egg-info/SOURCES.txt
+hawksoft.ptaScore.egg-info/dependency_links.txt
+hawksoft.ptaScore.egg-info/entry_points.txt
+hawksoft.ptaScore.egg-info/requires.txt
+hawksoft.ptaScore.egg-info/top_level.txt
