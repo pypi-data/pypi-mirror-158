@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bin/cgrep
+cgrep.egg-info/PKG-INFO
+cgrep.egg-info/SOURCES.txt
+cgrep.egg-info/dependency_links.txt
+cgrep.egg-info/top_level.txt
+man/man1/cgrep.1

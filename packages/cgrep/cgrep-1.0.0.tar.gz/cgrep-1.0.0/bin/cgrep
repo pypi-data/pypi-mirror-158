@@ -1,0 +1,107 @@
+#!/usr/bin/env python3
+
+"""A command line utility to grep for blocks of text
+
+https://github.com/markuskimius/cgrep
+"""
+
+import os, sys, errno, re, argparse
+
+__copyright__ = "Copyright 2018-2022 Mark Kim"
+__license__ = "Apache 2.0"
+__version__ = "1.0.0"
+__author__ = "Mark Kim"
+
+def main():
+    global opts
+
+    parser = argparse.ArgumentParser(description="grep blocks of text.")
+    parser.add_argument("pattern", metavar="PATTERN", help="pattern to grep for")
+    parser.add_argument("files", metavar="FILE", nargs="*", help="file(s) to grep.")
+    parser.add_argument("-k", "--block-marker", dest="block_marker", metavar="PATTERN", default="^$", help="regex pattern describing the start of a block (default=^$)")
+    parser.add_argument("-i", "--ignore-case", dest="ignore_case", default=False, action="store_true", help="ignore case distinctions")
+    parser.add_argument("-v", "--invert-match", dest="invert_match", default=False, action="store_true", help="select non-matching blocks")
+    parser.add_argument("--color", dest="color", default=False, action="store_true", help="use markers to highlight the matching strings")
+    opts = parser.parse_args()
+
+    opts.flags = re.IGNORECASE if(opts.ignore_case) else 0
+    opts.pattern = re.compile("(%s)" % opts.pattern, opts.flags)
+    opts.block_marker = re.compile(opts.block_marker, opts.flags)
+
+    # Disable color if not outputting to terminal
+    if(not sys.stdout.isatty()): opts.color = False
+
+    # Read from STDIN if no file specified
+    if(len(opts.files) == 0):
+        opts.files.append("-")
+
+    # Grep each file
+    for f in opts.files:
+        grep(opts.block_marker, opts.pattern, f)
+
+def grep(marker, pattern, file):
+    global opts
+
+    try:
+        fd = sys.stdin if(file == "-") else open(file, "rt", newline=os.linesep)
+
+        # `newline=os.linesep` is to disable the `unviersal newline` feature.
+        # This feature, enabled by default when opening a file, is apparently
+        # not enabled by default on stdin, so disabling it creates a consistent
+        # experience when reading from a file vs. when reading from stdin.
+        # We don't want universal newline because it can misinterpret a carriage
+        # return mid-line of a file as a line terminator in UNIX.
+    except IOError as e:
+        print(e)
+        sys.exit(1)
+
+    grep_fd(marker, pattern, fd)
+
+    if(file != "-"):
+        fd.close()
+
+def grep_fd(marker, pattern, fd):
+    global opts
+    buffer = []
+    is_match = False
+
+    line = fd.readline()
+    while(line != ""):
+        # Strip the trailing newline
+        if line[-1] == '\n':
+            line = line[0:-1]
+
+        # Check block
+        if(re.search(marker, line)):
+            if(is_match ^ opts.invert_match):
+                for b in buffer: print(b)
+            is_match = False
+            buffer = []
+
+        # Check match, color if requested
+        if(re.search(pattern, line)):
+            if(opts.color): line = colorize(pattern, line)
+            is_match = True
+
+        # Next!
+        buffer.append(line)
+        line = fd.readline()
+
+    if(is_match ^ opts.invert_match):
+        for b in buffer: print(b)
+
+def colorize(pattern, line):
+    # All modern, color-capable terminals use ANSI escape sequences to color
+    # text. Wrap the matching texts around ANSI escape sequence for bold red:
+    line = re.sub(pattern, "\u001b[31;1m\\1\u001b[0m", line)
+
+    return line
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("")
+        sys.exit(errno.EOWNERDEAD)
+
+# vim:ft=python
