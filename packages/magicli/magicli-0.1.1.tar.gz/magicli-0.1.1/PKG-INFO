@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: magicli
+Version: 0.1.1
+Summary: Automatically call args parsed by `docopt` as functions.
+Home-page: UNKNOWN
+License: UNKNOWN
+Keywords: python,docopt,cli
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+
+# magiᴄʟɪ✨
+
+Automatically call args parsed by `docopt` as functions.
+
+## Install
+
+```
+pip install magicli
+```
+
+## Get started
+
+Basic usage example.
+
+```python
+from docopt import docopt
+from magicli import magicli
+def cli():
+    magicli(docopt(__doc__))
+```
+
+Functions that share a name with the keys or `dict` returned by `docopt` are automatically called with all required args if specified (Note that keys are converted to valid python function names, i.e. stripping the characters `<` `>` `-` and replacing `-` with `_`).
+
+All functions that are called this way need to be imported.
+
+`magicli` also returns a dict with converted keys, and these can be used as `args` if needed.
+
+```python
+args = magicli(docopt(__doc__))
+```
+
+## Minimal `Hello World` example
+
+After installing `magicli`, this example can be called from the command line.
+
+### hello.py
+
+```python
+"""
+    Usage:
+        magicli_example <name> [--amount=<int>]
+
+        -a=<int> --amount=<int>  How often to greet
+"""
+
+from docopt import docopt
+from magicli import magicli
+
+
+def cli():
+    magicli(docopt(__doc__))
+
+
+def main(name, amount = 1):
+    for _ in range(int(amount)):
+        print(f'Hello {name}!')
+```
+
+Note that `magicli` will automatically try to call the `main()` function.
+
+This can be changed to another function through the settings `magicli(docopt(__doc__), entry_point='another_function')`.
+
+### setup.py
+
+```python
+from setuptools import setup
+
+
+setup(
+    name='magicli_example',
+    version='0.1.0',
+    install_requires=[
+        'magicli'
+    ],
+    entry_points={
+        'console_scripts':[
+            'magicli_example=example:cli'
+        ]
+    }
+)
+```
+
+Note: Make sure that the entry point specified in your setup.py is not the main function, otherwise it will not work.
+
+Calling the script:
+
+```
+magicli_example World -a 3
+```
+
+Results in the following output:
+
+```
+Hello World!
+Hello World!
+Hello World!
+```
+
+
