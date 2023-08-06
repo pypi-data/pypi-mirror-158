@@ -1,0 +1,16 @@
+signalk_client/__init__.py,sha256=2jMUQ-zEulfZsCFV4Zz_y143uvZ2W-tzFsYAsn1DyaA,779
+signalk_client/client.py,sha256=AwNKHjAEq8hZJs7sTBGvUHEEonp2rC51L3v5mu8caEE,5502
+signalk_client/data.py,sha256=w9Kyt7Aqa_Qa4IdoIpK4gn9ggGgFb26KDU553x3hwUc,4783
+signalk_client/datum.py,sha256=_r43D4oCwNSth-7oTrbcY93TQ-SkULVcfjcxmdZpm5k,5764
+signalk_client/vessel.py,sha256=3XZwX_lQDsxXZW70OQaGroYGDEw9TJbfXuAz0m_bc4Q,4886
+signalk_client/zeroconf.py,sha256=t12m5_EyEesetsX1eOz3_1cZOPGk8g2c9e4iUWjZ9hE,69071
+signalk_client/include/meta.json,sha256=e8fPvOZAPV79GHxCZqcpVqMX0WAhyAp5AdGnc656kmM,187113
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/data.py,sha256=x1FXkp-lr-5_dva13QUcbedXcBV2Rhcb9Gb6uDh-WPs,505
+tests/datum.py,sha256=QjLHemTQ9wDVfiXHJYDU_F-gw5mOUrwG99HFsIyO68w,981
+tests/vessel.py,sha256=jKAe7g1NFj-Dgx0of2vVA7ch_RUR-DuMISgydT37HTk,397
+signalk_client-0.2.3.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+signalk_client-0.2.3.dist-info/METADATA,sha256=090S1fRqtD5xYn6BQpHjqgE54HRjokbJPlgrfvxpQyA,409
+signalk_client-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+signalk_client-0.2.3.dist-info/top_level.txt,sha256=qe-JM8CAaEFNc-NPS3bXimJgoeIE1n3bWjETldjakQM,21
+signalk_client-0.2.3.dist-info/RECORD,,
