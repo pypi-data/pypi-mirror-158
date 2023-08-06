@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pywss
+Version: 0.1.1
+Summary: This Is A Web/WebSocket Server By Python
+Home-page: https://github.com/czasg/Pywss
+Author: czasg
+Author-email: 972542644@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+
+see https://github.com/czasg/Pywss
+
