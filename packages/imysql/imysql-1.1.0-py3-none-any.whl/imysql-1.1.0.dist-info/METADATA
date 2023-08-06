@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: imysql
+Version: 1.1.0
+Summary: Terminal client for mysql check connection
+Home-page: UNKNOWN
+Author: cc
+Author-email: abcdef123456chen@sohu.com
+Maintainer: cc
+Maintainer-email: abcdef123456chen@sohu.com
+License: MIT License
+Keywords: mysql
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: pymysql (>=0.9.3)
+Requires-Dist: fire (>=0.4.0)
+
+UNKNOWN
+
+
