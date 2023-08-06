@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+CellDrift/__init__.py
+CellDrift/_model.py
+CellDrift/_setup.py
+CellDrift/_temporal.py
+CellDrift/_trajectory.py
+CellDrift.egg-info/PKG-INFO
+CellDrift.egg-info/SOURCES.txt
+CellDrift.egg-info/dependency_links.txt
+CellDrift.egg-info/requires.txt
+CellDrift.egg-info/top_level.txt

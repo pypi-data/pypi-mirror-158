@@ -1,0 +1,8 @@
+numpy
+pandas
+scanpy>=1.6.0
+matplotlib
+seaborn
+scipy
+statsmodels
+dtw

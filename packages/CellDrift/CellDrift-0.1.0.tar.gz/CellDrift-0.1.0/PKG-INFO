@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: CellDrift
+Version: 0.1.0
+Summary: CellDrift: A Python Package to Infer Temporal Patterns of Peturbation Effects in Single Cell Data
+Home-page: https://github.com/KANG-BIOINFO/CellDrift
+Author: Kang Jin
+Author-email: jinkg@mail.uc.edu
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
