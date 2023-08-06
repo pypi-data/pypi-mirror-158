@@ -1,0 +1,136 @@
+<div id="section1" style="display:inline">
+    <p align="center">
+    <table id="fubWithoutOption" cellspacing="0" class="fubLayout" style="display: inline;">
+        <tr>
+            <th class="fubDataTypeIn">&nbsp;</th>
+            <th colspan="2" class="fubGradBlue"> {{functionBlock._name}}</th>
+            <th class="fubDataTypeOut">&nbsp;</th>
+        </tr>
+        <tr>
+            <td class="fubDataTypeIn">
+                <table class="fubData">
+                    {% for itm in functionBlock.Inputs %}
+                    {% if itm._blockType.value|int == 0 %}
+                    <tr>
+                        <td class="fubElementRight">{{itm._type}}</td>
+                        <td width="10">
+                            <hr width="20px" size="1" color="#000000" align="right">
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </table>
+            </td>
+            <td class="fubGradOrange1">
+                <table class="fubIn">
+                    {% for itm in functionBlock.Inputs %}
+                    {% if itm._blockType.value|int == 0 %}
+                    <tr>
+                        <td class="fubElementLeft">{{itm._name}}</td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </table>
+            </td>
+            <td class="fubGradOrange2">
+                <table class="fubOut">
+                    {% for itm in functionBlock.Outputs %}
+                    {% if itm._blockType.value|int == 0 %}
+                    <tr>
+                        <td class="fubElementLeft">{{itm._name}}</td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </table>
+            </td>
+            <td class="fubDataTypeOut">
+                <table class="fubData">
+                    {% for itm in functionBlock.Outputs %}
+                    {% if itm._blockType.value|int == 0 %}
+                    <tr>
+                        <td width="10">
+                            <hr width="20px" size="1" color="#000000" align="left">
+                        </td>
+                        <td class="fubElementLeft">{{itm._type}}</td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="fubDataTypeIn">
+                <table class="fubData">
+                    {% for itm in functionBlock.Inputs %}
+                    {% if itm._blockType.value|int == 1 %}
+                    <tr>
+                        <td class="fubElementRight">{{itm._type}}</td>
+                        <td width="10">
+                            <hr width="20px" size="1" color="#000000" align="right">
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </table>
+            </td>
+            <td class="fubGradGrey1">
+                <table class="fubIn">
+                    {% for itm in functionBlock.Inputs %}
+                    {% if itm._blockType.value|int == 1 %}
+                    <tr>
+                        <td class="fubElementLeft">{{itm._name}}</td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </table>
+            </td>
+            <td class="fubGradGrey2">
+                <table class="fubOut">
+                    {% for itm in functionBlock.Outputs %}
+                    {% if itm._blockType.value|int == 1 %}
+                    <tr>
+                        <td class="fubElementLeft">{{itm._name}}</td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </table>
+            </td>
+            <td class="fubDataTypeOut">
+                <table class="fubData">
+                    {% for itm in functionBlock.Outputs %}
+                    {% if itm._blockType.value|int == 1 %}
+                    <tr>
+                        <td width="10">
+                            <hr width="20px" size="1" color="#000000" align="left">
+                        </td>
+                        <td class="fubElementLeft">{{itm._type}}</td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="fubDataTypeIn">
+                <table class="fubData"></table>
+            </td>
+            <td class="fubGradWhite1">
+                <table class="fubIn"></table>
+            </td>
+            <td class="fubGradWhite2">
+                <table class="fubOut"></table>
+            </td>
+            <td class="fubDataTypeOut">
+                <table class="fubData"></table>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td class="fubBottom">&nbsp;</td>
+            <td class="fubBottom">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    </p>
+</div>
+

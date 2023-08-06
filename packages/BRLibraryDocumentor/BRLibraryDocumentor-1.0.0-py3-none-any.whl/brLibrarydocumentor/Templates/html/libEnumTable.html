@@ -1,0 +1,24 @@
+<div id="table">
+    <div id="tableWithoutOptionContainer">
+        <table id="tableWithoutOption" class="parameter_tab fubTable" border="1">
+            <tr>
+                <th class="parameter_tab">
+                    <div><b>Enumerator</b></div>
+                </th>
+                <th class="parameter_tab">
+                    <div><b>Value</b></div>
+                </th>
+                <th class="parameter_tab">
+                    <div><b>Description</b></div>
+                </th>
+            </tr>            
+            {% for itm in datatype._typeMembers %}
+            <tr>
+                <td valign="TOP" class="parameter_tab">{{itm._name}}</td>
+                <td valign="TOP" class="parameter_tab">{{itm._value}}</td>
+                <td valign="TOP" class="parameter_tab">{{itm._comments}}</td>
+            </tr>
+            {% endfor %}           
+        </table>
+    </div>
+</div>
