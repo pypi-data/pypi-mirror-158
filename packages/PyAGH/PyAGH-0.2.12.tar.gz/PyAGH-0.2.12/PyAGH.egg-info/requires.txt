@@ -1,0 +1,7 @@
+numpy
+pandas>=1.1.0
+sympy
+scipy
+polars
+pybind11
+matplotlib
