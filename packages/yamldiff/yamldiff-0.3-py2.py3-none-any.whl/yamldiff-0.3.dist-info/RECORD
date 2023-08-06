@@ -1,0 +1,8 @@
+yamldiff/__init__.py,sha256=OnN2kzLIVYhDtcvL1Zz_hcq2pg9c7QvBr4K_bpGCdks,161
+yamldiff/dictdiff.py,sha256=PIsjN0Ud6nv9dUE8J4Eqob4Ois8qi4jUtoL8mVxAQCQ,7362
+yamldiff/scripts/main.py,sha256=sJvpH_Z8L7lnID9X-yoH-CDlzbxGUJUhAaL130k5c_o,637
+yamldiff-0.3.dist-info/entry_points.txt,sha256=XIvz-e9uPKr8SJs2OSt1G8gLxOX4ZLIg314gwKfrHCo,55
+yamldiff-0.3.dist-info/LICENSE,sha256=5w01VWs9811rjbCCCxGfIXrZHvoEL5a386JEpaft5Po,1082
+yamldiff-0.3.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+yamldiff-0.3.dist-info/METADATA,sha256=QpbfODeg8AgY2Av93Wq112V3uh9-C8o4n19ggNAOlmQ,1986
+yamldiff-0.3.dist-info/RECORD,,
