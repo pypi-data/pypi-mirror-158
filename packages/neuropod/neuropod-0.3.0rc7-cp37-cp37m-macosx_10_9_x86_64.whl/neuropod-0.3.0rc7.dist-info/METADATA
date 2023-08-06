@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: neuropod
+Version: 0.3.0rc7
+Requires-Dist: numpy
+Requires-Dist: testpath
+Requires-Dist: future
+Requires-Dist: six
+Requires-Dist: pip-tools
+
