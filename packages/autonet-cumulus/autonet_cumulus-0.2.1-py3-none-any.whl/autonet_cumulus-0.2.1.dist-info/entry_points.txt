@@ -1,0 +1,3 @@
+[autonet.drivers]
+cumulus = autonet_cumulus.driver:CumulusDriver
+
