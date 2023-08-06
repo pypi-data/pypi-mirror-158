@@ -1,0 +1,2 @@
+[console_scripts]
+ndy = not_dead_yet.__main__:main

@@ -1,0 +1,11 @@
+not_dead_yet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+not_dead_yet/__main__.py,sha256=Jk9qzf0Z4-Llk3z9Tsgwp3BG3cSdbCYxWkvXIlGbR0s,2124
+not_dead_yet/notifier.py,sha256=48-c57HHsr8FQ1Jv-E0TsVw14aFr9itGu87kSrWOewE,630
+not_dead_yet/resource.py,sha256=XQn7_2aKuZ4Dh8MtnblOpV6EI6-7-lwSxogdxQxD5pI,1113
+not_dead_yet/serve.py,sha256=uY_95xVasocsPCMxMoQOf-Z9rp_eVfnoEtF9B52ZX1M,2159
+not_dead_yet/watcher.py,sha256=Em5UHgRa-mag4grY7pssDzGKSimXw1Bh5DypR-Bv3P8,1409
+not_dead_yet/ws.py,sha256=E89K3troB0kmEfFuyoir3-frbPw6XYhBf4KahnReJbI,972
+not_dead_yet-0.5.0.dist-info/METADATA,sha256=cc9Q_oVS78ssvAMSsOKLrKU26FrWz4ucDWd8qANYjsQ,199
+not_dead_yet-0.5.0.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+not_dead_yet-0.5.0.dist-info/entry_points.txt,sha256=zu8XzkaVetYlTzgxRqt63W7tAZuL8rfgljn524phsaA,51
+not_dead_yet-0.5.0.dist-info/RECORD,,
