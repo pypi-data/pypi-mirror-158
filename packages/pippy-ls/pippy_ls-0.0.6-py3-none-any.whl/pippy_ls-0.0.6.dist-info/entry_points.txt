@@ -1,0 +1,3 @@
+[console_scripts]
+pippy_ls=reader.__main__:main
+
