@@ -1,0 +1,52 @@
+{
+    "tables": [
+        {
+            "name": "Artist",
+            "primary_key": [
+                "Id"
+            ],
+            "description": "get data from Artist",
+            "columns": [
+                {
+                    "name": "Id",
+                    "type": "number",
+                    "nullable": true,
+                    "description": "get column Id from Artist"
+                },
+                {
+                    "name": "Name",
+                    "type": "string",
+                    "nullable": true,
+                    "description": "get column Name from Artist"
+                }
+            ]
+        },
+        {
+            "name": "Album",
+            "primary_key": [
+                "Id"
+            ],
+            "description": "get data from Album",
+            "columns": [
+                {
+                    "name": "Id",
+                    "type": "number",
+                    "nullable": true,
+                    "description": "get column Id from Album"
+                },
+                {
+                    "name": "Title",
+                    "type": "string",
+                    "nullable": true,
+                    "description": "get column Title from Album"
+                },
+                {
+                    "name": "ArtistId",
+                    "type": "number",
+                    "nullable": true,
+                    "description": "get column ArtistId from Album"
+                }
+            ]
+        }
+    ]
+}

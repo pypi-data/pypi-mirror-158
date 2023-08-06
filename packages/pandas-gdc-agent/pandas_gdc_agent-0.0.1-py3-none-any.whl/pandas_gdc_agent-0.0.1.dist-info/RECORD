@@ -1,0 +1,9 @@
+pandas_gdc_agent/__init__.py,sha256=6tXjcogeIQj4Bm0lsZqIbG-VwmyUyxH0QBVlkGdi92o,418
+pandas_gdc_agent/capabilities.json,sha256=7bO3gqXPAxAzJU2XaPdXPHvH8hjdKY21VdwRFLwMh4Y,708
+pandas_gdc_agent/gdc_agent_utils.py,sha256=CbDDeFf2wEF2XyAjCanXH9YJJL7Ig0bpg-4xXlRZRXs,4880
+pandas_gdc_agent/pandas_gdc_agent.py,sha256=8HF0IXXTNmtLVUuJPNMHUeSCbwNRAV0k7Iz-7Z88psw,2207
+pandas_gdc_agent/schema.json,sha256=Ye9MClH7ZEw9OFPiwnozsPf8YyBPpAUFfJb2sQ0yJIQ,1501
+pandas_gdc_agent-0.0.1.dist-info/METADATA,sha256=GxaSZzX3xGNb-uUKs7Nf6OCNRTphs_UN5aj6HQcRh1s,2735
+pandas_gdc_agent-0.0.1.dist-info/WHEEL,sha256=9GYcviBewZ0tGkiHS6_q2LxrPLrdVjfDI7rl7LgiPxI,86
+pandas_gdc_agent-0.0.1.dist-info/license_files/LICENSE,sha256=p57K15ghFgg-Y4eBmCHTFtCC9bO--Ylydx0Uh5eM5-8,1068
+pandas_gdc_agent-0.0.1.dist-info/RECORD,,
