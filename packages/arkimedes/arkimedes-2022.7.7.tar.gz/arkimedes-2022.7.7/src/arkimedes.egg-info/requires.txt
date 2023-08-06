@@ -1,0 +1,5 @@
+fuzzywuzzy
+lxml
+PyPDF2
+requests
+sqlalchemy
