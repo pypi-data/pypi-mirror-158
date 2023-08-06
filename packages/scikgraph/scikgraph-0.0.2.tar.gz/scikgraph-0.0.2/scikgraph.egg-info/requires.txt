@@ -1,0 +1,6 @@
+flask
+nltk
+matplotlib
+networkx==2.3
+flask_bootstrap
+py2cytoscape

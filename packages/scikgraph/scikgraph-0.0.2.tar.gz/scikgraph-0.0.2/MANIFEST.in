@@ -1,0 +1,4 @@
+graft scikgraph/static
+graft scikgraph/templates
+graft scikgraph/saveFiles
+global-exclude *.pyc
