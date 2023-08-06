@@ -1,0 +1,7 @@
+LICENSE
+index.py
+pyproject.toml
+podcastsdata.egg-info/PKG-INFO
+podcastsdata.egg-info/SOURCES.txt
+podcastsdata.egg-info/dependency_links.txt
+podcastsdata.egg-info/top_level.txt
