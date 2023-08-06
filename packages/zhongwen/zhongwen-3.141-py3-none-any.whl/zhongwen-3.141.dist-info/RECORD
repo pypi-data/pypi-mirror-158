@@ -1,0 +1,7 @@
+zhongwen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zhongwen/number.py,sha256=cyhKDssx_xc7hYYqjdRFKlLTvkJA5lK4tyBZy9zmJEs,6262
+zhongwen/text.py,sha256=pv8q-JvZ1Udg4yww4IQ50I0m6t8JNYIyV3Y0eHdWji4,79
+zhongwen-3.141.dist-info/METADATA,sha256=8REh3TqU00osZmYmSORbG_qfngyEJ9YXdsJOS0PLzbY,41497
+zhongwen-3.141.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+zhongwen-3.141.dist-info/licenses/LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+zhongwen-3.141.dist-info/RECORD,,
