@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: kdp-api-python-client
+Version: 0.15.0
+Summary: OpenAPI definition
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,OpenAPI definition
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: urllib3 (>=1.25.3)
+Requires-Dist: python-dateutil
+
+KDP 4 Python client
+=====================
+
+A package that allows Python scripts to communicate with the KDP 4 APIs
+
+`Documentation
+<https://documentation.koverse.com/>`_.
+
+
+
