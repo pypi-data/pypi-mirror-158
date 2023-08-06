@@ -1,0 +1,2 @@
+[sopel.plugins]
+channelmgnt = sopel_channelmgnt.channelmgnt
