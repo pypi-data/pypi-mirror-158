@@ -1,0 +1,12 @@
+sequencelearn/__init__.py,sha256=zmNvZnCeR9Rve8Ns_YlL8ADIRBmb47ER2IPlkjXnZ_E,5165
+sequencelearn/metrics.py,sha256=9r2qFJVXdgwv9OV-m7TFySR7wNRKolqD3JpYbkINHMw,1468
+sequencelearn/point_tagger.py,sha256=fQe7SEMnEsQeoelmcMJJIt-M9XyrSRGTYPJmeQG7Pk4,1998
+sequencelearn/sequence_tagger.py,sha256=sCPY__wit4hl-UTFhh607x5EmmW2Gw4wPF7G65pFTTg,1525
+sequencelearn/util.py,sha256=zpi6YosX_HQ1NrZZUULz9VbYTyTghFO1m8BLkjlI-Cs,3881
+sequencelearn/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sequencelearn/modules/crf_head.py,sha256=zJSjF5R-Sbux6WQSdlE0Jne_5CE8UV-7h7L-1PMNxD4,19642
+sequencelearn-0.0.7.dist-info/LICENSE,sha256=JYWPdm7R90tTEXK6muMxOgQBHToBQaLT9rPehcITO4I,11340
+sequencelearn-0.0.7.dist-info/METADATA,sha256=UuyiquK0D192192KkxxZfj6qYY1tZ8pWOlrkPF7OgOY,4545
+sequencelearn-0.0.7.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+sequencelearn-0.0.7.dist-info/top_level.txt,sha256=Ycm8c6qvVcOGJxYPRK6xZLy64yh2-1PBTk3YSDsWSUU,14
+sequencelearn-0.0.7.dist-info/RECORD,,
