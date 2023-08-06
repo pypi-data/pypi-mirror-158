@@ -1,0 +1,2 @@
+[console_scripts]
+batchout = batchout.cli:main
