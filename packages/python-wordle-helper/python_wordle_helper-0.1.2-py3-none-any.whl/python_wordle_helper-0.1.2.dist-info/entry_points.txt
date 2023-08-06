@@ -1,0 +1,3 @@
+[console_scripts]
+wordle-helper=python-wordle-helper.cli:main
+
