@@ -1,0 +1,15 @@
+jetbot_scratch/__init__.py,sha256=2Nag9XvIvxHtT6Sq6WHAb5ZYlSW-TxlPLdiiA3SMy3s,23
+jetbot_scratch/aruco.py,sha256=d4zX9mVaiZ8k2ip1iV_y-aO-73zu3qDKNj93Ek4EE-4,1101
+jetbot_scratch/color.py,sha256=luq0YnZ813fAujdtMKzM4JgOdrH3lD6rADORK-87SZ8,3508
+jetbot_scratch/digits.py,sha256=eJFfa4IlSrU5ua8lBuMYdyuipXLKoCbPEIoaAx19fJc,4461
+jetbot_scratch/mnist_trt_b9.pth,sha256=g-sI_Z5B53Qkf0G5835zfOIFxZSgN0_tSCxOzzz_Z0c,2531631
+jetbot_scratch/object_detect.py,sha256=v1pSl8iCeKt_bL-ipSoH9HQewtPmdGf_SEHEllqWZZg,2524
+jetbot_scratch/obstacle.py,sha256=B-og_Ij8EgCbBXxX_y0c8tbu850PLCEihQ-z5vSiq9E,1810
+jetbot_scratch/road.py,sha256=zLMO1_wXmSK24lA-wJt3jCMweHCm2p7DlJn81zJXj2A,1794
+jetbot_scratch/ssd_coco_labels.txt,sha256=0xkyslxLac-VFjs34er1BX5ggUheECtp3-RVSa8BxzQ,793
+jetbot_scratch/utils.py,sha256=yVAiRVUa4ihIM20dpaXLCxsgjxv4C5RqhhTys1d9IaY,243
+jetbot_scratch-0.7.4.dist-info/LICENSE,sha256=pkZLbr4Z_ArXvlPhGE2BKeuxBHkw0yE2res1Qiwsvuc,1069
+jetbot_scratch-0.7.4.dist-info/METADATA,sha256=94kZEckv3ibgevZf1qhjPaeqUIYltiJaE5ppwCCDVs0,426
+jetbot_scratch-0.7.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jetbot_scratch-0.7.4.dist-info/top_level.txt,sha256=fF1r4YffT5YVhILZwOO0zCp_UIO1CYfhnl3k-rsgFZE,15
+jetbot_scratch-0.7.4.dist-info/RECORD,,
