@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: Abyss-Shell
+Version: 1.0.0
+Summary: A very basic package to create shells/menus.
+Home-page: UNKNOWN
+Author: Marlon Hernández
+Author-email: mmarlon.ssantiago@gmail.com
+License: MIT
+Keywords: Shell
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+un paquete para crear carcasas de terminales mÃ¡s fÃ¡cilmente, puede crear menÃºs, tÃ­tulos, subtÃ­tulos, etc.
+
+Change Log
+==========
+
+(9/07/2022) 1.0.0
+---------------------
+ - Init File added's
+ - Download config.json
+ - Build Function
+ - Menu Generate Function
+

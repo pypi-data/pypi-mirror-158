@@ -1,0 +1,9 @@
+Change Log
+==========
+
+(9/07/2022) 1.0.0
+---------------------
+ - Init File added's
+ - Download config.json
+ - Build Function
+ - Menu Generate Function

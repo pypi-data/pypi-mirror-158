@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Abyss/__init__.py
+Abyss_Shell.egg-info/PKG-INFO
+Abyss_Shell.egg-info/SOURCES.txt
+Abyss_Shell.egg-info/dependency_links.txt
+Abyss_Shell.egg-info/requires.txt
+Abyss_Shell.egg-info/top_level.txt
