@@ -1,0 +1,39 @@
+# facebook-events-development
+A simple tool to scrape Facebook events using Selenium
+# Requirements
+- Chrome is installed on your computer. If your computer doesn't have Chrome, you can download it from [here](https://www.google.com/chrome/). \
+  If you don't have access to a browser, you can download using this guide: https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-ubuntu-20-04/.
+
+# Usage
+```python
+from facebook_events import find_all_events
+print(find_all_events('https://www.facebook.com/csesoc/events/'))
+# ['https://www.facebook.com/events/1338543436555126/', ...]
+```
+
+```python
+from facebook_events import get_event_details
+import json
+print(json.dumps(get_event_details('https://facebook.com/events/837282680573570/'), indent=2))
+{
+  "id": "837282680573570",
+  "url": "https://facebook.com/events/837282680573570/",
+  "title": "SecSoc x CSESoc BBQ",
+  "time_start": "2022-07-13T12:00:00",
+  "time_finish": "2022-07-13T14:00:00",
+  "description": "...",
+  "location": "...",
+  "hosts": [
+    {
+      "id": "csesoc",
+      "name": "CSESoc UNSW",
+      "url": "https://www.facebook.com/csesoc/"
+    }
+  ],
+  "image_url": "...",
+  "category": None
+}
+```
+
+# Notes
+- This is a very early version of the tool. It is not yet complete.
