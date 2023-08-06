@@ -1,0 +1,2 @@
+[console_scripts]
+soin = soin.cli:cli
