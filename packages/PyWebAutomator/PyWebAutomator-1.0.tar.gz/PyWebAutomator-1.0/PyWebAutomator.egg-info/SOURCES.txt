@@ -1,0 +1,10 @@
+LICENSE
+README.txt
+setup.py
+PyWebAutomator/WebAutomator.py
+PyWebAutomator/__init__.py
+PyWebAutomator.egg-info/PKG-INFO
+PyWebAutomator.egg-info/SOURCES.txt
+PyWebAutomator.egg-info/dependency_links.txt
+PyWebAutomator.egg-info/requires.txt
+PyWebAutomator.egg-info/top_level.txt
