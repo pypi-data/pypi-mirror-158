@@ -1,0 +1,15 @@
+dtwParallel-0.1-py3.8-nspkg.pth,sha256=7cnpEMSLx0ZkMVZ1aa4YBZbkncmKvU-i8o6awrRX2tY,565
+dtwParallel/_version.py,sha256=rqyZtt1djmoU2vxYGslRgV4TaBWrxK8uesP_Xai_8-U,19
+dtwParallel/configuration.ini,sha256=NVmnlacRxInrSzFWqX8NlAQk5xouV4cisPCUsHv58Lk,178
+dtwParallel/dtwParallel.py,sha256=5XNIXwAvJIYwt7C2Rcemn_l6DZTLHfaxQcJShBfFvwg,3155
+dtwParallel/dtw_functions.py,sha256=z7cHBDPYDBnaXg7GKbNUecWKyH9DUBPpHjQGFFurDAM,6474
+dtwParallel/error_control.py,sha256=YI0vgefl4QQeoInlMXcvvcyOZJ0N9xQwmvB04AUg9t4,1942
+dtwParallel/utils.py,sha256=uh656lj0ssVqPTzmoam0cEXmv89B6MOoyCbzWTKWzNE,7011
+dtwParallel-0.1.dist-info/AUTHORS,sha256=hfhsZVMhQBkDoZn6beRmcfQRqyhSwNoKlQNHvYKnAXA,263
+dtwParallel-0.1.dist-info/LICENSE,sha256=lGmqCBEjoz94W86t29-R8UjA9lqrmcxWAI55gci7VK4,1362
+dtwParallel-0.1.dist-info/METADATA,sha256=HVHAtrct5wngowdfVTtP6lyIg_MBURTymlEFpt8gdHI,12215
+dtwParallel-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dtwParallel-0.1.dist-info/entry_points.txt,sha256=61aB60v9NtUOYo-1KJzEhrgejbCYzzyjeglKklvn0to,61
+dtwParallel-0.1.dist-info/namespace_packages.txt,sha256=xKNYle1WXvDnVLAn7dodgjcqsnutIE8hIw7IIbWPQL0,12
+dtwParallel-0.1.dist-info/top_level.txt,sha256=8MBwU7-GR0CtcTqsFjC-z-T7lzGW6SsErkkRX7SwjG0,46
+dtwParallel-0.1.dist-info/RECORD,,
