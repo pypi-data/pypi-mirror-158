@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: MY-PACKAGE-DEMO
+Version: 0.0.1
+Summary: A chinese package_demo tools.
+Home-page: 
+Author: jquan
+Author-email: jinquan6369@163.com
+License: MIT Licence
+Platform: any
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
