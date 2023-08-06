@@ -1,0 +1,10 @@
+license
+setup.cfg
+setup.py
+src/pypremium/__init__.py
+src/pypremium/pypremium.py
+src/pypremium.egg-info/PKG-INFO
+src/pypremium.egg-info/SOURCES.txt
+src/pypremium.egg-info/dependency_links.txt
+src/pypremium.egg-info/requires.txt
+src/pypremium.egg-info/top_level.txt
