@@ -1,0 +1,7 @@
+setup.py
+MA8A_1/__init__.py
+MA8A_1/say_hello.py
+MA8A_1.egg-info/PKG-INFO
+MA8A_1.egg-info/SOURCES.txt
+MA8A_1.egg-info/dependency_links.txt
+MA8A_1.egg-info/top_level.txt
