@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+iprecommit/__init__.py
+iprecommit/checks.py
+iprecommit/lib.py
+iprecommit/main.py
+iprecommit/precommit.py.template
+iprecommit/utils.py
+iprecommit.egg-info/PKG-INFO
+iprecommit.egg-info/SOURCES.txt
+iprecommit.egg-info/dependency_links.txt
+iprecommit.egg-info/entry_points.txt
+iprecommit.egg-info/top_level.txt
