@@ -1,0 +1,38 @@
+All notable changes to mannkendall will be documented in this file.
+
+The format is inspired from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+
+## [1.1.1] (released: 2022.07.08)
+### Added:
+ - [fpavogt, 2022.07.06] New CI Actions to check the code version and automate the pypi release.
+### Changed:
+ - [fpavogt, 2022.07.07] mannkendall is now "owned" by MeteoSwiss on pypi.
+ - [stasinos, 2022.07.07] Runtime optimizations for sen_slope().
+### Deprecated:
+### Removed:
+### Fixed:
+ - [fpavogt, 2022.07.07] Fix the the package descritpion in setup.py.
+ - [fpavogt, 2022.07.06] Adjust the CONTRIBUTING guidelines, and add new branch protection rules for `develop`.
+### Security:
+
+## [1.1.0] (released: 2021.01.26)
+### Added:
+### Changed:
+ - [fpavogt, 2021.01.21] Add better example to docs.
+ - [fpavogt, 2021.01.20] Minor docs update.
+### Deprecated:
+### Removed:
+### Fixed:
+ - [fpavogt, 2021.01.26] Fix PROB_MK_N.
+### Security:
+
+## [1.0.0] (released: 2020.10.26)
+### Added:
+- [fpavogt, 2020.10.23] Complete set of tests, readying for first release.
+- [fpavogt, 2020.09.16] Setup docs, incl. dedicated CI validation.
+- [fpavogt, 2020.08.26] Addition of mk_stats, incl. dedicated tests.
+- [fpavogt, 2020.08.25] Addition of mk_tools, incl. nb_tie() and kendall_var().
+- [fpavogt, 2020.08.21] First code update, incl. CODE OF CONDUCT, Actions, etc ...
+- [fpavogt, 2020.08.21] Create Github repo for mannkendall.
