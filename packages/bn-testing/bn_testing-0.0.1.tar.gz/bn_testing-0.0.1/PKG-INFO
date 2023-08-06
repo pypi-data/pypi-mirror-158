@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: bn_testing
+Version: 0.0.1
+Summary: A test bench to benchmark learn algorithms for graphical models
+Home-page: https://github.com/windisch/bn-test-bench
+Author: Tobias Windisch
+Author-email: tobias.windisch@posteo.de
+License: GNU GPL3
+Description: UNKNOWN
+Keywords: graphical models
+Platform: UNKNOWN
