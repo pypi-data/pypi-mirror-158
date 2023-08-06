@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: AioCrypto
+Version: 1.0.2
+Summary: Async Crypto API for humans
+Home-page: https://github.com/ErVinTract/AioCrypto
+Author: ErVinTract
+Author-email: ErVinTrac@gmail.com
+License: Apache2
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+License-File: LICENSE
