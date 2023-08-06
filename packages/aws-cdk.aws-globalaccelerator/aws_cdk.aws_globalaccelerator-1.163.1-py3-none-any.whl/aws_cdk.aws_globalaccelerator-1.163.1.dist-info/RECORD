@@ -1,0 +1,10 @@
+aws_cdk/aws_globalaccelerator/__init__.py,sha256=5hsd091EDzLthBiHOKBp-Po19JHpJvVXICCpctb9y7w,158321
+aws_cdk/aws_globalaccelerator/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_globalaccelerator/_jsii/__init__.py,sha256=LkXTudpAGGOGQWpzsZqpbesNqVAn3QE3Y2B3sMZ6qAY,473
+aws_cdk/aws_globalaccelerator/_jsii/aws-globalaccelerator@1.163.1.jsii.tgz,sha256=shtgaDP08LFvowAGljTbZStjx0LV8ajCO4tPFG5hsHQ,88460
+aws_cdk.aws_globalaccelerator-1.163.1.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_globalaccelerator-1.163.1.dist-info/METADATA,sha256=-LprI1qVyYpViyxINOc4nTtS0GCBmA9_VoS9ht1GSQo,7071
+aws_cdk.aws_globalaccelerator-1.163.1.dist-info/NOTICE,sha256=piksgoXop22-zO1J9i3rVrv57wUN9siPK1pqGzZ7-AE,113
+aws_cdk.aws_globalaccelerator-1.163.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_globalaccelerator-1.163.1.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_globalaccelerator-1.163.1.dist-info/RECORD,,
