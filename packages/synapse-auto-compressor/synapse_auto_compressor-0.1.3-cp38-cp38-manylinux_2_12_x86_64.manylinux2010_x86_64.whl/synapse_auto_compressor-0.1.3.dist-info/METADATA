@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: synapse_auto_compressor
+Version: 0.1.3
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Rust
+Author: William Ashton
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source, https://github.com/matrix-org/rust-synapse-compress-state
+
+# Auto Compressor
+
+See the top level readme for information.
+
+
+## Publishing to PyPI
+
+Bump the version number and run from the root directory of the repo:
+
+```
+docker run -it --rm -v $(pwd):/io -e OPENSSL_STATIC=1 konstin2/maturin publish -m synapse_auto_compressor/Cargo.toml --cargo-extra-args "\--features='openssl/vendored'"
+```
+
