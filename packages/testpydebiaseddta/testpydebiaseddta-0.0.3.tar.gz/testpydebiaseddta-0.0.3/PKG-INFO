@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: testpydebiaseddta
+Version: 0.0.3
+Summary: Python library to improve generalizability of the drug-target prediction models via DebiasedDTA
+Home-page: https://github.com/rizaozcelik/pydebiaseddta
+Author: Rıza Özçelik
+Author-email: Rıza Özçelik <riza.ozcelik@boun.edu.tr>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.7
+License-File: LICENSE
