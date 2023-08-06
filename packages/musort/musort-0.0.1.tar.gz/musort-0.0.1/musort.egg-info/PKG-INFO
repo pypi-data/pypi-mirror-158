@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: musort
+Version: 0.0.1
+Summary: A music-sorting package.
+Home-page: https://github.com/ernieIzde8ski/mus_sort
+Author: Ernest Izdebski
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.9.0
+License-File: LICENSE
+
+# musort
+
+A music-sorting package.
+
+## Installation
+
+From PyPI:
+
+```bash
+python -m pip install -U musort
+```
+
+From source:
+
+```sh
+git clone https://github.com/ernieIzde8ski/mus_sort/tree/module_v2.git mus_sort
+cd mus_sort
+python -m pip install -e .
+```
+
+Building from source:
+
+```bash
+git clone https://github.com/ernieIzde8ski/mus_sort/tree/module_v2.git mus_sort
+cd mus_sort
+python -m venv venv
+pip install -r requirements.txt
+./build.sh
+```
+
+## Usage
+
+See `python -m musort --help` for usage.
+
+
