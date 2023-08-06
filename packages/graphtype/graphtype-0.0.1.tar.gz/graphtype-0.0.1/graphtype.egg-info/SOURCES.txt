@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+graphtype/__init__.py
+graphtype.egg-info/PKG-INFO
+graphtype.egg-info/SOURCES.txt
+graphtype.egg-info/dependency_links.txt
+graphtype.egg-info/top_level.txt
