@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: omok
+Version: 0.0.9
+Summary: Omok
+Home-page: https://github.com/sjjeong94/omok
+Author: sjjeong94
+Author-email: sjjeong94@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pygame
+Requires-Dist: onnxruntime
+
+UNKNOWN
+

@@ -1,0 +1,10 @@
+omok/__init__.py,sha256=sa2DHeJmQIkK0J7QnY1eZw0bzGS-h0Fyd_nVo2hf2Vw,90
+omok/__main__.py,sha256=VJhqcpEKbG_Ng4YD56xmNG6W_npYtqKaUobcKFuDF64,146
+omok/agent.py,sha256=ZtPKyAZmBFK9CwCvdRxoaPgeyEvm6XP_KSGK7UsZbxM,1771
+omok/env.py,sha256=bvHHDgcJHoMyuzFEE_joY6a0kfMgpHfgWXf5LaPCa2w,3335
+omok/game.py,sha256=REw0na8IePdjONiQNUfwsl7Kcnr0yy8--H-fiA5sJXw,5466
+omok-0.0.9.dist-info/LICENSE,sha256=wvkM9v5H7BsJB3YSm8empO6zWJoEIzBrcjZ1NWw2PLk,1069
+omok-0.0.9.dist-info/METADATA,sha256=etfz1WguApFqbhGs1Mwlldv1Eqlu-ULhrHd5B-CqDPk,292
+omok-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+omok-0.0.9.dist-info/top_level.txt,sha256=RM1oSNQ8_2b-jRgnaBhSVboe6jPAVzWLEqDYWFpYu70,5
+omok-0.0.9.dist-info/RECORD,,
