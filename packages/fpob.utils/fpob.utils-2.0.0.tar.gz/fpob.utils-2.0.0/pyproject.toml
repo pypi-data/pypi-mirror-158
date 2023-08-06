@@ -1,0 +1,81 @@
+[tool.poetry]
+name = "fpob.utils"
+version = "2.0.0"
+description = "Various useful utilities."
+license = "MIT"
+authors = ["Filip Pobořil <tsuki@fpob.cz>"]
+repository = "https://gitlab.com/fpob-dev/fpob-utils"
+documentation = "https://fpob-dev.gitlab.io/fpob-utils/"
+classifiers = [
+  "Topic :: Utilities",
+]
+include = ["docs"]
+
+[[tool.poetry.packages]]
+include = "fpob"
+from = "src"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py3,mypy,flake8
+isolated_build = True
+
+[testenv]
+deps =
+    pytest
+    pytest-mock
+commands = pytest {posargs:tests}
+
+[testenv:mypy]
+deps =
+    mypy
+commands = mypy src
+
+[testenv:flake8]
+deps =
+    flake8
+    flake8-bugbear
+    flake8-isort
+    pyproject-flake8
+commands = pflake8 src tests
+
+[testenv:isort]
+skip_install = true
+deps = isort
+commands = isort src tests
+
+[testenv:docs]
+deps = -rdocs/requirements.txt
+commands = sphinx-build -a docs build/docs
+"""
+
+
+[tool.pytest.ini_options]
+addopts = "-ra -v"
+
+
+[tool.mypy]
+ignore_missing_imports = true
+check_untyped_defs = true
+namespace_packages = true
+
+
+[tool.flake8]
+max-line-length = 80
+select = "C,E,F,W,B,B950,I"
+ignore = "W503,E501"
+
+
+[tool.isort]
+lines_after_imports = 2
+line_length = 88
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

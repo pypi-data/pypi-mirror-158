@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fpob.utils
+Version: 2.0.0
+Summary: Various useful utilities.
+Home-page: https://gitlab.com/fpob-dev/fpob-utils
+License: MIT
+Author: Filip Pobořil
+Author-email: tsuki@fpob.cz
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Project-URL: Documentation, https://fpob-dev.gitlab.io/fpob-utils/
+Project-URL: Repository, https://gitlab.com/fpob-dev/fpob-utils
