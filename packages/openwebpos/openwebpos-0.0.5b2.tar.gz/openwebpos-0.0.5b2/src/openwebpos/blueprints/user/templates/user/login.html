@@ -1,0 +1,35 @@
+{% extends 'layouts/core.html' %}
+
+
+{% block main %}
+
+    <div class="login-container">
+        <div class="login-wrapper">
+            <form action="" method="POST">
+                {#                {{ form.hidden_tag() }}#}
+                <div class="pad-view">
+                    {#                    {{ form.password() }}#}
+                    <input id="keypadVar" type="password">
+                </div>
+                <div class="number-pad">
+                    <input type="button" value="7" onClick="addNumber(this);">
+                    <input type="button" value="8" onClick="addNumber(this);">
+                    <input type="button" value="9" onClick="addNumber(this);">
+                    <input type="button" value="4" onClick="addNumber(this);">
+                    <input type="button" value="5" onClick="addNumber(this);">
+                    <input type="button" value="6" onClick="addNumber(this);">
+                    <input type="button" value="1" onClick="addNumber(this);">
+                    <input type="button" value="2" onClick="addNumber(this);">
+                    <input type="button" value="3" onClick="addNumber(this);">
+                    <input type="button" value="" disabled>
+                    <input type="button" value="0" onClick="addNumber(this);">
+                    <input type="submit" value="" disabled>
+                    <input type="reset" value="Clear">
+                    {#                    {{ form.submit() }}#}
+                    <input type="submit" value="Enter">
+                </div>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
