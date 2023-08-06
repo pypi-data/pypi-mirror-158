@@ -1,0 +1,8 @@
+pytest_embedded_idf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_embedded_idf/app.py,sha256=PIa3iAoxoW8DaGTWvkZMJNctNtsYAmuz4r9YrP8vgcg,7534
+pytest_embedded_idf/dut.py,sha256=hgsfWLsS4XHGirQSVgf0i7WwXYboeZPbFky_EFUwHgs,4763
+pytest_embedded_idf/serial.py,sha256=v7eoIz1P-KL8J-lAQpqYtwGVr_-ChSBXSjOB_PTAH0Y,9703
+pytest_embedded_idf-0.7.5.dist-info/METADATA,sha256=82nwAvXEhofacmc42CAWT2RTHKPS2wEK8KJcDNL5hjQ,1555
+pytest_embedded_idf-0.7.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_embedded_idf-0.7.5.dist-info/top_level.txt,sha256=A8XY9t8sRURF8xUH9VGgyGxyLgjA64vplPi61jIY5H4,20
+pytest_embedded_idf-0.7.5.dist-info/RECORD,,
