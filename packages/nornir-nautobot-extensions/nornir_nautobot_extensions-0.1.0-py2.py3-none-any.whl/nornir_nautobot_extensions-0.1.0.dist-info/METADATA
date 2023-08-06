@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: nornir-nautobot-extensions
+Version: 0.1.0
+Summary: Nornir Nautobot Extensions
+Home-page: https://github.com/glennake/nornir_nautobot_extensions
+Author: Glenn Akester
+Author-email: glennake.1@gmail.com
+License: Apache Software License 2.0
+Keywords: nornir_nautobot_extensions
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+==========================
+Nornir Nautobot Extensions
+==========================
+
+Extensions that enable additional platform support for nornir-nautobot.
+
+nornir-nautobot can be found here: https://github.com/nautobot/nornir-nautobot
+
+Current Extensions
+------------------
+
+* Fortinet FortiOS
+
+
+=======
+History
+=======
+
+0.1.0 (2022-07-11)
+------------------
+
+* First release on PyPI.
