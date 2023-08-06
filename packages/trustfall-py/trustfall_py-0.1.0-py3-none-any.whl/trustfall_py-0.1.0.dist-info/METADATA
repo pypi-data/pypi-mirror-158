@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: trustfall-py
+Version: 0.1.0
+Summary: Placeholder package for the Trustfall project: https://github.com/obi1kenobi/trustfall
+License: Apache-2.0
+Author: Predrag Gruevski
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
