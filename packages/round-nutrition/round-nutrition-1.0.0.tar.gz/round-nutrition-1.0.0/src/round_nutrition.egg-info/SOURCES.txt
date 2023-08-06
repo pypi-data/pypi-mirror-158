@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/main.py
+src/mineral.py
+src/other.py
+src/vitamin.py
+src/round_nutrition.egg-info/PKG-INFO
+src/round_nutrition.egg-info/SOURCES.txt
+src/round_nutrition.egg-info/dependency_links.txt
+src/round_nutrition.egg-info/top_level.txt

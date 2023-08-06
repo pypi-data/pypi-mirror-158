@@ -1,0 +1,23 @@
+[project]
+name = "round-nutrition"
+version = "1.0.0"
+description = "Round nutritional values for federal compliance."
+readme = "README.md"
+authors = [{ name = "Harsh Dadhich" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Utilities"
+]
+keywords = [
+    "fda",
+    "nutrition", 
+    "round"
+]
+
+[project.urls]
+homepage = "https://github.com/hdadhich01/round-nutrition"
+repository = "https://github.com/hdadhich01/round-nutrition"
