@@ -1,0 +1,3 @@
+[console_scripts]
+cppbind = cppbind.runner:run_package
+

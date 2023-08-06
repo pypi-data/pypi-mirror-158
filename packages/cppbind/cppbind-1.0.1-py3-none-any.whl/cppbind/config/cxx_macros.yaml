@@ -1,0 +1,11 @@
+# Copyright (c) 2022 PicsArt, Inc.
+# All rights reserved. Use of this source code is governed by a
+# MIT-style license that can be found in the LICENSE file.
+
+cxx_include: |
+  {%- macro gen_cxx_include(vars) -%}
+  {%- if vars.include_cxx|default([]) -%}
+  {{marker}}{{vars.include_cxx|select('match_regexp', '^<.*>$', '^".*"$')|format_list('#include {}')|join_unique}}
+  {{marker}}{{vars.include_cxx|reject('match_regexp', '^<.*>$', '^".*"$')|format_list('#include "{}"')|join_unique}}
+  {%- endif -%}
+  {%- endmacro -%}

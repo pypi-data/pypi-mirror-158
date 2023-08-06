@@ -1,0 +1,155 @@
+# Copyright (c) 2022 PicsArt, Inc.
+# All rights reserved. Use of this source code is governed by a
+# MIT-style license that can be found in the LICENSE file.
+
+void:
+  custom:
+    tname: Unit
+    pname: Unit
+  types:
+    kotlin: Unit
+    jni: void
+    jdk: Unit
+  converters:
+    jni_to_cxx:
+    cxx_to_jni:
+    kotlin_to_jdk:
+    jdk_to_kotlin:
+
+bool:
+  custom:
+    pname: Boolean
+    tname: Boolean
+  types:
+    kotlin: Boolean
+    jni: jboolean
+    jdk: Boolean
+  converters:
+    jni_to_cxx:
+    cxx_to_jni:
+    kotlin_to_jdk:
+    jdk_to_kotlin:
+
+int:
+  custom:
+    pname: Int
+    tname: Int
+  types:
+    kotlin: Int
+    jni: jint
+    jdk: Int
+  converters:
+    jni_to_cxx:
+    cxx_to_jni:
+    kotlin_to_jdk:
+    jdk_to_kotlin:
+
+unsigned int:
+  custom:
+    pname: Long
+    tname: Long
+  types:
+    kotlin: Long
+    jni: jlong
+    jdk: Long
+  converters:
+    jni_to_cxx:
+    cxx_to_jni:
+    kotlin_to_jdk:
+    jdk_to_kotlin:
+
+short:
+  custom:
+    pname: Short
+    tname: Short
+  types:
+    kotlin: Short
+    jni: jshort
+    jdk: Short
+  converters:
+    jni_to_cxx:
+    cxx_to_jni:
+    kotlin_to_jdk:
+    jdk_to_kotlin:
+
+long:
+  custom:
+    pname: Long
+    tname: Long
+  types:
+    kotlin: Long
+    jni: jlong
+    jdk: Long
+  converters:
+    jni_to_cxx:
+    cxx_to_jni:
+    kotlin_to_jdk:
+    jdk_to_kotlin:
+
+long long:
+  long
+
+unsigned long:
+  long
+
+float:
+  custom:
+    pname: Float
+    tname: Float
+  types:
+    kotlin: Float
+    jni: jfloat
+    jdk: Float
+  converters:
+    jni_to_cxx:
+    cxx_to_jni:
+    kotlin_to_jdk:
+    jdk_to_kotlin:
+
+double:
+  custom:
+    pname: Double
+    tname: Double
+  types:
+    kotlin: Double
+    jni: jdouble
+    jdk: Double
+  converters:
+    jni_to_cxx:
+    cxx_to_jni:
+    kotlin_to_jdk:
+    jdk_to_kotlin:
+
+char:
+  custom:
+    pname: Char
+    tname: Char
+  types:
+    kotlin: Char
+    jni: jbyte
+    jdk: Char
+  converters:
+    jni_to_cxx: |
+      char {{target_name}} = static_cast<char>({{name}});
+    cxx_to_jni: |
+      {{target_type_name}} {{target_name}} = static_cast<jbyte>({{name}});
+    kotlin_to_jdk:
+    jdk_to_kotlin:
+
+unsigned char:
+  custom:
+    pname: Int
+    tname: UByte
+  types:
+    kotlin: UByte
+    jni: jint
+    jdk: Int
+  converters:
+    jni_to_cxx: |
+      unsigned char {{target_name}} = static_cast<unsigned char>({{name}});
+    cxx_to_jni: |
+      {{target_type_name}} {{target_name}} = {{name}};
+    kotlin_to_jdk: |
+      val {{target_name}} = {{name}}.toInt()
+    jdk_to_kotlin:
+      val {{target_name}} = {{name}}.toUByte()
