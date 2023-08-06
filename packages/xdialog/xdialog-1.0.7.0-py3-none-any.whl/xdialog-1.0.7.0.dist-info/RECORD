@@ -1,0 +1,12 @@
+xdialog/__init__.py,sha256=Ebn1l2QtE5dxHSXrBDaJqTAe40zqgawQDaYuCnGlfWo,6579
+xdialog/constants.py,sha256=BtyxtxIH78D2YqNBXSwLpIoZ-q_TYsFcvVHR0HGFDZw,42
+xdialog/test.py,sha256=Zz8TEfJG_lARycz4MeaMRIokCUD1I1Xphp8HsvdEr-M,2452
+xdialog/tk_dialogs.py,sha256=2rL8JBNt9WykGSo1P9nA07yYhbucbaXFlj2Ee0u1d3k,1154
+xdialog/windows_dialogs.py,sha256=04in5CC9TCLfg0yDw3zmM2wYcpJsRHuUaRAtO7SeK3c,5122
+xdialog/windows_structs.py,sha256=s4GoNG19qVeLFucvHc1qYy6HPPdlrCYf2JuozS0VGt8,8673
+xdialog/zenity_dialogs.py,sha256=Z8H_-q4ak-RH22VA5mZbRJYOhq1tYXsqNEZLsYVee3Y,3115
+xdialog-1.0.7.0.dist-info/LICENSE,sha256=aNmbIdyfvt7yPa4ljBGLNkyF9Tc5LliVZeOM_NWsVew,1063
+xdialog-1.0.7.0.dist-info/METADATA,sha256=8G_tTTDG8-ZGA0uunCSmHi7_Li57HJc4hVvLT9NQC5g,383
+xdialog-1.0.7.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xdialog-1.0.7.0.dist-info/top_level.txt,sha256=mq2iUU-pH1K0YKWQvqmc1inwHEW_Mtt1oa-pOASLMAA,8
+xdialog-1.0.7.0.dist-info/RECORD,,
