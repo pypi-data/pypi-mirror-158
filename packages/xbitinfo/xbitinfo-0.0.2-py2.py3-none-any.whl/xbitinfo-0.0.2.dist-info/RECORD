@@ -1,0 +1,13 @@
+xbitinfo/__init__.py,sha256=x5KSV6Vtiot-9N-iXMpfLy34V8ok_n1qE4OLgGLgEDc,336
+xbitinfo/_version.py,sha256=dNc1cIbiuLKsVcuK_gWw5gSjk_6rVjrVwFgxgXkPY7A,219
+xbitinfo/bitinformation_wrapper.jl,sha256=LD7Gg-hPD-aE4LUn6tDQpwiBsknL85gqZq-W-RDKSZo,1731
+xbitinfo/bitround.py,sha256=5qRvG0IXlY3775aHachLuSM7PJ9fBNVDh-xFSdtCLos,7343
+xbitinfo/graphics.py,sha256=AnHp_9kZA9IrQSS8Ka-12tRmoRkgsXK7EyOMTLEywzw,14389
+xbitinfo/save_compressed.py,sha256=zp655H8PYNi1neRd4Y6wOtdPd_KUyRieWRfzcvResQI,6759
+xbitinfo/xbitinfo.py,sha256=wZCdsubXkSLwFPreVzAeM9_DFPkOD9v762L25XjUKNQ,24389
+xbitinfo-0.0.2.dist-info/AUTHORS.rst,sha256=Zg-Z4zbxDbRKtezo4RbUW9MdgqQHVVmsqnF4uFoYhzo,128
+xbitinfo-0.0.2.dist-info/LICENSE,sha256=t42ROwRvcxsIuCINe9vrMqFlCn9Nsx1re3qlodxLT04,1070
+xbitinfo-0.0.2.dist-info/METADATA,sha256=p5ADVbGsWI5Ox9OqVQ32qKf8E041AkYJ3ZuYEF6lCUw,3408
+xbitinfo-0.0.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+xbitinfo-0.0.2.dist-info/top_level.txt,sha256=o6Rt8lRC6YUpWKBSTW1jhSJRnP6nWwFDMEB5mYh4O7A,9
+xbitinfo-0.0.2.dist-info/RECORD,,
