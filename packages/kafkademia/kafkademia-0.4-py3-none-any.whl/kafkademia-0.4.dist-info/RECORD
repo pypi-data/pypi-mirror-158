@@ -1,0 +1,11 @@
+kafkademia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kafkademia/consumidor.py,sha256=k7ZGvdV3GKSJUPuM_SDDJ5rnWM-WEK5BSUi73Oph4QI,956
+kafkademia/ejemplos.py,sha256=ueORDS1YuedP7h3oItgErvqS6JzTBkRCTAC1YV9Qa0w,2207
+kafkademia/kafkademia.py,sha256=K7TOcMI44nvcZQcYaAaJ35if1MKgUJw0XrW-z7F1hXw,1536
+kafkademia/productor.py,sha256=zv2Rb9AJ5j1EoPXIASf1XO0WhYSO-JAUooOU6YeJKTk,1256
+kafkademia/utils.py,sha256=_4lesZlMvVcJWkB3nbATpPT5VYjLNM2RBImu1ZhwZHo,1230
+kafkademia-0.4.dist-info/METADATA,sha256=X6p8f1rS6ZiKVTI9w4mAuO4J-k3JkK3rSdXNJdXLpBY,182
+kafkademia-0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kafkademia-0.4.dist-info/entry_points.txt,sha256=A_aVzz2ZpvCMS54g13N2u-PXrS1SzCdpPANdZaLFniw,58
+kafkademia-0.4.dist-info/top_level.txt,sha256=Ycw6R56uikbEjIb9J3fk209q5gPxY_tTrXNLR3OVoNg,11
+kafkademia-0.4.dist-info/RECORD,,
