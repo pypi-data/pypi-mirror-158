@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+pyfuturedag/__init__.py
+pyfuturedag/core.py
+pyfuturedag.egg-info/PKG-INFO
+pyfuturedag.egg-info/SOURCES.txt
+pyfuturedag.egg-info/dependency_links.txt
+pyfuturedag.egg-info/top_level.txt
+test/test_pyfuturedag.py
