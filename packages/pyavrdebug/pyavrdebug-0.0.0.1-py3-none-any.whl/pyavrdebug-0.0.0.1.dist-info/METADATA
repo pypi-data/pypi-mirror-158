@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pyavrdebug
+Version: 0.0.0.1
+Summary: GDB RSP server implementation for debugging AVR MCUs with UPDI using Microchip CMSIS-DAP based debuggers
+Home-page: http://www.microchip.com
+Author: Microchip Technology
+Author-email: support@microchip.com
+License: MIT
+Keywords: Microchip,AVR
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+Requires-Dist: appdirs
+Requires-Dist: pyyaml
+Requires-Dist: pyedbglib (>=2.21)
+Requires-Dist: pymcuprog (>=3.13.7)
+Requires-Dist: pathlib2 ; python_version < "3"
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+
+# pyavrdebug
+pyavrdebug is a GDB RSP server for connecting GDB debug clients to AVR target devices through pymcuprog
+
+![PyPI - Format](https://img.shields.io/pypi/format/pyavrdebug)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyavrdebug)
+![PyPI - License](https://img.shields.io/pypi/l/pyavrdebug)
+
+## Usage
+The remainder of this package is intentionally blank
+
+## Logging
+This package uses the Python logging module for publishing log messages to library users.
+A basic configuration can be used (see example below), but for best results a more thorough configuration is
+recommended in order to control the verbosity of output from dependencies in the stack which also use logging.
+```python
+import logging
+logging.basicConfig(format="%(levelname)s: %(message)s", level=logging.WARNING)
+```
+
