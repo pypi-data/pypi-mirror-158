@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: manytasks
+Version: 2.0a0
+Summary: eds sdk
+Home-page: https://github.com/dugu9sword/manytasks
+Author: dugu9sword
+Author-email: dugu9sword@163.com
+License: WTFPL Licence
+Keywords: manytasks
+Platform: any
+
+A tool for deploying many tasks automatically.
+
