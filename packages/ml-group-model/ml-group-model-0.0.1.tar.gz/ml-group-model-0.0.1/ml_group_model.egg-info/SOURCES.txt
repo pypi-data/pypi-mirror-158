@@ -1,0 +1,10 @@
+MANIFEST.in
+requirements.txt
+setup.py
+ml_group_model.egg-info/PKG-INFO
+ml_group_model.egg-info/SOURCES.txt
+ml_group_model.egg-info/dependency_links.txt
+ml_group_model.egg-info/requires.txt
+ml_group_model.egg-info/top_level.txt
+ml_group_mymodel/__init__.py
+ml_group_mymodel/mymodel.py
