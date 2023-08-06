@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fastemail
+Version: 0.0.1
+Summary: send email by python
+Home-page: https://github.com/laishuhan/fastemail
+Author: laishuhan
+Author-email: 3027826050@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+none
