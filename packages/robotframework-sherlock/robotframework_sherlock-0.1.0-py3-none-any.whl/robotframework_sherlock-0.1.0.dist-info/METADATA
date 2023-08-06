@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: robotframework-sherlock
+Version: 0.1.0
+Summary: Robot Framework code analysis tool
+Home-page: https://github.com/bhirsz/robotframework-sherlock
+Download-URL: https://pypi.org/project/robotframework-sherlock
+Author: Bartlomiej Hirsz, Mateusz Nojek
+Author-email: bartek.hirsz@gmail.com, matnojek@gmail.com
+License: Apache License 2.0
+Keywords: robotframework automation testautomation testing qa
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Tool
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: robotframework (>=4.1)
+Requires-Dist: toml (>=0.10.2)
+Requires-Dist: pathspec (==0.9.*)
+Requires-Dist: jinja2
+Requires-Dist: tabulate (==0.8.9)
+Requires-Dist: rich (>=10.12.0)
+Provides-Extra: dev
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: robotframework-templateddata ; extra == 'dev'
+
+# Sherlock
+The tool for analyzing Robot Framework code in terms of not used code, code complexity or performance issues.
+
+> **Note**
+> 
+> The tool is in the ***Alpha*** state, which means it may be unstable and should be used at your own risk. Some 
+> features may be broken and there are still many things to be developed. If you find anything unexpected, or you have ideas for improvements 
+> not listed in GitHub issues, please open an new issue.
+
+## Installation
+Currently, you need to install Sherlock from the source code. In order to do so, first clone the repository, and 
+run following command inside `robotframework-sherlock` directory:
+```commandline
+pip install .
+```
+
+Install or update directly from sources 
+```commandline
+pip install -U git+https://github.com/bhirsz/robotframework-sherlock.git
+```
+
+
+Add `-e` flag after installation if you want Sherlock to reload installed version after each code update (performed via `git pull`).
+## Usage
+
+Sherlock can prepare analysis based on your source code alone. However, it's currently highly recommended to also include
+output of test execution.
+
+Run Sherlock with:
+```commandline
+sherlock --output <path to output.xml file> <path to source code repository>
+```
+
+To analyze external library/resource use ``--resource`` option:
+```commandline
+sherlock --output output.xml --resource SeleniumLibrary src/
+```
+```commandline
+sherlock --output output.xml --resource external_repository_used_in_tests/ src/
+```
+
+## Reports
+Sherlock by default prints the output. You can configure what reports are produced by sherlock using ``--report`` option:
+```commandline
+sherlock --report print
+```
+```commandline
+sherlock --report html
+```
+``--report`` accepts comma separated list of reports:
+```commandline
+sherlock --report print,html,json
+```
+
+## BuiltIn library
+
+To show analysis of BuiltIn libraries use ``--include-builtin`` flag:
+```commandline
+sherlock --include-builtin src/
+```
+
+
