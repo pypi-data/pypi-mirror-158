@@ -1,0 +1,8 @@
+tinydb
+
+[example]
+numpy
+matplotlib
+
+[test]
+pytest
