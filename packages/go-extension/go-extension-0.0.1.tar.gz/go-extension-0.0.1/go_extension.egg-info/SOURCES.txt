@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+go.mod
+setup.cfg
+setup.py
+go_extension/__init__.py
+go_extension/build_ext.py
+go_extension/compiler.py
+go_extension/exceptions.py
+go_extension/extension.py
+go_extension.egg-info/PKG-INFO
+go_extension.egg-info/SOURCES.txt
+go_extension.egg-info/dependency_links.txt
+go_extension.egg-info/requires.txt
+go_extension.egg-info/top_level.txt
