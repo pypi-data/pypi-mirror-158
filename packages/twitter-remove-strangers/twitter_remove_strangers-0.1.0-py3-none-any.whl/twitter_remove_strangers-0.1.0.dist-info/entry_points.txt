@@ -1,0 +1,3 @@
+[console_scripts]
+twitter_remove_strangers=twitter_remove_strangers:main
+
