@@ -1,0 +1,17 @@
+CHANGELOG.rst,sha256=M7KHoSqK9zq_CyoOYozZ-vfjfWFTfbuoSMhs-XPU9KQ,1050
+openldap_schema_parser/__init__.py,sha256=B-MhyhCGJvXEoNxmyRHdUVXYj_JG-rYBRPQ8PYiSu0U,285
+openldap_schema_parser/attribute.py,sha256=HcJDuAInTGwU8PvpXn_ROhDXii8-tYVfZa8_j1erMsU,3585
+openldap_schema_parser/command.py,sha256=LrLzmsmrNnltXemeVLcS4oPIf1fWg-IHommBR9T1HHE,835
+openldap_schema_parser/exceptions.py,sha256=9gq-R4F8XUBnN6wXGu-uD69ZT54eBXH-HjPfpzBnn_4,44
+openldap_schema_parser/objectclass.py,sha256=SesB3AbUXqD8Ui-RJAeZ8GCmwZkETRvm_hYEVfEP1sQ,2484
+openldap_schema_parser/objectidentifier.py,sha256=B-enigTj-T_17U-zD7uXreWkFEgCAZwnmIC6IWiVcBY,1134
+openldap_schema_parser/parser.py,sha256=0yYVln5-ktyelvE43hrFhG42m4a7NLpNU6Gwgh5zSqw,5779
+openldap_schema_parser/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openldap_schema_parser/schema.lark,sha256=Gq-s7WKJVVBttHIRd589fZx-kcBIA9TKs-DoNHrAZ24,2464
+openldap_schema_parser/schema.py,sha256=L6NHSJA6F5ehvsk6EJhBhUKVRCanwMAZRmplI0PvMLk,3244
+openldap_schema_parser/schema_parser.py,sha256=PmQ8W-mxOQNioz7D3Y0rgqr1Re35s4nQnegWT6OBM08,158849
+openldap_schema_parser-1.1.4.dist-info/entry_points.txt,sha256=ThknYSH2Qu8CcReSoZ9C6edN0jxWidBFZ597z5O88Eo,68
+openldap_schema_parser-1.1.4.dist-info/LICENSE,sha256=pHrXbtFVyTGlDdq75VzJ_p7X9PTBpfqwAEYRBi56JRc,1061
+openldap_schema_parser-1.1.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+openldap_schema_parser-1.1.4.dist-info/METADATA,sha256=aDAAKM8bXyCDr8zvZP0xZmDOuW5ONQTGUoVesOrTzvo,2478
+openldap_schema_parser-1.1.4.dist-info/RECORD,,
