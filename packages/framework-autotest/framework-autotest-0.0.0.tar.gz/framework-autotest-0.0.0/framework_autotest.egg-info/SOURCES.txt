@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+framework-autotest/__init__.py
+framework-autotest/__version__.py
+framework-autotest/core.py
+framework_autotest.egg-info/PKG-INFO
+framework_autotest.egg-info/SOURCES.txt
+framework_autotest.egg-info/dependency_links.txt
+framework_autotest.egg-info/top_level.txt
