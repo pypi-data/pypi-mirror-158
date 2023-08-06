@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/chromatix/__init__.py
+src/chromatix/_about.py
+src/chromatix.egg-info/PKG-INFO
+src/chromatix.egg-info/SOURCES.txt
+src/chromatix.egg-info/dependency_links.txt
+src/chromatix.egg-info/requires.txt
+src/chromatix.egg-info/top_level.txt

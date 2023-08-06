@@ -1,0 +1,16 @@
+numpy
+scipy
+jax
+flax
+chex
+einops
+
+[dev]
+jupyter
+matplotlib
+
+[test]
+coverage
+
+[vis]
+matplotlib
