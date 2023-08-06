@@ -1,0 +1,3 @@
+[console_scripts]
+python_lambda_builder=python_lambda_builder.build:run
+
