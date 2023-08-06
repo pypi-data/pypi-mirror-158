@@ -1,0 +1,10 @@
+datalad>=0.17.0
+www-authenticate
+
+[devel]
+pytest
+pytest-cov
+coverage
+cheroot
+wsgidav
+webdavclient3
