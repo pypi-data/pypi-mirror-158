@@ -1,0 +1,16 @@
+golftracker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+golftracker/draw.py,sha256=3d0k1GjdYKHaDtnSx6J9F6aPeBz8Dtt7f9AFTU9qVro,1293
+golftracker/gd_tracker.py,sha256=MeQMmPhIDRfOc1QzL4IAAEOeubzGAqU2hN7rtK695aE,1376
+golftracker/golfeditor.py,sha256=KyXk7Lc6nRC06bucbLom9TMoY51EVKRlJz8bk1QuRn4,5770
+golftracker/merge_setup.py,sha256=LwFl_RExEL8Ht-W_IccvG6VDyzLZYfiD52cNxewqLcE,2356
+golftracker/modelview.py,sha256=R063VZhB_YI69Ua-1MXTpNKxlOEzIaLPRkFwgCI3N3g,1819
+golftracker/mp_tracker.py,sha256=VhtsVl60DjBLpdc3w958cwZlh2wZU7Pml6MRPLkp7t0,17206
+golftracker/obj_tracking.py,sha256=Jw1c-weq5p1QxpTwXU7gaomm-o2xIQ_FAO2MXTwvWfY,1815
+golftracker/pose_detection.py,sha256=QJtI0MerusrzvdWnp0x8k5enKxjkTn-Ejqg41Jgfx2I,2949
+golftracker/tracker_utils.py,sha256=XoApChsaU9Uo6GNcV8fcPzBMsrFqOKaIOmsgUddw6H0,1012
+golftracker-0.0.4.dist-info/LICENSE.txt,sha256=zfepNztg8Aolj2vA_bPRH5MDoWvXRvErWFZqBY5kTUg,1093
+golftracker-0.0.4.dist-info/METADATA,sha256=Tj18MRiQt_jg-smQIOqxt2-XwrUnxinCf3yZWsjti8A,5350
+golftracker-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+golftracker-0.0.4.dist-info/entry_points.txt,sha256=q8ol1-wOl3sXqAH-6GcWKGkZ0HOj7s03lNikHRE9kHI,191
+golftracker-0.0.4.dist-info/top_level.txt,sha256=AL7TBQC138-99XqJXsJucD81pXPR__RcwXNFf4c29yM,12
+golftracker-0.0.4.dist-info/RECORD,,
