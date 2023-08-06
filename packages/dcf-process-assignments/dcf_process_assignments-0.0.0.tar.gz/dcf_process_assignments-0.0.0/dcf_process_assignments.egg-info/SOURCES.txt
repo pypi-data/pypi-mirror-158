@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dcf_process_assignments/__init__.py
+dcf_process_assignments/process_assignments.py
+dcf_process_assignments.egg-info/PKG-INFO
+dcf_process_assignments.egg-info/SOURCES.txt
+dcf_process_assignments.egg-info/dependency_links.txt
+dcf_process_assignments.egg-info/entry_points.txt
+dcf_process_assignments.egg-info/requires.txt
+dcf_process_assignments.egg-info/top_level.txt
