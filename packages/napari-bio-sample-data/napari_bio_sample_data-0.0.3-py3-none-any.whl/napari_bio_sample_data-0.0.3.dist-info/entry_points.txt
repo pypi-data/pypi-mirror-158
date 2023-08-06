@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-bio-sample-data = napari_bio_sample_data:napari.yaml
