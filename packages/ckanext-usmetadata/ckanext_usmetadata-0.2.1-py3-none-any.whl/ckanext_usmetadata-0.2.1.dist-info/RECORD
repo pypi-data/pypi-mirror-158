@@ -1,0 +1,13 @@
+ckanext_usmetadata-0.2.1-nspkg.pth,sha256=Y2JKyHwgpL47C7PmqtsHDOre5xPamkEyWJ9NhsnHqPI,1744
+ckanext/usmetadata/blueprint.py,sha256=UGB9UIeyTRUsk46FbnI7FyefI_vpqUE7kyne1sOYm3I,28322
+ckanext/usmetadata/db_utils.py,sha256=KtkpidhTgPxZNbgIUCM8lu1k1CHaqYaHTjmlmoJO0UM,1822
+ckanext/usmetadata/plugin/__init__.py,sha256=KaL4Z_WkPcznucCDy70jZ26j_JJ_SYupR2wvN-SqnRY,18903
+ckanext/usmetadata/plugin/flask_plugin.py,sha256=PuCcIhHYhS_3c1eC5F3chubpRakgpzh2KU8Uh-0DMow,770
+ckanext/usmetadata/plugin/helper.py,sha256=ZTwhQa4jmbdDFrnzpKFU7VQa-e5LkuE787yvRIJpbrk,17864
+ckanext/usmetadata/plugin/pylons_plugin.py,sha256=98pQ57viDC4PjcjNH8qFsiBsnq0xleH2DURzZfBhDeA,772
+ckanext_usmetadata-0.2.1.dist-info/METADATA,sha256=Br70tCRKi88yGihouB1C8xncYC3wXxgS8M8lBxMjJVg,2714
+ckanext_usmetadata-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ckanext_usmetadata-0.2.1.dist-info/entry_points.txt,sha256=pO_iIaSPVeD-9wxrfek1s8LAQ4M3buyX38V7ey5nB0Y,106
+ckanext_usmetadata-0.2.1.dist-info/namespace_packages.txt,sha256=ydOFr7HUhmQInT4TItq7BLzSV6D4VM5FJj1329-3LP4,27
+ckanext_usmetadata-0.2.1.dist-info/top_level.txt,sha256=5yjNwq-s42weaiMMUuA5lZ45g99ANsfcRBCvac1JMS4,8
+ckanext_usmetadata-0.2.1.dist-info/RECORD,,
