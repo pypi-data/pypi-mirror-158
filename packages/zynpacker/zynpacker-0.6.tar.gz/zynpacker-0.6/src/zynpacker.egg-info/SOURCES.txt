@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/zynpacker/__init__.py
+src/zynpacker/agent.py
+src/zynpacker.egg-info/PKG-INFO
+src/zynpacker.egg-info/SOURCES.txt
+src/zynpacker.egg-info/dependency_links.txt
+src/zynpacker.egg-info/requires.txt
+src/zynpacker.egg-info/top_level.txt
