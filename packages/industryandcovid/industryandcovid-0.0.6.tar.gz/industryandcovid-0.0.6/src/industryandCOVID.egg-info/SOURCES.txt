@@ -1,0 +1,16 @@
+LICENSE
+README.md
+industryandcovid.py
+setup.cfg
+setup.py
+src/industryandcovid.py
+src/industryandCOVID.egg-info/PKG-INFO
+src/industryandCOVID.egg-info/SOURCES.txt
+src/industryandCOVID.egg-info/dependency_links.txt
+src/industryandCOVID.egg-info/entry_points.txt
+src/industryandCOVID.egg-info/top_level.txt
+src/industryandcovid.egg-info/PKG-INFO
+src/industryandcovid.egg-info/SOURCES.txt
+src/industryandcovid.egg-info/dependency_links.txt
+src/industryandcovid.egg-info/entry_points.txt
+src/industryandcovid.egg-info/top_level.txt
