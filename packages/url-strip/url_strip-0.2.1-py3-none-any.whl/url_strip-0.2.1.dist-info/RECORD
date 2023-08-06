@@ -1,0 +1,11 @@
+url_strip/__init__.py,sha256=t4byfsljFJrHTduJqLzLrWAKg77LyUpXwNECOus8T-g,1149
+url_strip/_result.py,sha256=q2MqQ-OGNjX8S0A_hsKCezKfoTly1L-6LZHQhQoxbc4,6022
+url_strip/_special_cases.py,sha256=D1NSkDy70T1hH1lN1XEZZTSvca03to9-9j85BMdxpk0,4960
+url_strip/_strip.py,sha256=2VMeVOq6M6bSY9a41kWBuBL_y1wGpjSdCmcT3HZ-qMk,1091
+url_strip/_types.py,sha256=Jyjy-exjrVtYh8WSzvyU8kQKrM1KlM_TxNhMje4B6ag,4918
+url_strip/testing.py,sha256=DlZE21itGWJdPm4E__rMZUVQGP-Yt8Ufq_O6Gstp0zs,1035
+url_strip-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+url_strip-0.2.1.dist-info/METADATA,sha256=LgKP5Pz9jCrle_uptvv-eNMe12EVSfQIVp4eDJwNLd4,3897
+url_strip-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+url_strip-0.2.1.dist-info/top_level.txt,sha256=WbHe7IonVNi_-pY7Iq1wAVIJ20WQlPgZ3OcJ7m9sn64,10
+url_strip-0.2.1.dist-info/RECORD,,
