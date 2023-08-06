@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: am-tdm
+Version: 0.1.0
+Summary: Python wrappers for the Animal Model and the Test-Day Model using the BLUPF90 suite of programs. Supports pedigree renumbering and variance components estimation using REML and Gibbs sampling. Information such as EBVs, permanent environmental effects, reliabilities, heritabilities of traits or deregressed proofs are computed
+Home-page: https://github.com/radumust18/python-animal-td-model
+Author: Radu-Ioan Mustatea
+Author-email: radu.mustatea18@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE
+
+UNKNOWN
+

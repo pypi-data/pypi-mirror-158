@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+am_tdm/__init__.py
+am_tdm/animal_model.py
+am_tdm/gibbs.py
+am_tdm/reml.py
+am_tdm/renum.py
+am_tdm/testday_model.py
+am_tdm.egg-info/PKG-INFO
+am_tdm.egg-info/SOURCES.txt
+am_tdm.egg-info/dependency_links.txt
+am_tdm.egg-info/requires.txt
+am_tdm.egg-info/top_level.txt
