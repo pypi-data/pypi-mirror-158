@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+aliyun_python_sdk_wfts.egg-info/PKG-INFO
+aliyun_python_sdk_wfts.egg-info/SOURCES.txt
+aliyun_python_sdk_wfts.egg-info/dependency_links.txt
+aliyun_python_sdk_wfts.egg-info/requires.txt
+aliyun_python_sdk_wfts.egg-info/top_level.txt
+aliyunsdkwfts/__init__.py
+aliyunsdkwfts/request/__init__.py
+aliyunsdkwfts/request/v20220212/GetLjxAccountInfoRequest.py
+aliyunsdkwfts/request/v20220212/__init__.py
