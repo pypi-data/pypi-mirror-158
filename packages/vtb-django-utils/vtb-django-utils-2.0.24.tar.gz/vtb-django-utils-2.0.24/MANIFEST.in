@@ -1,0 +1,2 @@
+include vtb_django_utils/model_dump/templates/*.html
+include vtb_django_utils/model_versions/templates/*.html
