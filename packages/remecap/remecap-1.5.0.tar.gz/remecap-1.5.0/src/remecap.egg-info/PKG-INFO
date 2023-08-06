@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: remecap
+Version: 1.5.0
+Summary: A simple python library that bypasses H-Captcha automatically using yolov5
+Home-page: https://github.com/jiroawesome/remecap
+Author: jiroawesome
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jiroawesome/remecap/issues
+Description: # remecap
+        
+        Bypasses H-Captcha automatically using yolov5
+        
+        ## Installation
+        
+        ```
+        pip install remecap
+        ```
+        
+        ## Example
+        
+        ```python
+        from remecap import AISolver
+        from selenium import webdriver
+        
+        if __name__ == '__main__':
+            driver = webdriver.Chrome()
+            driver.get("https://democaptcha.com/demo-form-eng/hcaptcha.html")
+            solver = AISolver(driver)
+            solver.start()
+        ```
+        
+        ## Todo
+        
+        1. Making it more faster
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
