@@ -1,0 +1,3 @@
+[console_scripts]
+urlscrub = urlscrub.__main__:run
+

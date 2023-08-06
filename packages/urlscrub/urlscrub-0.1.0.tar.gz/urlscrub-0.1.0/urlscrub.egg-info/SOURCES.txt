@@ -1,0 +1,14 @@
+README.md
+setup.py
+package/Jena.py
+package/__init__.py
+package/__main__.py
+package/scrub.py
+package/shacl_json.py
+test/test_url.py
+urlscrub.egg-info/PKG-INFO
+urlscrub.egg-info/SOURCES.txt
+urlscrub.egg-info/dependency_links.txt
+urlscrub.egg-info/entry_points.txt
+urlscrub.egg-info/requires.txt
+urlscrub.egg-info/top_level.txt
