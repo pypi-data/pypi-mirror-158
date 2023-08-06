@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ddex
+Version: 0.0.1a0
+Summary: ddex
+Author-email: Anthony Corletti <anthcor@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: flake8 >=3.9.2 ; extra == "dev"
+Requires-Dist: mypy >=0.910 ; extra == "dev"
+Requires-Dist: black >=21.10b0 ; extra == "dev"
+Requires-Dist: isort >=5.9.3 ; extra == "dev"
+Requires-Dist: autoflake >=1.4 ; extra == "dev"
+Requires-Dist: flake8-docstrings >=1.6.0 ; extra == "dev"
+Requires-Dist: pre-commit >=2.17.0 ; extra == "dev"
+Requires-Dist: pytest >=6.2.5 ; extra == "test"
+Requires-Dist: coverage >=6.1.1 ; extra == "test"
+Requires-Dist: pytest-cov >=3.0.0 ; extra == "test"
+Project-URL: Documentation, https://www.github.com/anthonycorletti/ddex
+Provides-Extra: dev
+Provides-Extra: test
