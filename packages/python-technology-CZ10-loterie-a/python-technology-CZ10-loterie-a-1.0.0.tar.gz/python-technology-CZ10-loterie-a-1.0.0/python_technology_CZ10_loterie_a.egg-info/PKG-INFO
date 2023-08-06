@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: python-technology-CZ10-loterie-a
+Version: 1.0.0
+Summary: Knihovna pro ucely vyuky Pythonu skupiny SDA CZ10.
+Author: Pavel Eis
+Author-email: aisik004@gmail.com
+License: MIT
+Requires-Python: >=3.8
+
+Tento balicek implementuje jednoduchou loterii pro ucely vyuky Pythonu skupiny SDA CZ10.
