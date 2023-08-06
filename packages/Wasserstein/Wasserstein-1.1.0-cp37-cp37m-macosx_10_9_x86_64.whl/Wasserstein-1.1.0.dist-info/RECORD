@@ -1,0 +1,12 @@
+wasserstein/config.py,sha256=qgrHFZJo9AXrZdj86xYj3IdMcfJyQQjgJZ_wpcrkpKw,2150
+wasserstein/__init__.py,sha256=epEPvfa7PgKPovQQID6MAdb3CfSToqb8FH76MypRdBU,4450
+wasserstein/wasserstein.py,sha256=vGNFSRnSieArcRXW_FFvLgK4ivsGyjzxxuETfhrszXw,66887
+wasserstein/_wasserstein_noomp.cpython-37m-darwin.so,sha256=c557Gioa9w_cmpTuuIYBTGknlo6eqSJ_rTEkAtI-J4E,1271648
+wasserstein/_wasserstein_omp.cpython-37m-darwin.so,sha256=ilMK8JQjOWwryucuKppDpUdf2c65RuixtIESSIH9WOk,1307168
+wasserstein/_wasserstein.py,sha256=4uUxRsPIukc4O0OmuCCVFby3QDRzwkkKB5S_zp_b2oM,1707
+wasserstein/.dylibs/libomp.dylib,sha256=Ni8J9hNz-pDCb2p9EBPG82Xe-HceYaPzHjXjX3Jnp8o,697968
+Wasserstein-1.1.0.dist-info/RECORD,,
+Wasserstein-1.1.0.dist-info/LICENSE,sha256=4lSoVDgxAbEitqiYyUNA0fWK-74K09_qyGhLFFCSs0w,41554
+Wasserstein-1.1.0.dist-info/WHEEL,sha256=t-yJnV7ncEuoOkGIUUhH14bb9iMbJ4DANdZCkJ-k_2s,110
+Wasserstein-1.1.0.dist-info/top_level.txt,sha256=0FwkDx4xC33hHjr2XwadzvCHKVjIUA3aFpMfMbBhmLE,12
+Wasserstein-1.1.0.dist-info/METADATA,sha256=iiwofY-5mqtFF8HopNRKJ8VGcq8di6g6CCAew8Ma-VQ,2894
