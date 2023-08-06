@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: mathools
+Version: 0.1.0
+Summary: Some extra math tools
+Home-page: https://github.com/JuliusRye/math-extended
+Author: Julius Rye Bønnelykke
+Author-email: juliusrye@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.23.0)
+
+# Math extended
+
+Inkludes functions with primenumbers and convertion to a given number base.
+
+## Description
+
+An in-depth paragraph about your project and overview of use.
+
+### Dependencies
+
+* ex. Windows 10
+
+### Installing
+
+```
+pip install mathools
+```
+
+## Version History
+
+* 0.1.0
+    * Initial Release
+    * Basic functionality
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details
+
