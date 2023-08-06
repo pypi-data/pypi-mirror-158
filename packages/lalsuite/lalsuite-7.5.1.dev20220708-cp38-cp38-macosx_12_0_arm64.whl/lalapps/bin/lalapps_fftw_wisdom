@@ -1,0 +1,8 @@
+#!/bin/sh
+echo >&2
+echo "WARNING: 'lalapps_fftw_wisdom' has been renamed to 'lal_fftw_wisdom'" >&2
+echo "WARNING: please update your scripts" >&2
+echo >&2
+case "$1" in -h|--help) exit 1;; esac
+exec '/Users/gitlab/builds/Tb5zSYk6/0/lscsoft/lalsuite/wheel/build/inst/bin/lal_fftw_wisdom' "$@"
+exit 1
