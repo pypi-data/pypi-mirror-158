@@ -1,0 +1,3 @@
+metarace>=2
+ypmeteo
+libscrc
