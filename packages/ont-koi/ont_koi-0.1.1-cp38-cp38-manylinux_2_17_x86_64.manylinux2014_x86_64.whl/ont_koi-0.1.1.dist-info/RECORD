@@ -1,0 +1,14 @@
+_runtime.abi3.so,sha256=v4AaxNDs9WO2sK9zwuJsHK3Lpf1dXKzzNE206bR7RpE,153936
+ont_koi.libs/libkoi-a006f556.so,sha256=GNqG4bY3LXOkxPtfuTNuMtb27CAAT576s0f9LOyNV1k,2240568
+koi/build.py,sha256=K6NHJQ39cofBTRKqZdVZ_ukiog9IKAx5jaefW6b0R9k,463
+koi/utils.py,sha256=iNwoIDbDK7102cKv2azdF_rW1mMX1LuRZidfCaoN6Eo,1660
+koi/lstm.py,sha256=mZQQU2XhWRc6l49B9xJ9LMXjxh3ga_IqmyLjXlhyVRQ,6502
+koi/decode.py,sha256=vh2Iq6ZXYGOyTgCcvUNVu2YrTxUiuZplccn9ITSnjW8,1849
+koi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+koi/ctc.py,sha256=KATdBkdATIEz-oTq77Cg68RlGNoreYnHzk1bm2eY_ak,9822
+koi/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+koi/test/test_lstm.py,sha256=-MQPpQfhnCzpW2dqm6zSiWAtH3KnjMKMHoe6gB7BYgg,1865
+ont_koi-0.1.1.dist-info/top_level.txt,sha256=G_aqyhurAJEhUB19YCePG0t59TIfhxKZcVW38RddyWA,13
+ont_koi-0.1.1.dist-info/RECORD,,
+ont_koi-0.1.1.dist-info/WHEEL,sha256=-ijGDuALlPxm3HbhKntps0QzHsi-DPlXqgerYTTJkFE,148
+ont_koi-0.1.1.dist-info/METADATA,sha256=SRrziKof7y4i52V3KO3VaS6X5-r65GvCEDaq1otIs9I,191
