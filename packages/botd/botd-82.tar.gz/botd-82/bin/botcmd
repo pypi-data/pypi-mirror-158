@@ -1,0 +1,59 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+
+"bot command"
+
+
+import sys
+
+
+from op import Config
+
+
+Config.name = "botcmd"
+Config.version = "82"
+Config.workdir = "/var/lib/botd/"
+
+
+from bot.hdl import Callbacks, Command, Handler, dispatch
+from bot.irc import Config as IConfig
+
+
+IConfig.cc = "!"
+IConfig.channel = "#botd"
+IConfig.nick = "botd"
+IConfig.password = ""
+IConfig.port = 6667
+IConfig.realname = "24/7 channel daemon"
+IConfig.sasl = False
+IConfig.server = "localhost"
+IConfig.servermodes = ""
+IConfig.sleep = 60
+IConfig.username = "botd"
+IConfig.users = False
+
+
+import bot.all
+
+
+class CLI(Handler):
+
+    def cmd(self, txt):
+        e = Command()
+        e.parse(txt, repr(self))
+        self.handle(e)
+        e.wait()
+
+    def raw(self, txt):
+        print(txt)
+        sys.stdout.flush()
+
+
+def main():
+    Callbacks.threaded = False
+    c = CLI()
+    return c.cmd(" ".join(sys.argv[1:]))
+
+
+main()
