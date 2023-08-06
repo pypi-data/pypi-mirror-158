@@ -1,0 +1,6 @@
+
+[dev]
+bumpver
+black
+pytest
+twine
