@@ -1,0 +1,5 @@
+huggingface_hub
+h5py
+jax
+flax
+flaxmodels

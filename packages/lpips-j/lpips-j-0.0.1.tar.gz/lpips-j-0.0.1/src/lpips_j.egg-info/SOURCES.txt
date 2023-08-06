@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/lpips_j/__init__.py
+src/lpips_j/lpips.py
+src/lpips_j.egg-info/PKG-INFO
+src/lpips_j.egg-info/SOURCES.txt
+src/lpips_j.egg-info/dependency_links.txt
+src/lpips_j.egg-info/requires.txt
+src/lpips_j.egg-info/top_level.txt
