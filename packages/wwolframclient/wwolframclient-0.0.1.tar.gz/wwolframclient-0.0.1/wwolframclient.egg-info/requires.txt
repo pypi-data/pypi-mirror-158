@@ -1,0 +1,3 @@
+wolframclient
+ipython
+tqdm

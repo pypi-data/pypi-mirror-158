@@ -1,0 +1,8 @@
+setup.py
+wwolframclient/__init__.py
+wwolframclient.egg-info/PKG-INFO
+wwolframclient.egg-info/SOURCES.txt
+wwolframclient.egg-info/dependency_links.txt
+wwolframclient.egg-info/requires.txt
+wwolframclient.egg-info/top_level.txt
+wwolframclient.egg-info/zip-safe
