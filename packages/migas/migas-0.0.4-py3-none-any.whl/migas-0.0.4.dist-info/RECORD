@@ -1,0 +1,14 @@
+migas/__init__.py,sha256=2fFCieTS2R20Oym4VdcTUbvmJkqofkE07U_cU2Xu-U4,230
+migas/_version.py,sha256=E9GJGKPp38PYMAWL2CDJZL4bXx-Z_aU1qpayf9p80O8,497
+migas/config.py,sha256=aE6CT-a63V2RDEw26QonLGtdU3ThAHtbpvPZ-MZul4A,5772
+migas/operations.py,sha256=FLXrVpZ2n6RGFDevuTU70exHPvuC2rQvAKt0ym57GmE,4622
+migas/request.py,sha256=n1L67-VR2msJwc7LzrIeY8Kwv0Qf988Kw247eLiH4Q8,2519
+migas/utils.py,sha256=yILWhA9zCYJiuLZdNJ2L-v4lmZSMuLUt6pTTMO-4NWU,653
+migas/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+migas/tests/test_config.py,sha256=318KBdVi2TctJWVCzcPk1ivKeoOEnlm0QEs3q4eZtMc,1828
+migas/tests/test_request.py,sha256=w5o-UWNtPQz8p1HhwxyuFe8tgn8hlNHUejg-J_W8qak,596
+migas-0.0.4.dist-info/LICENSE,sha256=bQN3Hur15xXeKJfjDdArHQQLt1mKs1NwUxuhd-ODSK0,11348
+migas-0.0.4.dist-info/METADATA,sha256=LlU5MBIRlivEU4w7ynBKTIaYPi1S7WjErzZRv-brlKU,1765
+migas-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+migas-0.0.4.dist-info/top_level.txt,sha256=MGfm_bI5FRjvKuM-2z-NlUu6ZUoYJqzbaZ51Ez_Zrtg,6
+migas-0.0.4.dist-info/RECORD,,
