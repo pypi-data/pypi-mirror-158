@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+pycircpl/__init__.py
+pycircpl/pycircpl.py
+pycircpl.egg-info/PKG-INFO
+pycircpl.egg-info/SOURCES.txt
+pycircpl.egg-info/dependency_links.txt
+pycircpl.egg-info/not-zip-safe
+pycircpl.egg-info/top_level.txt
