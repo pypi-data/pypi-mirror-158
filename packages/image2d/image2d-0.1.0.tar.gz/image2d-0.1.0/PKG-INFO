@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: image2d
+Version: 0.1.0
+Summary: 对python内置GUI模块tkinter中的canvas进行的友好封装
+Home-page: https://github.com/hai2007/image2D.py
+Author: hai2007
+Author-email: 2501482523@qq.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+License-File: AUTHORS.txt

@@ -1,0 +1,11 @@
+AUTHORS.txt
+LICENSE
+README.md
+setup.py
+image2d/Painter.py
+image2d/__init__.py
+image2d.egg-info/PKG-INFO
+image2d.egg-info/SOURCES.txt
+image2d.egg-info/dependency_links.txt
+image2d.egg-info/requires.txt
+image2d.egg-info/top_level.txt
