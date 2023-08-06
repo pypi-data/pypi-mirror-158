@@ -1,0 +1,6 @@
+paho-mqtt
+pyyaml
+grpcio
+grpcio-tools
+opencv-python
+pyserial
