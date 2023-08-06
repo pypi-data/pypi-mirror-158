@@ -1,0 +1,2 @@
+recursive-include mbtiles_s3_server/vendor/positron-gl-style@1.8
+recursive-include mbtiles_s3_server/vendor/maplibre-gl@2.1.9
