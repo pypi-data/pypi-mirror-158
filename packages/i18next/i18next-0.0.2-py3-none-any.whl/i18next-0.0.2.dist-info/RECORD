@@ -1,0 +1,11 @@
+i18next/__init__.py,sha256=x0GuW2tANCkaD1T6MWZ_Jn0RN2eHSJ6aYLB2_Rp2mWc,192
+i18next/base.py,sha256=ouW7pQathpTwGAt69-_pZ2UOp55stFb1DXOxHOQzg-E,1707
+i18next/cli.py,sha256=nvygHWYL-XHovEV0C5b3-KPK-1wd5De62C-ng68ny24,2409
+i18next/config.py,sha256=HdDeN24-_gspm0t1gXZovXPyxGet1887aTtzydiAAI8,227
+i18next/errors.py,sha256=eTFD5qE2INGdrffFU6s4dsmld-FptYf7JxxHs15YdXk,471
+i18next/parser.py,sha256=GEX1pvpWhS7F9rCwm_o1bNofK5uDFtfh8CAqxnwbFGw,4707
+i18next-0.0.2.dist-info/entry_points.txt,sha256=9-uCXMujXhphiFtQKXV3Bap5r9MI8A7x1Js68nlTpFk,44
+i18next-0.0.2.dist-info/LICENSE,sha256=WSsJd5RXgryA4fMByfHoITOaVztWZbl_Sg2LOu_7Vvk,1075
+i18next-0.0.2.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+i18next-0.0.2.dist-info/METADATA,sha256=itgDaHlRvHil2jj8VsKhb0paF6MKmDUs1ZqclcqlXHc,10349
+i18next-0.0.2.dist-info/RECORD,,
