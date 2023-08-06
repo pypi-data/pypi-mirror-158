@@ -1,0 +1,8 @@
+pip
+packaging
+loguru
+numpy
+pandas
+plum-dispatch
+
+[dev]
