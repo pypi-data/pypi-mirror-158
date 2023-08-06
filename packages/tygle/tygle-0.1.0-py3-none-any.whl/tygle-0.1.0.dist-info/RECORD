@@ -1,0 +1,11 @@
+tygle/__init__.py,sha256=ohIHW-njffK5eFUvANUWHICUhJZkabnQnjN5qqzzVBY,50
+tygle/base/__init__.py,sha256=rZqG5aM776hVbTWvFr66TbL3EUPW5BV5n1EPK0E7o7U,145
+tygle/base/api.py,sha256=mF-ELqS4aX_YdmTV7nkCPtuBlo9R1qvk2e0k9Upkunw,516
+tygle/base/request.py,sha256=IotphWfprf4qNH-3M6K9qNngf0ld86cBAcoqaP7b-AY,1958
+tygle/base/resource.py,sha256=akciF9p-fBgN8j03WKSyoARIHVfHr8UJyd1HbTPN8to,237
+tygle/base/response.py,sha256=zoWetOOia3gOtsSng37guU-5zpfbOYfpV9Zfex7trrw,273
+tygle/base/rest.py,sha256=ueL0WrxyiOpYZZKGKDMUNuBFvveLbySvbTANCaYgbyM,203
+tygle/client.py,sha256=qsCZ_TWgsUSNmQVG50h9iM80PIw340IaywnyohFcf_U,1724
+tygle-0.1.0.dist-info/WHEEL,sha256=KXNDfOTTCr-VyxnCJDozfJ6nmi3hNN9RABDaCXBsNak,85
+tygle-0.1.0.dist-info/METADATA,sha256=3NI4LP2DCUGnM9wKEV9RUlvAkF6q5bBmskkQq9c5Ydk,1032
+tygle-0.1.0.dist-info/RECORD,,
