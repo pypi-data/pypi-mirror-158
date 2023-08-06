@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tello_control/__init__.py
+src/tello_control/controller.py
+src/tello_control/experiment.py
+src/tello_control/structs.py
+src/tello_control/tello.py
+src/tello_control/udp_interface.py
+src/tello_control/utils.py
+src/tello_control.egg-info/PKG-INFO
+src/tello_control.egg-info/SOURCES.txt
+src/tello_control.egg-info/dependency_links.txt
+src/tello_control.egg-info/top_level.txt
