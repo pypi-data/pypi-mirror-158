@@ -1,0 +1,3 @@
+test_type: android
+pkg_name: com.kwai.video
+test_platform: yunce
