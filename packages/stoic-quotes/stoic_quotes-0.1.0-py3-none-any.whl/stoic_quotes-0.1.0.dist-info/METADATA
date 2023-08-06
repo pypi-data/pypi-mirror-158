@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: stoic-quotes
+Version: 0.1.0
+Summary: Quotes to inspire you everytime!
+Author: Gurupratap Matharu
+Author-email: gurupratap.matharu@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
