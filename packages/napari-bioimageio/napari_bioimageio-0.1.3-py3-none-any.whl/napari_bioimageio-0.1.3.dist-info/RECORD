@@ -1,0 +1,12 @@
+napari_bioimageio/VERSION,sha256=LSRU7w7etGKmzosl04eqp03wgJPVzqBCihDOVVEMYyY,6
+napari_bioimageio/__init__.py,sha256=ZEm8247PqZpBBJrCf_aznxcM11og1631R66zJCPwKbo,174
+napari_bioimageio/_bmm.py,sha256=fVsqjDBuOkykdI-9ERl2wwCdixemRsaGcARjm9E0A9k,19332
+napari_bioimageio/_utils.py,sha256=RRIE0MUueMS7w6QQPVLLvk1yLttDG8BwO0CRiT9Dak0,7968
+napari_bioimageio/bioimage-io-logo-white.png,sha256=kShInup0NpDG9rIyQ22gkTRSAGPaHSHKgDC8ffX35Os,12541
+napari_bioimageio/napari.yaml,sha256=s-oMBkH2DdEloM1wyoTnVzpBUcmmAr6xPi3Z1hqFR00,363
+napari_bioimageio-0.1.3.dist-info/LICENSE,sha256=yH8zdE_nSdIcX4Fhm37EqQ5U5oMS1vejvsl7tuRRH5Y,1077
+napari_bioimageio-0.1.3.dist-info/METADATA,sha256=njDbfyHWJJiH9MTq7ltCL_GMStOX5wArg6uAFGUXFdE,5199
+napari_bioimageio-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_bioimageio-0.1.3.dist-info/entry_points.txt,sha256=KqRSmUfZdcb1x84tDhpz8DFRhGceWCzVXwmg5Ke9DjI,68
+napari_bioimageio-0.1.3.dist-info/top_level.txt,sha256=xk88eNF5C7DQdXwufkBKkWY2bb5j9QylsyxP7546YDk,18
+napari_bioimageio-0.1.3.dist-info/RECORD,,
