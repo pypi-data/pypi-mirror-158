@@ -1,0 +1,5 @@
+pybind11
+scapy
+aiohttp
+python-socketio
+python-engineio
