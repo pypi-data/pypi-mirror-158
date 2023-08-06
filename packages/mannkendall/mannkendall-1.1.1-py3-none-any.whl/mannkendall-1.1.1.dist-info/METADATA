@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mannkendall
+Version: 1.1.1
+Summary: Implementation of the Mann-Kendall statistical test associated with the Sen's slope, following the prescriptions of Collaud Coen et al.,  2020, Atmos. Meas. Tech., 13, 6945–6964, https://doi.org/10.5194/amt-2020-178.
+Home-page: https://github.com/MeteoSwiss-MDA/mannkendall
+Author: MeteoSwiss
+Author-email: fpavogt@users.noreply.github.com
+License: BSD 3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: scipy (>=1.5.0)
+Requires-Dist: statsmodels (>=0.12.0)
+Provides-Extra: dev
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+This is the README of the mannkendall Python module.
+
+For the documentation, go to https://mannkendall.github.io/Python
+
+
