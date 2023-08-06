@@ -1,0 +1,5 @@
+crccheck
+pyserial
+
+[dev]
+pytest
