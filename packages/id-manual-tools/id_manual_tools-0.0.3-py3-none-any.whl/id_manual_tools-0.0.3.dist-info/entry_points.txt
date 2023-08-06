@@ -1,0 +1,2 @@
+[console_scripts]
+trajectory_correction = id_manual_tools.main:trajectory_correction
