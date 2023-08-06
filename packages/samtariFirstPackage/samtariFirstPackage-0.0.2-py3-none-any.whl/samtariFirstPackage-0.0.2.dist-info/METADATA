@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: samtariFirstPackage
+Version: 0.0.2
+Summary: samtari's first package
+Author: Sam Yang
+Author-email: samtari@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+This is samtari's first package
+
