@@ -1,0 +1,10 @@
+gascomp/__init__.py,sha256=7W5kEUU6GkFkbApQ4cZCVPo161dfdlNhL9tOoK0HRe8,80
+gascomp/eos_bwr/__init__.py,sha256=59XLFIuagkLb0WmFjUk7DzZDKgc8J_myhjUOmGNdAaE,138
+gascomp/eos_bwr/calc.py,sha256=tvN2BaQ_eGprQxnGAOUTlMvjsr9VtU1qNXOqwwd1AqE,15100
+gascomp/eos_bwr/data.py,sha256=Ng9I0TW33TIyVLdzvfbwcQ0mpHi265zKH-d2lUtTnjs,9670
+gascomp/eos_bwr/reference.py,sha256=iC6saonx2r3YTGS7MZRrv1_Wl1KRZPD0iAvX2kd2edI,1827
+gascomp-1.0.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gascomp-1.0.9.dist-info/METADATA,sha256=HfzM7aOJj-YCg-K5m1m-UL05cAdzUlk6ZJ1NK1UjvG0,301
+gascomp-1.0.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gascomp-1.0.9.dist-info/top_level.txt,sha256=za8T4uYKx6y307TzLfRfPMO-AI2IYG3L8gLT7eKNYeo,8
+gascomp-1.0.9.dist-info/RECORD,,
