@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+b_perfume_scraper.egg-info/PKG-INFO
+b_perfume_scraper.egg-info/SOURCES.txt
+b_perfume_scraper.egg-info/dependency_links.txt
+b_perfume_scraper.egg-info/requires.txt
+b_perfume_scraper.egg-info/top_level.txt
+testing/__init__.py
+testing/test_project.py
+webscraper_project/__init__.py
+webscraper_project/__main__.py
+webscraper_project/scraper.py
+webscraper_project/scraper_v2.py
