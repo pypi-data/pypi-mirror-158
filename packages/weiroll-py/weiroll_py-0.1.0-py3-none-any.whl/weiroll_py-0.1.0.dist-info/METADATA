@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: weiroll-py
+Version: 0.1.0
+Summary: Build weiroll transactions with brownie
+License: MIT
+Author: FP
+Author-email: FP@no-email.com
+Requires-Python: >=3.9,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: eth-brownie (>=v1.17,<2.0)
