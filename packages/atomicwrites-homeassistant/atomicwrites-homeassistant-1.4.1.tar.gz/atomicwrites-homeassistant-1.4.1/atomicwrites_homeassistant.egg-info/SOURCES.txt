@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+atomicwrites/__init__.py
+atomicwrites_homeassistant.egg-info/PKG-INFO
+atomicwrites_homeassistant.egg-info/SOURCES.txt
+atomicwrites_homeassistant.egg-info/dependency_links.txt
+atomicwrites_homeassistant.egg-info/top_level.txt
+docs/Makefile
+docs/conf.py
+docs/index.rst
+docs/make.bat
+tests/test_atomicwrites.py
