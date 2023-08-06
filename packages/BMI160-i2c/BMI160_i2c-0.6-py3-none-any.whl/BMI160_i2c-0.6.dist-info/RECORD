@@ -1,0 +1,10 @@
+BMI160_i2c/__init__.py,sha256=brUSYZZcpFPJO78nqgyTc8x2TeHOXTgL_mGIC8sHnZA,77020
+BMI160_i2c/commands.py,sha256=EGZXCph5VyWW_mXpjO1IRJMSazGF9wiTdonDf6-ZOog,196
+BMI160_i2c/definitions.py,sha256=NymuiS-yq4XHIVHbwLZD7ePBPoWPHqHbpYOUFt_r36I,1747
+BMI160_i2c/registers.py,sha256=qHRm5Q7Jr_Yp7FmZ6c9KoX0MyES8RJE8B0HZmvyGAt8,1858
+BMI160_i2c/sleep.py,sha256=vky7Vo1qd_ZPkds9Os33XxqjJo64mMlopM1-s8oP8pg,140
+BMI160_i2c-0.6.dist-info/LICENSE,sha256=yeKG99Qdk_tOkfngEbkKsA4lfZ52Smh7Jff6EPpBbZs,1071
+BMI160_i2c-0.6.dist-info/METADATA,sha256=sK3VzwDpQXD0lqpcgcm8yEPw6lvMQ8lpdEZZqjO-yTw,3383
+BMI160_i2c-0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+BMI160_i2c-0.6.dist-info/top_level.txt,sha256=hlWtBkKX7Ici_Jq9GKudZQYyexzbufQqeWGMnMivMYs,11
+BMI160_i2c-0.6.dist-info/RECORD,,
