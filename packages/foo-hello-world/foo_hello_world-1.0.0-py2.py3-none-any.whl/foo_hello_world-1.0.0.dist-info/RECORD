@@ -1,0 +1,5 @@
+foo_hw.py,sha256=1r6-6q4-QdX3kruylUZZg-bBTfm00AeIomgcLvMTULg,112
+foo_hello_world-1.0.0.dist-info/METADATA,sha256=EHe2xmWHKAWmveJVKclX038oZjb-1B2lSx2a8ATR1e8,192
+foo_hello_world-1.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+foo_hello_world-1.0.0.dist-info/top_level.txt,sha256=q7L7eU7da95i53tjquCc4H2qGzmP3hEPQAhqYWs1x0E,7
+foo_hello_world-1.0.0.dist-info/RECORD,,
