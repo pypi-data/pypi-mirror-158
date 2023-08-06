@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dcurl/__init__.py
+dcurl/dcurl.py
+dcurl.egg-info/PKG-INFO
+dcurl.egg-info/SOURCES.txt
+dcurl.egg-info/dependency_links.txt
+dcurl.egg-info/entry_points.txt
+dcurl.egg-info/requires.txt
+dcurl.egg-info/top_level.txt
