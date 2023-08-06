@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: autocnet
+Version: 0.7.2
+Summary: Automated control network generation.
+Home-page: http://packages.python.org/autocnet
+Author: Jay Laura
+Author-email: jlaura@usgs.gov
+License: Public Domain
+Description: Automated sparse control network generation to support photogrammetric control of planetary image data.
+Keywords: Multi-image correspondence detection
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
