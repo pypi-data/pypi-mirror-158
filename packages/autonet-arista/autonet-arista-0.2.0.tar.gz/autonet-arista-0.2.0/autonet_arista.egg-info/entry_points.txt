@@ -1,0 +1,3 @@
+[autonet.drivers]
+eos = autonet_arista.eos.eos_driver:AristaDriver
+
