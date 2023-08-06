@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: pymatgen-analysis-defects
+Version: 0.0.5
+Summary: Add-ons to pymatgen for defect analysis.
+Home-page: https://github.com/materialsproject/pymatgen-analysis-defects
+Author: Jimmy Shen
+Author-email: jmmshn@gmail.com
+Maintainer: Jimmy Shen
+License: BSD
+Keywords: pymatgen
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pymatgen (>=2022.2.3)
+Requires-Dist: dscribe (>=1.2.1)
+
+pymatgen-analysis-defects
+=========================
+
+|testing| |codecov|
+
+This package is a collection of tools for analyzing defects in
+materials. It is meant to replace the older
+``pymatgen.analysis.defects`` modules. The code is currently installed
+at ``pymatgen.analysis.defects2``. but will be moved to
+``pymatgen.analysis.defects`` in the future.
+
+The modules provided by this package are summarized below:
+
+
++-----------------+--------------------------------------------------------------+
+| Module name     | Functionality                                                |
++=================+==============================================================+
+| ``ccd``         | configuration-coordination diagrams.                         |
++-----------------+--------------------------------------------------------------+
+| ``core``        | abstract definition of a defect (unit cell) + (defect site). |
++-----------------+--------------------------------------------------------------+
+| ``corrections`` | corrections to the defect formation energy.                  |
++-----------------+--------------------------------------------------------------+
+| ``finder``      | identify the position of defects automatically.              |
++-----------------+--------------------------------------------------------------+
+| ``generators``  | analyze bulk crystal symmetry to generator defects.          |
++-----------------+--------------------------------------------------------------+
+| ``supercells``  | code to generate supercells for simulating the defects.      |
++-----------------+--------------------------------------------------------------+
+| ``thermo``      | formation energy diagram definitions.                        |
++-----------------+--------------------------------------------------------------+
+| ``utils``       | miscellaneous utilities.                                     |
++-----------------+--------------------------------------------------------------+
+
+
+.. |testing| image:: https://github.com/materialsproject/pymatgen-analysis-defects/actions/workflows/testing.yml/badge.svg?branch=main
+   :target: https://github.com/materialsproject/pymatgen-analysis-defects/actions/workflows/testing.yml
+.. |codecov| image:: https://codecov.io/gh/materialsproject/pymatgen-analysis-defects/branch/main/graph/badge.svg?token=FOKXRCZTXZ
+   :target: https://codecov.io/gh/materialsproject/pymatgen-analysis-defects
+
+
