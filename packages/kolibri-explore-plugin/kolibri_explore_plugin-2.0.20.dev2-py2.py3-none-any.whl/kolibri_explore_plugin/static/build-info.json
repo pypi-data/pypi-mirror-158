@@ -1,0 +1,8 @@
+{
+    "commit": "ce50571",
+    "date": "Mon Jul 11 10:38:15 2022",
+    "last_release": "v2.0.19",
+    "log": [
+{ "commit": "ce50571", "subject": "Use collections by grade", "author": "Daniel García Moreno" },
+{ "commit": "d290079", "subject": "Fallback collection download to remote by token", "author": "Daniel García Moreno" },
+{ "commit": "4677bc0", "subject": "Use manifest.json files to download collections", "author": "Daniel García Moreno" }]}
