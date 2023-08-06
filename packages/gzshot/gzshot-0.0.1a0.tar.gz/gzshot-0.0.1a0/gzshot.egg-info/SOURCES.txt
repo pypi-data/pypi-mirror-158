@@ -1,0 +1,5 @@
+setup.py
+gzshot.egg-info/PKG-INFO
+gzshot.egg-info/SOURCES.txt
+gzshot.egg-info/dependency_links.txt
+gzshot.egg-info/top_level.txt
