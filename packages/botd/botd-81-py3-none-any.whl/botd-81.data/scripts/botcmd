@@ -1,0 +1,47 @@
+#!python
+# This file is placed in the Public Domain.
+
+
+"bot command"
+
+
+import os, sys
+
+
+sys.path.insert(0, os.getcwd())
+
+
+from bot.obj import Config
+
+
+Config.name = "botcmd"
+Config.version = "161"
+Config.workdir = "/var/lib/botd/"
+
+
+from bot.hdl import Callbacks, Command, Handler, dispatch
+
+
+import bot.all
+
+
+class CLI(Handler):
+
+    def cmd(self, txt):
+        e = Command()
+        e.parse(txt, repr(self))
+        self.handle(e)
+        e.wait()
+
+    def raw(self, txt):
+        print(txt)
+        sys.stdout.flush()
+
+
+def main():
+    Callbacks.threaded = False
+    c = CLI()
+    return c.cmd(" ".join(sys.argv[1:]))
+
+
+main()

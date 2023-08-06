@@ -1,0 +1,55 @@
+#!python
+# This file is placed in the Public Domain.
+
+
+"irc bot service"
+
+
+import os, sys
+
+
+sys.path.insert(0, os.getcwd())
+
+
+from bot.obj import Config
+
+
+Config.name = "botd"
+Config.version = "161"
+Config.workdir = "/var/lib/botd/"
+
+from bot.irc import Config as IConfig
+
+
+IConfig.cc = "!"
+IConfig.channel = "#botd"
+IConfig.nick = "botd"
+IConfig.password = ""
+IConfig.port = 6667
+IConfig.realname = "24/7 channel daemon"
+IConfig.sasl = False
+IConfig.server = "localhost"
+IConfig.servermodes = ""
+IConfig.sleep = 60
+IConfig.username = "botd"
+IConfig.users = False
+
+
+
+from bot.hdl import Callbacks, dispatch
+from bot.irc import IRC
+from bot.rss import Fetcher
+
+
+import bot.bsc
+
+
+def main():
+    i = IRC()
+    i.start()
+    f = Fetcher()
+    f.start()
+    i.forever()
+
+
+main()
