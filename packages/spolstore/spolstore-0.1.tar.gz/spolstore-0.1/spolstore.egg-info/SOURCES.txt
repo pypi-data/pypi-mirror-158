@@ -1,0 +1,10 @@
+README.md
+setup.py
+spolstore/__init__.py
+spolstore/store.py
+spolstore.egg-info/PKG-INFO
+spolstore.egg-info/SOURCES.txt
+spolstore.egg-info/dependency_links.txt
+spolstore.egg-info/entry_points.txt
+spolstore.egg-info/requires.txt
+spolstore.egg-info/top_level.txt
