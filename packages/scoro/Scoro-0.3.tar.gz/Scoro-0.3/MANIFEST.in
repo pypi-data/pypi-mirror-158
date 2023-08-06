@@ -1,0 +1,3 @@
+recursive-include scoro *.lst
+recursive-include scoro *.py
+recursive-include scoro *.txt
