@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: eventstoredb
+Version: 0.1.0
+Summary: 
+Author: betaboon
+Author-email: betaboon@0x80.ninja
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: betterproto (==2.0.0-beta4)
