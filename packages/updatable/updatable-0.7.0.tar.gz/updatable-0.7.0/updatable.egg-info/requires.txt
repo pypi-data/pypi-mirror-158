@@ -1,0 +1,3 @@
+httpx
+semantic_version
+packaging
