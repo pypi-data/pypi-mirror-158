@@ -1,0 +1,9 @@
+wfs_trx/__init__.py,sha256=wO7cvM3gTK3vCJuKYsh1OU4yA0030woXb7a14PhQ3GM,207
+wfs_trx/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wfs_trx/schema_builder.py,sha256=y2Bv6Tl8ijyMV0BWXjw7Xa0XRrK3iFOGamLarMbGFF0,2311
+wfs_trx/trx.py,sha256=avN3l4VZ_WkGk9Wp-2_nmJYc3KfoiRE1YWRjKfxowDE,1438
+wfs_trx/version.py,sha256=NlaHrTc8XQSgdQ1HKMF6YSedzyJWkZZCL-rAdmtvlZ8,344
+wfs_trx-0.0.3.dist-info/METADATA,sha256=Mu1YjHNj3RuEgLc8ggROha_kNuNrbvMiH5_x64dSVzY,1602
+wfs_trx-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wfs_trx-0.0.3.dist-info/top_level.txt,sha256=fIsH48JjqDCaakmSeM4ddpFeK5LHKusAR8SNoyIQVWE,8
+wfs_trx-0.0.3.dist-info/RECORD,,
