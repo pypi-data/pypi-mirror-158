@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dfds-ds-toolbox
+Version: 0.10.1
+Summary: A toolbox for data science
+Home-page: https://dfds-ds-toolbox.readthedocs.io
+License: MIT
+Author: Data Science Chapter at DFDS
+Author-email: urcha@dfds.com
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.4,<4.0)
+Requires-Dist: pandas (>=1.0,<2.0)
+Requires-Dist: rich (>=12.0,<13.0)
+Requires-Dist: scikit-learn (>=1.0,<2.0)
+Requires-Dist: scipy (>1.7.2)
+Requires-Dist: statsmodels (>=0.13,<0.14)
+Project-URL: Repository, https://github.com/dfds-data/dfds-ds-toolbox
