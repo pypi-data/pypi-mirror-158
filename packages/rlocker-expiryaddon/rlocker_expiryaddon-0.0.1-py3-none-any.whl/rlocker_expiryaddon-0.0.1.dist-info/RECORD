@@ -1,0 +1,15 @@
+expiry_addon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+expiry_addon/admin.py,sha256=6XMg8utcuYfgoEcH_wsYZRY_ILRRq4l2kVSIKkPNd-o,384
+expiry_addon/apps.py,sha256=VfZAuHRGAJmR96Ibz1Qb8e1RUZ5p7O_d1KB-72M6Rv0,401
+expiry_addon/models.py,sha256=daQK3eDfVE40bgzyWwRj9NbOVyg0SEOtl4fw2GobKLk,1003
+expiry_addon/signals.py,sha256=iJqf8QgbTJSx_S30jdSBdtysaYmTX_Q-iy5u5CU7L5A,1135
+expiry_addon/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+expiry_addon/urls.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+expiry_addon/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+expiry_addon/migrations/0001_initial.py,sha256=l9CO7kAylsVCEFPXez-d1MeQK-wAska4bst2AyakOaY,813
+expiry_addon/migrations/0002_auto_20220711_1038.py,sha256=iIQFh4Yu1hYmxQXDiZ5j3RQ9VJ1WVf11iAsQnAwyNTw,576
+expiry_addon/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rlocker_expiryaddon-0.0.1.dist-info/METADATA,sha256=PkVxL_KPmd2-MUs6vYeNL6oGixVHMJe6sRQ6r4-vq4Q,641
+rlocker_expiryaddon-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rlocker_expiryaddon-0.0.1.dist-info/top_level.txt,sha256=9TvW9Ee_EYsY-iZO1xNOgJ1ruE__3yu-sLL0dxWhA3c,13
+rlocker_expiryaddon-0.0.1.dist-info/RECORD,,

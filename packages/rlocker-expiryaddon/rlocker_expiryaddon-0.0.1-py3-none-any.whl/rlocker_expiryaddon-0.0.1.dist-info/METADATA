@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rlocker-expiryaddon
+Version: 0.0.1
+Summary: A Plugin for Resource Locker Project to implement expiry logic
+Home-page: https://github.com/jimdevops19/rlocker_expiry_addon.git
+Download-URL: https://pypi.org/project/rlocker_expiry_addon/
+Author: Jim Erginbash
+Author-email: jimshapedcoding@gmail.com
+License: MIT
+Keywords: Rlocker,rlocker,ResourceLocker,Python 3,Resource Locker
+Description-Content-Type: text/markdown
+
+# Resource Locker Expiry Addon
+This is an addon application (plugin) to rlocker
+
+# Getting Started:
+
+
+# Starting first steps this Addon for Resource Locker
+
+## [0.0.1] - 2022-07-11
+
+Initial build
