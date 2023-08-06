@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: fastmtl
+Version: 0.0.1
+Summary: Multi-task learning utilities for fastai
+Home-page: https://github.com/bdsaglam/fastmtl/tree/{branch}/
+Author: Barış Deniz Sağlam
+Author-email: bdsaglam@gmail.com
+License: Apache Software License 2.0
+Keywords: deep learning,multi-task learning,fastai,pytorch
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# fastmtl
+> Multi-task learning utilities for fastai
+
+
+## Install
+
+`pip install fastmtl`
+
+
