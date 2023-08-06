@@ -1,0 +1,16 @@
+adop/__init__.py,sha256=qEdg2MhZc4iFQOS_8-O-er6N8n5kRoiTg9Mrx_ssBJ8,24
+adop/__main__.py,sha256=HGBWAtae4C2qKQtca6Rdttn-e-JwCm-aJoEzYz31VoE,2070
+adop/auto_fetch.py,sha256=qFpNamLRDI50aP30IU5tMyQcRSUdDKna7q1re0lLM_w,4627
+adop/auto_fetch_state.py,sha256=hYhZziVmonivgil_VCZ1_xwbZ1OnDPR50TOrT7rZik0,1043
+adop/auto_sequences.py,sha256=N85uN-w897YUBmSSIpoyNoxPkD7xaq9HLmVGjicK9X4,2655
+adop/deploy_state.py,sha256=9-COh6bUGT92MSNlaw4uVfOHXJQ7E__tIIjscuVj8L4,1209
+adop/parse_config.py,sha256=6jp4Gt1VgvI1bHBybKYBpCFL8HtYp02NKLqgCm7mPoY,2567
+adop/restapi.py,sha256=krbam_bCh0JFjZAqNtPGh7o6kw4_QsN8T09yiD2sa_s,7371
+adop/store_payload.py,sha256=eeuLTLEPdHejcUoU0GkR9iG08fP3oixeWH-dfyaXeuY,2631
+adop/unpack_payload.py,sha256=RxI4HEi5G9_XJfdIP4Feeqtz_Y3m49r2OyDRiNlW2Rc,2743
+adop/verify_payload.py,sha256=RBjTbWB1oUAgXie-HjEnB-FglILXxFenZKqPXx540w8,856
+adop-0.0.1a1.dist-info/METADATA,sha256=oJuGtyO64JPEq1oludwOeajFPBv2hrNXVVPAyW360IQ,1639
+adop-0.0.1a1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+adop-0.0.1a1.dist-info/entry_points.txt,sha256=0mRHNLhm7SO-0IdE4OxFOtfXyvzF7Nm-msbY91PhGyQ,45
+adop-0.0.1a1.dist-info/top_level.txt,sha256=i52aNx9WbJn77l5yWpwBJAe8f9lN3vn26X82LTKTsJw,5
+adop-0.0.1a1.dist-info/RECORD,,
