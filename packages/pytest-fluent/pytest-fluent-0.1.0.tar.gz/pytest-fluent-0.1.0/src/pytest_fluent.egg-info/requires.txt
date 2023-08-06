@@ -1,0 +1,19 @@
+pytest
+msgpack
+six
+fluent-logger
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[docs]
+sphinx
+sphinx-rtd-theme
+myst-parser
+
+[test]
+pytest
+coverage[toml]
+pytest-cov
+pytest-xdist[psutil]
+six
