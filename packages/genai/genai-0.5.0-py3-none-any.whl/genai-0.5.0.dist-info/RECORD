@@ -1,0 +1,6 @@
+genai/__init__.py,sha256=iYU6_blEifHzjqgDyBYkqw6PjmgJLLPNx0WcR2qU5eY,192
+genai/assist.py,sha256=BAAFggGSsVfsZ4AlubhK7RaKWxqCMAjzof2DYDEfpgs,7561
+genai/components.py,sha256=aDLnF1wR5LgHIdpGCEnMXoYJ3FNo6-mrDq4lIXLJxdg,1694
+genai-0.5.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+genai-0.5.0.dist-info/METADATA,sha256=byJisXcq6SpWJgJqt6tJugr_ruA5G61e1CVmv5QDz0M,361
+genai-0.5.0.dist-info/RECORD,,
