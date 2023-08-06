@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: toptenticle
+Version: 0.0.1
+Summary: Simple!
+Home-page: UNKNOWN
+Author: Tk
+Author-email: <tylerfromgw@gmail.com>
+License: UNKNOWN
+Description: Simple!
+Keywords: top ten maker,csvtools
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
