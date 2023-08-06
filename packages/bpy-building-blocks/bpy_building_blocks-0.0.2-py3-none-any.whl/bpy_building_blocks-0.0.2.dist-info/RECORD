@@ -1,0 +1,16 @@
+bpybb/__init__.py,sha256=8YNyQmZH-_QWD9kttnZTlr9MiZWJ9wuQzgsnW2M_6Dg,69
+bpybb/addon.py,sha256=AM7P2kMhf67B78ojRqQ1ShCTvd-hRM2jigACU22VISU,1968
+bpybb/collection.py,sha256=X8xN3L35IdxIWFjI_ECYqSVeDhvVFJa761lJCS-lpMs,284
+bpybb/color.py,sha256=3VxuoXEpwwxD23LlKYNorUKE_j7433_789mkLIXV-eE,2378
+bpybb/hdri.py,sha256=2cE4YZEHbnJTaI8HvPw4UO-SSYMxokIidfREgafKgD4,3512
+bpybb/material.py,sha256=ltWFAxmffS5m9t4D4ZCjvgShXPAeh7_0eep-5Navd0s,684
+bpybb/mesh.py,sha256=8LFt2Iui4JKQa7Jw8CFiKcMM7j_7VeJ1RePNz490Zek,384
+bpybb/object.py,sha256=1in9Ut8eBlyx74_XDsn64O3fI38Pvqam7YH2PvuPB5M,634
+bpybb/output.py,sha256=iasNEaPLaEqwpx1ikZUOlWQnibp8Sb6fRvygiaEBfyA,2961
+bpybb/random.py,sha256=qI9XJOgpMjzpvJWRtXJrwqWBV_fpYVpnNnfSV-2V7ss,320
+bpybb/utils.py,sha256=OBTCwyMBqlrC7K_enea2Ddw0gE8IO08csdCaglVn6dY,3706
+bpy_building_blocks-0.0.2.dist-info/LICENSE,sha256=sQnGDBA13YvhLjeQFWp9Ii9A04Q_2onQnjeuCovMGPw,1093
+bpy_building_blocks-0.0.2.dist-info/METADATA,sha256=5L3cwGWOLDbQwjXEzMCc3LEX8IsbA27FXZVZ4kAtZUI,6478
+bpy_building_blocks-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bpy_building_blocks-0.0.2.dist-info/top_level.txt,sha256=aeeP1Z5MSEu6el7IKX7C51fZm7du-ylGQ1PJqvwuKiA,6
+bpy_building_blocks-0.0.2.dist-info/RECORD,,
