@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dinkycache
+Version: 1
+Summary: Sqlite based cache for python projects
+Home-page: https://github.com/expergefacio/dinkycache
+Author: eXpergefacio & Lanjelin
+Author-email: any@expdvl.com
+Keywords: dinkycache
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
