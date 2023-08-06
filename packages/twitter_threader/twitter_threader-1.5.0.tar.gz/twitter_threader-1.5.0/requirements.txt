@@ -1,0 +1,4 @@
+flit==3.7.1
+pytest==7.1.2
+pytest-recording==0.12.1
+tweepy==3.9.0

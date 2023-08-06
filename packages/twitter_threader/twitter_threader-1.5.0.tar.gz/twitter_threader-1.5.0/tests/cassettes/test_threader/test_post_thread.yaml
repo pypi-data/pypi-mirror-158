@@ -1,0 +1,228 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Host:
+      - api.twitter.com
+    method: GET
+    uri: https://api.twitter.com/1.1/users/show.json?id=SummarizerBot
+  response:
+    body:
+      string: '{"id":1329690878261284865,"id_str":"1329690878261284865","name":"Too
+        Long; Read a Summary","screen_name":"SummarizerBot","location":"","profile_location":null,"description":"It
+        summarizes any type of information. Mention the bot as a reply to a shared
+        article or a long thread and it returns with the link of a summary.","url":null,"entities":{"description":{"urls":[]}},"protected":true,"followers_count":1,"friends_count":0,"listed_count":0,"created_at":"Fri
+        Nov 20 07:40:38 +0000 2020","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":68,"lang":null,"status":{"created_at":"Sat
+        Jan 16 23:47:16 +0000 2021","id":1350590472276897795,"id_str":"1350590472276897795","text":"@summarizer_bot
+        Read the summary you asked for on this link https:\/\/t.co\/gW1P6UaQDy below","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"summarizer_bot","name":"Summarizer
+        Bot","id":1329707506357194753,"id_str":"1329707506357194753","indices":[0,15]}],"urls":[{"url":"https:\/\/t.co\/gW1P6UaQDy","expanded_url":"https:\/\/summarizerbot.herokoapp.com\/blog\/12","display_url":"summarizerbot.herokoapp.com\/blog\/12","indices":[60,83]}]},"source":"\u003ca
+        href=\"https:\/\/help.twitter.com\/en\/using-twitter\/how-to-tweet#source-labels\"
+        rel=\"nofollow\"\u003esummarizer_bot\u003c\/a\u003e","in_reply_to_status_id":1350530561631285249,"in_reply_to_status_id_str":"1350530561631285249","in_reply_to_user_id":1329707506357194753,"in_reply_to_user_id_str":"1329707506357194753","in_reply_to_screen_name":"summarizer_bot","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1329691215877517312\/oz9NDnSc_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1329691215877517312\/oz9NDnSc_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1329690878261284865\/1609242083","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none","withheld_in_countries":[],"suspended":false,"needs_phone_verification":false}'
+    headers:
+      cache-control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      content-disposition:
+      - attachment; filename=json.json
+      content-length:
+      - '2762'
+      content-type:
+      - application/json;charset=utf-8
+      date:
+      - Sat, 09 Jul 2022 15:50:16 GMT
+      expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      last-modified:
+      - Sat, 09 Jul 2022 15:50:16 GMT
+      pragma:
+      - no-cache
+      server:
+      - tsa_f
+      set-cookie:
+      - guest_id_marketing=v1%3A165738181677662462; Max-Age=63072000; Expires=Mon,
+        08 Jul 2024 15:50:16 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A165738181677662462; Max-Age=63072000; Expires=Mon, 08 Jul
+        2024 15:50:16 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_pWMFsFy2MxHtpmVHRV0hQA=="; Max-Age=63072000; Expires=Mon,
+        08 Jul 2024 15:50:16 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - lang=en; Path=/
+      - guest_id=v1%3A165738181677662462; Max-Age=63072000; Expires=Mon, 08 Jul 2024
+        15:50:16 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      status:
+      - 200 OK
+      strict-transport-security:
+      - max-age=631138519
+      x-access-level:
+      - read-write-directmessages
+      x-connection-hash:
+      - 362117525ae37853f417f009a8c55a1750b91953d9d9e0d6f50b857b0bb4ae58
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-rate-limit-limit:
+      - '900'
+      x-rate-limit-remaining:
+      - '898'
+      x-rate-limit-reset:
+      - '1657382714'
+      x-response-time:
+      - '199'
+      x-transaction:
+      - 6291c7b84f6f244f
+      x-twitter-response-tags:
+      - BouncerCompliant
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Content-Length:
+      - '0'
+      Host:
+      - api.twitter.com
+    method: POST
+    uri: https://api.twitter.com/1.1/statuses/update.json?status=%40SummarizerBot+Lorem+ipsum+dolor+sit+amet%2C
+  response:
+    body:
+      string: '{"created_at":"Sat Jul 09 15:50:17 +0000 2022","id":1545797497045614593,"id_str":"1545797497045614593","text":"@SummarizerBot
+        Lorem ipsum dolor sit amet,","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"SummarizerBot","name":"Too
+        Long; Read a Summary","id":1329690878261284865,"id_str":"1329690878261284865","indices":[0,14]}],"urls":[]},"source":"\u003ca
+        href=\"https:\/\/help.twitter.com\/en\/using-twitter\/how-to-tweet#source-labels\"
+        rel=\"nofollow\"\u003esummarizer_bot\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":1329690878261284865,"in_reply_to_user_id_str":"1329690878261284865","in_reply_to_screen_name":"SummarizerBot","user":{"id":1329690878261284865,"id_str":"1329690878261284865","name":"Too
+        Long; Read a Summary","screen_name":"SummarizerBot","location":"","description":"It
+        summarizes any type of information. Mention the bot as a reply to a shared
+        article or a long thread and it returns with the link of a summary.","url":null,"entities":{"description":{"urls":[]}},"protected":true,"followers_count":1,"friends_count":0,"listed_count":0,"created_at":"Fri
+        Nov 20 07:40:38 +0000 2020","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":69,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1329691215877517312\/oz9NDnSc_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1329691215877517312\/oz9NDnSc_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1329690878261284865\/1609242083","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none","withheld_in_countries":[]},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"}'
+    headers:
+      cache-control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      content-disposition:
+      - attachment; filename=json.json
+      content-length:
+      - '2411'
+      content-type:
+      - application/json;charset=utf-8
+      date:
+      - Sat, 09 Jul 2022 15:50:17 GMT
+      expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      last-modified:
+      - Sat, 09 Jul 2022 15:50:17 GMT
+      pragma:
+      - no-cache
+      server:
+      - tsa_f
+      set-cookie:
+      - guest_id_marketing=v1%3A165738181746320878; Max-Age=63072000; Expires=Mon,
+        08 Jul 2024 15:50:17 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A165738181746320878; Max-Age=63072000; Expires=Mon, 08 Jul
+        2024 15:50:17 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_pzY48mV3Wp7gPU70nfrbjw=="; Max-Age=63072000; Expires=Mon,
+        08 Jul 2024 15:50:17 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - lang=en; Path=/
+      - guest_id=v1%3A165738181746320878; Max-Age=63072000; Expires=Mon, 08 Jul 2024
+        15:50:17 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      status:
+      - 200 OK
+      strict-transport-security:
+      - max-age=631138519
+      x-access-level:
+      - read-write-directmessages
+      x-connection-hash:
+      - dd58d2a106afcfcb680154366dc1af18a4a42a3380917aca935ba06592d6526d
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-response-time:
+      - '174'
+      x-transaction:
+      - ff7a97c4a99fcd28
+      x-twitter-response-tags:
+      - BouncerCompliant
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Host:
+      - api.twitter.com
+    method: GET
+    uri: https://api.twitter.com/1.1/users/show.json?id=%40SummarizerBot+
+  response:
+    body:
+      string: '{"id":1329690878261284865,"id_str":"1329690878261284865","name":"Too
+        Long; Read a Summary","screen_name":"SummarizerBot","location":"","profile_location":null,"description":"It
+        summarizes any type of information. Mention the bot as a reply to a shared
+        article or a long thread and it returns with the link of a summary.","url":null,"entities":{"description":{"urls":[]}},"protected":true,"followers_count":1,"friends_count":0,"listed_count":0,"created_at":"Fri
+        Nov 20 07:40:38 +0000 2020","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":69,"lang":null,"status":{"created_at":"Sat
+        Jul 09 15:50:17 +0000 2022","id":1545797497045614593,"id_str":"1545797497045614593","text":"@SummarizerBot
+        Lorem ipsum dolor sit amet,","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"SummarizerBot","name":"Too
+        Long; Read a Summary","id":1329690878261284865,"id_str":"1329690878261284865","indices":[0,14]}],"urls":[]},"source":"\u003ca
+        href=\"https:\/\/help.twitter.com\/en\/using-twitter\/how-to-tweet#source-labels\"
+        rel=\"nofollow\"\u003esummarizer_bot\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":1329690878261284865,"in_reply_to_user_id_str":"1329690878261284865","in_reply_to_screen_name":"SummarizerBot","geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1329691215877517312\/oz9NDnSc_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1329691215877517312\/oz9NDnSc_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1329690878261284865\/1609242083","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none","withheld_in_countries":[],"suspended":false,"needs_phone_verification":false}'
+    headers:
+      cache-control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      content-disposition:
+      - attachment; filename=json.json
+      content-length:
+      - '2488'
+      content-type:
+      - application/json;charset=utf-8
+      date:
+      - Sat, 09 Jul 2022 15:50:18 GMT
+      expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      last-modified:
+      - Sat, 09 Jul 2022 15:50:18 GMT
+      pragma:
+      - no-cache
+      server:
+      - tsa_f
+      set-cookie:
+      - guest_id_marketing=v1%3A165738181812813983; Max-Age=63072000; Expires=Mon,
+        08 Jul 2024 15:50:18 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id_ads=v1%3A165738181812813983; Max-Age=63072000; Expires=Mon, 08 Jul
+        2024 15:50:18 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_g1hbRgIAJJq7LFDX51kVLg=="; Max-Age=63072000; Expires=Mon,
+        08 Jul 2024 15:50:18 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - lang=en; Path=/
+      - guest_id=v1%3A165738181812813983; Max-Age=63072000; Expires=Mon, 08 Jul 2024
+        15:50:18 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      status:
+      - 200 OK
+      strict-transport-security:
+      - max-age=631138519
+      x-access-level:
+      - read-write-directmessages
+      x-connection-hash:
+      - b25b89f33f395cb4205dd15ba00cca1720ec3c2eff80ece3e880246affb5a81d
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-rate-limit-limit:
+      - '900'
+      x-rate-limit-remaining:
+      - '897'
+      x-rate-limit-reset:
+      - '1657382714'
+      x-response-time:
+      - '125'
+      x-transaction:
+      - 3d331e1a2e288df7
+      x-twitter-response-tags:
+      - BouncerCompliant
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1
