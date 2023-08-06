@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: torch_tutor
+Version: 0.0.1
+Summary: Simple & Efficient PyTorch Trainer
+Home-page: UNKNOWN
+Author: sagnik1511 (Sagnik Roy)
+Author-email: <sagnik.jal00@gmail.com>
+License: UNKNOWN
+Keywords: python,pytorch,training,logging
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
