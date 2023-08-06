@@ -1,0 +1,4 @@
+[console_scripts]
+felt-aggregate = feltlabs.algorithm.aggregate:main
+felt-train = feltlabs.algorithm.train:main
+
