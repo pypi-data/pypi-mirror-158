@@ -1,0 +1,11 @@
+menu_zerobeef/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+menu_zerobeef/data.py,sha256=1OzRwLPAtj2dv0QcmRGkMpl-MRm5OgPJqtUq2LKhQX8,5729
+menu_zerobeef/example.py,sha256=f_sSmzUvvQDq0vsnrnThYrIhlyT2FsyLHCqz4nF80-Y,2857
+menu_zerobeef/main.py,sha256=wmnYVTzHjwoxHtkD7_tnQJU6CP8CUqLb0Z1ciM2nVrs,508
+menu_zerobeef/menu.py,sha256=ZQtfOUPgm6gpfNXcoRMgQlJUc_ZqUsyWVKQOqPtyu_A,6580
+menu_zerobeef/setup.py,sha256=VKtVkyVG_jjGUKCwpoRSn1Qpw-lgTwtB6w2_19ODulU,524
+menu_zerobeef-0.2.dist-info/LICENSE.md,sha256=UKXvJyLCBZrQSWCbi4LnzozSTVQZJCg5VXS3HVee1l0,1061
+menu_zerobeef-0.2.dist-info/METADATA,sha256=WGQ6L7_4ul_u8bBdo66TNzCFtZOhGCjSs_6Jo_O3XTA,8495
+menu_zerobeef-0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+menu_zerobeef-0.2.dist-info/top_level.txt,sha256=U0W3N0dB6OMMe0AbHg9ytBjplnkBGIpj7jBf1K5iIBI,14
+menu_zerobeef-0.2.dist-info/RECORD,,
