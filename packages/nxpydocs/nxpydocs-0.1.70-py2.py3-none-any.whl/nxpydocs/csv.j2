@@ -1,0 +1,22 @@
+{%- if command == "show interface "%}
+Admin State,Encapsulation,Ethernet Auto Negotiate,Ethernet BIA Address,Ethernet Bandwidth,Ethernet Delay,Ethernet Duplex,Ethernet Ethertype,Ethernet MAC Address,Ethernet Hardware Description,Ethernet MDIX,Ethernet MTU",Ethernet Reliability,Ethernet RX Load,Ethernet TX load,Ethernet Speed,Interface,Medium,State,VDC Level Input Average Bits,VDC Level Input Average Packets,VDC Level Input Broadcast,VDC Level Input Bytes,VDC Level Input Multicast,VDC Level Input Packets,VDC Level Input Unicast,VDC Level Output Average Bits,VDC Level Output Average Packets,VDC Level Output Broadcast,VDC Level Output Bytes,VDC Level Output Multicast,VDC Level Output Packets,VDC Level Output Unicast
+{%-     for item in data_to_template.TABLE_interface.ROW_interface %}
+{{ data_to_template.admin_state }},{{ data_to_template.encapsulation }},{{ data_to_template.eth_autoneg }},{{ data_to_template.eth_bia_addr }},{{ data_to_template.eth_bw }},{{ data_to_template.eth_bw_str }},{{ data_to_template.eth_dly }},{{ data_to_template.eth_duplex }},{{ data_to_template.eth_ethertype }},{{ data_to_template.eth_hw_addr }},{{ data_to_template.eth_mdix }},{{ data_to_template.eth_mtu }},{{ data_to_template.eth_reliability }},{{ data_to_template.eth_rxload }},{{ data_to_template.eth_txload }},{{ data_to_template.eth_speed }},{{ data_to_template.interface }},{{ data_to_template.medium }},{{ data_to_template.state }},{{ data_to_template.vdc_lvl_in_avg_bits }},{{ data_to_template.vdc_lvl_in_avg_pkts }},{{ data_to_template.vdc_lvl_in_bcast }},{{ data_to_template.vdc_lvl_in_bytes }},{{ data_to_template.vdc_lvl_in_mcast }},{{ data_to_template.vdc_lvl_in_pkts }},{{ data_to_template.vdc_lvl_in_ucast }},{{ data_to_template.vdc_lvl_out_avg_bits }},{{ data_to_template.vdc_lvl_out_avg_pkts }},{{ data_to_template.vdc_lvl_out_bcast }},{{ data_to_template.vdc_lvl_out_bytes }},{{ data_to_template.vdc_lvl_out_mcast }},{{ data_to_template.vdc_lvl_out_pkts }},{{ data_to_template.vdc_lvl_out_ucast }}
+{%-     endfor %}
+{%- else %}
+{%- if command == "show inventory" %}
+Name,Description,Product ID,Vendor ID,Serial Number
+{%-     for item in data_to_template.TABLE_inv.ROW_inv %}
+{{ item.name }},{{ item.desc }},{{ item.productid }},{{ item.vendorid }},{{ item.serialnum }}
+{%-     endfor %}
+{%- else %}
+{%- if command == "show ip interface brief" %}
+Interface Name,Administrative State,Link State,Protocol State,IOD,IP Disabled,Prefix,VRF Name Out
+{%-     for item in data_to_template.TABLE_intf.ROW_intf %}
+{{ item["intf-name"] }},{{ item["admin-state"] }},{{ item["link-state"] }},{{ item["proto-state"] }},{{ item["iod"] }},{{ item["ip-disabled"] }},{{ item["prefix"] }},{{ item["vrf-name-out"] }}
+{%-     endfor %}
+{%- else %}
+{%- if command == "show version" %}
+BIOS Compile Time,BIOS Version,Bootflash Size,Chassis ID,CPU Name,Hostname,Kernel Uptime,Kickstart Compile Time,Kickstart Filename,Kickstart Timestamp,Kickstart Version,Manufacturer,Memory Type,Memory,NXOS Compile Time,NXOS Filename,NXOS Timestamp,NXOS Version,Plugins,Processor Board ID,RR Reason,RR Service,RR System Version,Header
+{{ data_to_template.bios_cmpl_time }},{{ data_to_template.bios_ver_str }},{{ data_to_template.bootflash_size }},{{ data_to_template.chassis_id }},{{ data_to_template.cpu_name }},{{ data_to_template.host_name }},{{ data_to_template.kern_uptm_days }} {{ data_to_template.kern_uptm_hrs }} {{ data_to_template.kern_uptm_mins }} {{ data_to_template.kern_uptm_secs }},{{ data_to_template.kick_cmpl_time }},{{ data_to_template.kick_file_name }},{{ data_to_template.kick_tmstmp }},{{ data_to_template.kickstart_ver_str }},{{ data_to_template.manufacturer | replace(","," ") }},{{ data_to_template.mem_type }},{{ data_to_template.memory }},{{ data_to_template.nxos_cmpl_time }},{{ data_to_template.nxos_file_name }},{{ data_to_template.nxos_tmstmp }},{{ data_to_template.nxos_ver_str }},{{ data_to_template.plugins | replace(","," ") }},{{ data_to_template.proc_board_id }},{{ data_to_template.rr_reason }},{{ data_to_template.rr_service }},{{ data_to_template.rr_sys_ver }},{{ data_to_template.header_str | replace("\n"," ") | replace(","," ") }}
+{%- endif %}{%- endif %}{%- endif %}{%- endif %}
