@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tkar.egg-info/PKG-INFO
+tkar.egg-info/SOURCES.txt
+tkar.egg-info/dependency_links.txt
+tkar.egg-info/entry_points.txt
+tkar.egg-info/top_level.txt
