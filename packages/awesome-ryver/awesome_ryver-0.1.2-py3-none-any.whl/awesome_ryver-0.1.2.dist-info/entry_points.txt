@@ -1,0 +1,3 @@
+[console_scripts]
+awesome-ryver = awesome_ryver.main:main
+
