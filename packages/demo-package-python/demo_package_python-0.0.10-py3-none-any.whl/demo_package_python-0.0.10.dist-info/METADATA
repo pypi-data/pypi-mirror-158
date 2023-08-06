@@ -1,0 +1,170 @@
+Metadata-Version: 2.1
+Name: demo-package-python
+Version: 0.0.10
+Summary: This is a sample package which follows the instructions for publishing a Python package to PyPI.
+Project-URL: Homepage, https://gitlab.com/demo-package/demo-package-python
+Project-URL: Bug Tracker, https://github.com/demo-package/demo-package-python/~/issues
+Author: Example
+License: Copyright 2022 Levi John Sta. Ana
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# DEMO-PACKAGE-PYTHON 
+This is a sample package which follows the instructions 
+for publishing a Python package to PyPI. 
+
+This repository can be used as a template for building packages. 
+See section `Reusing as Template` for more info on how.
+
+## Outline 
+This `README.md` file is organized as follows: 
+
+1. Outline 
+2. Full Instructions 
+3. Summarized/Compact Instructions
+4. Code Structure 
+5. Demo Package Installation Instructions
+6. Reusing as Template
+7. Adding Additional Files
+
+## Full Instructions 
+Full instructions for publishing a Python package using 
+PyPI can be found here: 
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+I made a `tinyurl.com` shortlinks for the 
+tutorial link above:
+
+https://tinyurl.com/how-to-package-python
+
+If you want, you can include the links above to your
+bookmarks.
+
+## Summarized/Compact Instructions 
+In summary the insructions can be divided into the outline below
+if you don't feel clicking the tutorial link again and again.
+
+Full instructions can be found in the tutorials above in case 
+the summary doesn't still help in recall.
+
+1. Creating a package 
+    1. Create package files (see code structure below for an example)
+    1. Create `test/` directory
+    1. Create `pyproject.toml` with the necessary `[build-system]`, `[project]`, and `[project.urls]` options
+    1. Configure metadata of project. Common metadata are shown below. For a more thorough example, see `pyproject.toml`
+        1. name 
+        1. version
+        1. authors (must be in array format)
+        1. description 
+        1. readme
+        1. license
+        1. requires-python
+        1. classifiers
+    1. Create `README.md` file
+    1. Create `LICENSE` file
+1. Generating distribution archives 
+    1. Step 1: Install `build` package 
+    ```
+    python3 -m pip install --upgrade build`
+    ``` 
+    1. Step 2: Run `python3 -m build` on the first build and successive build updates for different versions.
+        * Generates a `dist/` folder for the built package
+        * Puts a `.whl` and `.tar.gz` file in the dist folder for the current version.
+1. Uploading the distribution archives 
+    1. Install `twine`, a tool for uploading packages to different package indices. 
+        ```
+        python3 -m pip install --upgrade twine
+        ```
+    1. Upload archives under `dist`
+        ```
+        python3 -m twine upload --repository testpypi dist/*
+        ```
+
+
+## Code Structure 
+
+```bash
+demo-package-python
+    dist/                           # distribution files 
+    env/                            # virtual environment for the package 
+    scripts/                        # scripts 
+        build_pyproject_toml.py     # build pyproject_toml.py 
+    src/                            # source files for the package 
+    tests/                          # tests for the package 
+        main.py         
+    utils/  
+        build.sh                    # shell script for building package
+        publish.sh                  # shell script for publishing package
+        setup.sh                    # shell script for setting up package
+    LICENSE                         # MIT License 
+    pyproject.dev.toml              # project configuration 
+    pyproject.toml                  # built project configuration
+    requirements.txt                # requirements list generated by pip freeze
+```
+
+## Demo Package Installation Instructions
+The demo package has a simple API of 3 functions. 
+
+* `.say_hello_world()`
+* `.say_hi(name)`
+* `.random_rainbow_color()` - uses the `faker` package 
+
+To use this package: 
+`pip install demo_package_python`
+
+Then: 
+```js
+import demo_package
+
+print(".sayHello() => " + demo_package.say_hello_world()) 
+print(".sayHi('John') => " + demo_package.say_hi('John'))
+print(".randomRainbowColor() => " + demo_package.random_rainbow_color())
+```
+It should return the following: 
+```
+.say_hello() => Hello, World! 
+.say_hi('John') => Hi, John!
+.random_rainbow_color() => blue
+```
+
+## Reusing as Template
+If you intend to reuse this package as a template for future package projects, use the following command: 
+
+1. `git clone https://gitlab.com/demo-package/demo-package-python.git`
+
+1. Edit `pyproject.toml` to match your project description.
+
+1. Remove contents of `src/demo_package_python` 
+
+1. Rename `src/demo_package_python` to `src/[your_project_name]` 
+
+1. Make sure your have `virtualenv` installed and then run the following
+    ```
+        virtualenv env 
+    ```
+    or 
+    ```
+        python3 -m venv env
+    ```
+
+1. Activate virtual environment
+    `source env/bin/activate` 
+
+1. Run from command line:
+    ```
+    bash utils/setup.sh
+    ```
+
+1. Use the following commands to simplify routines: 
+    1. `bash utils/build.sh` - to build project
+    1. `bash utils/publish.sh` - to upload project
