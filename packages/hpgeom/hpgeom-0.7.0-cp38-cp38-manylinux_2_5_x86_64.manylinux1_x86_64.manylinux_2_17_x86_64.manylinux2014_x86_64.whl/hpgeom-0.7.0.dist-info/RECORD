@@ -1,0 +1,10 @@
+hpgeom/healpy_compat.py,sha256=BeA4_Elyo2-wb9esCGg7dgJ6HNyYxgDozp_v3LYCvpw,14369
+hpgeom/_hpgeom.cpython-38-x86_64-linux-gnu.so,sha256=0HElKLY2fslPnXHl8n0mc-vd8VEmzFjnKgw4Pekuz7M,341800
+hpgeom/hpgeom.py,sha256=x0jKa_-bnmR-L7kU4L9sVaLPUCyDeNff-On7jRfXod8,11863
+hpgeom/__init__.py,sha256=j8Yr6qFXbnP0ZDPSgZ3a5yAAUM7VX3mW9PNS1BR1Uzc,311
+hpgeom-0.7.0.dist-info/top_level.txt,sha256=KMXgOieeXkh2CMZb9GBcMP-Sn52Bqn74mF8QfuVfjc0,7
+hpgeom-0.7.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+hpgeom-0.7.0.dist-info/WHEEL,sha256=Buq0s4-kaRglAVHfGKm_b4CVYtkMY90kHTy3VpNpJvY,217
+hpgeom-0.7.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+hpgeom-0.7.0.dist-info/METADATA,sha256=2j_kS05bLbwU2NuWuNc1KinqnLluemLv4JLzZ2e4F8w,3488
+hpgeom-0.7.0.dist-info/RECORD,,
