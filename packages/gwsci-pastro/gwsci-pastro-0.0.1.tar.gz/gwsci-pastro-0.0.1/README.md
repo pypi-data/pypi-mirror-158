@@ -1,0 +1,163 @@
+# Pastro
+
+This repository tests and builds our p_astro model for the evaluation of p(c|x) with BNS, BBH, NSBH, and Terrestial (noise) events.
+
+
+# Install & Setup (on ICDS)
+
+We want to execute our package in singularity. Start by making a directory to try this out in e.g.,
+
+```
+$ mkdir /ligo/home/ligo.org/user.name/pastro_test
+$ cd /ligo/home/ligo.org/user.name/pastro_test
+```
+wherever you want to install the p-astro package at. 
+
+We will install everything in a writable gstlal container. Start by 
+
+```
+$ singularity build --sandbox --fix-perms gstlal-dev docker://containers.ligo.org/lscsoft/gstlal:master
+```
+
+Get directory mounts ready (ICDS)
+
+```
+$ mkdir gstlal-dev/ligo gstlal-dev/cvmfs
+```
+
+Enter the container and clone this repo
+
+```
+$ singularity run --writable -B /ligo -B /cvmfs gstlal-dev
+Singularity> cd gstlal-dev
+Singularity> mkdir src
+Singularity> cd src
+Singularity> git clone https://git.ligo.org/gstlal/pastro.git
+Singularity> cd pastro
+```
+
+After going into the repo directory, you can setup the environment
+
+
+```
+Singularity> python3 setup.py install --old-and-unmanageable
+```
+
+Notice: You need to repeat the `python3 setup.py` step each time you `git pull` the p-astro repo. 
+
+Now you should have a working container with this repo installed. To test it, exit the contaier (e.g., ctrl+D) and try it out
+
+```
+[chad.hanna@comp-hd-002 pastro_test]$ singularity exec gstlal-dev python3 
+Python 3.6.8 (default, Nov 10 2020, 07:30:01) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-44)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pastro
+>>>
+```
+
+It works! the pastro package is installed.
+
+
+# Executing the Jobs
+
+Makefile in `/ligo/home/ligo.org/user.name/pastro_test/gstlal-dev/src/examples/Makefile` provides a good example of running the p-astro jobs.
+
+
+If you want to use the Makefile, follow the instructions below:
+
+make sure you are in your original directory, e.g., `/ligo/home/ligo.org/user.name/pastro_test` then do
+
+```
+$ cp -r gstlal-dev/src/pastro/examples .
+$ cd examples
+```
+
+open the Makefile and change the `UNAME` (second line) to your LIGO username.  
+
+To load the injection and noise database from ICDS and UWM-submit, do
+
+```
+$ make bns
+$ make bbh
+$ make nsbh
+$ make zl
+```
+If you get an error with `Permission Denied`, you need to fix your `scp/shh keys` at LIGO Data Grid https://ldg.ligo.org/ldg/manage_ssh/ 
+
+To load the original trunk files, do
+
+```
+$ make bbh-inj-files
+$ make bns-inj-files
+$ make nsbh-inj-files
+```
+
+Next, p-astro can build model for injection events:
+
+```
+$ make H1L1V1-BNS_LR_DIST-1238166018-15813982.h5
+$ make H1L1V1-NSBH_LR_DIST-1238166018-15813982.h5
+$ make H1L1V1-BBH_LR_DIST-1238166018-15813982.h5
+```
+
+For model of noise event:
+
+```
+$ make H1L1V1-TERRESTRIAL_LR_DIST-1238166018-15813982.h5
+```
+The outputs are saved into .h5 files. 
+
+To combine all models and setup expected count number, try:
+
+```
+$ make H1L1V1-PASTRO_MODEL-1238166018-15813982.h5
+
+```
+
+You can change the merge-rate and VT-parameter to the values that you are looking for.
+
+To (end-to-end) test the p-astro model, try:
+
+```
+make bns-test bbh-test nsbh-test noise-test
+```
+
+## Optional
+
+1. If you want to calculate the likelihood threshold L* for expected count of noise event N = 1, do
+
+```
+$ make l-thresh
+```
+
+2. If you want want to find out vt-parameters for O3a analysis, do
+
+```
+$ make bns-vt bbh-vt nsbh-vt
+$ make bns-count-coinc bbh-count-coinc nsbh-count-coinc
+```
+
+3. If you want to calculate the expected count number for O3a analysis, do
+
+```
+$ make bns-expected-O3a-count bbh-expected-O3a-count nsbh-expected-O3a-count
+```
+
+## To test FGMC model
+
+
+creating a container and installing module same as mentioned before
+
+once module is installed create model, test on MDC3 and calculate pastro if any non injection trigger:
+
+```
+$ cp gstlal-dev/src/pastro/example/fgmc/Makefile .
+$ make
+$ singularity exec -B $TMPDIR gstlal-dev ./calculate_pastro_fgmc --fgmc-model fgmc_model.h5 --templateid 1850878.0 --snr  15.94585437696268  --lnlr 72.66537955263014
+{"BBH": 2.8681947700320015e-06, "BNS": 0.9999929320428521, "NSBH": 4.1997623780371124e-06, "Terr": -2.220446049250313e-16}
+```
+
+
+
+

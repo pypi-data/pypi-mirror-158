@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+
+
+from optparse import OptionParser
+import json
+import numpy as np
+
+def parse_command_line():
+  parser = OptionParser()
+  parser.add_option("-v", "--verbose", action = "store_true", help = "Be verbose.",default=False)
+  parser.add_option("--counts-old", help="string of dictionary containg old run counts")
+  parser.add_option("--dbns-old",help="string of dictionary containg BNS ranges of older runs")
+  parser.add_option("--runtime-old",help="string of dictionary containg run time of older runs")
+  parser.add_option("--threshold-old",help="far threshold used in older runs")
+  
+  (options,arg) = parser.parse_args()
+
+  process_params = dict(options.__dict__)
+
+  return options,process_params
+  
+options,process_params = parse_command_line()
+
+counts=json.loads(options.counts_old)
+categories=list(counts.keys())
+categories.remove("Terr")
+dbns=json.loads(options.dbns_old)
+T=json.loads(options.runtime_old)
+far_th_old=float(options.threshold_old)
+T_live_old=counts['Terr']/far_th_old
+T_eff={c:T[c]*T_live_old/np.sum(list(T.values())) for c in list(T.keys())}
+VT=np.sum(list({c:dbns[c]**3*T_eff[c] for c in list(T.keys())}.values()))
+rates={c:counts[c]/VT for c in categories}
+
+print(json.dumps(rates))
+    
+  
