@@ -1,0 +1,2 @@
+pymatgen>=2022.2.3
+dscribe>=1.2.1
