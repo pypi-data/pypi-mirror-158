@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: Pandarize
+Version: 0.0.4
+Summary: Turns data into panda dataframe
+Home-page: https://github.com/jshinm/pandarize/
+Author: Jong M. Shin
+Author-email: jshinm@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: pandas
+Requires: requests
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: requests
+
+# Pandarize
+This project aims to turn all kinds of data structure/types into a nice tabulated pandas DataFrame
+
+# Installation
+```
+pip install pandarize
+```
+
+# Basic Usage Guide
+```python
+from pandarize.frame import Pandarizer
+
+pdr = Pandarizer() #instantiate Pandarizer class
+pdr.load(source='https://somewebsite.com/filename.bib') #it can load from url or local source
+pdr.fit() #infers data types and parse it into pandas dataframe
+pdr.transform() #changes pandas dataframe into different mode of data types
+```
+
+# Currently Supported Data Types
+- bib
+
+
+
