@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: autonet-api
+Version: 0.2.1
+Summary: Network device configuration abstraction API
+Home-page: https://github.com/Connectria/autonet
+Author: Ken Vondersaar
+Author-email: kvondersaar@connectria.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Connectria/autonet
+Project-URL: Documentation, https://connectria.github.io/autonet
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: conf-engine (>=1.0)
+Requires-Dist: Flask (>=2.1.2)
+Requires-Dist: passlib (>=1.7.0)
+Requires-Dist: pymysql (>=1.0.2)
+Requires-Dist: PyYAML (~=6.0)
+Requires-Dist: requests (>=2.0.12)
+Requires-Dist: requests-cache (>=0.9.4)
+Requires-Dist: SQLAlchemy (>=1.4.36)
+Requires-Dist: macaddress (>=1.2.0)
+
+Autonet
+-------
+Autonet is a WSGI application that abstracts vendor specific network
+device configuration into a standard set of vendor independent API calls.
+
+See the full `documentation <https://connectria.github.io/autonet>`_ for
+more details.
+
