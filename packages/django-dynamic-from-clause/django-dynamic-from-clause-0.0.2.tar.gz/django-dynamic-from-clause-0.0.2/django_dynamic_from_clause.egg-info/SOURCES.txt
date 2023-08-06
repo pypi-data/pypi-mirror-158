@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+django_dynamic_from_clause/__init__.py
+django_dynamic_from_clause/compiler.py
+django_dynamic_from_clause/models.py
+django_dynamic_from_clause/query.py
+django_dynamic_from_clause/sql.py
+django_dynamic_from_clause.egg-info/PKG-INFO
+django_dynamic_from_clause.egg-info/SOURCES.txt
+django_dynamic_from_clause.egg-info/dependency_links.txt
+django_dynamic_from_clause.egg-info/requires.txt
+django_dynamic_from_clause.egg-info/top_level.txt
+tests/test_app/__init__.py
+tests/test_app/apps.py
+tests/test_app/models.py
+tests/test_app/migrations/__init__.py
