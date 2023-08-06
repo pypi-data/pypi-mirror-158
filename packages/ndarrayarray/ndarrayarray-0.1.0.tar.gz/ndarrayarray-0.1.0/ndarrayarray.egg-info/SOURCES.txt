@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+ndarrayarray/__init__.py
+ndarrayarray/_version.py
+ndarrayarray/ndarrayarray.py
+ndarrayarray/readcode.py
+ndarrayarray.egg-info/PKG-INFO
+ndarrayarray.egg-info/SOURCES.txt
+ndarrayarray.egg-info/dependency_links.txt
+ndarrayarray.egg-info/requires.txt
+ndarrayarray.egg-info/top_level.txt
