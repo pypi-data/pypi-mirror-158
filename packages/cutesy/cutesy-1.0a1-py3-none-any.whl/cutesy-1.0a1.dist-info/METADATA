@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: cutesy
+Version: 1.0a1
+Summary: A linter & autoformatter for cute HTML code, or else.
+Home-page: https://github.com/chasefinch/cutesy
+Author: Chase Finch
+Author-email: chase@finch.email
+Keywords: Cutesy,HTML,lint,linter,format,formatter,autoformat,autoformatter
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Cutesy 🥰
+
+A cute little HTML linter, until y̵ou ma̴k̵e i̴͌ͅt̴ ̶̰̈́m̴͔̊͒̅a̷͖̠͊̈́̕d̶͇̠͕͙͌.̸
+
+---
+
+![Python 3.6+](https://img.shields.io/badge/python-3.6%2B-blue) [![Build Status](https://travis-ci.com/chasefinch/cutesy.svg?branch=main)](https://travis-ci.com/chasefinch/cutesy)
+
+Cutesy checks HTML documents for consistency and best practices. It includes a set of rules, most of which can be fixed automatically.
+
+---
+
+### Testing, etc.
+
+Install development requirements (Requires Python >= 3.8):
+
+    make install
+
+Sort imports:
+
+    make format
+
+Lint:
+
+    make lint
+
+Test:
+
+    make test
