@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: menelaus
+Version: 0.1.2
+Summary: This library implements algorithms for detecting data drift and concept drift for ML and statistics applications.
+Home-page: https://github.com/mitre/menelaus
+Author: Leigh Nicholl, Thomas Schill, India Lindsay, Anmol Srivastava, Kodie P McNamara, Austin Downing
+Author-email: tschill@mitre.org
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: format
+License-File: LICENSE.txt
+
+Menelaus implements algorithms for the purposes of drift detection. Drift
+detection is a branch of machine learning focused on the detection of unforeseen
+shifts in data. The relationships between variables in a dataset are rarely
+static and can be affected by changes in both internal and external factors,
+e.g. changes in data collection techniques, external protocols, and/or
+population demographics. Both undetected changes in data and undetected model
+underperformance pose risks to the users thereof. The aim of this package is to
+enable monitoring of data and machine learning model performance.
+
+For full documentation, see:
+
+* GitHub: https://github.com/mitre/menelaus
+
+* ReadTheDocs: https://menelaus.readthedocs.io/en/latest/
+
+
