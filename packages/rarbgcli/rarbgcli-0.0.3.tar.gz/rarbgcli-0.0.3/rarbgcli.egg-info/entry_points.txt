@@ -1,0 +1,4 @@
+[console_scripts]
+rarbg = rarbgcli.rarbgcli:rarbgcli
+rarbgcli = rarbgcli.rarbgcli:rarbgcli
+
