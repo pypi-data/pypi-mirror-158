@@ -1,0 +1,15 @@
+wordfreak/__init__.py,sha256=3wo_mZq18vpwIRJKOF10R6fvvbs-HIZhqYR4IUh38M8,111
+wordfreak/parser/DocxParser.py,sha256=Qz1LfDQuxyKAJkuSi58b6P8WeANyJGbbgSabG2IaF7Y,409
+wordfreak/parser/Parser.py,sha256=vmsJr-EJoULRQYtD16zOy0tRjKWpbsbXDBySDXvUkmY,909
+wordfreak/parser/PdfParser.py,sha256=C-Q3HR3Nli1yQ48ZTifl6Ux8uRFGB9SQSRMfUcueIxk,511
+wordfreak/parser/TxtParser.py,sha256=85HWk63tR3nJEss6K2eBvfFW6LalAcTAMQDdxJDmsOU,471
+wordfreak/parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordfreak/service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordfreak/service/wordFrequency.py,sha256=rG_QA7RBur2eJVJVlHMcgDLArfiXWO0DlFur4pD3hv4,2583
+wordfreak/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordfreak/util/constants.py,sha256=Y0JGu9tMBn2oXRhZYl5ACjF6wLFTbwuhKtIlxKOSMVk,277
+wordfreak-0.0.12.dist-info/LICENSE,sha256=lF0ccSFa-ulVkNLL1ptvIcd-WSpTqAlelveMh44r3N0,1088
+wordfreak-0.0.12.dist-info/METADATA,sha256=RtY1nQJxh1C4UzufFTe7XoWd96-i6PmM4zzbYQthCbA,3429
+wordfreak-0.0.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wordfreak-0.0.12.dist-info/top_level.txt,sha256=6UACl_9gwuO5RYsOqS0IzwzRKhJtR6Vx1K88zy4nb70,10
+wordfreak-0.0.12.dist-info/RECORD,,
