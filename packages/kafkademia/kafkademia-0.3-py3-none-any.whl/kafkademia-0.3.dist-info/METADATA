@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: kafkademia
+Version: 0.3
+Summary: UNKNOWN
+Author-email: ulises.ramirez@datalytics.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE.md
+Requires-Dist: kafka-python
+
+UNKNOWN
+
