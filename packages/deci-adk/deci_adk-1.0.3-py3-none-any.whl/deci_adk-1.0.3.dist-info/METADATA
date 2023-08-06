@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: deci-adk
+Version: 1.0.3
+Summary: Deci AutoNAC Development Kit
+Author: Deci AI
+Author-email: rnd@deci.ai
+Requires-Python: >=3.7.1,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: deci-lab-client (>=2.15.1)
+Requires-Dist: pickle-mixin (>=1.0.2,<2.0.0)
+Requires-Dist: torch (>=1.9.0)
