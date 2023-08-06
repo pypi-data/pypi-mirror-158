@@ -1,0 +1,9 @@
+GDR/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GDR/dim_reduce_dataset.py,sha256=wQEpZGtSxsBG8EImUhCsvjK8tUO_dcAJdMXfeyr7RRQ,5200
+nndescent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nndescent/setup.py,sha256=xqHodhApOqzXvecYoPBJVZJRJ_V0ryui2w3ZwyoZxSM,1486
+GradientDR-0.1.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+GradientDR-0.1.1.dist-info/METADATA,sha256=dbrL3lUvyeSovouYm1yRISy8MWOcrM9O5EjTowiyFbc,537
+GradientDR-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+GradientDR-0.1.1.dist-info/top_level.txt,sha256=unW98K19nZM-fwBxdpsYFJ5UGb8r6ZcUaj3ca3ZxS6s,14
+GradientDR-0.1.1.dist-info/RECORD,,
