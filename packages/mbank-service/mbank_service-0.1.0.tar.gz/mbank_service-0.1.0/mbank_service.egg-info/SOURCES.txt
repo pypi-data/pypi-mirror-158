@@ -1,0 +1,11 @@
+README.md
+setup.py
+clients/__init__.py
+clients/base.py
+clients/exceptions.py
+clients/mbank_client.py
+clients/ri_client.py
+mbank_service.egg-info/PKG-INFO
+mbank_service.egg-info/SOURCES.txt
+mbank_service.egg-info/dependency_links.txt
+mbank_service.egg-info/top_level.txt
