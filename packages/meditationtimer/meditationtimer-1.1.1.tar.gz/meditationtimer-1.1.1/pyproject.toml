@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "click>=8.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meditationtimer"
+version = "1.1.1"
+authors = [
+    { name = "Folkert Jansen", email = "fkjansen@protonmail.com"},
+]
+
+description = "A small CLI meditation app for mindfullness sessions"
+requires-python = ">=3.0"
+classifiers = [
+   "Programming Language :: Python :: 3",
+   "Operating System :: OS Independent",
+]
+readme = "README.md"
+#license
+keywords = [ "cli", "meditation", "click"]
+
+dynamic = ["entry-points"]
+
+
+
+[tool.setuptools.packages]
+find = {}
+
