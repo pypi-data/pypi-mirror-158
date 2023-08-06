@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sboxtools
+Version: 0.0.1
+Summary: Cryptographic S-box Tools for Python
+Home-page: https://github.com/DonggeunKwon/sboxtools
+Author: Donggeun Kwon
+Author-email: donggeun.kwon@gmail.com
+License: MIT
+Keywords: sbox,cryptographic,DDT,LAT,BCT,ACT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3
+Requires-Dist: numpy
+
