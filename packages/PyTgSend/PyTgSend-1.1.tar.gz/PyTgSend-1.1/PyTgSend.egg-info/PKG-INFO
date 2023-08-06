@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: PyTgSend
+Version: 1.1
+Summary: Lightweight function to send telegram messages
+Home-page: https://github.com/aptac01/PyTgSend.git
+Author: Alex Tamilin
+Author-email: popovalex402@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: telegram tg
+Platform: UNKNOWN

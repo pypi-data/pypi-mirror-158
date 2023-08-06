@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+PyTgSend/__init__.py
+PyTgSend.egg-info/PKG-INFO
+PyTgSend.egg-info/SOURCES.txt
+PyTgSend.egg-info/dependency_links.txt
+PyTgSend.egg-info/not-zip-safe
+PyTgSend.egg-info/requires.txt
+PyTgSend.egg-info/top_level.txt
