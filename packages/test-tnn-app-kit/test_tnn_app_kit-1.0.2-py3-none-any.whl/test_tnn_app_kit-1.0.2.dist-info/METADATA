@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: test-tnn-app-kit
+Version: 1.0.2
+Home-page: https://www.google.com
+Author: game
+Author-email: game@29next.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyYAML (>=5.4)
+Requires-Dist: requests (>=2.25)
+Requires-Dist: python-decouple (>=3.6)
+
+# TEST APP KIT
