@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ssisconverter
+Version: 0.1
+Summary: This Library can be used to read the SSIS Solution Package where you can able to read all the Transformation That are happend and Also you can able to get several Other details from the SSIS Package File using this Library.
+Home-page: UNKNOWN
+Author: Kamalesh
+Author-email: Kamalesh@hp.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+
+UNKNOWN
+
