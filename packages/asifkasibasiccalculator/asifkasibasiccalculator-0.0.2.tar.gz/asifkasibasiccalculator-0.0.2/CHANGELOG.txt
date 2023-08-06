@@ -1,0 +1,13 @@
+change log
+==========
+
+0.0.1(09/07/2022)
+------------------
+
+- First Release
+
+
+0.0.2(09/07/2022)
+------------------
+
+- Add remainder_numbers function

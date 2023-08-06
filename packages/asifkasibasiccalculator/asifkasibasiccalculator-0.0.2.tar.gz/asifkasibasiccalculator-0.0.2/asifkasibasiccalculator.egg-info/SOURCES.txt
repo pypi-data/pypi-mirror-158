@@ -1,0 +1,11 @@
+CHANGELOG.txt
+How to uploade packages to pypi.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+asifkasibasiccalculator/__init__.py
+asifkasibasiccalculator.egg-info/PKG-INFO
+asifkasibasiccalculator.egg-info/SOURCES.txt
+asifkasibasiccalculator.egg-info/dependency_links.txt
+asifkasibasiccalculator.egg-info/top_level.txt
