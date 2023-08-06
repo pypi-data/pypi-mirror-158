@@ -1,0 +1,3 @@
+recursive-include choreo *
+global-exclude *.py[cod]
+include VERSION

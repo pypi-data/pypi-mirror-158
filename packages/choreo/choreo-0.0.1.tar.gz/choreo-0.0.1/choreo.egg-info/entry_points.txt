@@ -1,0 +1,2 @@
+[console_scripts]
+choreo = choreo.__main__:main

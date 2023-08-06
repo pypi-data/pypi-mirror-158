@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.cfg
+setup.py
+choreo/__init__.py
+choreo/__main__.py
+choreo.egg-info/PKG-INFO
+choreo.egg-info/SOURCES.txt
+choreo.egg-info/dependency_links.txt
+choreo.egg-info/entry_points.txt
+choreo.egg-info/not-zip-safe
+choreo.egg-info/requires.txt
+choreo.egg-info/top_level.txt
+tests/__init__.py
