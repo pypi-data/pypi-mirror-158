@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: minimal-image-classification
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/itmorn/minimal-image-classification
+Author: itmorn
+Author-email: 12567148@qq.com
+License: Apache License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+
+Implementations of basic image classification algorithms with minimal lines of codes! (PyTorch based)
+
