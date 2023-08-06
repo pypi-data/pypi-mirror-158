@@ -1,0 +1,8 @@
+LICENCE
+README
+setup.py
+AddCalculator/__init__.py
+AddCalculator.egg-info/PKG-INFO
+AddCalculator.egg-info/SOURCES.txt
+AddCalculator.egg-info/dependency_links.txt
+AddCalculator.egg-info/top_level.txt
