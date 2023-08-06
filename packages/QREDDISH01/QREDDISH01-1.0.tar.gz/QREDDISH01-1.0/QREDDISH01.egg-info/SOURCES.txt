@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+QREDDISH01.egg-info/PKG-INFO
+QREDDISH01.egg-info/SOURCES.txt
+QREDDISH01.egg-info/dependency_links.txt
+QREDDISH01.egg-info/top_level.txt
+kits/__init__.py
+kits/main.py
