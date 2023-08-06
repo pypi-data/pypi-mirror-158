@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: orats
+Version: 0.1.1a0
+Summary: Client SDK for the ORATS API.
+Home-page: https://github.com/lucasmlofaro/orats-python
+License: GPL-3.0-or-later
+Keywords: options,volatility,orats
+Author: Lucas Lofaro
+Author-email: lucasmlofaro@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Requires-Dist: pydantic (>=1.9.1,<1.10.0)
+Project-URL: Documentation, https://lucasmlofaro.github.io/orats-python
+Project-URL: Issue Tracker, https://github.com/lucasmlofaro/orats-python/issues
+Project-URL: Repository, https://github.com/lucasmlofaro/orats-python
+Description-Content-Type: text/markdown
+
+# ORATS Python SDK
+
+> **BEWARE** This project is **unstable** and in early stages of development!
+
+This project is a wrapper around [ORATS](https://orats.com/) APIs.
+
+![Docs](../../actions/workflows/build-docs.yml/badge.svg)
+![Tests](../../actions/workflows/run-tests.yml/badge.svg)
+
+> **NOTE**: ORATS offers numerous subscription services.
+Depending on your personal subscriptions, you will be issued an API key with
+appropriate permissions. Some functionality in this SDK may not be accessible
+if you are not subscribed to the necessary services.
+
+## Project Structure
+
+### Development Tooling
+
+- Source Control Management: [Git](https://git-scm.com/) + [GitHub](https://github.com/)
+- Documentation: [Sphinx](https://www.sphinx-doc.org/) + [GitHub Pages](https://pages.github.com/)
+- CI/CD: [GitHub Actions](https://github.com/features/actions)
+- Code Style: [Black](https://pypi.org/project/black/)
+- Type Checker: [mypy](http://mypy-lang.org/)
+- Test Runner: [tox](https://tox.wiki/) + [pytest](https://docs.pytest.org/)
+
