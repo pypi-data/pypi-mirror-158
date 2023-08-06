@@ -1,0 +1,10 @@
+README.rst,sha256=1WS69fIGYZVvNxw87S662X59dZ3YMW-LpzWdNVYlBoI,3650
+pycomex/VERSION,sha256=6d2FB_S_DG9CRY5BrqgzrQvT9hJycjNe7pv01YVB7Wc,6
+tests/__init__.py,sha256=eWTjRMih1wPYJqPu5th_abknlaSdZ-9U7LfLYWa_g3E,37
+tests/test_examples.py,sha256=mkdidx9_aidjpIHVAUlfwweKPHGRQjarKmr507EQBdM,105
+tests/test_experiment.py,sha256=UTjQaPee7HKphTbsnXosBxb-x-emdFUScEL886Ri714,5758
+pycomex-0.1.0.dist-info/entry_points.txt,sha256=jNAVTks6FBkjuUfTbR8q3P-c3AblyZDv5wDkEzCIGE8,44
+pycomex-0.1.0.dist-info/LICENSE,sha256=EciQxCCH270GZy7FKLSBbe21yPJFnJVThUklcJuaKD4,1071
+pycomex-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pycomex-0.1.0.dist-info/METADATA,sha256=Fb4x-4C42FqKnGJV3cuhdz88oRpAFis21QXLcltajbM,4439
+pycomex-0.1.0.dist-info/RECORD,,
