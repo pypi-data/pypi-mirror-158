@@ -1,0 +1,9 @@
+README.md
+setup.py
+mullaney_testpkg_a/__init__.py
+mullaney_testpkg_a/main_library.py
+mullaney_testpkg_a.egg-info/PKG-INFO
+mullaney_testpkg_a.egg-info/SOURCES.txt
+mullaney_testpkg_a.egg-info/dependency_links.txt
+mullaney_testpkg_a.egg-info/requires.txt
+mullaney_testpkg_a.egg-info/top_level.txt

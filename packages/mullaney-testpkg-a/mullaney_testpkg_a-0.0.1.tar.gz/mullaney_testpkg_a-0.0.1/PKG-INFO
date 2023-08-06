@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mullaney_testpkg_a
+Version: 0.0.1
+Summary: Testing installation of Package
+Home-page: https://github.com/mullaneywt/mullaney-testpkg-a
+Author: Will Mullaney
+Author-email: will.mullaney@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/mullaneywt/mullaney-testpkg-a/issues
+Description: # mullaney-testpkg-a
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
