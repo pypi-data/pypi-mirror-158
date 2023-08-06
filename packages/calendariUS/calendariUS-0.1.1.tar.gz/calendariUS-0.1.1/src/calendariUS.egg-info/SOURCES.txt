@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/calendariUS.egg-info/PKG-INFO
+src/calendariUS.egg-info/SOURCES.txt
+src/calendariUS.egg-info/dependency_links.txt
+src/calendariUS.egg-info/entry_points.txt
+src/calendariUS.egg-info/requires.txt
+src/calendariUS.egg-info/top_level.txt
+src/calendarius/__init__.py
+src/calendarius/calendarius.py
+src/calendarius/calendarius_utils.py
+src/calendarius/people.py
