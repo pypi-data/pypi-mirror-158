@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "audiocodes-exporter"
+version = "0.1.2"
+description = "AudioCodes SBC exporter for the Prometheus monitoring system."
+authors = ["Matthew Neirynck <matthew.neirynck@telsmart.eu>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://bitbucket.org/matthew_neirynck/audiocodes-exporter"
+repository = "https://bitbucket.org/matthew_neirynck/audiocodes-exporter"
+keywords = ["prometheus", "audiocodes", "exporter"]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prometheus-client = "^0.14.1"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
