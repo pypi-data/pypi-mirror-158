@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: autonet-arista
+Version: 0.2.1
+Summary: Network device configuration abstraction API
+Home-page: https://github.com/Connectria/autonet-arista
+Author: Ken Vondersaar
+Author-email: kvondersaar@connectria.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Connectria/autonet-arista
+Project-URL: Documentation, https://connectria.github.io/autonet-arista
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: autonet-api
+Requires-Dist: pyeapi (>=0.8.4)
+
+Arista EOS Driver for Autonet
+-----------------------------
+Autonet is a WSGI application that abstracts vendor specific network
+device configuration into a standard set of vendor independent API calls.
+The Autonet Arista driver allows Autonet to work with devices that use
+Arista EOS.
+
+See the full `documentation <https://connectria.github.io/autonet-arista>`_ for
+more details.
+
