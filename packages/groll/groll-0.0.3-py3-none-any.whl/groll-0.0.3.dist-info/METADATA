@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: groll
+Version: 0.0.3
+Summary: A helpful, dice rolling, goblin that lives in your shell!
+Project-URL: Homepage, https://github.com/Krognak/groll
+Project-URL: Bug Tracker, https://github.com/Krognak/groll/issues
+Author-email: Gage Talbot <gagetalbot@pm.me>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >=3.10
+Requires-Dist: click>=8.1.3
+Description-Content-Type: text/markdown
+
+# Groll
+
+**A simple CLI app that rolls dice and evaluates the resulting expression.**
+
+    $ groll 2d6 + 1
+     > 3
+
+    $ groll d20 + 7 - 2
+     > 11
+
+## Installation
+
+    pip install groll
+
+## Usage
+
+    Usage: groll [OPTIONS] [DICE]...
+
+    A helpful, dice rolling, goblin that lives in your shell!
+
+    Options:
+    -v, --version  display version
+    --help         Show this message and exit.
