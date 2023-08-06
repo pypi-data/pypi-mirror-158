@@ -1,0 +1,15 @@
+crem>=0.2.9
+tqdm>=4.64.0
+numpy>=1.22.0
+pandas
+sklearn
+
+[openbabel]
+openbabel>=3.1.0
+
+[rdkit]
+rdkit>=2020
+
+[test]
+requests
+pytest
