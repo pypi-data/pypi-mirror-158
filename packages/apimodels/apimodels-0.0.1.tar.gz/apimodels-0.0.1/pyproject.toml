@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+exclude = ["__pycache__"]
+line-length = 120
+include = ".*pyi?$"
+target-version = ["py39"]
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[tool.slotscheck]
+require-superclass = true
+require-subclass = true
+exclude-classes = ":.*Meta.*|:.*[Pp]roperty.*"
+exclude-modules = ".*generator.*"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.pyright]
+include = ["apimodel"]
+exclude = ["**/__init__.py", "tests/**"]
+
+typeCheckingMode = "strict"
+reportMissingTypeStubs = "none"
+reportImportCycles = "none"
+reportIncompatibleMethodOverride = "none"  # This relies on ordering for keyword-only arguments
+reportUnusedFunction = "none"  # Makes usage of validators impossible
+reportPrivateUsage = "none"
+
+[tool.coverage.run]
+source = ["apimodel"]
+omit = ["**/__init__.py", "**/__main__.py"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false
+sort = "cover"
+exclude_lines = [
+    "\\#\\s*pragma: no cover$",
+    "^\\s*raise$",
+    "^\\s*pass$",
+    "^\\s*except ImportError:$",
+    "^\\s*raise .*$",
+    "^if __name__ == ['\"]__main__['\"]:$",
+    "^\\s*\\.\\.\\.$",
+    "^\\s*(el)?if typing.TYPE_CHECKING:$",
+    "def __pretty__(.*):$",
+]
