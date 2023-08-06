@@ -1,0 +1,9 @@
+setfit/__init__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+setfit/data.py,sha256=HK7hl8Mn30HNSDebWWdrp0XAlLETIlddZLeZJ0vxpZs,1181
+setfit/modeling.py,sha256=OzW-5YRTvq8LDQg8Skpj9i2fON8VhUqwhOwLzkK9Kl8,5935
+setfit/run_fewshot.py,sha256=n_mAjxK9Q2ysH67GqC8UJKabRAEUaK9xKSNe46Km-eU,7074
+setfit-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+setfit-0.0.1.dist-info/METADATA,sha256=eU_0xyj8IC0aM38d2dF4pBvAtkgUcja2LrAA9atvnHA,1427
+setfit-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+setfit-0.0.1.dist-info/top_level.txt,sha256=ernawvyDeHtp05b0yeuW8bbGgKaEemOLBklod7Gh0pY,7
+setfit-0.0.1.dist-info/RECORD,,
