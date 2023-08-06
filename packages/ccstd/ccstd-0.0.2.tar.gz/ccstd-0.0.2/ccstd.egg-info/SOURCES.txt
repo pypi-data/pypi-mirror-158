@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+ccstd/__init__.py
+ccstd.egg-info/PKG-INFO
+ccstd.egg-info/SOURCES.txt
+ccstd.egg-info/dependency_links.txt
+ccstd.egg-info/requires.txt
+ccstd.egg-info/top_level.txt
