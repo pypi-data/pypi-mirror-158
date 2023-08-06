@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: lxtokenizer
+Version: 0.5.6
+Summary: LX-Tokenizer segments text into lexically relevant tokens.
+Home-page: https://gitlab.nlx.di.fc.ul.pt/lx/lxtokenizer
+Author: Luís Gomes (the Python stuff); António Branco and João Silva
+Author-email: luis.gomes@di.fc.ul.pt
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
