@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: explainable-transformer
+Version: 0.2.0
+Summary: Software for debugging transformers
+Home-page: https://github.com/RohanAwhad/explainable-transformers
+Author: Rohan Awhad and Shreya Saxena
+Author-email: rohanawhad@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Explainable Transformers
+
+Install by running following command:
+
+```
+pip install explainable-transformers==0.2.0
+```
+
+## Usage
+
+```
+from explainable_transformers.text_classification import TextClassificationExplainer
+
+model_path = "cardiffnlp/twitter-roberta-base-sentiment-latest"
+explainer = TextClassificationExplainer(model_path=model_path)
+
+inp = ["I like you. I love you."]
+shap_values = explainer.get_shap_values(inp)
+
+print(shap_values.base_values)
+print(shap_values.values)
+```
+
+## Future Scope:
+
+-   Want to give an option to enter either a single example or an entire dataset!
+
+    For single example:
+
+    -   Output is for local
+    -   Text Plot is enough
+
+    Entire Dataset:
+    _ Reason: To explain model outputs on a global scale
+    _ Output:
+
+    1.  A plot for global values (Required): Waterfall Plot!
+    2.  Download option for shap values of dataset
+
+-   Support for multiple model types and NLP tasks!
+
+
+
