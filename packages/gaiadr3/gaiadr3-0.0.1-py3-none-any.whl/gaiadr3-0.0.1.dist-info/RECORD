@@ -1,0 +1,10 @@
+gaiadr3/__init__.py,sha256=r8dRe3I0NhYImk_gRHz4Vtf2T8RC1dBgDohh4YutjU4,65
+gaiadr3/core.py,sha256=xJlIgcjlDUAf7jnw1s1RDKOVLCSS00Ws1ZHD2vjwbIE,8419
+gaiadr3/phot_spec.py,sha256=lrKWSP3pKyyo8SePX_DaYmai5o1p6D8y79vJ868capo,1868
+gaiadr3/tap.py,sha256=Du-iPTbILFljdaFVXyGhCOlRWgjQNgVmTqKv2K9AMvM,2980
+gaiadr3/utils.py,sha256=O9MXdWcZPjmQdDWUzv8W2ktSwdDy_9mW1UOmWpgNdJg,1150
+gaiadr3-0.0.1.dist-info/LICENSE.txt,sha256=UvLHY_L3xBb48esYOsyk5vyjK5vXbrYFOavCY8qZpM4,1092
+gaiadr3-0.0.1.dist-info/METADATA,sha256=ZfEd02U3ZlHc1XVkCuRXWIidzZqmRxNOmHj3A4i-pvE,6332
+gaiadr3-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gaiadr3-0.0.1.dist-info/top_level.txt,sha256=2Ue7uauWMBjRbh9ooLI5k8ZDBciJUomXP2HVSVUmZK0,8
+gaiadr3-0.0.1.dist-info/RECORD,,
