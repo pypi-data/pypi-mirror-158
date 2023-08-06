@@ -1,0 +1,13 @@
+xmltodict
+pydash
+aicsimageio[all]
+aicspylibczi
+tqdm
+pylibczirw
+cztile
+numpy
+pandas
+seaborn
+plotly
+matplotlib
+scikit-image
