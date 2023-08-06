@@ -1,0 +1,3 @@
+[console_scripts]
+colo=colo.colo:colo
+
