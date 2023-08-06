@@ -1,0 +1,10 @@
+sgex/__init__.py,sha256=3a189NAQiJdKsP27L4-jWX9tbssKbc9hzp8vW2yRPUg,123
+sgex/_version.py,sha256=78mfpLewKVki6c9UONSUdlVme_JsN9ZwIfp4Hf4jmG0,22
+sgex/call.py,sha256=LAS9f7rC6VoFxIZgJsvu8LcUwrkEnfy-Qh-alAR53Z4,19654
+sgex/call_examples.py,sha256=qRXzOfKSD6rBB8z3UGpy0tofqahyPQBs94OS32GWGlM,2282
+sgex/parse.py,sha256=Ab5dj0TjOg9Q19RZq8_jtdcPRTBqsCPLfOwx2uJgY_k,1565
+sgex-0.5.5.dist-info/LICENSE,sha256=TrEdPKA1D8At0L2IgEiVNrpkO9eRdMccpX8w52sBABc,1520
+sgex-0.5.5.dist-info/METADATA,sha256=36AHtsLocvqA8YpGu-FvjSjjSFm0hce3RNapEuCREWQ,10869
+sgex-0.5.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sgex-0.5.5.dist-info/top_level.txt,sha256=yhpCl8Tiv9o8918yUJ3yim1BM1EM-REI7IFir-mzwtU,5
+sgex-0.5.5.dist-info/RECORD,,
