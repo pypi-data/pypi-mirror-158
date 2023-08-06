@@ -1,0 +1,8 @@
+LICENSE,sha256=LnrLT7yoNrVvYtRYM5Vh3VbsMRDbDjE_AJIE8meEjTk,1073
+safebag/__init__.py,sha256=O3edLKwGm3LqMq8CVuoyZfU7yakPioqdi-7Y-KcjbzA,100
+safebag/_chain_proxy.py,sha256=claTX3Ow5U-Pi02YVdFDdsoD_rueCTkisjLONzKE7ps,2718
+safebag/_methods.py,sha256=uPkZYsYBcHt2hxN0im6XzP_P_c6aak7_briXiVIvdKA,2371
+safebag-0.2.0.dist-info/LICENSE,sha256=LnrLT7yoNrVvYtRYM5Vh3VbsMRDbDjE_AJIE8meEjTk,1073
+safebag-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+safebag-0.2.0.dist-info/METADATA,sha256=EERWrJVSpeITOYDiBWSG661CjX5v7yaoPcTztjMy2UY,5239
+safebag-0.2.0.dist-info/RECORD,,
