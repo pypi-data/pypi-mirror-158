@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: general_util
+Version: 1.0.0
+Summary: General utilities for python scripts.
+Author: John Halazonetis
+Author-email: <john.halazonetis@icloud.com>
+Project-URL: Repository, https://gitlab.com/johnhal/util_python
+Keywords: python,utilities
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# General_Util - General Python Utility Repository
+
+This repository is meant to contain general tools and utilities that are reliable and can be used in many software projects.
+
+## Current Utilities:
+- `repeated_timer.py`: Perform iterations at a specified frequency with accurate timing in a separate thread (this timer will not be affected by any other processes you have running)
+- `file.py`: Perform operations in the filesystem (regardless of the OS)
+- `timestring.py`: Return current or predefined time in a string format (used for file logging and file naming)
+
+To install these dependencies, enter this command in a terminal when inside this folder:
+``` bash
+python -m pip install -r requirements.txt
+```
