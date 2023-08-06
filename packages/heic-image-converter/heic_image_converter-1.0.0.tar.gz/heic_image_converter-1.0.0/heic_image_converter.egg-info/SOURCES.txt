@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+heic_image_converter.egg-info/PKG-INFO
+heic_image_converter.egg-info/SOURCES.txt
+heic_image_converter.egg-info/dependency_links.txt
+heic_image_converter.egg-info/requires.txt
+heic_image_converter.egg-info/top_level.txt
