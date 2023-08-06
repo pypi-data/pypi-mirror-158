@@ -1,0 +1,2 @@
+[console_scripts]
+hoax = hoax.__main__:main
