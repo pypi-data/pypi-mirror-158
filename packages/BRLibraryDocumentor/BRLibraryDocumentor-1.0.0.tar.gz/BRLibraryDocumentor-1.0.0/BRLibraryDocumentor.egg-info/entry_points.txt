@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+br-as-library-documenter = brLibrarydocumentor:BRLibraryDocumentor

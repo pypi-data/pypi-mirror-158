@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: BRLibraryDocumentor
+Version: 1.0.0
+Summary: B&R Function Block Markdown Face Plate Converter is a tool to translate a special code block in markdown to a B&R documentation faceplate design.
+Home-page: https://github.com/brcclark/mkdocs-md-fb-faceplate-converter
+Author: Connor Trostel
+Author-email: connor.trostel@br-automation.com
+License: GPL-3
+License-File: LICENSE

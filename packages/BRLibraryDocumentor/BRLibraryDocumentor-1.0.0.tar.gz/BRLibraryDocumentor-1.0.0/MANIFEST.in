@@ -1,0 +1,3 @@
+include brLibrarydocumentor/Templates/html/*
+include brLibrarydocumentor/Templates/Markdown/*
+include brLibrarydocumentor/css/*

@@ -1,0 +1,36 @@
+<div id="table">
+    <div id="tableWithoutOptionContainer">
+        <table id="tableWithoutOption" class="parameter_tab fubTable" border="1">
+            <tr>
+                <th class="parameter_tab">
+                    <div><b>I/O</b></div>
+                </th>
+                <th class="parameter_tab">
+                    <div><b>Parameter</b></div>
+                </th>
+                <th class="parameter_tab">
+                    <div><b>Data Type</b></div>
+                </th>
+                <th class="parameter_tab">
+                    <div><b>Description</b></div>
+                </th>
+            </tr>            
+            {% for itm in functionBlock.Inputs %}
+            <tr>
+                <td valign="TOP" class="parameter_tab">IN</td>
+                <td valign="TOP" class="parameter_tab">{{itm._name}}</td>
+                <td valign="TOP" class="parameter_tab">{{itm._type}}</td>
+                <td valign="TOP" class="parameter_tab">{{itm._comments[0]}}</td>
+            </tr>
+            {% endfor %}            
+            {% for itm in functionBlock.Outputs %}
+            <tr>
+                <td valign="TOP" class="parameter_tab">OUT</td>
+                <td valign="TOP" class="parameter_tab">{{itm._name}}</td>
+                <td valign="TOP" class="parameter_tab">{{itm._type}}</td>
+                <td valign="TOP" class="parameter_tab">{{itm._comments[0]}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
