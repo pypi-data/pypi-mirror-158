@@ -1,0 +1,27 @@
+[project]
+name = "card_game_simulation"
+version = "0.0.1"
+authors = [
+  { name="Adam Reese", email="areese801@gmail.com" },
+]
+description = "Classes that model playing cards and games played with them"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/areese801/playing-cards"
+"Bug Tracker" = "https://github.com/areese801/playing-cards/issues"
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+

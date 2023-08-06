@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/card_game_simulation.egg-info/PKG-INFO
+src/card_game_simulation.egg-info/SOURCES.txt
+src/card_game_simulation.egg-info/dependency_links.txt
+src/card_game_simulation.egg-info/top_level.txt
+src/playing_cards/__init__.py
+src/playing_cards/main.py
