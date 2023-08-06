@@ -1,0 +1,16 @@
+name: napari-deepmeta
+display_name: napari DeepMeta
+contributions:
+  commands:
+    - id: napari-deepmeta.make_qwidget
+      python_name: napari_deepmeta._widget:DeepmetaWidget
+      title: DeepmetaWidget
+    - id: napari-deepmeta.make_qwidget2
+      python_name: napari_deepmeta._widget:DeepmetaDemoWidget
+      title: DeepmetaDemoWidget
+
+  widgets:
+    - command: napari-deepmeta.make_qwidget
+      display_name: DeepmetaWidget
+    - command: napari-deepmeta.make_qwidget2
+      display_name: DeepmetaDemoWidget
