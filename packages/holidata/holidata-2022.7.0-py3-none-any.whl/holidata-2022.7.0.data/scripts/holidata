@@ -1,0 +1,55 @@
+#!python
+# encoding: utf-8
+
+"""
+Holidata - generate holidata files.
+
+Usage:
+  holidata (--year=<value>) (--locale=<value>) [--output=<value>]
+
+Options:
+    --year=<value>       Specify which year to generate data for.
+    --locale=<value>     Specify the locale for which data should be generated.
+    --output=(csv|json)  Specify the output format [default: csv].
+
+Dependencies:
+    pip3 install arrow docopt
+"""
+
+import sys
+
+from docopt import docopt
+from holidata import Emitter
+from holidata.holidays import Locale
+
+
+def create_locale_for(locale_id, year):
+    locale_class = next(iter([cls for cls in Locale.plugins if cls.locale == locale_id]), None)
+    if not locale_class:
+        return None
+    else:
+        return locale_class(year)
+
+
+def create_emitter_for(output_format):
+    emitter_class = next(iter([cls for cls in Emitter.plugins if cls.type == output_format]), None)
+    if not emitter_class:
+        return None
+    else:
+        return emitter_class()
+
+
+if __name__ == '__main__':
+    args = docopt(__doc__)
+
+    locale = create_locale_for(args['--locale'], int(args['--year']))
+
+    if locale is None:
+        sys.exit("No plugin found for locale: {}".format(args['--locale']))
+
+    emitter = create_emitter_for(args['--output'])
+
+    if emitter is None:
+        sys.exit("Unsupported output format: {}".format(args['--output']))
+
+    print(emitter.output(locale), end="")
