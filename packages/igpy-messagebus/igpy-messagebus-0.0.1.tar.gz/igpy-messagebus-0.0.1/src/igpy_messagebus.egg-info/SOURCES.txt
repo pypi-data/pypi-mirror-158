@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/igpy/messagebus/__init__.py
+src/igpy/messagebus/messagebus.py
+src/igpy_messagebus.egg-info/PKG-INFO
+src/igpy_messagebus.egg-info/SOURCES.txt
+src/igpy_messagebus.egg-info/dependency_links.txt
+src/igpy_messagebus.egg-info/requires.txt
+src/igpy_messagebus.egg-info/top_level.txt
