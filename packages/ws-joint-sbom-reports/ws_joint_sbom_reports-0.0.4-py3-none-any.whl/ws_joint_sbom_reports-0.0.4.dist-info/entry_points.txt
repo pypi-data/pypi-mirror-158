@@ -1,0 +1,3 @@
+[console_scripts]
+ws_joint_sbom_reports = ws_joint_sbom_reports.joint_sbom_reports:main
+
