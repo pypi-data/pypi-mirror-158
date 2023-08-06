@@ -1,0 +1,8 @@
+urllib3==1.26.7
+python3-anticaptcha==1.7.1
+fake-useragent==0.1.11
+pydantic==1.9.1
+pydantic[email]
+requests
+python-dotenv
+myloguru-deskent
