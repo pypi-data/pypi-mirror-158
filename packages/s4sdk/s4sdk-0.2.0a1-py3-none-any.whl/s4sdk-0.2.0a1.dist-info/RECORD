@@ -1,0 +1,17 @@
+LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+s4sdk/__init__.py,sha256=BRjfa7WoaIx8Y3qfTZwZgobOTG2azu4PPecU-KETUaw,78
+s4sdk/metadata.py,sha256=kA_LqUrqvwnzrujaYU08h9cK2UBZGMzTv73P6ggbAQ0,433
+s4sdk/package/__init__.py,sha256=mZijxS_VkeP0utth9ExXH7zNkLdKGDmo10gMQaxuBFU,4020
+s4sdk/package/abstractpackage.py,sha256=C8UNwi31O1tiW0vz3FxwyMswHFi-NNW5MTmlqrRh2P0,1553
+s4sdk/package/dbpf.py,sha256=N08G6RoczKH3SKYACsKNrPRC1P5LywEfEaepy_EcsDs,11937
+s4sdk/package/dirpackage.py,sha256=8j61pevc7N8UkpvbeDUBpGjGe4p75Y3-qG2oBuTNOWg,2622
+s4sdk/package/metapackage.py,sha256=qwCceOTuURl6CZyUemqK1kLw0l_QR9qkpzEn5hqkYrw,1662
+s4sdk/resource/__init__.py,sha256=39X5pnGsSMDmDRHY2EYN8RsAbkPlFzd-ooDRchhaewo,3436
+s4sdk/resource/abc.py,sha256=4mctUZScw1SaiJKyOhV8vttamHh01U387BKnGUcakbI,965
+s4sdk/resource/binary.py,sha256=AbNhKXjeoEGwjJFl3C2WoIQ6tEDk-XqWZCd1uzediRE,768
+s4sdk/resource/stbl.py,sha256=PqSkva5Cev0DanaeyPC-eLg6kIzdxLoew-ESfGLWIhI,5258
+s4sdk/utils.py,sha256=TUeE4NX-6V4CUnGGtcSkiNvSx7yS9qDsF1HhMthROSk,5803
+s4sdk-0.2.0a1.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+s4sdk-0.2.0a1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+s4sdk-0.2.0a1.dist-info/METADATA,sha256=foSjg6z85WWPCsWtIaC1DHIi_YxHb4Pv-2z7D5xoiEI,398
+s4sdk-0.2.0a1.dist-info/RECORD,,
