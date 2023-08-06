@@ -1,0 +1,14 @@
+napari_trait2d/__init__.py,sha256=QqDz_cVAISWOqwxv3kploQGYVu5gpUHp8uhoO_rtEwE,81
+napari_trait2d/_widget.py,sha256=zFaMyJ2Sr24J5B7_k6Am4A9N_Pd-5XA7W82_V86HqyU,11153
+napari_trait2d/common.py,sha256=rpeX1x067II79okqOJ-acSQSKg6cfgMBxYwQXXI2EMw,579
+napari_trait2d/detection.py,sha256=hoM23yZ1ozwLeDrLIRBzIkLsBwb612bjb1Vr99DFj90,6543
+napari_trait2d/napari.yaml,sha256=XBgwPjtorpPaqMm8pBQzKhuSk4Mt8ZUdp7ldSrOT-L4,292
+napari_trait2d/tracking.py,sha256=gOK-yq0-oVWht-DPKESicpJPgGnN4ibrYIMvBPZp45s,4706
+napari_trait2d/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_trait2d/_tests/test_widget.py,sha256=-AxxL4eGA-CVNrnws_t-PjZO3NdZWL7FipHg364BkRA,545
+napari_trait2d-0.1.1.dist-info/LICENSE,sha256=esfpnlAPitJe7N-PIXbBw1u1QFKshXPyYgOBtdCJ9Sc,1486
+napari_trait2d-0.1.1.dist-info/METADATA,sha256=AMR22Wf6aduMiNvRF6ZYE2xfvFVj6AqY5i9roAmpOTg,4271
+napari_trait2d-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_trait2d-0.1.1.dist-info/entry_points.txt,sha256=9RkNwr4dyXSBg95-uJDzt9eFkaeShtIJz7UzTSxMRa4,62
+napari_trait2d-0.1.1.dist-info/top_level.txt,sha256=nXwAFz56pUrKA5ZYYcQbuTgvCZpVwPcR1Cf22QeXyyM,15
+napari_trait2d-0.1.1.dist-info/RECORD,,
