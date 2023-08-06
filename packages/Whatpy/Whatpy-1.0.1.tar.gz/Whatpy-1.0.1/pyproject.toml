@@ -1,0 +1,6 @@
+[project]
+name = "Whatpy"
+version = "1.0.1"
+dependencies = [
+    "pyautogui",
+]

@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+pyproject.toml
+setup.cfg
+Whatpy.egg-info/PKG-INFO
+Whatpy.egg-info/SOURCES.txt
+Whatpy.egg-info/dependency_links.txt
+Whatpy.egg-info/requires.txt
+Whatpy.egg-info/top_level.txt
