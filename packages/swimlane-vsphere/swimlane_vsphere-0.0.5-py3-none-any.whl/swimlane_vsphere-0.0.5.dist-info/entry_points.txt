@@ -1,0 +1,3 @@
+[console_scripts]
+swimlane-vsphere=swimlane_vsphere.__main__:main
+
