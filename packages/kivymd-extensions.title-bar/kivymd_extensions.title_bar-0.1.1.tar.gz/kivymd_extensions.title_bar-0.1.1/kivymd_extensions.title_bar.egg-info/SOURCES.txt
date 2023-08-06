@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+kivymd_extensions/__init__.py
+kivymd_extensions.title_bar.egg-info/PKG-INFO
+kivymd_extensions.title_bar.egg-info/SOURCES.txt
+kivymd_extensions.title_bar.egg-info/dependency_links.txt
+kivymd_extensions.title_bar.egg-info/requires.txt
+kivymd_extensions.title_bar.egg-info/top_level.txt
+kivymd_extensions/title_bar/__init__.py
+kivymd_extensions/title_bar/title_bar.kv
+kivymd_extensions/title_bar/title_bar.py
