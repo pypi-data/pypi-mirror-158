@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+sqlite3mtp/__init__.py
+sqlite3mtp/select.py
+sqlite3mtp.egg-info/PKG-INFO
+sqlite3mtp.egg-info/SOURCES.txt
+sqlite3mtp.egg-info/dependency_links.txt
+sqlite3mtp.egg-info/top_level.txt
