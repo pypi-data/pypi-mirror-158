@@ -1,0 +1,206 @@
+* {
+    scrollbar-width: thin;
+    scrollbar-color: blue red;
+}
+
+html,
+body {
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+nav {
+    border-radius: 1em;
+    width: calc(100vw - 2em);
+    margin: 0 auto;
+    height: 3.75em;
+    max-height: 3.75em;
+}
+
+nav ul > li.corner-btn {
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+main {
+    flex: 1 0 auto;
+    flex-direction: column;
+    border-radius: 1em;
+    margin: 1em 1em 0;
+}
+
+.order-section {
+    grid-area: sidebar;
+    overflow: hidden;
+    border-right: 2px solid black;
+}
+
+.menu-section {
+    grid-area: main;
+    overflow: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+    grid-template-areas: "sidebar main";
+    height: calc(100vh - 7.75em);
+    max-height: calc(100vh - 7.75em);
+}
+
+.order-view {
+    height: 75%;
+    overflow: scroll;
+}
+
+.order-view td,
+.order-view th {
+    padding: 0.5em 0 0;
+    vertical-align: baseline;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.order-info {
+    border-top: 2px solid black;
+    height: calc(15% - 2px);
+}
+
+.order-info pre {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.order-info pre span:before {
+    content: "- - - - - - -  $";
+}
+
+.order-payout {
+    height: calc(10% + 2px);
+}
+
+.order-payout > a.btn {
+    height: 80%;
+    width: 90%;
+    line-height: 2em;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.menu-section .card .card-image .card-title {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 0.25em 0.25em 0;
+    background-color: rgba(0, 0, 0, 0.60);
+    width: 100%;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.menu-view {
+    height: 100%;
+    overflow: scroll;
+}
+
+.fullscreen {
+    flex: 1 0 auto;
+}
+
+.rounded {
+    border-radius: 1em;
+}
+
+.card.rounded img {
+    border-radius: 1em;
+}
+
+.ml0 {
+    margin-left: 0 !important;
+}
+
+.my0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.mb0 {
+    margin-bottom: 0 !important;
+}
+
+/*****NumberPad*****/
+
+.login-container {
+    display: flex;
+    height: calc(100vh - 2.2em);
+    max-height: calc(100vh - 2.2em);
+    margin: 0;
+    border-radius: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrapper {
+    border: solid 3px #151515;
+    border-radius: 1em;
+    max-width: 50vw;
+}
+
+.login-wrapper form {
+    margin: 1em;
+}
+
+.pad-view {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.pad-view input {
+    font-size: 50px;
+    line-height: 50px;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+}
+
+.number-pad {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number-pad input {
+    flex: 1 0 33.3333%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 40px;
+}
+
+
+/*.number-pad input[type="text"],*/
+/*.number-pad input[type="password"] {*/
+/*    font-size: 6em;*/
+/*    height: 6em;*/
+/*}*/
+
+/*.number-pad .numbers {*/
+/*    display: flex;*/
+/*    flex-flow: row wrap;*/
+/*}*/
+
+/*.number-pad .numbers button,*/
+/*.number-pad .numbers input {*/
+/*    flex: 1 0 30%;*/
+/*    min-height: calc(100vh / 11);*/
+/*    font-size: 2.5em;*/
+/*    margin: .25em;*/
+/*}*/
