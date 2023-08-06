@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: xsget
+Version: 0.1.0
+Summary: Console tools to download online novel and convert to text file.
+Author-email: "Kian-Meng, Ang" <kianmeng@cpan.org>
+Requires-Python: >=3.7
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Dist: aiohttp
+Requires-Dist: aiofiles
+Requires-Dist: bs4
+Requires-Dist: lxml
+Requires-Dist: natsort
+Requires-Dist: regex
+Requires-Dist: tomlkit
+Requires-Dist: user_agent
+Requires-Dist: tox ; extra == "dev"
+Requires-Dist: sphinx ; extra == "docs"
+Requires-Dist: myst_parser ; extra == "docs"
+Requires-Dist: sphinx_copybutton ; extra == "docs"
+Requires-Dist: sphinx_autobuild ; extra == "docs"
+Requires-Dist: black ; extra == "format"
+Requires-Dist: isort ; extra == "format"
+Requires-Dist: flake8 ; extra == "lint"
+Requires-Dist: flake8-docstrings ; extra == "lint"
+Requires-Dist: flake8-pytest-style ; extra == "lint"
+Requires-Dist: pylint ; extra == "lint"
+Requires-Dist: pytest ; extra == "lint"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-asyncio ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: pytest-mock ; extra == "test"
+Requires-Dist: pytest-console-scripts ; extra == "test"
+Requires-Dist: types-aiofiles ; extra == "test"
+Requires-Dist: mypy ; extra == "type"
+Requires-Dist: types-aiofiles ; extra == "type"
+Project-URL: Issues, https://github.com/kianmeng/xsget/issues
+Project-URL: Source, https://github.com/kianmeng/xsget
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: format
+Provides-Extra: lint
+Provides-Extra: test
+Provides-Extra: type
