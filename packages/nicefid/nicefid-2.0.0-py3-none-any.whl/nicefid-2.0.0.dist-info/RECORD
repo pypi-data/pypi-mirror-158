@@ -1,0 +1,8 @@
+nicefid/__init__.py,sha256=iy64fP9An5L0c9zE5F2aG2LHt8GWAMWr_p0ZPRjLU20,105
+nicefid/compute_fid.py,sha256=YEhf2b8PNOp-Zjl9oMNEtObbaghEiw13kzFdMonLI5I,524
+nicefid/compute_kid.py,sha256=DIIop7OiJbiNsnJ0v_nMVs4QBkeEgcYjtL0EkRnTYKU,588
+nicefid/features.py,sha256=DZzan4fjPiI0lfvguYsPS6FVnHGorjBLN-1axJnnjL8,3265
+nicefid-2.0.0.dist-info/LICENSE,sha256=EVPT6tjd7B0fCbdkF6v6bCJFa_VmItDjapSwV9eNG3c,1069
+nicefid-2.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+nicefid-2.0.0.dist-info/METADATA,sha256=rKD8NeJB39zmNZtVLiHUU2Xam0T3rrjpZUFofAqMUJ0,1742
+nicefid-2.0.0.dist-info/RECORD,,
