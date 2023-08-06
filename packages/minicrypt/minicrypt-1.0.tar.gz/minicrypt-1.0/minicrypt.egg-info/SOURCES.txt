@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+minicrypt/__init__.py
+minicrypt.egg-info/PKG-INFO
+minicrypt.egg-info/SOURCES.txt
+minicrypt.egg-info/dependency_links.txt
+minicrypt.egg-info/top_level.txt
