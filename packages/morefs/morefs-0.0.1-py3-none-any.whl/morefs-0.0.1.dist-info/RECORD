@@ -1,0 +1,11 @@
+morefs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+morefs/asyn_local.py,sha256=M2WKhSiy5pAA4T28Tzs2od3cs1qDu2Y6vP2R53piPb0,9185
+morefs/dict.py,sha256=o3TBx6BovdUsChXNKkfm-vmD8Dxh7esvk3Gq8x0fOeY,9389
+morefs/memory.py,sha256=y-gemV1OCDak8VteJ-UJ4GmrHKL8IV12r9kKG2_p5x0,4098
+morefs/overlay.py,sha256=UJcMOlpw89b75iP_sYi2RDO3rAeLMDmgLzBgZg_Dgfk,5482
+morefs-0.0.1.dist-info/LICENSE,sha256=-1jhbPjoIVHR0cEgahL4Zhct75Ff4MzYCR_jOaJDPq8,11340
+morefs-0.0.1.dist-info/METADATA,sha256=2rwFBydUWc1meUuNFOyJ2JRtFZwU0TMzVUISgIX-5iw,5368
+morefs-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+morefs-0.0.1.dist-info/entry_points.txt,sha256=Yh51ojozjnzKsuauGxgtbxYwsxjLs1scpzNDtGU5eeo,170
+morefs-0.0.1.dist-info/top_level.txt,sha256=0fdVw6meZOJCOGahXOLad0lzvPWv9XgKiTGhW8rPbbc,7
+morefs-0.0.1.dist-info/RECORD,,
