@@ -1,0 +1,12 @@
+thonnycontrib/backend/py5_imported_mode_backend.py,sha256=zDCXzA5Dziq5llXED-waqs8v5p7rKsQpq0T60Aljkyo,2133
+thonnycontrib/kyanite_theme_syntax/__init__.py,sha256=1tw9qijG0yVoMNbMYUJXZiFsnkRk_A1hxqItr29190A,2047
+thonnycontrib/kyanite_theme_ui/__init__.py,sha256=O6hDTz4CHHYXAB9xe7aKGAx6J8rZFCwR0q1XZcPWnYA,597
+thonnycontrib/thonny-py5mode/__init__.py,sha256=Gx1qGEzlwuobKQvWM4p0QEY8C-6FbYCo4VMkg3RTzas,9797
+thonnycontrib/thonny-py5mode/_version.py,sha256=J7CKJa2uyHyuCQ2iuHTH-blB627tiorBRXGT6So_oP8,28
+thonnycontrib/thonny-py5mode/about_plugin.py,sha256=O1qM8DOiynIqoiZdUwl2AAi0x3LZC_9mCLpUWuPjCgg,4421
+thonnycontrib/thonny-py5mode/install_jdk.py,sha256=yzV2RoZ8Wk-reZbeAWe86wnHTQUMuYg0EOYCRwAMh5s,5872
+thonny_py5mode-0.4.3a0.dist-info/LICENSE,sha256=7yx42fLmvADMW1C4krhb2Q-FpgbJi6nV0YiUDRteHpk,476
+thonny_py5mode-0.4.3a0.dist-info/METADATA,sha256=defhNudT0FVKtdaa1omP8145AAzgOiFdj3b1q4leL_I,6397
+thonny_py5mode-0.4.3a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+thonny_py5mode-0.4.3a0.dist-info/top_level.txt,sha256=thF9WQtY_lcNKOOR4SQeeWLAVWb4i8XhdGC7pEMAOHY,14
+thonny_py5mode-0.4.3a0.dist-info/RECORD,,
