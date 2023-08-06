@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+OptiblackchurnPredictor/__init__.py
+OptiblackchurnPredictor.egg-info/PKG-INFO
+OptiblackchurnPredictor.egg-info/SOURCES.txt
+OptiblackchurnPredictor.egg-info/dependency_links.txt
+OptiblackchurnPredictor.egg-info/top_level.txt

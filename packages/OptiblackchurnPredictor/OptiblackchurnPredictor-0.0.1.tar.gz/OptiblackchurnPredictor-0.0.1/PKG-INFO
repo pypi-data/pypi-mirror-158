@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: OptiblackchurnPredictor
+Version: 0.0.1
+Summary: SaaS Churn Predictor
+Home-page: UNKNOWN
+Author: Rohan Joshi
+Author-email: rohan@optiblack.com
+License: MIT
+Keywords: Churn
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is Trial Churn Predictor file for SaaS Companies.For prediction of Churning of Customers of a company.
+
+Change Log
+==========
+
+0.0.1 (07/07/2022)
+-------------------
+- First Release
+
