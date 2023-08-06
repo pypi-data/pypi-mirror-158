@@ -1,0 +1,9 @@
+README.md
+setup.py
+sirox/utils/__init__.py
+sirox/utils/brownie_utils.py
+sirox_brownie.egg-info/PKG-INFO
+sirox_brownie.egg-info/SOURCES.txt
+sirox_brownie.egg-info/dependency_links.txt
+sirox_brownie.egg-info/requires.txt
+sirox_brownie.egg-info/top_level.txt
