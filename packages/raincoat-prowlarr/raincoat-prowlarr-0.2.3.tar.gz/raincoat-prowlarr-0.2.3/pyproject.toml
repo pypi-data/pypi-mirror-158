@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "raincoat-prowlarr"
+version = "0.2.3"
+description = "Raincoat-prowlarr is a tool to search torrents using jackett and search torrents and nzb files using prowlarr/jackett/MovieInfo and send them to your client."
+authors = ["crvideoVR"]
+license = "MIT"
+readme = "README.md"
+
+repository="https://github.com/crvideo/raincoat_prowlarr"
+keywords=["transmission","qbittorrent","deluge","jackett","torrent","nzbget", "MovieInfo"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+packages = [{ include = "raincoat_prowlarr" }]
+include = ["changelog.txt"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.23.0"
+justlog = "^0.1.1.5"
+colorama = "^0.4.3"
+tabulate = "^0.8.7"
+transmission-clutch = "^6.0.2"
+deluge-client = "^1.8.0"
+python-qbittorrent = "^0.4.2"
+getmovieinfo = "^0.1.5"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+raincoat = "raincoat_prowlarr.raincoat_prowlarr:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+

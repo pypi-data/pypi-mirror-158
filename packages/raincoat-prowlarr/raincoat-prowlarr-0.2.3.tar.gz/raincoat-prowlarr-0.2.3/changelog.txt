@@ -1,0 +1,16 @@
+=== 0.2.3 ===
+add support to searching using MovieInfo
+
+=== 0.2.2 ===
+Update Readme
+
+
+=== 0.2.1 ===
+Update Readme and config
+
+=== 0.2.0 ===
+add support to searching jackett. Using --indexer_manager to invoke jackett or prowlarr
+
+
+=== 0.1.0 ===
+Based on raincoat-jackett, support searching prowlarr only
