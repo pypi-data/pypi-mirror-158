@@ -1,0 +1,19 @@
+[project]
+name = "not-dead-yet"
+version = "0.5.0"
+description = "A simple live server implementation."
+authors = [ 
+    { name = "Angus Hollands <goosey15@gmail.com>" }
+]
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = [
+    "aiohttp >= 3.7.4"
+]
+
+[project.scripts]
+ndy = 'not_dead_yet.__main__:main'
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

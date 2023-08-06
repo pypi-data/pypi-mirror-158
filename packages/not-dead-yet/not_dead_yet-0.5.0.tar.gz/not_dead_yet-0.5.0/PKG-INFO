@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: not-dead-yet
+Version: 0.5.0
+Summary: A simple live server implementation.
+Author: Angus Hollands <goosey15@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: aiohttp>=3.7.4
