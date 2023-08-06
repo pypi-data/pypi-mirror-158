@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+ProTimer/__init__.py
+ProTimer.egg-info/PKG-INFO
+ProTimer.egg-info/SOURCES.txt
+ProTimer.egg-info/dependency_links.txt
+ProTimer.egg-info/requires.txt
+ProTimer.egg-info/top_level.txt
