@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: neurips-cellseg-gc
+Version: 0.0.5
+Summary: 
+License: MIT
+Author: Cheng Ge
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: einops (==0.3.2)
+Requires-Dist: gdown (==4.2.0)
+Requires-Dist: monai (==0.9)
+Requires-Dist: nibabel (==3.2.1)
+Requires-Dist: numpy (==1.21.2)
+Requires-Dist: pandas (==1.4.1)
+Requires-Dist: pillow (==9.0.1)
+Requires-Dist: psutil (==5.8.0)
+Requires-Dist: scikit-image (==0.19.2)
+Requires-Dist: tensorboard (==2.8.0)
+Requires-Dist: torchvision (==0.11.2)
+Requires-Dist: tqdm (==4.63.0)
