@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "braillelib"
+version = "0.0.1"
+authors = [
+  { name="Aadit Trivedi", email="aadit.trivedi03@gmail.com" },
+]
+description = "A braille library for Python"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["braille", "conversion", "accessibility"]
+dependencies = [
+    "numpy >= 1.20.1",
+    "Pillow >= 8.4.0",
+    "pytesseract >= 0.3.9",
+    "matplotlib >= 3.4.3",
+]
+[project.urls]
+"Homepage" = "https://github.com/AaditT/braille"
+"Bug Tracker" = "https://github.com/AaditT/braille/issues"
+
+
