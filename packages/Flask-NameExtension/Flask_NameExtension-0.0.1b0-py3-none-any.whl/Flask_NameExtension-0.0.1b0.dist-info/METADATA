@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: Flask-NameExtension
+Version: 0.0.1b0
+Summary: Flask Extension Template.
+Home-page: https://github.com/juniors90/Flask-NameExtension
+Author: Ferreira Juan David
+Author-email: juandavid9a0@gmail.com
+License: The MIT License
+Project-URL: Source, https://github.com/juniors90/Flask-NameExtension
+Project-URL: Tracker, https://github.com/juniors90/Flask-NameExtension/issues
+Project-URL: Donate, https://www.paypal.com/donate?hosted_button_id=LFAQ7E7TJ4HSY
+Project-URL: Funding, https://paypal.me/juniors90
+Keywords: Template,Flask,Framework
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Flask (>=2.0.1)
+
+# Flask Template for a Extension
+
+[![GitHub issues](https://img.shields.io/github/issues/juniors90/Flask-NameExtension)](https://github.com/juniors90/Flask-NameExtension/issues)
+[![GitHub forks](https://img.shields.io/github/forks/juniors90/Flask-NameExtension)](https://github.com/juniors90/Flask-NameExtension/network)
+[![GitHub stars](https://img.shields.io/github/stars/juniors90/Flask-NameExtension)](https://github.com/juniors90/Flask-NameExtension/stargazers)
+[![GitHub license](https://img.shields.io/github/license/juniors90/Flask-NameExtension)](https://github.com/juniors90/Flask-NameExtension/blob/main/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/juniors90/Flask-NameExtension?color=green)](https://github.com/juniors90/Flask-NameExtension/graphs/contributors)
+![docstr-cov](https://img.shields.io/endpoint?url=https://jsonbin.org/juniors90/Flask-NameExtension/badges/docstr-cov)
+[![black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
