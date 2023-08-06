@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+
+import doctest
+import os
+import shutil
+import sys
+import unittest
+
+
+sys.path.insert(0, os.getcwd())
+sys.path.insert(0, "lib")
+
+
+from bot.obj import Config, format
+
+
+Config.debug = True
+Config.verbose = False
+Config.version = 161
+Config.workdir = ".test"
+
+
+from bot.hdl import Callbacks, Handler, dispatch
+
+
+import bot.all
+
+
+Callbacks.threaded = False
+
+
+flags = doctest.REPORT_NDIFF | doctest.FAIL_FAST | doctest.ELLIPSIS
+
+
+class CLI(Handler):
+
+     def raw(self, txt):
+         if Config.verbose:
+             print(txt)
+        
+         
+
+c = CLI()
+c.start()
+
+
+def main():
+    if os.path.exists(Config.workdir):
+        shutil.rmtree(Config.workdir)
+    if "-v" in sys.argv:
+        Config.verbose = True
+        print(format(Config))
+    pat = "test_%s*" % "*"
+    suite = unittest.loader.TestLoader().discover("test", pattern=pat)
+    unittest.TextTestRunner(verbosity=3).run(suite)
+
+
+main()

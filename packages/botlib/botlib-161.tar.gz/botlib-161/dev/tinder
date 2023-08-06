@@ -1,0 +1,165 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+
+import os
+import random
+import shutil
+import sys
+import termios
+import time
+import traceback
+import _thread
+
+
+sys.path.insert(0, os.getcwd())
+
+
+from bot.obj import Config
+
+
+Config.debug = True
+Config.threaded = False
+Config.verbose = False
+Config.version = 161
+Config.workdir = ".test"
+
+
+from bot.hdl import Callbacks, CLI, Command, Commands, Event, Handler
+from bot.hdl import dispatch, getname, launch
+from bot.obj import Object, format, get, locked
+from bot.tmr import elapsed
+
+
+import bot.all
+
+
+errors = []
+events = []
+results = []
+
+
+param = Object()
+param.add = ["test@shell", "bart", ""]
+param.cfg = ["server=localhost", ""]
+param.dne = ["test4", ""]
+param.rem = ["reddit", ""]
+param.dpl = ["reddit title,summary,link", ""]
+param.log = ["test1", ""]
+param.flt = ["0", ""]
+param.fnd = ["cfg", "log", "rss", "log txt==test", "cfg server==localhost", "rss rss==reddit"]
+param.rss = ["https://www.reddit.com/r/python/.rss"]
+param.tdo = ["test4", ""]
+
+
+def cprint(txt):
+    print(txt)
+    sys.stdout.flush()
+
+
+class CLI(CLI):
+
+     def __init__(self):
+         Handler.__init__(self)
+
+     def raw(self, txt):
+         if Config.verbose:
+             cprint(txt)
+        
+         
+def consume(events):
+    fixed = []
+    res = []
+    for e in events:
+        e.wait()
+        fixed.append(e)
+    for f in fixed:
+        try:
+            events.remove(f)
+        except ValueError:
+            continue
+    return res
+
+
+def from_exception(ex, txt="", sep=" "):
+    result = []
+    for fr in traceback.extract_tb(ex.__traceback__):
+        result.append("%s:%s" % (os.sep.join(fr.filename.split(os.sep)[-2:]), fr.lineno))
+    return "%s(%s) %s" % (getname(ex), ex, " ".join(result))
+
+
+def parse_cli():
+    e = Event()
+    e.txt = " ".join(sys.argv[1:])
+    e.parse()
+    return e
+
+
+def payload(c):
+    global events
+    cmds = sorted(Commands.cmd)
+    random.shuffle(cmds)
+    nr = 0
+    for cmd in cmds:
+        for ex in get(param, cmd, [""]):
+            e = Command()
+            e.txt = cmd + " " + ex
+            e.orig = repr(c)
+            e.parse()
+            #c.put(e)
+            try:
+                c.handle(e)
+            except Exception as ex:
+                Callbacks.errors.add(ex)
+            events.append(e)
+            nr += 1
+    return nr
+
+
+def wrap(func):
+    fd = sys.stdin.fileno()
+    old = termios.tcgetattr(fd)
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        cprint("")
+    finally:
+        termios.tcsetattr(fd, termios.TCSADRAIN, old)
+        for err in Callbacks.errors:
+            traceback.print_exception(type(err), err, err.__traceback__)
+
+
+def main():
+    cprint("BOT tinder start at %s" % time.ctime(time.time()).replace("  ", " "))
+    Callbacks.threaded = False
+    cfg = parse_cli()
+    if os.path.exists(Config.workdir):
+        shutil.rmtree(Config.workdir)
+    if "-v" in sys.argv:
+        Config.verbose = True
+    if "-t" in sys.argv:
+        Config.threaded = True
+        Callbacks.threaded = True
+    cprint(format(Config))
+    c = CLI()
+    c.start()
+    nrs = cfg.index or 20
+    thrs = []
+    starttime = time.time()
+    for nr in range(nrs):
+        if c.threaded:
+            thrs.append(launch(payload, c))
+        else:
+            payload(c)
+    if thrs:
+        res = 0
+        for thr in thrs:
+            res += thr.join()
+    else:
+        res = nrs * len(Commands.cmd) 
+    consume(events)
+    endtime = time.time()
+    print("%s %s %s (%s remaining)" %  (elapsed(endtime - starttime), res, (endtime - starttime)/res, len(events)))
+
+
+wrap(main)
