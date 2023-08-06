@@ -1,0 +1,7 @@
+include cofan/providers/*.py
+recursive-include cofan/providers/asset/* *
+recursive-include cofan/main_tree/* *.py
+include cofan/utils/*.py
+include docs/source/*.rst
+include docs/source/*.py
+include docs/source/_static/*
