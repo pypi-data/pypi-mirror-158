@@ -1,0 +1,169 @@
+#!python
+import datetime
+import os
+import sys
+import click
+import cli_changelog_md
+
+from core_changelog_md.objects.changes import ChangeCollection
+from core_changelog_md.objects.version import VersionBlock
+from core_changelog_md.common.exceptions import ChangeLogException
+from core_changelog_md.objects.changelog import Changelog
+
+from gitlab import Gitlab
+from pathlib import Path
+
+from cli_changelog_md.cfg import Config
+
+
+def config(git_token=None):
+    return Config.load(git_token=git_token)
+
+
+def validate_git(ctx, param, value):
+    current_path = os.path.abspath(os.getcwd())
+    if value and not os.path.exists(os.path.join(current_path, '.git')):
+        raise click.BadParameter(f"Not found .git repository in current folder {current_path}")
+    return True
+
+
+@click.group()
+@click.version_option(version=cli_changelog_md.__version__)
+def cli() -> None:
+    pass
+
+
+@cli.command()
+@click.option(
+    '--file', '-f', default='CHANGELOG.md', show_default=True, help='Путь к файлу Changelog',
+    type=click.Path(exists=True))
+def current(file):
+    """
+    Показывает последнюю релизную версию
+    """
+    try:
+        click.echo(Changelog.from_file(os.path.realpath(file)).current_version.version.public)
+    except ChangeLogException as e:
+        click.echo(str(e))
+        sys.exit(os.EX_SOFTWARE)
+
+
+@cli.command(name='git-diff')
+@click.option(
+    '--file', '-f', default='CHANGELOG.md', show_default=True, help='Путь к файлу Changelog',
+    type=click.Path(exists=True))
+@click.option(
+    '--branch', '-b', help='Ветка для сравнения', show_default=True)
+@click.option('--revert', '-r', help='Обратное сравнение', is_flag=True)
+def git_diff(file, branch, revert):
+    """
+    Показывает разницу в файлах changelog
+    """
+    branch = branch if branch else config().git_project.master_branch
+    file = Path(file)
+    changelog = Changelog.from_file(path=file)
+    other_change_log = Changelog.from_str(config().git_project.get_git_file_text(file_name=file.name, branch=branch))
+    click.echo(changelog.difference(other=other_change_log, revert=revert).text())
+
+
+@cli.command(name='current-changes')
+@click.option(
+    '--file', '-f', default='CHANGELOG.md', show_default=True, help='Путь к файлу Changelog',
+    type=click.Path(exists=True))
+def current_changes(file):
+    """
+    Показывает изменения в последней релизной версии
+    """
+    try:
+        click.echo(Changelog.from_file(os.path.realpath(file)).current_version.text())
+    except ChangeLogException as e:
+        click.echo(str(e))
+        sys.exit(os.EX_SOFTWARE)
+
+
+@cli.command(name='unreleased-changes')
+@click.option(
+    '--file', '-f', default='CHANGELOG.md', show_default=True, help='Путь к файлу Changelog',
+    type=click.Path(exists=True))
+def unreleased_changes(file):
+    """
+    """
+    try:
+        changelog = Changelog.from_file(os.path.realpath(file))
+    except ChangeLogException as e:
+        click.echo(str(e))
+        sys.exit(os.EX_SOFTWARE)
+    if changelog.has_unreleased_changes:
+        click.echo(changelog.unreleased.text())
+
+
+@cli.command(name='next')
+@click.option(
+    '--file', '-f', default='CHANGELOG.md', show_default=True, help='Путь к файлу Changelog',
+    type=click.Path(exists=True))
+def _next(file):
+    """
+    """
+    try:
+        click.echo(Changelog.from_file(os.path.realpath(file)).next_version)
+    except ChangeLogException as e:
+        click.echo(str(e))
+        sys.exit(os.EX_SOFTWARE)
+
+
+@cli.command(name='git-login')
+@click.option("--token", '-t', prompt=True, hide_input=True)
+@click.option('--host', '-h', help="gitlab server")
+def git_login(host, token):
+    """
+    """
+    try:
+        Gitlab(host, private_token=token).auth()
+    except Exception as e:
+        raise click.BadParameter(f"Host ({host}) or token incorrect!")
+    _config = config(git_token=token)
+    _config.add_gitlab_login(host=host, token=token)
+    _config.save_config()
+
+
+@cli.command(name='git-sync')
+@click.option('--branch', '-b', help='Branch to sync')
+@click.option(
+    '--file', '-f', default='CHANGELOG.md', show_default=True, help='Путь к файлу Changelog',
+    type=click.Path(exists=True))
+def git_sync(file, branch):
+    _config = config()
+    branch = branch if branch else _config.git_project.master_branch
+    file = Path(file)
+    changelog = Changelog.from_file(path=file)
+    other_change_log = Changelog.from_str(_config.git_project.get_git_file_text(file_name=file.name, branch=branch))
+    changelog.sync(other_change_log)
+    changelog.save()
+
+
+@cli.command()
+@click.option(
+    '--file', '-f', default='CHANGELOG.md', show_default=True, help='Путь к файлу Changelog',
+    type=click.Path(exists=True))
+def release(file):
+    """
+    """
+    try:
+        changelog = Changelog.from_file(os.path.realpath(file))
+    except ChangeLogException as e:
+        click.echo(str(e))
+        sys.exit(os.EX_SOFTWARE)
+    if changelog.has_unreleased_changes:
+        file = Path(file)
+        next_version = VersionBlock(version=changelog.next_version, date=datetime.datetime.now().date())
+        next_version.change_blocks = changelog.unreleased.change_blocks
+        changelog.unreleased.change_blocks = ChangeCollection()
+        changelog.versions.append(next_version)
+        changelog.save(path=file)
+        click.echo(f'Released version {next_version.version.public} is added in {file.name}')
+    else:
+        click.echo("Unreleased Block is empty!")
+
+
+if __name__ == '__main__':
+    cli()
