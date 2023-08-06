@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Biometeo
+Version: 0.0.1
+Summary: This package is applied to calculate thermal indicators for human biometeorology. The major input variables are air temperature (Ta) in degree C,  water vapor pressure (VP) in hPa or relative humidity (RH) in %, wind speed (WS) in m/s, global radiation (G) in W/m^2, cloud cover ratio (N) in octal, sky view factor (Omega) and mean radiant temperature (Tmrt) in degree C. 
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: Cython (>=0.29.28)
+
