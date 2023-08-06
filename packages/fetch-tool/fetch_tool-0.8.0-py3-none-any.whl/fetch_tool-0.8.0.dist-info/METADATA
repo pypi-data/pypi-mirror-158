@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fetch-tool
+Version: 0.8.0
+Summary: Utility to fetch public and private RAW read and assembly files from the ENA
+Home-page: https://github.com/EBI-Metagenomics/fetch_tool
+Author: Microbiome Informatics Team
+License-File: LICENSE
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: sh (~=1.12.14)
+Requires-Dist: filelock (~=3.0.10)
+Requires-Dist: pandas (==1.1.5)
+
