@@ -1,0 +1,12 @@
+colorama
+doit
+
+[docs]
+sphinx
+docutils<0.18
+
+[tests]
+flake8
+pytest
+pytest-cov
+twine
