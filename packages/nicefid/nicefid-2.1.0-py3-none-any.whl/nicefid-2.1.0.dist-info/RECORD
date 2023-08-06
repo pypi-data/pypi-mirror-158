@@ -1,0 +1,15 @@
+nicefid/__init__.py,sha256=iy64fP9An5L0c9zE5F2aG2LHt8GWAMWr_p0ZPRjLU20,105
+nicefid/check_download_inception.py,sha256=2hQHTrYheflekz1g63EH7LA8U7HiwIQHECKcCx80bWA,768
+nicefid/compute_fid.py,sha256=mJmYFNidQuygMJKO14OV1DVc0vPMnv9rpdAShzT9fJM,2637
+nicefid/compute_kid.py,sha256=RG3jvB3f9lImT59nnnwzJaAd4Z3Z_GG9-jPmc89qUvM,1326
+nicefid/features.py,sha256=H-4aBub06ZMr0v88RqOB2CJ3YYajtefjtCroJDehtWo,3586
+nicefid/image_dataset.py,sha256=xNokO_zDABim9HKAa1O-XnTeFA5hknqtEd05dr6VdV4,440
+nicefid/inception_v3w.py,sha256=WKZxgaxUkpYiHSSN0eTO1pekvsXbY9jW9-__PNqJDkI,1812
+nicefid/list_images.py,sha256=mQZzHO9xux3nyvm1_oxG9pRRC5ZUBYFOWNg7tAzUzRQ,284
+nicefid/resize.py,sha256=zHm9_w9PIxQdSrk8gO7csIHjRe5hw5GerZkKnPs6-GE,1668
+nicefid/settings.py,sha256=9pBy6hm2kKuFyrGeKZ4PLy6WAVhiGlkFMI8ZtR_pGtw,26
+nicefid/sqrtm_eig.py,sha256=zm9-_6bv12CJs-QMpZSGezf-aQozL7ja4h0AeFMNtXs,842
+nicefid-2.1.0.dist-info/LICENSE,sha256=EVPT6tjd7B0fCbdkF6v6bCJFa_VmItDjapSwV9eNG3c,1069
+nicefid-2.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+nicefid-2.1.0.dist-info/METADATA,sha256=42B_vi6TEYomkVV4EArCQFjInVQKSRUev6BIqlPoJUc,1849
+nicefid-2.1.0.dist-info/RECORD,,
