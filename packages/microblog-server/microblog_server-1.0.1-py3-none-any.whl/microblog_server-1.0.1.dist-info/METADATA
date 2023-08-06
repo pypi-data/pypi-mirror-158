@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: microblog-server
+Version: 1.0.1
+Summary: Microblog server backend
+Home-page: https://github.com/sio/microblog-server
+License: Apache-2.0
+Keywords: blog,microblog,git
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: GitPython
+Requires-Dist: markdown
+Requires-Dist: pymdown-extensions
+Requires-Dist: python-telegram-bot (<21.0,>=20.0a2)
+Requires-Dist: PyYAML
+
