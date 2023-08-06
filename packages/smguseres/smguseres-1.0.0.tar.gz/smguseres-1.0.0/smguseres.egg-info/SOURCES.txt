@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+smguseres/__init__.py
+smguseres/generator.py
+smguseres.egg-info/PKG-INFO
+smguseres.egg-info/SOURCES.txt
+smguseres.egg-info/dependency_links.txt
+smguseres.egg-info/requires.txt
+smguseres.egg-info/top_level.txt
