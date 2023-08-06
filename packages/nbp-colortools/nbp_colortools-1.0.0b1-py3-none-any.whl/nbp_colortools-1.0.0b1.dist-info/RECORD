@@ -1,0 +1,15 @@
+colortools/__init__.py,sha256=pmeH1Qi_0yokp3dE1TQ557opsTyBMinRSYX-DpkfLis,29
+colortools/analysis.py,sha256=GIwVQ3BBIb42v7bsB5oMjDOSdEPXnAiuoc-j6I0N410,1885
+colortools/analyzed_image.py,sha256=dyTcDd1NYmeKygfHWVZjcM9T_avOqMfn-R-f0wmDhwo,12075
+colortools/cli.py,sha256=xogJT9U1mSJWEQg-F7eZn9np5FjDUnF83-wu2xuXzCQ,9310
+colortools/config.py,sha256=_aEShAgOFsd7F_99EumTPx18b2N2BmjNG1x7Lxxf3HY,646
+colortools/heuristics.py,sha256=kYRnSdDvxsI2vDdltwqn6-wmBq07QyQ3qr4x28JI3ak,6571
+colortools/sort.py,sha256=OIzk5GCUHUehb1K4Y1r4BhBIeDlqtzMFeOU8b7l8_Zk,1801
+colortools/util.py,sha256=2CzxAppHTK7-6eBGxyl-yWFyQD0UIMfrS2voJm-mIjc,6845
+colortools/visualization.py,sha256=1bViD6ieCHaODrweIzX-QWoE6_NA-gWTTe52G9tmZaw,17666
+nbp_colortools-1.0.0b1.dist-info/LICENSE,sha256=MOhvXIyB7PICwAC_Cwgv9oEPUDVQIZrGvfEiDOJ7qIs,1068
+nbp_colortools-1.0.0b1.dist-info/METADATA,sha256=_tsa0Q3-qX5Rjn4dGadG3vhdNt2nf85GT5aUO3ELzFE,3384
+nbp_colortools-1.0.0b1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nbp_colortools-1.0.0b1.dist-info/entry_points.txt,sha256=Eo1ikQbgE7KN2bZKlii2PZIKnzHRA_sOlOq44Wc44oc,88
+nbp_colortools-1.0.0b1.dist-info/top_level.txt,sha256=8VLs9jDxu3o_j-dZi5oGWuvOCwPVgsfYRM9qBAGapIc,11
+nbp_colortools-1.0.0b1.dist-info/RECORD,,
