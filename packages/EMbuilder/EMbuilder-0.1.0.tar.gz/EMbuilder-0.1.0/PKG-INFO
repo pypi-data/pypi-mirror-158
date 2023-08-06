@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: EMbuilder
+Version: 0.1.0
+Summary: Etemenanki Builder -- Linked data implementation builder
+Home-page: https://github.com/pabloalarconm/EMbuilder
+Author: Pablo Alarcón Moreno
+Author-email: pabloalarconmoreno@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: YARRRML,OBDA,RDF,ShEx,SPARQL,FAIR,EJP
+Platform: UNKNOWN
