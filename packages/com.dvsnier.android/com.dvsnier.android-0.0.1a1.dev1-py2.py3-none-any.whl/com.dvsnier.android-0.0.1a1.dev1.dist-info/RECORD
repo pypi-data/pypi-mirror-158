@@ -1,0 +1,11 @@
+com/__init__.py,sha256=V1yKD8uNh-PaQzusDq_C-N-jjD8Cr9NtkRjVbjbfTbs,144
+com/dvsnier/__init__.py,sha256=V1yKD8uNh-PaQzusDq_C-N-jjD8Cr9NtkRjVbjbfTbs,144
+com/dvsnier/android/__init__.py,sha256=9CWTZ6tPjkECSv_NaytObnnRnOCM7AO1d9D6_fsZiHU,142
+com/dvsnier/android/command/__init__.py,sha256=dhmpNrNd5la3t3oFP4t8YMclqR3UAH6eUDdOww_4Oag,24
+com/dvsnier/android/command/dvs_android.py,sha256=QxSLq8UH83tUq9bngufui3_vAZZHoOqxu9-roPXmvFk,7481
+com.dvsnier.android-0.0.1a1.dev1.dist-info/LICENSE,sha256=StpMSjNT1gT9aCtPczefoy487A8YhQMMuLdKnnqYa_g,1086
+com.dvsnier.android-0.0.1a1.dev1.dist-info/LICENSE.txt,sha256=VXbwArPC9XE7N7cvSBClNMHFbo7CU1p361QXV5bkGpk,1100
+com.dvsnier.android-0.0.1a1.dev1.dist-info/METADATA,sha256=j-N1QJkIHOdQNnWfZsrfi1P64wBvzWwT4wuYdGDTAfA,3263
+com.dvsnier.android-0.0.1a1.dev1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+com.dvsnier.android-0.0.1a1.dev1.dist-info/top_level.txt,sha256=A7eVUp0bsHtbJ7vD4f_Ju79_mDJojU9deED6-LV9_s0,4
+com.dvsnier.android-0.0.1a1.dev1.dist-info/RECORD,,
