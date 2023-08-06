@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: os-env-bob-ross
+Version: 0.4
+Summary: a small dot env package
+Author: bob ross
+Author-email: bob_ross <author@example.com>
+Keywords: os env .env os-env os_env dotenv
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.2
+Description-Content-Type: text/markdown
+Requires-Dist: python-dotenv
+
+
+
+## Project
+Easy access to the all the global envions like .env and os env
+
+## Installing
+
+```bash
+    pip install os-env
+```
+
+Usage
+=====
+
+```py
+
+    >>> import os-env
+    >>> os-envs()
+    '0.24.2'
+```
