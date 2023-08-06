@@ -1,0 +1,16 @@
+TimesheetExcelEditor/CalendarPanel.py,sha256=wFR0BeGiOq7zKDV9DmNdidy_YBSYFjDHrGqO26lF2Bc,13578
+TimesheetExcelEditor/CreatePanel.py,sha256=9DdPdAH5flXsRi91l8YEnw_XnsMxNaP-gklgeQb8LmA,2572
+TimesheetExcelEditor/Excel.py,sha256=X6MGgTfzTFBj6GeeV2VN2CV3APGhRKf6Dhy0cyeICkk,16694
+TimesheetExcelEditor/FormPanel.py,sha256=sBJYj17SgbXRo_2ZbXBTeTk8--3DHm_KXvvEws4Gm8M,3470
+TimesheetExcelEditor/ListPanel.py,sha256=TO9b5n8MfeymYR_GPlqsV5UlzKRUEpujcIRvXANjTbg,3114
+TimesheetExcelEditor/MyFrame.py,sha256=IdiJEUFkTt3MTHtvwCUqbRX5Cv0amL4QTluF9jo18hM,479
+TimesheetExcelEditor/MyPanel.py,sha256=48nX2Zxrd5ah4ZghNyqmz9rp7-tllOKTk0ekFGkWF1Q,4146
+TimesheetExcelEditor/RangePanel.py,sha256=7-_sWAvrbji-1cwS04vSwv56sA04Q4xwvdt4y2eLtWo,9246
+TimesheetExcelEditor/__init__.py,sha256=WwLEc5jntebsnT3K4x0jB4CaMg4-lDIR6spsaPCFdD8,87
+TimesheetExcelEditor/__main__.py,sha256=tMu6Lm0vLrzdAL-T_BSXfDa27CJnhZTdAmILAOauvv0,89
+TimesheetExcelEditor/config.py,sha256=LmqIRnBCiBQI0gv-a0BCpdoHbZ_ij7qUX2OnPqXGR10,508
+TimesheetExcelEditor-1.1.3.dist-info/LICENSE.txt,sha256=ipI2NmxyJorqEAs2d4YHZ2MDLJh6nb-h3sfpiuDj7lU,1089
+TimesheetExcelEditor-1.1.3.dist-info/METADATA,sha256=YEdW6cPDZ_6kvX28xz6C4fQLCyKK4ksLfA9GJHTQHqk,1342
+TimesheetExcelEditor-1.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+TimesheetExcelEditor-1.1.3.dist-info/top_level.txt,sha256=9KyNG5xdbRvYgxpADE2qyRALjVCT0TqiETKT4TMgN3M,21
+TimesheetExcelEditor-1.1.3.dist-info/RECORD,,
