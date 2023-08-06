@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+VERSION
+setup.cfg
+setup.py
+doit_interface/__init__.py
+doit_interface/actions.py
+doit_interface/contexts.py
+doit_interface/manager.py
+doit_interface/util.py
+doit_interface.egg-info/PKG-INFO
+doit_interface.egg-info/SOURCES.txt
+doit_interface.egg-info/dependency_links.txt
+doit_interface.egg-info/requires.txt
+doit_interface.egg-info/top_level.txt
