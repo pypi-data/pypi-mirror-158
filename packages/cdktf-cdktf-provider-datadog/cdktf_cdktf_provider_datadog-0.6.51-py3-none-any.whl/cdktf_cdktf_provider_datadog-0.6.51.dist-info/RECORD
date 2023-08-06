@@ -1,0 +1,9 @@
+cdktf_cdktf_provider_datadog/__init__.py,sha256=B9xMcCcWA2uWnSICYLwzGzbQaSCQDlLbC-aMGvFktCM,13935635
+cdktf_cdktf_provider_datadog/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdktf_cdktf_provider_datadog/_jsii/__init__.py,sha256=Y5NFBzS3FstYaHhrnQYABSt_EBEIOlysna-xpOa-eEE,385
+cdktf_cdktf_provider_datadog/_jsii/provider-datadog@0.6.51.jsii.tgz,sha256=7nfaZ_TqaUenaAB-yM2w4vb2Mvk8qwQb86hAbm5q8oQ,3310498
+cdktf_cdktf_provider_datadog-0.6.51.dist-info/LICENSE,sha256=qDABaRGjSKVOib1U8viw2P_96sIK7Puo426784oD9f8,15976
+cdktf_cdktf_provider_datadog-0.6.51.dist-info/METADATA,sha256=8YM9n89ieAmFWaZKaJy0zTXuFdos5bB_xEj3l4MRsks,3984
+cdktf_cdktf_provider_datadog-0.6.51.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cdktf_cdktf_provider_datadog-0.6.51.dist-info/top_level.txt,sha256=-zlINHxV2aCjgNnvgo1Qa79CdplcsGywCUV1Ti2X92Q,29
+cdktf_cdktf_provider_datadog-0.6.51.dist-info/RECORD,,
