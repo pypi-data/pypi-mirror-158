@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pepperssh/__init__.py
+pepperssh/client.py
+pepperssh/clientcnxn.py
+pepperssh/globs.py
+pepperssh/protocol.py
+pepperssh/server.py
+pepperssh/utils.py
+pepperssh.egg-info/PKG-INFO
+pepperssh.egg-info/SOURCES.txt
+pepperssh.egg-info/dependency_links.txt
+pepperssh.egg-info/top_level.txt
+tests/test_globs.py
