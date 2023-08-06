@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: groll
+Version: 0.0.2
+Project-URL: Homepage, https://github.com/Krognak/groll
+Project-URL: Bug Tracker, https://github.com/Krognak/groll/issues
+Requires-Python: >=3.10
+Requires-Dist: click>=8.1.3
