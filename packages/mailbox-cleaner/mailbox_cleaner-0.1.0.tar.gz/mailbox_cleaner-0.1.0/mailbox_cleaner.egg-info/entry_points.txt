@@ -1,0 +1,4 @@
+
+            [console_scripts]
+            mailbox-cleaner=mailbox_cleaner:main
+        
