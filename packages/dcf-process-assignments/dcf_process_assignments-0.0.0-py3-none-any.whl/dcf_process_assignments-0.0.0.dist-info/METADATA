@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: dcf-process-assignments
+Version: 0.0.0
+Summary: Package to automate processing DCF ThankView Assignments
+Home-page: https://github.com/mubbie/dcf-thankview/tree/main/dev/dcf_process_assignments
+Author: Mubarak Idoko
+Author-email: midoko.dev@gmail.com
+License: MIT
+Keywords: DCF,ThankView Assignments Processing,Automation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: argparse
+Requires-Dist: setuptools
+Requires-Dist: openpyxl
+
+# Process Assignments Package for the DCF ThankView
+
+## Initial Author: [Mubbie Idoko](mailto:midoko.dev@gmail.com)
+
+## Current Maintainer: [Mubbie Idoko](mailto:midoko.dev@gmail.com)
+
+## Contributors
+
+## Description
+
+To manage ThankView for the DCF, it is necessary to take a large spreadsheet that contains details about alumni i.e. "Thank You" video recipients, and divide them into smaller units that can be sent out as assignments.
+
+These smaller units needs to be in two forms, the one used to create the campaigns on ThankView, and the ones sent out to those making the videos.
+
+This package is intended to do all of this so that the ThankView Manager does not need to spend time making the divisions manually.
+
+## Guide
+
+The scripts reads a \*.csv file containing DCF Assignment Data, a \*.csv file containing the student making videos for that assignment, and the date for the assignment. 
+
+For the date of the assignment, make sure that it is in the form mmm-dd-yy e.g:
+
+1. "mar-1-22" for March 1st, 2022
+2. "jun-30-20" for June 30th, 2020).
+
+Likewise the date should be valid.
+
+For the assignment file, make sure that these headings exist exactly in the \*.csv file (i.e. they are at the top of the file):
+
+1. "Entity ID Display"
+2. "Pref Name Sort"
+3. "Entity Pref Class Year"
+4. "Email Pref Address"
+5. "Salutation"
+6. "DCF Segment Desc"
+
+For the people making videos, make sure that these headings exist exactly in the \*.csv file (i.e. they are at the top of the file):
+
+1. "Student Name"
+2. "Class Year"
+3. "Email"
+
+If any of the above is not the case, the call will fail and throw an error.
+
+It is also important to ensure that in the directory (folder) where you are maintaining all the DCF ThankView files, you have directories:
+
+1. assignments/sends
+2. assignments/campaigns
+
+Although the script will attempt to create these directories if they do not exist, it is recommended that you create them manually. This way, we reduce the possibilities of having any permissions issues arising.
+
+## Usage
+
+```terminal
+# process assignments 
+$/> process_assignments [-h] --dateOfAssignment mmm-dd-yy --assignmentCSV "ASSIGNMENT_FILE_PATH.csv" --makingVideosCSV "PEOPLE_MAKING_VIDEOS_FILE_PATH.csv" 
+
+# help 
+$/> process_assignments -h
+
+# process assignments short hand 
+$/> process_assignment -d mmm-dd-yy -a "ASSIGNMENT_FILE_PATH.csv" -p "PEOPLE_MAKING_VIDEOS_FILE_PATH.csv"
+```
+
+### description
+
+Process Assignment given the date, \*.csv assignment list, and \*.csv people making videos list
+
+### options
+
+```text
+  -h, --help            show this help message and exit
+  --dateOfAssignment DATE, -d DATE
+                        date of assignment
+  --assignmentCSV ASSIGNFILE, -a ASSIGNFILE
+                        csv file with assignment list
+  --makingVideosCSV PPLEFILE, -p PPLEFILE
+                        csv file with list of people making videos
+```
+
+### additional information
+
+```text
+    This program takes in the date for the assignment.
+    Formatted in the form "mar-20-22" for March 20, 2022.
+
+    It also reads two CSV Files.
+    The first one contains the list for the assignment
+    Formatted with columns (exactly):
+    "Entity ID Display", "Pref Name Sort", "Entity Pref Class Year",
+    "Email Pref Address", "Salutation", "DCF Segment Desc".
+
+    The second file contains a list of the people making videos for this assignment
+    Formatted with columns (exactly):
+    "Student Name", "Class Year", "Email"
+    Where in the form: Mubarak Idoko,23,mubarak.o.idoko.23@dartmouth.edu
+
+    All of these have to be correct for it to work properly.
+```
+
+### Report Bugs/Issues
+
+If you notice any bugs or issues while using this package, please report the details to [Mubbie Idoko](mailto:midoko.dev@gmail.com).
+
+### Contributing
+
+If you are interested in contributing to this project, or other projects aimed to automate the DCF ThankView Management, please go ahead and contact [Mubbie Idoko](mailto:midoko.dev@gmail.com).
+
+
