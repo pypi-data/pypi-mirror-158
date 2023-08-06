@@ -1,0 +1,16 @@
+Change Log
+==========
+
+1.0 (7/6/2022)
+-------------------
+- First Release
+
+1.1 (7/8/2022)
+-------------------
+- Fixed bugs and wrong code
+- added timer start time
+
+1.2 (7/9/2022)
+-------------------
+- added camera following the player
+- fixed sticky keys when set to False not working
