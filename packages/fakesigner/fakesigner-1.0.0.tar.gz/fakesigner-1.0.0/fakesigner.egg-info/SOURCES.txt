@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+fakesigner.egg-info/PKG-INFO
+fakesigner.egg-info/SOURCES.txt
+fakesigner.egg-info/dependency_links.txt
+fakesigner.egg-info/top_level.txt
+pypi/fakesigner
