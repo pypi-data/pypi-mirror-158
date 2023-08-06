@@ -1,0 +1,8 @@
+sentinelloader/__init__.py,sha256=Y1DsSHP1nF3f38FwIUFqK4pjlL9lhh6Qa_zPlFXh_b4,45
+sentinelloader/sentinel2loader.py,sha256=pSX2YhgYuWBCf1Yn_EDJJHcmczI6tAN3Kn_Cb3imfx4,22243
+sentinelloader/utils.py,sha256=olOeM9VjfqontgUnY-FoZ5ZzcPfmzxQO9Ya60IQG2Tg,2899
+sentinelloader-1.1.1.dist-info/LICENSE,sha256=Kf0a3psFy8sUNLSmeUlQiIlFZ0rsTH8kqv9hQog2zas,1069
+sentinelloader-1.1.1.dist-info/METADATA,sha256=ymIAe9INJRAECsiuR13ZA1ohbUleBqFiwhAjqbixASs,7303
+sentinelloader-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sentinelloader-1.1.1.dist-info/top_level.txt,sha256=AyzvEqOKvNUU4SO433EDRTChhkMZ_znN498hA_uU0sc,15
+sentinelloader-1.1.1.dist-info/RECORD,,
