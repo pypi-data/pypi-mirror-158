@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/EasyTextTables.egg-info/PKG-INFO
+src/EasyTextTables.egg-info/SOURCES.txt
+src/EasyTextTables.egg-info/dependency_links.txt
+src/EasyTextTables.egg-info/top_level.txt
+src/textTables/__init__.py
