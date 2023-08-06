@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/secciksym.egg-info/PKG-INFO
+src/secciksym.egg-info/SOURCES.txt
+src/secciksym.egg-info/dependency_links.txt
+src/secciksym.egg-info/top_level.txt
+src/secciksym_package/__init__.py
+src/secciksym_package/secciksym.py
