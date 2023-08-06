@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: f1-packets
+Version: 2022.1.0
+Summary: Python library for the official F1 game UDP telemetry data
+Home-page: https://github.com/P403n1x87/f1-packets
+License: MIT
+Author: Gabriele N. Tornetta
+Author-email: phoenix1987@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/P403n1x87/f1-packets
+Project-URL: issues, https://github.com/P403n1x87/f1-packets/issues
+Description-Content-Type: text/markdown
+
+# F1 Packets
+
+Python library for the official F1 game UDP telemetry data
+
+## Packet spec generation
+
+To generate the spec from the official document, follow these steps. Make sure
+that `cog` is installed (`pipx install cogapp`) before continuing.
+
+- Copy-paste the documentation into `data/spec.h`
+- Comment-out (or delete) anything that is not part of the actual data spec
+- Run `cog -Pr .\f1\packets.py` from the root folder.
+
+## Credits
+
+Most of the code is based on
+[Telemetry-F1-2021](https://github.com/chrishannam/Telemetry-F1-2021).
