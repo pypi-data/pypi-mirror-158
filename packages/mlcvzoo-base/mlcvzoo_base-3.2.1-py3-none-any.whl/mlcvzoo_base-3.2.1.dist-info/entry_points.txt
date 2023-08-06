@@ -1,0 +1,3 @@
+[console_scripts]
+mlcvzoo-preannotator=mlcvzoo_base.tools.cvat_annotation_handler:main
+
