@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/__init__.py
+src/AnonAutomator_arin17/__init__.py
+src/AnonAutomator_arin17/__main__.py
+src/AnonAutomator_arin17/modules.py
+src/AnonAutomator_arin17.egg-info/PKG-INFO
+src/AnonAutomator_arin17.egg-info/SOURCES.txt
+src/AnonAutomator_arin17.egg-info/dependency_links.txt
+src/AnonAutomator_arin17.egg-info/top_level.txt
+src/AnonAutomator_arin17/resources/messages.json
