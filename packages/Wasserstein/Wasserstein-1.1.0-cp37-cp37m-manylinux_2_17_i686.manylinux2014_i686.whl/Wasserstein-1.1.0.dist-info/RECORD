@@ -1,0 +1,11 @@
+wasserstein/wasserstein.py,sha256=vGNFSRnSieArcRXW_FFvLgK4ivsGyjzxxuETfhrszXw,66887
+wasserstein/config.py,sha256=qgrHFZJo9AXrZdj86xYj3IdMcfJyQQjgJZ_wpcrkpKw,2150
+wasserstein/_wasserstein_omp.cpython-37m-i386-linux-gnu.so,sha256=8pV3Vi_sMi-ljUf3-V4Pb3S7zDEQo-v73oCX9lRQyYw,1751472
+wasserstein/__init__.py,sha256=epEPvfa7PgKPovQQID6MAdb3CfSToqb8FH76MypRdBU,4450
+wasserstein/_wasserstein.py,sha256=4uUxRsPIukc4O0OmuCCVFby3QDRzwkkKB5S_zp_b2oM,1707
+Wasserstein-1.1.0.dist-info/top_level.txt,sha256=0FwkDx4xC33hHjr2XwadzvCHKVjIUA3aFpMfMbBhmLE,12
+Wasserstein-1.1.0.dist-info/WHEEL,sha256=5tZ1jhQp7QE5qmPsh4H0qeuam6ryxn2gu46n9P15_I8,146
+Wasserstein-1.1.0.dist-info/LICENSE,sha256=4lSoVDgxAbEitqiYyUNA0fWK-74K09_qyGhLFFCSs0w,41554
+Wasserstein-1.1.0.dist-info/METADATA,sha256=iiwofY-5mqtFF8HopNRKJ8VGcq8di6g6CCAew8Ma-VQ,2894
+Wasserstein-1.1.0.dist-info/RECORD,,
+Wasserstein.libs/libgomp-65f46eca.so.1.0.0,sha256=iK0dvTk33yUQ1XL1ssNqcA-rKlrn4fiJOgfiPa95PNk,172292
