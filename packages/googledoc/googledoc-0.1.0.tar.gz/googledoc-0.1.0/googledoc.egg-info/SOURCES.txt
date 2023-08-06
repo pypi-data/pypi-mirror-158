@@ -1,0 +1,10 @@
+README.rst
+pyproject.toml
+setup.py
+googledoc/__init__.py
+googledoc/docscrape_google.py
+googledoc.egg-info/PKG-INFO
+googledoc.egg-info/SOURCES.txt
+googledoc.egg-info/dependency_links.txt
+googledoc.egg-info/requires.txt
+googledoc.egg-info/top_level.txt
