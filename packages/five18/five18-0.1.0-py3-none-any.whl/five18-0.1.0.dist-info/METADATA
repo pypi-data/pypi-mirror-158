@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: five18
+Version: 0.1.0
+Summary: Utilities for dealing with pyproject.toml files
+Home-page: https://github.com/mharrisb1/five18
+License: MIT
+Author: Michael Harris
+Author-email: mharris@luabase.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: tomli (>=2.0.1,<3.0.0); python_version < "3.11"
+Project-URL: Documentation, https://github.com/mharrisb1/five18
+Project-URL: Repository, https://github.com/mharrisb1/five18
+Description-Content-Type: text/markdown
+
+# five18
+
+Lightweight library for dealing with your project's pyproject.toml file.
+
+## Installation
+
+```shell
+pip install five18
+```
+
+## Usage
+
+### Access [tool table](https://peps.python.org/pep-0518/#tool-table) attributes
+
+```python
+from five18 import PyProjectToml
+
+pytoml = PyProjectToml()
+
+# get version from poetry tool table
+print(pytoml.tool_table.poetry.version)
+
+# get dependencies from poetry tool table
+print(pytoml.tool_table.poetry.dependencies)
+
+# get dev dependencies from poetry tool table
+print(pytoml.tool_table.poetry.dev_dependencies)
+```
+
