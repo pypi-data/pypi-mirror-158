@@ -1,0 +1,7 @@
+foo_hw.py
+setup.cfg
+setup.py
+foo_hello_world.egg-info/PKG-INFO
+foo_hello_world.egg-info/SOURCES.txt
+foo_hello_world.egg-info/dependency_links.txt
+foo_hello_world.egg-info/top_level.txt
