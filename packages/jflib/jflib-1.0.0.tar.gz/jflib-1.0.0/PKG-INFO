@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: jflib
+Version: 1.0.0
+Summary: A collection of my Python library snippets. Maybe they are useful for someone else.
+Home-page: https://github.com/Josef-Friedrich/jflib
+License: MIT
+Author: Josef Friedrich
+Author-email: josef@friedrich.rocks
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: typing-extensions (==4.3.0)
+Project-URL: Repository, https://github.com/Josef-Friedrich/jflib
+Description-Content-Type: text/markdown
+
+[![pypi.org](http://img.shields.io/pypi/v/jflib.svg)](https://pypi.python.org/pypi/jflib)
+[![Documentation Status](https://readthedocs.org/projects/jflib/badge/?version=latest)](https://jflib.readthedocs.io/en/latest/?badge=latest)
+
+# jflib
+
+A collection of my Python library snippets. Maybe they are useful for
+someone else.
+
