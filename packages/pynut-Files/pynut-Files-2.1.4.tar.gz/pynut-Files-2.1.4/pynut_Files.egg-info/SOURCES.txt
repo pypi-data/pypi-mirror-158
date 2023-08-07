@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyNutFiles/__init__.py
+pyNutFiles/_lib.py
+pyNutFiles/nutFiles.py
+pynut_Files.egg-info/PKG-INFO
+pynut_Files.egg-info/SOURCES.txt
+pynut_Files.egg-info/dependency_links.txt
+pynut_Files.egg-info/requires.txt
+pynut_Files.egg-info/top_level.txt
+test/test_nutFiles.py
