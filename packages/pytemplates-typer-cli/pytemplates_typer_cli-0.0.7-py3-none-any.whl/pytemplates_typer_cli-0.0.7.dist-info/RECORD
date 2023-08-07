@@ -1,0 +1,11 @@
+pytemplates_typer_cli/__init__.py,sha256=0aOHiRsyf5WaWB2TMmY_SRi3fKVaBbSlKdza6vUZBkU,131
+pytemplates_typer_cli/__version__.py,sha256=R9xOYoYrWKcfO5zvTeGC3m_eDNOvxMd8CocQs2tLufo,22
+pytemplates_typer_cli/core/__init__.py,sha256=4OzVvSwTPvycOP_ciyUzMfWsYX4QUf-AOhX-3NMDQ3o,62
+pytemplates_typer_cli/core/module1.py,sha256=S1uVUADgc4xmzsqWMuWWCVK3jr1zrYEn1DsO8ot6c_0,192
+pytemplates_typer_cli/core/module2.py,sha256=nhkjAlZUqSgvQodnpHNDOENY7TOoZergUe5msGsaWy4,218
+pytemplates_typer_cli/main.py,sha256=CVcEJ4QKQp5apH1V0GndScMbbqn9n8CxlxLrb2YYgVY,857
+pytemplates_typer_cli-0.0.7.dist-info/entry_points.txt,sha256=hYIdIpwFKrDd9GNKLeOI8ldexOEunKwq5NYJ_qNBQ_g,62
+pytemplates_typer_cli-0.0.7.dist-info/LICENSE,sha256=cpZoWDBpxJkNRlTCMdev4g4B3aDrE_IB6xf_h75Nvz4,1068
+pytemplates_typer_cli-0.0.7.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pytemplates_typer_cli-0.0.7.dist-info/METADATA,sha256=st88MEejij1r9zkYLeEEBodthtkT6ste09G9inxGyiI,9504
+pytemplates_typer_cli-0.0.7.dist-info/RECORD,,
