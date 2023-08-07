@@ -1,0 +1,9 @@
+netlink/sharepoint/__init__.py,sha256=rjyb4N6H96orTTCFMfy8wV1A17yUadTAf7WLRhN6Vug,48
+netlink/sharepoint/_item.py,sha256=xB0vc541y2xwtMTnMk3BxtFkl1sdnf-VEMOABIEieDo,2482
+netlink/sharepoint/_list.py,sha256=ul2TeuHTjfQcz_kTyP28OU-kF4IruSOUmOnnhxtEgnw,3074
+netlink/sharepoint/_site.py,sha256=WnneIxQr-MkpzRezGtf4OZ97RZNjt5NCjdZ_38DNw4I,2140
+netlink/sharepoint/cli.py,sha256=2JSTG1fh-e8sFedwIH12dro4SW8Z8-ZuOu-fAHDbzt0,1725
+netlink_sharepoint-0.0.5.dist-info/entry_points.txt,sha256=dwVfkugP5HL8UhM6Ql_f8V9-2_N--teYMZYqC7rQ74k,79
+netlink_sharepoint-0.0.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+netlink_sharepoint-0.0.5.dist-info/METADATA,sha256=Aul6vdH6n8YdMdN3hIxN-E-hjbZ_SnnDd1BooXVvHPk,1639
+netlink_sharepoint-0.0.5.dist-info/RECORD,,
